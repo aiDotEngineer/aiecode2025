@@ -7,7 +7,7 @@ export function MetaTags() {
       <meta
         key="ogTitle"
         property="og:title"
-        content="AI Engineer World's Fair"
+        content="AIE World's Fair (Jun 3-5, 2025, San Francisco)"
       />
       <meta
         key="description"
