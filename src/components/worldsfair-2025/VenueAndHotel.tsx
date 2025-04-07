@@ -20,7 +20,7 @@ export function VenueAndHotel() {
             </span>
             <a
               className="flex-1 underline font-bold"
-              href="https://book.passkey.com/gt/219901799?gtid=34f87691ca4ebbfbf39c1ae753445c5f"
+              href="https://book.passkey.com/event/50930341/owner/628/home"
               target="_blank"
             >
               Reserve your room at our preferred rate
@@ -125,19 +125,20 @@ export function VenueAndHotel() {
             <Button
               invert
               border
-              href="https://book.passkey.com/gt/219901799?gtid=34f87691ca4ebbfbf39c1ae753445c5f"
+              href="https://book.passkey.com/event/50930341/owner/628/home"
               target="_blank"
             >
               Marriott Marquis
             </Button>
-            <Button
+            
+            {/* <Button
               invert
               border
               href="https://book.passkey.com/gt/220003757?gtid=e4ae3508bb4f3cc4a7a949396ca2cd57"
               target="_blank"
             >
               Hotel Nikko
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

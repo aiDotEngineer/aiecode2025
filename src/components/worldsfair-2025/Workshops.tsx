@@ -24,8 +24,8 @@ export function Workshops({ items }: { items: any[] }) {
         <b>hands on keyboard</b> with core-contributors, maintainers, and
         founders of the top AI Engineering tools & infra!
         <em>
-          . Most workshops happen on Jun 25th. Available as a package with
-          conference ticket - sold out last year!
+          . Most workshops happen on Jun 3rd. Available as a package with
+          conference ticket - sold out the last 2 years!
         </em>
       </p>
 

@@ -54,7 +54,7 @@ export function Expo() {
       </header>
       <p className="text-center">
         <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">IMPORTANT</span>{' '}
-        These are 2024 Expo sponsors - email{' '}
+        Email{' '}
         <a href="mailto:sponsors@ai.engineer" className="text-blue-500 hover:text-blue-400">
           sponsors@ai.engineer
         </a>{' '}

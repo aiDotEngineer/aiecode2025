@@ -41,7 +41,7 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
 
       <Section roundTop>
         <Counters />
-        <div className="space-y-4">
+        {/* <div className="space-y-4">
           <Image
             src={LogoWall}
             alt="AIEWF Logo Wall"
@@ -50,7 +50,7 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
           <p className="text-center text-gray-600 mb-4 text-sm">
             Logos from <a href="/worldsfair/2024" className="text-blue-600 hover:underline">World's Fair 2024</a>, to be updated soon with 2025 logos
           </p>
-        </div>
+        </div> */}
       </Section>
 
       <Section roundTop className="bg-stone-100">
@@ -120,9 +120,9 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
         <Workshops items={workshops} />
       </Section> */}
 
-      <Section>
+      {/* <Section>
         <Expo />
-      </Section>
+      </Section> */}
 
       <Quote name="andrej-karpathy" />
 

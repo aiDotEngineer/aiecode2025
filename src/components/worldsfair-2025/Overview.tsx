@@ -109,11 +109,11 @@ export function Overview() {
           <div className="text-gray-on-white text-base">/ June 4 - 5</div>
           <h2 className="text-3xl font-bold">AI Architects Track</h2>
           <p className="text-gray-on-white text-base">
-            <b>Exclusive track for VPs & Execs.</b> Purchase the VP Pass to get
+            <b>Exclusive track for VPs & Execs.</b> All the eng tracks and workshops, plus
             access to the exclusive leadership track where you'll get learn from
             & connect with highly experienced technical business leaders, along
-            with facilitated sessions to share your knowledge in small group
-            topical discussions with other engineering and business leaders.
+            with facilitated discussions, & exclusive access to closed-door 
+            sit-down breakfasts and lunches on both session days.
           </p>
           <hr />
           <p className="text-gray-on-white text-base">
@@ -159,7 +159,7 @@ export function Overview() {
           {/* <p className=""> */}
           <ul className="text-gray-on-white text-base list-disc ml-2">
             <li>
-              <b>Jun 22</b>:
+              Jun 22 2024:
               <a
                 href="https://agihouse-app.web.app/events/ai21-jamba-hackathon"
                 target="_blank"
@@ -169,7 +169,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              <b>Jun 23</b>:
+              Jun 23 2024:
               <a
                 href="https://lu.ma/fast-takeoff"
                 target="_blank"
@@ -179,7 +179,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              <b>Jun 24</b>:
+              Jun 24 2024:
               <a
                 href="https://lu.ma/vpdj2zoj?utm_source=aiewf"
                 target="_blank"
@@ -189,7 +189,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              <b>Jun 24</b>:
+              Jun 24 2024:
               <a
                 href="https://lu.ma/genlabxaiengineer"
                 target="_blank"
@@ -200,7 +200,7 @@ export function Overview() {
               (winners present at AIEWF!)
             </li>
             <li>
-              <b>Jun 24</b>:
+              Jun 24 2024:
               <a
                 href="https://lu.ma/LLMemory"
                 target="_blank"
@@ -210,7 +210,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              <b>Jun 24</b>:
+              Jun 24 2024:
               <a
                 href="https://lu.ma/ai-engineer-summit-pre-party"
                 target="_blank"
@@ -220,7 +220,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              <b>Jun 24</b>:
+              Jun 24 2024:
               <a
                 href="https://lu.ma/ai-devtools-night"
                 target="_blank"
@@ -230,7 +230,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              <b>Jun 25</b>:
+              Jun 25 2024:
               <a
                 href="https://www.aiqualityconference.com/"
                 target="_blank"
@@ -240,7 +240,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              <b>Jun 25</b>:
+              Jun 25 2024:
               <a
                 href="https://lu.ma/stg79kvs"
                 target="_blank"
@@ -251,7 +251,7 @@ export function Overview() {
               with Crusoe (onsite!)
             </li>
             <li>
-              <b>Jun 26</b>:
+              Jun 26 2024:
               <a
                 href="https://www.eventbrite.com/e/emergence-ai-launch-rooftop-after-party-tickets-927539093397?aff=oddtdtcreator"
                 target="_blank"
@@ -262,7 +262,7 @@ export function Overview() {
               to celebrate Launch
             </li>
             <li>
-              <b>Jun 26</b>:
+              Jun 26 2024:
               <a
                 href="https://lu.ma/tmxrddfq"
                 target="_blank"
@@ -273,7 +273,7 @@ export function Overview() {
               Presented by Galileo, Cohere and Baseten
             </li>
             <li>
-              <b>Jun 26</b>:
+              Jun 26 2024:
               <a
                 href="https://partiful.com/e/R4rkf0paYZBRS5T6HmTM"
                 target="_blank"
@@ -284,7 +284,7 @@ export function Overview() {
               7pm-10pm
             </li>
             <li>
-              <b>Jun 27</b>:
+              Jun 27 2024:
               <a
                 href="https://x.com/davefontenot/status/1797676470527234409"
                 target="_blank"
@@ -295,7 +295,7 @@ export function Overview() {
               (inside the AIEWF Expo Sessions!)
             </li>
             <li>
-              <b>Jun 27</b>:
+              Jun 27 2024:
               <a
                 href="https://lu.ma/8rxxdche"
                 target="_blank"
@@ -306,7 +306,7 @@ export function Overview() {
               by BCV
             </li>
             <li>
-              <b>Jun 27</b>:
+              Jun 27 2024:
               <a
                 href="https://lu.ma/anthropicAIworldfair"
                 target="_blank"
@@ -317,7 +317,7 @@ export function Overview() {
               Talks, networking, demos!
             </li>
             <li>
-              <b>Jun 28</b>:
+              Jun 28 2024:
               <a
                 href="https://lu.ma/k5mbvxxp"
                 target="_blank"
@@ -327,7 +327,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              <b>Jun 28-30</b>:
+              Jun 30 2024:
               <a
                 href="https://www.startupweekendsf.com/"
                 target="_blank"

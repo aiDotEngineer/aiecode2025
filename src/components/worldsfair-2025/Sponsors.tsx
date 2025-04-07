@@ -17,7 +17,7 @@ export function Sponsors() {
         </p>
       </header>
 
-      <div className="text-center space-y-6 p-8 bg-stone-100 rounded-2xl">
+      <div className="text-center space-y-6 p-8 bg-stone-200 rounded-2xl">
         <p className="text-xl">
           <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">CLOSING SOON</span>
         </p>
