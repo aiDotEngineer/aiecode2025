@@ -1,0 +1,4 @@
+@tailwind components;
+
+@import './typography.css';
+@import './dialog.css';

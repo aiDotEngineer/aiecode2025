@@ -1,0 +1,33 @@
+@tailwind base;
+
+@font-face {
+  font-family: 'Mona Sans';
+  font-weight: 200 900;
+  font-display: block;
+  font-style: normal;
+  font-stretch: 75% 125%;
+  src: url('../fonts/Mona-Sans.var.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-style: normal;
+  /* font-display: block;
+  font-stretch: 75% 125%; */
+  src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@layer base {
+  /* Prevents Chrome's yellow background on autofill */
+  /* https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete */
+  :-webkit-autofill,
+  :-webkit-autofill:hover,
+  :-webkit-autofill:focus,
+  :-webkit-autofill:active {
+    transition:
+      color 9999s ease-out,
+      background-color 9999s ease-out;
+    transition-delay: 9999s;
+  }
+}
