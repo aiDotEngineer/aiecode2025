@@ -47,14 +47,26 @@ export function Footer() {
               >
                 Workshops
               </Link>
-              <a href="#" className="block text-gray-on-white text-sm">
+              {/* <a href="#" className="block text-gray-on-white text-sm">
                 Topic Tables - soon
-              </a>
+              </a> */}
               <Link
                 href="/summit/2023"
                 className="block text-gray-on-white text-sm"
               >
                 Summit 2023
+              </Link>
+              <Link
+                href="/worldsfair/2024"
+                className="block text-gray-on-white text-sm"
+              >
+                World's Fair 2024
+              </Link>
+              <Link
+                href="/summit/2025"
+                className="block text-gray-on-white text-sm"
+              >
+                Summit 2025
               </Link>
             </div>
             <div className="space-y-4">

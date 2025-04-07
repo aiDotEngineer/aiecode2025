@@ -34,7 +34,7 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ Tue, June 25</div>
+          <div className="text-gray-on-white text-base">/ Tue, June 3</div>
           <h2 className="text-3xl font-bold">
             Workshop Day + Evening Expo &amp; Reception
           </h2>
@@ -74,13 +74,12 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ June 26 - 27</div>
-          <h2 className="text-3xl font-bold">Session Days</h2>
+          <div className="text-gray-on-white text-base">/ June 4 - 5</div>
+          <h2 className="text-3xl font-bold">Conference Days</h2>
           <p className="text-gray-on-white text-base">
             A full day of talks across 9 tracks, bookended with inspiring and
             revealing keynotes from the biggest and most consequential
-            companies, founders, & engineers in the industry. Stay for the
-            Pinecone Afterparty on June 26!
+            companies, founders, & engineers in the industry.
           </p>
           <p className="text-gray-on-white text-base">
             The most exciting and innovative expo of the year continues all day,
@@ -107,8 +106,8 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ June 26 - 27</div>
-          <h2 className="text-3xl font-bold">Leadership Track</h2>
+          <div className="text-gray-on-white text-base">/ June 4 - 5</div>
+          <h2 className="text-3xl font-bold">AI Architects Track</h2>
           <p className="text-gray-on-white text-base">
             <b>Exclusive track for VPs & Execs.</b> Purchase the VP Pass to get
             access to the exclusive leadership track where you'll get learn from
@@ -119,10 +118,10 @@ export function Overview() {
           <hr />
           <p className="text-gray-on-white text-base">
             <b>Leadership Track Perks.</b> This 300-person track comes with
-            exclusive access to the VIP welcome reception on June 25th with
+            exclusive access to the VIP welcome reception on June 3rd with
             speakers in the stunning View Lounge on top of the Marquis. Continue
             to enjoy 360-degree views of the city at the View Lounge as our
-            buyout extends to June 26 & 27 for all-day networking, facilitated
+            buyout extends to June 4 & 5 for all-day networking, facilitated
             discussions, & a premium sit-down lunch.
           </p>
         </div>
@@ -141,13 +140,13 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ June 22 - 28</div>
+          <div className="text-gray-on-white text-base">/ June 1 - 8</div>
           <h2 className="text-3xl font-bold">
             Pre-party, Hackathons, Afterparty, and Other SF AI Events
           </h2>
+            {/* Come for the World's Fair, stay for the SF AI scene! <br /> */}
           <p className="text-gray-on-white text-base">
-            Come for the World's Fair, stay for the SF AI scene! <br />
-            Events we recommend:
+            Our partners and friends organized these side events last year:
           </p>
           {/* <p className=""> */}
           <ul className="text-gray-on-white text-base list-disc ml-2">
@@ -342,7 +341,7 @@ export function Overview() {
             so as not to miss out.
           </p>
           <p className="text-gray-on-white text-base">
-            <b>If you are organizing an event around the week of June 22-28</b>,
+            <b>If you are organizing an event around the week of June 1-8</b>,
             please{' '}
             <a
               href="mailto:info@ai.engineer"

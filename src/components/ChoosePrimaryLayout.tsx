@@ -60,7 +60,8 @@ function worldsFair2025Context() {
   const contact = new URL('mailto:info@ai.engineer');
   contact.searchParams.set('subject', "AIE World's Fair 2025 Contact");
 
-  const CONF_URL = '/worldsfair';
+  // const CONF_URL = '/worldsfair';
+  const CONF_URL = '';
   return {
     CONF_URL,
     SPEAKERS_URL: `${CONF_URL}#speakers`,

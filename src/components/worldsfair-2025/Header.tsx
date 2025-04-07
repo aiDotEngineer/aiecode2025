@@ -86,13 +86,13 @@ export function Header({ path }: Props) {
               <nav className="flex gap-6 items-center">
                 {fixed && (
                   <>
-                    <Link
+                    {/* <Link
                       className="font-bold max-sm:hidden"
                       href={SPEAKERS_URL}
                     >
                       Speakers
-                    </Link>
-                    <Link
+                    </Link> */}
+                    {/* <Link
                       className="font-bold max-lg:hidden"
                       href={WORKSHOPS_URL}
                     >
@@ -103,7 +103,7 @@ export function Header({ path }: Props) {
                       href={SCHEDULE_URL}
                     >
                       Schedule
-                    </Link>
+                    </Link> */}
                     <Link
                       className="font-bold max-lg:hidden"
                       href={SPONSORS_URL}
@@ -218,15 +218,15 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
       <div className="text-2xl md:text-5xl">
         <div className="text-center border-t border-gray-800 md:border-b  font-bold">
           <div className="max-w-[1200px] md:flex ml-auto mr-auto ">
-            <NavLink href={SPEAKERS_URL} onClick={() => setNavOpen(false)}>
+            {/* <NavLink href={SPEAKERS_URL} onClick={() => setNavOpen(false)}>
               Speakers
-            </NavLink>
+            </NavLink> */}
             <NavLink href={SPONSORS_URL} onClick={() => setNavOpen(false)}>
               Sponsors
             </NavLink>
           </div>
         </div>
-        <div className="text-center font-bold md:border-b border-gray-800">
+        {/* <div className="text-center font-bold md:border-b border-gray-800">
           <div className="max-w-[1200px] md:flex ml-auto mr-auto">
             <NavLink href={SCHEDULE_URL} onClick={() => setNavOpen(false)}>
               Schedule
@@ -235,7 +235,7 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
               Workshops
             </NavLink>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <Container>

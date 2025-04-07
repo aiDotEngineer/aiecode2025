@@ -54,7 +54,7 @@ export function TracksPreview() {
           have a <code className="bg-slate-800 mx-1 p-1 rounded-sm">GROUP</code>{' '}
           discount for teams attending together!
         </p>
-        <p>
+        {/* <p>
           <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
             New
           </span>{' '}
@@ -66,6 +66,12 @@ export function TracksPreview() {
             full talk schedule is now published here
           </a>
           .
+        </p> */}
+        <p>
+          <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
+            IMPORTANT
+          </span>{' '}
+          These are our 2024 tracks - 2025 tracks will be announced soon once speaker CFP closes!
         </p>
       </header>
 
@@ -78,7 +84,7 @@ export function TracksPreview() {
         />
         <div className="lg:flex-1 ">
           <h2 className="uppercase font-mono font-bold text-sm tracking-wide">
-            Jun 26 - Conference Day 1
+            Jun 4 - Conference Day 1
           </h2>
           <div className="text-white space-y-6">
             <Accordion.Root
@@ -161,7 +167,7 @@ export function TracksPreview() {
         />
         <div className="lg:flex-1 ">
           <h2 className="uppercase font-mono font-bold text-sm tracking-wide">
-            Jun 27 - Conference Day 2
+            Jun 5 - Conference Day 2
           </h2>
           <div className="text-white space-y-6">
             <Accordion.Root
@@ -250,7 +256,7 @@ export function TracksPreview() {
         />
         <div className="lg:flex-1 ">
           <h2 className="uppercase font-mono font-bold text-sm tracking-wide">
-            Jun 26-27 - Both Conference Days
+            Jun 4-5 - Both Conference Days
           </h2>
           <Accordion.Root
             type="multiple"

@@ -96,8 +96,8 @@ export function VenueAndHotel() {
             <p className="text-gray-on-white text-base">
               Attendees who purchase the VP pass get exclusive access to the
               leadership track, which utilizes the top-floor View Lounge as a
-              VIP welcome reception on June 25th in addition to daytime
-              facilitated discussions & open networking on the 26th and 27th.
+              VIP welcome reception on June 3rd in addition to daytime
+              facilitated discussions & open networking on the 4th and 5th.
             </p>
           </div>
         </div>
