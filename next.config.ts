@@ -26,7 +26,9 @@ const nextConfig: NextConfig = {
             source,
             destination,
           }))
-        ),
+        )
+      ],
+      afterFiles: [
         {
           source: '/:path*',
           destination: 'https://aie-summit.vercel.app/:path*',
