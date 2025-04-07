@@ -1,4 +1,4 @@
-.typography {
+@utility typography {
   color: var(--color-neutral-950);
   font-size: var(--text-xl);
   line-height: var(--text-xl--line-height);
@@ -22,7 +22,7 @@
   /* Headings */
   :where(h2) {
     font-weight: var(--font-weight-semibold);
-    font-family: theme(fontFamily.display);
+    font-family: 'Mona Sans', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-variation-settings: var(--font-display--font-variation-settings);
     font-size: var(--text-2xl);
     line-height: var(--text-2xl--line-height);
@@ -31,7 +31,7 @@
 
   :where(h3) {
     font-weight: var(--font-weight-semibold);
-    font-family: theme(fontFamily.display);
+    font-family: 'Mona Sans', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-variation-settings: var(--font-display--font-variation-settings);
     font-size: var(--text-xl);
     line-height: var(--text-xl--line-height);

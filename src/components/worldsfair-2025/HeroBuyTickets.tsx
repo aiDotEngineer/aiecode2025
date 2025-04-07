@@ -21,14 +21,22 @@ export function HeroBuyTickets(_props: { url?: string }) {
           Buy 2025 Tickets
         </Button>
         <span className="self-center">or</span>
-        <PromptPaidContent>
+        <Button
+          className="flex-1 text-xs md:text-base"
+          ghost
+          href="https://youtube.com/@aidotengineer"
+          target="_blank"
+        >
+          See 2023/2024/2025 talks
+        </Button>
+        {/* <PromptPaidContent>
           <Button
             className="flex-1 text-xs md:text-base whitespace-nowrap"
             ghost
           >
             Buy 2024 Talks Access
           </Button>
-        </PromptPaidContent>
+        </PromptPaidContent> */}
       </div>
 
       <div className="px-6 py-4 rounded-lg bg-neutral-600/40 backdrop-blur-lg w-full m-auto space-y-3">
