@@ -1,4 +1,4 @@
-import type { Session } from '@pkg/api/src/cms/getSession';
+// import type { Session } from '@pkg/api/src/cms/getSession';
 
 import { formatSingleDate } from '~/utils/formatSingleDate';
 import { joinPresentersNames } from '~/utils/joinPresentersNames';
@@ -8,7 +8,7 @@ import { PageIntro } from '~/components/PageIntro';
 type Props = {
   date?: string;
   description?: string;
-  details?: Session['attributes'];
+  details?: any; // Session['attributes'];
   location?: {
     label: string;
     text: string;
@@ -50,13 +50,14 @@ export function EventDetailsHeader({
   presenters ??= details?.presenters?.data ?? [];
   title ??= details?.title ?? '';
 
+  // @ts-expect-error - presenters is maybe undefined but lets ignore for now
   const facilitatorsNames = joinPresentersNames(presenters);
 
   return (
     <>
       <article className="mt-24 sm:mt-32 lg:mt-40">
         <header>
-          <PageIntro eyebrow={facilitatorsNames} title={title} centered>
+          <PageIntro eyebrow={facilitatorsNames} title={title || 'TITLE'} centered>
             {description && <p>{description}</p>}
           </PageIntro>
 
@@ -65,18 +66,16 @@ export function EventDetailsHeader({
               <div className="mx-auto max-w-5xl">
                 <dl className="-mx-6 flex flex-col text-sm text-black sm:mx-0 sm:flex-row">
                   <Item label="Date">
-                    <time dateTime={date}>{formatSingleDate(date)}</time>
+                    <time dateTime={date}>{formatSingleDate(date || '')}</time>
                   </Item>
 
                   <Item label="Time">
                     {/* This is wild, leaving here for now, not worth improving */}
                     {time ? (
                       <time dateTime={time}>{time}</time>
-                    ) : // @ts-expect-error - Says `details.showEndTime` doesn't exist, but the code is here and I'm not certain I can remove it
+                    ) : 
                     details?.showEndTime ? (
-                      // @ts-expect-error - Says `details.time` doesn't exist, but the code is here and I'm not certain I can remove it
                       <time dateTime={details?.time}>
-                        {/* @ts-expect-error - Says `details.time` and `details.endTime` don't exist, but the code is here and I'm not certain I can remove it */}
                         {details?.time} - {details?.endTime}
                       </time>
                     ) : (

@@ -1,6 +1,7 @@
 import Image from 'next/image';
+import { parseSocialLinks } from '../../utils/socialLinks';
 
-import { parseSocialLinks } from '@pkg/api/src/support/parseSocialLinks';
+// import { parseSocialLinks } from '@pkg/api/src/support/parseSocialLinks';
 
 import { MarkdownView } from '../MarkdownView';
 
@@ -163,3 +164,4 @@ function SocialLinks({ socialLinks }: { socialLinks: string | null }) {
     </ul>
   );
 }
+

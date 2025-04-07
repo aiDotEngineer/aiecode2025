@@ -1,13 +1,14 @@
 import Image from 'next/image';
 
-import type { Photo } from '@pkg/api/src/cms/types';
+// import type { Photo } from '@pkg/api/src/cms/types';
 
 import { FadeIn } from '~/components/FadeIn';
 
-export function SessionImageGrid({ images }: { images: Photo[] }) {
+// export function SessionImageGrid({ images }: { images: Photo[] }) {
+export function SessionImageGrid({ images }: { images: any }) {
   return (
     <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
-      {images.map((image, index) => {
+      {images.map((image: any, index: number) => {
         const imageUrl = image.attributes.url;
         return (
           <div key={index}>

@@ -1,7 +1,7 @@
 import { Fragment, useState } from 'react';
 import clsx from 'clsx';
 
-import { type Presenter } from '@pkg/api/src/cms2/types';
+// import { type Presenter } from '@pkg/api/src/cms2/types';
 
 import { Button } from '../Button';
 // import { FadeIn, FadeInStagger } from '~/components/FadeIn';
@@ -11,7 +11,8 @@ import { useLocalStorage } from './useLocalStorage';
 // import { useWorldsFair2025 } from '../ChoosePrimaryLayout';
 
 type Props = {
-  presenters: Array<Presenter>;
+  // presenters: Array<Presenter>;
+  presenters: Array<any>;
   tracks: Array<string>;
 };
 
@@ -38,7 +39,7 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
     .sort((a, b) => a.attributes.displayOrder - b.attributes.displayOrder)
     .filter((presenter) => {
       const presenterTracks = presenter.attributes.sessions.data.map(
-        (session) => {
+        (session: any) => {
           return session.attributes.track.data?.attributes.name;
         },
       );

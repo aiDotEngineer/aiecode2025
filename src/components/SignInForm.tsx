@@ -51,19 +51,22 @@ function EmailForm({ onSuccess }: { onSuccess: (id: string) => void }) {
   const [email, setEmail] = React.useState('');
   const [errorMsg, setErrorMsg] = React.useState('');
 
-  const initLoginWeb = api.network.initLoginWeb.useMutation({
-    onError: (error) => {
-      setErrorMsg(String(error));
-    },
-    onSuccess: (result) => {
-      if (!result.success) {
-        setErrorMsg(result.errorMessage);
-        return;
-      }
+  const initLoginWeb = () => {
+    console.log('initLoginWeb');
+  }
+  // const initLoginWeb = api.network.initLoginWeb.useMutation({
+  //   onError: (error) => {
+  //     setErrorMsg(String(error));
+  //   },
+  //   onSuccess: (result) => {
+  //     if (!result.success) {
+  //       setErrorMsg(result.errorMessage);
+  //       return;
+  //     }
 
-      onSuccess(result.id);
-    },
-  });
+  //     onSuccess(result.id);
+  //   },
+  // });
 
   return (
     <form
@@ -71,7 +74,7 @@ function EmailForm({ onSuccess }: { onSuccess: (id: string) => void }) {
       onSubmit={(e) => {
         e.preventDefault();
         setErrorMsg('');
-        initLoginWeb.mutate({ email });
+        // initLoginWeb.mutate({ email });
       }}
     >
       <FormInput
@@ -85,7 +88,7 @@ function EmailForm({ onSuccess }: { onSuccess: (id: string) => void }) {
       />
 
       <Button type="submit">
-        {initLoginWeb.isLoading ? 'Sending...' : 'Send One-time Password'}
+        {false ? 'Sending...' : 'Send One-time Password'}
       </Button>
     </form>
   );
@@ -103,26 +106,29 @@ function OtpForm({
   const [otp, setOtp] = React.useState('');
   const [errorMsg, setErrorMsg] = React.useState('');
 
-  const completeLogin = api.network.completeLogin.useMutation({
-    onError: (error) => {
-      setErrorMsg(String(error));
-    },
-    onSuccess: (result) => {
-      if (!result.success) {
-        setErrorMsg(result.errorMessage ?? 'An error occurred');
-        return;
-      }
+  const completeLogin = () => {
+    console.log('completeLogin');
+  }
+  // const completeLogin = api.network.completeLogin.useMutation({
+  //   onError: (error) => {
+  //     setErrorMsg(String(error));
+  //   },
+  //   onSuccess: (result) => {
+  //     if (!result.success) {
+  //       setErrorMsg(result.errorMessage ?? 'An error occurred');
+  //       return;
+  //     }
 
-      onSuccess(result.session);
-    },
-  });
+  //     onSuccess(result.session);
+  //   },
+  // });
 
   return (
     <form
       className="flex flex-col gap-4"
       onSubmit={(e) => {
         e.preventDefault();
-        completeLogin.mutate({ code: otp, id });
+        // completeLogin.mutate({ code: otp, id });
       }}
     >
       <FormInput
@@ -141,7 +147,8 @@ function OtpForm({
         </Button>
 
         <Button type="submit">
-          {completeLogin.isLoading ? 'Verifying...' : 'Submit'}
+          {/* {completeLogin.isLoading ? 'Verifying...' : 'Submit'} */}
+          {false ? 'Verifying...' : 'Submit'}
         </Button>
       </div>
     </form>

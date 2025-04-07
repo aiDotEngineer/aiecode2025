@@ -1,5 +1,5 @@
 import { NewsletterBullets, NewsletterFormOne } from '~/components/Newsletter';
-import background from '~/images/worldsfair-2024/hero-newsletter.jpg';
+import background from '~/images/worldsfair-2025/hero-newsletter.jpg';
 
 export default function Newsletter() {
   return (

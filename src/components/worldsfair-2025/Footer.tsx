@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+ 
 import { useState } from 'react';
 import Link from 'next/link';
 import { IoMdCheckmark } from 'react-icons/io';

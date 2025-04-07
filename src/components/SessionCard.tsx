@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import clsx from 'clsx';
 
-import type { Presenter } from '@pkg/api/src/cms2/types';
+// import type { Presenter } from '@pkg/api/src/cms2/types';
 
 type PresentersArray = {
-  data: Array<Presenter>;
+  data: Array<any>;
 };
 
 type SessionCardProps = {

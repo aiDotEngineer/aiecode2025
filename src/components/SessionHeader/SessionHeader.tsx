@@ -2,8 +2,8 @@ import { HiOutlineVideoCamera } from 'react-icons/hi';
 import { RxTextAlignLeft } from 'react-icons/rx';
 import { TbBrandYoutubeFilled, TbPhoto } from 'react-icons/tb';
 
-import type { Session } from '@pkg/api/src/cms/getSession';
-import type { Photo } from '@pkg/api/src/cms/types';
+// import type { Session } from '@pkg/api/src/cms/getSession';
+// import type { Photo } from '@pkg/api/src/cms/types';
 
 import { joinPresentersNames } from '~/utils/joinPresentersNames';
 import { PageIntro } from '~/components/PageIntro';
@@ -15,8 +15,10 @@ import { SessionTabs, type SessionTabItem } from './SessionTabs';
 
 type SessionHeaderProps = {
   description?: string;
-  details?: Session['attributes'];
-  galleryPhotos?: Photo[];
+  // details?: Session['attributes'];
+  // galleryPhotos?: Photo[];
+  details?: any;
+  galleryPhotos?: any;
   /**
    * Controls whether any associated recording is gated content or not.
    * Defaults to false.
@@ -60,7 +62,7 @@ export function SessionHeader({
   recordingTranscript ??= details?.recording.data?.attributes.transcript ?? '';
   title ??= details?.title ?? '';
 
-  const facilitatorsNames = joinPresentersNames(presenters);
+  const facilitatorsNames = joinPresentersNames(presenters || []);
 
   const tabs: SessionTabItem[] = [];
 
@@ -131,7 +133,7 @@ export function SessionHeader({
   return (
     <article className="flex flex-col gap-8">
       <header>
-        <PageIntro eyebrow={facilitatorsNames} title={title} centered>
+        <PageIntro eyebrow={facilitatorsNames} title={title || 'TITLE'} centered>
           {description && <p>{description}</p>}
         </PageIntro>
       </header>

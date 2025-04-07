@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
+// import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
 
 import { Button } from '../Button';
 import { FadeIn } from '../FadeIn';
@@ -8,7 +8,8 @@ import { PresentersNames } from '../PresentersNames';
 
 // import { ProfilePictureStack } from '../ProfilePictureStack';
 
-export function Workshops({ items }: { items: SessionEvent[] }) {
+// export function Workshops({ items }: { items: SessionEvent[] }) {
+export function Workshops({ items }: { items: any[] }) {
   return (
     <div className="flex flex-col gap-6">
       <Link href="#workshops">
@@ -41,7 +42,8 @@ function NoWorkshops() {
   );
 }
 
-function WorkshopsList({ items }: { items: SessionEvent[] }) {
+// function WorkshopsList({ items }: { items: SessionEvent[] }) {
+function WorkshopsList({ items }: { items: any[] }) {
   return (
     <div className="flex flex-col gap-8 lg:grid lg:grid-cols-2">
       {items.map((item) => (
@@ -51,12 +53,13 @@ function WorkshopsList({ items }: { items: SessionEvent[] }) {
   );
 }
 
-function WorkshopItem({ item }: { item: SessionEvent }) {
+// function WorkshopItem({ item }: { item: SessionEvent }) {
+function WorkshopItem({ item }: { item: any }) {
   // const presentersForPictures = item.presenters.map((speaker) => ({
   //   name: speaker.attributes.name,
   //   profilePhotoUrl: speaker.attributes.profilePhoto.data.attributes.url,
   // }));
-  const presentersForNames = item.presenters.map((speaker) => ({
+  const presentersForNames = item.presenters.map((speaker: any) => ({
     name: speaker.attributes.name,
     tagline: speaker.attributes.tagline,
     company: speaker.attributes.company.data?.attributes.name,

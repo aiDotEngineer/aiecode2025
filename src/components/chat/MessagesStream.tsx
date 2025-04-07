@@ -31,7 +31,7 @@ export default function MessagesStream({ messages }: { messages: Message[] }) {
             {m.role === 'user' ? 'Me ' : 'Summit AI '}
           </span>
           <Markdown
-            // @ts-ignore
+            // @ts-expect-error remarkPlugins is not typed
             remarkPlugins={remarkGfm}
             components={MarkdownComponents}
             className={'break-words'}

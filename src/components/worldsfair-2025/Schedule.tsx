@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import clsx from 'clsx';
 
-import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
+// import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
 
 import { formatSingleDate } from '~/utils/formatSingleDate';
 import { Container } from '~/components/Container';
@@ -13,7 +13,8 @@ import { useLocalStorage } from './useLocalStorage';
 const MENU_HEIGHT = 70;
 
 type ScheduleProps = {
-  sessionEvents: SessionEvent[];
+  // sessionEvents: SessionEvent[];
+  sessionEvents: any; 
 };
 
 export function Schedule({ sessionEvents }: ScheduleProps) {
@@ -27,12 +28,12 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
   const dateMenuRef = useRef<HTMLDivElement>(null);
 
   const trackNameOptions = sessionEvents
-    .reduce((names, next) => {
+    .reduce((names: string[], next: any) => {
       return names.includes(next.trackName)
         ? names
         : names.concat(next.trackName);
     }, [] as string[])
-    .filter((name) => !name.toLowerCase().includes('plenary'));
+    .filter((name: string) => !name.toLowerCase().includes('plenary'));
 
   const sessions = useMemo(() => {
     // Show All
@@ -43,12 +44,12 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
       }
       // Show all without plenary
       return sessionEvents.filter(
-        (session) => !session.trackName.toLowerCase().includes('plenary'),
+        (session: any) => !session.trackName.toLowerCase().includes('plenary'),
       );
     }
 
     // Filter Results
-    return sessionEvents.filter((event) => {
+    return sessionEvents.filter((event: any) => {
       if (showPlenary) {
         return event.trackName.toLowerCase().includes(filter.toLowerCase());
       }
@@ -147,7 +148,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
               className="border p-4 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block"
             >
               <option value="">All Tracks</option>
-              {trackNameOptions.map((type) => {
+              {trackNameOptions.map((type: string) => {
                 return (
                   <option key={type} value={type}>
                     {type}
@@ -181,7 +182,8 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
   );
 }
 
-function getDatesOfSessions(sessions: Array<SessionEvent>) {
+function getDatesOfSessions(sessions: Array<any>) {
+// function getDatesOfSessions(sessions: Array<SessionEvent>) {
   const dates = new Set<string>();
 
   for (const session of sessions) {
@@ -195,8 +197,10 @@ function getDatesOfSessions(sessions: Array<SessionEvent>) {
   return Array.from(dates).sort((a, b) => a.localeCompare(b));
 }
 
-function groupSessionsByDate(sessions: Array<SessionEvent>) {
-  const result: Record<string, SessionEvent[]> = {};
+// function groupSessionsByDate(sessions: Array<SessionEvent>) {
+//   const result: Record<string, SessionEvent[]> = {};
+function groupSessionsByDate(sessions: Array<any>) {
+  const result: Record<string, any[]> = {};
 
   for (const session of sessions) {
     const [date] = session.since.split('T');
@@ -204,7 +208,8 @@ function groupSessionsByDate(sessions: Array<SessionEvent>) {
     if (!date) continue;
 
     if (!result[date]) {
-      result[date] = [] as SessionEvent[];
+      // result[date] = [] as SessionEvent[];
+      result[date] = [] as any[];
     }
 
     result[date]?.push(session);
@@ -232,7 +237,8 @@ function ScheduleGroup({
 }: {
   day: string;
   onIntersect?: () => void;
-  sessions: SessionEvent[];
+  // sessions: SessionEvent[];
+  sessions: any[];
 }) {
   const headingRef = useRef<HTMLDivElement>(null);
 

@@ -25,9 +25,11 @@ import { WhatsNext } from '~/components/worldsfair-2025/WhatsNext';
 import { Workshops } from '~/components/worldsfair-2025/Workshops';
 import LogoWall from '~/images/worldsfair-2025/logowall.png';
 
-type Props = InferGetServerSidePropsType<typeof getStaticProps>;
+// type Props = InferGetServerSidePropsType<typeof getStaticProps>;
+// export default function Page({ sessionEvents, presenters, tracks }: Props) {
 
-export default function Page({ sessionEvents, presenters, tracks }: Props) {
+
+export default function Page({ sessionEvents, presenters, tracks }: any) {
   const isBannerVisible = useAppBannerContext();
   // const workshops = sessionEvents.filter(
   //   (session) => session.type === 'WORKSHOP',

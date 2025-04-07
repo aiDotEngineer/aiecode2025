@@ -1,4 +1,3 @@
-// @ts-nocheck
 import glob from 'fast-glob';
 
 const exportNames = {

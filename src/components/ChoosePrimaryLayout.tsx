@@ -1,8 +1,6 @@
 import React, { useContext } from 'react';
 import { usePathname } from 'next/navigation';
 
-import { MainFooter } from '~/components/MainFooter';
-import { SubPageWrap } from '~/components/SubPageWrap';
 // Worlds Fair 2025
 import { Footer as WorldsFair2025Footer } from '~/components/worldsfair-2025/Footer';
 import { Header as WorldsFair2025Header } from '~/components/worldsfair-2025/Header';
@@ -13,7 +11,6 @@ type Props = {
   children: React.ReactNode;
 };
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const EventContext = React.createContext<any>(null!);
 
 // For consuming context, use individual hooks below to get correct type definitions

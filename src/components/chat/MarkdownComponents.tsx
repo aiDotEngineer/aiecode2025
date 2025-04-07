@@ -38,7 +38,7 @@ const Code: React.FC<MarkdownComponentProps> = ({ children }) => {
 const Pre: React.FC<MarkdownComponentProps> = ({ children }) => {
   const hasCodeBlock = React.Children.toArray(children).some((child) => {
     const child_ = child as ReactElement;
-    return React.isValidElement(child) && child_.props.node.tagName === 'code';
+    return React.isValidElement(child) && (child_.props as any).node.tagName === 'code';
   });
 
   return (
@@ -84,7 +84,7 @@ export const MarkdownComponents: Record<
 
   // Links
   a: ({ children, node }) => {
-    // @ts-ignore
+    // @ts-expect-error properties is not typed
     const href = node?.properties?.href || '';
     return (
       <a href={href} className="border-blue-400 text-blue-400 hover:border-b-2">
@@ -103,9 +103,9 @@ export const MarkdownComponents: Record<
   // Images
   img: ({ node }) => (
     <Image
-      // @ts-ignore
+      // @ts-expect-error properties is not typed
       src={node?.properties?.src}
-      // @ts-ignore
+      // @ts-expect-error properties is not typed
       alt={node?.properties?.src}
       className="my-2 h-auto max-w-full"
     />

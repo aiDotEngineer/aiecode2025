@@ -11,7 +11,6 @@ import {
 import * as z from 'zod';
 
 import { Button } from '~/components/Button';
-import { api } from '~/support/api';
 
 /****************************************
   Reusable Newsletter Logic
@@ -28,26 +27,45 @@ function useNewsletter(
 ) {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState('');
+  const [pending, setPending] = useState(false);
 
-  function onSuccessInternal({ success }: { success: boolean }) {
-    if (success) {
-      setSuccess(true);
-      onSuccess();
-    }
-  }
-
-  const { mutate, isLoading: pending } = api.web.subscribe.useMutation({
-    onSuccess: onSuccessInternal,
-  });
-
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    setPending(true);
+    setError('');
+    
     const formData = new FormData(event.currentTarget);
     const zodResults = formSchema.safeParse(Object.fromEntries(formData));
-    if (zodResults.success) {
-      mutate({ emailAddress: zodResults.data.emailAddress });
-    } else {
+    
+    if (!zodResults.success) {
       setError('Invalid Email');
+      setPending(false);
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/newsletter', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          emailAddress: zodResults.data.emailAddress,
+        }),
+      });
+
+      const data = await response.json();
+      
+      if (data.success) {
+        setSuccess(true);
+        onSuccess();
+      } else {
+        setError(data.error || 'Failed to subscribe');
+      }
+    } catch (err) {
+      setError('Failed to subscribe');
+    } finally {
+      setPending(false);
     }
   }
 

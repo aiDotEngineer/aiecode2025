@@ -45,29 +45,33 @@ export function AuthProvider(props: { children: ReactNode }) {
     state: 'LOGGED_OUT',
   });
 
-  const { refetch } = api.network.getUserByToken.useQuery(
-    // TODO: Why are we sending token here if it's also in the headers?
-    { token: tokenRef.current },
-    {
-      enabled: authState.state === 'INITIALIZING',
-      refetchInterval: false,
-      onError: (error) => {
-        setAuthState({
-          state: 'INIT_ERROR',
-          error: error instanceof Error ? error : new Error(String(error)),
-        });
-        // TODO: Retry with exponential backoff?
-        // setTimeout(() => refetch(), 1500);
-      },
-      onSuccess: (user) => {
-        if (user === null) {
-          setAuthState({ state: 'LOGGED_OUT' });
-        } else {
-          setAuthState({ state: 'LOGGED_IN', user });
-        }
-      },
-    },
-  );
+  // eslint-disable-next-line
+  const refetch = () => {
+    console.log('refetch triggered');
+  };
+  // const { refetch } = api.network.getUserByToken.useQuery(
+  //   // TODO: Why are we sending token here if it's also in the headers?
+  //   { token: tokenRef.current },
+  //   {
+  //     enabled: authState.state === 'INITIALIZING',
+  //     refetchInterval: false,
+  //     onError: (error) => {
+  //       setAuthState({
+  //         state: 'INIT_ERROR',
+  //         error: error instanceof Error ? error : new Error(String(error)),
+  //       });
+  //       // TODO: Retry with exponential backoff?
+  //       // setTimeout(() => refetch(), 1500);
+  //     },
+  //     onSuccess: (user) => {
+  //       if (user === null) {
+  //         setAuthState({ state: 'LOGGED_OUT' });
+  //       } else {
+  //         setAuthState({ state: 'LOGGED_IN', user });
+  //       }
+  //     },
+  //   },
+  // );
 
   const setSession = useCallback((session: Session) => {
     const { token, user } = session;
@@ -102,7 +106,7 @@ export function AuthProvider(props: { children: ReactNode }) {
       authState,
       endSession,
       setAuthSession: (session) => {
-        session ? setSession(session) : endSession();
+        if (session) { setSession(session) } else {endSession()};
       },
       refreshSession,
     }),

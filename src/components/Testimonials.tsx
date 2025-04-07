@@ -1,5 +1,5 @@
-/* eslint-disable jsx-a11y/interactive-supports-focus */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
+ 
+ 
 import { useRef } from 'react';
 import Image, { type StaticImageData } from 'next/image';
 import clsx from 'clsx';
@@ -43,7 +43,6 @@ export function Testimonial({ testimonial, id }: Props) {
       className="rounded-2xl p-6 bg-white w-[372px]"
       role="button"
       onClick={() => {
-        // @ts-ignore
         window.open(testimonial.url, '_blank');
         // location.href = testimonial.url;
       }}
