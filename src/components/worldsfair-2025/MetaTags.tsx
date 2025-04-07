@@ -12,12 +12,12 @@ export function MetaTags() {
       <meta
         key="description"
         name="description"
-        content="Join 2,000 software engineers enhanced by and building with AI. June 3 - 5, 2025, San Francisco."
+        content="Join 3,000 engineers and leaders building with AI. June 3 - 5, 2025, San Francisco."
       />
       <meta
         key="ogDescription"
         property="og:description"
-        content="Join 2,000 software engineers enhanced by and building with AI. June 3 - 5, 2025, San Francisco."
+        content="Join 3,000 engineers and leaders building with AI. June 3 - 5, 2025, San Francisco."
       />
       <meta
         key="ogImage"
@@ -47,7 +47,7 @@ export function MetaTags() {
       <meta
         key="twitterDescription"
         name="twitter:description"
-        content="Join 2,000 software engineers enhanced by and building with AI. June 3 - 5, 2025, San Francisco."
+        content="Join 3,000 engineers and leaders building with AI. June 3 - 5, 2025, San Francisco."
       />
       <meta
         key="twitterImage"
