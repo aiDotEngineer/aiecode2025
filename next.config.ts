@@ -27,6 +27,10 @@ const nextConfig: NextConfig = {
             destination,
           }))
         ),
+        {
+          source: '/:path*',
+          destination: 'https://aie-summit.vercel.app/:path*',
+        }
       ],
       fallback: [
         // Add any manual rewrites below
