@@ -21,6 +21,7 @@
 
 
 - deployment
+    - LOOPS_API_KEY
     - NEXT_PUBLIC_SUPABASE_URL
     - SUPABASE_SERVICE_ROLE_KEY
     - env.NODE_ENV === 'development'
