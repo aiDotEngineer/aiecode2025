@@ -20,29 +20,29 @@ import imgRag from '~/images/worldsfair-2025/tracks/rag.jpg';
 import { Logo } from '../Logos';
 
 type TrackTop = '01' | '02' | '03' | '04' | '05' | '06';
-type TrackBottom = '07' | '08' | '09' | '10' | '11' | '12' | '13';
+type TrackBottom = '07' | '08' | '09' | '10' | '11' | '12';
 
 export function TracksPreview() {
   const [selectedTrackTop, setSelectedTrackTop] = useState<TrackTop>('01');
   const [selectedTrackBottom, setSelectedTrackBottom] =
-    useState<TrackBottom>('06');
+    useState<TrackBottom>('07');
 
   const imageChoiceTop: Record<TrackTop, string> = {
     '01': imgRag.src,
     '02': imgOSSModels.src,
     '03': imgCodegen.src,
     '04': imgFortune500.src,
-    '10': imgRag.src,
-    '11': imgOSSModels.src,
+    '05': imgRag.src,
+    '06': imgOSSModels.src,
   } as const;
 
   const imageChoiceBottom: Record<TrackBottom, string> = {
-    '05': imgMultimodality.src,
-    '06': imgGPUS.src,
-    '07': imgEvals.src,
-    '08': imgAIAgents.src,
-    '12': imgMultimodality.src,
-    '13': imgGPUS.src,
+    '07': imgMultimodality.src,
+    '08': imgGPUS.src,
+    '09': imgEvals.src,
+    '10': imgAIAgents.src,
+    '11': imgMultimodality.src,
+    '12': imgGPUS.src,
   } as const;
 
   return (
