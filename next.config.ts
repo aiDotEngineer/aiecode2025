@@ -16,6 +16,16 @@ const mappings = {
 const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/worldsfair',
+        destination: '/', 
+        permanent: false,
+      },
+    ]
+  },
+  
   // https://nextjs.org/docs/app/api-reference/config/next-config-js/rewrites
   async rewrites() {
     return {
