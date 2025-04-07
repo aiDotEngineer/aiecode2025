@@ -19,7 +19,6 @@ const nextConfig: NextConfig = {
   // https://nextjs.org/docs/app/api-reference/config/next-config-js/rewrites
   async rewrites() {
     return {
-
       beforeFiles: [
         ...Object.entries(mappings).flatMap(([destination, sources]) =>
           sources.map(source => ({
