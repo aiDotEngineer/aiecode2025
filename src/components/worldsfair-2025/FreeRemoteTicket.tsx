@@ -19,8 +19,8 @@ export function FreeRemoteTicket() {
           <h1 className="text-4xl font-bold">Watch the livestream</h1>
           <p className="text-gray-on-black">
             Subscribe to our newsletter and get a free remote ticket to the main
-            stage livestream. Livestream does NOT include 3 out of 4 tracks,
-            most of the breakout, expo, and workshop sessions, but will include
+            stage livestream. Livestream does NOT include most tracks, nor
+            most of the expo sessions and workshops, but will include
             keynotes.
           </p>
           <div>

@@ -52,6 +52,15 @@ export function Expo() {
           product teams and developers like you.
         </p>
       </header>
+      <p className="text-center">
+        <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">IMPORTANT</span>{' '}
+        These are 2024 Expo sponsors - email{' '}
+        <a href="mailto:sponsors@ai.engineer" className="text-blue-500 hover:text-blue-400">
+          sponsors@ai.engineer
+        </a>{' '}
+        to be in the 2025 Expo!
+      </p>
+
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 items-center justify-items-center gap-x-8 gap-y-10">
         <a

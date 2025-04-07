@@ -63,7 +63,7 @@ export function Hero() {
               Where the leading AI companies, AI founders, VPs of AI & AI
               Engineers meet. Featuring an Expo floor showcasing 30+ companies
               pioneering the AI Engineering landscape, and over 100+ speakers
-              delivering talks and workshops across 9 tracks.
+              delivering talks and workshops across 12 tracks.
             </p>
 
             <div className="space-y-8 pb-5">

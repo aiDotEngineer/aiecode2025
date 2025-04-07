@@ -19,8 +19,8 @@ import imgOSSModels from '~/images/worldsfair-2025/tracks/oss-models.jpg';
 import imgRag from '~/images/worldsfair-2025/tracks/rag.jpg';
 import { Logo } from '../Logos';
 
-type TrackTop = '01' | '02' | '03' | '04';
-type TrackBottom = '05' | '06' | '07' | '08';
+type TrackTop = '01' | '02' | '03' | '04' | '05' | '06';
+type TrackBottom = '07' | '08' | '09' | '10' | '11' | '12' | '13';
 
 export function TracksPreview() {
   const [selectedTrackTop, setSelectedTrackTop] = useState<TrackTop>('01');
@@ -32,6 +32,8 @@ export function TracksPreview() {
     '02': imgOSSModels.src,
     '03': imgCodegen.src,
     '04': imgFortune500.src,
+    '10': imgRag.src,
+    '11': imgOSSModels.src,
   } as const;
 
   const imageChoiceBottom: Record<TrackBottom, string> = {
@@ -39,6 +41,8 @@ export function TracksPreview() {
     '06': imgGPUS.src,
     '07': imgEvals.src,
     '08': imgAIAgents.src,
+    '12': imgMultimodality.src,
+    '13': imgGPUS.src,
   } as const;
 
   return (
@@ -48,7 +52,7 @@ export function TracksPreview() {
           <b>Survey The State of AI Engineering</b>
         </h1>
         <p className="max-w-xl m-auto text-gray-on-black text-justify">
-          With 9 tracks and over 100 sessions, you can design the program
+          With 12 tracks and over 100 sessions, you can design the program
           schedule that perfectly matches your business needs. There are up to 5
           simultaneous sessions running at any one time, so it's a good thing we
           have a <code className="bg-slate-800 mx-1 p-1 rounded-sm">GROUP</code>{' '}
@@ -71,182 +75,12 @@ export function TracksPreview() {
           <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
             IMPORTANT
           </span>{' '}
-          These are our 2024 tracks - 2025 tracks will be announced soon once speaker CFP closes!
+          2025 tracks are NOT FINAL - more will be announced once speaker CFP closes!
+          <br />
+          <a href="https://sessionize.com/ai-engineer-worlds-fair-2025" className="text-blue-300 font-bold hover:text-blue-100">Apply to speak here</a>!
         </p>
       </header>
 
-      <div className="flex gap-20 max-lg:flex-col flex-row-reverse">
-        <div
-          className="max-lg:h-80 lg:flex-1 bg-center bg-contain bg-no-repeat"
-          style={{
-            backgroundImage: `url(${imageChoiceTop[selectedTrackTop]})`,
-          }}
-        />
-        <div className="lg:flex-1 ">
-          <h2 className="uppercase font-mono font-bold text-sm tracking-wide">
-            Jun 4 - Conference Day 1
-          </h2>
-          <div className="text-white space-y-6">
-            <Accordion.Root
-              type="single"
-              value={selectedTrackTop}
-              onValueChange={(v: TrackTop) => setSelectedTrackTop(v)}
-            >
-              <AccordionItem value="01">
-                <AccordionTrigger value="01">
-                  RAG (LLM Frameworks and Vector Databases)
-                </AccordionTrigger>
-                <AccordionContent>
-                  Retrieval Augmented Generation has emerged as the core
-                  workload of most production LLM applications. The techniques
-                  and tools have exploded in the past year - what's actually
-                  SOTA and what's just social media hype? Talks from{' '}
-                  <b>
-                    MongoDB, Qdrant + Quotient, Normal Computing, Neo4j,
-                    Gather.ai, Datastax
-                  </b>
-                  , and not to mention keynote features from{' '}
-                  <b>LangChain and LlamaIndex</b>.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="02">
-                <AccordionTrigger value="02">Open Models</AccordionTrigger>
-                <AccordionContent>
-                  Open models are the lifeblood of companies aiming to own their
-                  destiny and IP when it comes to deploying AI. Everything from
-                  leading open model trainers to fine-tuners will be done at
-                  this track. Talks from{' '}
-                  <b>
-                    Mistral, Cohere, HuggingFace, Unsloth, Outlines, Gradient.ai
-                  </b>
-                  , and more.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="03">
-                <AccordionTrigger value="03">
-                  CodeGen and Dev Tools
-                </AccordionTrigger>
-                <AccordionContent>
-                  AI Engineers using AI to accelerate themselves is the fastest
-                  and most obvious virtuous loop there is. Hear from the
-                  founders and researchers creating the top code AI models and
-                  putting them into the developer tooling we use and love every
-                  day. Talks from{' '}
-                  <b>
-                    GitHub (Copilot), Cursor, Sourcegraph (Cody), Anthropic
-                    (Claude), Grit, Palo Alto Networks
-                  </b>
-                  , and a special{' '}
-                  <b>opening keynote from Modular CEO Chris Lattner</b> and{' '}
-                  <b>closing keynote with GitHub CEO Thomas Dohmke</b>.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="04">
-                <AccordionTrigger value="04">
-                  AI in the Fortune 500
-                </AccordionTrigger>
-                <AccordionContent>
-                  Beyond just small startups, AI is being deployed at massive
-                  scale even in companies and industries you wouldn't normally
-                  think of as early adopters. Hear what works at scale and what
-                  shared pain everyone has, from{' '}
-                  <b>Discord, Tinder, AXA, Salesforce, Mastercard, Novartis</b>,
-                  and more.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion.Root>
-          </div>
-        </div>
-      </div>
-      <div className="flex gap-20 max-lg:flex-col mt-20">
-        <div
-          className="max-lg:h-80 lg:flex-1 bg-center bg-contain bg-no-repeat"
-          style={{
-            backgroundImage: `url(${imageChoiceBottom[selectedTrackBottom]})`,
-          }}
-        />
-        <div className="lg:flex-1 ">
-          <h2 className="uppercase font-mono font-bold text-sm tracking-wide">
-            Jun 5 - Conference Day 2
-          </h2>
-          <div className="text-white space-y-6">
-            <Accordion.Root
-              type="single"
-              value={selectedTrackBottom}
-              onValueChange={(v: TrackBottom) => setSelectedTrackBottom(v)}
-            >
-              <AccordionItem value="05">
-                <AccordionTrigger value="05">
-                  Multimodality and Omnimodality
-                </AccordionTrigger>
-                <AccordionContent>
-                  At last year's Summit, Logan Kilpatrick declared this the
-                  “Year of Multimodal AI”. Every frontier model now can consume
-                  and generate images, audio, video, code, and all other
-                  modalities in between. This opens up a brave new world of
-                  possibilities for putting even more general intelligence to
-                  work - we'll gather the best of 2024 from{' '}
-                  <b>
-                    Google DeepMind, Google AI Studio, (ex) Apple Vision Pro,
-                    Cartesia, Character.ai + LanceDB, Midjourney
-                  </b>
-                  , and more!
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="06">
-                <AccordionTrigger value="06">
-                  GPUs and Inference
-                </AccordionTrigger>
-                <AccordionContent>
-                  Almost everybody is GPU poor, but you can make a -lot- out of
-                  the GPUs you can get. Optimize your inference and training
-                  costs and maximize your throughput! Hear from{' '}
-                  <b>SemiAnalysis (GPU Poor), Groq, Crusoe, Fireworks</b> and
-                  more. Bonus talks from{' '}
-                  <b>Cognition (Devin) and Google (Gemma)</b> here due to travel
-                  schedules.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="07">
-                <AccordionTrigger value="07">Evals & LLM Ops</AccordionTrigger>
-                <AccordionContent>
-                  Building demos and MVPs are fun, but to get really good at AI
-                  Engineering means getting good at running custom evals and
-                  configuring LLM Ops. War stories, cool techniques, and hot new
-                  ideas are all fair game for this track. Great talks from{' '}
-                  <b>
-                    Hamel Husain, Weights & Biases, Braintrust + Zapier,
-                    OpenPipe, Arize, Log10 + Echo
-                  </b>
-                  , and more.
-                  <a
-                    className="flex items-center gap-3 mt-3"
-                    href=" https://www.rungalileo.io/"
-                    target="_blank"
-                  >
-                    <span>Track Sponsor</span>
-                    <Logo logo="galileo" variant="colorWhite" />
-                  </a>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="08">
-                <AccordionTrigger value="08">
-                  AI Agent Applications
-                </AccordionTrigger>
-                <AccordionContent>
-                  The holy grail of AI: full self driving autonomous execution.
-                  We're excited to feature top startups and frameworks powering
-                  the agent revolution here from{' '}
-                  <b>
-                    AWS, Factory AI, Crew AI, Zeta Labs, Deepgram, Perpetual
-                  </b>{' '}
-                  and more, as well as keynotes from <b>Adept and LangChain</b>.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion.Root>
-          </div>
-        </div>
-      </div>
       <div className="flex gap-20 max-lg:flex-col flex-row-reverse">
         <div
           className=" max-w-64 max-lg:h-80 lg:flex-1 bg-center bg-contain bg-no-repeat"
@@ -261,20 +95,34 @@ export function TracksPreview() {
           <Accordion.Root
             type="multiple"
             className="mt-0!"
-            value={['09', 'ES']}
+            value={['ES', '00']}
           >
-            <AccordionItem value="09">
-              <AccordionTrigger value="09">AI Leadership</AccordionTrigger>
+            <AccordionItem value="ES">
+              <AccordionTrigger value="ES">
+                Expo Sessions and Hallway Track!
+              </AccordionTrigger>
               <AccordionContent>
-                An exclusive closed-door track for VPs of AI and other
-                technical/engineering leaders. How do you effectively lead an AI
-                Product or Engineering team in 2024? Defining AI Strategy,
+                Access to the World's Fair Expo gets you access to
+                dedicated sessions from 30+ speakers,{' '} (2024 speakers) 
+                <b>
+                  Microsoft, AWS, Google, MongoDB, Neo4j, Perplexity, and more
+                </b>, as well as the all important Hallway Track (aka the best 
+                way to network with 3000+ AI Engineers)!
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="00">
+              <AccordionTrigger value="00">AI Architects</AccordionTrigger>
+              <AccordionContent>
+                Our highest rated, exclusive closed-door track for AI leaders (CTOs, VPs of AI,
+                and AI Architects at &gt;1000 person enterprises) 
+                How do you effectively lead an AI
+                Product or Engineering team in 2025? Defining AI Strategy,
                 technical direction, org design, hiring/growing, and build/buy
                 decisions. Executive briefings and roundtables on AI platform
                 engineering, model building, evals and FMOps, inference
                 optimization, code maintenance and technical debt, AI Engineer
                 hiring, and more, directly from the top CEOs and technical
-                leaders working in this space, from{' '}
+                leaders working in this space, from (2024 speakers) {' '}
                 <b>
                   OpenAI, Cohere, NVIDIA, Sourcegraph, Weights & Biases,
                   HumanLoop, Khan Academy, Twilio, Hex, Neo4j, Tola/Microsoft,
@@ -283,23 +131,191 @@ export function TracksPreview() {
                 , and more.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="ES">
-              <AccordionTrigger value="ES">
-                Expo Sessions, Ignite Talks, HF0 Demo Day
-              </AccordionTrigger>
-              <AccordionContent>
-                Sometimes the most useful talks are the small, practical
-                sessions on specific technologies, new concepts, and customer
-                stories. Access to the World's Fair Expo gets you access to
-                dedicated sessions from 30+ speakers,{' '}
-                <b>
-                  Microsoft, AWS, Google, MongoDB, Neo4j, Perplexity, and more
-                </b>
-                , as well as attendee-led Ignite Talks and the first ever public
-                HF0 Demo Day!
-              </AccordionContent>
-            </AccordionItem>
           </Accordion.Root>
+        </div>
+      </div>
+      <div className="flex gap-20 max-lg:flex-col mt-20">
+        <div
+          className="max-lg:h-80 lg:flex-1 bg-center bg-contain bg-no-repeat"
+          style={{
+            backgroundImage: `url(${imageChoiceBottom[selectedTrackBottom]})`,
+          }}
+        />
+        <div className="lg:flex-1 ">
+          <h2 className="uppercase font-mono font-bold text-sm tracking-wide">
+            Jun 4 - Conference Day 1
+          </h2>
+          <div className="text-white space-y-6">
+            <Accordion.Root
+              type="single"
+              value={selectedTrackTop}
+              onValueChange={(v: TrackTop) => setSelectedTrackTop(v)}
+            >
+              <AccordionItem value="01">
+                <AccordionTrigger value="01">
+                  Evals and Agent Reliability
+                </AccordionTrigger>
+                <AccordionContent>
+                  Explore frontier LLM evals, new benchmarks, and practical advice 
+                  for product evals. Special focus on making AI capabilities consistent 
+                  and reliable, with case studies on real-world implementations. 
+                  Looking for both LLM-as-Judge and Human-in-the-loop approaches.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="02">
+                <AccordionTrigger value="02">
+                  Retrieval, Search, and Recommendation Systems
+                </AccordionTrigger>
+                <AccordionContent>
+                  Comprehensive coverage of RAG techniques and LLM-improved 
+                  recommendation systems. Looking for both new techniques and 
+                  one-stop surveys of the field. Special focus on implementations 
+                  at consumer-facing companies and real-world applications.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="03">
+                <AccordionTrigger value="03">
+                  AI Security and Infrastructure
+                </AccordionTrigger>
+                <AccordionContent>
+                  Covering hallucination, prompt injection, guardrails, data privacy, 
+                  compliance, and authentication. Infrastructure topics include 
+                  GPU neoclouds, real-time inference, data centers, and scaling 
+                  agent fleets. Special focus on practical security implementations 
+                  and infrastructure best practices.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="04">
+                <AccordionTrigger value="04">
+                  Generative Media and AI Design
+                </AccordionTrigger>
+                <AccordionContent>
+                  Explore models, products, and platforms for generating images, 
+                  audio, and video. Special focus on AI-powered design experiences, 
+                  novel AI UX, and translating image generation into real products. 
+                  Looking for both production processes and thought-provoking demos.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="05">
+                <AccordionTrigger value="05">
+                  Computer-Using Agents (CUA)
+                </AccordionTrigger>
+                <AccordionContent>
+                  Explore the world of web search, browser, and other computer-using agents. 
+                  Topics include long-running agent architectures, screen vision accuracy, 
+                  and building general purpose agents with memory, planning, and autonomy. 
+                  Special focus on practical implementations and real-world applications.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="06">
+                <AccordionTrigger value="06">
+                  SWE Agents
+                </AccordionTrigger>
+                <AccordionContent>
+                  Covering both inner loop and outer loop agents for software engineers. 
+                  Topics include automating development workflows, AI-assisted debugging, 
+                  refactoring, code review, and enterprise software development acceleration. 
+                  Looking for practical implementations and real-world case studies.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion.Root>
+          </div>
+        </div>
+      </div>
+      <div className="flex gap-20 max-lg:flex-col flex-row-reverse">
+        <div
+          className="max-lg:h-80 lg:flex-1 bg-center bg-contain bg-no-repeat"
+          style={{
+            backgroundImage: `url(${imageChoiceTop[selectedTrackTop]})`,
+          }}
+        />
+        <div className="lg:flex-1 ">
+          <h2 className="uppercase font-mono font-bold text-sm tracking-wide">
+            Jun 4 - Conference Day 1
+          </h2>
+          <div className="text-white space-y-6">
+            <Accordion.Root
+              type="single"
+              value={selectedTrackBottom}
+              onValueChange={(v: TrackBottom) => setSelectedTrackBottom(v)}
+            >
+              <AccordionItem value="07">
+                <AccordionTrigger value="07">
+                  /r/LocalLlama
+                </AccordionTrigger>
+                <AccordionContent>
+                  Explore the world of local inference and open source models. Topics include 
+                  launches of open weights models, adapting models for business needs, 
+                  local inference tools and platforms, and personal/private agents. 
+                  Special focus on practical applications and real-world implementations.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="08">
+                <AccordionTrigger value="08">
+                  Model Context Protocol (MCP)
+                </AccordionTrigger>
+                <AccordionContent>
+                  Deep dive into MCP <b>ft. the Anthropic MCP team</b>! with a focus on hard problems 
+                  in integration, including new clients, stateful/stateless transports, 
+                  sampling, auth, observability, and service discovery. Looking for 
+                  nontrivial demos and external contributions to the protocol.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="09">
+                <AccordionTrigger value="09">GraphRAG</AccordionTrigger>
+                <AccordionContent>
+                  Explore the intersection of knowledge graphs and RAG. Topics include 
+                  appropriate use of knowledge graphs for enhanced retrieval, architectures 
+                  for building GraphRAG applications, real-world case studies, and 
+                  special focus on agent graph memory. All database and knowledge graph 
+                  experts welcome.
+                  <a
+                    className="flex items-center gap-3 mt-3"
+                    href=" https://www.neo4j.com/"
+                    target="_blank"
+                  >
+                    <span>Track Sponsor</span>
+                    <Logo logo="neo4j" variant="colorWhite" />
+                  </a>
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="10">
+                <AccordionTrigger value="10">
+                  AI in Action
+                </AccordionTrigger>
+                <AccordionContent>
+                  Practical advice on using AI tooling to improve productivity. 
+                  Focus on power users sharing their life/work productivity hacks, 
+                  with special attention to practical implementations and real-world 
+                  applications. Looking for users who can demonstrate effective 
+                  integration of AI tools into daily workflows - not vendors shilling
+                  their products.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="11">
+                <AccordionTrigger value="11">
+                  Vibe Coding
+                </AccordionTrigger>
+                <AccordionContent>
+                  Explore code agents for non-technical people building ephemeral software 
+                  and low code prototypes. Topics include best practices, troubleshooting, 
+                  and live demos of vibe coding in action. Looking for both positive and 
+                  negative perspectives on this emerging approach to software development.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="12">
+                <AccordionTrigger value="12">
+                  Voice and Sales/Support Agents
+                </AccordionTrigger>
+                <AccordionContent>
+                  Covering real-time voice AI, speech models, and AI-powered customer support. 
+                  Topics include voice agent personalization, context retention, function calling, 
+                  and using AI to enhance ticket resolution and customer interactions. 
+                  Looking for practical implementations and real-world case studies.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion.Root>
+          </div>
         </div>
       </div>
     </div>

@@ -15,16 +15,14 @@ export function TicketTable() {
         <h1 className="text-5xl" id="buytix">
           <b>Buy Tickets</b>
         </h1>
-        <p className="max-w-5xl m-auto text-gray-on-white">
-          We have now sold out of Early Bird tickets; General Admission has also
-          sold out.
-          <br /> Please join us online for the free livestream.
+        <p className="max-w-5xl m-auto text-gray-on-white mb-4">
+          We are going to sell out of Early Bird discounted tickets!
         </p>
         <Button
           href={BUY_TICKETS_URL}
           className="block w-52 hover:cursor-not-allowed"
         >
-          <span className="line-through">Buy Tickets</span> SOLD OUT!
+          <span className="">Buy Early Bird Tickets</span>
         </Button>
       </header>
       <div className="space-y-6">

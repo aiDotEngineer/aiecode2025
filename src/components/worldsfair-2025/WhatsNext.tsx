@@ -22,7 +22,7 @@ export function WhatsNext() {
           <p className="text-4xl leading-relaxed">
             The <b>AI Engineer World's Fair</b>
             <br />
-            is the event to discover what's now and
+            is the largest industry event to discover what's now and
             <br />
             <b className="text-6xl">What's Next</b>
           </p>

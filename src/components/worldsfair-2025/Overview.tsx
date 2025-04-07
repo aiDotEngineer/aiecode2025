@@ -77,7 +77,7 @@ export function Overview() {
           <div className="text-gray-on-white text-base">/ June 4 - 5</div>
           <h2 className="text-3xl font-bold">Conference Days</h2>
           <p className="text-gray-on-white text-base">
-            A full day of talks across 9 tracks, bookended with inspiring and
+            A full day of talks across 12 tracks, bookended with inspiring and
             revealing keynotes from the biggest and most consequential
             companies, founders, & engineers in the industry.
           </p>
@@ -147,6 +147,14 @@ export function Overview() {
             {/* Come for the World's Fair, stay for the SF AI scene! <br /> */}
           <p className="text-gray-on-white text-base">
             Our partners and friends organized these side events last year:
+          </p>
+          <p className="text-gray-on-white text-base">
+            <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">IMPORTANT</span>{' '}
+            These are 2024 events - email{' '}
+            <a href="mailto:sponsors@ai.engineer" className="text-blue-500 hover:text-blue-400">
+              sponsors@ai.engineer
+            </a>{' '}
+            to organize a 2025 side event!
           </p>
           {/* <p className=""> */}
           <ul className="text-gray-on-white text-base list-disc ml-2">

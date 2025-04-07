@@ -41,12 +41,15 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
 
       <Section roundTop>
         <Counters />
-        <div>
+        <div className="space-y-4">
           <Image
             src={LogoWall}
             alt="AIEWF Logo Wall"
-            className="rounded-3xl w-full object-contain mb-12"
+            className="rounded-3xl w-full object-contain mb-4"
           />
+          <p className="text-center text-gray-600 mb-4 text-sm">
+            Logos from <a href="/worldsfair/2024" className="text-blue-600 hover:underline">World's Fair 2024</a>, to be updated soon with 2025 logos
+          </p>
         </div>
       </Section>
 
@@ -62,7 +65,7 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
       <Section lightText roundTop className="bg-black">
         <WhatsNext />
       </Section>
-{/* 
+      {/* 
       <Section roundTop id="speakers">
         <SpeakerPreview presenters={presenters} tracks={tracks} />
       </Section> */}
@@ -77,13 +80,15 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
             <h1 className="text-5xl">
               <b>Schedule</b>
             </h1>
-            <p className="max-w-3xl m-auto text-gray-on-white text-justify">
-              There are up to 6 simultaneous things at any one time in this
-              multitrack conference! The first conference day runs the{' '}
+            <p className="max-w-3xl m-auto text-gray-on-white text-justify mb-4">
+              {/* There are up to 6 simultaneous things at any one time in this
+              multitrack conference!  */}
+              {/* The first conference day runs the{' '}
               <b>CodeGen, Open Models, RAG, and Fortune 500</b> tracks
               concurrently, whereas the second has{' '}
               <b>Multimodality, GPUs, Evals, and Agents</b> tracks.
-              <br /> <br /> You can walk the <b>World's Fair Expo</b> (ft. 30+
+              <br /> <br />  */}
+              You can walk the <b>World's Fair Expo</b> (ft. 30+
               booths across the AI Engineering landscape) on any of the 3 days,
               while <b>Keynote, and AI Leadership sessions</b> span the 2
               conference days. There are also plenty of breaks for the most
@@ -92,15 +97,20 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
 
             <p>
               <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
-                New
+                IMPORTANT
               </span>{' '}
-              Our{' '}
+              The schedule is not yet announced, but you can see the 
+              <a href="/worldsfair/2024/schedule" className="text-blue-500 font-bold hover:text-blue-400">
+              {' 2024 schedule '}
+              </a> 
+              for an idea.
+              {/* Our{' '}
               <a
                 className="text-blue-500 font-bold hover:text-blue-400"
                 href="/schedule"
               >
                 full talk schedule is now published here
-              </a>
+              </a> */}
             </p>
           </header>
         </div>
