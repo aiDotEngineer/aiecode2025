@@ -100,7 +100,7 @@ export default function JobCard(props: Props) {
           {!isExpanded && <Separator className="mb-4" />}
           {jobItem.attributes.workMode && (
             <Badge
-              className="my-1 mr-2 whitespace-pre rounded px-2 py-1 text-sm font-medium leading-tight text-gray-900"
+              className="my-1 mr-2 whitespace-pre rounded-sm px-2 py-1 text-sm font-medium leading-tight text-gray-900"
               style={{ backgroundColor: '#f2f5f9' }}
               variant="secondary"
             >
@@ -109,7 +109,7 @@ export default function JobCard(props: Props) {
           )}
           {jobItem.attributes.salaryRange && (
             <Badge
-              className="my-1 mr-2 whitespace-pre rounded px-2 py-1 text-sm font-medium leading-tight text-gray-900"
+              className="my-1 mr-2 whitespace-pre rounded-sm px-2 py-1 text-sm font-medium leading-tight text-gray-900"
               style={{ backgroundColor: '#f2f5f9' }}
               variant="secondary"
             >
@@ -118,7 +118,7 @@ export default function JobCard(props: Props) {
           )}
           {jobItem.attributes.commitmentLevel && (
             <Badge
-              className="my-1 mr-2 whitespace-pre rounded px-2 py-1 text-sm font-medium leading-tight text-gray-900"
+              className="my-1 mr-2 whitespace-pre rounded-sm px-2 py-1 text-sm font-medium leading-tight text-gray-900"
               style={{ backgroundColor: '#f2f5f9' }}
               variant="secondary"
             >
@@ -127,7 +127,7 @@ export default function JobCard(props: Props) {
           )}
           {jobItem.attributes.experienceLevel && (
             <Badge
-              className="my-1 mr-2 whitespace-pre rounded px-2 py-1 text-sm font-medium leading-tight text-gray-900"
+              className="my-1 mr-2 whitespace-pre rounded-sm px-2 py-1 text-sm font-medium leading-tight text-gray-900"
               style={{ backgroundColor: '#f2f5f9' }}
               variant="secondary"
             >

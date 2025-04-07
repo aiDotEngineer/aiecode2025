@@ -89,7 +89,7 @@ export default function Page({ sessionEvents, presenters, tracks }: Props) {
             </p>
 
             <p>
-              <span className="uppercase font-mono bg-gray-600 p-1 rounded text-yellow-100">
+              <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
                 New
               </span>{' '}
               Our{' '}

@@ -115,7 +115,7 @@ function ExpandedView({
       <div className="absolute top-3 right-3 z-10">
         <button
           aria-label="Collapse row"
-          className="text-gray-600 hover:bg-gray-200 hover:text-black transition-colors p-2 rounded"
+          className="text-gray-600 hover:bg-gray-200 hover:text-black transition-colors p-2 rounded-sm"
           onClick={onCloseClick}
           title="Collapse row"
         >

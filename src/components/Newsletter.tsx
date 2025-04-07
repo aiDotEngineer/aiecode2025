@@ -93,7 +93,7 @@ export function NewsletterFormOne() {
               autoFocus
               required
               name="emailAddress"
-              className="block mt-1 w-full rounded-lg py-2 px-3 text-base focus:outline-none border border-gray-300"
+              className="block mt-1 w-full rounded-lg py-2 px-3 text-base focus:outline-hidden border border-gray-300"
             />
             <Button
               aria-label="Submit"
@@ -141,7 +141,7 @@ export function NewsletterFormTwo({
           autoFocus={autoFocus}
           name="emailAddress"
           className={clsx(
-            'block w-full rounded-2xl py-4 pl-6 pr-20 text-base focus:outline-none border border-gray-300',
+            'block w-full rounded-2xl py-4 pl-6 pr-20 text-base focus:outline-hidden border border-gray-300',
             inputDesign,
           )}
         />
@@ -183,7 +183,7 @@ export function NewsletterFormThree({ onSuccess }: NewsletterFormThreeProps) {
             // Background
             'bg-neutral-400/15 hover:bg-neutral-400/25 focus:bg-neutral-400/15',
             // Border
-            'outline-none border border-transparent focus:border-neutral-400/60',
+            'outline-hidden border border-transparent focus:border-neutral-400/60',
             // Error
             error ? 'border-red-500' : '',
           )}
@@ -226,7 +226,7 @@ export function NewsletterFormFour() {
               autoComplete="email"
               autoFocus
               name="emailAddress"
-              className="w-2/3 rounded-full py-4 px-6 text-base bg-white/10 focus:outline-none"
+              className="w-2/3 rounded-full py-4 px-6 text-base bg-white/10 focus:outline-hidden"
             />
             <Button aria-label="Submit" type="submit" invert className="flex-1">
               {pending ? <span>Sending...</span> : 'Subscribe'}

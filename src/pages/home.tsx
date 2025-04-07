@@ -49,7 +49,7 @@ export default function Page(props: Props) {
     <div>
       <div className="relative">
         <div className="absolute -z-20 inset-0 bg-stone-900 bg-[url('/home-hero-bg.jpg')] bg-center bg-cover" />
-        <div className="absolute -z-10 inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-black/30" />
+        <div className="absolute -z-10 inset-0 bg-linear-to-t from-gray-950 via-gray-950/80 to-black/30" />
 
         <Container
           className="pt-6 pb-16 lg:pb-24 text-white h-full"
@@ -307,7 +307,7 @@ function EventCallout({
   return (
     <Link
       href={href || '/'}
-      className="hover:bg-black/40 flex p-8 pl-0 rounded"
+      className="hover:bg-black/40 flex p-8 pl-0 rounded-sm"
     >
       <div className="w-36 text-center">
         <div className="uppercase font-bold tracking-widest">{month}</div>

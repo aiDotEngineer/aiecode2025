@@ -29,7 +29,7 @@ export const MDXComponents = {
         <GrayscaleTransitionImage
           {...props}
           sizes="(min-width: 768px) 42rem, 100vw"
-          className="aspect-[16/10] w-full object-cover"
+          className="aspect-16/10 w-full object-cover"
         />
       </div>
     );

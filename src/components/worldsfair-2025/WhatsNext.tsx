@@ -93,7 +93,7 @@ function WhatsNextCard({ icon, title, text, background }: Props) {
         src={background}
         className="absolute inset-0 h-72 object-cover"
       />
-      <div className="absolute left-0 right-0 top-0 h-[200%] bg-gradient-to-b from-black/90 to-black/20 -translate-y-1/2 group-hover:translate-y-0 transition duration-300" />
+      <div className="absolute left-0 right-0 top-0 h-[200%] bg-linear-to-b from-black/90 to-black/20 -translate-y-1/2 group-hover:translate-y-0 transition duration-300" />
       <div className="space-y-3 translate-y-[calc(100%-6em)] group-hover:translate-y-0 transition duration-300 ease-in-out">
         <Image src={icon} alt="" aria-hidden></Image>
         <div className="font-bold text-xl">{title}</div>

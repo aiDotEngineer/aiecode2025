@@ -91,7 +91,7 @@ function PresenterDesktop({
 
         <Image
           alt={name}
-          className="object-cover grayscale aspect-[7/9] rounded-3xl h-auto w-full"
+          className="object-cover grayscale aspect-7/9 rounded-3xl h-auto w-full"
           height={400}
           width={400}
           src={profilePhotoUrl}

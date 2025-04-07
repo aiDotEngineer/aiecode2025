@@ -74,7 +74,7 @@ function WorkshopItem({ item }: { item: SessionEvent }) {
             {/* swyx: dont use this field as it is not populated in most cases. */}
             {/* <p className="text-base text-neutral-600">{item.description}</p> */}
             <p className="text-base text-neutral-600">
-              <span className="text-sm p-1 bg-gray-100 rounded mr-2">
+              <span className="text-sm p-1 bg-gray-100 rounded-sm mr-2">
                 {item.trackName}
               </span>
               {item.about.split(' ').slice(0, 40).join(' ') +

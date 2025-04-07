@@ -24,7 +24,7 @@ type MarkdownComponentProps = {
 const Code: React.FC<MarkdownComponentProps> = ({ children }) => {
   const isInCodeBlock = useContext(CodeBlockContext);
   const className = !isInCodeBlock
-    ? 'text-xs bg-gray-200 rounded px-1 text-pink-600 font-semibold'
+    ? 'text-xs bg-gray-200 rounded-sm px-1 text-pink-600 font-semibold'
     : '';
 
   return <code className={className}>{children}</code>;
@@ -43,7 +43,7 @@ const Pre: React.FC<MarkdownComponentProps> = ({ children }) => {
 
   return (
     <CodeBlockContext.Provider value={hasCodeBlock}>
-      <pre className={`w-full rounded bg-slate-700 p-4 text-xs text-white`}>
+      <pre className={`w-full rounded-sm bg-slate-700 p-4 text-xs text-white`}>
         {children}
       </pre>
     </CodeBlockContext.Provider>

@@ -1,4 +1,2 @@
-@tailwind components;
-
-@import './typography.css';
-@import './dialog.css';
+@import './typography.css' layer(components);
+@import './dialog.css' layer(components);

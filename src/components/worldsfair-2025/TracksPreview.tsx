@@ -51,11 +51,11 @@ export function TracksPreview() {
           With 9 tracks and over 100 sessions, you can design the program
           schedule that perfectly matches your business needs. There are up to 5
           simultaneous sessions running at any one time, so it's a good thing we
-          have a <code className="bg-slate-800 mx-1 p-1 rounded">GROUP</code>{' '}
+          have a <code className="bg-slate-800 mx-1 p-1 rounded-sm">GROUP</code>{' '}
           discount for teams attending together!
         </p>
         <p>
-          <span className="uppercase font-mono bg-gray-600 p-1 rounded text-yellow-100">
+          <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
             New
           </span>{' '}
           Our{' '}
@@ -254,7 +254,7 @@ export function TracksPreview() {
           </h2>
           <Accordion.Root
             type="multiple"
-            className="!mt-0"
+            className="mt-0!"
             value={['09', 'ES']}
           >
             <AccordionItem value="09">
@@ -336,7 +336,7 @@ const AccordionTrigger = ({
   <Accordion.Header>
     <Accordion.Trigger
       className={clsx(
-        'group flex items-center justify-between outline-none w-full hover:text-teal-300',
+        'group flex items-center justify-between outline-hidden w-full hover:text-teal-300',
         className,
       )}
       {...props}
