@@ -57,13 +57,14 @@ export function Hero() {
           <div className="text-center m-auto max-w-4xl space-y-3">
             <div>June 3-5 2025 • San Francisco</div>
             <h1 className="text-6xl font-bold">
-              The Biggest Technical AI conference in San Francisco
+              The Biggest Technical AI conference for Engineers, not Yappers
             </h1>
             <p>
-              Where the leading AI companies, AI founders, VPs of AI & AI
-              Engineers meet. Featuring an Expo floor showcasing 30+ companies
+              Where the leading AI labs, founders, VPs of AI & AI
+              Engineers meet, for the 3rd year running. 
+              {/* After over 2m views of our talks, Featuring an Expo floor showcasing 30+ companies
               pioneering the AI Engineering landscape, and over 100+ speakers
-              delivering talks and workshops across 12 tracks.
+              delivering talks and workshops across 12 tracks. */}
             </p>
 
             <div className="space-y-8 pb-5">

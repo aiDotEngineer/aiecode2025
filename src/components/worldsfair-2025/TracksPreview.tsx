@@ -231,7 +231,7 @@ export function TracksPreview() {
         />
         <div className="lg:flex-1 ">
           <h2 className="uppercase font-mono font-bold text-sm tracking-wide">
-            Jun 4 - Conference Day 1
+            Jun 5 - Conference Day 2
           </h2>
           <div className="text-white space-y-6">
             <Accordion.Root
