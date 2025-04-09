@@ -22,7 +22,7 @@ export function HeroBuyTickets(_props: { url?: string }) {
         </Button>
         <span className="self-center">or</span>
         <Button
-          className="flex-1 text-xs md:text-base"
+          className="flex-1 text-xs md:text-base hover:bg-neutral-600/40"
           ghost
           href="https://youtube.com/@aidotengineer"
           target="_blank"
