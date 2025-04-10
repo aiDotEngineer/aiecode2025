@@ -1,6 +1,13 @@
 import type { NextConfig } from "next";
 
 const directMappings = [
+  // nextjs has bugs when proxying to other nextjs apps via rewrites
+  // to do with rate limiting and image optimization allowlist domains 
+  // (we think based on chat with leerob)
+  // so we manually map some files
+  // so that they never have any doubt where to go
+
+  // Summit 2025
   '_next/static/chunks/8174-c15a74819405bf0e.js',
   '_next/static/chunks/4357-703e9877dcb85ed5.js',
   '_next/static/chunks/pages/summit/2023-11e5f65395741956.js',
@@ -29,7 +36,54 @@ const directMappings = [
   '_next/static/chunks/framework-09f5301a99d857c8.js',
   '_next/static/chunks/main-1467fc69bc161e11.js',
   '_next/static/chunks/pages/_app-f1ef4dff536bf3ae.js',
-  '_next/static/chunks/pages/summit/2025/schedule-c2911769402a39d2.js'
+  '_next/static/chunks/pages/summit/2025/schedule-c2911769402a39d2.js',
+
+  // WF 2024
+  '_next/static/css/37ac3f2f65087241.css',
+  '_next/static/chunks/webpack-ded7e1133b9539fc.js',
+  '_next/static/chunks/framework-09f5301a99d857c8.js',
+  '_next/static/chunks/main-1467fc69bc161e11.js',
+  '_next/static/chunks/pages/_app-f1ef4dff536bf3ae.js',
+  '_next/static/chunks/fa23c161-30ce7d8e0759d8ae.js',
+  '_next/static/chunks/f0845887-4e6c7f6a52b4a0d9.js',
+  '_next/static/chunks/df42570e-77c08f778f1cd949.js',
+  '_next/static/chunks/5ffe69ac-4f088ef99810fc68.js',
+  '_next/static/chunks/2b7766e5-f91fdab42332837b.js',
+  '_next/static/chunks/8174-c15a74819405bf0e.js',
+  '_next/static/chunks/1309-7ca815b0b6226217.js',
+  '_next/static/chunks/1789-854d42a8ea190aca.js',
+  '_next/static/chunks/1132-bbaf647ceaa772ea.js',
+  '_next/static/chunks/6510-7e2445e2b727cef2.js',
+  '_next/static/chunks/pages/worldsfair/2024-20dabe4c728b69d6.js',
+  '_next/static/QLEVzHuMPY3oFa0FuoasB/_buildManifest.js',
+  '_next/static/QLEVzHuMPY3oFa0FuoasB/_ssgManifest.js',
+  '_next/static/media/hero-placeholder.9446ab11.jpg',
+  '_next/static/media/rag.9c35b023.jpg',
+  '_next/static/media/gpus-and-inference.12af667f.jpg',
+  '_next/static/media/leadership.eb09300c.jpg',
+  '_next/static/media/Mona-Sans.var.37e1d48f.woff2',
+  '_next/static/media/worldsfair-white.cd2881ed.svg',
+  '_next/static/media/microsoft-gray-text.ca0b46a0.svg',
+  '_next/static/media/smolai-black.e7c3fbf2.svg',
+  '_next/static/media/logowall.374f7f45.png',
+  '_next/static/media/eric-ryan.71fd01b7.jpg',
+  '_next/static/media/dedy-kredo.3c623600.jpg',
+  '_next/static/media/pedro-tabio.56250c50.jpg',
+  '_next/static/media/eugene-yan.a8f7f324.jpg',
+  '_next/static/media/yanick.fab1bd5e.jpg',
+
+  // summit 2023
+  '_next/static/media/michele-catasta.36c364ee.jpg',
+  '_next/static/media/toran-bruce-richards.d44c5bc0.jpg',
+  '_next/static/media/logan-kilpatrick.84e6594e.jpg',
+  '_next/static/media/simon-fish.9494bc27.jpg',
+  '_next/static/media/shreya-rajpal.9ff1dd45.png',
+  '_next/static/media/simon-willison.0f0176f8.png',
+  '_next/static/media/mario-rodriguez.7fb92b85.jpg',
+  '_next/static/media/amelia-wattenberger.31ece45f.jpg',
+  '_next/static/media/eugene-yan.a8f7f324.jpg',
+  '_next/static/media/harrison-chase.6bfcd7d0.png',
+  '_next/static/media/jerry-liu.6ed13a0c.png',
   // '_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmichele-catasta.36c364ee.jpg&w=1920&q=75'
 ]
 
