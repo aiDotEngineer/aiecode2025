@@ -37,8 +37,27 @@ const directMappings = [
   '_next/static/chunks/main-1467fc69bc161e11.js',
   '_next/static/chunks/pages/_app-f1ef4dff536bf3ae.js',
   '_next/static/chunks/pages/summit/2025/schedule-c2911769402a39d2.js',
+  '_next/data/QLEVzHuMPY3oFa0FuoasB/en/summit/2025.json',
+  '_next/data/QLEVzHuMPY3oFa0FuoasB/en/summit/2025/schedule.json',
+  '_next/static/media/pieter.d6b49a9b.png',
+  '_next/static/media/nlw.231ddb7b.png',
+  '_next/static/media/ksenia.ba3218e7.png',
+  '_next/static/media/feb19-leadership-reception.b0a04a89.jpg',
+  '_next/static/media/feb19-leadership-expo.cf2f7f37.jpg',
+  '_next/static/media/feb20-leadership-session.33acfba7.jpg',
+  '_next/static/media/feb20-leadeship.a4cb0c13.jpg',
+  '_next/static/media/feb21-agent-session.fe0e77f0.jpg',
+  '_next/static/media/feb21-agent-expo.6d37d303.jpg',
+  '_next/static/media/feb22-workshops.34e18b59.jpg',
+  '_next/static/media/feb22-livestream.ddcb5dc8.jpg',
+  '/_next/static/chunks/4586-d6006eda16565b4e.js',
 
   // WF 2024
+  '_next/data/QLEVzHuMPY3oFa0FuoasB/en/worldsfair/2024.json',
+  '_next/data/QLEVzHuMPY3oFa0FuoasB/en/worldsfair/2024/schedule.json',
+  '_next/static/chunks/pages/worldsfair/2024/schedule-18de57a17e174374.js',
+  '_next/static/chunks/1973-628f65e8815bd92c.js',
+  '_next/static/chunks/4586-d6006eda16565b4e.js',
   '_next/static/css/37ac3f2f65087241.css',
   '_next/static/chunks/webpack-ded7e1133b9539fc.js',
   '_next/static/chunks/framework-09f5301a99d857c8.js',
@@ -127,6 +146,18 @@ const nextConfig: NextConfig = {
           source: `/${path}`,
           destination: `https://aie-summit.vercel.app/${path}`
         })),
+        {
+          source: '/_next/static/chunks/pages/summit/2025/schedule/:path*',
+          destination: 'https://aie-summit.vercel.app/_next/static/chunks/pages/summit/2025/schedule/:path*',
+        },
+        {
+          source: '/_next/data/QLEVzHuMPY3oFa0FuoasB/en/worldsfair/2024/schedule/:path*',
+          destination: 'https://aie-summit.vercel.app/_next/data/QLEVzHuMPY3oFa0FuoasB/en/worldsfair/2024/schedule/:path*',
+        },
+        {
+          source: '/_next/static/chunks/pages/worldsfair/2024/:path*',
+          destination: 'https://aie-summit.vercel.app/_next/static/chunks/pages/worldsfair/2024/:path*',
+        },
         {
           source: '/summit/worldsfair-hero-bg.mp4',
           destination: 'https://aie-summit.vercel.app/worldsfair-hero-bg.mp4',
