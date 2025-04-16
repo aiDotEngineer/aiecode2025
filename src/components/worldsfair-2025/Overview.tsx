@@ -1,13 +1,13 @@
-import Image from 'next/image';
+import Image from "next/image";
 
-import imgLeadershipTrack1 from '~/images/worldsfair-2025/overview/leadership-track-1.jpg';
-import imgLeadershipTrack2 from '~/images/worldsfair-2025/overview/leadership-track-2.jpg';
-import imgOtherDays1 from '~/images/worldsfair-2025/overview/other-days-1.png';
-import imgOtherDays2 from '~/images/worldsfair-2025/overview/other-days-2.jpg';
-import imgSessionDays1 from '~/images/worldsfair-2025/overview/session-days-1.jpg';
-import imgSessionDays2 from '~/images/worldsfair-2025/overview/session-days-2.jpg';
-import imgWorkshops1 from '~/images/worldsfair-2025/overview/workshop-day-1.jpg';
-import imgWorkshops2 from '~/images/worldsfair-2025/overview/workshop-day-2.jpg';
+import imgLeadershipTrack1 from "~/images/worldsfair-2025/overview/leadership-track-1.jpg";
+import imgLeadershipTrack2 from "~/images/worldsfair-2025/overview/leadership-track-2.jpg";
+import imgOtherDays1 from "~/images/worldsfair-2025/overview/other-days-1.png";
+import imgOtherDays2 from "~/images/worldsfair-2025/overview/other-days-2.jpg";
+import imgSessionDays1 from "~/images/worldsfair-2025/overview/session-days-1.jpg";
+import imgSessionDays2 from "~/images/worldsfair-2025/overview/session-days-2.jpg";
+import imgWorkshops1 from "~/images/worldsfair-2025/overview/workshop-day-1.jpg";
+import imgWorkshops2 from "~/images/worldsfair-2025/overview/workshop-day-2.jpg";
 
 export function Overview() {
   return (
@@ -109,11 +109,12 @@ export function Overview() {
           <div className="text-gray-on-white text-base">/ June 4 - 5</div>
           <h2 className="text-3xl font-bold">AI Architects Track</h2>
           <p className="text-gray-on-white text-base">
-            <b>Exclusive track for VPs & Execs.</b> All the eng tracks and workshops, plus
-            access to the exclusive leadership track where you'll get learn from
-            & connect with highly experienced technical business leaders, along
-            with facilitated discussions, & exclusive access to closed-door 
-            sit-down breakfasts and lunches on both session days.
+            <b>Exclusive track for VPs & Execs.</b> All the eng tracks and
+            workshops, plus access to the exclusive leadership track where
+            you'll get learn from & connect with highly experienced technical
+            business leaders, along with facilitated discussions, & exclusive
+            access to closed-door sit-down breakfasts and lunches on both
+            session days.
           </p>
           <hr />
           <p className="text-gray-on-white text-base">
@@ -144,16 +145,21 @@ export function Overview() {
           <h2 className="text-3xl font-bold">
             Pre-party, Hackathons, Afterparty, and Other SF AI Events
           </h2>
-            {/* Come for the World's Fair, stay for the SF AI scene! <br /> */}
+          {/* Come for the World's Fair, stay for the SF AI scene! <br /> */}
           <p className="text-gray-on-white text-base">
             Our partners and friends organized these side events last year:
           </p>
           <p className="text-gray-on-white text-base">
-            <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">IMPORTANT</span>{' '}
-            These are 2024 events - email{' '}
-            <a href="mailto:sponsors@ai.engineer" className="text-blue-500 hover:text-blue-400">
-              sponsors@ai.engineer
-            </a>{' '}
+            <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
+              IMPORTANT
+            </span>{" "}
+            These are 2024 events - email{" "}
+            <a
+              href="mailto:sponsorships@ai.engineer"
+              className="text-blue-500 hover:text-blue-400"
+            >
+              sponsorships@ai.engineer
+            </a>{" "}
             to organize a 2025 side event!
           </p>
           {/* <p className=""> */}
@@ -196,7 +202,7 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1 font-bold"
               >
                 the GenLab x AIEWF Amplifying Humans Hackathon
-              </a>{' '}
+              </a>{" "}
               (winners present at AIEWF!)
             </li>
             <li>
@@ -247,7 +253,7 @@ export function Overview() {
                 className="font-bold text-blue-700 hover:text-blue-500 mx-1"
               >
                 Cheers in the Clouds
-              </a>{' '}
+              </a>{" "}
               with Crusoe (onsite!)
             </li>
             <li>
@@ -258,7 +264,7 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 Emergence.ai Rooftop Afterparty
-              </a>{' '}
+              </a>{" "}
               to celebrate Launch
             </li>
             <li>
@@ -269,7 +275,7 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 AIEWF Rooftop Happy Hour
-              </a>{' '}
+              </a>{" "}
               Presented by Galileo, Cohere and Baseten
             </li>
             <li>
@@ -280,7 +286,7 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 Replicate After-After Party
-              </a>{' '}
+              </a>{" "}
               7pm-10pm
             </li>
             <li>
@@ -291,7 +297,7 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1 font-bold"
               >
                 HF0 Demo Day
-              </a>{' '}
+              </a>{" "}
               (inside the AIEWF Expo Sessions!)
             </li>
             <li>
@@ -302,7 +308,7 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 AI Builders Dinner
-              </a>{' '}
+              </a>{" "}
               by BCV
             </li>
             <li>
@@ -313,7 +319,7 @@ export function Overview() {
                 className="font-bold text-blue-700 hover:text-blue-500 mx-1"
               >
                 Anthropic x AWS Happy Hour
-              </a>{' '}
+              </a>{" "}
               Talks, networking, demos!
             </li>
             <li>
@@ -341,22 +347,22 @@ export function Overview() {
           <p className="text-gray-on-white text-base">
             With much of the AI world flying in to SF, there are lots of
             meetings and side events that will be organized in the surrounding
-            days.{' '}
+            days.{" "}
             <b>
               We recommend flying in for the whole week from Monday through
               Friday
-            </b>{' '}
+            </b>{" "}
             so as not to miss out.
           </p>
           <p className="text-gray-on-white text-base">
             <b>If you are organizing an event around the week of June 1-8</b>,
-            please{' '}
+            please{" "}
             <a
               href="mailto:info@ai.engineer"
               className="text-blue-700 hover:text-blue-500"
             >
               get in touch with us
-            </a>{' '}
+            </a>{" "}
             to list on our calendar for attendees to find you!
           </p>
         </div>

@@ -1,7 +1,7 @@
-import imgAieExpo from '~/images/worldsfair-2025/aie-expo.jpg';
-import { Button } from '../Button';
-import { useWorldsFair2025 } from '../ChoosePrimaryLayout';
-import { Logo } from '../Logos';
+import imgAieExpo from "~/images/worldsfair-2025/aie-expo.jpg";
+import { Button } from "../Button";
+import { useWorldsFair2025 } from "../ChoosePrimaryLayout";
+import { Logo } from "../Logos";
 
 export function ExpoPreview() {
   const { CONTACT_URL } = useWorldsFair2025();
@@ -24,10 +24,10 @@ export function ExpoPreview() {
             </p>
             <p className="text-white-on-black">
               We'll be announcing our Expo partners soon. If you'd like to learn
-              more about exhibiting at this event, email{' '}
+              more about exhibiting at this event, email{" "}
               <a href={CONTACT_URL} className="text-teal-400">
                 sponsorships@ai.engineer
-              </a>{' '}
+              </a>{" "}
               from your company account.
             </p>
             <Button invert href={CONTACT_URL} className="block w-52">
@@ -53,14 +53,18 @@ export function Expo() {
         </p>
       </header>
       <p className="text-center">
-        <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">IMPORTANT</span>{' '}
-        Email{' '}
-        <a href="mailto:sponsors@ai.engineer" className="text-blue-500 hover:text-blue-400">
-          sponsors@ai.engineer
-        </a>{' '}
+        <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
+          IMPORTANT
+        </span>{" "}
+        Email{" "}
+        <a
+          href="mailto:sponsorships@ai.engineer"
+          className="text-blue-500 hover:text-blue-400"
+        >
+          sponsorships@ai.engineer
+        </a>{" "}
         to be in the 2025 Expo!
       </p>
-
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 items-center justify-items-center gap-x-8 gap-y-10">
         <a
@@ -166,7 +170,7 @@ export function Expo() {
           <Logo
             logo="databricks"
             className="object-contain"
-            style={{ transform: 'scale(1.4)' }}
+            style={{ transform: "scale(1.4)" }}
           />
         </a>
         <a href="https://friendli.ai" target="_blank">
@@ -176,14 +180,14 @@ export function Expo() {
           <Logo
             logo="vespa"
             className="object-contain"
-            style={{ transform: 'scale(0.7)' }}
+            style={{ transform: "scale(0.7)" }}
           />
         </a>
         <a href="https://www.matillion.com/" target="_blank">
           <Logo
             logo="matillion"
             className="object-contain"
-            style={{ transform: 'scale(0.8)' }}
+            style={{ transform: "scale(0.8)" }}
           />
         </a>
         <a

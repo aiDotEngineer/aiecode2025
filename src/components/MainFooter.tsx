@@ -1,28 +1,27 @@
- 
-import { useState } from 'react';
-import Link from 'next/link';
-import { IoMdCheckmark } from 'react-icons/io';
+import { useState } from "react";
+import Link from "next/link";
+import { IoMdCheckmark } from "react-icons/io";
 
-import { Container } from './Container';
-import { Logo } from './Logos';
-import { NewsletterFormTwo } from './Newsletter';
-import { PrimaryFooter } from './PrimaryFooter';
-import { SocialMedia } from './SocialMedia';
+import { Container } from "./Container";
+import { Logo } from "./Logos";
+import { NewsletterFormTwo } from "./Newsletter";
+import { PrimaryFooter } from "./PrimaryFooter";
+import { SocialMedia } from "./SocialMedia";
 
 export function MainFooter() {
   const [success, setSuccess] = useState<null | boolean>(null);
 
-  const sponsorInquiry = new URL('mailto:sponsors@ai.engineer');
+  const sponsorInquiry = new URL("mailto:sponsorships@ai.engineer");
   sponsorInquiry.searchParams.set(
-    'subject',
-    "AIE World's Fair 2024 Sponsor Inquiry",
+    "subject",
+    "AIE World's Fair 2024 Sponsor Inquiry"
   );
 
-  const TWITTER_URL = 'https://twitter.com/aidotengineer';
-  const YOUTUBE_URL = 'https://www.youtube.com/@aiDotEngineer';
+  const TWITTER_URL = "https://twitter.com/aidotengineer";
+  const YOUTUBE_URL = "https://www.youtube.com/@aiDotEngineer";
 
-  const contact = new URL('mailto:info@ai.engineer');
-  contact.searchParams.set('subject', "AIE World's Fair 2024 Contact");
+  const contact = new URL("mailto:info@ai.engineer");
+  contact.searchParams.set("subject", "AIE World's Fair 2024 Contact");
 
   return (
     <footer className="mt-10">
@@ -50,7 +49,7 @@ export function MainFooter() {
             <div className="space-y-4">
               <b className="block">Connect</b>
               <Link
-                href={sponsorInquiry.toString().replaceAll('+', '%20')}
+                href={sponsorInquiry.toString().replaceAll("+", "%20")}
                 className="block text-gray-on-white text-sm"
                 target="_blank"
               >
@@ -71,7 +70,7 @@ export function MainFooter() {
                 Scholarships
               </a>
               <Link
-                href={contact.toString().replaceAll('+', '%20')}
+                href={contact.toString().replaceAll("+", "%20")}
                 className="block text-gray-on-white text-sm"
               >
                 Contact Us
@@ -95,9 +94,7 @@ export function MainFooter() {
           </div>
           <div className="max-lg:mt-10 space-y-4">
             <b>Join the AI.Engineer newsletter</b>
-            <p>
-              Stay up to date on the AI Engineering industry!
-            </p>
+            <p>Stay up to date on the AI Engineering industry!</p>
             {success === null && (
               <NewsletterFormTwo onSuccess={() => setSuccess(true)} />
             )}
