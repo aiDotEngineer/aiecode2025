@@ -141,6 +141,142 @@ export function Expo() {
             className="object-contain w-[90%] self-center"
           />
         </a>
+        <a
+          href="https://agentuity.com"
+          target="_blank"
+          className="inline-block"
+        >
+          <Logo
+            logo="agentuity"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://wandb.ai" target="_blank" className="inline-block">
+          <Logo
+            logo="weightsBiases"
+            className="inline-block h-12 w-42 md:h-20 md:w-64 object-contain mx-6"
+          />
+        </a>
+        <a href="https://sierra.ai" target="_blank" className="inline-block">
+          <Logo
+            logo="sierra"
+            className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
+          />
+        </a>
+        <a
+          href="https://www.vellum.ai"
+          target="_blank"
+          className="inline-block"
+        >
+          <Logo
+            logo="vellum"
+            className="inline-block h-12 w-24 md:h-20 md:w-42 object-contain mx-6"
+          />
+        </a>
+        <a href="https://gensx.com" target="_blank" className="inline-block">
+          <Logo
+            logo="gensx"
+            variant="black"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://redis.com" target="_blank" className="inline-block">
+          <Logo
+            logo="redis"
+            className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
+          />
+        </a>
+        <a href="https://langbase.com" target="_blank" className="inline-block">
+          <Logo
+            logo="langbase"
+            variant="black"
+            className="inline-block h-12 w-32 md:h-20 md:w-48 object-contain mx-6"
+          />
+        </a>
+        <a href="https://twilio.com" target="_blank" className="inline-block">
+          <Logo
+            logo="twilio"
+            className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
+          />
+        </a>
+        <a href="https://descope.com" target="_blank" className="inline-block">
+          <Logo
+            logo="descope"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a
+          href="https://superannotate.com"
+          target="_blank"
+          className="inline-block"
+        >
+          <Logo
+            logo="superannotate"
+            className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
+          />
+        </a>
+        <a
+          href="https://unstructured.io"
+          target="_blank"
+          className="inline-block"
+        >
+          <Logo
+            logo="unstructured"
+            className="inline-block h-12 w-12 md:h-20 md:w-20 object-contain mx-6"
+          />
+        </a>
+        <a href="https://baz.co" target="_blank" className="inline-block">
+          <Logo
+            logo="baz"
+            variant="black"
+            className="inline-block h-12 w-18 md:h-20 md:w-28 object-contain mx-6"
+          />
+        </a>
+        <a href="https://vessl.ai" target="_blank" className="inline-block">
+          <Logo
+            logo="vessl"
+            variant="black"
+            className="inline-block h-12 w-32 md:h-20 md:w-54 object-contain mx-6"
+          />
+        </a>
+        <a href="https://riza.ai" target="_blank" className="inline-block">
+          <Logo
+            logo="riza"
+            variant="black"
+            className="inline-block h-12 w-16 md:h-20 md:w-24 object-contain mx-6"
+          />
+        </a>
+        <a href="https://tambo.co" target="_blank" className="inline-block">
+          <Logo
+            logo="tambo"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://sentry.io" target="_blank" className="inline-block">
+          <Logo
+            logo="sentry"
+            variant="black"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://xpander.ai" target="_blank" className="inline-block">
+          <Logo
+            logo="xpander"
+            variant="black"
+            className="inline-block h-12 w-32 md:h-20 md:w-54 object-contain mx-6"
+          />
+        </a>
+        <a
+          href="https://thomsonreuters.com"
+          target="_blank"
+          className="inline-block"
+        >
+          <Logo
+            logo="thompsonReuters"
+            className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
+          />
+        </a>
+        
 
         {/* dd */}
         {/* dd */}
