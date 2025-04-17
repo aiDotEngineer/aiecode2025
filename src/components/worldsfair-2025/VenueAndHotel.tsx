@@ -121,7 +121,7 @@ export function VenueAndHotel() {
       </div>
       <div className="text-center">
         <div className="inline-flex flex-col gap-6 md:flex-row items-center">
-          <b>Book your hotel room today:</b>
+          <b>Book your hotel room today with our discounts:</b>
           <div className="space-x-6">
             <Button
               invert
