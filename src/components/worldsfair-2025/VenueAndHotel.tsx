@@ -67,8 +67,9 @@ export function VenueAndHotel() {
           <p className="text-gray-on-white text-base">
             One of the largest hotels in the city, and conveniently located
             downtown near public transportation and plenty of cafes,
-            restaurants, bars, and sights, the Marriott Marquis is an ideal
-            choice to host the AI Engineer World's Fair.
+            restaurants, bars, and sights, the Marriott Marquis (780 Mission 
+            St, San Francisco, CA 94103) was our choice to host the first AI 
+            Engineer World's Fair in 2024 and we are excited to return!
           </p>
           <p className="text-gray-on-white text-base">
             The hotel's Yerba Buena Ballroom is the largest pillarless ballroom
@@ -110,10 +111,10 @@ export function VenueAndHotel() {
           <div className="space-y-3">
             <h2 className="text-3xl font-bold">Hotel Rooms</h2>
             <p className="text-gray-on-white text-base">
-              We have limited hotel number of rooms at the Marquis available for
-              a negotiated rate of $299. We also have a limited number of
-              overflow hotel rooms at Hotel Nikko, a 7-minute walk away, for
-              $229.
+              We have limited hotel number of rooms at the Marriott Marquis (also the conf venue) 
+              available for a negotiated rate of $399 from May 29-Jun 7. 
+              We also have a limited number of overflow hotel rooms at the Beacon Grand, a 10-minute walk away, for
+              $289 - Type in Group Code: <span className="font-mono font-bold">0601AEWF</span>!
             </p>
           </div>
         </div>
@@ -131,14 +132,14 @@ export function VenueAndHotel() {
               Marriott Marquis
             </Button>
             
-            {/* <Button
+            <Button
               invert
               border
-              href="https://book.passkey.com/gt/220003757?gtid=e4ae3508bb4f3cc4a7a949396ca2cd57"
+              href="https://www.beacongrand.com/group-blocks"
               target="_blank"
             >
-              Hotel Nikko
-            </Button> */}
+              Beacon Grand (Code: 0601AEWF)
+            </Button>
           </div>
         </div>
       </div>
