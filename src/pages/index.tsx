@@ -1,33 +1,32 @@
-import type { InferGetServerSidePropsType } from 'next';
-import Image from 'next/image';
-import clsx from 'clsx';
+import type { InferGetServerSidePropsType } from "next";
+import Image from "next/image";
+import clsx from "clsx";
 
 // import { getPresenters } from '@pkg/api/src/cms2/presenters';
 // import { getSchedule } from '@pkg/api/src/cms2/schedule';
 
-import { Container } from '~/components/Container';
-import { Quote } from '~/components/Quote';
-import { TestimonialCarousel } from '~/components/Testimonials';
-import { useAppBannerContext } from '~/components/worldsfair-2025/AppBanner';
-import { Counters } from '~/components/worldsfair-2025/Counters';
-import { Expo } from '~/components/worldsfair-2025/Expo';
-import { FreeRemoteTicket } from '~/components/worldsfair-2025/FreeRemoteTicket';
-import { FromTheTeam } from '~/components/worldsfair-2025/FromTheTeam';
-import { Hero } from '~/components/worldsfair-2025/Hero';
-import { Overview } from '~/components/worldsfair-2025/Overview';
-import { Section } from '~/components/worldsfair-2025/Section';
-import { SpeakerPreview } from '~/components/worldsfair-2025/SpeakerPreview';
-import { Sponsors } from '~/components/worldsfair-2025/Sponsors';
-import { TicketTable } from '~/components/worldsfair-2025/TicketTable';
-import { TracksPreview } from '~/components/worldsfair-2025/TracksPreview';
-import { VenueAndHotel } from '~/components/worldsfair-2025/VenueAndHotel';
-import { WhatsNext } from '~/components/worldsfair-2025/WhatsNext';
-import { Workshops } from '~/components/worldsfair-2025/Workshops';
-import LogoWall from '~/images/worldsfair-2025/logowall.png';
+import { Container } from "~/components/Container";
+import { Quote } from "~/components/Quote";
+import { TestimonialCarousel } from "~/components/Testimonials";
+import { useAppBannerContext } from "~/components/worldsfair-2025/AppBanner";
+import { Counters } from "~/components/worldsfair-2025/Counters";
+import { Expo } from "~/components/worldsfair-2025/Expo";
+import { FreeRemoteTicket } from "~/components/worldsfair-2025/FreeRemoteTicket";
+import { FromTheTeam } from "~/components/worldsfair-2025/FromTheTeam";
+import { Hero } from "~/components/worldsfair-2025/Hero";
+import { Overview } from "~/components/worldsfair-2025/Overview";
+import { Section } from "~/components/worldsfair-2025/Section";
+import { SpeakerPreview } from "~/components/worldsfair-2025/SpeakerPreview";
+import { Sponsors } from "~/components/worldsfair-2025/Sponsors";
+import { TicketTable } from "~/components/worldsfair-2025/TicketTable";
+import { TracksPreview } from "~/components/worldsfair-2025/TracksPreview";
+import { VenueAndHotel } from "~/components/worldsfair-2025/VenueAndHotel";
+import { WhatsNext } from "~/components/worldsfair-2025/WhatsNext";
+import { Workshops } from "~/components/worldsfair-2025/Workshops";
+import LogoWall from "~/images/worldsfair-2025/logowall.png";
 
 // type Props = InferGetServerSidePropsType<typeof getStaticProps>;
 // export default function Page({ sessionEvents, presenters, tracks }: Props) {
-
 
 export default function Page({ sessionEvents, presenters, tracks }: any) {
   const isBannerVisible = useAppBannerContext();
@@ -36,7 +35,7 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
   // );
 
   return (
-    <div className={clsx('text-black text-lg', { 'pt-8': isBannerVisible })}>
+    <div className={clsx("text-black text-lg", { "pt-8": isBannerVisible })}>
       <Hero />
 
       <Section roundTop>
@@ -88,21 +87,24 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
               concurrently, whereas the second has{' '}
               <b>Multimodality, GPUs, Evals, and Agents</b> tracks.
               <br /> <br />  */}
-              You can walk the <b>World's Fair Expo</b> (ft. 30+
-              booths across the AI Engineering landscape) on any of the 3 days,
-              while <b>Keynote, and AI Leadership sessions</b> span the 2
-              conference days. There are also plenty of breaks for the most
-              important track of all: the "hallway track"!
+              You can walk the <b>World's Fair Expo</b> (ft. 30+ booths across
+              the AI Engineering landscape) on any of the 3 days, while{" "}
+              <b>Keynote, and AI Leadership sessions</b> span the 2 conference
+              days. There are also plenty of breaks for the most important track
+              of all: the "hallway track"!
             </p>
 
             <p>
               <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
                 IMPORTANT
-              </span>{' '}
-              The schedule is not yet announced, but you can see the 
-              <a href="/worldsfair/2024/schedule" className="text-blue-500 font-bold hover:text-blue-400">
-              {' 2024 schedule '}
-              </a> 
+              </span>{" "}
+              The schedule is not yet announced, but you can see the
+              <a
+                href="/worldsfair/2024/schedule"
+                className="text-blue-500 font-bold hover:text-blue-400"
+              >
+                {" 2024 schedule "}
+              </a>
               for an idea.
               {/* Our{' '}
               <a
@@ -120,9 +122,9 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
         <Workshops items={workshops} />
       </Section> */}
 
-      {/* <Section>
+      <Section>
         <Expo />
-      </Section> */}
+      </Section>
 
       <Quote name="andrej-karpathy" />
 

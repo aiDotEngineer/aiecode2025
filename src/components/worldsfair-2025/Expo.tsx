@@ -42,7 +42,7 @@ export function ExpoPreview() {
 
 export function Expo() {
   return (
-    <div className="space-y-12">
+    <div className="space-y-12" id="expo">
       <header className="space-y-6">
         <h1 className="text-5xl font-bold">The AI Engineer Expo</h1>
         <p className="max-w-2xl text-gray-on-white">
@@ -52,19 +52,6 @@ export function Expo() {
           product teams and developers like you.
         </p>
       </header>
-      <p className="text-center">
-        <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
-          IMPORTANT
-        </span>{" "}
-        Email{" "}
-        <a
-          href="mailto:sponsorships@ai.engineer"
-          className="text-blue-500 hover:text-blue-400"
-        >
-          sponsorships@ai.engineer
-        </a>{" "}
-        to be in the 2025 Expo!
-      </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 items-center justify-items-center gap-x-8 gap-y-10">
         <a
@@ -78,95 +65,90 @@ export function Expo() {
           />
         </a>
         <a href="https://aws.amazon.com/ai" target="_blank">
-          <Logo logo="aws" className="object-contain" />
+          <Logo logo="aws" className="object-contain scale-120" />
         </a>
-        <a
-          href="https://www.mongodb.com/solutions/use-cases/artificial-intelligence"
-          target="_blank"
-        >
-          <Logo logo="mongodb" className="object-contain" />
+
+        <a href="https://windsurf.com" target="_blank">
+          <Logo logo="windsurf" className="object-contain" />
         </a>
-        <a href="https://cloud.google.com" target="_blank">
-          <Logo logo="googleCloud" className="object-contain" />
+        <a href="https://mongodb.com" target="_blank">
+          <Logo logo="mongodb" className="object-contain scale-110" />
+        </a>
+        <a href="https://graphite.dev" target="_blank">
+          <Logo logo="graphite" variant="black" className="object-contain" />
+        </a>
+        <a href="https://daily.co" target="_blank">
+          <Logo
+            logo="daily"
+            variant="black"
+            className="object-contain w-[80%] m-auto"
+          />
         </a>
         <a href="https://neo4j.com" target="_blank">
           <Logo logo="neo4j" className="object-contain" />
         </a>
-        <a href="https://sourcegraph.com" target="_blank">
-          <Logo logo="sourcegraph" className="object-contain" />
+        <a href="https://hasura.io" target="_blank">
+          <Logo logo="hasura" className="object-contain" />
         </a>
-        {/* <a href="https://www.modular.com" target="_blank">
-          <Logo logo="modular" variant="black" className="object-contain" />
-        </a> */}
-        <a href="https://www.datastax.com" target="_blank">
-          <Logo logo="datastax" variant="black" className="object-contain" />
-        </a>
-        <a href="https://www.rungalileo.io" target="_blank">
+        <a href="https://rungalileo.io" target="_blank">
           <Logo
             logo="galileo"
             variant="colorBlack"
             className="object-contain"
           />
         </a>
-        <a href="https://neptune.ai" target="_blank">
-          <Logo logo="neptuneai" className="object-contain" />
+        <a href="https://sourcegraph.com" target="_blank">
+          <Logo logo="sourcegraph" className="object-contain" />
         </a>
-        <a href="https://lambdalabs.com" target="_blank">
-          <Logo logo="lambda" variant="black" className="object-contain" />
+        <a href="https://llamaindex.ai" target="_blank">
+          <Logo logo="llamaIndex" variant="black" className="object-contain" />
         </a>
-        <a href="https://octo.ai" target="_blank">
-          <Logo logo="octoai" className="object-contain" />
+        <a href="https://temporal.io" target="_blank">
+          <Logo logo="temporal" variant="black" className="object-contain" />
         </a>
-        <a href="https://www.covalent.xyz" target="_blank">
-          <Logo logo="covalent" variant="black" className="object-contain" />
+        <a href="https://baseten.co/" target="_blank">
+          <Logo logo="baseten" className="object-contain" />
         </a>
-        <a href="https://hasura.io" target="_blank">
-          <Logo logo="hasura" className="object-contain" />
-        </a>
-        <a href="https://www.crusoe.ai" target="_blank">
-          <Logo logo="crusoe" className="object-contain" />
-        </a>
-        <a href="https://wow.groq.com/" target="_blank">
-          <Logo logo="groq" className="object-contain" />
-        </a>
-        <a href="https://fireworks.ai/" target="_blank">
-          <Logo logo="fireworks" className="object-contain" />
-        </a>
-        <a href="https://deepgram.com" target="_blank">
-          <Logo logo="deepgram" variant="black" className="object-contain" />
-        </a>
-        <a href="https://wandb.ai/site" target="_blank">
-          <Logo logo="weightsBiases" className="object-contain scale-110" />
-        </a>
-        <a href="https://www.twilio.com/en-us" target="_blank">
-          <Logo logo="twilio" className="object-contain scale-110" />
-        </a>
-        <a href="https://airtrain.ai" target="_blank">
-          <Logo logo="airtrain" className="object-contain" />
-        </a>
-        <a href="https://trunktools.com" target="_blank">
-          <Logo logo="trunkTools" variant="black" className="object-contain" />
-        </a>
-        <a href="https://www.substrate.run" target="_blank">
-          <Logo logo="substrate" variant="black" className="object-contain" />
-        </a>
-        <a href="https://cleric.io" target="_blank">
-          <Logo logo="cleric" variant="black" className="object-contain" />
-        </a>
-        <a href="https://www.elastic.co" target="_blank">
+        <a href="https://elastic.co" target="_blank">
           <Logo logo="elastic" className="object-contain" />
         </a>
-        <a href="https://www.moveai.com" target="_blank">
-          <Logo logo="moveai" className="object-contain" />
-        </a>
-        <a href="https://writer.com" target="_blank">
+        <a href="https://withorb.com/ai" target="_blank">
           <Logo
-            logo="writer"
+            logo="orb"
             variant="black"
-            className="object-contain scale-75"
+            className="object-contain w-[80%] m-auto"
           />
         </a>
-        <a href="https://www.databricks.com" target="_blank">
+        <a href="https://gitpod.io" target="_blank">
+          <Logo logo="gitpod" className="object-contain" />
+        </a>
+        <a href="https://freeplay.ai" target="_blank">
+          <Logo logo="freeplay" variant="black" className="object-contain" />
+        </a>
+        <a href="https://dagger.io/" target="_blank">
+          <Logo logo="dagger" className="object-contain" />
+        </a>
+        <a href="https://traceloop.com" target="_blank">
+          <Logo logo="traceloop" variant="color" className="object-contain" />
+        </a>
+        <a href="https://ai.pydantic.dev" target="_blank">
+          <Logo logo="pydantic" variant="color" className="object-contain" />
+        </a>
+        <a href="https://arize.com" target="_blank" className="inline-block">
+          <Logo
+            logo="arize"
+            variant="color"
+            className="object-contain w-[90%] self-center"
+          />
+        </a>
+
+        {/* dd */}
+        {/* dd */}
+        {/* dd */}
+        {/* dd */}
+        {/* dd */}
+
+        {/* <a href="https://www.databricks.com" target="_blank">
           <Logo
             logo="databricks"
             className="object-contain"
@@ -176,49 +158,23 @@ export function Expo() {
         <a href="https://friendli.ai" target="_blank">
           <Logo logo="friendliAI" className="object-contain scale-110" />
         </a>
-        <a href="https://vespa.ai" target="_blank">
-          <Logo
-            logo="vespa"
-            className="object-contain"
-            style={{ transform: "scale(0.7)" }}
-          />
-        </a>
-        <a href="https://www.matillion.com/" target="_blank">
-          <Logo
-            logo="matillion"
-            className="object-contain"
-            style={{ transform: "scale(0.8)" }}
-          />
-        </a>
+              
         <a
           className="flex items-center justify-center"
           href="https://snyk.io/platform/deepcode-ai/"
           target="_blank"
         >
-          {/**
+          
            * When we use a scale, we don't change the minimum content size of the logo
            * and thus the parent <a> tag does not shrink to fit the content. It stays
            * expanded to be the height and width of the unscaled logo.
            *
            * By using a width instead, we constrain the logo to a max width inside the parent
            * and thus don't take up any extra vertical height.
-           */}
+           
           <Logo logo="snyk" className="object-contain w-[60%]" />
         </a>
-        <a
-          className="flex items-center justify-center"
-          href="https://snyk.io/platform/deepcode-ai/"
-          target="_blank"
-        >
-          <Logo logo="openpipe" className="object-contain w-[90%]" />
-        </a>
-        <a
-          className="flex items-center justify-center"
-          href="https://www.emergence.ai"
-          target="_blank"
-        >
-          <Logo logo="emergence" className="object-contain w-[90%]" />
-        </a>
+        */}
       </div>
     </div>
   );
