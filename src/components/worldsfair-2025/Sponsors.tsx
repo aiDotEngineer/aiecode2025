@@ -227,23 +227,30 @@ export function Sponsors() {
             className="inline-block h-18 w-44 md:h-24 md:w-64 object-contain mx-6"
           />
         </a>
+        <a href="https://arize.com" target="_blank" className="inline-block">
+          <Logo
+            logo="arize"
+            variant="color"
+            className="inline-block h-18 w-32 md:h-24 md:w-48 object-contain mx-6"
+          />
+        </a>
       </div>
 
       <div className="space-y-6 text-center">
         <div className="uppercase font-bold text-gray-on-white">
           Silver Sponsors
         </div>
-        <a href="https://agentuity.ai" target="_blank" className="inline-block">
+        <a
+          href="https://agentuity.com"
+          target="_blank"
+          className="inline-block"
+        >
           <Logo
             logo="agentuity"
             className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
-        <a
-          href="https://weightsandbiases.com"
-          target="_blank"
-          className="inline-block"
-        >
+        <a href="https://wandb.ai" target="_blank" className="inline-block">
           <Logo
             logo="weightsBiases"
             className="inline-block h-12 w-42 md:h-20 md:w-64 object-contain mx-6"
@@ -255,7 +262,11 @@ export function Sponsors() {
             className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
           />
         </a>
-        <a href="https://vellum.com" target="_blank" className="inline-block">
+        <a
+          href="https://www.vellum.ai"
+          target="_blank"
+          className="inline-block"
+        >
           <Logo
             logo="vellum"
             className="inline-block h-12 w-24 md:h-20 md:w-42 object-contain mx-6"
@@ -274,11 +285,11 @@ export function Sponsors() {
             className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
           />
         </a>
-        <a href="https://langbase.ai" target="_blank" className="inline-block">
+        <a href="https://langbase.com" target="_blank" className="inline-block">
           <Logo
             logo="langbase"
             variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
+            className="inline-block h-12 w-32 md:h-20 md:w-48 object-contain mx-6"
           />
         </a>
         <a href="https://twilio.com" target="_blank" className="inline-block">

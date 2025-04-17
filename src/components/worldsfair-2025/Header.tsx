@@ -1,17 +1,15 @@
- 
- 
-import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import clsx from 'clsx';
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import clsx from "clsx";
 
-import { useWorldsFair2025 } from '~/components/ChoosePrimaryLayout';
-import { Button } from '../Button';
-import { Container } from '../Container';
-import { CloseMenuButton, NavLink, OpenMenuButton } from '../header-utils';
-import { Logo } from '../Logos';
-import { SocialMedia } from '../SocialMedia';
-import { AppBanner } from './AppBanner';
-import { HeaderProfile } from './HeaderProfile';
+import { useWorldsFair2025 } from "~/components/ChoosePrimaryLayout";
+import { Button } from "../Button";
+import { Container } from "../Container";
+import { CloseMenuButton, NavLink, OpenMenuButton } from "../header-utils";
+import { Logo } from "../Logos";
+import { SocialMedia } from "../SocialMedia";
+import { AppBanner } from "./AppBanner";
+import { HeaderProfile } from "./HeaderProfile";
 
 type Props = {
   path: string;
@@ -33,7 +31,7 @@ export function Header({ path }: Props) {
 
   // Paths that should have transparent hero menu
   // (usually the first page of the conference)
-  const transparent = ['/worldsfair/2025'].includes(path);
+  const transparent = ["/"].includes(path);
 
   const rootClassNames = {
     fixed,
@@ -41,11 +39,11 @@ export function Header({ path }: Props) {
   };
 
   const headerClassNames = {
-    'opacity-0': navOpen,
-    'bg-white': fixed,
-    'shadow-md': fixed,
-    'text-black': fixed,
-    'text-white': transparent && !fixed,
+    "opacity-0": navOpen,
+    "bg-white": fixed,
+    "shadow-md": fixed,
+    "text-black": fixed,
+    "text-white": transparent && !fixed,
   };
 
   useEffect(() => {
@@ -58,14 +56,14 @@ export function Header({ path }: Props) {
       }
     };
     handleScroll();
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [fixed]);
 
   return (
-    <div className={clsx('w-screen top-0 z-50', rootClassNames)}>
+    <div className={clsx("w-screen top-0 z-50", rootClassNames)}>
       <div className="fixed w-screen top-0 z-50">
         <DropdownNav navOpen={navOpen} setNavOpen={setNavOpen} />
       </div>
@@ -78,7 +76,7 @@ export function Header({ path }: Props) {
             <Link href={CONF_URL} aria-label="Home">
               <Logo
                 logo="worldsFair"
-                variant={transparent && !fixed ? 'white' : 'black'}
+                variant={transparent && !fixed ? "white" : "black"}
               />
             </Link>
 
@@ -165,27 +163,27 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
   } = useWorldsFair2025();
 
   const classNames = {
-    'h-0': !navOpen,
-    'max-md:h-screen': navOpen,
-    'md:h-[700px]': navOpen,
-    'border-b border-white shadow-2xl': navOpen,
+    "h-0": !navOpen,
+    "max-md:h-screen": navOpen,
+    "md:h-[700px]": navOpen,
+    "border-b border-white shadow-2xl": navOpen,
   };
 
   useEffect(() => {
     const listener = () => {
       setNavOpen(false);
     };
-    window.addEventListener('click', listener);
+    window.addEventListener("click", listener);
     return () => {
-      window.removeEventListener('click', listener);
+      window.removeEventListener("click", listener);
     };
   }, [setNavOpen]);
 
   return (
     <div
       className={clsx(
-        'bg-black text-white overflow-scroll transition-all duration-300 ease-in-out',
-        classNames,
+        "bg-black text-white overflow-scroll transition-all duration-300 ease-in-out",
+        classNames
       )}
       onClick={(e) => {
         e.stopPropagation();

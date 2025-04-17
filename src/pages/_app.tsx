@@ -1,15 +1,12 @@
-import { type AppType } from 'next/app';
-import Head from 'next/head';
-import { Analytics } from '@vercel/analytics/react';
-
-import { api } from '~/support/api';
-
-import '~/styles/tailwind.css';
-
-import React from 'react';
+import { type AppType } from "next/app";
+import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
+import { api } from "~/support/api";
+import "~/styles/tailwind.css";
+import React from "react";
 
 // import ChatBot from '~/components/chat/ChatBot';
-import { ChoosePrimaryLayout } from '~/components/ChoosePrimaryLayout';
+import { ChoosePrimaryLayout } from "~/components/ChoosePrimaryLayout";
 
 type Session = {
   id: string;
