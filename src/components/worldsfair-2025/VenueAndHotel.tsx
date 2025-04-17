@@ -92,13 +92,14 @@ export function VenueAndHotel() {
           />
           <div className="space-y-3">
             <h2 className="text-3xl font-bold">
-              View Lounge: VP Pass Exclusive
+              View Lounge: VIP Exclusive
             </h2>
             <p className="text-gray-on-white text-base">
-              Attendees who purchase the VP pass get exclusive access to the
-              leadership track, which utilizes the top-floor View Lounge as a
-              VIP welcome reception on June 3rd in addition to daytime
-              facilitated discussions & open networking on the 4th and 5th.
+              Speakers and Attendees who purchase the AI Leadership pass get 
+              exclusive access to the AI Architects track, which utilizes the
+              top-floor View Lounge as a VIP welcome reception on June 3rd in 
+              addition to daytime facilitated discussions & open networking on 
+              the 4th and 5th.
             </p>
           </div>
         </div>
