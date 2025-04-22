@@ -37,8 +37,6 @@ const directMappings = [
   '_next/static/chunks/main-1467fc69bc161e11.js',
   '_next/static/chunks/pages/_app-f1ef4dff536bf3ae.js',
   '_next/static/chunks/pages/summit/2025/schedule-c2911769402a39d2.js',
-  '_next/data/QLEVzHuMPY3oFa0FuoasB/en/summit/2025.json',
-  '_next/data/QLEVzHuMPY3oFa0FuoasB/en/summit/2025/schedule.json',
   '_next/static/media/pieter.d6b49a9b.png',
   '_next/static/media/nlw.231ddb7b.png',
   '_next/static/media/ksenia.ba3218e7.png',
@@ -53,8 +51,6 @@ const directMappings = [
   '/_next/static/chunks/4586-d6006eda16565b4e.js',
 
   // WF 2024
-  '_next/data/QLEVzHuMPY3oFa0FuoasB/en/worldsfair/2024.json',
-  '_next/data/QLEVzHuMPY3oFa0FuoasB/en/worldsfair/2024/schedule.json',
   '_next/static/chunks/pages/worldsfair/2024/schedule-18de57a17e174374.js',
   '_next/static/chunks/1973-628f65e8815bd92c.js',
   '_next/static/chunks/4586-d6006eda16565b4e.js',
@@ -92,6 +88,7 @@ const directMappings = [
   '_next/static/media/yanick.fab1bd5e.jpg',
 
   // summit 2023
+  '_next/static/chunks/pages/summit/2023/schedule-3440b9292a036354.js',
   '_next/static/media/michele-catasta.36c364ee.jpg',
   '_next/static/media/toran-bruce-richards.d44c5bc0.jpg',
   '_next/static/media/logan-kilpatrick.84e6594e.jpg',
@@ -147,6 +144,19 @@ const nextConfig: NextConfig = {
           destination: `https://aie-summit.vercel.app/${path}`
         })),
         {
+          // have to use regexes because these invalidate when aie repo rebuilds
+          source: '/_next/data/:hash([A-Za-z0-9]+)/en/summit/2025/:path*',
+          destination: 'https://aie-summit.vercel.app/_next/data/:hash/en/summit/2025/:path*',
+        },
+        {
+          source: '/_next/data/:hash([A-Za-z0-9]+)/en/worldsfair/2024/:path*',
+          destination: 'https://aie-summit.vercel.app/_next/data/:hash/en/summit/2024/:path*',
+        },
+        {
+          source: '/_next/data/:hash([A-Za-z0-9]+)/en/summit/2023/:path*',
+          destination: 'https://aie-summit.vercel.app/_next/data/:hash/en/summit/2023/:path*',
+        },
+        {
           source: '/_next/static/chunks/pages/summit/2025/schedule/:path*',
           destination: 'https://aie-summit.vercel.app/_next/static/chunks/pages/summit/2025/schedule/:path*',
         },
@@ -161,6 +171,10 @@ const nextConfig: NextConfig = {
         {
           source: '/summit/worldsfair-hero-bg.mp4',
           destination: 'https://aie-summit.vercel.app/worldsfair-hero-bg.mp4',
+        },
+        {
+          source: '/llm.txt',
+          destination: '/llms.txt',
         }
       ],
       afterFiles: [
