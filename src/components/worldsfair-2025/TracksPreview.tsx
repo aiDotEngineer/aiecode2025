@@ -1,62 +1,73 @@
-import React, { useState } from 'react';
-import * as Accordion from '@radix-ui/react-accordion';
+import React, { useState } from "react";
+import * as Accordion from "@radix-ui/react-accordion";
 import {
   type AccordionContentProps,
   type AccordionItemProps,
   type AccordionTriggerProps,
-} from '@radix-ui/react-accordion';
-import clsx from 'clsx';
-import { LuChevronDown } from 'react-icons/lu';
+} from "@radix-ui/react-accordion";
+import clsx from "clsx";
+import { LuChevronDown } from "react-icons/lu";
+import { Logo } from "../Logos";
 
-import imgAIAgents from '~/images/worldsfair-2025/tracks/ai-agents.jpg';
-import imgCodegen from '~/images/worldsfair-2025/tracks/codegen-and-devtools.jpg';
-import imgEvals from '~/images/worldsfair-2025/tracks/evals.jpg';
-import imgFortune500 from '~/images/worldsfair-2025/tracks/fortune-500.jpg';
-import imgGPUS from '~/images/worldsfair-2025/tracks/gpus-and-inference.jpg';
-import imgLeadership from '~/images/worldsfair-2025/tracks/leadership.jpg';
-import imgMultimodality from '~/images/worldsfair-2025/tracks/multimodality.jpg';
-import imgOSSModels from '~/images/worldsfair-2025/tracks/oss-models.jpg';
-import imgRag from '~/images/worldsfair-2025/tracks/rag.jpg';
-import { Logo } from '../Logos';
+import imgExpo from "~/images/worldsfair-2025/tracks/expo.jpg";
+import imgAIArchitects from "~/images/worldsfair-2025/tracks/ai-architects.jpg";
+import imgEvals from "~/images/worldsfair-2025/tracks/evals.jpg";
+import imgRevivalSearchRecommendation from "~/images/worldsfair-2025/tracks/retrieval-search-recommendation-systems.jpg";
+import imgSecurity from "~/images/worldsfair-2025/tracks/security.jpg";
+import imgGenerativeMedia from "~/images/worldsfair-2025/tracks/generative-media.jpg";
+import imgComputerUsingAgents from "~/images/worldsfair-2025/tracks/computer-using-agents.jpg";
+import imgSWEAgents from "~/images/worldsfair-2025/tracks/swe-agents.jpg";
+import imgLocalLlama from "~/images/worldsfair-2025/tracks/r-local-llama.jpg";
+import imgModelContextProtocol from "~/images/worldsfair-2025/tracks/model-context-protocol.jpg";
+import imgGraphRAG from "~/images/worldsfair-2025/tracks/graph-rag.jpg";
+import imgAIInAction from "~/images/worldsfair-2025/tracks/ai-in-action.jpg";
+import imgVibeCoding from "~/images/worldsfair-2025/tracks/vibe-coding.jpg";
+import imgVoiceSalesSupport from "~/images/worldsfair-2025/tracks/voice.jpg";
 
-type TrackTop = '01' | '02' | '03' | '04' | '05' | '06';
-type TrackBottom = '07' | '08' | '09' | '10' | '11' | '12';
+type GroupOne = "ES" | "00";
+type GroupTwo = "01" | "02" | "03" | "04" | "05" | "06";
+type GroupThree = "07" | "08" | "09" | "10" | "11" | "12";
 
 export function TracksPreview() {
-  const [selectedTrackTop, setSelectedTrackTop] = useState<TrackTop>('01');
-  const [selectedTrackBottom, setSelectedTrackBottom] =
-    useState<TrackBottom>('07');
+  const [selectedTrackGroupOne, setSelectedTrackGroupOne] = useState<GroupOne>("ES");
+  const [selectedTrackGroupTwo, setSelectedTrackGroupTwo] = useState<GroupTwo>("01");
+  const [selectedTrackGroupThree, setSelectedTrackGroupThree] = useState<GroupThree>("07");
 
-  const imageChoiceTop: Record<TrackTop, string> = {
-    '01': imgRag.src,
-    '02': imgOSSModels.src,
-    '03': imgCodegen.src,
-    '04': imgFortune500.src,
-    '05': imgRag.src,
-    '06': imgOSSModels.src,
+  const imageChoiceGroupOne: Record<GroupOne, string> = {
+    ES: imgExpo.src,
+    "00": imgAIArchitects.src,
   } as const;
 
-  const imageChoiceBottom: Record<TrackBottom, string> = {
-    '07': imgMultimodality.src,
-    '08': imgGPUS.src,
-    '09': imgEvals.src,
-    '10': imgAIAgents.src,
-    '11': imgMultimodality.src,
-    '12': imgGPUS.src,
+  const imageChoiceGroupTwo: Record<GroupTwo, string> = {
+    "01": imgEvals.src,
+    "02": imgRevivalSearchRecommendation.src,
+    "03": imgSecurity.src,
+    "04": imgGenerativeMedia.src,
+    "05": imgComputerUsingAgents.src,
+    "06": imgSWEAgents.src,
+  } as const;
+
+  const imageChoiceGroupThree: Record<GroupThree, string> = {
+    "07": imgLocalLlama.src,
+    "08": imgModelContextProtocol.src,
+    "09": imgGraphRAG.src,
+    "10": imgAIInAction.src,
+    "11": imgVibeCoding.src,
+    "12": imgVoiceSalesSupport.src,
   } as const;
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-12" id="tracks">
       <header className="text-center space-y-3">
         <h1 className="text-5xl">
           <b>Survey The State of AI Engineering</b>
         </h1>
         <p className="max-w-xl m-auto text-gray-on-black text-justify">
-          With 12 tracks and over 100 sessions, you can design the program
-          schedule that perfectly matches your business needs. There are up to 5
-          simultaneous sessions running at any one time, so it's a good thing we
-          have a <code className="bg-slate-800 mx-1 p-1 rounded-sm">GROUP</code>{' '}
-          discount for teams attending together!
+          With 12 tracks and over 100 sessions, you can design the program schedule that perfectly
+          matches your business needs. There are up to 5 simultaneous sessions running at any one
+          time, so it's a good thing we have a{" "}
+          <code className="bg-slate-800 mx-1 p-1 rounded-sm">GROUP</code> discount for teams
+          attending together!
         </p>
         {/* <p>
           <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
@@ -74,10 +85,16 @@ export function TracksPreview() {
         <p>
           <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
             IMPORTANT
-          </span>{' '}
+          </span>{" "}
           2025 tracks are NOT FINAL - more will be announced once speaker CFP closes!
           <br />
-          <a href="https://sessionize.com/ai-engineer-worlds-fair-2025" className="text-blue-300 font-bold hover:text-blue-100">Apply to speak here</a>!
+          <a
+            href="https://sessionize.com/ai-engineer-worlds-fair-2025"
+            className="text-blue-300 font-bold hover:text-blue-100"
+          >
+            Apply to speak here
+          </a>
+          !
         </p>
       </header>
 
@@ -85,7 +102,7 @@ export function TracksPreview() {
         <div
           className=" max-w-64 max-lg:h-80 lg:flex-1 bg-center bg-contain bg-no-repeat"
           style={{
-            backgroundImage: `url(${imgLeadership.src})`,
+            backgroundImage: `url(${imageChoiceGroupOne[selectedTrackGroupOne]})`,
           }}
         />
         <div className="lg:flex-1 ">
@@ -93,40 +110,33 @@ export function TracksPreview() {
             Jun 4-5 - Both Conference Days
           </h2>
           <Accordion.Root
-            type="multiple"
+            type="single"
             className="mt-0!"
-            value={['ES', '00']}
+            value={selectedTrackGroupOne}
+            onValueChange={(v: GroupOne) => setSelectedTrackGroupOne(v)}
           >
             <AccordionItem value="ES">
-              <AccordionTrigger value="ES">
-                Expo Sessions and Hallway Track!
-              </AccordionTrigger>
+              <AccordionTrigger value="ES">Expo Sessions and Hallway Track!</AccordionTrigger>
               <AccordionContent>
-                Access to the World's Fair Expo gets you access to
-                dedicated sessions from 30+ speakers,{' '} (2024 speakers) 
-                <b>
-                  Microsoft, AWS, Google, MongoDB, Neo4j, Perplexity, and more
-                </b>, as well as the all important Hallway Track (aka the best 
-                way to network with 3000+ AI Engineers)!
+                Access to the World's Fair Expo gets you access to dedicated sessions from 30+
+                speakers, (2024 speakers)
+                <b>Microsoft, AWS, Google, MongoDB, Neo4j, Perplexity, and more</b>, as well as the
+                all important Hallway Track (aka the best way to network with 3000+ AI Engineers)!
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="00">
               <AccordionTrigger value="00">AI Architects</AccordionTrigger>
               <AccordionContent>
-                Our highest rated, exclusive closed-door track for AI leaders (CTOs, VPs of AI,
-                and AI Architects at &gt;1000 person enterprises) 
-                How do you effectively lead an AI
-                Product or Engineering team in 2025? Defining AI Strategy,
-                technical direction, org design, hiring/growing, and build/buy
-                decisions. Executive briefings and roundtables on AI platform
-                engineering, model building, evals and FMOps, inference
-                optimization, code maintenance and technical debt, AI Engineer
-                hiring, and more, directly from the top CEOs and technical
-                leaders working in this space, from (2024 speakers) {' '}
+                Our highest rated, exclusive closed-door track for AI leaders (CTOs, VPs of AI, and
+                AI Architects at &gt;1000 person enterprises) How do you effectively lead an AI
+                Product or Engineering team in 2025? Defining AI Strategy, technical direction, org
+                design, hiring/growing, and build/buy decisions. Executive briefings and roundtables
+                on AI platform engineering, model building, evals and FMOps, inference optimization,
+                code maintenance and technical debt, AI Engineer hiring, and more, directly from the
+                top CEOs and technical leaders working in this space, from (2024 speakers){" "}
                 <b>
-                  OpenAI, Cohere, NVIDIA, Sourcegraph, Weights & Biases,
-                  HumanLoop, Khan Academy, Twilio, Hex, Neo4j, Tola/Microsoft,
-                  PredictionGuard
+                  OpenAI, Cohere, NVIDIA, Sourcegraph, Weights & Biases, HumanLoop, Khan Academy,
+                  Twilio, Hex, Neo4j, Tola/Microsoft, PredictionGuard
                 </b>
                 , and more.
               </AccordionContent>
@@ -138,7 +148,7 @@ export function TracksPreview() {
         <div
           className="max-lg:h-80 lg:flex-1 bg-center bg-contain bg-no-repeat"
           style={{
-            backgroundImage: `url(${imageChoiceBottom[selectedTrackBottom]})`,
+            backgroundImage: `url(${imageChoiceGroupTwo[selectedTrackGroupTwo]})`,
           }}
         />
         <div className="lg:flex-1 ">
@@ -148,18 +158,16 @@ export function TracksPreview() {
           <div className="text-white space-y-6">
             <Accordion.Root
               type="single"
-              value={selectedTrackTop}
-              onValueChange={(v: TrackTop) => setSelectedTrackTop(v)}
+              value={selectedTrackGroupTwo}
+              onValueChange={(v: GroupTwo) => setSelectedTrackGroupTwo(v)}
             >
               <AccordionItem value="01">
-                <AccordionTrigger value="01">
-                  Evals and Agent Reliability
-                </AccordionTrigger>
+                <AccordionTrigger value="01">Evals and Agent Reliability</AccordionTrigger>
                 <AccordionContent>
-                  Explore frontier LLM evals, new benchmarks, and practical advice 
-                  for product evals. Special focus on making AI capabilities consistent 
-                  and reliable, with case studies on real-world implementations. 
-                  Looking for both LLM-as-Judge and Human-in-the-loop approaches.
+                  Explore frontier LLM evals, new benchmarks, and practical advice for product
+                  evals. Special focus on making AI capabilities consistent and reliable, with case
+                  studies on real-world implementations. Looking for both LLM-as-Judge and
+                  Human-in-the-loop approaches.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="02">
@@ -167,55 +175,45 @@ export function TracksPreview() {
                   Retrieval, Search, and Recommendation Systems
                 </AccordionTrigger>
                 <AccordionContent>
-                  Comprehensive coverage of RAG techniques and LLM-improved 
-                  recommendation systems. Looking for both new techniques and 
-                  one-stop surveys of the field. Special focus on implementations 
-                  at consumer-facing companies and real-world applications.
+                  Comprehensive coverage of RAG techniques and LLM-improved recommendation systems.
+                  Looking for both new techniques and one-stop surveys of the field. Special focus
+                  on implementations at consumer-facing companies and real-world applications.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="03">
-                <AccordionTrigger value="03">
-                  AI Security and Infrastructure
-                </AccordionTrigger>
+                <AccordionTrigger value="03">AI Security and Infrastructure</AccordionTrigger>
                 <AccordionContent>
-                  Covering hallucination, prompt injection, guardrails, data privacy, 
-                  compliance, and authentication. Infrastructure topics include 
-                  GPU neoclouds, real-time inference, data centers, and scaling 
-                  agent fleets. Special focus on practical security implementations 
-                  and infrastructure best practices.
+                  Covering hallucination, prompt injection, guardrails, data privacy, compliance,
+                  and authentication. Infrastructure topics include GPU neoclouds, real-time
+                  inference, data centers, and scaling agent fleets. Special focus on practical
+                  security implementations and infrastructure best practices.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="04">
-                <AccordionTrigger value="04">
-                  Generative Media and AI Design
-                </AccordionTrigger>
+                <AccordionTrigger value="04">Generative Media and AI Design</AccordionTrigger>
                 <AccordionContent>
-                  Explore models, products, and platforms for generating images, 
-                  audio, and video. Special focus on AI-powered design experiences, 
-                  novel AI UX, and translating image generation into real products. 
-                  Looking for both production processes and thought-provoking demos.
+                  Explore models, products, and platforms for generating images, audio, and video.
+                  Special focus on AI-powered design experiences, novel AI UX, and translating image
+                  generation into real products. Looking for both production processes and
+                  thought-provoking demos.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="05">
-                <AccordionTrigger value="05">
-                  Computer-Using Agents (CUA)
-                </AccordionTrigger>
+                <AccordionTrigger value="05">Computer-Using Agents (CUA)</AccordionTrigger>
                 <AccordionContent>
-                  Explore the world of web search, browser, and other computer-using agents. 
-                  Topics include long-running agent architectures, screen vision accuracy, 
-                  and building general purpose agents with memory, planning, and autonomy. 
-                  Special focus on practical implementations and real-world applications.
+                  Explore the world of web search, browser, and other computer-using agents. Topics
+                  include long-running agent architectures, screen vision accuracy, and building
+                  general purpose agents with memory, planning, and autonomy. Special focus on
+                  practical implementations and real-world applications.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="06">
-                <AccordionTrigger value="06">
-                  SWE Agents
-                </AccordionTrigger>
+                <AccordionTrigger value="06">SWE Agents</AccordionTrigger>
                 <AccordionContent>
-                  Covering both inner loop and outer loop agents for software engineers. 
-                  Topics include automating development workflows, AI-assisted debugging, 
-                  refactoring, code review, and enterprise software development acceleration. 
-                  Looking for practical implementations and real-world case studies.
+                  Covering both inner loop and outer loop agents for software engineers. Topics
+                  include automating development workflows, AI-assisted debugging, refactoring, code
+                  review, and enterprise software development acceleration. Looking for practical
+                  implementations and real-world case studies.
                 </AccordionContent>
               </AccordionItem>
             </Accordion.Root>
@@ -226,7 +224,7 @@ export function TracksPreview() {
         <div
           className="max-lg:h-80 lg:flex-1 bg-center bg-contain bg-no-repeat"
           style={{
-            backgroundImage: `url(${imageChoiceTop[selectedTrackTop]})`,
+            backgroundImage: `url(${imageChoiceGroupThree[selectedTrackGroupThree]})`,
           }}
         />
         <div className="lg:flex-1 ">
@@ -236,82 +234,70 @@ export function TracksPreview() {
           <div className="text-white space-y-6">
             <Accordion.Root
               type="single"
-              value={selectedTrackBottom}
-              onValueChange={(v: TrackBottom) => setSelectedTrackBottom(v)}
+              value={selectedTrackGroupThree}
+              onValueChange={(v: GroupThree) => setSelectedTrackGroupThree(v)}
             >
               <AccordionItem value="07">
-                <AccordionTrigger value="07">
-                  /r/LocalLlama
-                </AccordionTrigger>
+                <AccordionTrigger value="07">/r/LocalLlama</AccordionTrigger>
                 <AccordionContent>
-                  Explore the world of local inference and open source models. Topics include 
-                  launches of open weights models, adapting models for business needs, 
-                  local inference tools and platforms, and personal/private agents. 
-                  Special focus on practical applications and real-world implementations.
+                  Explore the world of local inference and open source models. Topics include
+                  launches of open weights models, adapting models for business needs, local
+                  inference tools and platforms, and personal/private agents. Special focus on
+                  practical applications and real-world implementations.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="08">
-                <AccordionTrigger value="08">
-                  Model Context Protocol (MCP)
-                </AccordionTrigger>
+                <AccordionTrigger value="08">Model Context Protocol (MCP)</AccordionTrigger>
                 <AccordionContent>
-                  Deep dive into MCP <b>ft. the Anthropic MCP team</b>! with a focus on hard problems 
-                  in integration, including new clients, stateful/stateless transports, 
-                  sampling, auth, observability, and service discovery. Looking for 
-                  nontrivial demos and external contributions to the protocol.
+                  Deep dive into MCP <b>ft. the Anthropic MCP team</b>! with a focus on hard
+                  problems in integration, including new clients, stateful/stateless transports,
+                  sampling, auth, observability, and service discovery. Looking for nontrivial demos
+                  and external contributions to the protocol.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="09">
                 <AccordionTrigger value="09">GraphRAG</AccordionTrigger>
                 <AccordionContent>
-                  Explore the intersection of knowledge graphs and RAG. Topics include 
-                  appropriate use of knowledge graphs for enhanced retrieval, architectures 
-                  for building GraphRAG applications, real-world case studies, and 
-                  special focus on agent graph memory. All database and knowledge graph 
-                  experts welcome.
+                  Explore the intersection of knowledge graphs and RAG. Topics include appropriate
+                  use of knowledge graphs for enhanced retrieval, architectures for building
+                  GraphRAG applications, real-world case studies, and special focus on agent graph
+                  memory. All database and knowledge graph experts welcome.
                   <a
                     className="flex items-center gap-3 mt-3"
                     href=" https://www.neo4j.com/"
                     target="_blank"
                   >
                     <span>Track Sponsor</span>
-                    <Logo logo="neo4j" variant="colorWhite" />
+                    <Logo logo="neo4j" variant="white" />
                   </a>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="10">
-                <AccordionTrigger value="10">
-                  AI in Action
-                </AccordionTrigger>
+                <AccordionTrigger value="10">AI in Action</AccordionTrigger>
                 <AccordionContent>
-                  Practical advice on using AI tooling to improve productivity. 
-                  Focus on power users sharing their life/work productivity hacks, 
-                  with special attention to practical implementations and real-world 
-                  applications. Looking for users who can demonstrate effective 
-                  integration of AI tools into daily workflows - not vendors shilling
+                  Practical advice on using AI tooling to improve productivity. Focus on power users
+                  sharing their life/work productivity hacks, with special attention to practical
+                  implementations and real-world applications. Looking for users who can demonstrate
+                  effective integration of AI tools into daily workflows - not vendors shilling
                   their products.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="11">
-                <AccordionTrigger value="11">
-                  Vibe Coding
-                </AccordionTrigger>
+                <AccordionTrigger value="11">Vibe Coding</AccordionTrigger>
                 <AccordionContent>
-                  Explore code agents for non-technical people building ephemeral software 
-                  and low code prototypes. Topics include best practices, troubleshooting, 
-                  and live demos of vibe coding in action. Looking for both positive and 
-                  negative perspectives on this emerging approach to software development.
+                  Explore code agents for non-technical people building ephemeral software and low
+                  code prototypes. Topics include best practices, troubleshooting, and live demos of
+                  vibe coding in action. Looking for both positive and negative perspectives on this
+                  emerging approach to software development.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="12">
-                <AccordionTrigger value="12">
-                  Voice and Sales/Support Agents
-                </AccordionTrigger>
+                <AccordionTrigger value="12">Voice and Sales/Support Agents</AccordionTrigger>
                 <AccordionContent>
-                  Covering real-time voice AI, speech models, and AI-powered customer support. 
-                  Topics include voice agent personalization, context retention, function calling, 
-                  and using AI to enhance ticket resolution and customer interactions. 
-                  Looking for practical implementations and real-world case studies.
+                  Covering real-time voice AI, speech models, and AI-powered customer support.
+                  Topics include voice agent personalization, context retention, function calling,
+                  and using AI to enhance ticket resolution and customer interactions. Looking for
+                  practical implementations and real-world case studies.
                 </AccordionContent>
               </AccordionItem>
             </Accordion.Root>
@@ -327,15 +313,11 @@ type AccordionItemType = {
   className?: string;
 } & AccordionItemProps;
 
-const AccordionItem = ({
-  children,
-  className,
-  ...props
-}: AccordionItemType) => (
+const AccordionItem = ({ children, className, ...props }: AccordionItemType) => (
   <Accordion.Item
     className={clsx(
-      'overflow-hidden focus-within:relative focus-within:z-10 py-6 border-b border-gray-700',
-      className,
+      "overflow-hidden focus-within:relative focus-within:z-10 py-6 border-b border-gray-700",
+      className
     )}
     {...props}
   >
@@ -349,17 +331,12 @@ type AccordionTriggerType = {
   className?: string;
 } & AccordionTriggerProps;
 
-const AccordionTrigger = ({
-  children,
-  value,
-  className,
-  ...props
-}: AccordionTriggerType) => (
+const AccordionTrigger = ({ children, value, className, ...props }: AccordionTriggerType) => (
   <Accordion.Header>
     <Accordion.Trigger
       className={clsx(
-        'group flex items-center justify-between outline-hidden w-full hover:text-teal-300',
-        className,
+        "group flex items-center justify-between outline-hidden w-full hover:text-teal-300",
+        className
       )}
       {...props}
     >
@@ -380,15 +357,11 @@ type AccordionContentType = {
   className?: string;
 } & AccordionContentProps;
 
-const AccordionContent = ({
-  children,
-  className,
-  ...props
-}: AccordionContentType) => (
+const AccordionContent = ({ children, className, ...props }: AccordionContentType) => (
   <Accordion.Content
     className={clsx(
-      'data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden',
-      className,
+      "data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden",
+      className
     )}
     {...props}
   >

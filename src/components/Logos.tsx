@@ -121,6 +121,7 @@ import moveAI from "~/images/logos/moveai.svg";
 import mozilla from "~/images/logos/mozilla.svg";
 import neaBlack from "~/images/logos/nea_logo.png";
 import neo4j from "~/images/logos/neo4j.svg";
+import neo4jWhite from "~/images/logos/neo4j-white.svg";
 import neptuneai from "~/images/logos/neptuneai.svg";
 import notionBlack from "~/images/logos/notion-black.svg";
 import notionWhite from "~/images/logos/notion-white.svg";
@@ -203,11 +204,7 @@ export function pickLogos(keys: Key[]) {
   });
 }
 
-export function getLogo(
-  key: Key,
-  variant: string,
-  extras?: Record<string, string>
-) {
+export function getLogo(key: Key, variant: string, extras?: Record<string, string>) {
   const logoObj: Logo = logos[key] ?? ({} as Logo);
   const logo = logoObj[variant as keyof Logo] ?? "";
 
@@ -223,9 +220,7 @@ type Logo = {
   colorWhite?: StaticImageData | string;
 };
 
-const defineLogos = <T extends Record<string, Logo>>(
-  obj: T
-): { [K in keyof T]: Logo } => obj;
+const defineLogos = <T extends Record<string, Logo>>(obj: T): { [K in keyof T]: Logo } => obj;
 
 export const logos = defineLogos({
   cogrevPod: {
@@ -661,6 +656,7 @@ export const logos = defineLogos({
   neo4j: {
     name: "neo4j",
     color: neo4j,
+    white: neo4jWhite,
   },
   neptuneai: {
     name: "Neptune.ai",
