@@ -57,7 +57,7 @@ export function TracksPreview() {
   } as const;
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-12" id="tracks">
       <header className="text-center space-y-3">
         <h1 className="text-5xl">
           <b>Survey The State of AI Engineering</b>
@@ -268,7 +268,7 @@ export function TracksPreview() {
                     target="_blank"
                   >
                     <span>Track Sponsor</span>
-                    <Logo logo="neo4j" variant="colorWhite" />
+                    <Logo logo="neo4j" variant="color" />
                   </a>
                 </AccordionContent>
               </AccordionItem>
