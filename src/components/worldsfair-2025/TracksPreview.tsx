@@ -268,7 +268,7 @@ export function TracksPreview() {
                     target="_blank"
                   >
                     <span>Track Sponsor</span>
-                    <Logo logo="neo4j" variant="color" />
+                    <Logo logo="neo4j" variant="white" />
                   </a>
                 </AccordionContent>
               </AccordionItem>
