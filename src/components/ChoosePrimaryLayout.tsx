@@ -62,7 +62,7 @@ function worldsFair2025Context() {
     SCHOLARSHIPS_URL:
       "https://docs.google.com/forms/d/e/1FAIpQLSdVf9reEpVyzw_sb9cAOtzxORGTEskcb5PTX2X-GPZ_onUtHw/viewform?usp=sf_link",
     VOLUNTEER_URL:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfyb93_81hG3ht8wm966dlSXMAoP9S5YUzPLLFZ7E_BefyjQA/viewform?usp=sf_link",
+      "https://docs.google.com/forms/d/e/1FAIpQLSewGzjGQ51Uv453Qa6XFI9cRz2fmqvgtTfvciuvc4xJs9I3AA/viewform",
 
     VENUE_URL: `${CONF_URL}#venue`,
     // Mailto

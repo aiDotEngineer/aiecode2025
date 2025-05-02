@@ -175,6 +175,10 @@ const nextConfig: NextConfig = {
         {
           source: '/llm.txt',
           destination: '/llms.txt',
+        },
+        {
+          source: '/volunteer',
+          destination: '/https://docs.google.com/forms/d/e/1FAIpQLSewGzjGQ51Uv453Qa6XFI9cRz2fmqvgtTfvciuvc4xJs9I3AA/viewform',
         }
       ],
       afterFiles: [
