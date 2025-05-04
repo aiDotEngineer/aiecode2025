@@ -22,7 +22,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const filter = searchParams.get('filter') ?? '';
+  const filter = searchParams?.get('filter') ?? '';
 
   const [showPlenary, setShowPlenary] = useLocalStorage('showPlenary', true);
   const dateMenuRef = useRef<HTMLDivElement>(null);
@@ -140,7 +140,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
 
             <select
               onChange={(e) => {
-                const params = new URLSearchParams(searchParams.toString());
+                const params = new URLSearchParams(searchParams?.toString() || '');
                 params.set('filter', e.target.value);
                 router.push(`${pathname}?${params.toString()}`);
               }}
