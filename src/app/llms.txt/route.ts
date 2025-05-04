@@ -1,9 +1,34 @@
-# AI Engineer World’s Fair 2025
+import { NextResponse } from 'next/server';
+import {
+  Day1Tracks,
+  Day2Tracks,
+  LeadershipTracks,
+  type Track
+} from '~/utils/trackData';
+
+// Set revalidation time (e.g., 1 hour)
+export const revalidate = 3600;
+
+function formatTracksToText(tracks: Track[], dayLabel: string): string {
+  let text = `--- ${dayLabel} ---\n\n`;
+  tracks.forEach(track => {
+    text += `Title: ${track.trackTitle}\n`;
+    text += `Description: ${track.trackDescription}\n\n`;
+    // Add subDesc if it exists (as requested removed previously, but useful here)
+    if (track.subDesc) {
+      text += `  Note: ${track.subDesc}\n\n`;
+    }
+  });
+  return text;
+}
+
+const frontCopy = `
+# AI Engineer World's Fair 2025
 
 ## Overview
 
 **June 3–5, 2025 • San Francisco**  
-The AI Engineer World’s Fair is the largest technical conference for engineers working in AI today. Returning for its third year, this event is where the leading AI labs, founders, VPs of AI, and engineers gather to share what they’re building and what’s next.
+The AI Engineer World's Fair is the largest technical conference for engineers working in AI today. Returning for its third year, this event is where the leading AI labs, founders, VPs of AI, and engineers gather to share what they're building and what's next.
 
 - ~3,000 attendees: Founders, VPs of AI, AI Engineers
 - ~150 launches and talks from top speakers
@@ -21,32 +46,16 @@ Organized by the team behind the AI Engineer Summit.
 - **Evening Welcome Reception** (4:00–7:00pm): Held in the Grand Assembly & Expo Hall. Open to all ticketholders.
 
 ### Wednesday & Thursday, June 4–5 – Conference Days
-- 12 tracks of talks, panels, and demos.
+- 20 tracks of talks, panels, and demos.
 - Keynotes from the biggest and most consequential labs and companies.
 - High-value hallway track and facilitated networking.
 - Workshops and exclusive access for "Conference + Workshop Pass" holders.
 
-## Tracks (Preliminary List)
+## Tracks
 
-### Day 1 – June 4
-- AI Architects (Invite-only track for AI leaders at large enterprises)
-- Evals and Agent Reliability
-- Retrieval, Search, and Recommendation Systems
-- AI Security and Infrastructure
-- Generative Media and AI Design
-- Computer-Using Agents (CUAs)
-- Software Engineering Agents
+`;
 
-### Day 2 – June 5
-- /r/LocalLlama (local inference, open models, personal agents)
-- Model Context Protocol (MCP)
-- GraphRAG
-- AI in Action
-- Vibe Coding
-- Voice and Sales/Support Agents
-
-**Note:** The 2025 tracks are not final and will be updated once the speaker CFP closes.  
-**[Apply to Speak](https://sessionize.com/ai-engineer-worlds-fair-2025)**
+const backCopy = `
 
 ## Expo
 
@@ -86,7 +95,7 @@ If you are organizing an event around June 1–8, email **sponsorships@ai.engine
 
 **Discounted rates:**
 - Marriott Marquis: $399/night (May 29–Jun 7)
-- Beacon Grand (10-min walk): $289/night with group code `0601AEWF`
+- Beacon Grand (10-min walk): $289/night with group code \`0601AEWF\`
 
 [Book Marriott Marquis](https://book.passkey.com/go/AIEngineer2025) | [Book Beacon Grand](https://www.beacongrand.com/) (use group code: 0601AEWF)
 
@@ -149,3 +158,35 @@ If you are organizing an event around June 1–8, email **sponsorships@ai.engine
 
 **Copyright © Software 3.0 LLC 2025**
 
+**Note:** The 2025 tracks are subject to change. Check the website for the latest updates.  
+**[Apply to Speak](https://sessionize.com/ai-engineer-worlds-fair-2025)**
+`;
+
+export async function GET() {
+  try {
+    let fullText = frontCopy; // Start with the static front copy
+
+    fullText += formatTracksToText(LeadershipTracks, "Leadership Tracks (Both Days)");
+    fullText += formatTracksToText(Day1Tracks, "Day 1 Tracks");
+    fullText += formatTracksToText(Day2Tracks, "Day 2 Tracks");
+
+    fullText += backCopy; // Append the static back copy
+
+    return new NextResponse(fullText, {
+      status: 200,
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8',
+        // Optional: Explicit Cache-Control (Next.js handles revalidate)
+        'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=60'
+      },
+    });
+  } catch (error) {
+    console.error("Error generating llms.txt:", error);
+    return new NextResponse('Internal Server Error', {
+      status: 500,
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8',
+      },
+    });
+  }
+} 
