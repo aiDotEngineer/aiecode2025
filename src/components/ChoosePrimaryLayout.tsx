@@ -23,7 +23,7 @@ export function ChoosePrimaryLayout({ children: page }: Props) {
     <AuthProvider>
       <EventContext.Provider value={worldsFair2025Context()}>
         <WorldsFair2025MetaTags />
-        <WorldsFair2025Header key={pathname} path={pathname} />
+        <WorldsFair2025Header key={pathname} path={pathname || ''} />
         {page}
         <WorldsFair2025Footer />
       </EventContext.Provider>
