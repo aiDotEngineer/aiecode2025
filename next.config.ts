@@ -178,7 +178,7 @@ const nextConfig: NextConfig = {
         },
         {
           source: '/volunteer',
-          destination: '/https://docs.google.com/forms/d/e/1FAIpQLSewGzjGQ51Uv453Qa6XFI9cRz2fmqvgtTfvciuvc4xJs9I3AA/viewform',
+          destination: 'https://docs.google.com/forms/d/e/1FAIpQLSewGzjGQ51Uv453Qa6XFI9cRz2fmqvgtTfvciuvc4xJs9I3AA/viewform',
         }
       ],
       afterFiles: [
