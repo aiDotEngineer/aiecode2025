@@ -26,7 +26,7 @@ export function Footer() {
   const [success, setSuccess] = useState<null | boolean>(null);
 
   return (
-    <footer className="mt-10">
+    <footer className="mt-10" id="footer">
       <Container>
         <div className="lg:flex lg:justify-between">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-3 whitespace-nowrap">

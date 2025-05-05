@@ -104,6 +104,18 @@ export function Header({ path }: Props) {
                     </Link> */}
                     <Link
                       className="font-bold max-lg:hidden"
+                      href={'https://www.youtube.com/@aiDotEngineer'}
+                    >
+                      Past Conferences
+                    </Link>
+                    <Link
+                      className="font-bold max-lg:hidden"
+                      href={'/llms.txt'}
+                    >
+                      llms.txt
+                    </Link>
+                    <Link
+                      className="font-bold max-lg:hidden"
                       href={SPONSORS_URL}
                     >
                       Sponsors

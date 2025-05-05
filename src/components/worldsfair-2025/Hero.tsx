@@ -87,7 +87,7 @@ export function Hero() {
               className="w-40 lg:w-44"
             />
           </a>
-          <a href="https://smol.ai" target="_blank">
+          <a href="https://news.smol.ai" target="_blank">
             <Logo logo="smolai" variant="black" className="w-24 lg:w-28" />
           </a>
         </div>

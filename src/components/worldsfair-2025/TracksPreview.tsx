@@ -34,13 +34,13 @@ export function TracksPreview() {
   return (
     <div className="space-y-12" id="tracks">
       <header className="text-center space-y-3">
-        <h1 className="text-5xl">
-          <b>Survey The State of AI Engineering</b>
+        <h1 className="text-5xl mb-12">
+          <b>The SOTA in AI Engineering All In One Place</b>
         </h1>
         <p className="max-w-xl m-auto text-gray-on-black text-justify">
-          With 12 tracks and over 100 sessions, you can design the program schedule that perfectly
-          matches your business needs. There are up to 5 simultaneous sessions running at any one
-          time, so it's a good thing we have a{" "}
+          With 20 tracks and over 150 sessions, you can design the program schedule that perfectly
+          matches your business needs. <b>There are up to 10 simultaneous sessions running at any one
+          time</b>, so it's a good thing we have a{" "}
           <code className="bg-slate-800 mx-1 p-1 rounded-sm">GROUP</code> discount for teams
           attending together!
         </p>
@@ -57,7 +57,7 @@ export function TracksPreview() {
           </a>
           .
         </p> */}
-        <p>
+        {/* <p>
           <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
             IMPORTANT
           </span>{" "}
@@ -70,7 +70,7 @@ export function TracksPreview() {
             Apply to speak here
           </a>
           !
-        </p>
+        </p> */}
       </header>
 
       {/* --- Leadership Tracks --- */}

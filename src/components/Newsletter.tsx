@@ -193,7 +193,7 @@ export function NewsletterFormThree({ onSuccess }: NewsletterFormThreeProps) {
       <div className="relative">
         <input
           type="email"
-          placeholder="Email address"
+          placeholder="your@work.email"
           autoComplete="email"
           name="emailAddress"
           className={clsx(

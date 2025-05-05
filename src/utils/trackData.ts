@@ -32,34 +32,34 @@ export const Day1Tracks: Track[] = [
   },
   {
     trackShortCode: "02",
+    trackTitle: "MCP",
+    trackDescription: "The winner of the 2023-2025 \"agent open standard\" wars has conquered the ecosystem — every client from Anysphere to Zed, and every lab from OpenAI to Google DeepMind. But there is much work left to do.  The world's first dedicated MCP miniconf, ft. special double presentations by the MCP team from Anthropic, discussions on the new Auth spec, and the first IRL gathering of the MCP steering committee.",
+    trackImg: imgModelContextProtocol.src   // MCP -> MCP
+  },
+  {
+    trackShortCode: "03",
     trackTitle: "LLM RecSys",
     trackDescription: "LLMs are reshaping recommendation systems, one of the most valuable problems in industrial AI. Building on past techniques such as Word2Vec for retrieval and BERT for ranking, LLMs are now driving advancements through novel model architectures, metadata generation, domain-specialized LoRAs, and more. Curated by Eugene Yan. ",
     subDesc: "Accepted talks include YouTube's scalable, cost-effective encoding of video for recommendations, LinkedIn's decoder-only foundational model for multi-task ranking, and Instacart's LLM-powered search for improving discovery.",
     trackImg: imgRevivalSearchRecommendation.src // LLM RecSys -> Retrieval/Search/Rec
   },
   {
-    trackShortCode: "03",
+    trackShortCode: "04",
     trackTitle: "Agent Reliability",
     trackDescription: "Less capability, more reliability please! Armed with all the frontier models, the best agent frameworks, and yes, even good evals, your agent just isn't that reliable, and that's frustrating. What next? Here are all the SOTA techniques Agent Engineers are using in 2025.",
     trackImg: imgEvals.src                  // Agent Reliability -> Evals (Related)
   },
   {
-    trackShortCode: "04",
+    trackShortCode: "05",
     trackTitle: "AI Infrastructure",
     trackDescription: "AI Engineers who are really serious about their AI software should care about their hardware. From GPUs to Networking, from shared orchestration infrastructure to LLM Gateways, the industry is converging on a standard stack of infrastructure that will 100x every AI Engineer.",
     trackImg: imgSecurity.src               // AI Infrastructure -> Security (Often paired)
   },
   {
-    trackShortCode: "05",
+    trackShortCode: "06",
     trackTitle: "Product Management",
     trackDescription: "AI Engineers are increasingly PM-ing their product, and PMs are increasingly vibe-coding prototypes without engineers. The problem everyone has in common is defining how to repeatably make great AI Products and Agents that create their category, like ChatGPT, NotebookLM and Deep Research. For the first time, we meet to raise the bar on AI PMing.",
     trackImg: imgVibeCoding.src             // Product Management -> Vibe Coding (Building/Prototyping)
-  },
-  {
-    trackShortCode: "06",
-    trackTitle: "MCP",
-    trackDescription: "The winner of the 2023-2025 \"agent open standard\" wars has conquered the ecosystem — every client from Anysphere to Zed, and every lab from OpenAI to Google DeepMind. But there is much work left to do.  The world's first dedicated MCP miniconf, ft. special double presentations by the MCP team from Anthropic, discussions on the new Auth spec, and the first IRL gathering of the MCP steering committee.",
-    trackImg: imgModelContextProtocol.src   // MCP -> MCP
   },
   {
     trackShortCode: "07",

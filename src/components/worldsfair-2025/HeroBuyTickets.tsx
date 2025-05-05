@@ -42,7 +42,7 @@ export function HeroBuyTickets(_props: { url?: string }) {
       <div className="px-6 py-4 rounded-lg bg-neutral-600/40 backdrop-blur-lg w-full m-auto space-y-3 mb-4">
         <div className="lg:flex lg:justify-between lg:items-center text-sm">
           <div className="font-bold">Subscribe to Our Newsletter</div>
-          <div>Stay up to date on AI Engineering</div>
+          <div>Be a top AI Engineer</div>
         </div>
         {!success ? (
           <NewsletterFormThree onSuccess={() => setSuccess(true)} />

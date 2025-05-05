@@ -18,13 +18,13 @@ export function VenueAndHotel() {
             <span className="text-2xl">
               <TbBuildingSkyscraper />
             </span>
-            <a
-              className="flex-1 underline font-bold"
-              href="https://book.passkey.com/event/50930341/owner/628/home"
-              target="_blank"
+            <span
+              className="flex-1 font-bold line-through opacity-50"
             >
               Reserve your room at our preferred rate
-            </a>
+            </span> <span className=" text-sm ml-4 uppercase font-mono bg-amber-600 p-1 rounded-sm text-yellow-100 mb-4 inline-block">
+                SOLD OUT!
+              </span>
           </div>
           <span className="w-px h-5 max-md:hidden bg-slate-400" />
           <div className="flex gap-3 items-center">
@@ -125,12 +125,13 @@ export function VenueAndHotel() {
           <b>Book your hotel room today with our discounts:</b>
           <div className="space-x-6">
             <Button
-              invert
               border
-              href="https://book.passkey.com/event/50930341/owner/628/home"
+              // href="https://book.passkey.com/event/50930341/owner/628/home"
               target="_blank"
+              className="line-through cursor-default"
+              disabled={true}
             >
-              Marriott Marquis
+              Marriott Marquis (sold out)
             </Button>
             
             <Button

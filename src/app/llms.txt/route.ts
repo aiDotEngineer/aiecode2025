@@ -97,7 +97,7 @@ If you are organizing an event around June 1–8, email **sponsorships@ai.engine
 - Marriott Marquis: $399/night (May 29–Jun 7)
 - Beacon Grand (10-min walk): $289/night with group code \`0601AEWF\`
 
-[Book Marriott Marquis](https://book.passkey.com/go/AIEngineer2025) | [Book Beacon Grand](https://www.beacongrand.com/) (use group code: 0601AEWF)
+Book Marriott Marquis (sold out) | [Book Beacon Grand](https://www.beacongrand.com/) (use group code: 0601AEWF)
 
 ## Sponsors
 
