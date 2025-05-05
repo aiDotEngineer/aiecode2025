@@ -76,6 +76,22 @@ export function Sponsors() {
       </div>
 
       <div className="space-y-0 text-center">
+
+        <div className="space-y-6 text-center">
+          <div className="uppercase font-bold text-gray-on-white">Track Sponsors</div>
+            <a href="https://braintrustdata.com" target="_blank" className="inline-block">
+              <Logo
+                logo="braintrust"
+                variant="black"
+                className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+              />
+            </a><a href="https://promptql.hasura.io" target="_blank" className="inline-block">
+              <Logo
+                logo="hasura"
+                className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+              />
+            </a>
+        </div>
         <div className="uppercase font-bold text-gray-on-white">
           Platinum Sponsors
         </div>
@@ -104,6 +120,20 @@ export function Sponsors() {
             logo="daily"
             variant="black"
             className="inline-block h-10 w-48 md:h-28 md:w-42 object-contain mx-6"
+          />
+        </a>
+        <a href="https://augmentcode.com" target="_blank" className="inline-block">
+          <Logo
+            logo="augmentCode"
+            variant="black"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://workos.com" target="_blank" className="inline-block">
+          <Logo
+            logo="workOS"
+            variant="white"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
       </div>
@@ -232,6 +262,27 @@ export function Sponsors() {
             logo="arize"
             variant="color"
             className="inline-block h-18 w-32 md:h-24 md:w-48 object-contain mx-6"
+          />
+        </a>
+        <a href="https://fly.io" target="_blank" className="inline-block">
+          <Logo
+            logo="flyio"
+            variant="white"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://arcjet.com" target="_blank" className="inline-block">
+          <Logo
+            logo="arcjet"
+            variant="white"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://zed.com" target="_blank" className="inline-block">
+          <Logo
+            logo="zed"
+            variant="white"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
       </div>
@@ -417,13 +468,6 @@ export function Sponsors() {
             className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
-        <a href="https://fly.io" target="_blank" className="inline-block">
-          <Logo
-            logo="flyio"
-            variant="white"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
-          />
-        </a>
         <a href="https://together.ai" target="_blank" className="inline-block">
           <Logo
             logo="togetherAI"
@@ -434,34 +478,13 @@ export function Sponsors() {
         <a href="https://distributional.com" target="_blank" className="inline-block">
           <Logo
             logo="distributional"
-            variant="white"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
-          />
-        </a>
-        <a href="https://arcjet.com" target="_blank" className="inline-block">
-          <Logo
-            logo="arcjet"
-            variant="white"
+            variant="black"
             className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://modal.com" target="_blank" className="inline-block">
           <Logo
             logo="modal"
-            variant="white"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
-          />
-        </a>
-        <a href="https://augmentcode.com" target="_blank" className="inline-block">
-          <Logo
-            logo="augmentCode"
-            variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
-          />
-        </a>
-        <a href="https://workos.com" target="_blank" className="inline-block">
-          <Logo
-            logo="workOS"
             variant="white"
             className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />

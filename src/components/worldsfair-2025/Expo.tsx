@@ -56,7 +56,7 @@ export function Expo() {
         </p>
       </header>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 items-center justify-items-center gap-x-8 gap-y-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-10 items-center justify-items-center gap-x-8 gap-y-10 lg:gap-y-5">
         <a
           href="https://azure.microsoft.com/en-us/solutions/ai"
           target="_blank"
@@ -68,14 +68,19 @@ export function Expo() {
           />
         </a>
         <a href="https://aws.amazon.com/ai" target="_blank">
-          <Logo logo="aws" className="object-contain scale-120" />
+          <Logo logo="aws" 
+          // className="object-contain"
+          className="object-contain w-[80%] m-auto"
+           />
+          {/* <Logo logo="aws" className="object-contain scale-120" /> */}
         </a>
 
         <a href="https://windsurf.com" target="_blank">
           <Logo logo="windsurf" className="object-contain" />
         </a>
         <a href="https://mongodb.com" target="_blank">
-          <Logo logo="mongodb" className="object-contain scale-110" />
+          <Logo logo="mongodb" className="object-contain" />
+          {/* <Logo logo="mongodb" className="object-contain scale-110" /> */}
         </a>
         <a href="https://graphite.dev" target="_blank">
           <Logo logo="graphite" variant="black" className="object-contain" />
@@ -85,6 +90,7 @@ export function Expo() {
             logo="daily"
             variant="black"
             className="object-contain w-[80%] m-auto"
+            // className="object-contain w-[80%]"
           />
         </a>
         <a href="https://neo4j.com" target="_blank">
@@ -141,6 +147,7 @@ export function Expo() {
           <Logo
             logo="arize"
             variant="color"
+            
             className="object-contain w-[90%] self-center"
           />
         </a>
@@ -151,19 +158,22 @@ export function Expo() {
         >
           <Logo
             logo="agentuity"
-            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://wandb.ai" target="_blank" className="inline-block">
           <Logo
             logo="weightsBiases"
-            className="inline-block h-12 w-42 md:h-20 md:w-64 object-contain mx-6"
+            className="object-contain scale-125 m-auto"
+            // className="inline-block h-12 w-42 md:h-20 md:w-64 object-contain mx-6"
           />
         </a>
         <a href="https://sierra.ai" target="_blank" className="inline-block">
           <Logo
             logo="sierra"
-            className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
           />
         </a>
         <a
@@ -173,39 +183,45 @@ export function Expo() {
         >
           <Logo
             logo="vellum"
-            className="inline-block h-12 w-24 md:h-20 md:w-42 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-24 md:h-20 md:w-42 object-contain mx-6"
           />
         </a>
         <a href="https://gensx.com" target="_blank" className="inline-block">
           <Logo
             logo="gensx"
             variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://redis.com" target="_blank" className="inline-block">
           <Logo
             logo="redis"
-            className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
           />
         </a>
         <a href="https://langbase.com" target="_blank" className="inline-block">
           <Logo
             logo="langbase"
             variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-48 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-48 object-contain mx-6"
           />
         </a>
         <a href="https://twilio.com" target="_blank" className="inline-block">
           <Logo
             logo="twilio"
-            className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
           />
         </a>
         <a href="https://descope.com" target="_blank" className="inline-block">
           <Logo
             logo="descope"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a
@@ -215,58 +231,31 @@ export function Expo() {
         >
           <Logo
             logo="superannotate"
-            className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
-          />
-        </a>
-        <a
-          href="https://unstructured.io"
-          target="_blank"
-          className="inline-block"
-        >
-          <Logo
-            logo="unstructured"
-            className="inline-block h-12 w-12 md:h-20 md:w-20 object-contain mx-6"
-          />
-        </a>
-        <a href="https://baz.co" target="_blank" className="inline-block">
-          <Logo
-            logo="baz"
-            variant="black"
-            className="inline-block h-12 w-18 md:h-20 md:w-28 object-contain mx-6"
-          />
-        </a>
-        <a href="https://vessl.ai" target="_blank" className="inline-block">
-          <Logo
-            logo="vessl"
-            variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-54 object-contain mx-6"
-          />
-        </a>
-        <a href="https://riza.ai" target="_blank" className="inline-block">
-          <Logo
-            logo="riza"
-            variant="black"
-            className="inline-block h-12 w-16 md:h-20 md:w-24 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
           />
         </a>
         <a href="https://tambo.co" target="_blank" className="inline-block">
           <Logo
             logo="tambo"
-            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://sentry.io" target="_blank" className="inline-block">
           <Logo
             logo="sentry"
             variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://xpander.ai" target="_blank" className="inline-block">
           <Logo
             logo="xpander"
             variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-54 object-contain mx-6"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-54 object-contain mx-6"
           />
         </a>
         <a
@@ -276,98 +265,147 @@ export function Expo() {
         >
           <Logo
             logo="thompsonReuters"
-            className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
+            className="object-contain scale-125 m-auto"
+            // className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
           />
         </a>
         <a href="https://www.elevenlabs.io" target="_blank" className="inline-block">
           <Logo
             logo="elevenLabs"
             variant="black"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://www.pomerium.com" target="_blank" className="inline-block">
           <Logo
             logo="pomerium"
             variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://www.daytona.io" target="_blank" className="inline-block">
           <Logo
             logo="daytona"
             variant="black"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://www.polarsignals.com" target="_blank" className="inline-block">
           <Logo
             logo="polarSignals"
             variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://vercel.com" target="_blank" className="inline-block">
           <Logo
             logo="vercel"
             variant="black"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://withampersand.com" target="_blank" className="inline-block">
           <Logo
             logo="ampersand"
             variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://fly.io" target="_blank" className="inline-block">
           <Logo
             logo="flyio"
             variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://together.ai" target="_blank" className="inline-block">
           <Logo
             logo="togetherAI"
             variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://distributional.com" target="_blank" className="inline-block">
           <Logo
             logo="distributional"
-            variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            variant="black"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://arcjet.com" target="_blank" className="inline-block">
           <Logo
             logo="arcjet"
             variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://modal.com" target="_blank" className="inline-block">
           <Logo
             logo="modal"
             variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
         <a href="https://augmentcode.com" target="_blank" className="inline-block">
           <Logo
             logo="augmentCode"
             variant="black"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain scale-125 m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://workos.com" target="_blank" className="inline-block">
           <Logo
             logo="workOS"
             variant="white"
-            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://vessl.ai" target="_blank" className="inline-block">
+          <Logo
+            logo="vessl"
+            variant="black"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-54 object-contain mx-6"
+          />
+        </a>
+        <a
+          href="https://unstructured.io"
+          target="_blank"
+          className="inline-block"
+        >
+          <Logo
+            logo="unstructured"
+            className="object-contain w-[50%] m-auto"
+            // className="inline-block h-12 w-12 md:h-20 md:w-20 object-contain mx-6"
+          />
+        </a>
+        <a href="https://baz.co" target="_blank" className="inline-block">
+          <Logo
+            logo="baz"
+            variant="black"
+            className="object-contain w-[50%] m-auto"
+            // className="inline-block h-12 w-18 md:h-20 md:w-28 object-contain mx-6"
+          />
+        </a>
+        <a href="https://riza.ai" target="_blank" className="inline-block">
+          <Logo
+            logo="riza"
+            variant="black"
+            className="object-contain w-[50%] m-auto"
+            // className="inline-block h-12 w-16 md:h-20 md:w-24 object-contain mx-6"
           />
         </a>
 

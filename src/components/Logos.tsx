@@ -44,7 +44,12 @@ import amplify from "~/images/logos/amplify_partners_logo.jpeg";
 import anthropicBlack from "~/images/logos/anthropic-black.svg";
 import anthropicWhite from "~/images/logos/anthropic-white.svg";
 import arize from "~/images/logos/arize.svg";
-import augmentCodeBlack from "~/images/logos/augment-code-black.svg";
+import augmentCodeBlack from "~/images/logos/augment-code-dark.svg";
+import braintrustLogo from "~/images/logos/braintrust-logo-dark.svg";
+import distributionalLogo from "~/images/logos/distributional-dark.svg";
+import notableLogo from "~/images/logos/notable-dark.svg";
+import stifelLogo from "~/images/logos/stifel-dark.svg";
+import tqventures from "~/images/logos/tq-ventures-dark.svg";
 import autoGPT from "~/images/logos/autogpt.svg";
 import aws from "~/images/logos/aws.svg";
 import baseten from "~/images/logos/baseten.svg";
@@ -70,12 +75,12 @@ import dagger from "~/images/logos/dagger.svg";
 import databricks from "~/images/logos/databricks.svg";
 import datadog from "~/images/logos/datadog-purple.svg";
 import datastaxBlack from "~/images/logos/datastax-black.svg";
-import daytona from "~/images/logos/daytona-black.svg";
+import daytona from "~/images/logos/daytona-dark.svg";
 import decibel from "~/images/logos/decibel.svg";
 import deepgramBlack from "~/images/logos/deepgram-black.svg";
 import deepset from "~/images/logos/deepset.svg";
 import elastic from "~/images/logos/elastic.svg";
-import elevenLabs from "~/images/logos/elevenlabs-black.svg";
+import elevenLabs from "~/images/logos/evelenlabs-dark.svg";
 import ellipsis from "~/images/logos/ellipsis-blue.svg";
 import emergence from "~/images/logos/emergence.svg";
 import eyelevel from "~/images/logos/eyelevel.png";
@@ -164,7 +169,7 @@ import twitterBlack from "~/images/logos/twitter-black.svg";
 import twitterWhite from "~/images/logos/twitter-white.svg";
 import valor from "~/images/logos/valor.svg";
 import vellum from "~/images/logos/vellum-purple.svg";
-import vercelBlack from "~/images/logos/vercel-black.svg";
+import vercelBlack from "~/images/logos/vercel-dark.svg";
 import vercelWhite from "~/images/logos/vercel-white.svg";
 import vespa from "~/images/logos/vespa.svg";
 import videoTap from "~/images/logos/video-tap.svg";
@@ -175,15 +180,15 @@ import worldsFairWhite from "~/images/logos/worldsfair-white.svg";
 import writerBlack from "~/images/logos/writer-black.svg";
 import zapier from "~/images/logos/zapier.svg";
 import zetaLabs from "~/images/logos/zeta-labs.svg";
-import ampersandWhite from "~/images/logos/ampersand-white.svg";
-import arcjetWhite from "~/images/logos/arcjet-white.svg";
-import distributionalWhite from "~/images/logos/distributional-white.svg";
-import flyioWhite from "~/images/logos/flyio-white.svg";
-import modalWhite from "~/images/logos/modal-white.svg";
-import polarSignalsWhite from "~/images/logos/polarsignals-white.svg";
-import pomeriumWhite from "~/images/logos/pomerium-white.svg";
-import togetheraiWhite from "~/images/logos/togetherai-white.svg";
-import workosWhite from "~/images/logos/workos-white.svg";
+import ampersandWhite from "~/images/logos/ampersand-dark.svg";
+import arcjetWhite from "~/images/logos/arcjet-dark.svg";
+import flyioWhite from "~/images/logos/fly-dark.svg";
+import modalWhite from "~/images/logos/modal-dark.svg";
+import zedDark from "~/images/logos/zed-dark.svg";
+import polarSignalsWhite from "~/images/logos/polar-signals-dark.svg";
+import pomeriumWhite from "~/images/logos/pomerium-dark.svg";
+import togetheraiWhite from "~/images/logos/together-dark.svg";
+import workosWhite from "~/images/logos/work-os-dark.svg";
 
 type Key = keyof typeof logos;
 
@@ -335,6 +340,26 @@ export const logos = defineLogos({
   augmentCode: {
     name: "Augment Code",
     black: augmentCodeBlack,
+  },
+  braintrust: {
+    name: "Braintrust",
+    black: braintrustLogo,
+  },
+  distributional: {
+    name: "Distributional",
+    black: distributionalLogo,
+  },
+  notable: {
+    name: "Notable Capital",
+    black: notableLogo,
+  },
+  stifel: {
+    name: "Stifel",
+    black: stifelLogo,
+  },
+  tqventures: {
+    name: "TQ Ventures",
+    black: tqventures,
   },
   freeplay: {
     name: "Freeplay",
@@ -870,9 +895,9 @@ export const logos = defineLogos({
     name: "Arcjet",
     white: arcjetWhite,
   },
-  distributional: {
-    name: "Distributional",
-    white: distributionalWhite,
+  zed: {
+    name: "Zed",
+    white: zedDark,
   },
   flyio: {
     name: "Fly.io",
