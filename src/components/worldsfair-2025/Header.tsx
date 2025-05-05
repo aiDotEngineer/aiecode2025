@@ -85,12 +85,6 @@ export function Header({ path }: Props) {
                 {fixed && (
                   <>
                     {/* <Link
-                      className="font-bold max-sm:hidden"
-                      href={SPEAKERS_URL}
-                    >
-                      Speakers
-                    </Link> */}
-                    {/* <Link
                       className="font-bold max-lg:hidden"
                       href={WORKSHOPS_URL}
                     >
@@ -102,17 +96,23 @@ export function Header({ path }: Props) {
                     >
                       Schedule
                     </Link> */}
-                    <Link
+                    {/* <Link
                       className="font-bold max-lg:hidden"
                       href={'https://www.youtube.com/@aiDotEngineer'}
                     >
                       Past Conferences
-                    </Link>
+                    </Link> */}
                     <Link
                       className="font-bold max-lg:hidden"
                       href={'/llms.txt'}
                     >
                       llms.txt
+                    </Link>
+                    <Link
+                      className="font-bold max-sm:hidden"
+                      href={SPEAKERS_URL}
+                    >
+                      Speakers
                     </Link>
                     <Link
                       className="font-bold max-lg:hidden"

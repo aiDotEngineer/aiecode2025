@@ -24,15 +24,19 @@ import { VenueAndHotel } from "~/components/worldsfair-2025/VenueAndHotel";
 import { WhatsNext } from "~/components/worldsfair-2025/WhatsNext";
 import { Workshops } from "~/components/worldsfair-2025/Workshops";
 import LogoWall from "~/images/worldsfair-2025/logowall.png";
+import { formatSpeakersData } from "~/utils/formatSpeakersData";
 
 // type Props = InferGetServerSidePropsType<typeof getStaticProps>;
 // export default function Page({ sessionEvents, presenters, tracks }: Props) {
 
-export default function Page({ sessionEvents, presenters, tracks }: any) {
+export default function Page({ sessionEvents }: any) {
   const isBannerVisible = useAppBannerContext();
   // const workshops = sessionEvents.filter(
   //   (session) => session.type === 'WORKSHOP',
   // );
+
+  // Get formatted speakers data from our JSON file
+  const { presenters, tracks, formats } = formatSpeakersData();
 
   return (
     <div className={clsx("text-black text-lg", { "pt-8": isBannerVisible })}>
@@ -64,10 +68,10 @@ export default function Page({ sessionEvents, presenters, tracks }: any) {
       <Section lightText roundTop className="bg-black">
         <WhatsNext />
       </Section>
-      {/* 
+      
       <Section roundTop id="speakers">
-        <SpeakerPreview presenters={presenters} tracks={tracks} />
-      </Section> */}
+        <SpeakerPreview presenters={presenters} tracks={tracks} formats={formats} />
+      </Section>
 
       <Section lightText className="bg-black">
         <TracksPreview />

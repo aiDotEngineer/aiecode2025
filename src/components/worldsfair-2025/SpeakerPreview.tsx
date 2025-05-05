@@ -14,13 +14,16 @@ type Props = {
   // presenters: Array<Presenter>;
   presenters: Array<any>;
   tracks: Array<string>;
+  formats: Array<string>;
 };
 
-export function SpeakerPreview({ presenters, tracks }: Props) {
+export function SpeakerPreview({ presenters, tracks, formats }: Props) {
   const isBannerVisible = useAppBannerContext();
   // const { SUBMIT_TALK_URL } = useWorldsFair2025();
-  const [filterTrack, setFilterTrack] = useState('');
+  const [filterTracks, setFilterTracks] = useState<string[]>([]);
+  const [filterFormats, setFilterFormats] = useState<string[]>([]);
   const [textView, _setTextView] = useLocalStorage('textView', true);
+
   const setTextView = (val: boolean) => {
     // Check if the current hash is already #SpeakersList
     if (window.location.hash === '#SpeakersList') {
@@ -35,15 +38,64 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
     _setTextView(val);
   };
 
+  const toggleTrack = (track: string) => {
+    if (filterTracks.includes(track)) {
+      // Remove track if already selected
+      setFilterTracks(filterTracks.filter(t => t !== track));
+    } else {
+      // Add track if not already selected
+      setFilterTracks([...filterTracks, track]);
+    }
+  };
+
+  const toggleFormat = (format: string) => {
+    if (filterFormats.includes(format)) {
+      // Remove format if already selected
+      setFilterFormats(filterFormats.filter(f => f !== format));
+    } else {
+      // Add format if not already selected
+      setFilterFormats([...filterFormats, format]);
+    }
+  };
+
+  const clearFilters = () => {
+    setFilterTracks([]);
+    setFilterFormats([]);
+  };
+
   const presentersProcessed = presenters
-    .sort((a, b) => a.attributes.displayOrder - b.attributes.displayOrder)
+    // We already sorted presenters by priority score in formatSpeakersData
     .filter((presenter) => {
-      const presenterTracks = presenter.attributes.sessions.data.map(
+      // If no filters are selected, show all presenters
+      if (filterTracks.length === 0 && filterFormats.length === 0) {
+        return true;
+      }
+
+      // Get all tracks for this presenter from all their sessions
+      const presenterTracksList = presenter.attributes.sessions.data.flatMap(
         (session: any) => {
-          return session.attributes.track.data?.attributes.name;
+          const trackName = session.attributes.track.data?.attributes.name;
+          return trackName ? trackName.split(',').map((t: string) => t.trim()) : [];
         },
       );
-      return filterTrack ? presenterTracks.includes(filterTrack) : true;
+
+      // Get all formats for this presenter from all their sessions
+      const presenterFormats = presenter.attributes.sessions.data.map(
+        (session: any) => session.attributes.format
+      ).filter(Boolean);
+
+      // Check if passes track filter (or if no track filter is applied)
+      const passesTrackFilter = filterTracks.length === 0 || 
+        filterTracks.some(filterTrack => 
+          presenterTracksList.some((presenterTrack: string) => presenterTrack.includes(filterTrack))
+        );
+
+      // Check if passes format filter (or if no format filter is applied)
+      const passesFormatFilter = filterFormats.length === 0 || 
+        filterFormats.some(format => presenterFormats.includes(format));
+
+      // Present must pass both track and format filters
+      return passesTrackFilter && passesFormatFilter;
     });
 
   return (
@@ -69,9 +121,6 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
                 ' mr-2 inline hover:text-blue-300 border-2 rounded-3xl px-4 py-2 md:px-8 md:py-4'
               }
               onClick={() => setTextView(!textView)}
-              // border={textView}
-              // invert={textView}
-              // className="text-4xl ml-4"
             >
               Companies
             </button>
@@ -82,9 +131,6 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
                 ' inline hover:text-blue-300 border-2 rounded-3xl px-4 py-2 md:px-8 md:py-4'
               }
               onClick={() => setTextView(!textView)}
-              // border={textView}
-              // invert={textView}
-              // className="text-4xl ml-4"
             >
               Speakers
             </button>
@@ -100,41 +146,98 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
         teams attending together!
       </p>
 
-      <select
-        onChange={(e) => setFilterTrack(e.target.value)}
-        className="md:hidden border p-4 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full"
-      >
-        <option value="">All Tracks</option>
-        {tracks.map((t) => {
-          if (!t) return null;
-          return <option key={t}>{t}</option>;
-        })}
-      </select>
-
-      <div className="max-md:hidden text-center">
-        <Button
-          onClick={() => setFilterTrack('')}
-          border={filterTrack !== ''}
-          invert={filterTrack !== ''}
-          className="mx-2 mt-4"
+      {/* Mobile filters */}
+      <div className="md:hidden space-y-4">
+        <select
+          onChange={(e) => {
+            const value = e.target.value;
+            if (value === "") {
+              setFilterTracks([]);
+            } else {
+              setFilterTracks([value]);
+            }
+          }}
+          className="border p-4 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full"
+          value={filterTracks.length === 1 ? filterTracks[0] : ""}
         >
-          All Tracks
-        </Button>
-        {tracks.map((t) => {
-          if (!t || t === 'Uncategorized') return null;
-          return (
-            <Button
-              key={t}
-              onClick={() => setFilterTrack(t)}
-              border={filterTrack !== t}
-              invert={filterTrack !== t}
-              className="mx-2 mt-4"
-            >
-              {t}
-            </Button>
-          );
-        })}
+          <option value="">All Tracks</option>
+          {tracks.map((t) => {
+            if (!t) return null;
+            return <option key={t}>{t}</option>;
+          })}
+        </select>
+
+        <select
+          onChange={(e) => {
+            const value = e.target.value;
+            if (value === "") {
+              setFilterFormats([]);
+            } else {
+              setFilterFormats([value]);
+            }
+          }}
+          className="border p-4 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full"
+          value={filterFormats.length === 1 ? filterFormats[0] : ""}
+        >
+          <option value="">All Formats</option>
+          {formats.map((f) => {
+            if (!f) return null;
+            return <option key={f}>{f}</option>;
+          })}
+        </select>
       </div>
+
+      {/* Desktop filters */}
+      <div className="max-md:hidden">
+        {/* Track filters */}
+        <div className="text-center mb-4">
+          <h3 className="text-lg font-semibold mb-2">Tracks</h3>
+          <Button
+            onClick={clearFilters}
+            border={filterTracks.length > 0 || filterFormats.length > 0}
+            invert={filterTracks.length > 0 || filterFormats.length > 0}
+            className="mx-2 mt-4"
+          >
+            All Tracks & Formats
+          </Button>
+          {tracks.map((t) => {
+            if (!t || t === 'Uncategorized') return null;
+            const isSelected = filterTracks.includes(t);
+            return (
+              <Button
+                key={t}
+                onClick={() => toggleTrack(t)}
+                border={!isSelected}
+                invert={!isSelected}
+                className="mx-2 mt-4"
+              >
+                {t}
+              </Button>
+            );
+          })}
+        </div>
+
+        {/* Format filters */}
+        <div className="text-center">
+          <h3 className="text-lg font-semibold mb-2">Formats</h3>
+          {formats.map((f) => {
+            if (!f) return null;
+            const isSelected = filterFormats.includes(f);
+            return (
+              <Button
+                key={f}
+                onClick={() => toggleFormat(f)}
+                border={!isSelected}
+                invert={!isSelected}
+                className="mx-2 mt-4"
+              >
+                {f}
+              </Button>
+            );
+          })}
+        </div>
+      </div>
+
       {textView ? (
         ////////////////////////////////////////////////////////////////////////
         // this section is for the text only view
@@ -144,10 +247,8 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
           className="grid grid-cols-2 sm:grid-cols-4 gap-y-1 sm:gap-x-4 lg:grid-cols-6 lg:gap-x-6 items-baseline text-sm pb-16"
         >
           {presentersProcessed.map((presenter) => {
-            // const { name, tagline, sessions, socialLinks, company } =
             const { name, tagline, socialLinks, company } =
               presenter.attributes;
-            // const { url } = presenter.attributes.profilePhoto.data.attributes;
             return (
               <Fragment key={presenter.id + 'tagline'}>
                 <p
@@ -169,7 +270,7 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
                       }
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-blue-600  font-semibold"
+                      className="hover:text-blue-600 font-semibold"
                     >
                       {name}
                     </a>
@@ -183,12 +284,6 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
                   >
                     {tagline}
                   </span>
-                  {/* failed attempt at adding sessions info - need design */}
-                  {/* <br />
-                  <div className="hidden group-hover:block fixed bottom-1/4 left-0 right-0 m-auto text-center bg-slate-300 p-4 rounded-xl">
-                    {sessions.data[0]?.attributes.track.data.attributes.name !== "Uncategorized" && <span className="font-mono text-xs">{sessions.data[0]?.attributes.track.data.attributes.name}:</span>}
-                    <em className="text-xs">{sessions.data[0]?.attributes.title}</em>
-                  </div> */}
                 </p>
               </Fragment>
             );
@@ -210,6 +305,8 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
             // this caused a crash if we dont use data?.attributes
             const { url } = presenter.attributes.profilePhoto.data
               ?.attributes || { url: 'not available' };
+
+            const format = sessions.data[0]?.attributes.format;
 
             return (
               <li key={presenter.id}>
@@ -246,8 +343,8 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
                       <br />
                       <em className="hidden group-hover:block text-xs">
                         {sessions.data[0]?.attributes.title}
+                        {format && <span className="ml-1 text-yellow-300">[{format}]</span>}
                       </em>
-                      {/* <span className="rounded-md border bg-blue-200 text-black p-1 text-xs">{sessions.data[0]?.attributes.track.data.attributes.name}</span> */}
                     </p>
                   </div>
                 </div>
@@ -256,12 +353,6 @@ export function SpeakerPreview({ presenters, tracks }: Props) {
           })}
         </ul>
       )}
-
-      {/* <div className="text-center">
-        <Button border invert href={SUBMIT_TALK_URL} target="_blank">
-          Submit a Talk Proposal
-        </Button>
-      </div> */}
     </div>
   );
 }
