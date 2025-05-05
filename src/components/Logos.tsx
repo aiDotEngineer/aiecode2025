@@ -175,6 +175,15 @@ import worldsFairWhite from "~/images/logos/worldsfair-white.svg";
 import writerBlack from "~/images/logos/writer-black.svg";
 import zapier from "~/images/logos/zapier.svg";
 import zetaLabs from "~/images/logos/zeta-labs.svg";
+import ampersandWhite from "~/images/logos/ampersand-white.svg";
+import arcjetWhite from "~/images/logos/arcjet-white.svg";
+import distributionalWhite from "~/images/logos/distributional-white.svg";
+import flyioWhite from "~/images/logos/flyio-white.svg";
+import modalWhite from "~/images/logos/modal-white.svg";
+import polarSignalsWhite from "~/images/logos/polarsignals-white.svg";
+import pomeriumWhite from "~/images/logos/pomerium-white.svg";
+import togetheraiWhite from "~/images/logos/togetherai-white.svg";
+import workosWhite from "~/images/logos/workos-white.svg";
 
 type Key = keyof typeof logos;
 
@@ -852,5 +861,41 @@ export const logos = defineLogos({
   pgai: {
     name: "PGAI",
     color: pgaiBlack,
+  },
+  ampersand: {
+    name: "Ampersand",
+    white: ampersandWhite,
+  },
+  arcjet: {
+    name: "Arcjet",
+    white: arcjetWhite,
+  },
+  distributional: {
+    name: "Distributional",
+    white: distributionalWhite,
+  },
+  flyio: {
+    name: "Fly.io",
+    white: flyioWhite,
+  },
+  modal: {
+    name: "Modal",
+    white: modalWhite,
+  },
+  polarSignals: {
+    name: "Polar Signals",
+    white: polarSignalsWhite,
+  },
+  pomerium: {
+    name: "Pomerium",
+    white: pomeriumWhite,
+  },
+  togetherAI: {
+    name: "Together AI",
+    white: togetheraiWhite,
+  },
+  workOS: {
+    name: "WorkOS",
+    white: workosWhite,
   },
 });

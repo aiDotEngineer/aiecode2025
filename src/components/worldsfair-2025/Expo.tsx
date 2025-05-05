@@ -279,7 +279,97 @@ export function Expo() {
             className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
           />
         </a>
-        
+        <a href="https://www.elevenlabs.io" target="_blank" className="inline-block">
+          <Logo
+            logo="elevenLabs"
+            variant="black"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://www.pomerium.com" target="_blank" className="inline-block">
+          <Logo
+            logo="pomerium"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://www.daytona.io" target="_blank" className="inline-block">
+          <Logo
+            logo="daytona"
+            variant="black"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://www.polarsignals.com" target="_blank" className="inline-block">
+          <Logo
+            logo="polarSignals"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://vercel.com" target="_blank" className="inline-block">
+          <Logo
+            logo="vercel"
+            variant="black"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://withampersand.com" target="_blank" className="inline-block">
+          <Logo
+            logo="ampersand"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://fly.io" target="_blank" className="inline-block">
+          <Logo
+            logo="flyio"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://together.ai" target="_blank" className="inline-block">
+          <Logo
+            logo="togetherAI"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://distributional.com" target="_blank" className="inline-block">
+          <Logo
+            logo="distributional"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://arcjet.com" target="_blank" className="inline-block">
+          <Logo
+            logo="arcjet"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://modal.com" target="_blank" className="inline-block">
+          <Logo
+            logo="modal"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://augmentcode.com" target="_blank" className="inline-block">
+          <Logo
+            logo="augmentCode"
+            variant="black"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a href="https://workos.com" target="_blank" className="inline-block">
+          <Logo
+            logo="workOS"
+            variant="white"
+            className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
 
         {/* dd */}
         {/* dd */}
