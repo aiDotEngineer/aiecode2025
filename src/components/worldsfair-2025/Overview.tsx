@@ -107,14 +107,17 @@ export function Overview() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <div className="text-gray-on-white text-base">/ June 4 - 5</div>
-          <h2 className="text-3xl font-bold">AI Architects Track</h2>
+          <h2 className="text-3xl font-bold">2 Leadership Tracks</h2>
           <p className="text-gray-on-white text-base">
-            <b>Exclusive track for VPs & Execs.</b> All the eng tracks and
-            workshops, plus access to the exclusive leadership track where
-            you'll get learn from & connect with highly experienced technical
-            business leaders, along with facilitated discussions, & exclusive
+            <b>TWO Exclusive tracks for VPs & Execs.</b> The 2025 leadership track was so nice we're doing it twice! 
+            Access to all the regular eng tracks and workshops, plus access to 2 exclusive leadership tracks: <b>AI Architects</b> 
+            and <b>AI in the Fortune 500</b> where
+            you'll get learn from & connect with the most senior AI people in their respective
+            companies, as well as real life deployments at large enterprise scale, 
+            along with facilitated discussions, & exclusive
             access to closed-door sit-down breakfasts and lunches on both
-            session days.
+            session days. Since this is mixed in with the regular conference, 
+            you can simply <b>bring your whole team</b> and compare notes after!
           </p>
           <hr />
           <p className="text-gray-on-white text-base">
