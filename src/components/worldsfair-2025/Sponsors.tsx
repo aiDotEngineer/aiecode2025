@@ -101,7 +101,7 @@ export function Sponsors() {
             </a>
             <a href="https://promptql.hasura.io" target="_blank" className="inline-block">
             <div className="flex flex-col items-center">
-              <span className="text-sm text-gray-600 mt-2">Agent Reliability track hosted by</span>
+              <span className="text-sm text-gray-600 mt-2">Agent Reliability track supported by</span>
               <Logo
                 logo="hasura"
                 className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
