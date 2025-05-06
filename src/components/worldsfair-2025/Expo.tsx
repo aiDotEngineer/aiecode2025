@@ -85,6 +85,22 @@ export function Expo() {
         <a href="https://graphite.dev" target="_blank">
           <Logo logo="graphite" variant="black" className="object-contain" />
         </a>
+        <a href="https://augmentcode.com" target="_blank" className="inline-block">
+          <Logo
+            logo="augmentCode"
+            variant="black"
+            className="object-contain scale-125 m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://workos.com" target="_blank" className="inline-block">
+          <Logo
+            logo="workOS"
+            variant="white"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
         <a href="https://daily.co" target="_blank">
           <Logo
             logo="daily"
@@ -111,6 +127,25 @@ export function Expo() {
         </a>
         <a href="https://llamaindex.ai" target="_blank">
           <Logo logo="llamaIndex" variant="black" className="object-contain" />
+        </a>
+        <a href="https://modal.com" target="_blank" className="inline-block">
+          <Logo
+            logo="modal"
+            variant="white"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
+        <a
+          href="https://agentuity.com"
+          target="_blank"
+          className="inline-block"
+        >
+          <Logo
+            logo="agentuity"
+            className="object-contain m-auto"
+            // className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
         </a>
         <a href="https://temporal.io" target="_blank">
           <Logo logo="temporal" variant="black" className="object-contain" />
@@ -149,17 +184,6 @@ export function Expo() {
             variant="color"
             
             className="object-contain w-[90%] self-center"
-          />
-        </a>
-        <a
-          href="https://agentuity.com"
-          target="_blank"
-          className="inline-block"
-        >
-          <Logo
-            logo="agentuity"
-            className="object-contain m-auto"
-            // className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://wandb.ai" target="_blank" className="inline-block">
@@ -317,14 +341,6 @@ export function Expo() {
             // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
-        <a href="https://fly.io" target="_blank" className="inline-block">
-          <Logo
-            logo="flyio"
-            variant="white"
-            className="object-contain m-auto"
-            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
-          />
-        </a>
         <a href="https://together.ai" target="_blank" className="inline-block">
           <Logo
             logo="togetherAI"
@@ -341,36 +357,20 @@ export function Expo() {
             // className="h-12 w-auto md:h-16 md:w-auto object-contain"
           />
         </a>
+        <a href="https://fly.io" target="_blank" className="inline-block">
+          <Logo
+            logo="flyio"
+            variant="white"
+            className="object-contain m-auto"
+            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
+          />
+        </a>
         <a href="https://arcjet.com" target="_blank" className="inline-block">
           <Logo
             logo="arcjet"
             variant="white"
             className="object-contain m-auto"
             // className="h-12 w-auto md:h-16 md:w-auto object-contain"
-          />
-        </a>
-        <a href="https://modal.com" target="_blank" className="inline-block">
-          <Logo
-            logo="modal"
-            variant="white"
-            className="object-contain m-auto"
-            // className="h-12 w-auto md:h-16 md:w-auto object-contain"
-          />
-        </a>
-        <a href="https://augmentcode.com" target="_blank" className="inline-block">
-          <Logo
-            logo="augmentCode"
-            variant="black"
-            className="object-contain scale-125 m-auto"
-            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
-          />
-        </a>
-        <a href="https://workos.com" target="_blank" className="inline-block">
-          <Logo
-            logo="workOS"
-            variant="white"
-            className="object-contain m-auto"
-            // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://vessl.ai" target="_blank" className="inline-block">

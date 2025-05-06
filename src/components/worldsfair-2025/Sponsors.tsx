@@ -281,13 +281,6 @@ export function Sponsors() {
             className="inline-block h-18 w-32 md:h-24 md:w-48 object-contain mx-6"
           />
         </a>
-        <a href="https://fly.io" target="_blank" className="inline-block">
-          <Logo
-            logo="flyio"
-            variant="white"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
-          />
-        </a>
         <a href="https://arcjet.com" target="_blank" className="inline-block">
           <Logo
             logo="arcjet"
@@ -302,12 +295,13 @@ export function Sponsors() {
             className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
-      </div>
-
-      <div className="space-y-6 text-center">
-        <div className="uppercase font-bold text-gray-on-white">
-          Silver Sponsors
-        </div>
+        <a href="https://modal.com" target="_blank" className="inline-block">
+          <Logo
+            logo="modal"
+            variant="white"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
         <a
           href="https://agentuity.com"
           target="_blank"
@@ -318,10 +312,23 @@ export function Sponsors() {
             className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
+      </div>
+
+      <div className="space-y-6 text-center">
+        <div className="uppercase font-bold text-gray-on-white">
+          Silver Sponsors
+        </div>
         <a href="https://wandb.ai" target="_blank" className="inline-block">
           <Logo
             logo="weightsBiases"
             className="inline-block h-12 w-42 md:h-20 md:w-64 object-contain mx-6"
+          />
+        </a>
+        <a href="https://fly.io" target="_blank" className="inline-block">
+          <Logo
+            logo="flyio"
+            variant="white"
+            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://sierra.ai" target="_blank" className="inline-block">
@@ -496,13 +503,6 @@ export function Sponsors() {
           <Logo
             logo="distributional"
             variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
-          />
-        </a>
-        <a href="https://modal.com" target="_blank" className="inline-block">
-          <Logo
-            logo="modal"
-            variant="white"
             className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
