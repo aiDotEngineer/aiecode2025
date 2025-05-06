@@ -139,7 +139,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       </header>
 
       <p className="text-center space-y-6 max-w-3xl m-auto text-gray-on-white">
-        With 20 tracks and over 150 sessions, you can design the program schedule
+        With 18 tracks and over 150 sessions, you can design the program schedule
         that perfectly matches your business needs. There are up to 10
         simultaneous sessions running at any one time, so it's a good thing we
         have a <code className="font-mono bg-gray-200">GROUP</code> discount for

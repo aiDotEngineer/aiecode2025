@@ -128,17 +128,17 @@ export const LeadershipTracks: Track[] = [
   {
     trackShortCode: "ES",
     trackTitle: "Expo Sessions and Hallway Track!",
-    trackDescription: "Access to the World's Fair Expo gets you access to dedicated sessions from 30+ speakers, (2024 speakers) <b>Microsoft, AWS, Google, MongoDB, Neo4j, Perplexity, and more</b>, as well as the all important Hallway Track (aka the best way to network with 3000+ AI Engineers)!",
+    trackDescription: "Access to the World's Fair Expo gets you access to dedicated sessions from 30+ speakers, <b>Microsoft, AWS, Daily, MongoDB, Neo4j, and more</b>, as well as the all important Hallway Track (aka the best way to network with 3000+ AI Engineers)! Attendees can propose their own unscheduled talks that can be added to the program.",
     trackImg: imgExpo.src
   },
   {
-    trackShortCode: "AR",
+    trackShortCode: "L1",
     trackTitle: "AI Architects",
     trackDescription: "Whether you are CEO, CTO, VP of AI, or principal engineer of your company's \"AI council\", the job of the \"most senior AI person\" at large companies is a lonely one — except here. Learn from and make connections with peers who are all entrusted with high-stakes decisions on company strategy, infrastructure, compliance, and org design.",
     trackImg: imgAIArchitects.src
   },
   {
-    trackShortCode: "F5",
+    trackShortCode: "L2",
     trackTitle: "AI in the Fortune 500",
     trackDescription: "AI has it's Bitter Lesson, but AI Engineering's Sour Lesson is that every engineering problem becomes exponentially harder when deployed at scale. Many frankly never make it, despite claiming success externally. We gather the actual success stories from the largest LLM AI transformations in the world.",
     trackImg: imgAIInAction.src // Reused based on similarity
