@@ -51,7 +51,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Product launch",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -80,7 +80,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -109,7 +109,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -138,7 +138,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -167,7 +167,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -180,7 +180,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://www.blackrock.com/corporate",
     "Company Website": "",
-    "Title": "Engineering Lead, Studio Compute Platform and Data & AI Acceleration",
+    "Title": "Engineering Team Lead, Studio Compute Platform and Data & AI Acceleration",
     "TagLine": "Senior Director of Engineering",
     "Bio": "Infant Vasanth leads the engineering team responsible for the Studio Compute Platform, BlackRock's analytics and automation platform that enables our users to conduct research & analysis, run automations and distribute research at scale.\r\nIn addition, Infant is also leading the Data & AI Acceleration team focusing on efforts to enhance Aladdin Studio's AI capabilities along side the Operational AI capabilities(prospectus analyzer, operational agents etc.)",
     "X (Twitter)": "",
@@ -196,7 +196,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -264,7 +264,7 @@
     "Speaker ID": "1f442afe-45ef-48c0-9782-5a5267729d06",
     "Name": "Dr. Jasper Zhang, PhD",
     "Company": "Hyperbolic",
-    "Company Domain": "hyperbolic.ai",
+    "Company Domain": "hyperbolic.com",
     "Company URL": "",
     "Company Website": "https://hyperbolic.xyz/",
     "Title": "CEO and Co-founder",
@@ -325,7 +325,7 @@
     "Company Domain": "berkeley.edu",
     "Company URL": "",
     "Company Website": "",
-    "Title": "PhD Student",
+    "Title": "PhD Candidate",
     "TagLine": "UC Berkeley, PhD",
     "Bio": "Michael Luo is a 4th year PhD at UC Berkeley, advised by Ion Stoica. His research covers training agents and building agent systems.",
     "X (Twitter)": "",
@@ -410,7 +410,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -478,7 +478,7 @@
     "Speaker ID": "cfff00f5-73e9-4881-bb4a-b9e34b98b26e",
     "Name": "Gorkem Yurtseven",
     "Company": "fal",
-    "Company Domain": "fal.com",
+    "Company Domain": "fal.ai",
     "Company URL": "https://fal.ai/",
     "Company Website": "",
     "Title": "Co-founder and CTO",
@@ -593,7 +593,7 @@
   {
     "Speaker ID": "fa5f22ad-339b-485d-bbf2-620cbd069be9",
     "Name": "Damien Murphy",
-    "Company": "unknown",
+    "Company": "Google",
     "Company Domain": "bench.io",
     "Company URL": "",
     "Company Website": "https://bench.io",
@@ -626,7 +626,7 @@
     "Company Domain": "together.ai",
     "Company URL": "https://www.together.ai/",
     "Company Website": "https://www.together.ai/",
-    "Title": "Head of Developer Relations",
+    "Title": "Lead, Developer Relations",
     "TagLine": "DevRel lead ",
     "Bio": "Hassan El Mghari is a software engineer based in New York specializing in building full-stack AI applications. His AI applications have a combined user base of over 3 million. He currently leads the developer relations team at Together.ai, where his work includes building example AI apps, creating content, and educating developers on AI development.",
     "X (Twitter)": "https://twitter.com/nutlope",
@@ -845,7 +845,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -874,7 +874,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -916,7 +916,7 @@
     "Company Domain": "notablecap.com",
     "Company URL": "https://www.notablecap.com/",
     "Company Website": "",
-    "Title": "AI Investor",
+    "Title": "Early Stage AI Apps Investments Lead",
     "TagLine": "Investor ",
     "Bio": "Leading early stage AI apps investments at Notable Capital ($5B AUM VC). ",
     "X (Twitter)": "",
@@ -1048,7 +1048,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1106,7 +1106,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1322,7 +1322,7 @@
     "Company Domain": "oleve.co",
     "Company URL": "https://www.oleve.co/",
     "Company Website": "https://www.oleve.co/",
-    "Title": "Co-founder and Head of Technical and AI Efforts",
+    "Title": "Co-founder and Head of Platform",
     "TagLine": "Co-Founder",
     "Bio": "Sid Bendre is the co-founder of Oleve, a company building a portfolio of iconic consumer software across multiple verticals. With a lean team, Oleve has already launched two virally successful consumer AI products that have amassed over 250 million views across social media platforms. One of their products reached #4 on the App Store's Education charts in 2024 and #5 in 2025, competing alongside giants like Photomath (Google) and Duolingo. Backed by Neo, Cal Henderson (co-founder of Slack), Russell Kaplan (President of Cognition), and Maria Zhang (ex-CTO of Tinder), Oleve is building the AI infrastructure to run a $1B portfolio of consumer software over the next decade. At Oleve, Sid leads technical and AI efforts, running the “Platform” team responsible for the underlying AI infrastructure that powers their lean scaling approach. Before Oleve, Sid led AI experimentation efforts at a startup hedge fund and worked at Slack, Zendesk, and Microsoft.",
     "X (Twitter)": "https://x.com/SidBendre",
@@ -1541,7 +1541,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1554,7 +1554,7 @@
     "Company Domain": "browserbase.com",
     "Company URL": "",
     "Company Website": "https://browserbase.com/",
-    "Title": "Founder and CEO",
+    "Title": "Founder & CEO",
     "TagLine": "Founder of Browserbase",
     "Bio": "Paul Klein IV is a San‑Francisco‑based serial entrepreneur and engineer. After honing his chops at Twilio during it's IPO and founding Stream Club—a live‑streaming platform acquired by Mux in 2021 he launched Browserbase in 2024 to give developers and AI agents fast, reliable, multi‑region headless‑browser infrastructure. In its first 12 months, Klein raised $27.5 million (a $6.5 M seed and a $21 M Series A led by CRV and Kleiner Perkins with Okta Ventures) . He views Browserbase as the “last‑mile” interface between large language models and the web, enabling end‑to‑end workflow automation far beyond traditional scraping ",
     "X (Twitter)": "https://x.com/pk_iv",
@@ -1583,7 +1583,7 @@
     "Company Domain": "reforge.com",
     "Company URL": "https://www.reforge.com/",
     "Company Website": "https://www.reforge.com/",
-    "Title": "Product Leader",
+    "Title": "Product Leader / AI PM Specialist",
     "TagLine": "VP Product ",
     "Bio": "Chun Jiang:\r\nChun was the co-founder and CEO of Monterey AI backed by YC. The company was acquired by Reforge in 2025. Chun previously led products and design at companies like Unfolded (acquired by Foursquare), Scale AI, and Uber. Chun graduated from Cornell in 2018 and has been obsessed with building the most ambitious and delightful Data and AI products in productivity, developer tooling, and autonomous vehicles.\r\n\r\nBrian Balfour:\r\nBrian is the Founder/CEO of Reforge, previously VP Growth @ HubSpot. He has started multiple VC-backed companies and grown user bases to millions of daily active users. Brian writes detailed essays on growth and user acquisition that have been featured in Forbes, Hacker Monthly, and OnStartups to help teams build a growth machine.",
     "X (Twitter)": "https://x.com/chunonline",
@@ -1831,7 +1831,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Case Study/War Story",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1976,7 +1976,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2121,7 +2121,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2134,7 +2134,7 @@
     "Company Domain": "teammates.work",
     "Company URL": "https://www.teammates.work/",
     "Company Website": "https://www.teammates.work",
-    "Title": "Founder and Product Leader",
+    "Title": "Founder and CEO",
     "TagLine": "CEO and Founder",
     "Bio": "Ben is a customer-obsessed technology executive and product leader who seamlessly bridges the worlds of business, product, and technology. He has repeated success leading cross-functional teams at multiple lifecycle stages, from 3x startup founder, to scaling through hypergrowth, to managing mature lines of business.\r\n\r\nIn 7 years at Twilio, Ben was GM of multiple business units (Developer Experience, Enterprise), Product Director for text messaging, and Head of R&D for Twilio.org. As CPTO at Arcadia (climate tech unicorn), he led a global team building APIs to decentralize and decarbonize the electrical grid. He cofounded multiple startups including Mobile Commons (acquired by $UPLD), an early platform for SMS marketing; and QuitCarbon, an AI platform to transition 100M homes off fossil fuels. \r\n\r\nHe is currently building Teammates, a platform for designing and managing a virtual workforce of truly autonomous virtual colleagues.",
     "X (Twitter)": "",
@@ -2208,7 +2208,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2308,7 +2308,7 @@
     "Company Domain": "reflection.ai",
     "Company URL": "https://www.reflection.ai/",
     "Company Website": "https://www.reflection.ai/",
-    "Title": "CEO",
+    "Title": "Co-founder and CEO",
     "TagLine": "CEO & co-founder",
     "Bio": "Misha Laskin is the co-founder and CEO of Reflection AI, a company building superintelligent coding agents. He was formerly a staff research scientist at Google DeepMind, where he worked on the Gemini RL team.",
     "X (Twitter)": "https://x.com/MishaLaskin",
@@ -2498,7 +2498,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Robotics/Autonomy",
+        "Tracks": "Autonomy+Robotics",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2627,7 +2627,7 @@
     "Company Domain": "every.to",
     "Company URL": "https://every.to/",
     "Company Website": "https://every.to/",
-    "Title": "Head of AI Strategy",
+    "Title": "Lead of AI Strategy",
     "TagLine": "Head of AI",
     "Bio": "I’m Alex Duffy. I lead AI strategy at Every Inc., helping teams across industries put AI into practice. Previously, I co-founded AI Camp, teaching thousands of students to build their own AI projects, and launched Salt AI, creating tools to help researchers, designers, and creators bring ideas to life. I’m passionate about building teams and tools to empower people with AI. I really believe in creating technology that works for us, not that is work for us. ",
     "X (Twitter)": "https://x.com/alxai_",
@@ -2701,7 +2701,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2759,7 +2759,7 @@
         "Format": "Talk",
         "Level": "Expert",
         "Scope": "Case Study/War Story",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2768,7 +2768,7 @@
   {
     "Speaker ID": "1a0174dc-9579-4c49-ace9-af98edbf57ca",
     "Name": "Hariharan Ganesan",
-    "Company": "Google",
+    "Company": "unknown",
     "Company Domain": "umich.edu",
     "Company URL": "",
     "Company Website": "",
@@ -2788,7 +2788,7 @@
         "Format": "Talk",
         "Level": "Expert",
         "Scope": "Case Study/War Story",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2830,7 +2830,7 @@
     "Company Domain": "baseten.co",
     "Company URL": "https://www.baseten.co/",
     "Company Website": "https://baseten.co",
-    "Title": "Lead, Developer Relations",
+    "Title": "Head of Developer Relations",
     "TagLine": "Head of Developer Relations",
     "Bio": "Philip Kiely leads Developer Relations at Baseten. Prior to joining Baseten in 2022, he worked across software engineering and technical writing for a variety of startups. Outside of work, you'll find Philip practicing martial arts, reading a new book, or cheering for his adopted bay area sports teams.",
     "X (Twitter)": "https://twitter.com/philip_kiely",
@@ -2904,7 +2904,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "AI in Fortune 500",
+        "Tracks": "Leadership: Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2933,7 +2933,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Robotics/Autonomy",
+        "Tracks": "Autonomy+Robotics",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2962,7 +2962,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Robotics/Autonomy",
+        "Tracks": "Autonomy+Robotics",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2975,7 +2975,7 @@
     "Company Domain": "trychroma.com",
     "Company URL": "https://www.trychroma.com/",
     "Company Website": "https://www.trychroma.com/",
-    "Title": "CEO and Cofounder",
+    "Title": "CEO and cofounder",
     "TagLine": "CEO",
     "Bio": "Jeff Huber is the CEO and cofounder of Chroma. Jeff's work has been featured in TechCrunch, VentureBeat, MacWorld, GQ, Fast Company, Fortune, Forbes, Business Insider, Quartz and others. Chroma is a widely-loved and adopted open-source vector database.",
     "X (Twitter)": "https://twitter.com/jeffreyhuber",
@@ -3033,7 +3033,7 @@
     "Company Domain": "qodo.ai",
     "Company URL": "https://www.qodo.ai/",
     "Company Website": "https://www.qodo.ai/",
-    "Title": "CEO and Co-founder",
+    "Title": "CEO and co-founder",
     "TagLine": "CEO & Co-founder",
     "Bio": " Itamar Friedman is the CEO and co-founder of Qodo (fka CodiumAI), the leader in the emerging code integrity space.\r\nPrior to that, Itamar was the co-founder and CTO of Visualead, which Alibaba Group acquired. As a director at Alibaba, he led teams to create innovative ML-based B2C and B2D applications and tools used by millions.\r\nItamar holds a BSc & MSc in Electrical Engineering (Summa Cum Laude) from the Technion, majoring in Machine Learning and Computer Vision.\r\n\r\n",
     "X (Twitter)": "https://x.com/itamar_mar",
@@ -3136,7 +3136,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Robotics/Autonomy",
+        "Tracks": "Autonomy+Robotics",
         "Room": "",
         "Scheduled At": ""
       }
@@ -3223,7 +3223,7 @@
         "Format": "Workshop",
         "Level": "Introductory and overview",
         "Scope": "Technical deep dive",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -3252,7 +3252,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -3281,7 +3281,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -3352,7 +3352,7 @@
     "Company Domain": "runllama.ai",
     "Company URL": "llamaindex.ai",
     "Company Website": "",
-    "Title": "Co-founder and CEO",
+    "Title": "Co-founder/CEO",
     "TagLine": "CEO",
     "Bio": "Jerry is the co-founder/CEO of LlamaIndex, the most accurate and flexible way to automate your document workflows with AI agents. Before this, he led the ML monitoring team at Robust Intelligence, did self-driving AI research at Uber ATG and worked on recommendation systems at Quora.",
     "X (Twitter)": "https://twitter.com/jerryjliu0",
@@ -3368,7 +3368,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Retrieval & Search",
+        "Tracks": "Retrieval+Search",
         "Room": "",
         "Scheduled At": ""
       }
@@ -3381,7 +3381,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "huxe.com",
     "Company Website": "",
-    "Title": "Founder",
+    "Title": "Product Leader",
     "TagLine": "CEO & Co-Founder Huxe || Previously NotebookLM",
     "Bio": "A product leader with a unique lens on AI's user experience challenges, Raiza brings insights from both big tech and startup trenches. \r\n\r\nMost recently leading Google's NotebookLM team, she has shaped how millions of users interact with generative AI. Now, as a founder, she is reimagining these experiences from first principles. \r\n\r\nWith years of hands-on PM experience guiding technical teams through the practical realities of shipping AI products, Raiza offers a rare combination of enterprise-scale perspective and startup-speed execution.",
     "X (Twitter)": "https://x.com/raizamrtn",
