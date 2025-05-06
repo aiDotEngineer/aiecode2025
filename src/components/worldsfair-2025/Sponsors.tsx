@@ -77,25 +77,49 @@ export function Sponsors() {
 
       <div className="space-y-0 text-center">
 
-        <div className="space-y-6 text-center">
-          <div className="uppercase font-bold text-gray-on-white">Track Sponsors</div>
+        <div className="uppercase font-bold text-gray-on-white">Track Sponsors</div>
+        <div className="space-x-16 my-16 text-center">
+            <a href="https://neo4j.com" target="_blank" className="inline-block">
+              <div className="flex flex-col items-center">
+                <span className="text-sm text-gray-600 mt-2">GraphRAG track brought to you by</span>
+                <Logo
+                  logo="neo4j"
+                  // variant="black"
+                  className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+                />
+              </div>
+            </a>
             <a href="https://braintrustdata.com" target="_blank" className="inline-block">
+            <div className="flex flex-col items-center">  
+              <span className="text-sm text-gray-600 mt-2">Evals track brought to you by</span>
               <Logo
                 logo="braintrust"
                 variant="black"
-                className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+                className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6 scale-125"
               />
-            </a><a href="https://promptql.hasura.io" target="_blank" className="inline-block">
+            </div>
+            </a>
+            <a href="https://promptql.hasura.io" target="_blank" className="inline-block">
+            <div className="flex flex-col items-center">
+              <span className="text-sm text-gray-600 mt-2">Agent Reliability track hosted by</span>
               <Logo
                 logo="hasura"
                 className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
               />
+            </div>
             </a>
         </div>
         <div className="uppercase font-bold text-gray-on-white">
           Platinum Sponsors
         </div>
 
+        <a href="https://graphite.dev" target="_blank" className="inline-block">
+          <Logo
+            logo="graphite"
+            variant="black"
+            className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
+          />
+        </a>
         <a href="https://windsurf.com" target="_blank" className="inline-block">
           <Logo
             logo="windsurf"
@@ -105,13 +129,6 @@ export function Sponsors() {
         <a href="https://mongodb.com" target="_blank">
           <Logo
             logo="mongodb"
-            className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
-          />
-        </a>
-        <a href="https://graphite.dev" target="_blank" className="inline-block">
-          <Logo
-            logo="graphite"
-            variant="black"
             className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
           />
         </a>
@@ -126,14 +143,14 @@ export function Sponsors() {
           <Logo
             logo="augmentCode"
             variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            className="inline-block h-10 w-48 md:h-28 md:w-42 object-contain mx-6 scale-150 mr-16"
           />
         </a>
         <a href="https://workos.com" target="_blank" className="inline-block">
           <Logo
             logo="workOS"
             variant="white"
-            className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            className="inline-block h-10 w-48 md:h-28 md:w-42 object-contain mx-6 scale-120"
           />
         </a>
       </div>

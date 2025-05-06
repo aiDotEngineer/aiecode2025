@@ -139,8 +139,8 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       </header>
 
       <p className="text-center space-y-6 max-w-3xl m-auto text-gray-on-white">
-        With 12 tracks and over 100 sessions, you can design the program schedule
-        that perfectly matches your business needs. There are up to 5
+        With 20 tracks and over 150 sessions, you can design the program schedule
+        that perfectly matches your business needs. There are up to 10
         simultaneous sessions running at any one time, so it's a good thing we
         have a <code className="font-mono bg-gray-200">GROUP</code> discount for
         teams attending together!
@@ -191,35 +191,15 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       <div className="max-md:hidden">
         {/* Track filters */}
         <div className="text-center mb-4">
-          <h3 className="text-lg font-semibold mb-2">Tracks</h3>
+          {/* <h3 className="text-lg font-semibold mb-2">Tracks</h3> */}
           <Button
             onClick={clearFilters}
             border={filterTracks.length > 0 || filterFormats.length > 0}
             invert={filterTracks.length > 0 || filterFormats.length > 0}
             className="mx-2 mt-4"
           >
-            All Tracks & Formats
+            All Tracks
           </Button>
-          {tracks.map((t) => {
-            if (!t || t === 'Uncategorized') return null;
-            const isSelected = filterTracks.includes(t);
-            return (
-              <Button
-                key={t}
-                onClick={() => toggleTrack(t)}
-                border={!isSelected}
-                invert={!isSelected}
-                className="mx-2 mt-4"
-              >
-                {t}
-              </Button>
-            );
-          })}
-        </div>
-
-        {/* Format filters */}
-        <div className="text-center">
-          <h3 className="text-lg font-semibold mb-2">Formats</h3>
           {formats.map((f) => {
             if (!f) return null;
             const isSelected = filterFormats.includes(f);
@@ -232,6 +212,21 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                 className="mx-2 mt-4"
               >
                 {f}
+              </Button>
+            );
+          })}
+          {tracks.map((t) => {
+            if (!t || t === 'Uncategorized') return null;
+            const isSelected = filterTracks.includes(t);
+            return (
+              <Button
+                key={t}
+                onClick={() => toggleTrack(t)}
+                border={!isSelected}
+                invert={!isSelected}
+                className="mx-2 mt-4"
+              >
+                {t}
               </Button>
             );
           })}
@@ -296,7 +291,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         <ul
           role="list"
           className={
-            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-4 lg:grid-cols-6 xl:gap-6 xl:-mx-32 pb-16'
+            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-4 lg:grid-cols-8 xl:gap-2 xl:-mx-32 pb-16'
           }
         >
           {presentersProcessed.map((presenter) => {
@@ -316,7 +311,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                     alt={name}
                     loading="lazy"
                     src={url}
-                    className="h-64 lg:h-96 w-full object-cover transition duration-500 motion-safe:group-hover:scale-105"
+                    className="h-32 lg:h-64 w-full object-cover transition duration-500 motion-safe:group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-black to-transparent"></div>
                   <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-black to-black/0 to-40% p-2 lg:p-6">
@@ -343,7 +338,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                       <br />
                       <em className="hidden group-hover:block text-xs">
                         {sessions.data[0]?.attributes.title}
-                        {format && <span className="ml-1 text-yellow-300">[{format}]</span>}
+                        {/* {format && <span className="ml-1 text-yellow-300">[{format}]</span>} */}
                       </em>
                     </p>
                   </div>

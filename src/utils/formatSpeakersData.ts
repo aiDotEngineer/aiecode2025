@@ -50,11 +50,57 @@ export interface FormattedData {
 // Priority scores for specific speakers (1-1000, higher = more priority)
 const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   // Examples - update with actual speaker names and scores
+  "Dani Grant": 900,
   "Joel Hron": 900,
+  "Chelcie Taylor": 800,
   "Aman Kishore": 800,
-  "Chang She": 700,
-  "David Hsu": 600,
-  "Devansh Tandon": 500
+  "David Hsu": 700,
+  "Rossella Blatt Vital": 500,
+  "Chang She": 600,
+  "Brooke Hopkins": 700,
+  "Julia Neagu": 500,
+  "Deanna Emery": 500,
+  "Sharon Zhou": 500,
+  "Preeti Somal": 500,
+  "Annika Brundyn": 500,
+  "Aastha Jhunjhunwala": 500,
+
+  // keynote speakers
+  "Raiza Martin": 900,
+  "Sarah Guo": 900,
+  "Clay Bavor": 900,
+  "Jared Palmer": 900,
+  "Daniel Persczyk": 900,
+  "Simon Willison": 900,
+  "Logan Kilpatrick": 900,
+  "Harrison Chase": 900,
+  "Solomon Hykes": 900,
+  "Jesse Han": 900,
+  "Micah Hill-Smith": 900,
+  "Sean Grove": 800,
+
+  // Prioritize speakers from major tech companies
+  "Devansh Tandon": 600, // Google
+  "Kelvin Ma": 900, // Google Photos
+  "Philipp Schmid": 900, // Google DeepMind
+  "Damien Murphy": 300, // Google
+  "Rustin Banks": 300, // Google Labs
+  "Hariharan Ganesan": 300, // Google
+  "Christopher Chedeau": 300, // Facebook
+  "Kyle Kranen": 300, // NVIDIA
+  "Mitesh Patel": 300, // NVIDIA
+  "Victor Dibia": 800, // Microsoft Research
+  "Michael Albada": 300, // Microsoft Security AI Research
+  "Dominik Kundel": 300, // OpenAI
+//   "Sean DuBois": 300, // OpenAI
+  "Anoop Kotha": 300, // OpenAI
+//   "Vaibhav Page": 300, // BlackRock
+//   "Infant Vasanth": 300, // BlackRock
+  "Jaspreet Singh": 300, // Intuit
+  "Ola Mabadeje": 300, // Cisco
+  "Taylor Jordan Smith": 300, // Red Hat
+  "Jyh-Jing Hwang": 700, // Waymo
+  "Shafik Quoraishee": 300, // New York Times
 };
 
 // Default priority score for speakers not in the list above
@@ -67,7 +113,7 @@ export function formatSpeakersData(): FormattedData {
   // Transform speaker data into the format expected by SpeakerPreview
   const presenters = speakersData.map((speaker, index) => {
     // Get priority score for this speaker
-    const priorityScore = SPEAKER_PRIORITY_SCORES[speaker.Name] || DEFAULT_PRIORITY_SCORE;
+    const priorityScore = SPEAKER_PRIORITY_SCORES[speaker.Name] || (DEFAULT_PRIORITY_SCORE * Math.random());
     
     // Extract session tracks and formats for this speaker
     speaker.Sessions.forEach(session => {

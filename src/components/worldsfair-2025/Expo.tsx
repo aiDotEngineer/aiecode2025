@@ -56,7 +56,7 @@ export function Expo() {
         </p>
       </header>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-10 items-center justify-items-center gap-x-8 gap-y-10 lg:gap-y-5">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 items-center justify-items-center gap-x-8 gap-y-10">
         <a
           href="https://azure.microsoft.com/en-us/solutions/ai"
           target="_blank"
@@ -183,7 +183,7 @@ export function Expo() {
         >
           <Logo
             logo="vellum"
-            className="object-contain m-auto"
+            className="object-contain w-[80%] m-auto"
             // className="inline-block h-12 w-24 md:h-20 md:w-42 object-contain mx-6"
           />
         </a>
@@ -191,14 +191,14 @@ export function Expo() {
           <Logo
             logo="gensx"
             variant="black"
-            className="object-contain m-auto"
+            className="object-contain w-[80%] m-auto"
             // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
         <a href="https://redis.com" target="_blank" className="inline-block">
           <Logo
             logo="redis"
-            className="object-contain m-auto"
+            className="object-contain w-[80%] m-auto"
             // className="inline-block h-12 w-32 md:h-20 md:w-36 object-contain mx-6"
           />
         </a>
