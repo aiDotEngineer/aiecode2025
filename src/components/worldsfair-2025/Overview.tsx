@@ -145,7 +145,7 @@ export function Overview() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <div className="text-gray-on-white text-base">/ June 1 - 8</div>
-          <h2 className="text-3xl font-bold">
+          <h2 className="text-3xl font-bold" id="events">
             Pre-party, Hackathons, Afterparty, and Other SF AI Events
           </h2>
           {/* Come for the World's Fair, stay for the SF AI scene! <br /> */}
