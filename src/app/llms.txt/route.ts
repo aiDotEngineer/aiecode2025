@@ -46,7 +46,7 @@ Organized by the team behind the AI Engineer Summit.
 - **Evening Welcome Reception** (4:00–7:00pm): Held in the Grand Assembly & Expo Hall. Open to all ticketholders.
 
 ### Wednesday & Thursday, June 4–5 – Conference Days
-- 18 tracks of talks, panels, and demos.
+- 20 tracks of talks, panels, and demos.
 - Keynotes from the biggest and most consequential labs and companies.
 - High-value hallway track and facilitated networking.
 - Workshops and exclusive access for "Conference + Workshop Pass" holders.

@@ -38,7 +38,7 @@ export function TracksPreview() {
           <b>The SOTA in AI Engineering All In One Place</b>
         </h1>
         <p className="max-w-xl m-auto text-gray-on-black text-justify">
-          With 18 tracks and over 150 sessions, you can design the program schedule that perfectly
+          With 20 tracks and over 150 sessions, you can design the program schedule that perfectly
           matches your business needs. <b>There are up to 10 simultaneous sessions running at any one
           time</b>, so it's a good thing we have a{" "}
           <code className="bg-slate-800 mx-1 p-1 rounded-sm">GROUP</code> discount for teams
@@ -70,6 +70,12 @@ export function TracksPreview() {
             Apply to speak here
           </a>
           !
+        </p> */}
+        {/* <p>
+          <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
+            IMPORTANT
+          </span>{" "}
+          Note: the speakers are still being finalized - keynotes are yet to be announced!
         </p> */}
       </header>
 

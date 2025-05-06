@@ -139,7 +139,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       </header>
 
       <p className="text-center space-y-6 max-w-3xl m-auto text-gray-on-white">
-        With 18 tracks and over 150 sessions, you can design the program schedule
+        With 20 tracks and over 150 sessions, you can design the program schedule
         that perfectly matches your business needs. There are up to 10
         simultaneous sessions running at any one time, so it's a good thing we
         have a <code className="font-mono bg-gray-200">GROUP</code> discount for
@@ -148,6 +148,12 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
 
       {/* Mobile filters */}
       <div className="md:hidden space-y-4">
+        <p>
+          <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
+            IMPORTANT
+          </span>{" "}
+          Note: the speakers are still being finalized - keynotes are yet to be announced!
+        </p>
         <select
           onChange={(e) => {
             const value = e.target.value;
@@ -231,6 +237,13 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
             );
           })}
         </div>
+
+        <p className="text-center">
+          <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
+            IMPORTANT
+          </span>{" "}
+          Note: the speakers are still being finalized - keynotes are yet to be announced!
+        </p>
       </div>
 
       {textView ? (
@@ -315,7 +328,23 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-black to-transparent"></div>
                   <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-black to-black/0 to-40% p-2 lg:p-6">
-                    <p className="font-display text-base/6 font-semibold tracking-wide text-white">
+                    
+                    <p className="text-white group text-sm leading-5">
+                      {presenter.attributes.tagline && (
+                        <span className="text-xs text-gray-300">
+                          {presenter.attributes.tagline}
+                          <br />
+                        </span>
+                      )}
+                      {company.data?.attributes.name || ''}
+                      <br />
+                      <em className="hidden group-hover:block text-xs">
+                        {sessions.data[0]?.attributes.title}
+                        {/* {format && <span className="ml-1 text-yellow-300">[{format}]</span>} */}
+                      </em>
+                    </p>
+                    {/* <p className={`font-display font-semibold tracking-wide text-white ${name.length > 10 ? 'text-xs' : 'text-base/6'}`}> */}
+                    <p className={`font-display font-semibold tracking-wide text-white text-xs`}>
                       {socialLinks ? (
                         <a
                           href={
@@ -333,19 +362,21 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                         name
                       )}
                     </p>
-                    <p className="mt-2 text-sm text-white group">
-                      {company.data?.attributes.name || ''}
-                      <br />
-                      <em className="hidden group-hover:block text-xs">
-                        {sessions.data[0]?.attributes.title}
-                        {/* {format && <span className="ml-1 text-yellow-300">[{format}]</span>} */}
-                      </em>
-                    </p>
                   </div>
                 </div>
               </li>
             );
           })}
+        <li className="col-span-full">
+          <div className="rounded-lg lg:rounded-3xl bg-neutral-800 p-4 lg:p-6 text-center">
+            <p className="text-white">
+              <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
+                Important
+              </span>{" "}
+              Keynote speakers will be announced soon! Stay tuned for more exciting additions to our speaker lineup.
+            </p>
+          </div>
+        </li>
         </ul>
       )}
     </div>

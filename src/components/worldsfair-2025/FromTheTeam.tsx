@@ -24,7 +24,7 @@ export function FromTheTeam() {
         <h2 className="text-5xl">
           From the team behind the
           <br />
-          <b><a href="/summit/2025" className="text-blue-600 hover:underline hover:text-blue-400">AI Engineer Summit</a></b>
+          <b><a href="/summit/2025" className="hover:underline hover:text-blue-600">AI Engineer Summit</a></b>
         </h2>
         {/* <p>Where we featured talks & workshops from top companies including:</p> */}
       </div>

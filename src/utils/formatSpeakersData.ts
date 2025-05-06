@@ -78,6 +78,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Jesse Han": 900,
   "Micah Hill-Smith": 900,
   "Sean Grove": 800,
+  "Will Brown": 800,
 
   // Prioritize speakers from major tech companies
   "Devansh Tandon": 600, // Google
@@ -93,7 +94,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Michael Albada": 300, // Microsoft Security AI Research
   "Dominik Kundel": 300, // OpenAI
 //   "Sean DuBois": 300, // OpenAI
-  "Anoop Kotha": 300, // OpenAI
+  "Anoop Kotha": 900, // OpenAI
 //   "Vaibhav Page": 300, // BlackRock
 //   "Infant Vasanth": 300, // BlackRock
   "Jaspreet Singh": 300, // Intuit
