@@ -180,7 +180,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://www.blackrock.com/corporate",
     "Company Website": "",
-    "Title": "Engineering Team Lead, Studio Compute Platform and Data & AI Acceleration",
+    "Title": "Engineering Lead, Studio Compute Platform and Data & AI Acceleration",
     "TagLine": "Senior Director of Engineering",
     "Bio": "Infant Vasanth leads the engineering team responsible for the Studio Compute Platform, BlackRock's analytics and automation platform that enables our users to conduct research & analysis, run automations and distribute research at scale.\r\nIn addition, Infant is also leading the Data & AI Acceleration team focusing on efforts to enhance Aladdin Studio's AI capabilities along side the Operational AI capabilities(prospectus analyzer, operational agents etc.)",
     "X (Twitter)": "",
@@ -254,7 +254,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "AI Architects",
+        "Tracks": "Leadership: Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -264,7 +264,7 @@
     "Speaker ID": "1f442afe-45ef-48c0-9782-5a5267729d06",
     "Name": "Dr. Jasper Zhang, PhD",
     "Company": "Hyperbolic",
-    "Company Domain": "hyperbolic.com",
+    "Company Domain": "hyperbolic.ai",
     "Company URL": "",
     "Company Website": "https://hyperbolic.xyz/",
     "Title": "CEO and Co-founder",
@@ -439,7 +439,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "AI Architects",
+        "Tracks": "Leadership: Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -593,7 +593,7 @@
   {
     "Speaker ID": "fa5f22ad-339b-485d-bbf2-620cbd069be9",
     "Name": "Damien Murphy",
-    "Company": "Google",
+    "Company": "unknown",
     "Company Domain": "bench.io",
     "Company URL": "",
     "Company Website": "https://bench.io",
@@ -613,7 +613,7 @@
         "Format": "Workshop",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "Model Context Protocol (MCP)",
+        "Tracks": "MCP",
         "Room": "",
         "Scheduled At": ""
       }
@@ -671,7 +671,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Model Context Protocol (MCP)",
+        "Tracks": "MCP",
         "Room": "",
         "Scheduled At": ""
       }
@@ -700,7 +700,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
-        "Tracks": "AI Architects",
+        "Tracks": "Leadership: Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -903,7 +903,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "AI Architects",
+        "Tracks": "Leadership: Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -916,7 +916,7 @@
     "Company Domain": "notablecap.com",
     "Company URL": "https://www.notablecap.com/",
     "Company Website": "",
-    "Title": "Leading Early Stage AI Apps Investments",
+    "Title": "AI Investor",
     "TagLine": "Investor ",
     "Bio": "Leading early stage AI apps investments at Notable Capital ($5B AUM VC). ",
     "X (Twitter)": "",
@@ -932,7 +932,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "AI Architects",
+        "Tracks": "Leadership: Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1077,7 +1077,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Ai Design & UX",
+        "Tracks": "Design Engineering",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1193,7 +1193,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Ai Design & UX",
+        "Tracks": "Design Engineering",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1222,7 +1222,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Introductory (landscape)",
-        "Tracks": "AI Architects",
+        "Tracks": "Leadership: Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1322,7 +1322,7 @@
     "Company Domain": "oleve.co",
     "Company URL": "https://www.oleve.co/",
     "Company Website": "https://www.oleve.co/",
-    "Title": "Co-founder and Head of Platform",
+    "Title": "Co-founder and Head of Technical and AI Efforts",
     "TagLine": "Co-Founder",
     "Bio": "Sid Bendre is the co-founder of Oleve, a company building a portfolio of iconic consumer software across multiple verticals. With a lean team, Oleve has already launched two virally successful consumer AI products that have amassed over 250 million views across social media platforms. One of their products reached #4 on the App Store's Education charts in 2024 and #5 in 2025, competing alongside giants like Photomath (Google) and Duolingo. Backed by Neo, Cal Henderson (co-founder of Slack), Russell Kaplan (President of Cognition), and Maria Zhang (ex-CTO of Tinder), Oleve is building the AI infrastructure to run a $1B portfolio of consumer software over the next decade. At Oleve, Sid leads technical and AI efforts, running the “Platform” team responsible for the underlying AI infrastructure that powers their lean scaling approach. Before Oleve, Sid led AI experimentation efforts at a startup hedge fund and worked at Slack, Zendesk, and Microsoft.",
     "X (Twitter)": "https://x.com/SidBendre",
@@ -1483,7 +1483,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Ai Design & UX",
+        "Tracks": "Design Engineering",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1492,7 +1492,7 @@
   {
     "Speaker ID": "e344968a-0c7a-45c8-8cd1-27a77ead36ce",
     "Name": "Will Brown",
-    "Company": "Prime Intellect",
+    "Company": "Independent",
     "Company Domain": "columbia.edu",
     "Company URL": "https://www.primeintellect.ai/",
     "Company Website": "https://primeintellect.ai",
@@ -1583,7 +1583,7 @@
     "Company Domain": "reforge.com",
     "Company URL": "https://www.reforge.com/",
     "Company Website": "https://www.reforge.com/",
-    "Title": "Co-founder and CEO",
+    "Title": "Product Leader",
     "TagLine": "VP Product ",
     "Bio": "Chun Jiang:\r\nChun was the co-founder and CEO of Monterey AI backed by YC. The company was acquired by Reforge in 2025. Chun previously led products and design at companies like Unfolded (acquired by Foursquare), Scale AI, and Uber. Chun graduated from Cornell in 2018 and has been obsessed with building the most ambitious and delightful Data and AI products in productivity, developer tooling, and autonomous vehicles.\r\n\r\nBrian Balfour:\r\nBrian is the Founder/CEO of Reforge, previously VP Growth @ HubSpot. He has started multiple VC-backed companies and grown user bases to millions of daily active users. Brian writes detailed essays on growth and user acquisition that have been featured in Forbes, Hacker Monthly, and OnStartups to help teams build a growth machine.",
     "X (Twitter)": "https://x.com/chunonline",
@@ -1628,7 +1628,7 @@
         "Format": "Talk",
         "Level": "Expert",
         "Scope": "Technical deep dive",
-        "Tracks": "Model Context Protocol (MCP)",
+        "Tracks": "MCP",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1657,7 +1657,7 @@
         "Format": "Talk",
         "Level": "Expert",
         "Scope": "Technical deep dive",
-        "Tracks": "Model Context Protocol (MCP)",
+        "Tracks": "MCP",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1670,7 +1670,7 @@
     "Company Domain": "daily.co",
     "Company URL": "https://www.daily.co/",
     "Company Website": "https://openai.com/",
-    "Title": "Engineer",
+    "Title": "WebRTC Infrastructure Engineer",
     "TagLine": "CEO ",
     "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man.",
     "X (Twitter)": "https://x.com/kwindla",
@@ -1699,7 +1699,7 @@
     "Company Domain": "openai.com",
     "Company URL": "https://openai.com/",
     "Company Website": "http://openai.com/",
-    "Title": "WebRTC and Realtime API Developer",
+    "Title": "WebRTC and Realtime API Engineer",
     "TagLine": "WebRTC and Realtime API",
     "Bio": "Sean works on WebRTC and the Realtime API at OpenAI. He built 1-800-CHATGPT. He is the founder of Pion, the most widely used open source WebRTC project. He has previously worked at AWS, LiveKit, Apple, and Etsy.",
     "X (Twitter)": "https://x.com/_pion",
@@ -1757,7 +1757,7 @@
     "Company Domain": "openai.com",
     "Company URL": "https://openai.com/",
     "Company Website": "",
-    "Title": "Customer Solutions Engineer",
+    "Title": "Customer Engineer",
     "TagLine": "Applied AI",
     "Bio": "I'm Anoop Kotha, a member of the OpenAI team that works with our customers to create novel LLM experiences. Previously I was an engineer at Retool. ",
     "X (Twitter)": "",
@@ -1989,7 +1989,7 @@
     "Company Domain": "outlook.com",
     "Company URL": "",
     "Company Website": "",
-    "Title": "AI Technology Innovator",
+    "Title": "Technology Innovator",
     "TagLine": "Head of AI for Technology ",
     "Bio": "Brett Kotch has transformed trading technology at top global financial institutions, including Millennium, Citibank, Barclays, and Liquidnet, where he was part of the original team enabling anonymous execution of large trades, creating one of Wall Street’s largest pools of institutional liquidity. Brett is actively driving innovative solutions to advance AI within technology. Brett holds a degree in Computer Science from Columbia University.\r\n\r\n",
     "X (Twitter)": "",
@@ -2005,7 +2005,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "AI Architects",
+        "Tracks": "Leadership: Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2063,7 +2063,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Case Study/War Story",
-        "Tracks": "Ai Design & UX",
+        "Tracks": "Design Engineering",
         "Room": "",
         "Scheduled At": ""
       }
@@ -2134,7 +2134,7 @@
     "Company Domain": "teammates.work",
     "Company URL": "https://www.teammates.work/",
     "Company Website": "https://www.teammates.work",
-    "Title": "Founder & CEO",
+    "Title": "Founder and Product Leader",
     "TagLine": "CEO and Founder",
     "Bio": "Ben is a customer-obsessed technology executive and product leader who seamlessly bridges the worlds of business, product, and technology. He has repeated success leading cross-functional teams at multiple lifecycle stages, from 3x startup founder, to scaling through hypergrowth, to managing mature lines of business.\r\n\r\nIn 7 years at Twilio, Ben was GM of multiple business units (Developer Experience, Enterprise), Product Director for text messaging, and Head of R&D for Twilio.org. As CPTO at Arcadia (climate tech unicorn), he led a global team building APIs to decentralize and decarbonize the electrical grid. He cofounded multiple startups including Mobile Commons (acquired by $UPLD), an early platform for SMS marketing; and QuitCarbon, an AI platform to transition 100M homes off fossil fuels. \r\n\r\nHe is currently building Teammates, a platform for designing and managing a virtual workforce of truly autonomous virtual colleagues.",
     "X (Twitter)": "",
@@ -2308,7 +2308,7 @@
     "Company Domain": "reflection.ai",
     "Company URL": "https://www.reflection.ai/",
     "Company Website": "https://www.reflection.ai/",
-    "Title": "Co-founder and CEO",
+    "Title": "CEO",
     "TagLine": "CEO & co-founder",
     "Bio": "Misha Laskin is the co-founder and CEO of Reflection AI, a company building superintelligent coding agents. He was formerly a staff research scientist at Google DeepMind, where he worked on the Gemini RL team.",
     "X (Twitter)": "https://x.com/MishaLaskin",
@@ -2482,7 +2482,7 @@
     "Company Domain": "waymo.com",
     "Company URL": "https://waymo.com/",
     "Company Website": "",
-    "Title": "Research Scientist and TLM at Waymo Research",
+    "Title": "Research Scientist and TLM",
     "TagLine": "Research Scientist & TLM ",
     "Bio": "Jyh-Jing is currently a Research Scientist and TLM at Waymo Research. He also taught machine learning and computer vision as a lecturer at UPenn MCIT Online in 2022 and 2023. Before joining Waymo in 2020, Jyh-Jing received his Ph.D. degree in Computer and Information Science from University of Pennsylvania, advised by Prof. Jianbo Shi and Prof. Stella Yu at UC Berkeley / ICSI. Before coming to the U.S., he received the B.S. and M.S. degrees from National Taiwan University and worked with Dr. Tyng-Luh Liu at Academia Sinica. His research interests are broadly in artificial intelligence, computer vision, and machine learning. Particularly, he's interested in end-to-end autonomous driving, large multimodal models, general image/video structures, and sensor fusion for robust perception.",
     "X (Twitter)": "",
@@ -2627,7 +2627,7 @@
     "Company Domain": "every.to",
     "Company URL": "https://every.to/",
     "Company Website": "https://every.to/",
-    "Title": "Lead of AI Strategy",
+    "Title": "Head of AI Strategy",
     "TagLine": "Head of AI",
     "Bio": "I’m Alex Duffy. I lead AI strategy at Every Inc., helping teams across industries put AI into practice. Previously, I co-founded AI Camp, teaching thousands of students to build their own AI projects, and launched Salt AI, creating tools to help researchers, designers, and creators bring ideas to life. I’m passionate about building teams and tools to empower people with AI. I really believe in creating technology that works for us, not that is work for us. ",
     "X (Twitter)": "https://x.com/alxai_",
@@ -2768,7 +2768,7 @@
   {
     "Speaker ID": "1a0174dc-9579-4c49-ace9-af98edbf57ca",
     "Name": "Hariharan Ganesan",
-    "Company": "unknown",
+    "Company": "Google",
     "Company Domain": "umich.edu",
     "Company URL": "",
     "Company Website": "",
@@ -2856,7 +2856,7 @@
     "Speaker ID": "4d8f9ca5-846a-4577-a858-944d5047f16d",
     "Name": "Jordan Dearsley",
     "Company": "Vapi",
-    "Company Domain": "vapi.ai",
+    "Company Domain": "vapi.com",
     "Company URL": "https://vapi.ai/",
     "Company Website": "https://vapi.ai/",
     "Title": "Co-founder and CEO",
@@ -2975,7 +2975,7 @@
     "Company Domain": "trychroma.com",
     "Company URL": "https://www.trychroma.com/",
     "Company Website": "https://www.trychroma.com/",
-    "Title": "CEO and cofounder",
+    "Title": "CEO and Cofounder",
     "TagLine": "CEO",
     "Bio": "Jeff Huber is the CEO and cofounder of Chroma. Jeff's work has been featured in TechCrunch, VentureBeat, MacWorld, GQ, Fast Company, Fortune, Forbes, Business Insider, Quartz and others. Chroma is a widely-loved and adopted open-source vector database.",
     "X (Twitter)": "https://twitter.com/jeffreyhuber",
@@ -3165,7 +3165,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "AI Architects",
+        "Tracks": "Leadership: Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -3352,7 +3352,7 @@
     "Company Domain": "runllama.ai",
     "Company URL": "llamaindex.ai",
     "Company Website": "",
-    "Title": "Co-founder/CEO",
+    "Title": "Co-founder and CEO",
     "TagLine": "CEO",
     "Bio": "Jerry is the co-founder/CEO of LlamaIndex, the most accurate and flexible way to automate your document workflows with AI agents. Before this, he led the ML monitoring team at Robust Intelligence, did self-driving AI research at Uber ATG and worked on recommendation systems at Quora.",
     "X (Twitter)": "https://twitter.com/jerryjliu0",
@@ -3381,7 +3381,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "huxe.com",
     "Company Website": "",
-    "Title": "Product Leader",
+    "Title": "Founder",
     "TagLine": "CEO & Co-Founder Huxe || Previously NotebookLM",
     "Bio": "A product leader with a unique lens on AI's user experience challenges, Raiza brings insights from both big tech and startup trenches. \r\n\r\nMost recently leading Google's NotebookLM team, she has shaped how millions of users interact with generative AI. Now, as a founder, she is reimagining these experiences from first principles. \r\n\r\nWith years of hands-on PM experience guiding technical teams through the practical realities of shipping AI products, Raiza offers a rare combination of enterprise-scale perspective and startup-speed execution.",
     "X (Twitter)": "https://x.com/raizamrtn",
