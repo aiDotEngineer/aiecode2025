@@ -199,7 +199,7 @@ export function formatSpeakersData(): FormattedData {
   const existingPresenters: FormattedSpeaker[] = speakersData
     .filter(speakerFromJson => !manualSpeakerNames.has(speakerFromJson.Name)) // Avoid duplicates
     .map((speakerFromJson, index) => {
-      const priorityScore = SPEAKER_PRIORITY_SCORES[speakerFromJson.Name] || (DEFAULT_PRIORITY_SCORE * Math.random());
+      const priorityScore = SPEAKER_PRIORITY_SCORES[speakerFromJson.Name] || (DEFAULT_PRIORITY_SCORE * (Math.random() + 1));
       
       const socialLinks = speakerFromJson.LinkedIn || speakerFromJson["X (Twitter)"] || speakerFromJson["Company Website"] || undefined;
       
