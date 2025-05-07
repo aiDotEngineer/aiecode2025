@@ -178,5 +178,20 @@ export const manualKeynoteSpeakers = [
         "Tracks": "AI in Action"
       }
     ]
+  },
+  {
+    "Name": "Justin Junyang Lin",
+    "Company": "Alibaba Qwen",
+    "Domain": "qwenlm.com",
+    "Tagline": "Core Maintainer",
+    "ProfilePicture": "/wf25speakers/junyang_lin.jpg",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Talk",
+        "Description": "Justin Junyang Lin discusses the latest developments and contributions from Alibaba's Qwen team to the open-source AI community.",
+        "Tracks": "AI in Action"
+      }
+    ]
   }
 ]

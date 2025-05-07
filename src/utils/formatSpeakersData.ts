@@ -74,6 +74,9 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Anoop Kotha": 900,
   "Kelvin Ma": 900, 
   "Philipp Schmid": 900, 
+  "Ben Parr": 900,
+  "Lin Qiao": 900,
+  "Justin Junyang Lin": 800, // Added Justin Junyang Lin
 
   // Mid-Tier Priority
   "Chelcie Taylor": 800,
