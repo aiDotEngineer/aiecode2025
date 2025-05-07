@@ -187,7 +187,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/junyang_lin.jpg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "tba (remote only)",
         "Format": "Talk",
         "Description": "Justin Junyang Lin discusses the latest developments and contributions from Alibaba's Qwen team to the open-source AI community.",
         "Tracks": "AI in Action"
@@ -206,6 +206,21 @@ export const manualKeynoteSpeakers = [
         "Format": "Talk",
         "Description": "Boris Cherny discusses advancements and applications of Claude Code by Anthropic.",
         "Tracks": "AI Code Generation"
+      }
+    ]
+  },
+  {
+    "Name": "Ben Kus",
+    "Company": "Box",
+    "Domain": "box.com", 
+    "Tagline": "CTO",
+    "ProfilePicture": "/wf25speakers/ben_kus.jpeg",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Talk",
+        "Description": "Ben Kus discusses how Box is leveraging AI to transform content management and collaboration.",
+        "Tracks": "AI in Enterprise"
       }
     ]
   }
