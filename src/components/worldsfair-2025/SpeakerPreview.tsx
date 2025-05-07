@@ -110,7 +110,8 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       <header
         className={clsx(
           'text-center sticky z-20',
-          isBannerVisible ? 'top-36' : 'top-20',
+          // 'text-center',
+          isBannerVisible ? 'top-36' : 'top-[calc(100vh-100px)]',
         )}
       >
         <div className="text-3xl md:text-5xl flex items-center justify-center">
@@ -304,7 +305,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         <ul
           role="list"
           className={
-            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-4 lg:grid-cols-8 xl:gap-2 xl:-mx-32 pb-16'
+            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 md:grid-cols-8 lg:grid-cols-10 xl:gap-2 xl:-mx-32 pb-16'
           }
         >
           {presentersProcessed.map((presenter) => {
@@ -318,25 +319,25 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
 
             return (
               <li key={presenter.id}>
-                <div className="group relative overflow-hidden rounded-lg lg:rounded-3xl bg-neutral-100">
+                <div className="group relative overflow-hidden rounded-lg lg:rounded-xl bg-neutral-100">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     alt={name}
                     loading="lazy"
                     src={url}
-                    className="h-32 lg:h-64 w-full object-cover transition duration-500 motion-safe:group-hover:scale-105"
+                    className="h-32 lg:h-48 w-full object-cover transition duration-500 motion-safe:group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-black to-transparent"></div>
-                  <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-black to-black/0 to-40% p-2 lg:p-6">
+                  <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-black to-black/0 to-40% p-2 lg:py-2 lg:px-4">
                     
                     <p className="text-white group text-sm leading-5">
                       {presenter.attributes.tagline && (
-                        <span className="text-xs text-gray-300">
+                        <span className="hidden lg:block text-xs text-gray-300">
                           {presenter.attributes.tagline}
                           <br />
                         </span>
                       )}
-                      <span className="text-yellow-300">
+                      <span className="text-yellow-300 text-xs">
                         {company.data?.attributes.name || ''}
                       </span>
                       <br />

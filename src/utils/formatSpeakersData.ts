@@ -76,15 +76,13 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Kelvin Ma": 800, 
   "Philipp Schmid": 900, 
   "Ben Parr": 900,
-  "Lin Qiao": 900,
   "Justin Junyang Lin": 800, // Added Justin Junyang Lin
   "Boris Cherny": 800, // Added Boris Cherny
   "Ben Kus": 900, // Added Ben Kus
   "swyx": -1, // Added swyx
   "Ben Dunphy": -0.5, // Added Ben Dunphy
-  "Ankur Goyal": 900, // Added Ankur Goyal
+  "Ankur Goyal": 700, // Added Ankur Goyal
   "Sarah Sachs": 900, // Added Sarah Sachs
-  "Omar Khattab": 900, // Added Omar Khattab
 
   // Mid-Tier Priority
   "Chelcie Taylor": 900,
@@ -99,11 +97,12 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Jyh-Jing Hwang": 700,
   "Chang She": 600,
   "Devansh Tandon": 600, 
+  "Chun Jiang": 600, 
 
   // Lower Priority / Default Tier Grouping
   "Rossella Blatt Vital": 500,
   "Julia Neagu": 700,
-  "Deanna Emery": 100,
+  "Deanna Emery": 200,
   "Sharon Zhou": 300,
   "Preeti Somal": 800,
   "Annika Brundyn": 500,

@@ -60,7 +60,7 @@ export const manualKeynoteSpeakers = [
     ]
   },
   {
-    "Name": "Daniel Persczyk",
+    "Name": "Danielle Persczyk",
     "Company": "Amazon AGI",
     "Domain": "amazon.com",
     "Tagline": "Research Scientist",
