@@ -33,7 +33,7 @@ export const manualKeynoteSpeakers = [
     "Name": "Clay Bavor",
     "Company": "Sierra",
     "Domain": "sierra.com",
-    "Tagline": "CTO",
+    "Tagline": "Co-founder",
     "ProfilePicture": "/wf25speakers/clay_bavor.png",
     "Sessions": [
       {

@@ -99,6 +99,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
     });
 
   return (
+    <div>
     <div className="space-y-8">
       <h1
         className="text-5xl font-bold flex items-center justify-center"
@@ -111,11 +112,12 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         className={clsx(
           'text-center sticky z-20',
           // 'text-center',
-          isBannerVisible ? 'top-36' : 'top-[calc(100vh-100px)]',
+          // isBannerVisible ? 'top-36' : 'top-[calc(100vh-100px)]',
+          textView ? 'top-20' : 'top-[calc(100vh-100px)]',
         )}
       >
         <div className="text-3xl md:text-5xl flex items-center justify-center">
-          <span className="bg-white rounded-3xl">
+          <span className="bg-transparent rounded-3xl">
             <button
               className={
                 (!textView ? 'bg-white' : 'font-bold bg-black text-white') +
@@ -305,7 +307,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         <ul
           role="list"
           className={
-            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 md:grid-cols-8 lg:grid-cols-10 xl:gap-2 xl:-mx-32 pb-16'
+            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 md:grid-cols-8 lg:grid-cols-12 xl:gap-2 xl:-mx-80 pb-16'
           }
         >
           {presentersProcessed.map((presenter) => {
@@ -332,7 +334,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                     
                     <p className="text-white group text-sm leading-5">
                       {presenter.attributes.tagline && (
-                        <span className="hidden lg:block text-xs text-gray-300">
+                        <span className="block sm:hidden lg:block text-xs text-gray-300">
                           {presenter.attributes.tagline}
                           <br />
                         </span>
@@ -370,7 +372,10 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
               </li>
             );
           })}
-        <li className="col-span-full">
+        </ul>
+      )}
+
+    </div>
           <div className="rounded-lg lg:rounded-3xl bg-neutral-800 p-4 lg:p-6 text-center">
             <p className="text-white">
               <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
@@ -379,9 +384,6 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
               Speaker list is NOT final! Stay tuned for more exciting additions to our speaker lineup. <br></br>(but pls buy tickets already, last minute stresses everybody out)
             </p>
           </div>
-        </li>
-        </ul>
-      )}
     </div>
   );
 }
