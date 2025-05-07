@@ -193,5 +193,20 @@ export const manualKeynoteSpeakers = [
         "Tracks": "AI in Action"
       }
     ]
+  },
+  {
+    "Name": "Boris Cherny",
+    "Company": "Anthropic",
+    "Domain": "anthropic.com", 
+    "Tagline": "Claude Code",
+    "ProfilePicture": "/wf25speakers/boris_cherny.jpg",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Talk",
+        "Description": "Boris Cherny discusses advancements and applications of Claude Code by Anthropic.",
+        "Tracks": "AI Code Generation"
+      }
+    ]
   }
 ]

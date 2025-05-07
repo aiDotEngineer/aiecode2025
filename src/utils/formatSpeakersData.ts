@@ -77,6 +77,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Ben Parr": 900,
   "Lin Qiao": 900,
   "Justin Junyang Lin": 800, // Added Justin Junyang Lin
+  "Boris Cherny": 800, // Added Boris Cherny
 
   // Mid-Tier Priority
   "Chelcie Taylor": 800,
