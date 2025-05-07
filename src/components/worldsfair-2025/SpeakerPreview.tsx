@@ -100,7 +100,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
 
   return (
     <div>
-    <div className="space-y-8">
+    <div className="space-y-8 mb-32">
       <h1
         className="text-5xl font-bold flex items-center justify-center"
         id="SpeakersList"
@@ -112,8 +112,8 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         className={clsx(
           'text-center sticky z-20',
           // 'text-center',
-          // isBannerVisible ? 'top-36' : 'top-[calc(100vh-100px)]',
-          textView ? 'top-20' : 'top-[calc(100vh-100px)]',
+          isBannerVisible ? 'top-36' : 'top-20',
+          // textView ? 'top-20' : 'top-[calc(100vh-100px)]',
         )}
       >
         <div className="text-3xl md:text-5xl flex items-center justify-center">
@@ -307,7 +307,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         <ul
           role="list"
           className={
-            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 md:grid-cols-8 lg:grid-cols-12 xl:gap-2 xl:-mx-72 pb-16'
+            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 md:grid-cols-8 xl:grid-cols-12 xl:gap-2 xl:-mx-72 pb-16'
           }
         >
           {presentersProcessed.map((presenter) => {

@@ -20,6 +20,10 @@ Organized by the team behind the AI Engineer Summit.
 
 ## Schedule
 
+June 3: Workshops + exclusive Speaker Dinner
+June 4: MCP, Tiny Teams, Vibe Coding, LLM RecSys, GraphRAG, Agent Reliability, Infrastructure, AI PM, Voice, AI in Fortune 500, AI Architects
+June 5: Reasoning + RL, SWE-Agents, Evals, Retrieval + Search, Security, Generative Media, AI Design, Robotics/Autonomy, AI in Fortune 500 (day 2), AI Architects (Day 2)
+
 ### Tuesday, June 3 – Workshop Day + Evening Expo & Reception
 - Exclusive hands-on workshops across 5 tracks, instructed by industry-leading companies, founders, and engineers.
 - Topics span all levels of experience and specialties in AI Engineering.
