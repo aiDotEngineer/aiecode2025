@@ -44,7 +44,7 @@ export function Hero() {
       </video>
 
       <Container>
-        <div className="space-y-6 pt-6">
+        <div className="space-y-6 pt-12">
           <div className="m-auto">
             {/* Object required for animated svg */}
             <object
@@ -59,9 +59,12 @@ export function Hero() {
             <h1 className="text-6xl lg:-mx-4 font-bold">
               The Only Conference Your Engineers <span className="text-yellow-300">Need</span> To Attend
             </h1>
-            <p>
-              Where the world's top AI labs, founders, VPs of AI & AI
-              Engineers meet, for the 3rd year running. 
+            {/* <p className="max-w-128 m-auto"> */}
+            <p className="mb-24">
+              Where the world's top AI labs, founders, Fortune 500 CTOs & AI
+              Engineers meet,{" "} 
+              {/* <br />  */}
+              for the 3rd year running
               {/* After over 2m views of our talks, Featuring an Expo floor showcasing 30+ companies
               pioneering the AI Engineering landscape, and over 100+ speakers
               delivering talks and workshops across 12 tracks. */}

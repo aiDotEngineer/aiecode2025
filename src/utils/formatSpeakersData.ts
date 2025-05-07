@@ -82,6 +82,9 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Ben Kus": 900, // Added Ben Kus
   "swyx": -1, // Added swyx
   "Ben Dunphy": -0.5, // Added Ben Dunphy
+  "Ankur Goyal": 900, // Added Ankur Goyal
+  "Sarah Sachs": 900, // Added Sarah Sachs
+  "Omar Khattab": 900, // Added Omar Khattab
 
   // Mid-Tier Priority
   "Chelcie Taylor": 900,

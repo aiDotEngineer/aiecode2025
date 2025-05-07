@@ -226,7 +226,7 @@ export const manualKeynoteSpeakers = [
   },
   {
     "Name": "swyx",
-    "Company": "latent.space",
+    "Company": "smol.ai | ai.engineer | latent.space",
     "Domain": "latent.space", 
     "Tagline": "Curator",
     "ProfilePicture": `/wf25speakers/swyx${Math.floor(Math.random() * 9)}.jpg`,
@@ -251,6 +251,51 @@ export const manualKeynoteSpeakers = [
         "Format": "Talk",
         "Description": "Ben Dunphy discusses the programs and initiatives at AI Engineer fostering the next generation of AI talent.",
         "Tracks": "AI in Action"
+      }
+    ]
+  },
+  {
+    "Name": "Ankur Goyal",
+    "Company": "Braintrust",
+    "Domain": "braintrust.com", 
+    "Tagline": "CEO",
+    "ProfilePicture": "/wf25speakers/ankur_goyal.jpeg",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Talk",
+        "Description": "Ankur Goyal discusses the future of talent and work in the AI era with Braintrust.",
+        "Tracks": "Evals"
+      }
+    ]
+  },
+  {
+    "Name": "Sarah Sachs",
+    "Company": "Notion",
+    "Domain": "notion.so", 
+    "Tagline": "AI Lead",
+    "ProfilePicture": "/wf25speakers/sarah_sachs.jpg",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Talk",
+        "Description": "Sarah Sachs discusses how Notion is leveraging AI to enhance productivity and collaboration tools.",
+        "Tracks": "Evals"
+      }
+    ]
+  },
+  {
+    "Name": "Omar Khattab",
+    "Company": "Databricks",
+    "Domain": "databricks.com", 
+    "Tagline": "Creator of DSPy / Research Scientist",
+    "ProfilePicture": "/wf25speakers/omar_khattab.jpeg",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Talk",
+        "Description": "Omar Khattab discusses the principles and applications of DSPy, and his research at Databricks.",
+        "Tracks": "AI Frameworks & Libraries"
       }
     ]
   }

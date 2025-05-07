@@ -44,10 +44,10 @@ export function Expo() {
   return (
     <div className="space-y-12" id="expo">
       <header className="space-y-6">
-        <h1 className="text-5xl font-bold flex items-end">The AI Engineer Expo {" "}
-              <span className=" text-sm ml-4 uppercase font-mono bg-amber-600 p-1 rounded-sm text-yellow-100 mb-4 inline-block">
+        <h1 className="text-5xl font-bold flex items-center">The AI Engineer Expo {" "}
+              <a href="https://x.com/aiDotEngineer/status/1920142621525348774" className=" text-sm ml-4 uppercase  bg-black px-2 pt-1 rounded-sm text-blue-300 hover:text-blue-100 mb-4 inline-block">
                 SOLD OUT!
-              </span></h1>
+              </a></h1>
         <p className="max-w-2xl text-gray-on-white">
           From foundation models to domain-specific products & services, the
           Expo is your chance to meet some of the best engineers in our

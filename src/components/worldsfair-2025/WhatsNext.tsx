@@ -22,19 +22,19 @@ export function WhatsNext() {
           <p className="text-4xl leading-relaxed">
             The <b>AI Engineer World's Fair</b>
             <br />
-            is the largest industry event to discover what's now and
+            is the largest industry event to discover what's now and create what's next
             <br />
-            <b className="text-6xl">What's Next</b>
+            <b className="text-yellow-300 text-2xl">Think "early NeurIPS for Engineers", "StrangeLoop + LLMs", or "TED AI but everyone codes"</b>
           </p>
         </div>
         <div className=""></div>
       </div>
       <div className="mt-20">
-        <Tiles minSize={16}>
+        <Tiles minSize={9}>
           <WhatsNextCard
             icon={iconWorldCode}
             title="Talks from Engineers Who Ship"
-            text="No theoretical promissory hooplah. Just engineers and founders on the cutting edge of AI Engineering, sharing their knowledge."
+            text="No theoretical promissory hoopla. Just engineers and founders on the cutting edge of AI Engineering, sharing their knowledge."
             background={bgTalks}
           />
           <WhatsNextCard
@@ -93,11 +93,11 @@ function WhatsNextCard({ icon, title, text, background }: Props) {
         src={background}
         className="absolute inset-0 h-72 object-cover"
       />
-      <div className="absolute left-0 right-0 top-0 h-[200%] bg-linear-to-b from-black/90 to-black/20 -translate-y-1/2 group-hover:translate-y-0 transition duration-300" />
+      <div className="absolute left-0 right-0 top-0 h-[200%] bg-linear-to-t from-black/90 to-black/20 -translate-y-1/2 group-hover:translate-y-0 transition duration-300" />
       <div className="space-y-3 translate-y-[calc(100%-6em)] group-hover:translate-y-0 transition duration-300 ease-in-out">
         <Image src={icon} alt="" aria-hidden></Image>
-        <div className="font-bold text-xl">{title}</div>
-        <p className="text-base opacity-0 group-hover:opacity-100 transition duration-300">
+        <div className="font-bold text-sm">{title}</div>
+        <p className="text-xs opacity-0 group-hover:opacity-100 transition duration-300">
           {text}
         </p>
       </div>
