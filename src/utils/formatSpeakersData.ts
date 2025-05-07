@@ -28,6 +28,7 @@ export interface FormattedSpeaker {
         attributes: {
           title: string;
           format?: string;
+          description?: string;
           track: {
             data?: {
               attributes: {
@@ -164,6 +165,7 @@ export function formatSpeakersData(): FormattedData {
             attributes: {
               title: session.Title,
               format: session.Format,
+              description: session.Description,
               track: {
                 data: session.Tracks ? {
                   attributes: {
