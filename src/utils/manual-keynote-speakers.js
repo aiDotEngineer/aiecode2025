@@ -106,8 +106,8 @@ export const manualKeynoteSpeakers = [
   // },
   {
     "Name": "Christian Szegedy",
-    "Company": "X.ai",
-    "Domain": "X.ai",
+    "Company": "x.AI",
+    "Domain": "x.AI",
     "Tagline": "Co-founder",
     "ProfilePicture": "/wf25speakers/christian_szegedy.jpg",
     "Sessions": [
