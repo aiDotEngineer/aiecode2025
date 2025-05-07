@@ -307,7 +307,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         <ul
           role="list"
           className={
-            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 md:grid-cols-8 xl:grid-cols-12 xl:gap-2 xl:-mx-72 pb-16'
+            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 md:grid-cols-8 xl:grid-cols-10 xl:gap-2 xl:-mx-32 pb-16'
           }
         >
           {presentersProcessed.map((presenter) => {
