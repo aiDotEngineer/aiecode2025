@@ -336,7 +336,9 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                           <br />
                         </span>
                       )}
-                      {company.data?.attributes.name || ''}
+                      <span className="text-yellow-300">
+                        {company.data?.attributes.name || ''}
+                      </span>
                       <br />
                       <em className="hidden group-hover:block text-xs">
                         {sessions.data[0]?.attributes.title}
