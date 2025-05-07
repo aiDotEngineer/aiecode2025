@@ -80,7 +80,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Justin Junyang Lin": 800, // Added Justin Junyang Lin
   "Boris Cherny": 800, // Added Boris Cherny
   "Ben Kus": 900, // Added Ben Kus
-  "swyx": -0.5, // Added swyx
+  "swyx": -1, // Added swyx
   "Ben Dunphy": -0.5, // Added Ben Dunphy
   "Ankur Goyal": 900, // Added Ankur Goyal
   "Sarah Sachs": 900, // Added Sarah Sachs
