@@ -148,12 +148,12 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
 
       {/* Mobile filters */}
       <div className="md:hidden space-y-4">
-        <p>
+        {/* <p>
           <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
             IMPORTANT
           </span>{" "}
           Note: the speakers are still being finalized - keynotes are yet to be announced!
-        </p>
+        </p> */}
         <select
           onChange={(e) => {
             const value = e.target.value;
@@ -238,12 +238,12 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
           })}
         </div>
 
-        <p className="text-center">
+        {/* <p className="text-center">
           <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
             IMPORTANT
           </span>{" "}
           Note: the speakers are still being finalized - keynotes are yet to be announced!
-        </p>
+        </p> */}
       </div>
 
       {textView ? (

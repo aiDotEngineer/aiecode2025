@@ -46,9 +46,9 @@ export const manualKeynoteSpeakers = [
   },
   {
     "Name": "Jared Palmer",
-    "Company": "Vercel",
+    "Company": "Vercel/v0",
     "Domain": "v0.dev",
-    "Tagline": "VP of AI, v0",
+    "Tagline": "VP of AI",
     "ProfilePicture": "/wf25speakers/jared_palmer.jpeg",
     "Sessions": [
       {
@@ -138,7 +138,7 @@ export const manualKeynoteSpeakers = [
     "Name": "Jerome Swannack",
     "Company": "Anthropic",
     "Domain": "anthropic.com",
-    "Tagline": "Member of Technical Staff, MCP",
+    "Tagline": "MTS, MCP",
     "ProfilePicture": "/wf25speakers/jerome_swannack.jpeg",
     "Sessions": [
       {
@@ -153,7 +153,7 @@ export const manualKeynoteSpeakers = [
     "Name": "Den Delimarsky",
     "Company": "Microsoft",
     "Domain": "microsoft.com",
-    "Tagline": "Author, MCP Auth",
+    "Tagline": "MCP Auth",
     "ProfilePicture": "/wf25speakers/den_delimarsky.png",
     "Sessions": [
       {
@@ -221,6 +221,36 @@ export const manualKeynoteSpeakers = [
         "Format": "Talk",
         "Description": "Ben Kus discusses how Box is leveraging AI to transform content management and collaboration.",
         "Tracks": "AI in Enterprise"
+      }
+    ]
+  },
+  {
+    "Name": "swyx",
+    "Company": "Latent Space / AI Engineer",
+    "Domain": "latent.space", 
+    "Tagline": "Curator",
+    "ProfilePicture": "/wf25speakers/swyx.png",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Talk",
+        "Description": "swyx shares insights from curating Latent Space and his work as an AI Engineer.",
+        "Tracks": "AI Communities & Ecosystems"
+      }
+    ]
+  },
+  {
+    "Name": "Ben Dunphy",
+    "Company": "AI Engineer",
+    "Domain": "ai.engineer", 
+    "Tagline": "Program Director",
+    "ProfilePicture": "/wf25speakers/ben_dunphy.jpeg",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Talk",
+        "Description": "Ben Dunphy discusses the programs and initiatives at AI Engineer fostering the next generation of AI talent.",
+        "Tracks": "AI Education & Community"
       }
     ]
   }

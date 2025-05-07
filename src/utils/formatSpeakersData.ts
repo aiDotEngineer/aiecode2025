@@ -61,6 +61,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Logan Kilpatrick": 1000,
   "Harrison Chase": 1000,
   "Christian Szegedy": 900,
+  "Shrestha Basu Mallick": 900,
   "Jerome Swannack": 1000, // Added Jerome Swannack
   "Den Delimarsky": 1000, // Added Den Delimarsky
 
@@ -72,13 +73,15 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Dani Grant": 900,
   "Joel Hron": 900,
   "Anoop Kotha": 900,
-  "Kelvin Ma": 900, 
+  "Kelvin Ma": 800, 
   "Philipp Schmid": 900, 
   "Ben Parr": 900,
   "Lin Qiao": 900,
   "Justin Junyang Lin": 800, // Added Justin Junyang Lin
   "Boris Cherny": 800, // Added Boris Cherny
-  "Ben Kus": 800, // Added Ben Kus
+  "Ben Kus": 900, // Added Ben Kus
+  "swyx": 0, // Added swyx
+  "Ben Dunphy": 1, // Added Ben Dunphy
 
   // Mid-Tier Priority
   "Chelcie Taylor": 900,
