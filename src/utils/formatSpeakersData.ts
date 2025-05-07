@@ -80,8 +80,8 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Justin Junyang Lin": 800, // Added Justin Junyang Lin
   "Boris Cherny": 800, // Added Boris Cherny
   "Ben Kus": 900, // Added Ben Kus
-  "swyx": 0, // Added swyx
-  "Ben Dunphy": 1, // Added Ben Dunphy
+  "swyx": -1, // Added swyx
+  "Ben Dunphy": -0.5, // Added Ben Dunphy
 
   // Mid-Tier Priority
   "Chelcie Taylor": 900,
@@ -99,12 +99,12 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
 
   // Lower Priority / Default Tier Grouping
   "Rossella Blatt Vital": 500,
-  "Julia Neagu": 500,
-  "Deanna Emery": 600,
+  "Julia Neagu": 700,
+  "Deanna Emery": 100,
   "Sharon Zhou": 300,
   "Preeti Somal": 800,
   "Annika Brundyn": 500,
-  "Aastha Jhunjhunwala": 500,
+  "Aastha Jhunjhunwala": 200,
   
   // Speakers from specific companies or roles if not covered above
   "Damien Murphy": 300, // Google

@@ -205,7 +205,7 @@ export const manualKeynoteSpeakers = [
         "Title": "tba",
         "Format": "Talk",
         "Description": "Boris Cherny discusses advancements and applications of Claude Code by Anthropic.",
-        "Tracks": "AI Code Generation"
+        "Tracks": "SWE Agents"
       }
     ]
   },
@@ -220,22 +220,22 @@ export const manualKeynoteSpeakers = [
         "Title": "tba",
         "Format": "Talk",
         "Description": "Ben Kus discusses how Box is leveraging AI to transform content management and collaboration.",
-        "Tracks": "AI in Enterprise"
+        "Tracks": "Leadership: Fortune 500"
       }
     ]
   },
   {
     "Name": "swyx",
-    "Company": "Latent Space / AI Engineer",
+    "Company": "latent.space",
     "Domain": "latent.space", 
     "Tagline": "Curator",
-    "ProfilePicture": "/wf25speakers/swyx.png",
+    "ProfilePicture": `/wf25speakers/swyx${Math.floor(Math.random() * 9)}.jpg`,
     "Sessions": [
       {
         "Title": "tba",
         "Format": "Talk",
         "Description": "swyx shares insights from curating Latent Space and his work as an AI Engineer.",
-        "Tracks": "AI Communities & Ecosystems"
+        "Tracks": "AI in Action"
       }
     ]
   },
@@ -243,14 +243,14 @@ export const manualKeynoteSpeakers = [
     "Name": "Ben Dunphy",
     "Company": "AI Engineer",
     "Domain": "ai.engineer", 
-    "Tagline": "Program Director",
+    "Tagline": "Cofounder",
     "ProfilePicture": "/wf25speakers/ben_dunphy.jpeg",
     "Sessions": [
       {
         "Title": "tba",
         "Format": "Talk",
         "Description": "Ben Dunphy discusses the programs and initiatives at AI Engineer fostering the next generation of AI talent.",
-        "Tracks": "AI Education & Community"
+        "Tracks": "AI in Action"
       }
     ]
   }

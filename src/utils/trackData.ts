@@ -134,13 +134,13 @@ export const LeadershipTracks: Track[] = [
   {
     trackShortCode: "L1",
     trackTitle: "AI Architects",
-    trackDescription: "Whether you are CEO, CTO, VP of AI, or principal engineer of your company's \"AI council\", the job of the \"most senior AI person\" at large companies is a lonely one — except here. Learn from and make connections with peers who are all entrusted with high-stakes decisions on company strategy, infrastructure, compliance, and org design.",
+    trackDescription: "Whether you are CEO, CTO, VP of AI, or principal engineer of your company's \"AI council\", the job of the \"most senior AI person\" at large companies is a lonely one — except here. Learn from and make connections with peers who are all entrusted with high-stakes decisions on company strategy, infrastructure, compliance, and org design. <b>Exclusive track for our Leadership attendees.</b>",
     trackImg: imgAIArchitects.src
   },
   {
     trackShortCode: "L2",
     trackTitle: "AI in the Fortune 500",
-    trackDescription: "AI has it's Bitter Lesson, but AI Engineering's Sour Lesson is that every engineering problem becomes exponentially harder when deployed at scale. Many frankly never make it, despite claiming success externally. We gather the actual success stories from the largest LLM AI transformations in the world.",
+    trackDescription: "AI has it's Bitter Lesson, but AI Engineering's Sour Lesson is that every engineering problem becomes exponentially harder when deployed at scale. Many frankly never make it, despite claiming success externally. We gather the actual success stories from the largest AI transformations in the world. <b>Exclusive track for our Leadership attendees.</b>",
     trackImg: imgAIInAction.src // Reused based on similarity
   }
 ]

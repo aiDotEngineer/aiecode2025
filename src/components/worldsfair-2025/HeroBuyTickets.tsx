@@ -27,7 +27,7 @@ export function HeroBuyTickets(_props: { url?: string }) {
           href="https://youtube.com/@aidotengineer"
           target="_blank"
         >
-          See 2023/2024/2025 talks
+          See 2023-2025 talks
         </Button>
         {/* <PromptPaidContent>
           <Button

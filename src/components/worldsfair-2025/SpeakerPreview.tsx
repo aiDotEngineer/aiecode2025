@@ -375,7 +375,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
               <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
                 Important
               </span>{" "}
-              Keynote speakers will be announced soon! Stay tuned for more exciting additions to our speaker lineup.
+              Speaker list is NOT final! Stay tuned for more exciting additions to our speaker lineup. <br></br>(but pls buy tickets already, last minute stresses everybody out)
             </p>
           </div>
         </li>

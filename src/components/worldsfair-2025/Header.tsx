@@ -133,7 +133,7 @@ export function Header({ path }: Props) {
                   target="_blank"
                   invert={transparent && !fixed}
                 >
-                  Buy 2025 Tickets
+                  Last chance for Early Bird tickets
                 </Button>
 
                 <HeaderProfile />
@@ -232,9 +232,9 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
               Speakers
             </NavLink> */}
             {/* <NavLink href={"/llms.txt"} onClick={() => setNavOpen(false)}> */}
-            <Link href={"/llms.txt"}>
+            <NavLink href={"/llms.txt"}>
               llms.txt
-            </Link>
+            </NavLink>
             <NavLink href={SPONSORS_URL} onClick={() => setNavOpen(false)}>
               Sponsors
             </NavLink>

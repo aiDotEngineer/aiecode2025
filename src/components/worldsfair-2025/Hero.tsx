@@ -56,11 +56,11 @@ export function Hero() {
           </div>
           <div className="text-center m-auto max-w-4xl space-y-3">
             <div>June 3-5 2025 • San Francisco</div>
-            <h1 className="text-6xl font-bold">
-              The Biggest Technical AI conference for Engineers, not Yappers
+            <h1 className="text-6xl lg:-mx-4 font-bold">
+              The Only Conference Your Engineers <span className="text-yellow-300">Need</span> To Attend
             </h1>
             <p>
-              Where the leading AI labs, founders, VPs of AI & AI
+              Where the world's top AI labs, founders, VPs of AI & AI
               Engineers meet, for the 3rd year running. 
               {/* After over 2m views of our talks, Featuring an Expo floor showcasing 30+ companies
               pioneering the AI Engineering landscape, and over 100+ speakers
