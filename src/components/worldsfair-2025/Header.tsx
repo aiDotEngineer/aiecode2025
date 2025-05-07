@@ -232,7 +232,7 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
               Speakers
             </NavLink> */}
             {/* <NavLink href={"/llms.txt"} onClick={() => setNavOpen(false)}> */}
-            <NavLink href={"/llms.txt"}>
+            <NavLink href={"/llms.txt"} onClick={() => setNavOpen(false)}>
               llms.txt
             </NavLink>
             <NavLink href={SPONSORS_URL} onClick={() => setNavOpen(false)}>
