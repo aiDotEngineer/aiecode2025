@@ -3,7 +3,7 @@ import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 import { api } from "~/support/api";
 import "~/styles/tailwind.css";
-import React from "react";
+import React, { useEffect } from "react";
 
 // import ChatBot from '~/components/chat/ChatBot';
 import { ChoosePrimaryLayout } from "~/components/ChoosePrimaryLayout";
@@ -19,6 +19,20 @@ const MyApp: AppType<{ session: Session | null }> = ({
   Component,
   pageProps: { session: _session, ...pageProps },
 }) => {
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const urlParams = new URLSearchParams(window.location.search);
+      const utmSource = urlParams.get('utm_source');
+      if (utmSource) {
+        import('../utils/utmUtils').then(({ storeUtmSource }) => {
+          storeUtmSource(utmSource);
+        });
+        
+        fetch(`/api/store-utm?utm_source=${encodeURIComponent(utmSource)}`);
+      }
+    }
+  }, []);
+
   return (
     <>
       <Head>

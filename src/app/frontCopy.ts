@@ -16,7 +16,7 @@ The AI Engineer World's Fair is the largest technical conference for engineers w
 - ~50 top DevTools and employers represented in the Expo
 
 Organized by the team behind the AI Engineer Summit.  
-**[Buy Tickets](https://ti.to/software-3/ai-engineer-worlds-fair-2025) | [Watch 2023/2024/2025 Talks](https://youtube.com/@aidotengineer) | [Subscribe to Newsletter](https://ai.engineer/newsletter)**
+**[Buy Tickets](https://ti.to/software-3/ai-engineer-worlds-fair-2025?source={{UTM_SOURCE}}) | [Watch 2023/2024/2025 Talks](https://youtube.com/@aidotengineer) | [Subscribe to Newsletter](https://ai.engineer/newsletter)**
 
 ## Schedule
 
@@ -46,7 +46,7 @@ Open across all 3 days. Featuring 30+ booths and demo areas showcasing the most 
 
 Microsoft, AWS, MongoDB, Neo4j, Sourcegraph, Temporal, Hasura, LlamaIndex, Baseten, Elastic, Redis, Daily, Gitpod, Traceloop, Pydantic, Freeplay, Weights & Biases, and many more.
 
-**[Buy Tickets](https://ti.to/software-3/ai-engineer-worlds-fair-2025) | [Watch 2023/2024/2025 Talks](https://youtube.com/@aidotengineer)**
+**[Buy Tickets](https://ti.to/software-3/ai-engineer-worlds-fair-2025?source={{UTM_SOURCE}}) | [Watch 2023/2024/2025 Talks](https://youtube.com/@aidotengineer)**
 
 ## AI Architects Track
 
@@ -124,7 +124,7 @@ Book Marriott Marquis (sold out) | [Book Beacon Grand](https://www.beacongrand.c
 
 ## Stay Updated
 
-- **[Buy Tickets](https://ti.to/software-3/ai-engineer-worlds-fair-2025)**  
+- **[Buy Tickets](https://ti.to/software-3/ai-engineer-worlds-fair-2025?source={{UTM_SOURCE}})**  
   Early bird discounts available until sell-out.
 - **[Watch Talks](https://youtube.com/@aidotengineer)**  
   Browse sessions from 2023, 2024, and upcoming 2025.

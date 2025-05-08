@@ -38,13 +38,16 @@ function formatTracksToText(tracks: Track[], dayLabel: string): string {
 
 export async function GET() {
   try {
-    let fullText = frontCopy; // Start with the static front copy
+    const utmSource = '';
+    
+    let fullText = frontCopy.replace(/\{\{UTM_SOURCE\}\}/g, utmSource);
 
     fullText += formatTracksToText(LeadershipTracks, "Leadership Tracks (Both Days)");
     fullText += formatTracksToText(Day1Tracks, "Day 1 Tracks");
     fullText += formatTracksToText(Day2Tracks, "Day 2 Tracks");
 
-    fullText += backCopy; // Append the static back copy
+    // Append the static back copy and replace any UTM_SOURCE placeholders
+    fullText += backCopy.replace(/\{\{UTM_SOURCE\}\}/g, utmSource);
 
     return new NextResponse(fullText, {
       status: 200,
@@ -63,4 +66,4 @@ export async function GET() {
       },
     });
   }
-} 
+}            
