@@ -150,7 +150,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
               <option value="">All Tracks</option>
               {trackNameOptions.map((type: string) => {
                 return (
-                  <option key={type} value={type}>
+                  <option key={type} value={type} suppressHydrationWarning={true}>
                     {type}
                   </option>
                 );

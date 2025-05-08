@@ -174,7 +174,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
           <option value="">All Tracks</option>
           {tracks.map((t) => {
             if (!t) return null;
-            return <option key={t}>{t}</option>;
+            return <option key={t} suppressHydrationWarning={true}>{t}</option>;
           })}
         </select>
 
@@ -193,7 +193,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
           <option value="">All Formats</option>
           {formats.map((f) => {
             if (!f) return null;
-            return <option key={f}>{f}</option>;
+            return <option key={f} suppressHydrationWarning={true}>{f}</option>;
           })}
         </select>
       </div>
@@ -278,6 +278,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                 >
                   {socialLinks ? (
                     <a
+                    suppressHydrationWarning={true}
                       href={
                         (socialLinks?.startsWith('https://')
                           ? ''
@@ -286,12 +287,11 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-blue-600 font-semibold"
-                      suppressHydrationWarning={true}
                     >
                       {name}
                     </a>
                   ) : (
-                    <span className="font-semibold">{name}</span>
+                    <span className="font-semibold" suppressHydrationWarning={true}>{name}</span>
                   )}
                   <br suppressHydrationWarning={true} key={presenter.id} />
                   <span

@@ -16,7 +16,6 @@ import { FromTheTeam } from "~/components/worldsfair-2025/FromTheTeam";
 import { Hero } from "~/components/worldsfair-2025/Hero";
 import { Overview } from "~/components/worldsfair-2025/Overview";
 import { Section } from "~/components/worldsfair-2025/Section";
-import { SpeakerPreview } from "~/components/worldsfair-2025/SpeakerPreview";
 import { Sponsors } from "~/components/worldsfair-2025/Sponsors";
 import { TicketTable } from "~/components/worldsfair-2025/TicketTable";
 import { TracksPreview } from "~/components/worldsfair-2025/TracksPreview";
@@ -25,6 +24,14 @@ import { WhatsNext } from "~/components/worldsfair-2025/WhatsNext";
 import { Workshops } from "~/components/worldsfair-2025/Workshops";
 import LogoWall from "~/images/worldsfair-2025/logowall.png";
 import { formatSpeakersData } from "~/utils/formatSpeakersData";
+
+// https://nextjs.org/docs/messages/react-hydration-error#solution-2-disabling-ssr-on-specific-components
+// import { SpeakerPreview } from "~/components/worldsfair-2025/SpeakerPreview";
+import dynamic from 'next/dynamic'
+const SpeakerPreview = dynamic(() =>
+  import('~/components/worldsfair-2025/SpeakerPreview').then((mod) => mod.SpeakerPreview),
+  { ssr: false }
+)
 
 // type Props = InferGetServerSidePropsType<typeof getStaticProps>;
 // export default function Page({ sessionEvents, presenters, tracks }: Props) {

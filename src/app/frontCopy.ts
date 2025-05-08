@@ -44,7 +44,7 @@ export const backCopy = `
 
 Open across all 3 days. Featuring 30+ booths and demo areas showcasing the most relevant and forward-thinking AI infrastructure and developer tools. Meet the engineers and founders behind:
 
-Microsoft, AWS, MongoDB, Neo4j, Sourcegraph, Temporal, Hasura, LlamaIndex, Baseten, Elastic, Redis, Daily, Gitpod, Traceloop, Pydantic, Freeplay, Weights & Biases, and many more.
+Microsoft, AWS, MongoDB, Neo4j, Hasura, Galileo, Sourcegraph, LlamaIndex, Temporal, Baseten, Elastic, Orb, Gitpod, Freeplay, Dagger, Traceloop, Pydantic, Arize, Arcjet, Zed, Modal, Agentuity, Weights & Biases, Fly.io, Sierra, Vellum, GenSx, Redis, Langbase, Twilio, Descope, SuperAnnotate, Unstructured, Baz, VESSL AI, Riza, Tambo, Sentry, Xpander, Thomson Reuters, ElevenLabs, Pomerium, Daytona, Polar Signals, Vercel, Ampersand, Together AI, Distributional, and many more.
 
 **[Buy Tickets](https://ti.to/software-3/ai-engineer-worlds-fair-2025?source={{UTM_SOURCE}}) | [Watch 2023/2024/2025 Talks](https://youtube.com/@aidotengineer)**
 
@@ -88,22 +88,32 @@ Book Marriott Marquis (sold out) | [Book Beacon Grand](https://www.beacongrand.c
 - Data Council, Hall C, Ai LA, Open Web Foundation, SF Python, SF Node, SF Java, Weaviate, Prompt Engineering, R meetup, Hypergrowth, Vector DAO, GenAI Collective, Cambrian ML, Ai Tinkerers, CodingNomads, Ai Product Builders, Ai Salon, Ai Makers SF, OpenSourceGrill, Ai Breakfast Club, Ai Stack, Nexus Events, Seattle Ai Society, RVC, Ai Happy Hour, SF Ai, FourthBrain, Ai Comic Books, Ai Engineer Foundation
 
 ### Presenting Sponsor
-- Microsoft
+
+Microsoft
 
 ### Innovation Partner
-- AWS
+
+AWS
 
 ### Track Sponsors
-- Neo4j, Scale AI, Modal, MongoDB, Anyscale, Writer
+
+Neo4j, Braintrust, Hasura
+
+### Platinum Sponsors
+
+Graphite, Daily, Windsurf, MongoDB, AugmentCode, WorkOS
 
 ### Gold Sponsors
-- LlamaIndex, Databricks, AssemblyAI, Weights & Biases, Pinecone, Cloudera, Replicate
+
+Neo4j, Hasura, Galileo, Sourcegraph, LlamaIndex, Temporal, Baseten, Elastic, Orb, Gitpod, Freeplay, Dagger, Traceloop, Pydantic, Arize, Arcjet, Zed, Modal, Agentuity
 
 ### Silver Sponsors
-- Redis, Twilio, Vellum, Descope, SuperAnnotate, Agentuity, GenSx, Bazel, Unstructured, VESSL AI, Riza, Tambo, Sentry, Xpander, Thomson Reuters, ElevenLabs, Pomerium, Daytona, Polar Signals, Vercel, Ampersand, Together AI, Distributional
+
+Weights & Biases, Fly.io, Sierra, Vellum, GenSx, Redis, Langbase, Twilio, Descope, SuperAnnotate, Unstructured, Baz, VESSL AI, Riza, Tambo, Sentry, Xpander, Thomson Reuters, ElevenLabs, Pomerium, Daytona, Polar Signals, Vercel, Ampersand, Together AI, Distributional
 
 ### Supporters
-- Circle
+
+Circle
 
 ## Testimonials
 
