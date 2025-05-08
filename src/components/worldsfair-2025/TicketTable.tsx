@@ -22,7 +22,7 @@ export function TicketTable() {
         </p>
         <Button
           href={titoUrl}
-          className="block w-52 hover:cursor-not-allowed"
+          className="block w-52"
         >
           <span className="">Buy Early Bird Tickets</span>
         </Button>
