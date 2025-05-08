@@ -267,12 +267,14 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                 <p
                   key={presenter.id + 'tagline'}
                   className="font-display text-base/6 font-semibold tracking-wide text-ellipsis flex items-center min-h-[2.5rem]"
+                  suppressHydrationWarning={true}
                 >
                   {company.data?.attributes.name}
                 </p>
                 <p
                   key={presenter.id + 'name'}
                   className="text-xs text-right group"
+                  suppressHydrationWarning={true}
                 >
                   {socialLinks ? (
                     <a
@@ -284,16 +286,18 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-blue-600 font-semibold"
+                      suppressHydrationWarning={true}
                     >
                       {name}
                     </a>
                   ) : (
                     <span className="font-semibold">{name}</span>
                   )}
-                  <br key={presenter.id} />
+                  <br suppressHydrationWarning={true} key={presenter.id} />
                   <span
                     key={presenter.id + 'tagline'}
                     className="text-xs italic text-slate-600"
+                    suppressHydrationWarning={true}
                   >
                     {tagline}
                   </span>
@@ -326,6 +330,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                 <div className="group relative overflow-hidden rounded-lg lg:rounded-xl bg-neutral-100">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
+                    suppressHydrationWarning={true}
                     alt={name}
                     loading="lazy"
                     src={url}
@@ -334,24 +339,25 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                   <div className="absolute inset-0 bg-linear-to-t from-black to-transparent"></div>
                   <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-black to-black/0 to-40% p-2 lg:py-2 lg:px-4">
                     
-                    <p className="text-white group text-sm leading-5">
+                    <p className="text-white group text-sm leading-5"
+                    suppressHydrationWarning={true}>
                       {presenter.attributes.tagline && (
-                        <span className="block sm:hidden lg:block text-xs text-gray-300">
+                        <span className="block sm:hidden lg:block text-xs text-gray-300" suppressHydrationWarning={true}>
                           {presenter.attributes.tagline}
-                          <br />
+                          <br suppressHydrationWarning={true} />
                         </span>
                       )}
-                      <span className="text-yellow-300 text-xs">
+                      <span className="text-yellow-300 text-xs" suppressHydrationWarning={true}>
                         {company.data?.attributes.name || ''}
                       </span>
-                      <br />
-                      <em className="hidden group-hover:block text-xs">
+                      <br suppressHydrationWarning={true} />
+                      <em className="hidden group-hover:block text-xs" suppressHydrationWarning={true}>
                         {sessions.data[0]?.attributes.title}
                         {/* {format && <span className="ml-1 text-yellow-300">[{format}]</span>} */}
                       </em>
                     </p>
                     {/* <p className={`font-display font-semibold tracking-wide text-white ${name.length > 10 ? 'text-xs' : 'text-base/6'}`}> */}
-                    <p className={`font-display font-semibold tracking-wide text-white text-xs`}>
+                    <p className={`font-display font-semibold tracking-wide text-white text-xs`} suppressHydrationWarning={true}>
                       {socialLinks ? (
                         <a
                           href={
@@ -362,6 +368,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="hover:text-blue-600"
+                          suppressHydrationWarning={true}
                         >
                           {name}
                         </a>
