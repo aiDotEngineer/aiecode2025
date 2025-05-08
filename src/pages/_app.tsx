@@ -27,8 +27,6 @@ const MyApp: AppType<{ session: Session | null }> = ({
         import('../utils/utmUtils').then(({ storeUtmSource }) => {
           storeUtmSource(utmSource);
         });
-        
-        fetch(`/api/store-utm?utm_source=${encodeURIComponent(utmSource)}`);
       }
     }
   }, []);

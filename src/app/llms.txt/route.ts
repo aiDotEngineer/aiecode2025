@@ -36,9 +36,17 @@ function formatTracksToText(tracks: Track[], dayLabel: string): string {
   return text;
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
-    const utmSource = '';
+    const cookieHeader = request.headers.get('cookie') || '';
+    const cookies = Object.fromEntries(
+      cookieHeader.split('; ').map(cookie => {
+        const [name, value] = cookie.split('=');
+        return [name, value];
+      }).filter(([name]) => name)
+    );
+    
+    const utmSource = cookies['aie_utm_source'] || '';
     
     let fullText = frontCopy.replace(/\{\{UTM_SOURCE\}\}/g, utmSource);
 
@@ -66,4 +74,4 @@ export async function GET() {
       },
     });
   }
-}            
+}              
