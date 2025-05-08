@@ -1,12 +1,18 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { IoMdCheckmark } from 'react-icons/io';
 
 import { Button } from '../Button';
 import { NewsletterFormThree } from '../Newsletter';
 import { PromptPaidContent } from '../PromptPaidContent';
+import { addSourceToTitoUrl } from '../../utils/utmUtils';
 
 export function HeroBuyTickets(_props: { url?: string }) {
   const [success, setSuccess] = useState<null | boolean>(null);
+  const [titoUrl, setTitoUrl] = useState('https://ti.to/software-3/ai-engineer-worlds-fair-2025');
+
+  useEffect(() => {
+    setTitoUrl(addSourceToTitoUrl('https://ti.to/software-3/ai-engineer-worlds-fair-2025'));
+  }, []);
 
   return (
     <div className="md:w-[500px] m-auto space-y-4">
@@ -15,7 +21,7 @@ export function HeroBuyTickets(_props: { url?: string }) {
         <Button
           className="flex-1 text-xs md:text-base"
           invert
-          href="https://ti.to/software-3/ai-engineer-worlds-fair-2025"
+          href={titoUrl}
           target="_blank"
         >
           Buy 2025 Tickets

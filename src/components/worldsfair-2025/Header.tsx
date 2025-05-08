@@ -10,6 +10,7 @@ import { Logo } from "../Logos";
 import { SocialMedia } from "../SocialMedia";
 import { AppBanner } from "./AppBanner";
 import { HeaderProfile } from "./HeaderProfile";
+import { addSourceToTitoUrl } from "../../utils/utmUtils";
 
 type Props = {
   path: string;
@@ -129,7 +130,7 @@ export function Header({ path }: Props) {
 
               <div className="flex gap-6 items-center">
                 <Button
-                  href="https://ti.to/software-3/ai-engineer-worlds-fair-2025"
+                  href={addSourceToTitoUrl("https://ti.to/software-3/ai-engineer-worlds-fair-2025")}
                   target="_blank"
                   invert={transparent && !fixed}
                 >
@@ -209,7 +210,7 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
           <nav className="flex gap-6 items-center text-white">
             <Button
               invert
-              href="https://ti.to/software-3/ai-engineer-worlds-fair-2025"
+              href={addSourceToTitoUrl("https://ti.to/software-3/ai-engineer-worlds-fair-2025")}
               target="_blank"
             >
               Buy 2025 Tickets
