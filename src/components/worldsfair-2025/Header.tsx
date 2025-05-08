@@ -10,7 +10,7 @@ import { Logo } from "../Logos";
 import { SocialMedia } from "../SocialMedia";
 import { AppBanner } from "./AppBanner";
 import { HeaderProfile } from "./HeaderProfile";
-import { addSourceToTitoUrl } from "../../utils/utmUtils";
+import { useTito } from "../../hooks/useTito";
 
 type Props = {
   path: string;
@@ -29,6 +29,7 @@ export function Header({ path }: Props) {
 
   const [navOpen, setNavOpen] = useState(false);
   const [fixed, setFixed] = useState(false);
+  const titoUrl = useTito();
 
   // Paths that should have transparent hero menu
   // (usually the first page of the conference)
@@ -47,14 +48,6 @@ export function Header({ path }: Props) {
     "text-white": transparent && !fixed,
   };
 
-
-  const [titoUrl, setTitoUrl] = useState('https://ti.to/software-3/ai-engineer-worlds-fair-2025');
-
-  useEffect(() => {
-    setTitoUrl(addSourceToTitoUrl('https://ti.to/software-3/ai-engineer-worlds-fair-2025'));
-  }, []);
-
-  
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= 500 && !fixed) {
@@ -132,19 +125,14 @@ export function Header({ path }: Props) {
                     <Link className="font-bold max-lg:hidden" href={VENUE_URL}>
                       Venue & Hotel
                     </Link>
+                    <Button invert href={titoUrl} target="_blank">
+                      Buy 2025 Tickets
+                    </Button>
                   </>
                 )}
               </nav>
 
               <div className="flex gap-6 items-center">
-                <Button
-                  href={titoUrl}
-                  target="_blank"
-                  invert={transparent && !fixed}
-                >
-                  Last chance for Early Bird tickets
-                </Button>
-
                 <HeaderProfile />
 
                 <OpenMenuButton
@@ -183,6 +171,8 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
     YOUTUBE_URL,
   } = useWorldsFair2025();
 
+  const titoUrl = useTito();
+
   const classNames = {
     "h-0": !navOpen,
     "max-md:h-screen": navOpen,
@@ -218,7 +208,7 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
           <nav className="flex gap-6 items-center text-white">
             <Button
               invert
-              href={addSourceToTitoUrl("https://ti.to/software-3/ai-engineer-worlds-fair-2025")}
+              href={titoUrl}
               target="_blank"
             >
               Buy 2025 Tickets

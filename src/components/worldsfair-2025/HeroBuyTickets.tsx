@@ -1,18 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { IoMdCheckmark } from 'react-icons/io';
 
 import { Button } from '../Button';
 import { NewsletterFormThree } from '../Newsletter';
 import { PromptPaidContent } from '../PromptPaidContent';
-import { addSourceToTitoUrl } from '../../utils/utmUtils';
+import { useTito } from '../../hooks/useTito';
 
 export function HeroBuyTickets(_props: { url?: string }) {
   const [success, setSuccess] = useState<null | boolean>(null);
-  const [titoUrl, setTitoUrl] = useState('https://ti.to/software-3/ai-engineer-worlds-fair-2025');
-
-  useEffect(() => {
-    setTitoUrl(addSourceToTitoUrl('https://ti.to/software-3/ai-engineer-worlds-fair-2025'));
-  }, []);
+  const titoUrl = useTito();
 
   return (
     <div className="md:w-[500px] m-auto space-y-4">

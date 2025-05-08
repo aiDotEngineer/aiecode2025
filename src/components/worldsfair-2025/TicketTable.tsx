@@ -5,16 +5,11 @@
 // import ticketTableImg from '~/images/worldsfair-2025/ticket-table.png';
 import { Button } from '../Button';
 import { useWorldsFair2025 } from '../ChoosePrimaryLayout';
-import { addSourceToTitoUrl } from '../../utils/utmUtils';
-import { useState, useEffect } from 'react';
+import { useTito } from '../../hooks/useTito';
 
 export function TicketTable() {
   const { BUY_TICKETS_URL } = useWorldsFair2025();
-  const [titoUrl, setTitoUrl] = useState('https://ti.to/software-3/ai-engineer-worlds-fair-2025');
-
-  useEffect(() => {
-    setTitoUrl(addSourceToTitoUrl('https://ti.to/software-3/ai-engineer-worlds-fair-2025'));
-  }, []);
+  const titoUrl = useTito();
 
   return (
     <div className="space-y-8">
