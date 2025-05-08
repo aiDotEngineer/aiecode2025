@@ -23,6 +23,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
   const [filterTracks, setFilterTracks] = useState<string[]>([]);
   const [filterFormats, setFilterFormats] = useState<string[]>([]);
   const [textView, _setTextView] = useLocalStorage('textView', true);
+  const [sticky, _setSticky] = useLocalStorage('sticky', true);
 
   const setTextView = (val: boolean) => {
     // Check if the current hash is already #SpeakersList
@@ -110,7 +111,8 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
 
       <header
         className={clsx(
-          'text-center sticky z-20',
+          'text-center z-20',
+          sticky ? 'sticky' : '',
           // 'text-center',
           isBannerVisible ? 'top-36' : 'top-20',
           // textView ? 'top-20' : 'top-[calc(100vh-100px)]',
@@ -127,7 +129,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
             >
               Companies
             </button>
-            <span>& </span>
+            <span onClick={() => _setSticky(!sticky)}>& </span>
             <button
               className={
                 (textView ? 'bg-white' : 'font-bold bg-black text-white') +
@@ -142,7 +144,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       </header>
 
       <p className="text-center space-y-6 max-w-3xl m-auto text-gray-on-white">
-        With 20 tracks and over 150 sessions, you can design the program schedule
+        With 18 tracks and over 150 sessions, you can design the program schedule
         that perfectly matches your business needs. There are up to 10
         simultaneous sessions running at any one time, so it's a good thing we
         have a <code className="font-mono bg-gray-200">GROUP</code> discount for
