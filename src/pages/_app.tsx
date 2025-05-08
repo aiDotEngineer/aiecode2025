@@ -22,7 +22,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const urlParams = new URLSearchParams(window.location.search);
-      const utmSource = urlParams.get('source');
+      const utmSource = urlParams.get('source') || urlParams.get('utm_source');
       if (utmSource) {
         import('../utils/utmUtils').then(({ storeUtmSource }) => {
           storeUtmSource(utmSource);
