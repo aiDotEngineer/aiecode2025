@@ -42,7 +42,7 @@ function worldsFair2025Context() {
     "AIE World's Fair 2025 Sponsor Inquiry"
   );
 
-  const contact = new URL("mailto:info@ai.engineer");
+  const contact = new URL("mailto:hello@ai.engineer");
   contact.searchParams.set("subject", "AIE World's Fair 2025 Contact");
 
   // const CONF_URL = '/worldsfair';

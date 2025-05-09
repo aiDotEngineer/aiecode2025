@@ -86,7 +86,7 @@ function Reporting() {
 
       <p className="mt-8">
         {`If you experience or witness unacceptable behavior—or have any other
-  concerns—please report it by contacting us at info@ai.engineer,
+  concerns—please report it by contacting us at hello@ai.engineer,
   or by approaching a member of staff at the event to assist with
   submitting a written report. Conference members can be identified by
   a clearly-marked “STAFF” t-shirt.`}

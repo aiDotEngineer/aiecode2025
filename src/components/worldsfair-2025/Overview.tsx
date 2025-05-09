@@ -361,7 +361,7 @@ export function Overview() {
             <b>If you are organizing an event around the week of June 1-8</b>,
             please{" "}
             <a
-              href="mailto:info@ai.engineer"
+              href="mailto:hello@ai.engineer"
               className="text-blue-700 hover:text-blue-500"
             >
               get in touch with us
