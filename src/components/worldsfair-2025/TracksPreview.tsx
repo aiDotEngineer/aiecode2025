@@ -40,8 +40,7 @@ export function TracksPreview() {
         <p className="max-w-xl m-auto text-gray-on-black text-justify">
           With 18 tracks and over 150 sessions, you can design the program schedule that perfectly
           matches your business needs. <b>There are up to 10 simultaneous sessions running at any one
-          time</b>, so it's a good thing we have a{" "}
-          <code className="bg-slate-800 mx-1 p-1 rounded-sm">GROUP</code> discount for teams
+          time</b>, so it's a good thing we have a <b>group discount</b> for teams
           attending together!
         </p>
         {/* <p>

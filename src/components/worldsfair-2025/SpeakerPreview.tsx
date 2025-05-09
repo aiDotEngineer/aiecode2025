@@ -147,7 +147,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         With 18 tracks and over 150 sessions, you can design the program schedule
         that perfectly matches your business needs. There are up to 10
         simultaneous sessions running at any one time, so it's a good thing we
-        have a <code className="font-mono bg-gray-200">GROUP</code> discount for
+        have a <b>group discount</b> for
         teams attending together!
       </p>
 
