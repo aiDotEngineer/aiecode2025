@@ -295,7 +295,7 @@ export const manualKeynoteSpeakers = [
         "Title": "tba",
         "Format": "Talk",
         "Description": "Omar Khattab discusses the principles and applications of DSPy, and his research at Databricks.",
-        "Tracks": "AI Frameworks & Libraries"
+        "Tracks": "AI in Action"
       }
     ]
   }
