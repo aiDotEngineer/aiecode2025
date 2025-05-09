@@ -20,7 +20,7 @@ export function MainFooter() {
   const TWITTER_URL = "https://twitter.com/aidotengineer";
   const YOUTUBE_URL = "https://www.youtube.com/@aiDotEngineer";
 
-  const contact = new URL("mailto:info@ai.engineer");
+  const contact = new URL("mailto:hello@ai.engineer");
   contact.searchParams.set("subject", "AIE World's Fair 2024 Contact");
 
   return (
