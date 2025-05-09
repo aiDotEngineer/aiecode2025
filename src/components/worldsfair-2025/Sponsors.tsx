@@ -446,7 +446,7 @@ export function Sponsors() {
           className="inline-block"
         >
           <Logo
-            logo="thompsonReuters"
+            logo="thomsonReuters"
             className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
           />
         </a>

@@ -288,7 +288,7 @@ export function Expo() {
           className="inline-block"
         >
           <Logo
-            logo="thompsonReuters"
+            logo="thomsonReuters"
             className="object-contain scale-125 m-auto"
             // className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
           />

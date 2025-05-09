@@ -6,7 +6,7 @@ import sierra from "~/images/logos/sierra.svg";
 import xpander from "~/images/logos/xpander.svg";
 import unstructured from "~/images/logos/unstructured.svg";
 import vessl from "~/images/logos/vessl.svg";
-import thompsonReuters from "~/images/logos/thompson-reuters.svg";
+import thomsonReuters from "~/images/logos/thomson-reuters.svg";
 import tambo from "~/images/logos/tambo.svg";
 import superannotate from "~/images/logos/superannotate.svg";
 import sentry from "~/images/logos/sentry.svg";
@@ -257,9 +257,9 @@ export const logos = defineLogos({
     name: "Xpander",
     black: xpander,
   },
-  thompsonReuters: {
-    name: "Thompson Reuters",
-    color: thompsonReuters,
+  thomsonReuters: {
+    name: "Thomson Reuters",
+    color: thomsonReuters,
   },
   tambo: {
     name: "Tambo",
