@@ -22,6 +22,18 @@ export function storeUtmSource(utmSource: string): void {
  * Retrieves the stored UTM source parameter from localStorage or cookie
  */
 export function getUtmSource(): string | null {
+
+  // if the current url bar has a utm source, use that and storeUtmSource first
+  if (typeof window !== 'undefined') {
+    const urlParams = new URLSearchParams(window.location.search);
+    const utmSource = urlParams.get('source') || urlParams.get('utm_source');
+    if (utmSource) {
+      storeUtmSource(utmSource);
+      return utmSource;
+    }
+  }
+
+  // if no utm source, just return from storage or cookie
   if (typeof window !== 'undefined') {
     const fromStorage = localStorage.getItem(UTM_SOURCE_KEY);
     if (fromStorage) return fromStorage;

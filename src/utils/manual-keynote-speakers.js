@@ -63,7 +63,7 @@ export const manualKeynoteSpeakers = [
     "Name": "Danielle Persczyk",
     "Company": "Amazon AGI",
     "Domain": "amazon.com",
-    "Tagline": "Research Scientist",
+    "Tagline": "Cognitive Scientist",
     "ProfilePicture": "/wf25speakers/danielle_persczyk.jpg", 
     "Sessions": [
       {
