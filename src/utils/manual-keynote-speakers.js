@@ -226,7 +226,7 @@ export const manualKeynoteSpeakers = [
   },
   {
     "Name": "swyx",
-    "Company": "smol.ai | ai.engineer | latent.space",
+    "Company": "smol.ai",
     "Domain": "latent.space", 
     "Tagline": "Curator",
     "ProfilePicture": `/wf25speakers/swyx${Math.floor(Math.random() * 8)}.jpg`,
