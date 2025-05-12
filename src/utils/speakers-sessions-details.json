@@ -3767,7 +3767,7 @@
         "Format": "Talk",
         "Level": "",
         "Scope": "",
-        "Tracks": "",
+        "Tracks": "RecSys",
         "Room": "",
         "Scheduled At": ""
       }
@@ -3796,7 +3796,7 @@
         "Format": "Talk",
         "Level": "",
         "Scope": "",
-        "Tracks": "",
+        "Tracks": "RecSys",
         "Room": "",
         "Scheduled At": ""
       }
@@ -3854,7 +3854,7 @@
         "Format": "Workshop",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "/r/localLlama, Open Models, Reasoning+RL, Infrastructure, AI in Action, AI Architects",
+        "Tracks": "AI in Action, Reasoning+RL",
         "Room": "",
         "Scheduled At": ""
       }
