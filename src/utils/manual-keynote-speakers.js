@@ -7,7 +7,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/sarah_guo.jpeg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "The 2025 AI Landscape (tba)",
         "Format": "Keynote",
         "Description": "Sarah Guo shares her insights on the evolving landscape of AI investment and innovation.",
         "Tracks": "AI in Action"
@@ -22,7 +22,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/simonw.jpeg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "2025 in AI Engineering (tbc)",
         "Format": "Keynote",
         "Description": "Simon Willison discusses open-source AI tools and how they empower developers and researchers.",
         "Tracks": "AI in Action"
@@ -37,7 +37,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/clay_bavor.png",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "The Rise of the AI Architect (tba)",
         "Format": "Keynote",
         "Description": "Clay Bavor explores the future of human-computer interaction powered by advanced AI.",
         "Tracks": "Leadership: Fortune 500"
@@ -52,7 +52,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/jared_palmer.jpeg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "v0 (tba)",
         "Format": "Keynote",
         "Description": "Jared Palmer dives into the tools and frameworks for creating dynamic, AI-enhanced web applications.",
         "Tracks": "Tiny Teams"
@@ -67,7 +67,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/danielle_persczyk.jpg", 
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "Amazon Nova Act - Computer Use for the Everything Cloud (tbc)",
         "Format": "Keynote",
         "Description": "Daniel Persczyk presents cutting-edge AI research and its applications from Amazon.",
         "Tracks": "Autonomy+Robotics"
@@ -82,9 +82,9 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/gdb.jpg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "#define AI Engineer",
         "Format": "Keynote",
-        "Description": "Greg Brockman shares OpenAI's vision and progress towards achieving AGI.",
+        "Description": "Greg Brockman's career advice for AI engineers in the next decade.",
         "Tracks": "SWE Agents"
       }
     ]
@@ -108,7 +108,7 @@ export const manualKeynoteSpeakers = [
     "Name": "Christian Szegedy",
     "Company": "x.AI",
     "Domain": "x.AI",
-    "Tagline": "Co-founder",
+    "Tagline": "Former cofounder",
     "ProfilePicture": "/wf25speakers/christian_szegedy.jpg",
     "Sessions": [
       {
@@ -142,7 +142,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/jerome_swannack.jpeg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "MCP at Anthropic (tba)",
         "Format": "Keynote",
         "Description": "Jerome Swannack discusses Anthropic's approach to developing safe and reliable AI systems.",
         "Tracks": "MCP"
@@ -157,7 +157,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/den_delimarsky.png",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "(tba) The MCP Auth Spec",
         "Format": "Keynote",
         "Description": "Den Delimarsky presents the MCP Auth spec and its role in standardized, secure AI interactions.",
         "Tracks": "MCP"
@@ -172,7 +172,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/Micah-Hill-Smith.jpg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "(tba) Trends in Frontier LLM Performance",
         "Format": "Talk",
         "Description": "Micah Hill-Smith presents an in-depth analysis of the current AI landscape, highlighting key trends and future projections.",
         "Tracks": "AI in Action"
@@ -187,7 +187,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/junyang_lin.jpg",
     "Sessions": [
       {
-        "Title": "tba (remote only)",
+        "Title": "The Road to Qwen 3 (tbc, remote only)",
         "Format": "Talk",
         "Description": "Justin Junyang Lin discusses the latest developments and contributions from Alibaba's Qwen team to the open-source AI community.",
         "Tracks": "AI in Action"
@@ -202,7 +202,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/boris_cherny.jpg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "Claude Code (tba)",
         "Format": "Talk",
         "Description": "Boris Cherny discusses advancements and applications of Claude Code by Anthropic.",
         "Tracks": "SWE Agents"
@@ -217,7 +217,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/ben_kus.jpeg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "Agents in the Enterprise (tba)",
         "Format": "Talk",
         "Description": "Ben Kus discusses how Box is leveraging AI to transform content management and collaboration.",
         "Tracks": "Leadership: Fortune 500"
@@ -232,9 +232,9 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": `/wf25speakers/swyx${Math.floor(Math.random() * 8)}.jpg`,
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "Principles of AI Engineering",
         "Format": "Talk",
-        "Description": "swyx shares insights from curating Latent Space and his work as an AI Engineer.",
+        "Description": "swyx's updates on what we know so far in AI Eng.",
         "Tracks": "AI in Action"
       }
     ]
@@ -245,14 +245,7 @@ export const manualKeynoteSpeakers = [
     "Domain": "ai.engineer", 
     "Tagline": "Cofounder",
     "ProfilePicture": "/wf25speakers/ben_dunphy.jpeg",
-    "Sessions": [
-      {
-        "Title": "tba",
-        "Format": "Talk",
-        "Description": "Ben Dunphy discusses the programs and initiatives at AI Engineer fostering the next generation of AI talent.",
-        "Tracks": "AI in Action"
-      }
-    ]
+    "Sessions": []
   },
   {
     "Name": "Ankur Goyal",
@@ -262,7 +255,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/ankur_goyal.jpeg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "Evals Keynote (tba)",
         "Format": "Talk",
         "Description": "Ankur Goyal discusses the future of talent and work in the AI era with Braintrust.",
         "Tracks": "Evals"
@@ -277,7 +270,7 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/sarah_sachs.jpg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "Evals at Notion AI (tbc)",
         "Format": "Talk",
         "Description": "Sarah Sachs discusses how Notion is leveraging AI to enhance productivity and collaboration tools.",
         "Tracks": "Evals"
@@ -292,10 +285,42 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/omar_khattab.jpeg",
     "Sessions": [
       {
-        "Title": "tba",
+        "Title": "The State of DSPy (tba)",
         "Format": "Talk",
         "Description": "Omar Khattab discusses the principles and applications of DSPy, and his research at Databricks.",
         "Tracks": "AI in Action"
+      }
+    ]
+  },
+  {
+    // [INFO] Added by Cascade on 2025-05-12: Peter Bar, Intercom, Voice track
+    "Name": "Peter Bar",
+    "Company": "Intercom",
+    "Domain": "intercom.com",
+    "Tagline": "Fin Voice Lead",
+    "ProfilePicture": "/wf25speakers/peter_bar.jpeg",
+    "Sessions": [
+      {
+        "Title": "Building Fin Voice at Intercom",
+        "Format": "Talk",
+        "Description": "Peter Bar shares the journey of building Fin Voice at Intercom: from concept to production, the technical and product challenges, and what it takes to bring conversational AI to customer support at scale.",
+        "Tracks": "Voice"
+      }
+    ]
+  },
+  {
+    // [INFO] Added by Cascade on 2025-05-12: Andrew Hsu, Speak.com, Voice track
+    "Name": "Andrew Hsu",
+    "Company": "Speak.com",
+    "Domain": "speak.com",
+    "Tagline": "CTO",
+    "ProfilePicture": "/wf25speakers/andrew_hsu.jpeg",
+    "Sessions": [
+      {
+        "Title": "Building a Voice AI Startup",
+        "Format": "Talk",
+        "Description": "Andrew Hsu, CTO of Speak.com, shares insights and lessons learned from building a voice AI startup, covering technical, team, and product challenges unique to conversational AI.",
+        "Tracks": "Voice"
       }
     ]
   }
