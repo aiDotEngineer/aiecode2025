@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import { Fragment, useState, useMemo } from 'react';
 import clsx from 'clsx';
 
 // import { type Presenter } from '@pkg/api/src/cms2/types';
@@ -7,6 +7,8 @@ import { Button } from '../Button';
 // import { FadeIn, FadeInStagger } from '~/components/FadeIn';
 import { useAppBannerContext } from './AppBanner';
 import { useLocalStorage } from './useLocalStorage';
+import { parseSocialLinks } from '../../utils/socialLinks';
+import { markdownToHtml } from '../../utils/markdownToHtml';
 
 // import { useWorldsFair2025 } from '../ChoosePrimaryLayout';
 
@@ -23,20 +25,26 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
   const [filterTracks, setFilterTracks] = useState<string[]>([]);
   const [filterFormats, setFilterFormats] = useState<string[]>([]);
   const [textView, _setTextView] = useLocalStorage('textView', true);
+  const [talkView, _setTalkView] = useLocalStorage('talkView', false);
   const [sticky, _setSticky] = useLocalStorage('sticky', true);
 
-  const setTextView = (val: boolean) => {
-    // Check if the current hash is already #SpeakersList
+  const anchorScroll = () => {
     if (window.location.hash === '#SpeakersList') {
-      // Temporarily set the hash to something else
       window.location.hash = '#';
-      // Then set it back to #SpeakersList to ensure the page scrolls to the anchor
       window.location.hash = 'SpeakersList';
     } else {
-      // If the hash is not #SpeakersList, just set it normally
       window.location.hash = 'SpeakersList';
     }
-    _setTextView(val);
+  };
+
+  const setView = (view: 'companies' | 'speakers' | 'talks') => {
+    anchorScroll();
+    if (view === 'talks') {
+      _setTalkView(true);
+    } else {
+      _setTalkView(false);
+      _setTextView(view === 'companies');
+    }
   };
 
   const toggleTrack = (track: string) => {
@@ -64,40 +72,74 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
     setFilterFormats([]);
   };
 
-  const presentersProcessed = presenters
-    // We already sorted presenters by priority score in formatSpeakersData
-    .filter((presenter) => {
-      // If no filters are selected, show all presenters
-      if (filterTracks.length === 0 && filterFormats.length === 0) {
-        return true;
-      }
+  const presentersProcessed = useMemo(
+    () =>
+      presenters
+        // We already sorted presenters by priority score in formatSpeakersData
+        .filter((presenter) => {
+          // If no filters are selected, show all presenters
+          if (filterTracks.length === 0 && filterFormats.length === 0) {
+            return true;
+          }
 
-      // Get all tracks for this presenter from all their sessions
-      const presenterTracksList = presenter.attributes.sessions.data.flatMap(
-        (session: any) => {
-          const trackName = session.attributes.track.data?.attributes.name;
-          return trackName ? trackName.split(',').map((t: string) => t.trim()) : [];
-        },
-      );
+          // Get all tracks for this presenter from all their sessions
+          const presenterTracksList = presenter.attributes.sessions.data.flatMap(
+            (session: any) => {
+              const trackName = session.attributes.track.data?.attributes.name;
+              return trackName ? trackName.split(',').map((t: string) => t.trim()) : [];
+            },
+          );
 
-      // Get all formats for this presenter from all their sessions
-      const presenterFormats = presenter.attributes.sessions.data.map(
-        (session: any) => session.attributes.format
-      ).filter(Boolean);
+          // Get all formats for this presenter from all their sessions
+          const presenterFormats = presenter.attributes.sessions.data
+            .map((session: any) => session.attributes.format)
+            .filter(Boolean);
 
-      // Check if passes track filter (or if no track filter is applied)
-      const passesTrackFilter = filterTracks.length === 0 || 
-        filterTracks.some(filterTrack => 
-          presenterTracksList.some((presenterTrack: string) => presenterTrack.includes(filterTrack))
-        );
+          // Check if passes track filter (or if no track filter is applied)
+          const passesTrackFilter =
+            filterTracks.length === 0 ||
+            filterTracks.some((filterTrack) =>
+              presenterTracksList.some((presenterTrack: string) => presenterTrack.includes(filterTrack)),
+            );
 
-      // Check if passes format filter (or if no format filter is applied)
-      const passesFormatFilter = filterFormats.length === 0 || 
-        filterFormats.some(format => presenterFormats.includes(format));
+          // Check if passes format filter (or if no format filter is applied)
+          const passesFormatFilter =
+            filterFormats.length === 0 || filterFormats.some((format) => presenterFormats.includes(format));
 
-      // Present must pass both track and format filters
-      return passesTrackFilter && passesFormatFilter;
+          // Present must pass both track and format filters
+          return passesTrackFilter && passesFormatFilter;
+        }),
+    [presenters, filterTracks, filterFormats],
+  );
+
+  const sessionsRandom = useMemo(() => {
+    const sessions = presentersProcessed.flatMap((presenter) => {
+      const photo = presenter.attributes.profilePhoto.data?.attributes.url || '';
+      const companyName = presenter.attributes.company.data?.attributes.name || '';
+      const socialLinks = presenter.attributes.socialLinks || null;
+      return presenter.attributes.sessions.data.map((session: any, idx: number) => {
+        const social = parseSocialLinks(socialLinks);
+        const socialLink = social.socialOther || social.socialLinkedIn || social.socialTwitter || null;
+        return {
+          id: `${presenter.id}-${idx}`,
+          title: session.attributes.title,
+          presenter: presenter.attributes.name,
+          profilePhotoUrl: photo,
+          company: companyName,
+          description: session.attributes.description || '',
+          format: session.attributes.format || '',
+          track: session.attributes.track.data?.attributes.name || '',
+          socialLink,
+        };
+      });
     });
+
+    for (let i = sessions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [sessions[i], sessions[j]] = [sessions[j], sessions[i]];
+    }
+    return sessions;
+  }, [presentersProcessed]);
 
   return (
     <div>
@@ -122,22 +164,36 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
           <span className="bg-transparent rounded-3xl">
             <button
               className={
-                (!textView ? 'bg-white' : 'font-bold bg-black text-white') +
+                (!talkView && textView
+                  ? 'font-bold bg-black text-white'
+                  : 'bg-white') +
                 ' mr-2 inline hover:text-blue-300 border-2 rounded-3xl px-4 py-2 md:px-8 md:py-4'
               }
-              onClick={() => setTextView(!textView)}
+              onClick={() => setView('companies')}
             >
               Companies
             </button>
             <span onClick={() => _setSticky(!sticky)}>& </span>
             <button
               className={
-                (textView ? 'bg-white' : 'font-bold bg-black text-white') +
-                ' inline hover:text-blue-300 border-2 rounded-3xl px-4 py-2 md:px-8 md:py-4'
+                (!talkView && !textView
+                  ? 'font-bold bg-black text-white'
+                  : 'bg-white') +
+                ' mr-2 inline hover:text-blue-300 border-2 rounded-3xl px-4 py-2 md:px-8 md:py-4'
               }
-              onClick={() => setTextView(!textView)}
+              onClick={() => setView('speakers')}
             >
               Speakers
+            </button>
+            <span onClick={() => _setSticky(!sticky)}>& </span>
+            <button
+              className={
+                (talkView ? 'font-bold bg-black text-white' : 'bg-white') +
+                ' inline hover:text-blue-300 border-2 rounded-3xl px-4 py-2 md:px-8 md:py-4'
+              }
+              onClick={() => setView('talks')}
+            >
+              Talks
             </button>
           </span>
         </div>
@@ -251,7 +307,53 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         </p> */}
       </div>
 
-      {textView ? (
+      {talkView ? (
+        <ul
+          role="list"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 sm:gap-x-4 lg:gap-x-6 text-sm pb-16"
+        >
+          {sessionsRandom.map((session) => (
+            <li key={session.id} className="relative flex gap-3 group">
+              {session.profilePhotoUrl ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={session.profilePhotoUrl}
+                  alt={session.presenter}
+                  className="h-12 w-12 rounded-full object-cover flex-none bg-neutral-200"
+                  loading="lazy"
+                />
+              ) : (
+                <div className="h-12 w-12 rounded-full flex-none bg-neutral-200" />
+              )}
+              <div>
+                <p className="font-semibold">{session.title}</p>
+                <p className="text-xs text-slate-600">
+                  {session.socialLink ? (
+                    <a
+                      href={session.socialLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-blue-600"
+                    >
+                      {session.presenter}
+                    </a>
+                  ) : (
+                    session.presenter
+                  )}
+                  {session.company && ` / ${session.company}`}
+                </p>
+              </div>
+              <div className="absolute left-0 top-full z-10 hidden group-hover:block mt-2 w-64 p-3 rounded-lg bg-white shadow-lg text-xs">
+                <div dangerouslySetInnerHTML={{ __html: markdownToHtml(session.description) }} />
+                <div className="mt-2 text-[10px] text-slate-600">
+                  {session.format}
+                  {session.track && ` / ${session.track}`}
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      ) : textView ? (
         ////////////////////////////////////////////////////////////////////////
         // this section is for the text only view
         ////////////////////////////////////////////////////////////////////////
@@ -278,7 +380,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                 >
                   {socialLinks ? (
                     <a
-                    suppressHydrationWarning={true}
+                      suppressHydrationWarning={true}
                       href={
                         (socialLinks?.startsWith('https://')
                           ? ''
