@@ -58,8 +58,10 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Jared Palmer": 1000,
   "Daniel Persczyk": 1000,
   "Greg Brockman": 1000,
-  "Logan Kilpatrick": 1000,
-  "Harrison Chase": 1000,
+  "Jack Rae": 1000,
+  // [INFO] Prioritize Logan Kilpatrick (Google DeepMind, AI Studio Lead, Gemini 2.5)
+  "Logan Kilpatrick": 900,
+  "Harrison Chase": 900,
   "Christian Szegedy": 900,
   "Shrestha Basu Mallick": 900,
   "Jerome Swannack": 1000, // Added Jerome Swannack
@@ -192,6 +194,13 @@ export function formatSpeakersData(): FormattedData {
       }
     };
   });
+  // [LOG] [PRIORITY] [formatSpeakersData] [2025-05-13T20:29:02-07:00] [36mEnsuring Logan Kilpatrick is prioritized as a keynote speaker[0m
+  const logan = manualPresenters.find(s => s.attributes.name === "Logan Kilpatrick");
+  if (logan) {
+    console.log('[PRIORITY] [formatSpeakersData] [2025-05-13T20:29:02-07:00]', '\x1b[32mLogan Kilpatrick found in manual keynote speakers and prioritized.\x1b[0m', logan);
+  } else {
+    console.warn('[WARN] [formatSpeakersData] [2025-05-13T20:29:02-07:00]', '\x1b[31mLogan Kilpatrick NOT found in manual keynote speakers!\x1b[0m');
+  }
   allPresenters = allPresenters.concat(manualPresenters);
 
   // 2. Process Speakers from speakers-sessions-details.json

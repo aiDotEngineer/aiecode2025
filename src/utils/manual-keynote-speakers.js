@@ -40,22 +40,7 @@ export const manualKeynoteSpeakers = [
         "Title": "The Rise of the AI Architect (tba)",
         "Format": "Keynote",
         "Description": "Clay Bavor explores the future of human-computer interaction powered by advanced AI.",
-        "Tracks": "Leadership: Fortune 500"
-      }
-    ]
-  },
-  {
-    "Name": "Jared Palmer",
-    "Company": "Vercel/v0",
-    "Domain": "v0.dev",
-    "Tagline": "VP of AI",
-    "ProfilePicture": "/wf25speakers/jared_palmer.jpeg",
-    "Sessions": [
-      {
-        "Title": "v0 (tba)",
-        "Format": "Keynote",
-        "Description": "Jared Palmer dives into the tools and frameworks for creating dynamic, AI-enhanced web applications.",
-        "Tracks": "Tiny Teams"
+        "Tracks": "Leadership: Architects"
       }
     ]
   },
@@ -86,6 +71,38 @@ export const manualKeynoteSpeakers = [
         "Format": "Keynote",
         "Description": "Greg Brockman's career advice for AI engineers in the next decade.",
         "Tracks": "SWE Agents"
+      }
+    ]
+  },
+  {
+    // [INFO] Added by Cascade on 2025-05-13: Logan Kilpatrick, Google DeepMind, Gemini 2.5 progress
+    "Name": "Logan Kilpatrick",
+    "Company": "Google DeepMind",
+    "Domain": "deepmind.google",
+    "Tagline": "AI Studio Lead",
+    "ProfilePicture": "/wf25speakers/logan_kilpatrick.jpg",
+    "Sessions": [
+      {
+        "Title": "(tbc) Gemini 2.5: Progress and Impact",
+        "Format": "Keynote",
+        "Description": "Logan Kilpatrick, AI Studio Lead at Google DeepMind, shares the latest progress on Gemini 2.5: breakthroughs, lessons learned, and how Gemini’s evolution is shaping the future of generative AI products and developer tooling.",
+        "Tracks": "AI in Action"
+      }
+    ]
+  },
+  {
+    // [INFO] Added by Cascade on 2025-05-13: Jack Rae, Google DeepMind, Gemini Thinking keynote
+    "Name": "Jack Rae",
+    "Company": "Google DeepMind",
+    "Domain": "deepmind.google",
+    "Tagline": "Principal Research Scientist",
+    "ProfilePicture": "/wf25speakers/jack_rae.jpg",
+    "Sessions": [
+      {
+        "Title": "(tbc) Gemini Thinking and the Future of Reasoning",
+        "Format": "Keynote",
+        "Description": "Jack Rae, Principal Research Scientist at Google DeepMind, will keynote on Gemini Thinking and the future of reasoning in AI: advances, challenges, and what’s next for reasoning capabilities in next-gen foundation models.",
+        "Tracks": "Reasoning+RL"
       }
     ]
   },
@@ -128,9 +145,9 @@ export const manualKeynoteSpeakers = [
     "Sessions": [
       {
         "Title": "Ambient Agents",
-        "Format": "Keynote",
+        "Format": "",
         "Description": "Harrison Chase demonstrates the power of LangChain in creating sophisticated applications with Large Language Models.",
-        "Tracks": "AI in Action"
+        "Tracks": "Leadership: Architects"
       }
     ]
   },
@@ -158,7 +175,7 @@ export const manualKeynoteSpeakers = [
     "Sessions": [
       {
         "Title": "(tba) The MCP Auth Spec",
-        "Format": "Keynote",
+        "Format": "Talk",
         "Description": "Den Delimarsky presents the MCP Auth spec and its role in standardized, secure AI interactions.",
         "Tracks": "MCP"
       }
@@ -173,7 +190,7 @@ export const manualKeynoteSpeakers = [
     "Sessions": [
       {
         "Title": "(tba) Trends in Frontier LLM Performance",
-        "Format": "Talk",
+        "Format": "Keynote",
         "Description": "Micah Hill-Smith presents an in-depth analysis of the current AI landscape, highlighting key trends and future projections.",
         "Tracks": "AI in Action"
       }
@@ -218,7 +235,7 @@ export const manualKeynoteSpeakers = [
     "Sessions": [
       {
         "Title": "Agents in the Enterprise (tba)",
-        "Format": "Talk",
+        "Format": "Keynote",
         "Description": "Ben Kus discusses how Box is leveraging AI to transform content management and collaboration.",
         "Tracks": "Leadership: Fortune 500"
       }
@@ -233,7 +250,7 @@ export const manualKeynoteSpeakers = [
     "Sessions": [
       {
         "Title": "Principles of AI Engineering",
-        "Format": "Talk",
+        "Format": "Keynote",
         "Description": "swyx's updates on what we know so far in AI Eng.",
         "Tracks": "AI in Action"
       }
@@ -258,21 +275,6 @@ export const manualKeynoteSpeakers = [
         "Title": "Evals Keynote (tba)",
         "Format": "Talk",
         "Description": "Ankur Goyal discusses the future of talent and work in the AI era with Braintrust.",
-        "Tracks": "Evals"
-      }
-    ]
-  },
-  {
-    "Name": "Sarah Sachs",
-    "Company": "Notion",
-    "Domain": "notion.so", 
-    "Tagline": "AI Lead",
-    "ProfilePicture": "/wf25speakers/sarah_sachs.jpg",
-    "Sessions": [
-      {
-        "Title": "Evals at Notion AI (tbc)",
-        "Format": "Talk",
-        "Description": "Sarah Sachs discusses how Notion is leveraging AI to enhance productivity and collaboration tools.",
         "Tracks": "Evals"
       }
     ]
