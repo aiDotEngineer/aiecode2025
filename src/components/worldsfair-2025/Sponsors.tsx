@@ -77,8 +77,55 @@ export function Sponsors() {
 
       <div className="space-y-0 text-center">
 
+        <div className="uppercase font-bold text-gray-on-white">
+          Platinum Sponsors
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 my-16 text-center">
+          <a href="https://graphite.dev" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="graphite"
+              variant="black"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
+            />
+          </a>
+          <a href="https://windsurf.com" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="windsurf"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
+            />
+          </a>
+          <a href="https://mongodb.com" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="mongodb"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
+            />
+          </a>
+          <a href="https://daily.co" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="daily"
+              variant="black"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6 scale-60"
+            />
+          </a>
+          <a href="https://augmentcode.com" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="augmentCode"
+              variant="black"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6 scale-120"
+            />
+          </a>
+          <a href="https://workos.com" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="workOS"
+              variant="white"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
+            />
+          </a>
+        </div>
+
         <div className="uppercase font-bold text-gray-on-white">Track Sponsors</div>
-        <div className="space-x-16 my-16 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-y-0 md:gap-x-16 my-16 text-center">
             <a href="https://neo4j.com" target="_blank" className="inline-block">
               <div className="flex flex-col items-center">
                 <span className="text-sm text-gray-600 mt-2">GraphRAG track brought to you by</span>
@@ -99,6 +146,15 @@ export function Sponsors() {
               />
             </div>
             </a>
+            <a href="https://openpipe.ai" target="_blank" className="inline-block">
+              <div className="flex flex-col items-center">
+                <span className="text-sm text-gray-600 mt-2">RL+Reasoning track supported by</span>
+                <Logo
+                  logo="openpipe"
+                  className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+                />
+              </div>
+            </a>
             <a href="https://promptql.hasura.io" target="_blank" className="inline-block">
             <div className="flex flex-col items-center">
               <span className="text-sm text-gray-600 mt-2">Agent Reliability track supported by</span>
@@ -109,54 +165,11 @@ export function Sponsors() {
             </div>
             </a>
         </div>
-        <div className="uppercase font-bold text-gray-on-white">
-          Platinum Sponsors
-        </div>
-
-        <a href="https://graphite.dev" target="_blank" className="inline-block">
-          <Logo
-            logo="graphite"
-            variant="black"
-            className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
-          />
-        </a>
-        <a href="https://windsurf.com" target="_blank" className="inline-block">
-          <Logo
-            logo="windsurf"
-            className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
-          />
-        </a>
-        <a href="https://mongodb.com" target="_blank">
-          <Logo
-            logo="mongodb"
-            className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
-          />
-        </a>
-        <a href="https://daily.co" target="_blank">
-          <Logo
-            logo="daily"
-            variant="black"
-            className="inline-block h-10 w-48 md:h-28 md:w-42 object-contain mx-6"
-          />
-        </a>
-        <a href="https://augmentcode.com" target="_blank" className="inline-block">
-          <Logo
-            logo="augmentCode"
-            variant="black"
-            className="inline-block h-10 w-48 md:h-28 md:w-42 object-contain mx-6 scale-150 mr-16"
-          />
-        </a>
-        <a href="https://workos.com" target="_blank" className="inline-block">
-          <Logo
-            logo="workOS"
-            variant="white"
-            className="inline-block h-10 w-48 md:h-28 md:w-42 object-contain mx-6 scale-120"
-          />
-        </a>
       </div>
 
       <div className="space-y-6 text-center">
-        <div className="uppercase font-bold text-gray-on-white">
+      {/* <div className="grid grid-cols-2 md:grid-cols-6 gap-y-6 md:gap-y-0 md:gap-x-16 my-16 text-center"> */}
+        <div className="uppercase font-bold text-gray-on-white text-center">
           Gold Sponsors
         </div>
         <a href="https://neo4j.com" target="_blank" className="inline-block">
@@ -207,7 +220,7 @@ export function Sponsors() {
           <Logo
             logo="temporal"
             variant="black"
-            className="inline-block h-18 w-32 md:h-24 md:w-52 object-contain mx-6"
+            className="inline-block h-18 w-32 md:h-24 md:w-52 object-contain mx-6 scale-150"
           />
         </a>
         <a href="https://baseten.co/" target="_blank" className="inline-block">

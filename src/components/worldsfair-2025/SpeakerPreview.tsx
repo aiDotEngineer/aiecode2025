@@ -310,23 +310,28 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       {talkView ? (
         <ul
           role="list"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 sm:gap-x-4 lg:gap-x-6 text-sm pb-16"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 sm:gap-x-4 lg:gap-x-6 text-sm pb-16 max-h-[90vh] overflow-y-auto sm:max-h-none sm:overflow-y-visible"
         >
           {sessionsRandom.map((session) => (
-            <li key={session.id} className="relative flex gap-3 group">
+            <li key={session.id} className="relative flex gap-3 group items-center">
               {session.profilePhotoUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={session.profilePhotoUrl}
                   alt={session.presenter}
-                  className="h-12 w-12 rounded-full object-cover flex-none bg-neutral-200"
+                  className="h-12 w-12 rounded-lg object-cover flex-none bg-neutral-200"
                   loading="lazy"
                 />
               ) : (
                 <div className="h-12 w-12 rounded-full flex-none bg-neutral-200" />
               )}
               <div>
-                <p className="font-semibold">{session.title}</p>
+                <p
+                  className="font-semibold whitespace-nowrap overflow-hidden text-ellipsis max-w-xs"
+                  title={session.title}
+                >
+                  {session.title}
+                </p>
                 <p className="text-xs text-slate-600">
                   {session.socialLink ? (
                     <a
@@ -343,12 +348,18 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                   {session.company && ` / ${session.company}`}
                 </p>
               </div>
-              <div className="absolute left-0 top-full z-10 hidden group-hover:block mt-2 w-64 p-3 rounded-lg bg-white shadow-lg text-xs">
-                <div dangerouslySetInnerHTML={{ __html: markdownToHtml(session.description) }} />
-                <div className="mt-2 text-[10px] text-slate-600">
-                  {session.format}
+              <div className="absolute left-0 top-full z-10 hidden group-hover:block mt-2 w-96 p-3 rounded-lg bg-white shadow-lg text-xs">
+                <p
+                  className="font-semibold"
+                  title={session.title}
+                >
+                  {session.title}
+                </p>
+                <div className="mb-2 text-md text-slate-600">
+                  {session.format || 'Talk'}
                   {session.track && ` / ${session.track}`}
                 </div>
+                <div dangerouslySetInnerHTML={{ __html: markdownToHtml(session.description) }} />
               </div>
             </li>
           ))}

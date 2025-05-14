@@ -9,6 +9,30 @@ export function markdownToHtml(text?: string | null): string {
 
   let html = String(text);
 
+
+  // Convert bullet points (-, *, + at line start) to <ul><li>...</li></ul>
+  // Handles multi-line lists and preserves existing <ul> if already present
+  html = html.replace(
+    /((?:^([\s]*)[-*+]\s.*(?:\n|$))+)/gm,
+    (match) => {
+      // For each block of bullet lines
+      const lines = match
+        .trim()
+        .split('\n')
+        .map(line =>
+          line.replace(/^([\s]*)[-*+]\s(.*)$/, (m, space, content) => `${space}<li className="list-disc pl-2">• ${content.trim()}</li>`)
+        )
+        .join('\n');
+      // return `<ul>\n${lines}\n</ul>\n`;
+      return `${lines}`;
+    }
+  );
+
+  // Convert line breaks to <br> tags
+  // Convert consecutive line breaks to a single <br><br>, but don't stack multiple <br><br>s
+  html = html.replace(/\n{2,}/g, '<br><br>');
+  html = html.replace(/\n/g, '<br>');
+
   // Convert bold (**text**)
   html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 

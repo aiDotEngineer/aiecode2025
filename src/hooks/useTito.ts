@@ -18,9 +18,9 @@ export function useTito() {
     };
 
     updateTitoUrl();
-    const intervalId = setInterval(updateTitoUrl, 1000);
+    const intervalId = setTimeout(updateTitoUrl, 1000);
 
-    return () => clearInterval(intervalId);
+    return () => clearTimeout(intervalId);
   }, []);
   return titoUrl;
 }

@@ -44,7 +44,7 @@ export function Expo() {
   return (
     <div className="space-y-12" id="expo">
       <header className="space-y-6">
-        <h1 className="text-5xl font-bold flex items-center">The AI Engineer Expo {" "}
+        <h1 className="text-4xl md:text-5xl font-bold flex flex-col md:flex-row items-center">The AI Engineer Expo {" "}
               <a href="https://x.com/aiDotEngineer/status/1920142621525348774" className=" text-sm ml-4 uppercase  bg-black px-2 pt-1 rounded-sm text-blue-300 hover:text-blue-100 mb-4 inline-block">
                 SOLD OUT!
               </a></h1>
@@ -72,7 +72,7 @@ export function Expo() {
           // className="object-contain"
           className="object-contain w-[80%] m-auto"
            />
-          {/* <Logo logo="aws" className="object-contain scale-120" /> */}
+          {/* <Logo logo="aws" className="object-contain md:scale-120" /> */}
         </a>
 
         <a href="https://windsurf.com" target="_blank">
@@ -80,7 +80,7 @@ export function Expo() {
         </a>
         <a href="https://mongodb.com" target="_blank">
           <Logo logo="mongodb" className="object-contain" />
-          {/* <Logo logo="mongodb" className="object-contain scale-110" /> */}
+          {/* <Logo logo="mongodb" className="object-contain md:scale-110" /> */}
         </a>
         <a href="https://graphite.dev" target="_blank">
           <Logo logo="graphite" variant="black" className="object-contain" />
@@ -89,7 +89,7 @@ export function Expo() {
           <Logo
             logo="augmentCode"
             variant="black"
-            className="object-contain scale-125 m-auto"
+            className="object-contain md:scale-125 m-auto"
             // className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
@@ -189,7 +189,7 @@ export function Expo() {
         <a href="https://wandb.ai" target="_blank" className="inline-block">
           <Logo
             logo="weightsBiases"
-            className="object-contain scale-125 m-auto"
+            className="object-contain md:scale-125 m-auto"
             // className="inline-block h-12 w-42 md:h-20 md:w-64 object-contain mx-6"
           />
         </a>
@@ -289,7 +289,7 @@ export function Expo() {
         >
           <Logo
             logo="thomsonReuters"
-            className="object-contain scale-125 m-auto"
+            className="object-contain md:scale-125 m-auto"
             // className="inline-block h-12 w-48 md:h-20 md:w-64 object-contain mx-6"
           />
         </a>
@@ -423,7 +423,7 @@ export function Expo() {
           />
         </a>
         <a href="https://friendli.ai" target="_blank">
-          <Logo logo="friendliAI" className="object-contain scale-110" />
+          <Logo logo="friendliAI" className="object-contain md:scale-110" />
         </a>
               
         <a

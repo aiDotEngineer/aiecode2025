@@ -125,7 +125,7 @@ export function Header({ path }: Props) {
                     <Link className="font-bold max-lg:hidden" href={VENUE_URL}>
                       Venue & Hotel
                     </Link>
-                    <Button invert href={titoUrl} target="_blank">
+                    <Button href={titoUrl} target="_blank">
                       Buy 2025 Tickets
                     </Button>
                   </>
@@ -207,7 +207,7 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
           </Link>
           <nav className="flex gap-6 items-center text-white">
             <Button
-              invert
+              // invert
               href={titoUrl}
               target="_blank"
             >
