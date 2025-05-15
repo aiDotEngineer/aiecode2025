@@ -45,21 +45,6 @@ export const manualKeynoteSpeakers = [
     ]
   },
   {
-    "Name": "Danielle Persczyk",
-    "Company": "Amazon AGI",
-    "Domain": "amazon.com",
-    "Tagline": "Cognitive Scientist",
-    "ProfilePicture": "/wf25speakers/danielle_persczyk.jpg", 
-    "Sessions": [
-      {
-        "Title": "Amazon Nova Act - Computer Use for the Everything Cloud (tbc)",
-        "Format": "Keynote",
-        "Description": "Daniel Persczyk presents cutting-edge AI research and its applications from Amazon.",
-        "Tracks": "Autonomy+Robotics"
-      }
-    ]
-  },
-  {
     "Name": "Greg Brockman",
     "Company": "OpenAI",
     "Domain": "openai.com",
