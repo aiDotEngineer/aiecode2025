@@ -616,7 +616,7 @@ export const logos = defineLogos({
   hasura: {
     name: "Hasura",
     color: hasura,
-    black: hasuraBlack,
+    black: hasura,
   },
   hex: {
     name: "Hex",
