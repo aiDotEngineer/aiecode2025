@@ -147,7 +147,7 @@ export const manualKeynoteSpeakers = [
         "Title": "Ambient Agents",
         "Format": "",
         "Description": "Harrison Chase demonstrates the power of LangChain in creating sophisticated applications with Large Language Models.",
-        "Tracks": "Leadership: Architects"
+        "Tracks": "Leadership: Fortune 500"
       }
     ]
   },
