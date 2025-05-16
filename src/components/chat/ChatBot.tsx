@@ -14,7 +14,7 @@ export default function ChatBot() {
     useChat();
 
   return (
-    <div className="x-auto fixed bottom-0 z-50 flex max-h-[90vh] w-full flex-col rounded-t-lg bg-black border-x border-t border-gray-600 px-6 py-4 text-white shadow-xl md:right-20 md:max-w-md">
+    <div className="mx-auto fixed bottom-0 z-50 flex max-h-[90vh] w-full flex-col rounded-t-lg bg-black border-x border-t border-gray-600 px-6 py-4 text-white shadow-xl md:right-20 md:max-w-md">
       <ChatHeader open={open} setOpen={setOpen} />
       {open && (
         <>

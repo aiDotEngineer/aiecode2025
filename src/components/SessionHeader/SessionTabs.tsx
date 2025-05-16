@@ -17,7 +17,7 @@ export function SessionTabs({ tabs }: { tabs: Array<SessionTabItem> }) {
     <div className="flex flex-col gap-8">
       {/**
        * It just doesn't look right when there's only 1 tab, so don't render the triggers
-       * unluess we have more than 1 tab.
+       * unless we have more than 1 tab.
        */}
       {tabs.length > 1 && (
         <Container>

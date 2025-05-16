@@ -8,7 +8,7 @@ const placeholderOptions = [
   'Who are the keynote speakers this year?',
   'Will there be any sessions about Evals?',
   'Is there a Q&A session after each talk?',
-  'Are there any wokrshops on developing Agents?',
+  'Are there any workshops on developing Agents?',
   'Are there any talks about vector databases?',
   'Are meals and refreshments provided?',
   'When is the after-party?',

@@ -10,6 +10,11 @@ import { frontCopy, backCopy } from '../frontCopy';
 // Set revalidation time (e.g., 1 hour)
 export const revalidate = 3600;
 
+// This route reads cookies from the request headers so it must be
+// treated as dynamic. Explicitly marking it as such prevents build
+// warnings about dynamic server usage.
+export const dynamic = 'force-dynamic';
+
 function formatTracksToText(tracks: Track[], dayLabel: string): string {
   let text = `--- ${dayLabel} ---\n\n`;
   
