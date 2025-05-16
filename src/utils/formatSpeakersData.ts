@@ -65,7 +65,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Christian Szegedy": 900,
   "Shrestha Basu Mallick": 900,
   "Jerome Swannack": 1000, // Added Jerome Swannack
-  "Den Delimarsky": 1000, // Added Den Delimarsky
+  "Den Delimarsky": 700, // Added Den Delimarsky
 
   // Other High Priority Speakers (from speakers-sessions-details.json)
   "Solomon Hykes": 900, 
@@ -74,7 +74,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Raiza Martin": 950,
   "Dani Grant": 900,
   "Joel Hron": 900,
-  "Anoop Kotha": 900,
+  "Anoop Kotha": 700,
   "Kelvin Ma": 800, 
   "Philipp Schmid": 900, 
   "Ben Parr": 900,
@@ -84,7 +84,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "swyx": -1, // Added swyx
   "Ben Dunphy": -0.5, // Added Ben Dunphy
   "Ankur Goyal": 700, // Added Ankur Goyal
-  "Sarah Sachs": 700, // Added Sarah Sachs
+  "Andrew Hsu": 700,
 
   // Mid-Tier Priority
   "Chelcie Taylor": 900,

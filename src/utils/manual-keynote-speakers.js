@@ -220,7 +220,7 @@ export const manualKeynoteSpeakers = [
     "Sessions": []
   },
   {
-    "Name": "Manu Goyal",
+    "Name": "Ankur Goyal",
     "Company": "Braintrust",
     "Domain": "braintrust.com", 
     "Tagline": "CEO",
