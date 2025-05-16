@@ -279,5 +279,37 @@ export const manualKeynoteSpeakers = [
         "Tracks": "Voice"
       }
     ]
+  },
+  {
+    // [INFO] Added by Cascade on 2025-05-16: Quan Vuong, Physical Intelligence, Physical AGI keynote on Autonomy/Robotics track
+    "Name": "Quan Vuong",
+    "Company": "Physical Intelligence",
+    "Domain": "physicalintelligence.ai", 
+    "Tagline": "Cofounder",
+    "ProfilePicture": "/wf25speakers/quan_vuong.jpeg",
+    "Sessions": [
+      {
+        "Title": "Physical AGI (tbc)",
+        "Format": "Keynote", 
+        "Description": "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy/Robotics track.",
+        "Tracks": "Autonomy/Robotics"
+      }
+    ]
+  },
+  {
+    // [INFO] Added by Cascade on 2025-05-16: Jost Tobias Springenberg, Physical Intelligence, co-presenting Physical AGI keynote
+    "Name": "Jost Tobias Springenberg",
+    "Company": "Physical Intelligence",
+    "Domain": "physicalintelligence.ai", 
+    "Tagline": "Research Scientist",
+    "ProfilePicture": "/wf25speakers/jost_tobi.jpg",
+    "Sessions": [
+      {
+        "Title": "Physical AGI (tbc)",
+        "Format": "Keynote",
+        "Description": "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy/Robotics track.",
+        "Tracks": "Autonomy/Robotics"
+      }
+    ]
   }
 ]

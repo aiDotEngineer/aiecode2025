@@ -63,9 +63,11 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Logan Kilpatrick": 900,
   "Harrison Chase": 900,
   "Christian Szegedy": 900,
+  "Quan Vuong": 900,
   "Shrestha Basu Mallick": 900,
   "Jerome Swannack": 1000, // Added Jerome Swannack
   "Den Delimarsky": 700, // Added Den Delimarsky
+  "Jost Tobias Springenberg": 700, // Added Jost Tobias Springenberg
 
   // Other High Priority Speakers (from speakers-sessions-details.json)
   "Solomon Hykes": 900, 
