@@ -153,7 +153,7 @@ export function Overview() {
           </p>
           <ul className="text-gray-on-white text-base list-disc ml-2">
             <li>
-              May 31 - Jun 1 2025:
+              May 31 - Jun 1:
               <a
                 href="https://cerebralvalley.ai/e/aiewf-hackathon-2025"
                 target="_blank"
@@ -163,13 +163,13 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 3 2025:
+              Jun 3:
               <a
                 href="https://aws-anthropic-gen-ai-reception-2025.splashthat.com"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                AWS & Anthropic GenAI Reception
+                <b>AWS & Anthropic</b> GenAI Reception
               </a>
             </li>
           </ul>

@@ -112,9 +112,11 @@ export function VenueAndHotel() {
           <div className="space-y-3">
             <h2 className="text-3xl font-bold">Hotel Rooms</h2>
             <p className="text-gray-on-white text-base">
-              We have limited hotel number of rooms at the Marriott Marquis (also the conf venue) 
-              available for a negotiated rate of $399 from May 29-Jun 7. 
-              We also have a limited number of overflow hotel rooms at the Beacon Grand, a 10-minute walk away, for
+              <span className="line-through">We had a limited hotel number of rooms at the Marriott Marquis (also the conf venue) 
+              available for a negotiated rate of $399 from May 29-Jun 7. </span> 
+              <br />
+              We also have a limited number of overflow hotel rooms at the Hilton Parc 55, a 7-minute walk away, for
+              $319 and at the Beacon Grand, a 10-minute walk away, for
               $289 - Type in Group Code: <span className="font-mono font-bold">0601AEWF</span>!
             </p>
           </div>
@@ -134,6 +136,14 @@ export function VenueAndHotel() {
               Marriott Marquis (sold out)
             </Button>
             
+            <Button
+              invert
+              border
+              href="https://book.passkey.com/go/AIworldsfair"
+              target="_blank"
+            >
+              Hilton Parc 55
+            </Button>
             <Button
               invert
               border

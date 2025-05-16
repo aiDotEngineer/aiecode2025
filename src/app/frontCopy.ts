@@ -76,12 +76,6 @@ If you are organizing an event around June 1–8, email **sponsorships@ai.engine
 - Golden Gate Ballroom: Dedicated space for workshops
 - View Lounge: Reserved for AI Architects and Leadership Track networking
 
-**Discounted rates:**
-- Marriott Marquis: $399/night (May 29–Jun 7)
-- Beacon Grand (10-min walk): $289/night with group code \`0601AEWF\`
-
-Book Marriott Marquis (sold out) | [Book Beacon Grand](https://www.beacongrand.com/) (use group code: 0601AEWF)
-
 ## Sponsors
 
 ### Community Partners
