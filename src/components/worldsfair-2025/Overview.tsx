@@ -148,15 +148,36 @@ export function Overview() {
           <h2 className="text-3xl font-bold" id="events">
             Pre-party, Hackathons, Afterparty, and Other SF AI Events
           </h2>
-          {/* Come for the World's Fair, stay for the SF AI scene! <br /> */}
           <p className="text-gray-on-white text-base">
-            Our partners and friends organized these side events last year:
+            Come for the World's Fair, stay for the SF AI scene! <br />
           </p>
+          <ul className="text-gray-on-white text-base list-disc ml-2">
+            <li>
+              May 31 - Jun 1 2025:
+              <a
+                href="https://cerebralvalley.ai/e/aiewf-hackathon-2025"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>AI Engineer World's Fair Official Hackathon</b>
+              </a>
+            </li>
+            <li>
+              Jun 3 2025:
+              <a
+                href="https://aws-anthropic-gen-ai-reception-2025.splashthat.com"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                AWS & Anthropic GenAI Reception
+              </a>
+            </li>
+          </ul>
           <p className="text-gray-on-white text-base">
             <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
               IMPORTANT
             </span>{" "}
-            These are 2024 events - email{" "}
+            Below are some of the 2024 events - email{" "}
             <a
               href="mailto:sponsorships@ai.engineer"
               className="text-blue-500 hover:text-blue-400"
@@ -165,8 +186,11 @@ export function Overview() {
             </a>{" "}
             to organize a 2025 side event!
           </p>
+          <p className="text-gray-on-white text-base">
+            Our partners and friends organized these side events last year:
+          </p>
           {/* <p className=""> */}
-          <ul className="text-gray-on-white text-base list-disc ml-2">
+          <ul className="text-gray-on-white bg-gray-200 p-4 h-[200px] overflow-y-scroll text-base list-disc ml-2">
             <li>
               Jun 22 2024:
               <a
