@@ -55,9 +55,9 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Sarah Guo": 1000,
   "Simon Willison": 1000,
   "Clay Bavor": 1000,
-  "Jared Palmer": 1000,
-  "Daniel Persczyk": 1000,
+  "Danielle Persczyk": 1000,
   "Greg Brockman": 1000,
+  "Michael Truell": 1000,
   "Jack Rae": 1000,
   // [INFO] Prioritize Logan Kilpatrick (Google DeepMind, AI Studio Lead, Gemini 2.5)
   "Logan Kilpatrick": 900,

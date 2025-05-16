@@ -235,6 +235,21 @@ export const manualKeynoteSpeakers = [
     ]
   },
   {
+    "Name": "Michael Truell",
+    "Company": "Cursor",
+    "Domain": "cursor.com", 
+    "Tagline": "CEO",
+    "ProfilePicture": "/wf25speakers/michael_truell.jpg",
+    "Sessions": [
+      {
+        "Title": "tba",
+        "Format": "Keynote",
+        "Description": "tbd",
+        "Tracks": "SWE Agents"
+      }
+    ]
+  },
+  {
     "Name": "Omar Khattab",
     "Company": "Databricks",
     "Domain": "databricks.com", 
