@@ -137,21 +137,6 @@ export const manualKeynoteSpeakers = [
     ]
   },
   {
-    "Name": "Jerome Swannack",
-    "Company": "Anthropic",
-    "Domain": "anthropic.com",
-    "Tagline": "MTS, MCP",
-    "ProfilePicture": "/wf25speakers/jerome_swannack.jpeg",
-    "Sessions": [
-      {
-        "Title": "MCP at Anthropic (tba)",
-        "Format": "Keynote",
-        "Description": "Jerome Swannack discusses Anthropic's approach to developing safe and reliable AI systems.",
-        "Tracks": "MCP"
-      }
-    ]
-  },
-  {
     "Name": "Den Delimarsky",
     "Company": "Microsoft",
     "Domain": "microsoft.com",
@@ -212,21 +197,6 @@ export const manualKeynoteSpeakers = [
     ]
   },
   {
-    "Name": "Ben Kus",
-    "Company": "Box",
-    "Domain": "box.com", 
-    "Tagline": "CTO",
-    "ProfilePicture": "/wf25speakers/ben_kus.jpeg",
-    "Sessions": [
-      {
-        "Title": "Agents in the Enterprise (tba)",
-        "Format": "Keynote",
-        "Description": "Ben Kus discusses how Box is leveraging AI to transform content management and collaboration.",
-        "Tracks": "Leadership: Fortune 500"
-      }
-    ]
-  },
-  {
     "Name": "swyx",
     "Company": "smol.ai",
     "Domain": "latent.space", 
@@ -250,7 +220,7 @@ export const manualKeynoteSpeakers = [
     "Sessions": []
   },
   {
-    "Name": "Ankur Goyal",
+    "Name": "Manu Goyal",
     "Company": "Braintrust",
     "Domain": "braintrust.com", 
     "Tagline": "CEO",
@@ -276,22 +246,6 @@ export const manualKeynoteSpeakers = [
         "Format": "Talk",
         "Description": "Omar Khattab discusses the principles and applications of DSPy, and his research at Databricks.",
         "Tracks": "AI in Action"
-      }
-    ]
-  },
-  {
-    // [INFO] Added by Cascade on 2025-05-12: Peter Bar, Intercom, Voice track
-    "Name": "Peter Bar",
-    "Company": "Intercom",
-    "Domain": "intercom.com",
-    "Tagline": "Fin Voice Lead",
-    "ProfilePicture": "/wf25speakers/peter_bar.jpeg",
-    "Sessions": [
-      {
-        "Title": "Building Fin Voice at Intercom",
-        "Format": "Talk",
-        "Description": "Peter Bar shares the journey of building Fin Voice at Intercom: from concept to production, the technical and product challenges, and what it takes to bring conversational AI to customer support at scale.",
-        "Tracks": "Voice"
       }
     ]
   },
