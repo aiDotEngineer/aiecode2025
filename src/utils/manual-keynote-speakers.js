@@ -204,9 +204,9 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": `/wf25speakers/swyx${Math.floor(Math.random() * 8)}.jpg`,
     "Sessions": [
       {
-        "Title": "Principles of AI Engineering",
+        "Title": "Building AI-Intensive Applications",
         "Format": "Keynote",
-        "Description": "swyx's updates on what we know so far in AI Eng.",
+        "Description": "swyx updates the Martin Kleppmann classic.",
         "Tracks": "AI in Action"
       }
     ]
@@ -292,7 +292,7 @@ export const manualKeynoteSpeakers = [
         "Title": "Physical AGI (tbc)",
         "Format": "Keynote", 
         "Description": "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy/Robotics track.",
-        "Tracks": "Autonomy/Robotics"
+        "Tracks": "Autonomy+Robotics"
       }
     ]
   },
@@ -307,8 +307,8 @@ export const manualKeynoteSpeakers = [
       {
         "Title": "Physical AGI (tbc)",
         "Format": "Keynote",
-        "Description": "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy/Robotics track.",
-        "Tracks": "Autonomy/Robotics"
+        "Description": "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy+Robotics track.",
+        "Tracks": "Autonomy+Robotics"
       }
     ]
   }
