@@ -206,7 +206,7 @@ export const manualKeynoteSpeakers = [
       {
         "Title": "Building AI-Intensive Applications",
         "Format": "Keynote",
-        "Description": "swyx updates the Martin Kleppmann classic.",
+        "Description": "swyx updates the Martin Kleppmann classic. Whether you call it a workflow or an agent, AI engineered applications are seeing user-input:LLM-call ratios go from 1:1 (ChatGPT) to 1:100 (Deep Research). How does AI Engineering change as you build increasingly AI intensive applications. Let's call a spade a SPADE.",
         "Tracks": "AI in Action"
       }
     ]
