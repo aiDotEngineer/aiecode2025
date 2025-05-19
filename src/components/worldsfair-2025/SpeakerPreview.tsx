@@ -143,7 +143,8 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
 
   return (
     <div>
-    <div className="space-y-8 mb-32">
+    <div className="space-y-8 mb-16">
+
       <h1
         className="text-5xl font-bold flex items-center justify-center"
         id="SpeakersList"
@@ -198,14 +199,6 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
           </span>
         </div>
       </header>
-
-      <p className="text-center space-y-6 max-w-3xl m-auto text-gray-on-white">
-        With 18 tracks and over 150 sessions, you can design the program schedule
-        that perfectly matches your business needs. There are up to 10
-        simultaneous sessions running at any one time, so it's a good thing we
-        have a <b>group discount</b> for
-        teams attending together!
-      </p>
 
       {/* Mobile filters */}
       <div className="md:hidden space-y-4">
@@ -426,7 +419,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         <ul
           role="list"
           className={
-            'grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 md:grid-cols-8 xl:grid-cols-10 xl:gap-2 xl:-mx-32 pb-16'
+            `grid grid-cols-3 gap-1 sm:grid-cols-4 lg:gap-2 ${presentersProcessed.length > 12 ? 'md:grid-cols-8 xl:grid-cols-10' : 'md:grid-cols-4 xl:grid-cols-6'} xl:gap-2 xl:-mx-32 pb-16`
           }
         >
           {presentersProcessed.map((presenter) => {
@@ -498,14 +491,22 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       )}
 
     </div>
-          <div className="rounded-lg lg:rounded-3xl bg-neutral-800 p-4 lg:p-6 text-center">
-            <p className="text-white">
-              <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
-                Important
-              </span>{" "}
-              Speaker list is NOT final! Stay tuned for more exciting additions to our speaker lineup. <br></br>(but pls buy tickets already, last minute stresses everybody out)
-            </p>
-          </div>
+
+    <p className="text-center space-y-6 max-w-3xl m-auto text-gray-on-white mb-8 ">
+        With 18 tracks and over 150 sessions, you can design the program schedule
+        that perfectly matches your business needs. There are up to 10
+        simultaneous sessions running at any one time, so it's a good thing we
+        have a <b>group discount</b> for
+        teams attending together!
+      </p>
+      <div className="rounded-lg lg:rounded-3xl bg-neutral-800 p-4 lg:p-6 text-center">
+        <p className="text-white">
+          <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
+            Important
+          </span>{" "}
+          Speaker list is NOT final! Stay tuned for more exciting additions to our speaker lineup. <br></br>(but pls buy tickets already, last minute stresses everybody out)
+        </p>
+      </div>
     </div>
   );
 }
