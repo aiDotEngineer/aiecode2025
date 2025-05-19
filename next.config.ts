@@ -8,6 +8,10 @@ const directMappings = [
   // so that they never have any doubt where to go
 
   // Summit 2025
+  '_next/data/Cg_jjOzsdoCsdOKBZQPF_/en/summit/2025.json',
+  '_next/data/Cg_jjOzsdoCsdOKBZQPF_/en/summit/2025/schedule.json',
+  '_next/static/chunks/5cf0fb75-86be637827983ead.js',
+  '_next/static/chunks/2415-e1837297de3ea443.js',
   '_next/static/chunks/8174-c15a74819405bf0e.js',
   '_next/static/chunks/4357-703e9877dcb85ed5.js',
   '_next/static/chunks/pages/summit/2023-11e5f65395741956.js',
@@ -51,6 +55,7 @@ const directMappings = [
   '/_next/static/chunks/4586-d6006eda16565b4e.js',
 
   // WF 2024
+  '_next/data/Cg_jjOzsdoCsdOKBZQPF_/en/worldsfair/2024.json',
   '_next/static/chunks/pages/worldsfair/2024/schedule-18de57a17e174374.js',
   '_next/static/chunks/1973-628f65e8815bd92c.js',
   '_next/static/chunks/4586-d6006eda16565b4e.js',
