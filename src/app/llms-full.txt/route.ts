@@ -11,6 +11,8 @@ interface SessionWithSpeakerInfo {
   trackNames: string[];
   speakerName: string;
   speakerTagline?: string;
+  Room?: string;
+  "Scheduled At"?: string;
 }
 
 const trackDateMapping = {
@@ -57,7 +59,11 @@ function formatDerivedTracksAndSessionsToText(groupedSessions: Map<string, Sessi
         if (sessionIndex > 0) {
           text += `  ------------------------------------\n\n`; // Separator between sessions
         }
-        text += `  Session Title: ${session.title}\n`;
+        text += `    Speaker: ${session.speakerName} (${session.speakerTagline || 'N/A'})\n`;
+        if (session.format) text += `    Format: ${session.format}\n`;
+        if (session.Room) text += `    Room: ${session.Room}\n`;
+        if (session['Scheduled At']) text += `    Time: ${session['Scheduled At']}\n`;
+        text += `    Session Title: ${session.title}\n`;
         if (session.description) {
           // Ensure description starts on a new line and is indented
           const formattedDescription = session.description
@@ -67,10 +73,6 @@ function formatDerivedTracksAndSessionsToText(groupedSessions: Map<string, Sessi
           text += `    Description:\n${formattedDescription}\n`;
         } else {
           text += `    Description: Not Available\n`;
-        }
-        text += `    Speaker: ${session.speakerName} (${session.speakerTagline || 'N/A'})\n`;
-        if (session.format) {
-          text += `    Format: ${session.format}\n`;
         }
         text += `\n`; // Newline after each session's details
       });
@@ -100,6 +102,8 @@ export async function GET() {
           trackNames: trackNames,
           speakerName: speaker.attributes.name,
           speakerTagline: speaker.attributes.tagline,
+          Room: sessionAttr.attributes.room,
+          "Scheduled At": sessionAttr.attributes.scheduledAt,
         });
       });
     });

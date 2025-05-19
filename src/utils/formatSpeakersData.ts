@@ -2,6 +2,7 @@
 import speakersData from './speakers-sessions-details.json';
 import {manualKeynoteSpeakers} from './manual-keynote-speakers'; // Renamed for clarity
 
+// [INFO] Extended FormattedSpeaker to include level, scope, room, and scheduledAt for session attributes
 export interface FormattedSpeaker {
   id: string;
   attributes: {
@@ -36,12 +37,18 @@ export interface FormattedSpeaker {
                 name: string;
               }
             }
-          }
+          };
+          // Newly added fields:
+          level?: string;
+          scope?: string;
+          room?: string;
+          scheduledAt?: string;
         }
-      }>
-    }
-  }
+      }>;
+    };
+  };
 }
+
 
 export interface FormattedData {
   presenters: FormattedSpeaker[];
@@ -156,46 +163,52 @@ export function formatSpeakersData(): FormattedData {
 
   // 1. Process Manual Keynote Speakers
   const manualPresenters: FormattedSpeaker[] = manualKeynoteSpeakersData.map((manualSpeaker, index) => {
-    manualSpeakerNames.add(manualSpeaker.Name);
-    const priorityScore = SPEAKER_PRIORITY_SCORES[manualSpeaker.Name] || 1000; // Default to 1000 for manual keynotes
+  manualSpeakerNames.add(manualSpeaker.Name);
+  const priorityScore = SPEAKER_PRIORITY_SCORES[manualSpeaker.Name] || 1000; // Default to 1000 for manual keynotes
 
-    return {
-      id: `manual-${manualSpeaker.Name.replace(/\s+/g, '-').toLowerCase()}-${index}`,
-      attributes: {
-        name: manualSpeaker.Name,
-        tagline: manualSpeaker.Tagline,
-        socialLinks: undefined, // Manual speakers don't have social links in this JSON
-        displayOrder: index, // Original order from manual JSON
-        priorityScore,
-        profilePhoto: {
-          data: {
-            attributes: {
-              url: manualSpeaker.ProfilePicture
-            }
+  return {
+    id: `manual-${manualSpeaker.Name.replace(/\s+/g, '-').toLowerCase()}-${index}`,
+    attributes: {
+      name: manualSpeaker.Name,
+      tagline: manualSpeaker.Tagline,
+      socialLinks: undefined, // Manual speakers don't have social links in this JSON
+      displayOrder: index, // Original order from manual JSON
+      priorityScore,
+      profilePhoto: {
+        data: {
+          attributes: {
+            url: manualSpeaker.ProfilePicture
           }
-        },
-        company: {
-          data: manualSpeaker.Company ? {
-            attributes: {
-              name: manualSpeaker.Company
-            }
-          } : undefined
-        },
-        sessions: {
-          data: manualSpeaker.Sessions.map(session => ({
-            attributes: {
-              title: session.Title,
-              format: session.Format,
-              description: session.Description,
-              track: session.Tracks ? { 
-                data: { attributes: { name: session.Tracks } } 
-              } : { data: undefined }
-            }
-          }))
         }
+      },
+      company: {
+        data: manualSpeaker.Company ? {
+          attributes: {
+            name: manualSpeaker.Company
+          }
+        } : undefined
+      },
+      sessions: {
+        data: manualSpeaker.Sessions.map(session => ({
+          attributes: {
+            title: session.Title,
+            format: session.Format,
+            description: session.Description,
+            track: session.Tracks ? { 
+              data: { attributes: { name: session.Tracks } } 
+            } : { data: undefined },
+            // These fields are not present in manual speakers, but included for type consistency
+            level: undefined,
+            scope: undefined,
+            room: undefined,
+            scheduledAt: undefined,
+          }
+        }))
       }
-    };
-  });
+    }
+  };
+});
+
   // [LOG] [PRIORITY] [formatSpeakersData] [2025-05-13T20:29:02-07:00] [36mEnsuring Logan Kilpatrick is prioritized as a keynote speaker[0m
   const logan = manualPresenters.find(s => s.attributes.name === "Logan Kilpatrick");
   if (logan) {
@@ -213,46 +226,53 @@ export function formatSpeakersData(): FormattedData {
       
       const socialLinks = speakerFromJson.LinkedIn || speakerFromJson["X (Twitter)"] || speakerFromJson["Company Website"] || undefined;
       
-      return {
-        id: speakerFromJson["Speaker ID"],
+      // [LOG] [MAP] [formatSpeakersData] [2025-05-19T16:15:22-07:00] \x1b[36mMapping session fields: level, scope, room, scheduledAt\x1b[0m
+return {
+  id: speakerFromJson["Speaker ID"],
+  attributes: {
+    name: speakerFromJson.Name,
+    tagline: speakerFromJson.TagLine,
+    socialLinks,
+    displayOrder: index, // Original order from this JSON file
+    priorityScore,
+    profilePhoto: {
+      data: {
         attributes: {
-          name: speakerFromJson.Name,
-          tagline: speakerFromJson.TagLine,
-          socialLinks,
-          displayOrder: index, // Original order from this JSON file
-          priorityScore,
-          profilePhoto: {
-            data: {
+          url: speakerFromJson["Profile Picture"]
+        }
+      }
+    },
+    company: {
+      data: speakerFromJson.Company ? {
+        attributes: {
+          name: speakerFromJson.Company
+        }
+      } : undefined
+    },
+    sessions: {
+      data: speakerFromJson.Sessions.map(session => ({
+        attributes: {
+          title: session.Title,
+          format: session.Format,
+          description: session.Description,
+          track: {
+            data: session.Tracks ? {
               attributes: {
-                url: speakerFromJson["Profile Picture"]
-              }
-            }
-          },
-          company: {
-            data: speakerFromJson.Company ? {
-              attributes: {
-                name: speakerFromJson.Company
+                name: session.Tracks
               }
             } : undefined
           },
-          sessions: {
-            data: speakerFromJson.Sessions.map(session => ({
-              attributes: {
-                title: session.Title,
-                format: session.Format,
-                description: session.Description,
-                track: {
-                  data: session.Tracks ? {
-                    attributes: {
-                      name: session.Tracks
-                    }
-                  } : undefined
-                }
-              }
-            }))
-          }
+          // New fields mapped from JSON
+          level: session.Level || undefined,
+          scope: session.Scope || undefined,
+          room: session.Room || undefined,
+          scheduledAt: session["Scheduled At"] || undefined,
         }
-      };
+      }))
+    }
+  }
+};
+
     });
   allPresenters = allPresenters.concat(existingPresenters);
 

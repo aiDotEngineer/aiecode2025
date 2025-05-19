@@ -113,26 +113,32 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
   );
 
   const sessionsRandom = useMemo(() => {
-    const sessions = presentersProcessed.flatMap((presenter) => {
-      const photo = presenter.attributes.profilePhoto.data?.attributes.url || '';
-      const companyName = presenter.attributes.company.data?.attributes.name || '';
-      const socialLinks = presenter.attributes.socialLinks || null;
-      return presenter.attributes.sessions.data.map((session: any, idx: number) => {
-        const social = parseSocialLinks(socialLinks);
-        const socialLink = social.socialOther || social.socialLinkedIn || social.socialTwitter || null;
-        return {
-          id: `${presenter.id}-${idx}`,
-          title: session.attributes.title,
-          presenter: presenter.attributes.name,
-          profilePhotoUrl: photo,
-          company: companyName,
-          description: session.attributes.description || '',
-          format: session.attributes.format || '',
-          track: session.attributes.track.data?.attributes.name || '',
-          socialLink,
-        };
-      });
+  // [INFO] Building randomized sessions list for Talks view
+  const sessions = presentersProcessed.flatMap((presenter) => {
+    const photo = presenter.attributes.profilePhoto.data?.attributes.url || '';
+    const companyName = presenter.attributes.company.data?.attributes.name || '';
+    const socialLinks = presenter.attributes.socialLinks || null;
+    return presenter.attributes.sessions.data.map((session: any, idx: number) => {
+      const social = parseSocialLinks(socialLinks);
+      const socialLink = social.socialOther || social.socialLinkedIn || social.socialTwitter || null;
+      // [INFO] Add all relevant session info for Talks view
+      return {
+        id: `${presenter.id}-${idx}`,
+        title: session.attributes.title,
+        presenter: presenter.attributes.name,
+        profilePhotoUrl: photo,
+        company: companyName,
+        description: session.attributes.description || '',
+        format: session.attributes.format || '',
+        track: session.attributes.track.data?.attributes.name || '',
+        socialLink,
+        level: session.attributes.level || '',
+        scope: session.attributes.scope || '',
+        room: session.attributes.room || '',
+        scheduledAt: session.attributes.scheduledAt || '',
+      };
     });
+  });
 
     for (let i = sessions.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -301,63 +307,72 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       </div>
 
       {talkView ? (
-        <ul
-          role="list"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 sm:gap-x-4 lg:gap-x-6 text-sm pb-16 max-h-[90vh] overflow-y-auto sm:max-h-none sm:overflow-y-visible"
-        >
-          {sessionsRandom.map((session) => (
-            <li key={session.id} className="relative flex gap-3 group items-center">
-              {session.profilePhotoUrl ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={session.profilePhotoUrl}
-                  alt={session.presenter}
-                  className="h-12 w-12 rounded-lg object-cover flex-none bg-neutral-200"
-                  loading="lazy"
-                />
-              ) : (
-                <div className="h-12 w-12 rounded-full flex-none bg-neutral-200" />
-              )}
-              <div>
-                <p
-                  className="font-semibold whitespace-nowrap overflow-hidden text-ellipsis max-w-xs"
-                  title={session.title}
-                >
-                  {session.title}
-                </p>
-                <p className="text-xs text-slate-600">
-                  {session.socialLink ? (
-                    <a
-                      href={session.socialLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-blue-600"
-                    >
-                      {session.presenter}
-                    </a>
-                  ) : (
-                    session.presenter
-                  )}
-                  {session.company && ` / ${session.company}`}
-                </p>
-              </div>
-              <div className="absolute left-0 top-full z-10 hidden group-hover:block mt-2 w-96 p-3 rounded-lg bg-white shadow-lg text-xs">
-                <p
-                  className="font-semibold"
-                  title={session.title}
-                >
-                  {session.title}
-                </p>
-                <div className="mb-2 text-md text-slate-600">
-                  {session.format || 'Talk'}
-                  {session.track && ` / ${session.track}`}
-                </div>
-                <div dangerouslySetInnerHTML={{ __html: markdownToHtml(session.description) }} />
-              </div>
-            </li>
-          ))}
-        </ul>
-      ) : textView ? (
+  <ul
+    role="list"
+    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 sm:gap-x-4 lg:gap-x-6 text-sm pb-16 max-h-[90vh] overflow-y-auto sm:max-h-none sm:overflow-y-visible"
+  >
+    {sessionsRandom.map((session) => (
+      <li key={session.id} className="relative flex gap-3 group items-center">
+        {session.profilePhotoUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={session.profilePhotoUrl}
+            alt={session.presenter}
+            className="h-12 w-12 rounded-lg object-cover flex-none bg-neutral-200"
+            loading="lazy"
+          />
+        ) : (
+          <div className="h-12 w-12 rounded-full flex-none bg-neutral-200" />
+        )}
+        <div>
+          <p
+            className="font-semibold whitespace-nowrap overflow-hidden text-ellipsis max-w-xs"
+            title={session.title}
+          >
+            {session.title}
+          </p>
+          <p className="text-xs text-slate-600">
+            {session.socialLink ? (
+              <a
+                href={session.socialLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-600"
+              >
+                {session.presenter}
+              </a>
+            ) : (
+              session.presenter
+            )}
+            {session.company && ` / ${session.company}`}
+          </p>
+        </div>
+        {/* Talks view hover card: show all info */}
+        <div className="absolute left-0 top-full z-10 hidden group-hover:block mt-2 w-96 p-3 rounded-lg bg-white shadow-lg text-xs">
+          <p className="font-semibold" title={session.title}>{session.title}</p>
+          {session.room && (
+            <div className="mb-1"><b>Room:</b> {session.room}</div>
+          )}
+          {session.scheduledAt && (
+            <div className="mb-1"><b>Time:</b> {session.scheduledAt}</div>
+          )}
+          <div dangerouslySetInnerHTML={{ __html: markdownToHtml(session.description) }} />
+          <div className="mb-2 text-md text-slate-600">
+            {session.format || 'Talk'}
+            {session.track && ` / ${session.track}`}
+          </div>
+          {/* Show all extra info for Talks view */}
+          {session.level && (
+            <div className="mb-1"><b>Level:</b> {session.level}</div>
+          )}
+          {session.scope && (
+            <div className="mb-1"><b>Scope:</b> {session.scope}</div>
+          )}
+        </div>
+      </li>
+    ))}
+  </ul>
+) : textView ? (
         ////////////////////////////////////////////////////////////////////////
         // this section is for the text only view
         ////////////////////////////////////////////////////////////////////////
@@ -458,9 +473,16 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                       </span>
                       <br suppressHydrationWarning={true} />
                       <em className="hidden group-hover:block text-xs" suppressHydrationWarning={true}>
-                        {sessions.data[0]?.attributes.title}
-                        {/* {format && <span className="ml-1 text-yellow-300">[{format}]</span>} */}
-                      </em>
+  {sessions.data[0]?.attributes.title}
+{/* Profile picture view: show only Scheduled At if present */}
+{sessions.data[0]?.attributes.scheduledAt && (
+  <span className="block text-[0.6rem] text-blue-200 mt-1" suppressHydrationWarning={true}>
+    {/* <b>Scheduled At:</b>  */}
+    {sessions.data[0]?.attributes.scheduledAt}
+  </span>
+)}
+</em>
+
                     </p>
                     {/* <p className={`font-display font-semibold tracking-wide text-white ${name.length > 10 ? 'text-xs' : 'text-base/6'}`}> */}
                     <p className={`font-display font-semibold tracking-wide text-white text-xs`} suppressHydrationWarning={true}>
