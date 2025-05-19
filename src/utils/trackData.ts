@@ -46,7 +46,7 @@ export const Day1Tracks: Track[] = [
   {
     trackShortCode: "04",
     trackTitle: "Agent Reliability",
-    trackDescription: "Less capability, more reliability please! Armed with all the frontier models, the best agent frameworks, and yes, even good evals, your agent just isn't that reliable, and that's frustrating. What next? Here are all the SOTA techniques Agent Engineers are using in 2025.",
+    trackDescription: "Less capability, more reliability please! Armed with all the frontier models, the best agent frameworks, and yes, even good evals, your agent just isn't that reliable, and that's frustrating. What next? Here are all the SOTA techniques Agent Engineers are using in 2025. Supported by PromptQL from Hasura.",
     trackImg: imgEvals.src                  // Agent Reliability -> Evals (Related)
   },
   {
@@ -113,7 +113,7 @@ export const Day2Tracks: Track[] = [
   {
     trackShortCode: "15",
     trackTitle: "Reasoning + RL",
-    trackDescription: "Reasoning models have taken over the frontier of AI in 2025, and inference-time is the next great scaling law. Per METR, long-horizon agent capabilities are doubling every 7 months. How do we generalize reasoning models beyond straightforward Math and Coding verifiers and finetune/align them?",
+    trackDescription: "Reasoning models have taken over the frontier of AI in 2025, and inference-time is the next great scaling law. Per METR, long-horizon agent capabilities are doubling every 7 months. How do we generalize reasoning models beyond straightforward Math and Coding verifiers and finetune/align them? Supported by OpenPipe.",
     trackImg: imgComputerUsingAgents.src    // Reasoning + RL -> Computer-Using Agents (Reasoning/Agents)
   },
   {
