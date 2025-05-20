@@ -109,7 +109,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -122,7 +122,7 @@
     "Company Domain": "notablecap.com",
     "Company URL": "https://www.notablecap.com/",
     "Company Website": "",
-    "Title": "Early Stage AI Apps Investment Lead",
+    "Title": "Lead, Early Stage AI Apps Investments",
     "TagLine": "Investor ",
     "Bio": "Leading early stage AI apps investments at Notable Capital ($5B AUM VC). ",
     "X (Twitter)": "",
@@ -138,7 +138,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "",
         "Scheduled At": ""
       }
@@ -196,7 +196,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -312,7 +312,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -341,7 +341,7 @@
         "Format": "Talk",
         "Level": "Expert",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -354,7 +354,7 @@
     "Company Domain": "umich.edu",
     "Company URL": "https://telemetrak.com/",
     "Company Website": "",
-    "Title": "Sr. Solutions Architect",
+    "Title": "Senior Solutions Architect",
     "TagLine": "Sr. Solutions Architect",
     "Bio": "Hari. Gn is a Sr. Solutions Architect with over 15 years of experience delivering supply-chain solutions for global companies such as Google, Wayfair, and Toyota. He specializes in demand forecasting, inventory optimization, and constraint-driven planning, translating complex analytics into actionable, real-world tools.\r\n\r\nPassionate about practical applications of Explainable AI (XAI), Hari has authored two papers in the Journal of Business Forecasting and regularly shares insights with executive-level stakeholders. He believes in a straightforward, no-nonsense approach to AI: clear, practical, and genuinely usable.",
     "X (Twitter)": "",
@@ -370,7 +370,7 @@
         "Format": "Talk",
         "Level": "Expert",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -412,7 +412,7 @@
     "Company Domain": "daily.co",
     "Company URL": "https://www.daily.co/",
     "Company Website": "https://openai.com/",
-    "Title": "Originator of Pipecat and WebRTC Infrastructure Engineer",
+    "Title": "Co-founder",
     "TagLine": "CEO ",
     "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man.",
     "X (Twitter)": "https://x.com/kwindla",
@@ -532,7 +532,7 @@
     "Company Domain": "anthropic.com",
     "Company URL": "https://www.anthropic.com/",
     "Company Website": "https://www.anthropic.com/",
-    "Title": "MCP Team Member",
+    "Title": "unknown",
     "TagLine": "Anthropic, MCP Team",
     "Bio": "[PLACEHOLDER]",
     "X (Twitter)": "https://x.com/jeromeswannack",
@@ -601,7 +601,7 @@
     "Company Domain": "intercom.io",
     "Company URL": "https://www.intercom.com/",
     "Company Website": "https://www.intercom.com/",
-    "Title": "Product Lead",
+    "Title": "Product Lead - Voice AI",
     "TagLine": "Product Lead, Voice AI",
     "Bio": "I’m Peter Bar, a Product Lead with over 10 years of experience in the tech industry. At Intercom, I’m responsible for Voice AI initiatives and led the development and launch of Fin Voice, our AI voice agent. My background spans both B2B and consumer tech, blending technical depth with strategic product leadership. Before Intercom, I drove growth and customer experience efforts at Deliveroo (food delivery) and worked on music discovery products at Shazam. I hold a Master’s degree in Computer Science from Imperial College London.",
     "X (Twitter)": "https://x.com/PeterAlexBar",
@@ -740,10 +740,39 @@
     ]
   },
   {
+    "Speaker ID": "b2515fe3-7618-42fd-b3f3-b243ec874a55",
+    "Name": "Kenneth DuMez",
+    "Company": "Graphite",
+    "Company Domain": "graphite.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Developer Relations Lead",
+    "TagLine": "DevRel Lead, Graphite",
+    "Bio": "Kenneth DuMez is the Developer Relations Lead at Graphite, the AI developer productivity platform that helps engineers create, review, & merge pull requests, stay unblocked, and ship faster. Kenneth is currently focused on educating developers around the world about best software engineering practices, how to leverage AI in the code review process, and using the “stacking” workflow to empower engineers to ship and review code faster. Prior to joining Graphite, Kenneth was a developer relations engineer at Teleport, and was also a founding member of VMware Tanzu where he was focused on developing and extending Kubernetes build solutions.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/8dc6-400o400o1-V8e62djVmozSSUzx8pieAU.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933462",
+        "Title": "The fastest software dev workflow in the world: AI meets stacked diffs",
+        "Description": "Learn the secrets behind the workflows that engineers at the fastest moving companies in the world are using to build software for billions of users worldwide. This workshop will cover a comprehensive overview of how to leverage generative AI to write code, how to stack and submit these pull requests, and finally how to use AI to review them.",
+        "Format": "Workshop",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action, SWE Agents, Vibe Coding",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ]
+  },
+  {
     "Speaker ID": "89141d5d-353b-4aa9-9792-0002a0a33f39",
     "Name": "Tomas Reimers",
     "Company": "Graphite",
-    "Company Domain": "graphite.com",
+    "Company Domain": "graphite.dev",
     "Company URL": "",
     "Company Website": "",
     "Title": "CPO and Co-founder",
@@ -775,7 +804,7 @@
     "Company Domain": "daily.co",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Real-time Communication Engineer",
+    "Title": "Software Engineer",
     "TagLine": "Member of Technical Staff, Daily",
     "Bio": "Chad Bailey started his career testing software for the Space Shuttle. After many years of building web apps, he's spent the last several working on real-time communication at Daily. Most recently, he's been building the Pipecat framework, and a series of increasingly ridiculous voice bots to show it off.",
     "X (Twitter)": "",
@@ -801,7 +830,7 @@
     "Speaker ID": "1c666575-691e-4538-a337-ac4cc3ad6d1a",
     "Name": "Brian Johnson",
     "Company": "Tavus",
-    "Company Domain": "tavus.com",
+    "Company Domain": "tavus.io",
     "Company URL": "",
     "Company Website": "https://www.tavus.io/",
     "Title": "Staff Engineer",
@@ -960,7 +989,7 @@
     "Company Domain": "cartesia.ai",
     "Company URL": "",
     "Company Website": "",
-    "Title": "CTO and co-founder",
+    "Title": "CTO and Co-founder",
     "TagLine": "CTO, Cartesia",
     "Bio": "Cofounder @ Cartesia | Prev. Stanford ML PhD",
     "X (Twitter)": "",
@@ -1005,7 +1034,7 @@
         "Format": "",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "AI in Action, Evals, RAG, Support Agents",
+        "Tracks": "Evals, RAG",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1034,7 +1063,7 @@
         "Format": "",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "AI Architects, GraphRAG, Agent Reliability, Security, Infrastructure, RAG, AI in Fortune 500",
+        "Tracks": "AI Architects, Agent Reliability, Infrastructure, RAG, AI in Fortune 500",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1063,7 +1092,7 @@
         "Format": "",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "AI Architects, AI in Action, Agent Reliability",
+        "Tracks": "AI Architects, Agent Reliability",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1150,49 +1179,9 @@
         "Format": "",
         "Level": "Introductory and overview",
         "Scope": "Technical deep dive",
-        "Tracks": "AI Architects, AI in Action, Infrastructure",
+        "Tracks": "AI Architects, Infrastructure",
         "Room": "",
         "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "1feb3f6d-13cb-4ac8-9297-dbd4154ebfcf",
-    "Name": "Aman Khan",
-    "Company": "Arize",
-    "Company Domain": "arize.com",
-    "Company URL": "arize.com",
-    "Company Website": "https://arize.com/",
-    "Title": "Director of Product, LLM",
-    "TagLine": "Director of Product",
-    "Bio": "Aman is Director of Product, LLM at Arize AI. Prior to Arize, Aman was the PM on the Jukebox Feature Store in the ML Platform team at Spotify across ~50 data science teams. Aman was also PM for ML Evaluation frameworks across data science and engineering teams for self-driving cars at Cruise, which helped launch the first self-driving car service in an urban environment. Aman studied Mechanical Engineering at UC Berkeley and lived in the SF Bay Area for 9 years before moving to NYC. ",
-    "X (Twitter)": "https://x.com/dat_attacked",
-    "LinkedIn": "https://www.linkedin.com/in/datdarylngo/",
-    "Blog": "https://github.com/arizedatngo",
-    "Profile Picture": "https://sessionize.com/image/c833-400o400o1-Ny5azYCUjiB2ccBPSnHeQ2.jpeg",
-    "Session Count": 2,
-    "Sessions": [
-      {
-        "Session ID": "933645",
-        "Title": "Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work",
-        "Description": "As LLM-powered products become more sophisticated, the need for scalable, reliable evaluation pipelines has never been more critical. This session dives deep into advanced LLM evaluation strategies that move beyond toy benchmarks and toward real-world production impact.\r\n\r\nWe’ll explore how to architect and implement evaluation pipelines that work across both online and offline environments—reducing dev complexity and accelerating iteration. The session will cover:\r\n\r\n- LLM-as-a-judge frameworks\r\n- Human-in-the-loop evaluation\r\n- How hybrid approaches unlock more robust and nuanced performance assessments\r\n\r\nWe’ll break down technical architectures, share real implementation patterns, and examine trade-offs between evaluation techniques to help engineers make informed choices.\r\nWhether you’re building from scratch or refining existing workflows, this talk offers practical strategies for crafting efficient, scalable, and accurate eval pipelines tailored to custom LLM products.\r\n",
-        "Format": "",
-        "Level": "Advanced",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "Evals",
-        "Room": "",
-        "Scheduled At": ""
-      },
-      {
-        "Session ID": "915269",
-        "Title": "Shipping AI That Works: An Evaluation Framework for PMs",
-        "Description": "GenAI is reshaping the product landscape, creating huge opportunities (along with new expectations) for product managers. Yet while prompt engineering and model tuning get the spotlight, one critical skill can get overlooked: rigorous evaluation.\r\n\r\nThis talk will help PMs move beyond gut-feel “vibe checks” to adopt concrete, repeatable evaluation strategies for LLM-powered products. I'll break down essential eval methodologies, from human feedback and code-based checks to cutting-edge LLM-based evaluations. Drawing on real-world examples, I'll share a practical framework PMs can use to:\r\n\r\n-Confidently evaluate AI-driven features\r\n- Ground decisions in real, repeatable data\r\n- Build trust and delight through consistent quality\r\n",
-        "Format": "Workshop",
-        "Level": "Intermediate",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "AI Product Management",
-        "Room": "Foothill G1&2: Workshops",
-        "Scheduled At": "3 Jun 2025 09:00 AM"
       }
     ]
   },
@@ -1335,7 +1324,7 @@
         "Format": "",
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
-        "Tracks": "AI Architects, Agent Reliability, RAG, Support Agents",
+        "Tracks": "Agent Reliability, RAG",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1344,7 +1333,7 @@
   {
     "Speaker ID": "64bac3f8-8b07-4015-89da-dea03221a28e",
     "Name": "Nir Gazit",
-    "Company": "traceloop",
+    "Company": "Traceloop",
     "Company Domain": "traceloop.com",
     "Company URL": "",
     "Company Website": "",
@@ -1403,7 +1392,7 @@
     "Speaker ID": "415efc97-c2d6-431b-9712-b990158280dc",
     "Name": "Charles Frye",
     "Company": "Modal Labs",
-    "Company Domain": "modallabs.com",
+    "Company Domain": "modal.com",
     "Company URL": "",
     "Company Website": "",
     "Title": "Educator and Evangelist",
@@ -1425,6 +1414,151 @@
         "Tracks": "AI in Action, Infrastructure",
         "Room": "",
         "Scheduled At": ""
+      }
+    ]
+  },
+  {
+    "Speaker ID": "2f136925-afc7-45fc-8dc4-6f8a15397a37",
+    "Name": "Rafal Wilinski",
+    "Company": "Zapier",
+    "Company Domain": "gmail.com",
+    "Company URL": "https://zapier.com/agents",
+    "Company Website": "",
+    "Title": "AI Tech Lead for Zapier Agents",
+    "TagLine": "AI Agents Lead",
+    "Bio": "Rafal Wilinski is the AI Tech Lead for Zapier Agents, where he builds intelligent systems that enable workflow automation for millions of users. I'm passionate about bringing products to life from 0 to 1. Began my career with an interest for AWS cloud, where I've spent my first decade helping startups and enterprises build robust infrastructure. When not working, I'm most likely climbing or drinking whiskey (but not simultaneously).",
+    "X (Twitter)": "https://x.com/RafalWilinski",
+    "LinkedIn": "https://www.linkedin.com/in/rafwilinski/",
+    "Blog": "https://rwilinski.ai",
+    "Profile Picture": "https://sessionize.com/image/3494-400o400o1-abnx7bggS8up5QnXo7FPV2.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936133",
+        "Title": "Turning Fails into Features: Zapier’s Hard-Won Eval Lessons",
+        "Description": "Every agent failure can be a roadmap to your next breakthrough. This talk reveals how Zapier's evaluation system transforms frustrating user experiences into targeted improvements, creating a data flywheel that continuously strengthens our agents. You'll learn practical approaches for building the data flywheel, detecting implicit feedback signals, building solid evals, prioritizing metrics that actually matter, and why your most reliable evals might secretly be sabotaging your performance.",
+        "Format": "Talk",
+        "Level": "Advanced",
+        "Scope": "Technical deep dive",
+        "Tracks": "Evals",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ]
+  },
+  {
+    "Speaker ID": "59640832-e757-419e-b3b3-f410f2a93e9f",
+    "Name": "Vitor Balocco",
+    "Company": "Zapier",
+    "Company Domain": "gmail.com",
+    "Company URL": "https://zapier.com/ai",
+    "Company Website": "",
+    "Title": "Staff Software Engineer, AI R&D",
+    "TagLine": "Staff AI Engineer",
+    "Bio": "Vitor is a Staff Software Engineer on the AI R&D team at Zapier, involved in most of Zapier's AI initiatives:\r\n- AI Lead for Zapier Agents\r\n- Creator of the AI Zap builder (natural language to automation)\r\n- Co-creator of AI custom actions\r\n- Co-creator of AI actions / Zapier MCP",
+    "X (Twitter)": "https://x.com/vitorbal",
+    "LinkedIn": "https://www.linkedin.com/in/vitorbal/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/7002-400o400o1-QFU6dChdaXe3r7jUmdJz7K.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936133",
+        "Title": "Turning Fails into Features: Zapier’s Hard-Won Eval Lessons",
+        "Description": "Every agent failure can be a roadmap to your next breakthrough. This talk reveals how Zapier's evaluation system transforms frustrating user experiences into targeted improvements, creating a data flywheel that continuously strengthens our agents. You'll learn practical approaches for building the data flywheel, detecting implicit feedback signals, building solid evals, prioritizing metrics that actually matter, and why your most reliable evals might secretly be sabotaging your performance.",
+        "Format": "Talk",
+        "Level": "Advanced",
+        "Scope": "Technical deep dive",
+        "Tracks": "Evals",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ]
+  },
+  {
+    "Speaker ID": "77adff48-a070-4305-8d81-9d959a8176de",
+    "Name": "Omar Khattab",
+    "Company": "Databricks",
+    "Company Domain": "stanford.edu",
+    "Company URL": "http://databricks.com/",
+    "Company Website": "https://dspy.ai",
+    "Title": "Research Scientist",
+    "TagLine": "Databricks Research Scientist",
+    "Bio": "Omar Khattab is a Research Scientist at Databricks and an incoming Assistant Professor at MIT EECS (July 2025). His research creates models, algorithms, and abstractions for building modular, reliable, and scalable AI systems. He is the author of the ColBERT retrieval model, which has helped shape the modern landscape of neural information retrieval, and the creator of the DSPy framework for building and optimizing declarative natural-language programs.",
+    "X (Twitter)": "https://x.com/lateinteraction",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/34b5-400o400o1-sbhWxVZxUs3BHQb7f2w5Mf.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936156",
+        "Title": "On Engineering AI Systems that Endure The Bitter Lesson",
+        "Description": "Will discuss the principles for building AI software that underpin DSPy, highlighting the differences between conventional prompting (or finetuning/RL) versus the design and programming of truly modular AI systems.",
+        "Format": "Talk",
+        "Level": "Advanced",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "Evals",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ]
+  },
+  {
+    "Speaker ID": "831c2f4f-7b86-431b-a943-24aea281cbf5",
+    "Name": "Hamed Firooz",
+    "Company": "LinkedIn",
+    "Company Domain": "gmail.com",
+    "Company URL": "LinkedIn.com",
+    "Company Website": "",
+    "Title": "Principal AI Scientist",
+    "TagLine": "Principal Scientist -- LinkedIn Core AI",
+    "Bio": "Principal AI Scientist at LinkedIn Core AI. With 15 years in large-scale AI, Hamed leads the 50-person team behind LinkedIn’s 150-billion-parameter foundation model that personalizes the experience for hundreds of millions of members. Before LinkedIn, he led multimodal Content Understanding model at Meta AI that handle tens of billions of daily requests. His work spans open-source projects like Hateful Memes benchmark dataset and papers at venues such as NeurIPS and ICML.",
+    "X (Twitter)": "https://x.com/mamhamed",
+    "LinkedIn": "https://www.linkedin.com/in/hamed-firooz-0760a527/",
+    "Blog": "https://firooz.us",
+    "Profile Picture": "https://sessionize.com/image/4f00-400o400o1-3Dy56BMK7VEPVrhPPZ8RFf.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936205",
+        "Title": "360Brew LLM-based Foundation Model for Personalized Ranking and Recommendation",
+        "Description": "We will give a talk about our journey of building a foundation model for solving ranking and recommendation tasks across LinkedIn platform",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "RecSys",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ]
+  },
+  {
+    "Speaker ID": "1feb3f6d-13cb-4ac8-9297-dbd4154ebfcf",
+    "Name": "Aman Khan",
+    "Company": "Arize",
+    "Company Domain": "arize.com",
+    "Company URL": "arize.com",
+    "Company Website": "https://arize.com/",
+    "Title": "Director of Product, LLM",
+    "TagLine": "Director of Product",
+    "Bio": "Aman is Director of Product, LLM at Arize AI. Prior to Arize, Aman was the PM on the Jukebox Feature Store in the ML Platform team at Spotify across ~50 data science teams. Aman was also PM for ML Evaluation frameworks across data science and engineering teams for self-driving cars at Cruise, which helped launch the first self-driving car service in an urban environment. Aman studied Mechanical Engineering at UC Berkeley and lived in the SF Bay Area for 9 years before moving to NYC. ",
+    "X (Twitter)": "https://x.com/dat_attacked",
+    "LinkedIn": "https://www.linkedin.com/in/datdarylngo/",
+    "Blog": "https://github.com/arizedatngo",
+    "Profile Picture": "https://sessionize.com/image/c833-400o400o1-Ny5azYCUjiB2ccBPSnHeQ2.jpeg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "915269",
+        "Title": "Shipping AI That Works: An Evaluation Framework for PMs",
+        "Description": "GenAI is reshaping the product landscape, creating huge opportunities (along with new expectations) for product managers. Yet while prompt engineering and model tuning get the spotlight, one critical skill can get overlooked: rigorous evaluation.\r\n\r\nThis talk will help PMs move beyond gut-feel “vibe checks” to adopt concrete, repeatable evaluation strategies for LLM-powered products. I'll break down essential eval methodologies, from human feedback and code-based checks to cutting-edge LLM-based evaluations. Drawing on real-world examples, I'll share a practical framework PMs can use to:\r\n\r\n-Confidently evaluate AI-driven features\r\n- Ground decisions in real, repeatable data\r\n- Build trust and delight through consistent quality\r\n",
+        "Format": "Workshop",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI Product Management",
+        "Room": "Foothill G1&2: Workshops",
+        "Scheduled At": "3 Jun 2025 09:00 AM"
       }
     ]
   },
@@ -1707,7 +1841,7 @@
     "Company Domain": "xeraa.net",
     "Company URL": "",
     "Company Website": "https://www.elastic.co",
-    "Title": "Lead, Developer Relations",
+    "Title": "Lead of Developer Relations",
     "TagLine": "Code and conference monkey",
     "Bio": "Philipp leads Developer Relations at Elastic — the company behind the Elasticsearch, Kibana, Beats, and Logstash. Based in San Francisco, he lives to demo interesting technology and solve challenging problems — all with a smile and a terminal window.",
     "X (Twitter)": "https://twitter.com/xeraa",
@@ -1736,7 +1870,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://openai.com/",
     "Company Website": "",
-    "Title": "Founding Member of Developer Experience Team",
+    "Title": "Founding Member, Developer Experience Team",
     "TagLine": "Developer Experience",
     "Bio": "Ilan Bigio is a founding member of OpenAI’s Developer Experience team where he explores model capabilities, builds demos and developer tools, and shares his learnings through talks and docs.\r\n\r\nHis work includes creating the AI phone ordering demo showcased at DevDay 2024, leading technical development for Swarm, the precursor to the Agents SDK, and contributing to Codex CLI. Prior to that, he was a Solutions Architect at OpenAI, partnering with companies like Cursor, Khan Academy, and Klarna to shape their AI products. Before OpenAI, he was a full-stack Software Engineer at Google, building for YouTube at scale.\r\n\r\nIlan’s journey started as a hobby hacker, diving into operating systems and reverse engineering, before shifting to language models in 2020. He created projects like ShellAI—an open-source, AI-powered terminal assistant—and is passionate about sharing knowledge. With a multidisciplinary background spanning web development, AI/ML, and operating systems, he’s designed and taught courses at Brown and continues to share his expertise through in-depth technical OpenAI guides on topics like Function Calling, Latency Optimization, and Agent Orchestration.",
     "X (Twitter)": "https://x.com/ilanbigio",
@@ -1765,7 +1899,7 @@
     "Company Domain": "aws.amazon.com",
     "Company URL": "",
     "Company Website": "https://aws.amazon.com/?nc2=h_lg",
-    "Title": "Senior Developer Advocate",
+    "Title": "Sr. Developer Advocate",
     "TagLine": "Sr. Developer Advocate",
     "Bio": "* Du'An Lightfoot is an IT leader and international speaker who serves as a Sr. Developer Advocate at AWS. His perspective on AI transformation draws from an unconventional path. From serving as a USAF veteran in Afghanistan to driving technical innovation at Cisco and Cerner. Du'An bridges the gap between cutting-edge technology and practical implementation, translating complex AI concepts into actionable insights for professionals reshaping their careers.\r\n\r\nBeyond his technical expertise, Du'An dedicates himself to mentoring others through the rapidly evolving tech landscape. Through his YouTube channel and speaking engagements across the globe, he doesn't just talk about technological change, he provides concrete strategies for embracing it. Drawing from the discipline and adaptability he developed during military service, Du'An equips his audiences with practical frameworks to become change agents within their organizations and careers.",
     "X (Twitter)": "",
@@ -1781,7 +1915,7 @@
         "Format": "Workshop",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "AI Architects, Model Context Protocol (MCP), AI in Action, Computer-Using Agents (CUA)",
+        "Tracks": "Model Context Protocol (MCP), AI in Action",
         "Room": "Golden Gate Ballroom B: Workshops",
         "Scheduled At": "3 Jun 2025 01:00 PM"
       }
@@ -1852,7 +1986,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://labs.amazon.science/",
     "Company Website": "https://labs.amazon.science/",
-    "Title": "Cognitive Scientist",
+    "Title": "Cognitive Scientist at Amazon AGI SF Lab",
     "TagLine": "Cognitive Scientist, PhD",
     "Bio": "Danielle is a cognitive scientist at the new Amazon AGI SF Lab. She received her PhD from Northwestern, where she studied the evolution and development of language. Previously, she was at Google and Adept. ",
     "X (Twitter)": "https://x.com/drperszyk",
@@ -1897,7 +2031,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Product launch",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "4 Jun 2025 11:15 AM"
       }
@@ -1910,7 +2044,7 @@
     "Company Domain": "openai.com",
     "Company URL": "https://openai.com/",
     "Company Website": "http://openai.com/",
-    "Title": "WebRTC and Realtime API Developer",
+    "Title": "WebRTC and Realtime API Engineer",
     "TagLine": "WebRTC and Realtime API",
     "Bio": "Sean works on WebRTC and the Realtime API at OpenAI. He built 1-800-CHATGPT. He is the founder of Pion, the most widely used open source WebRTC project. He has previously worked at AWS, LiveKit, Apple, and Etsy.",
     "X (Twitter)": "https://x.com/_pion",
@@ -2026,7 +2160,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "huxe.com",
     "Company Website": "",
-    "Title": "Founder",
+    "Title": "Product Leader",
     "TagLine": "CEO & Co-Founder Huxe || Previously NotebookLM",
     "Bio": "A product leader with a unique lens on AI's user experience challenges, Raiza brings insights from both big tech and startup trenches. \r\n\r\nMost recently leading Google's NotebookLM team, she has shaped how millions of users interact with generative AI. Now, as a founder, she is reimagining these experiences from first principles. \r\n\r\nWith years of hands-on PM experience guiding technical teams through the practical realities of shipping AI products, Raiza offers a rare combination of enterprise-scale perspective and startup-speed execution.",
     "X (Twitter)": "https://x.com/raizamrtn",
@@ -2129,7 +2263,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "4 Jun 2025 11:40 AM"
       }
@@ -2158,7 +2292,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "4 Jun 2025 11:40 AM"
       }
@@ -2168,7 +2302,7 @@
     "Speaker ID": "1f442afe-45ef-48c0-9782-5a5267729d06",
     "Name": "Dr. Jasper Zhang, PhD",
     "Company": "Hyperbolic",
-    "Company Domain": "hyperbolic.io",
+    "Company Domain": "hyperbolic.com",
     "Company URL": "",
     "Company Website": "https://hyperbolic.xyz/",
     "Title": "CEO and Co-founder",
@@ -2245,7 +2379,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "4 Jun 2025 11:40 AM"
       }
@@ -2316,7 +2450,7 @@
     "Company Domain": "oleve.co",
     "Company URL": "https://www.oleve.co/",
     "Company Website": "https://www.oleve.co/",
-    "Title": "Co-founder and Head of Platform Team",
+    "Title": "Co-founder and Head of Platform",
     "TagLine": "Co-Founder",
     "Bio": "Sid Bendre is the co-founder of Oleve, a company building a portfolio of iconic consumer software across multiple verticals. With a lean team, Oleve has already launched two virally successful consumer AI products that have amassed over 250 million views across social media platforms. One of their products reached #4 on the App Store's Education charts in 2024 and #5 in 2025, competing alongside giants like Photomath (Google) and Duolingo. Backed by Neo, Cal Henderson (co-founder of Slack), Russell Kaplan (President of Cognition), and Maria Zhang (ex-CTO of Tinder), Oleve is building the AI infrastructure to run a $1B portfolio of consumer software over the next decade. At Oleve, Sid leads technical and AI efforts, running the “Platform” team responsible for the underlying AI infrastructure that powers their lean scaling approach. Before Oleve, Sid led AI experimentation efforts at a startup hedge fund and worked at Slack, Zendesk, and Microsoft.",
     "X (Twitter)": "https://x.com/SidBendre",
@@ -2374,7 +2508,7 @@
     "Company Domain": "together.ai",
     "Company URL": "https://www.together.ai/",
     "Company Website": "https://www.together.ai/",
-    "Title": "Lead, Developer Relations",
+    "Title": "Head of Developer Relations",
     "TagLine": "DevRel lead ",
     "Bio": "Hassan El Mghari is a software engineer based in New York specializing in building full-stack AI applications. His AI applications have a combined user base of over 3 million. He currently leads the developer relations team at Together.ai, where his work includes building example AI apps, creating content, and educating developers on AI development.",
     "X (Twitter)": "https://twitter.com/nutlope",
@@ -2403,7 +2537,7 @@
     "Company Domain": "humanlayer.dev",
     "Company URL": "https://www.humanlayer.dev/",
     "Company Website": "https://humanlayer.dev",
-    "Title": "AI Agent Developer",
+    "Title": "Agent Engineer",
     "TagLine": "Founder",
     "Bio": "Hey - I'm Dex, and I'm hacking on safer more reliable agents at HumanLayer. HumanLayer helps AI builders create agents that feel more like real coworkers - taking them out of ChatGPT-style interfaces and deploying them into slack, email, or wherever their users already are. Before this I was working on AI Agents that managed SQL warehouses, and did a long stint at replicated.com helping the worlds best software teams deliver Kubernetes apps into customer environments. I've been coding since 17, when I built tools for NASA researchers to navigate the south pole of the moon. Enjoyer of tacos and burpees (not necessarily in that order)",
     "X (Twitter)": "https://twitter.com/dexhorthy",
@@ -2461,7 +2595,7 @@
     "Company Domain": "browserbase.com",
     "Company URL": "",
     "Company Website": "https://browserbase.com/",
-    "Title": "Founder",
+    "Title": "Founder and CEO",
     "TagLine": "Founder",
     "Bio": "Paul Klein IV is a San‑Francisco‑based serial entrepreneur and engineer. After honing his chops at Twilio during it's IPO and founding Stream Club—a live‑streaming platform acquired by Mux in 2021 he launched Browserbase in 2024 to give developers and AI agents fast, reliable, multi‑region headless‑browser infrastructure. In its first 12 months, Klein raised $27.5 million (a $6.5 M seed and a $21 M Series A led by CRV and Kleiner Perkins with Okta Ventures) . He views Browserbase as the “last‑mile” interface between large language models and the web, enabling end‑to‑end workflow automation far beyond traditional scraping ",
     "X (Twitter)": "https://x.com/pk_iv",
@@ -2593,7 +2727,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "4 Jun 2025 12:05 PM"
       }
@@ -2622,7 +2756,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "4 Jun 2025 12:05 PM"
       }
@@ -2854,7 +2988,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "4 Jun 2025 02:00 PM"
       }
@@ -2941,7 +3075,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "4 Jun 2025 02:25 PM"
       }
@@ -2999,7 +3133,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "4 Jun 2025 02:25 PM"
       }
@@ -3057,7 +3191,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Foothill G 1&2: Product Management",
         "Scheduled At": "4 Jun 2025 02:25 PM"
       }
@@ -3173,7 +3307,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "4 Jun 2025 02:50 PM"
       }
@@ -3215,7 +3349,7 @@
     "Company Domain": "airockies.com",
     "Company URL": "Workday.com",
     "Company Website": "",
-    "Title": "Principal PM",
+    "Title": "Principal Product Manager",
     "TagLine": "Principal AI Product Manager @ Workday",
     "Bio": "Building and scaling 0-1 products in the enterprise.",
     "X (Twitter)": "",
@@ -3273,7 +3407,7 @@
     "Company Domain": "qodo.ai",
     "Company URL": "https://www.qodo.ai/",
     "Company Website": "https://www.qodo.ai/",
-    "Title": "CEO and Co-founder",
+    "Title": "CEO and co-founder",
     "TagLine": "CEO",
     "Bio": " Itamar Friedman is the CEO and co-founder of Qodo (fka CodiumAI), the leader in the emerging code integrity space.\r\nPrior to that, Itamar was the co-founder and CTO of Visualead, which Alibaba Group acquired. As a director at Alibaba, he led teams to create innovative ML-based B2C and B2D applications and tools used by millions.\r\nItamar holds a BSc & MSc in Electrical Engineering (Summa Cum Laude) from the Technion, majoring in Machine Learning and Computer Vision.\r\n\r\n",
     "X (Twitter)": "https://x.com/itamar_mar",
@@ -3492,7 +3626,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "5 Jun 2025 11:15 AM"
       }
@@ -3550,7 +3684,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "5 Jun 2025 11:15 AM"
       }
@@ -3579,7 +3713,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "5 Jun 2025 11:15 AM"
       }
@@ -3882,7 +4016,7 @@
     "Company Domain": "every.to",
     "Company URL": "https://every.to/",
     "Company Website": "https://every.to/",
-    "Title": "Head of AI Strategy",
+    "Title": "Lead AI Strategy",
     "TagLine": "Head of AI",
     "Bio": "I’m Alex Duffy. I lead AI strategy at Every Inc., helping teams across industries put AI into practice. Previously, I co-founded AI Camp, teaching thousands of students to build their own AI projects, and launched Salt AI, creating tools to help researchers, designers, and creators bring ideas to life. I’m passionate about building teams and tools to empower people with AI. I really believe in creating technology that works for us, not that is work for us. ",
     "X (Twitter)": "https://x.com/alxai_",
@@ -3898,7 +4032,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "5 Jun 2025 11:40 AM"
       }
@@ -3911,7 +4045,7 @@
     "Company Domain": "hackidemia.com",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Research Scientist, Google Gemini",
+    "Title": "Research Scientist",
     "TagLine": "AI Research Scientist ",
     "Bio": "Hi! I am Stef. I am currently a Research Scientist in Google Gemini working on novel multimodal AI applications. Previously I was a Principal Researcher in the Center of Applied AI Research at the University of Chicago. I graduated with a Ph.D. in Creative AI Literacies 🎓 at the University of Washington Information School.\r\n\r\nMy research focuses on Large Language Models and the design of Multimodal AI tools and resources 🖌️ and during grad school I built the first open-source platform for K12 AI Education - Cognimates. When I am not coding & writing papers 👩🏽",
     "X (Twitter)": "",
@@ -4072,7 +4206,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "5 Jun 2025 12:05 PM"
       }
@@ -4081,11 +4215,11 @@
   {
     "Speaker ID": "9dc819a3-58dc-4487-82a6-e178f36d9cec",
     "Name": "Simon Obstbaum",
-    "Company": "YOPESO",
+    "Company": "Stanford University",
     "Company Domain": "obstbaum.eu",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Founder",
+    "Title": "Researcher",
     "TagLine": "Researcher, former CTO @ Crunchyroll",
     "Bio": "Since 2020 I’ve turned to my passion: researching software engineering productivity. \r\n\r\nBefore this, I served as CTO at Crunchyroll, where I led the engineering team through rapid subscriber and team growth, transitioning from a data center monolith to a microservice-based cloud architecture. Crunchyroll itself was acquired by AT&T/WarnerMedia and later by Sony in a $1.2 billion deal.\r\n\r\nOriginally founded YOPESO in 2005, growing it to hundreds of engineers across the US, Europe, and Asia. ",
     "X (Twitter)": "",
@@ -4101,7 +4235,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "5 Jun 2025 12:05 PM"
       }
@@ -4362,7 +4496,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "5 Jun 2025 12:05 PM"
       }
@@ -4623,7 +4757,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "5 Jun 2025 02:00 PM"
       }
@@ -4636,7 +4770,7 @@
     "Company Domain": "alixpartners.com",
     "Company URL": "https://www.alixpartners.com/our-people/28458/kevin-madura/",
     "Company Website": "https://alixpartners.com",
-    "Title": "Technical Advisor and Testifying Expert",
+    "Title": "Technical Advisor and Expert Consultant",
     "TagLine": "Director, Advanced Technologies",
     "Bio": "Kevin leads technical advisory engagements and investigations in situations involving complex software, applied AI, and digital assets. As testifying expert and \"translator\" of technical material, he regularly interfaces with executive leadership, legal counsel, regulators, and engineers, balancing deep technical expertise with strategic clarity to drive outcomes.",
     "X (Twitter)": "https://x.com/kmad",
@@ -4652,7 +4786,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "5 Jun 2025 02:00 PM"
       }
@@ -4681,7 +4815,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "5 Jun 2025 02:00 PM"
       }
@@ -4913,7 +5047,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "5 Jun 2025 02:25 PM"
       }
@@ -4942,7 +5076,7 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Case Study/War Story",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "5 Jun 2025 02:25 PM"
       }
@@ -4981,7 +5115,7 @@
     "Speaker ID": "95cbe8fd-d8e5-43d7-92cf-56f1edc9b11a",
     "Name": "Steve  Ruiz",
     "Company": "tldraw",
-    "Company Domain": "tldraw.com",
+    "Company Domain": "tldraw.computer",
     "Company URL": "",
     "Company Website": "",
     "Title": "unknown",
@@ -5071,7 +5205,7 @@
     "Company Domain": "outlook.com",
     "Company URL": "www.pragramaticaiprogrammer.com",
     "Company Website": "",
-    "Title": "Technology Innovator",
+    "Title": "AI Technology Innovator",
     "TagLine": "AI for Technology",
     "Bio": "Brett Kotch has transformed trading technology at top global financial institutions, including Millennium, Citibank, Barclays, and Liquidnet, where he was part of the original team enabling anonymous execution of large trades, creating one of Wall Street’s largest pools of institutional liquidity. Brett is actively driving innovative solutions to advance AI within technology. Brett holds a degree in Computer Science from Columbia University.\r\n\r\n",
     "X (Twitter)": "",
@@ -5087,7 +5221,7 @@
         "Format": "Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Leadership: Architects",
+        "Tracks": "AI Architects",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "5 Jun 2025 02:50 PM"
       }
@@ -5129,7 +5263,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "cloudflare.com",
     "Company Website": "",
-    "Title": "Platform Engineer",
+    "Title": "Developer Platform Lead",
     "TagLine": "vp developers & ai, cloudflare",
     "Bio": "From the very beginning, Rita has been a key figure in the development of Cloudflare's developer platform. Their initial experience as a solutions engineer, helping early enterprise customers adopt the service, gave them firsthand insight into user needs. It was the power of Cloudflare Workers that truly resonated, inspiring a vision for a serverless future. For the past eight years, they have built out the platform which now spans products including storage, compute and AI, and is used by everyone from indie millions of indie developers to Fortune 500 companies. ",
     "X (Twitter)": "https://twitter.com/ritakozlov_",
@@ -5145,7 +5279,7 @@
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Leadership: Fortune 500",
+        "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
         "Scheduled At": "5 Jun 2025 02:50 PM"
       }
@@ -5158,7 +5292,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://openai.com/",
     "Company Website": "https://openai.com/",
-    "Title": "Alignment Reasoning Specialist",
+    "Title": "Alignment Researcher",
     "TagLine": "Member of Technical Staff",
     "Bio": "Sean Grove works on alignment reasoning at OpenAI, helping translate high‑level intent into enforceable specs and evaluations. Before OpenAI he founded OneGraph, a GraphQL developer‑tools startup later acquired by Netlify. He has delivered dozens of technical talks worldwide on developer tooling, APIs, AI UX and design, and now alignment.",
     "X (Twitter)": "https://x.com/sgrove",

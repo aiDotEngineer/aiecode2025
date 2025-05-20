@@ -40,7 +40,7 @@ export const manualKeynoteSpeakers = [
         "Title": "The Rise of the AI Architect (tba)",
         "Format": "Keynote",
         "Description": "Clay Bavor explores the future of human-computer interaction powered by advanced AI.",
-        "Tracks": "Leadership: Architects"
+        "Tracks": "AI Architects"
       }
     ]
   },
@@ -132,7 +132,7 @@ export const manualKeynoteSpeakers = [
         "Title": "Ambient Agents",
         "Format": "",
         "Description": "Harrison Chase demonstrates the power of LangChain in creating sophisticated applications with Large Language Models.",
-        "Tracks": "Leadership: Fortune 500"
+        "Tracks": "AI in Fortune 500"
       }
     ]
   },
