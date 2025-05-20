@@ -1,4 +1,6 @@
 import type { InferGetServerSidePropsType } from "next";
+import React from "react";
+import Script from "next/script";
 import Image from "next/image";
 import clsx from "clsx";
 
@@ -61,22 +63,22 @@ export default function Page({ sessionEvents }: any) {
             Logos from <a href="/worldsfair/2024" className="text-blue-600 hover:underline">World's Fair 2024</a>, to be updated soon with 2025 logos
           </p>
         </div> */}
-      </Section>
-
-      <Section roundTop className="bg-stone-100">
         <FromTheTeam />
       </Section>
+
+      {/* <Section roundTop className="bg-stone-100">
+      </Section> */}
 
       {/* Not in a <Section /> because it's full bleed */}
       <div className="bg-stone-100 pb-20">
         <TestimonialCarousel />
       </div>
 
-      <Section lightText roundTop className="bg-black">
+      <Section lightText className="bg-black">
         <WhatsNext />
       </Section>
       
-      <Section roundTop id="speakers">
+      <Section  id="speakers">
         <SpeakerPreview presenters={presenters} tracks={tracks} formats={formats} />
       </Section>
 
@@ -105,6 +107,14 @@ export default function Page({ sessionEvents }: any) {
               of all: the "hallway track"!
             </p>
 
+            {/*
+              Sessionize Schedule Embed: This div is required for the script to inject the schedule UI.
+              Next.js best practice: Use <Script> for third-party scripts, and provide a static container for DOM injection.
+            */}
+            <div className="sessionize-loader" data-sessionize-load-url="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart?under=True">
+              {/* The Sessionize schedule will be injected here by the script. */}
+            </div>
+            <Script type="text/javascript" src="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart" strategy="afterInteractive" />
             <p>
               <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
                 IMPORTANT

@@ -1,4 +1,5 @@
 import { CountUp } from '~/components/CountUp';
+import Image from 'next/image';
 
 export function Counters() {
   return (
@@ -34,6 +35,15 @@ export function Counters() {
         <b className="block text-sm text-gray-on-white">
           Top DevTools & Employers in Expo
         </b>
+      </div>
+      <div className="w-full text-center">
+        <Image
+          src="/wf25logowall-landscape.png"
+          alt=""
+          width={1000}
+          height={500}
+          className="mx-auto mb-32"
+        />
       </div>
     </div>
   );
