@@ -169,7 +169,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                <b>n8n AI Workflow Hackathon</b>
+                n8n AI Workflow Hackathon
               </a>
             </li>
             <li>
@@ -189,7 +189,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                <b>AI After Hours with SourceGraph</b> GenAI Reception
+                AI After Hours with SourceGraph GenAI Reception
               </a>
             </li>
           </ul>
@@ -210,9 +210,10 @@ export function Overview() {
             Our partners and friends organized these side events last year:
           </p>
           {/* <p className=""> */}
-          <ul className="text-gray-on-white bg-gray-200 p-4 h-[200px] overflow-y-scroll text-base list-disc ml-2">
+          <ul className="text-gray-on-white bg-gray-200 p-4 h-[200px] overflow-y-scroll text-base">
             <li>
-              Jun 22 2024:
+              2024:
+              {/* Jun 22 2024: */}
               <a
                 href="https://agihouse-app.web.app/events/ai21-jamba-hackathon"
                 target="_blank"
@@ -222,7 +223,8 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 23 2024:
+              2024:
+              {/* Jun 23 2024: */}
               <a
                 href="https://lu.ma/fast-takeoff"
                 target="_blank"
@@ -232,7 +234,8 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 24 2024:
+              2024:
+              {/* Jun 24 2024: */}
               <a
                 href="https://lu.ma/vpdj2zoj?utm_source=aiewf"
                 target="_blank"
@@ -242,7 +245,8 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 24 2024:
+              2024:
+              {/* Jun 24 2024: */}
               <a
                 href="https://lu.ma/genlabxaiengineer"
                 target="_blank"
@@ -253,7 +257,8 @@ export function Overview() {
               (winners present at AIEWF!)
             </li>
             <li>
-              Jun 24 2024:
+              2024:
+              {/* Jun 24 2024: */}
               <a
                 href="https://lu.ma/LLMemory"
                 target="_blank"
@@ -263,7 +268,8 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 24 2024:
+              2024:
+              {/* Jun 24 2024: */}
               <a
                 href="https://lu.ma/ai-engineer-summit-pre-party"
                 target="_blank"
@@ -273,7 +279,8 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 24 2024:
+              2024:
+              {/* Jun 24 2024: */}
               <a
                 href="https://lu.ma/ai-devtools-night"
                 target="_blank"
@@ -283,7 +290,8 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 25 2024:
+              2024:
+              {/* Jun 25 2024: */}
               <a
                 href="https://www.aiqualityconference.com/"
                 target="_blank"
@@ -293,7 +301,8 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 25 2024:
+              2024:
+              {/* Jun 25 2024: */}
               <a
                 href="https://lu.ma/stg79kvs"
                 target="_blank"
@@ -304,7 +313,8 @@ export function Overview() {
               with Crusoe (onsite!)
             </li>
             <li>
-              Jun 26 2024:
+              2024:
+              {/* Jun 26 2024: */}
               <a
                 href="https://www.eventbrite.com/e/emergence-ai-launch-rooftop-after-party-tickets-927539093397?aff=oddtdtcreator"
                 target="_blank"
@@ -315,7 +325,8 @@ export function Overview() {
               to celebrate Launch
             </li>
             <li>
-              Jun 26 2024:
+              2024:
+              {/* Jun 26 2024: */}
               <a
                 href="https://lu.ma/tmxrddfq"
                 target="_blank"
@@ -326,7 +337,8 @@ export function Overview() {
               Presented by Galileo, Cohere and Baseten
             </li>
             <li>
-              Jun 26 2024:
+              2024:
+              {/* Jun 26 2024: */}
               <a
                 href="https://partiful.com/e/R4rkf0paYZBRS5T6HmTM"
                 target="_blank"
@@ -337,7 +349,8 @@ export function Overview() {
               7pm-10pm
             </li>
             <li>
-              Jun 27 2024:
+              2024:
+              {/* Jun 27 2024: */}
               <a
                 href="https://x.com/davefontenot/status/1797676470527234409"
                 target="_blank"
@@ -348,7 +361,8 @@ export function Overview() {
               (inside the AIEWF Expo Sessions!)
             </li>
             <li>
-              Jun 27 2024:
+              2024:
+              {/* Jun 27 2024: */}
               <a
                 href="https://lu.ma/8rxxdche"
                 target="_blank"
@@ -359,7 +373,8 @@ export function Overview() {
               by BCV
             </li>
             <li>
-              Jun 27 2024:
+              2024:
+              {/* Jun 27 2024: */}
               <a
                 href="https://lu.ma/anthropicAIworldfair"
                 target="_blank"
@@ -370,7 +385,8 @@ export function Overview() {
               Talks, networking, demos!
             </li>
             <li>
-              Jun 28 2024:
+              2024:
+              {/* Jun 28 2024: */}
               <a
                 href="https://lu.ma/k5mbvxxp"
                 target="_blank"
@@ -380,7 +396,8 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 30 2024:
+              2024:
+              {/* Jun 30 2024: */}
               <a
                 href="https://www.startupweekendsf.com/"
                 target="_blank"

@@ -99,6 +99,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Chelcie Taylor": 900,
   "Aman Kishore": 800,
   "Victor Dibia": 800,
+  "Omar Khattab": 300,
   "Sean Grove": 800, // Adjusted from previous version
   "Will Brown": 800, // Adjusted from previous version
 

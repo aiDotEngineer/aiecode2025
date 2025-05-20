@@ -300,44 +300,6 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
     ]
   },
   {
-    // [INFO] Added by Cascade on 2025-05-19: Hamed Firooz, LinkedIn, RecSys for LLMs keynote
-    // [WARN] Ensure this matches the RecSys track naming in the rest of the codebase. Speaker image must be present in /public/wf25speakers/hamed_firooz.jpeg.
-    // [INFO] User request: add hamed_firooz.jpeg on the recsys track for llms at linkedin
-    // [INFO] Timestamp: 2025-05-19T13:50:45-07:00
-    "Name": "Hamed Firooz",
-    "Company": "LinkedIn",
-    "Domain": "linkedin.com",
-    "Tagline": "Senior AI Tech Lead",
-    "ProfilePicture": "/wf25speakers/hamed_firooz.jpeg",
-    "Sessions": [
-      {
-        "Title": "360Brew: A Decoder-only Foundation Model for Personalized Ranking and Recommendation",
-        "Format": "Talk",
-        "Description": "https://arxiv.org/abs/2501.16450",
-        "Tracks": "RecSys"
-      } 
-    ]
-  },
-  {
-    // [INFO] Added by Cascade on 2025-05-19: Maziar Sanjabi, LinkedIn, RecSys session
-    // [WARN] Ensure this matches the RecSys track naming in the rest of the codebase. Speaker image must be present in /public/wf25speakers/maziar_sanjabi.jpeg.
-    // [INFO] User request: also add maziar_sanjabi.jpeg principal scientist at linkedin
-    // [INFO] Timestamp: 2025-05-19T14:04:21-07:00
-    "Name": "Maziar Sanjabi",
-    "Company": "LinkedIn",
-    "Domain": "linkedin.com",
-    "Tagline": "Principal Scientist",
-    "ProfilePicture": "/wf25speakers/maziar_sanjabi.jpeg",
-    "Sessions": [
-      {
-        "Title": "(tba) Advances in Large-Scale Recommendation Systems at LinkedIn",
-        "Format": "Talk",
-        "Description": "Maziar Sanjabi discusses recent innovations and research directions in large-scale RecSys at LinkedIn, including practical challenges and future opportunities.",
-        "Tracks": "RecSys"
-      }
-    ]
-  },
-  {
     // [INFO] Added by Cascade on 2025-05-16: Jost Tobias Springenberg, Physical Intelligence, co-presenting Physical AGI keynote
     "Name": "Jost Tobias Springenberg",
     "Company": "Physical Intelligence",
