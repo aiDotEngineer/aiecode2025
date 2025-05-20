@@ -3,7 +3,7 @@ import React from "react";
 import Script from "next/script";
 import Image from "next/image";
 import clsx from "clsx";
-
+import Link from "next/link";
 // import { getPresenters } from '@pkg/api/src/cms2/presenters';
 // import { getSchedule } from '@pkg/api/src/cms2/schedule';
 
@@ -98,7 +98,8 @@ export default function Page({ sessionEvents }: any) {
         <div className="space-y-12">
           <header className="text-center space-y-6">
             <h1 className="text-5xl">
-              <b>Schedule (bookmark <a href="/schedule" className="text-blue-600 hover:underline">this URL</a> for direct access)</b>
+              {/* [INFO][2025-05-20T10:44:10-07:00] Use Next.js <Link> for internal navigation to /schedule */}
+<b>Schedule (bookmark <Link href="/schedule" className="text-blue-600 hover:underline">this URL</Link> for direct access)</b>
             </h1>
             <p className="max-w-3xl m-auto text-gray-on-white text-justify mb-4">
               {/* There are up to 6 simultaneous things at any one time in this
