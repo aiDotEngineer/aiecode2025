@@ -86,30 +86,30 @@ export function Header({ path }: Props) {
               <nav className="flex gap-6 items-center">
                 {fixed && (
                   <>
-                    {/* <Link
-                      className="font-bold max-lg:hidden"
-                      href={WORKSHOPS_URL}
-                    >
-                      Workshops
-                    </Link>
-                    <Link
-                      className="font-bold max-sm:hidden"
-                      href={SCHEDULE_URL}
-                    >
-                      Schedule
-                    </Link> */}
-                    {/* <Link
-                      className="font-bold max-lg:hidden"
-                      href={'https://www.youtube.com/@aiDotEngineer'}
-                    >
-                      Past Conferences
-                    </Link> */}
                     <Link
                       className="font-bold max-lg:hidden"
                       href={'/llms.txt'}
                     >
                       llms.txt
                     </Link>
+                    <Link
+                      className="font-bold max-lg:hidden"
+                      href="#events"
+                    >
+                      Side Events
+                    </Link>
+                    <Link
+                      className="font-bold max-sm:hidden"
+                      href={SCHEDULE_URL}
+                    >
+                      Schedule
+                    </Link>
+                    {/* <Link
+                      className="font-bold max-lg:hidden"
+                      href={'https://www.youtube.com/@aiDotEngineer'}
+                    >
+                      Past Conferences
+                    </Link> */}
                     <Link
                       className="font-bold max-sm:hidden"
                       href={SPEAKERS_URL}
@@ -239,16 +239,18 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
             </NavLink>
           </div>
         </div>
-        {/* <div className="text-center font-bold md:border-b border-gray-800">
+        <div className="text-center font-bold md:border-b border-gray-800">
           <div className="max-w-[1200px] md:flex ml-auto mr-auto">
-            <NavLink href={SCHEDULE_URL} onClick={() => setNavOpen(false)}>
-              Schedule
+            <NavLink href={'#tracks'} onClick={() => setNavOpen(false)}>
+              {/* Schedule */}
+              Tracks
             </NavLink>
-            <NavLink href={WORKSHOPS_URL} onClick={() => setNavOpen(false)}>
-              Workshops
+            {/* <NavLink href={WORKSHOPS_URL} onClick={() => setNavOpen(false)}> */}
+            <NavLink href={'#events'} onClick={() => setNavOpen(false)}>
+              Side Events
             </NavLink>
           </div>
-        </div> */}
+        </div>
       </div>
 
       <Container>

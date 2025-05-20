@@ -4,6 +4,7 @@ export const frontCopy = `
 Main website: https://ai.engineer/
 Basic llms info: https://ai.engineer/llms-full.txt
 LLms-full.txt including speakers: https://ai.engineer/llms-full.txt
+Calendar view schedule: https://ai.engineer/schedule
 
 ## Overview
 

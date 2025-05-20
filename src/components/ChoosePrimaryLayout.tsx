@@ -46,12 +46,12 @@ function worldsFair2025Context() {
   contact.searchParams.set("subject", "AIE World's Fair 2025 Contact");
 
   // const CONF_URL = '/worldsfair';
-  const CONF_URL = "";
+  const CONF_URL = "/";
   return {
     CONF_URL,
     SPEAKERS_URL: `${CONF_URL}#speakers`,
     WORKSHOPS_URL: `${CONF_URL}#workshops`,
-    SCHEDULE_URL: `${CONF_URL}/2025/schedule`,
+    SCHEDULE_URL: `${CONF_URL}/schedule`,
     SPONSORS_URL: `${CONF_URL}#sponsors`,
     SUBMIT_TALK_URL:
       "https://docs.google.com/forms/d/e/1FAIpQLScc-47zw-tWjYbhAkwTeLy_-MQW3L-3uwtaVnEzudrEZcQ7bg/viewform",

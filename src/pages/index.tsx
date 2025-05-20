@@ -44,6 +44,14 @@ export default function Page({ sessionEvents }: any) {
   //   (session) => session.type === 'WORKSHOP',
   // );
 
+  // React.useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     document.getElementById("gridsmart")!.innerHTML = `<script type="text/javascript" src="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart"></script>`;
+  //   }, 2000);
+  //   return () => clearInterval(timer);
+  // }, []);
+
+
   // Get formatted speakers data from our JSON file
   const { presenters, tracks, formats } = formatSpeakersData();
 
@@ -90,7 +98,7 @@ export default function Page({ sessionEvents }: any) {
         <div className="space-y-12">
           <header className="text-center space-y-6">
             <h1 className="text-5xl">
-              <b>Schedule</b>
+              <b>Schedule (bookmark <a href="/schedule" className="text-blue-600 hover:underline">this URL</a> for direct access)</b>
             </h1>
             <p className="max-w-3xl m-auto text-gray-on-white text-justify mb-4">
               {/* There are up to 6 simultaneous things at any one time in this
@@ -100,33 +108,26 @@ export default function Page({ sessionEvents }: any) {
               concurrently, whereas the second has{' '}
               <b>Multimodality, GPUs, Evals, and Agents</b> tracks.
               <br /> <br />  */}
-              You can walk the <b>World's Fair Expo</b> (ft. 30+ booths across
+              You can walk the <b>World's Fair Expo</b> (ft. 50+ booths across
               the AI Engineering landscape) on any of the 3 days, while{" "}
               <b>Keynote, and AI Leadership sessions</b> span the 2 conference
               days. There are also plenty of breaks for the most important track
               of all: the "hallway track"!
             </p>
+            <iframe
+              id="gridsmart"
+              className="w-full h-[800px]"
+              src="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart"
+              frameBorder="0"
+              width="100%"
+              height="800"
+            />
 
-            {/*
-              Sessionize Schedule Embed: This div is required for the script to inject the schedule UI.
-              Next.js best practice: Use <Script> for third-party scripts, and provide a static container for DOM injection.
-            */}
-            <div className="sessionize-loader" data-sessionize-load-url="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart?under=True">
-              {/* The Sessionize schedule will be injected here by the script. */}
-            </div>
-            <Script type="text/javascript" src="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart" strategy="afterInteractive" />
             <p>
               <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
                 IMPORTANT
               </span>{" "}
-              The schedule is not yet announced, but you can see the
-              <a
-                href="/worldsfair/2024/schedule"
-                className="text-blue-500 font-bold hover:text-blue-400"
-              >
-                {" 2024 schedule "}
-              </a>
-              for an idea.
+              The full schedule is not yet up, as some sessions are yet to be finalized. Obvious gaps in the schedule will be filled.
               {/* Our{' '}
               <a
                 className="text-blue-500 font-bold hover:text-blue-400"

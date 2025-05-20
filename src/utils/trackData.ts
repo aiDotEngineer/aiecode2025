@@ -128,7 +128,7 @@ export const LeadershipTracks: Track[] = [
   {
     trackShortCode: "ES",
     trackTitle: "Expo Sessions and Hallway Track!",
-    trackDescription: "Access to the World's Fair Expo gets you access to dedicated sessions from 30+ speakers, <b>Microsoft, AWS, Daily, MongoDB, Neo4j, and more</b>, as well as the all important Hallway Track (aka the best way to network with 3000+ AI Engineers)! Attendees can propose their own unscheduled talks that can be added to the program.",
+    trackDescription: "Access to the World's Fair Expo gets you access to dedicated sessions from 50+ speakers, <b>Microsoft, AWS, Daily, MongoDB, Neo4j, and more</b>, as well as the all important Hallway Track (aka the best way to network with 3000+ AI Engineers)! Attendees can propose their own unscheduled talks that can be added to the program.",
     trackImg: imgExpo.src
   },
   {

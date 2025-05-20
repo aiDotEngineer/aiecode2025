@@ -163,6 +163,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              May 31 - Jun 1:
+              <a
+                href="https://lu.ma/n8n-aiworkflow-hack"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>n8n AI Workflow Hackathon</b>
+              </a>
+            </li>
+            <li>
               Jun 3:
               <a
                 href="https://aws-anthropic-gen-ai-reception-2025.splashthat.com"
@@ -170,6 +180,16 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 <b>AWS & Anthropic</b> GenAI Reception
+              </a>
+            </li>
+            <li>
+              Jun 5:
+              <a
+                href="https://lu.ma/aiafterhourssf"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>AI After Hours with SourceGraph</b> GenAI Reception
               </a>
             </li>
           </ul>
