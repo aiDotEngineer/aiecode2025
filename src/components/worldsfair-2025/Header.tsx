@@ -14,9 +14,10 @@ import { useTito } from "../../hooks/useTito";
 
 type Props = {
   path: string;
+  alwaysShow?: boolean; // [INFO][2025-05-20T10:54:38-07:00] If true, header is always fixed/visible
 };
 
-export function Header({ path }: Props) {
+export function Header({ path, alwaysShow }: Props) {
   const {
     // BUY_TICKETS_URL,
     CONF_URL,
@@ -28,7 +29,8 @@ export function Header({ path }: Props) {
   } = useWorldsFair2025();
 
   const [navOpen, setNavOpen] = useState(false);
-  const [fixed, setFixed] = useState(false);
+  // [INFO][2025-05-20T10:54:38-07:00] If alwaysShow, force fixed true
+  const [fixed, setFixed] = useState(alwaysShow ? true : false);
   const titoUrl = useTito();
 
   // Paths that should have transparent hero menu
@@ -49,6 +51,11 @@ export function Header({ path }: Props) {
   };
 
   useEffect(() => {
+    if (alwaysShow) {
+      // [INFO][2025-05-20T10:54:38-07:00] alwaysShow: force fixed, never change
+      setFixed(true);
+      return;
+    }
     const handleScroll = () => {
       if (window.scrollY >= 500 && !fixed) {
         setFixed(true);
@@ -62,7 +69,7 @@ export function Header({ path }: Props) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [fixed]);
+  }, [fixed, alwaysShow]);
 
   return (
     <div className={clsx("w-screen top-0 z-50", rootClassNames)}>
@@ -94,7 +101,7 @@ export function Header({ path }: Props) {
                     </Link>
                     <Link
                       className="font-bold max-lg:hidden"
-                      href="#events"
+                      href="/#events"
                     >
                       Side Events
                     </Link>

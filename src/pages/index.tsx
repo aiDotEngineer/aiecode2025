@@ -1,9 +1,9 @@
 import type { InferGetServerSidePropsType } from "next";
 import React from "react";
+import Link from "next/link"; // [INFO][2025-05-20T10:44:10-07:00] Fix: Import Link for Next.js internal navigation
 import Script from "next/script";
 import Image from "next/image";
 import clsx from "clsx";
-import Link from "next/link";
 // import { getPresenters } from '@pkg/api/src/cms2/presenters';
 // import { getSchedule } from '@pkg/api/src/cms2/schedule';
 

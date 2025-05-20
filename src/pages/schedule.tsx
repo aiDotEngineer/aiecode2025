@@ -8,7 +8,7 @@ import Head from 'next/head';
 // // [INFO][2025-05-20T10:17:38-07:00] Fix: ChoosePrimaryLayout is a named export, not default.
 // import { ChoosePrimaryLayout } from '../components/ChoosePrimaryLayout';
 // // [INFO][2025-05-20T10:19:31-07:00] Importing Header for explicit page header
-// import { Header } from '../components/worldsfair-2025/Header';
+import { Header } from '../components/worldsfair-2025/Header'; // [INFO][2025-05-20T10:54:38-07:00] Un-commented for always-visible header
 // import { HeroBuyTickets } from '../components/worldsfair-2025/HeroBuyTickets';
 // import { NewsletterFormThree } from '../components/Newsletter';
 
@@ -27,7 +27,8 @@ const SchedulePage: React.FC = () => {
         <meta name="description" content="Full calendar view of the AI Engineer World's Fair 2025 schedule." />
       </Head> */}
       {/* [INFO][2025-05-20T10:19:31-07:00] Explicit Header inclusion for /schedule */}
-      {/* <Header path="/schedule" /> */}
+      {/* [INFO][2025-05-20T10:54:38-07:00] Header always visible for /schedule */}
+      <Header path="/schedule" alwaysShow />
       {/* [INFO][2025-05-20T10:29:27-07:00] Ultra-compact, modern horizontal info bar for schedule CTAs */}
       {/* <section className="w-full bg-stone-50 border-b border-stone-200 py-6 mb-8">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-6 md:gap-0 px-2 md:px-4">
@@ -87,6 +88,19 @@ const SchedulePage: React.FC = () => {
             title="World's Fair 2025 Schedule"
           />
         </div>
+        <p className="text-center mt-16">
+          <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-200">
+            IMPORTANT
+          </span>{" "}
+          The full schedule is not yet up, as some sessions are yet to be finalized. Obvious gaps in the schedule will be filled.
+          {/* Our{' '}
+          <a
+            className="text-blue-500 font-bold hover:text-blue-400"
+            href="/schedule"
+          >
+            full talk schedule is now published here
+          </a> */}
+        </p>
       </main>
     </>
   );

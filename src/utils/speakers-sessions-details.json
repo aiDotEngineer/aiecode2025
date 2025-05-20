@@ -58,35 +58,6 @@
     ]
   },
   {
-    "Speaker ID": "bb2ab6f3-c148-4f33-b1c8-da2ecdc1b6c7",
-    "Name": "Samuel Colvin",
-    "Company": "Pydantic Inc.",
-    "Company Domain": "pydantic.dev",
-    "Company URL": "",
-    "Company Website": "https://pydantic.dev/",
-    "Title": "Founder",
-    "TagLine": "Founder of Pydantic",
-    "Bio": "Samuel Colvin is a Python and Rust developer, and Founder of Pydantic Inc., backed by Sequoia to build Pydantic Logfire (AI observability) and PydanticAI (production grade Agent Framework).\r\n\r\n The Pydantic library, which he created in 2017, is downloaded over 300M times per month and is a core component of virtually every GenAI Python library (both provider SDKs and agent frameworks).",
-    "X (Twitter)": "https://x.com/samuel_colvin",
-    "LinkedIn": "https://www.linkedin.com/in/samuel-colvin/",
-    "Blog": "https://github.com/samuelcolvin",
-    "Profile Picture": "https://sessionize.com/image/bbf4-400o400o1-Y9XzjuwEQJkVe5LdLiuGmB.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "911925",
-        "Title": "MCP is all you need",
-        "Description": "Everyone is talking about agents, and right after that, they’re talking about agent-to-agent communications. Not surprisingly, various nascent, competing protocols are popping up to handle it.\r\n\r\nBut maybe all we need is MCP — the OG of GenAI communication protocols (it's from way back in 2024!).\r\n\r\nLast year, Jason Liu gave the second most watched AIE talk — “Pydantic is all you need”.\r\n\r\nThis year, I (the creator of Pydantic) am continuing the tradition by arguing that MCP might be all we need for agent-to-agent communications.\r\n\r\nWhat I’ll cover:\r\n\r\n- Misusing Common Patterns: MCP was designed for desktop/IDE applications like Claude Code and Cursor. How can we adapt MCP for autonomous agents?\r\n- Many Common Problems: MCP is great, but what can go wrong? How can you work around it? Can the protocol be extended to solve these issues?\r\n- Monitoring Complex Phenomena: How does observability work (and not work) with MCP?\r\n- Multiple Competing Protocols: A quick run-through of other agent communication protocols like A2A and AGNTCY, and probably a few more by June 😴\r\n- Massive Crustaceans Party: What might success look like if everything goes to plan?",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "MCP",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
     "Speaker ID": "59c828a3-f138-42e6-aef6-658fb368a5f5",
     "Name": "Dani Grant",
     "Company": "Jam.dev",
@@ -122,7 +93,7 @@
     "Company Domain": "notablecap.com",
     "Company URL": "https://www.notablecap.com/",
     "Company Website": "",
-    "Title": "Early Stage AI Apps Investments Lead",
+    "Title": "Lead, Early Stage AI Apps Investments",
     "TagLine": "Investor ",
     "Bio": "Leading early stage AI apps investments at Notable Capital ($5B AUM VC). ",
     "X (Twitter)": "",
@@ -139,151 +110,6 @@
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
         "Tracks": "AI Architects",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "979f5c8a-93fc-406a-aaea-5bab9ca54c8d",
-    "Name": "Harald Kirschner",
-    "Company": "Microsoft",
-    "Company Domain": "microsoft.com",
-    "Company URL": "",
-    "Company Website": "https://code.visualstudio.com/",
-    "Title": "Principal Product Manager",
-    "TagLine": "VS Code Team Member",
-    "Bio": "I'm Harald Kirschner, a Principal Product Manager at Microsoft working on Visual Studio Code and GitHub Copilot, supporting over 40 million active developers code faster and more efficiently across virtually any programming language. Before Microsoft, I led Developer Experience at Mozilla, where I led Firefox DevTools and helped deliver Firefox Quantum, which doubled browser performance. My background in software engineering, including early work on MooTools, gives me hands-on insight into the challenges developers face daily. When I'm not working, I enjoy hiking California's coastal trails and experimenting with generative art. As a speaker at the AI Engineer Summit, I'm excited to share insights from our work on AI coding tools and Model Context Protocol to help developers achieve flow state even in complex environments.",
-    "X (Twitter)": "https://x.com/digitarald",
-    "LinkedIn": "https://www.linkedin.com/in/digitarald",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/b3aa-400o400o1-QY9ZDq5tRjNCVFZg4W6j3h.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "914489",
-        "Title": "Full Spectrum MCP: Uncovering Hidden Servers and Clients Capabilities",
-        "Description": "The true power of Model Context Protocol emerges when clients and servers collaborate across the full spectrum of the specification. This talk presents practical examples of how VS Code's comprehensive implementation of MCP transforms the capabilities of AI assistants, making them more contextual, efficient, and user-friendly. We'll showcase advanced features like dynamic tool discovery and workspace-aware roots, demonstrating how they create experiences impossible with standard tools integrations while confronting the reality gap between MCP's theoretical potential and practical implementation challenges.",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "MCP",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "0880058d-a4ab-45cd-a57a-912c18d09bd0",
-    "Name": "Adam Behrens",
-    "Company": "New Generation",
-    "Company Domain": "new-gen.ai",
-    "Company URL": "https://www.new-gen.ai/",
-    "Company Website": "https://www.new-gen.ai/",
-    "Title": "Co-founder and CEO",
-    "TagLine": "CEO",
-    "Bio": "Adam Behrens is the co-founder and CEO of a, a company that partners with global brands and merchants to unlock AI native commerce opportunities. New Gen builds infrastructure for brands to host their own conversational AI experiences and to connect their data into 3rd party chat clients like ChatGPT and Claude. Adam previously worked on trading infrastructure at Bridgewater and Banking-as-a-Service at Stripe. Outside of training AI models he is busy training his 8 month old Vizsla puppy.",
-    "X (Twitter)": "https://x.com/etpuisfume",
-    "LinkedIn": "https://www.linkedin.com/in/adam-behrens/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/dd9a-400o400o1-aK2KD9ofRRFnkVARmm586d.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "914891",
-        "Title": "Machines of Buying & Selling Grace",
-        "Description": "How to go beyond browser automation to truly agentic commerce, where AI can buy, sell and negotiate on behalf of users and merchants.",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "AI in Fortune 500",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "e770d774-d3ce-487e-b76e-ec767ab4b0e3",
-    "Name": "Alex Volkov",
-    "Company": "Weights & Biases",
-    "Company Domain": "gmail.com",
-    "Company URL": "https://wandb.ai/",
-    "Company Website": "https://wandb.ai",
-    "Title": "AI Evangelist",
-    "TagLine": "AI Evangelist",
-    "Bio": "Alex Volkov is an AI Evangelist at Weights & Biases as well as the founder and host of ThursdAI, a weekly newsletter and podcast that explores the latest innovations in AI, their practical applications, and the open-source AI community. Alex is an AI startup founder with 20 years of full-stack software engineering experience, offering a deep well of insights into AI innovation. He’s celebrated for his ability to clarify and summarize the complexities of the rapid AI advances and advocating for its beneficial uses.",
-    "X (Twitter)": "https://x.com/altryne",
-    "LinkedIn": "",
-    "Blog": "https://sub.thursdai.news",
-    "Profile Picture": "https://sessionize.com/image/b6dc-400o400o1-n42m8vkZMc2L1ZmuTGD5JD.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "915013",
-        "Title": "Observable tools - the state of MCP observability",
-        "Description": "AI Engineers deserve observable tools! \r\n\r\nMCP getting adoption means that less and less of your agents code is running under your control, and this has DX and observability challenges, let's fix that! \r\n\r\nJoin Alex Volkov from Weights & Biases and Steve Manual from mcp.run on this recap of the current state of MCP observability, including the observable.tools initiative, a recap of where the field stands and what to look forward to + a practical example of MCP tool usage evaluation framework from mcp.run! ",
-        "Format": "Talk",
-        "Level": "Expert",
-        "Scope": "Technical deep dive",
-        "Tracks": "MCP",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "ea8c6f3b-982d-4ac8-8a1b-08e569262e93",
-    "Name": "Steve Manuel",
-    "Company": "Dylibso",
-    "Company Domain": "dylibso.com",
-    "Company URL": "https://dylibso.com/",
-    "Company Website": "https://dylibso.com",
-    "Title": "Co-founder & CEO",
-    "TagLine": "CEO",
-    "Bio": "Steve is the co-founder & CEO of Dylibso, creators of mcp.run. He is an entrepreneur, programmer, guitarist, and general tinkerer. He has been taking things apart and putting them back together since before he can remember… his first words were, “phillips” and “flathead”.",
-    "X (Twitter)": "https://x.com/nilslice",
-    "LinkedIn": "https://linkedin.com/in/stevemanuel",
-    "Blog": "https://docs.mcp.run/blog",
-    "Profile Picture": "https://sessionize.com/image/de67-400o400o1-LvvRAywopMF9HRKLyGKJKh.png",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "915013",
-        "Title": "Observable tools - the state of MCP observability",
-        "Description": "AI Engineers deserve observable tools! \r\n\r\nMCP getting adoption means that less and less of your agents code is running under your control, and this has DX and observability challenges, let's fix that! \r\n\r\nJoin Alex Volkov from Weights & Biases and Steve Manual from mcp.run on this recap of the current state of MCP observability, including the observable.tools initiative, a recap of where the field stands and what to look forward to + a practical example of MCP tool usage evaluation framework from mcp.run! ",
-        "Format": "Talk",
-        "Level": "Expert",
-        "Scope": "Technical deep dive",
-        "Tracks": "MCP",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "6af0adad-3637-4d37-a604-570e28f53773",
-    "Name": "Benjamin Eckel",
-    "Company": "Dylibso",
-    "Company Domain": "dylibso.com",
-    "Company URL": "https://www.mcp.run/",
-    "Company Website": "https://dylibso.com/",
-    "Title": "Co-founder and CTO",
-    "TagLine": "Co-Founder of Dylibso",
-    "Bio": "Benjamin has over a decade of experience as a software engineer and is the co-founder and CTO of Dylibso. He previously led DX at Recurly and worked on integrations and edge observability at Datadog.",
-    "X (Twitter)": "https://twitter.com/bhelx",
-    "LinkedIn": "https://www.linkedin.com/in/benjamin-eckel-b025831a3/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/7fc5-400o400o1-sjzbuhKVSFiePoYuFoAtfo.png",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "915013",
-        "Title": "Observable tools - the state of MCP observability",
-        "Description": "AI Engineers deserve observable tools! \r\n\r\nMCP getting adoption means that less and less of your agents code is running under your control, and this has DX and observability challenges, let's fix that! \r\n\r\nJoin Alex Volkov from Weights & Biases and Steve Manual from mcp.run on this recap of the current state of MCP observability, including the observable.tools initiative, a recap of where the field stands and what to look forward to + a practical example of MCP tool usage evaluation framework from mcp.run! ",
-        "Format": "Talk",
-        "Level": "Expert",
-        "Scope": "Technical deep dive",
-        "Tracks": "MCP",
         "Room": "",
         "Scheduled At": ""
       }
@@ -312,64 +138,6 @@
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "AI in Fortune 500",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "152141e8-8994-4813-857d-c9dedda1f73f",
-    "Name": "Sahil Yadav",
-    "Company": "TelemeTrak",
-    "Company Domain": "outlook.com",
-    "Company URL": "",
-    "Company Website": "https://telemetrak.com",
-    "Title": "Chief Product Officer",
-    "TagLine": "Chief Product Officer",
-    "Bio": "Sahil Yadav is Chief Product Officer at TelemeTrak, where he leads AI-powered infrastructure platforms for government and industrial clients. He has previously launched AI based network automation platforms at Cisco, AI driven predictive analytics products at GE, and industrial AI safety systems at Guardhat, each used by Fortune 500 firms and mission-critical operations. With 13+ years of experience in AI product management, he specializes in scaling edge/cloud AI, driving enterprise adoption and operationalizing AI trust. His expertise lies in building resilient, AI-driven systems that work where others break, behind firewalls, across compliance borders, and in zero-trust environments.",
-    "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/yadavsahil/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/aa4b-400o400o1-PetSwTEPaDhLYGSGW4QQAQ.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "916025",
-        "Title": "CIOs and Industry Leaders: Do You Trust Your AI’s Inferences?",
-        "Description": "Enterprise AI adoption is accelerating, but with it comes a hard question: Do we trust the model’s decisions? In this 18-minute talk, I’ll explore the invisible risks behind automated decision-making in safety-critical and revenue-sensitive environments. Drawing on case studies across manufacturing, telecom, and industrial IoT, I’ll highlight how explainability, traceability, and robust guardrails drive adoption and protect enterprise value.\r\nAttendees will walk away with:\r\n•\tA 3-step framework for operationalizing AI trust\r\n•\tReal-world lessons from building guardrails in on-prem and hybrid systems\r\n•\tTools and techniques for debugging and explaining inferences at scale\r\n•\tA blueprint for building trust between models, engineers, and executive stakeholders",
-        "Format": "Talk",
-        "Level": "Expert",
-        "Scope": "Case Study/War Story",
-        "Tracks": "AI in Fortune 500",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "1a0174dc-9579-4c49-ace9-af98edbf57ca",
-    "Name": "Hariharan Ganesan",
-    "Company": "TelemeTrak",
-    "Company Domain": "umich.edu",
-    "Company URL": "https://telemetrak.com/",
-    "Company Website": "",
-    "Title": "Sr. Solutions Architect",
-    "TagLine": "Sr. Solutions Architect",
-    "Bio": "Hari. Gn is a Sr. Solutions Architect with over 15 years of experience delivering supply-chain solutions for global companies such as Google, Wayfair, and Toyota. He specializes in demand forecasting, inventory optimization, and constraint-driven planning, translating complex analytics into actionable, real-world tools.\r\n\r\nPassionate about practical applications of Explainable AI (XAI), Hari has authored two papers in the Journal of Business Forecasting and regularly shares insights with executive-level stakeholders. He believes in a straightforward, no-nonsense approach to AI: clear, practical, and genuinely usable.",
-    "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/harigsn/",
-    "Blog": "https://medium.com/@harign/life-the-universe-and-everything-in-supply-chain-85d0772c79a4",
-    "Profile Picture": "https://sessionize.com/image/5953-400o400o1-JQ5nmny3kR7gDvYpVbNu6B.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "916025",
-        "Title": "CIOs and Industry Leaders: Do You Trust Your AI’s Inferences?",
-        "Description": "Enterprise AI adoption is accelerating, but with it comes a hard question: Do we trust the model’s decisions? In this 18-minute talk, I’ll explore the invisible risks behind automated decision-making in safety-critical and revenue-sensitive environments. Drawing on case studies across manufacturing, telecom, and industrial IoT, I’ll highlight how explainability, traceability, and robust guardrails drive adoption and protect enterprise value.\r\nAttendees will walk away with:\r\n•\tA 3-step framework for operationalizing AI trust\r\n•\tReal-world lessons from building guardrails in on-prem and hybrid systems\r\n•\tTools and techniques for debugging and explaining inferences at scale\r\n•\tA blueprint for building trust between models, engineers, and executive stakeholders",
-        "Format": "Talk",
-        "Level": "Expert",
-        "Scope": "Case Study/War Story",
         "Tracks": "AI in Fortune 500",
         "Room": "",
         "Scheduled At": ""
@@ -468,104 +236,6 @@
     ]
   },
   {
-    "Speaker ID": "13aa4fa5-29c4-4019-b4e1-ee83caaecb54",
-    "Name": "Jerry Liu",
-    "Company": "LlamaIndex",
-    "Company Domain": "runllama.ai",
-    "Company URL": "llamaindex.ai",
-    "Company Website": "",
-    "Title": "Co-founder and CEO",
-    "TagLine": "CEO",
-    "Bio": "Jerry is the co-founder/CEO of LlamaIndex, the most accurate and flexible way to automate your document workflows with AI agents. Before this, he led the ML monitoring team at Robust Intelligence, did self-driving AI research at Uber ATG and worked on recommendation systems at Quora.",
-    "X (Twitter)": "https://twitter.com/jerryjliu0",
-    "LinkedIn": "https://www.linkedin.com/in/jerry-liu-64390071/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/61b9-400o400o1-3brCmcVKAHmSGaKS6QsZmA.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "925259",
-        "Title": "Building AI Agents that actually automate Knowledge Work",
-        "Description": "Agents are all the rage in 2025, and every single b2b SaaS startup/incumbent promises AI agents that can \"automate work\" in some way. \r\n\r\nBut how do you actually build this? The answer is two fold: \r\n1. really really good tools \r\n2. carefully tailored agent reasoning over these tools that range from assistant-to-automation based UXs.  \r\n\r\nThe main goal of this talk is to a practical overview of agent architectures that can automate real-world work, with a focus on document-centric tasks. Learn the core building blocks of best-in-class \"tools\" around processing, manipulating, and indexing/retrieving PDFs to Excel spreadsheets. Also learn the range of agent architectures suited for different tasks, from chat assistant-based UXs with high human-in-the-loop, to automation UXs that rely on encoding a business process into an end-to-end task solver. These architectures have to be generalizable but also highly accurate as agents get increasingly better at reasoning and code-writing. ",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "Retrieval+Search",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "592da3f8-71f2-4512-83a7-6d429034e3c4",
-    "Name": "Jan Curn",
-    "Company": "Apify",
-    "Company Domain": "apify.com",
-    "Company URL": "https://apify.com/",
-    "Company Website": "https://apify.com/",
-    "Title": "Founder and CEO",
-    "TagLine": "CEO",
-    "Bio": "Jan Curn is the founder and CEO of Apify, a full-stack web scraping and automation platform that powers (not only) AI agents with up-to-date data. He has a lifelong passion for software engineering, which earned him an MSc and PhD in computer science and eventually led him to founding Apify. Jan lives between SF and Prague, is active in the tech community in both cities, organizes meetups, and talks about software, startups, or AI.\r\n",
-    "X (Twitter)": "https://x.com/jancurn",
-    "LinkedIn": "https://www.linkedin.com/in/jancurn/",
-    "Blog": "https://blog.apify.com/author/jancurn/",
-    "Profile Picture": "https://sessionize.com/image/a3e7-400o400o1-E6G56RwwfBTEJPLpBmoVm2.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "926313",
-        "Title": "The rise of the agentic economy on the shoulders of MCP",
-        "Description": "Thanks to MCP and all the MCP server directories, agents can now autonomously discover new tools and other agents. This lays down the foundation for the future agentic economy, where businesses will sell to autonomous agents (B2A) and eventually agents will sell to other agents (A2A).\r\n\r\nBut one key part is still missing: agents do not have a standard way to subscribe to external services and pay for them.\r\n\r\nIn this talk, we’ll show how to give agents full autonomy to discover and pay for new external MCP-enabled services, even if those services don’t support it, using a little-known MCP server nesting capability. We’ll also cover how to monetize AI agents and the B2A/A2A business models.\r\n",
-        "Format": "Talk",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "MCP",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "779d4c60-5b5f-4fed-8ef9-ce0ae17118a5",
-    "Name": "Jerome Swannack",
-    "Company": "Anthropic",
-    "Company Domain": "anthropic.com",
-    "Company URL": "https://www.anthropic.com/",
-    "Company Website": "https://www.anthropic.com/",
-    "Title": "MCP Team Member",
-    "TagLine": "Anthropic, MCP Team",
-    "Bio": "[PLACEHOLDER]",
-    "X (Twitter)": "https://x.com/jeromeswannack",
-    "LinkedIn": "https://www.linkedin.com/in/jerome-swannack-1ba18173/",
-    "Blog": "https://www.jeromeswannack.com/",
-    "Profile Picture": "https://sessionize.com/image/495b-400o400o1-9jSKoLHfBgyuTQLzF5RoNR.png",
-    "Session Count": 2,
-    "Sessions": [
-      {
-        "Session ID": "927452",
-        "Title": "[Placeholder] MCP Origins",
-        "Description": "Early prototypes and demos from inside anthropic that have guided our thinking around MCP",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Case Study/War Story",
-        "Tracks": "MCP",
-        "Room": "",
-        "Scheduled At": ""
-      },
-      {
-        "Session ID": "927453",
-        "Title": "[PLACEHOLDER] Anthropic MCP team talk 2",
-        "Description": "PLACEHOLDER",
-        "Format": "Talk",
-        "Level": "Advanced",
-        "Scope": "Technical deep dive",
-        "Tracks": "MCP",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
     "Speaker ID": "d74b6675-44e2-405a-a6ea-7aa9a936afcd",
     "Name": "Scott Wu",
     "Company": "Cognition AI",
@@ -589,151 +259,6 @@
         "Level": "Advanced",
         "Scope": "Technical deep dive",
         "Tracks": "SWE Agents",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "ca0c85d0-179e-481e-8fbd-b6afb70f18dd",
-    "Name": "Peter Bar",
-    "Company": "Intercom",
-    "Company Domain": "intercom.io",
-    "Company URL": "https://www.intercom.com/",
-    "Company Website": "https://www.intercom.com/",
-    "Title": "Product Lead, Voice AI",
-    "TagLine": "Product Lead, Voice AI",
-    "Bio": "I’m Peter Bar, a Product Lead with over 10 years of experience in the tech industry. At Intercom, I’m responsible for Voice AI initiatives and led the development and launch of Fin Voice, our AI voice agent. My background spans both B2B and consumer tech, blending technical depth with strategic product leadership. Before Intercom, I drove growth and customer experience efforts at Deliveroo (food delivery) and worked on music discovery products at Shazam. I hold a Master’s degree in Computer Science from Imperial College London.",
-    "X (Twitter)": "https://x.com/PeterAlexBar",
-    "LinkedIn": "https://www.linkedin.com/in/peterbar/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/3d1b-400o400o1-PDYvtgvYRGbRFtDmb13wfD.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "931123",
-        "Title": "Shipping an Enterprise Voice AI Agent in 100 Days",
-        "Description": "What does it take to go from blank page to live enterprise voice agent in 100 days?\r\n\r\nThat’s the challenge we took on with Fin Voice at Intercom. Enterprise customer service demands high-quality, reliable voice interactions - but delivering that fast means wrestling with tough problems like latency, hallucinations, voice quality, and answer accuracy.\r\n\r\nWe rapidly evaluated and integrated a full voice stack - including transcription, language model, text-to-speech, retrieval-augmented generation, and telephony - while designing tools that fit seamlessly into existing human support workflows.\r\n\r\nIn this session, I’ll share key lessons from our accelerated development of Fin Voice. We'll explore the technical and operational hurdles we faced, the trade-offs we made, and how we built deployment and handover tools that work for customer service teams. You'll leave with insights into building AI-driven voice products that are both powerful and practical.",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Case Study/War Story",
-        "Tracks": "Voice",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "7caad073-31e6-4fac-b598-3d8f2262fad2",
-    "Name": "Tom Shapland, PhD",
-    "Company": "LiveKit",
-    "Company Domain": "livekit.io",
-    "Company URL": "https://livekit.io/",
-    "Company Website": "https://livekit.io/",
-    "Title": "Product Manager",
-    "TagLine": "Product Manager",
-    "Bio": "Tom Shapland, PhD, is a Product Manager at LiveKit. LiveKit is an open source platform for building, deploying, and scaling realtime multimodal agents. He's passionate about the multimodal future of human-computer interfaces. Before LiveKit, he was the cofounder of a Voice AI observability platform (Canonical AI) and an agriculture technology startup (Tule, YC S14). He lives in the East Bay and coaches lacrosse for his two kids. ",
-    "X (Twitter)": "https://x.com/tom_shapland",
-    "LinkedIn": "https://www.linkedin.com/in/tom-shapland-b4494212/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/65a4-400o400o1-GmcsnSyyVoxcnDgAUP1AMp.png",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "932493",
-        "Title": "Why ChatGPT Keeps Interrupting You",
-        "Description": "ChatGPT Advanced Voice Mode isn’t interrupting just you. Interruptions, and turn-taking in general, are unsolved problems for all Voice AI agents. Nobody likes being cut short – and people have much less patience for machines than they do for other humans. Turn-taking failures take many forms (e.g., the agent interrupts the user, the agent mistakes a cough for an interruption), and all of them lead to users immediately hanging up the phone.\r\n\r\nIn this talk, we use human conversation as a framework for understanding both today’s approaches to turn detection and where the field is headed. You’ll learn about how linguists think about turn detection in human dialogue, what’s working (and what’s broken) in current methods, and how we might build Voice AIs that interrupt you less than your human brother. ",
-        "Format": "Talk",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "Voice",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "b47f46a4-b920-4f97-aeaa-689185733e73",
-    "Name": "Mukuntha Narayanan",
-    "Company": "Pinterest, Inc.",
-    "Company Domain": "pinterest.com",
-    "Company URL": "www.pinterest.com",
-    "Company Website": "",
-    "Title": "Machine Learning Engineer",
-    "TagLine": "Machine Learning Engineer",
-    "Bio": "Mukuntha Narayanan is a Machine Learning Engineer at Pinterest, where he focuses on leveraging large language models to advance search relevance. Mukuntha’s background includes a Master’s in Machine Learning from Carnegie Mellon University, industry roles in developing robust language models at Observe.AI, and published research on both language and vision tasks at top venues like TPAMI, EMNLP-BlackboxNLP, and Interspeech. He is passionate about building scalable language technologies that shape how people discover and connect with information.",
-    "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/mukuntha-n-s",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/9146-400o400o1-MxPhATdRSQ1s9yXEbkJCaZ.png",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "932498",
-        "Title": "What We Learned from Using LLMs in Pinterest Search",
-        "Description": "Pinterest Search integrates Large Language Models (LLMs) to enhance relevance scoring by combining search queries with rich multimodal content, including visual captions, link-based text, and user curation signals. A semi-supervised learning framework enables scaling to large and multilingual datasets, going beyond English and limited human labels. These LLM-driven models are distilled into efficient architectures for real-time serving, with experimental validation and large-scale deployment demonstrating substantial improvements in search relevance for Pinterest users worldwide.",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "RecSys",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "a834abf6-7c03-4b20-89f6-46f826954443",
-    "Name": "Han Wang",
-    "Company": "Pinterest, Inc",
-    "Company Domain": "pinterest.com",
-    "Company URL": "https://newsroom.pinterest.com/company/",
-    "Company Website": "",
-    "Title": "Machine Learning Engineer",
-    "TagLine": "Pinterest, Machine Learning Engineer",
-    "Bio": "Han Wang is a Machine Learning Engineer at Pinterest, where she focuses on advancing search ranking and relevance. Her recent work leverages LLMs to improve the search relevance model at Pinterest, leading to improved overall relevance within the search feed and a better user experience. Before joining Pinterest, she earned her PhD in Statistics from North Carolina State University, where her research focused on reinforcement learning and missing data methodologies. ",
-    "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/han-wang-2626a713a/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/fcf8-400o400o1-7bRVVQbnRw2A6sZDp3BEN5.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "932498",
-        "Title": "What We Learned from Using LLMs in Pinterest Search",
-        "Description": "Pinterest Search integrates Large Language Models (LLMs) to enhance relevance scoring by combining search queries with rich multimodal content, including visual captions, link-based text, and user curation signals. A semi-supervised learning framework enables scaling to large and multilingual datasets, going beyond English and limited human labels. These LLM-driven models are distilled into efficient architectures for real-time serving, with experimental validation and large-scale deployment demonstrating substantial improvements in search relevance for Pinterest users worldwide.",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "RecSys",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "53f93fd4-a3dc-4047-892a-ae2db2f3c173",
-    "Name": "Yesu Feng",
-    "Company": "Netflix",
-    "Company Domain": "netflix.com",
-    "Company URL": "netflix.com",
-    "Company Website": "",
-    "Title": "Staff Research Scientist/Engineer",
-    "TagLine": "Netflix, Staff Research Scientist",
-    "Bio": "Yesu Feng is a staff research scientist/engineer at Netflix, his work focused on generative foundation models for personalized recommendation. Before Netflix, he was at Linkedin and later Uber, worked on homepage feed and marketplace optimization, respectively.  ",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/d78c-400o400o1-Pyxn2ShL4g2YCAx7BJDYBb.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "932583",
-        "Title": "One model to rule recommendations: Netflix's Big Bet",
-        "Description": "Discuss the foundation model strategy for personalization at Netflix based on this post https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39 and recent developments. ",
-        "Format": "Talk",
-        "Level": "Expert",
-        "Scope": "Technical deep dive",
-        "Tracks": "RecSys",
         "Room": "",
         "Scheduled At": ""
       }
@@ -804,7 +329,7 @@
     "Company Domain": "daily.co",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Engineer",
+    "Title": "Real-time Communication Engineer",
     "TagLine": "Member of Technical Staff, Daily",
     "Bio": "Chad Bailey started his career testing software for the Space Shuttle. After many years of building web apps, he's spent the last several working on real-time communication at Daily. Most recently, he's been building the Pipecat framework, and a series of increasingly ridiculous voice bots to show it off.",
     "X (Twitter)": "",
@@ -920,7 +445,7 @@
     "Company Domain": "baseten.co",
     "Company URL": "https://www.baseten.co/",
     "Company Website": "https://baseten.co",
-    "Title": "Head of Developer Relations",
+    "Title": "Lead, Developer Relations",
     "TagLine": "Head of Developer Relations",
     "Bio": "Philip Kiely leads Developer Relations at Baseten. Prior to joining Baseten in 2022, he worked across software engineering and technical writing for a variety of startups. Outside of work, you'll find Philip practicing martial arts, reading a new book, or cheering for his adopted bay area sports teams.",
     "X (Twitter)": "https://twitter.com/philip_kiely",
@@ -986,7 +511,7 @@
     "Speaker ID": "dd411263-9e2b-4674-8af8-1414e13312b1",
     "Name": "Arjun Desai",
     "Company": "Cartesia",
-    "Company Domain": "cartesia.ai",
+    "Company Domain": "cartesia.com",
     "Company URL": "",
     "Company Website": "",
     "Title": "CTO and co-founder",
@@ -1099,19 +624,19 @@
     ]
   },
   {
-    "Speaker ID": "28f92a67-eeb8-4b93-b73d-f489577e8bf4",
+    "Speaker ID": "eab9687f-57c7-4e80-9c2b-23d8b1d30264",
     "Name": "Chris Hernandez",
     "Company": "Chime",
     "Company Domain": "chime.com",
-    "Company URL": "",
+    "Company URL": "chime.com",
     "Company Website": "",
     "Title": "Manager of AI Speech Analytics",
     "TagLine": "Manager of AI Speech Analytics at Chime",
     "Bio": "I’m a Manager of Speech Analytics at Chime, where I lead a team in developing and implementing AI-powered insights to enhance member experiences and operational efficiency. With over a decade of experience in leadership, AI, and machine learning, I specialize in designing and scaling AI solutions that drive measurable impact.\r\n\r\nAt Chime, we believe that everyone can feel good about their money. We’re proud to be the most loved banking app™, providing millions of members with transparent, easy-to-use tools that help them unlock financial progress. By leveraging AI, my team helps uncover insights that improve quality, efficiency, and overall member satisfaction.\r\n\r\nI joined Chime because of its mission and the opportunity to work alongside an incredible team focused on innovation. I’m excited about the future as we continue to push the boundaries of AI-driven quality solutions—and we’re just getting started! 🚀\r\n\r\n**The views and opinions expressed here are my own and do not necessarily reflect the official policy or position of Chime.**",
     "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/chrishernandezz/",
+    "LinkedIn": "",
     "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/7a9d-400o400o1-K3HbWLnDZxYVn3w4dd77WK.png",
+    "Profile Picture": "https://sessionize.com/image/3dbc-400o400o1-Tw1PisYeoSd8nXXKdo1xtV.png",
     "Session Count": 1,
     "Sessions": [
       {
@@ -1160,7 +685,7 @@
     "Speaker ID": "03a546b2-ff3e-4fc5-8fe2-0c29c95f1953",
     "Name": "Kshitij  Grover",
     "Company": "Orb",
-    "Company Domain": "orb.io",
+    "Company Domain": "orb.com",
     "Company URL": "",
     "Company Website": "",
     "Title": "Co-Founder and CTO",
@@ -1392,7 +917,7 @@
     "Speaker ID": "415efc97-c2d6-431b-9712-b990158280dc",
     "Name": "Charles Frye",
     "Company": "Modal Labs",
-    "Company Domain": "modallabs.com",
+    "Company Domain": "modal.com",
     "Company URL": "",
     "Company Website": "",
     "Title": "Educator and Evangelist",
@@ -1412,35 +937,6 @@
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
         "Tracks": "AI in Action, Infrastructure",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "831c2f4f-7b86-431b-a943-24aea281cbf5",
-    "Name": "Hamed Firooz",
-    "Company": "LinkedIn",
-    "Company Domain": "gmail.com",
-    "Company URL": "LinkedIn.com",
-    "Company Website": "",
-    "Title": "Principal AI Scientist",
-    "TagLine": "Principal Scientist -- LinkedIn Core AI",
-    "Bio": "Principal AI Scientist at LinkedIn Core AI. With 15 years in large-scale AI, Hamed leads the 50-person team behind LinkedIn’s 150-billion-parameter foundation model that personalizes the experience for hundreds of millions of members. Before LinkedIn, he led multimodal Content Understanding model at Meta AI that handle tens of billions of daily requests. His work spans open-source projects like Hateful Memes benchmark dataset and papers at venues such as NeurIPS and ICML.",
-    "X (Twitter)": "https://x.com/mamhamed",
-    "LinkedIn": "https://www.linkedin.com/in/hamed-firooz-0760a527/",
-    "Blog": "https://firooz.us",
-    "Profile Picture": "https://sessionize.com/image/4f00-400o400o1-3Dy56BMK7VEPVrhPPZ8RFf.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936205",
-        "Title": "360Brew LLM-based Foundation Model for Personalized Ranking and Recommendation",
-        "Description": "We will give a talk about our journey of building a foundation model for solving ranking and recommendation tasks across LinkedIn platform",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "RecSys",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1540,7 +1036,7 @@
     "Company Domain": "zhyncs.com",
     "Company URL": "https://www.baseten.co",
     "Company Website": "https://www.baseten.co",
-    "Title": "Software Engineer",
+    "Title": "Software Engineer, Model Performance Team",
     "TagLine": "Inference lead at SGLang",
     "Bio": "Yineng Zhang is a Software Engineer at Baseten Model Performance team. He is also a core developer of the SGLang project.",
     "X (Twitter)": "https://x.com/zhyncs42",
@@ -1754,7 +1250,7 @@
     "Company Domain": "xeraa.net",
     "Company URL": "",
     "Company Website": "https://www.elastic.co",
-    "Title": "Developer Relations Lead",
+    "Title": "Head of Developer Relations",
     "TagLine": "Code and conference monkey",
     "Bio": "Philipp leads Developer Relations at Elastic — the company behind the Elasticsearch, Kibana, Beats, and Logstash. Based in San Francisco, he lives to demo interesting technology and solve challenging problems — all with a smile and a terminal window.",
     "X (Twitter)": "https://twitter.com/xeraa",
@@ -1866,11 +1362,11 @@
   {
     "Speaker ID": "fa7aeb1e-2489-4c86-a0f3-13697cb4d20b",
     "Name": "Sarah Guo",
-    "Company": "Conviction",
-    "Company Domain": "conviction.com",
+    "Company": "a16z",
+    "Company Domain": "a16z.com",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Keynote Speaker",
+    "Title": "General Partner",
     "TagLine": "",
     "Bio": "",
     "X (Twitter)": "",
@@ -2073,7 +1569,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "huxe.com",
     "Company Website": "",
-    "Title": "Founder",
+    "Title": "Founder and Product Leader",
     "TagLine": "CEO & Co-Founder Huxe || Previously NotebookLM",
     "Bio": "A product leader with a unique lens on AI's user experience challenges, Raiza brings insights from both big tech and startup trenches. \r\n\r\nMost recently leading Google's NotebookLM team, she has shaped how millions of users interact with generative AI. Now, as a founder, she is reimagining these experiences from first principles. \r\n\r\nWith years of hands-on PM experience guiding technical teams through the practical realities of shipping AI products, Raiza offers a rare combination of enterprise-scale perspective and startup-speed execution.",
     "X (Twitter)": "https://x.com/raizamrtn",
@@ -2092,6 +1588,46 @@
         "Tracks": "AI Product Management",
         "Room": "Foothill G 1&2: Product Management",
         "Scheduled At": "4 Jun 2025 11:15 AM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "779d4c60-5b5f-4fed-8ef9-ce0ae17118a5",
+    "Name": "Jerome Swannack",
+    "Company": "Anthropic",
+    "Company Domain": "anthropic.com",
+    "Company URL": "https://www.anthropic.com/",
+    "Company Website": "https://www.anthropic.com/",
+    "Title": "MCP Team Member",
+    "TagLine": "Anthropic, MCP Team",
+    "Bio": "[PLACEHOLDER]",
+    "X (Twitter)": "https://x.com/jeromeswannack",
+    "LinkedIn": "https://www.linkedin.com/in/jerome-swannack-1ba18173/",
+    "Blog": "https://www.jeromeswannack.com/",
+    "Profile Picture": "https://sessionize.com/image/495b-400o400o1-9jSKoLHfBgyuTQLzF5RoNR.png",
+    "Session Count": 2,
+    "Sessions": [
+      {
+        "Session ID": "927452",
+        "Title": "[Placeholder] MCP Origins",
+        "Description": "Early prototypes and demos from inside anthropic that have guided our thinking around MCP",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Case Study/War Story",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
+        "Scheduled At": "4 Jun 2025 11:15 AM"
+      },
+      {
+        "Session ID": "927453",
+        "Title": "[PLACEHOLDER] Anthropic MCP team talk 2",
+        "Description": "PLACEHOLDER",
+        "Format": "Talk",
+        "Level": "Advanced",
+        "Scope": "Technical deep dive",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
+        "Scheduled At": "4 Jun 2025 11:40 AM"
       }
     ]
   },
@@ -2189,7 +1725,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://www.blackrock.com/corporate",
     "Company Website": "",
-    "Title": "Engineering Team Lead, Studio Compute Platform and Data & AI Acceleration",
+    "Title": "Engineering Team Lead, Studio Compute Platform",
     "TagLine": "Senior Director of Engineering",
     "Bio": "Infant Vasanth leads the engineering team responsible for the Studio Compute Platform, BlackRock's analytics and automation platform that enables our users to conduct research & analysis, run automations and distribute research at scale.\r\nIn addition, Infant is also leading the Data & AI Acceleration team focusing on efforts to enhance Aladdin Studio's AI capabilities along side the Operational AI capabilities(prospectus analyzer, operational agents etc.)",
     "X (Twitter)": "",
@@ -2215,7 +1751,7 @@
     "Speaker ID": "1f442afe-45ef-48c0-9782-5a5267729d06",
     "Name": "Dr. Jasper Zhang, PhD",
     "Company": "Hyperbolic",
-    "Company Domain": "hyperbolic.io",
+    "Company Domain": "hyperbolic.ai",
     "Company URL": "",
     "Company Website": "https://hyperbolic.xyz/",
     "Title": "CEO and Co-founder",
@@ -2363,7 +1899,7 @@
     "Company Domain": "oleve.co",
     "Company URL": "https://www.oleve.co/",
     "Company Website": "https://www.oleve.co/",
-    "Title": "Co-founder and Head of Platform",
+    "Title": "Co-founder and Head of AI Platform",
     "TagLine": "Co-Founder",
     "Bio": "Sid Bendre is the co-founder of Oleve, a company building a portfolio of iconic consumer software across multiple verticals. With a lean team, Oleve has already launched two virally successful consumer AI products that have amassed over 250 million views across social media platforms. One of their products reached #4 on the App Store's Education charts in 2024 and #5 in 2025, competing alongside giants like Photomath (Google) and Duolingo. Backed by Neo, Cal Henderson (co-founder of Slack), Russell Kaplan (President of Cognition), and Maria Zhang (ex-CTO of Tinder), Oleve is building the AI infrastructure to run a $1B portfolio of consumer software over the next decade. At Oleve, Sid leads technical and AI efforts, running the “Platform” team responsible for the underlying AI infrastructure that powers their lean scaling approach. Before Oleve, Sid led AI experimentation efforts at a startup hedge fund and worked at Slack, Zendesk, and Microsoft.",
     "X (Twitter)": "https://x.com/SidBendre",
@@ -2421,7 +1957,7 @@
     "Company Domain": "together.ai",
     "Company URL": "https://www.together.ai/",
     "Company Website": "https://www.together.ai/",
-    "Title": "Lead, Developer Relations",
+    "Title": "Head of Developer Relations",
     "TagLine": "DevRel lead ",
     "Bio": "Hassan El Mghari is a software engineer based in New York specializing in building full-stack AI applications. His AI applications have a combined user base of over 3 million. He currently leads the developer relations team at Together.ai, where his work includes building example AI apps, creating content, and educating developers on AI development.",
     "X (Twitter)": "https://twitter.com/nutlope",
@@ -2468,6 +2004,35 @@
         "Scope": "Technical deep dive",
         "Tracks": "Agent Reliability",
         "Room": "Foothill C: Agent Reliability",
+        "Scheduled At": "4 Jun 2025 12:05 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "979f5c8a-93fc-406a-aaea-5bab9ca54c8d",
+    "Name": "Harald Kirschner",
+    "Company": "Microsoft",
+    "Company Domain": "microsoft.com",
+    "Company URL": "",
+    "Company Website": "https://code.visualstudio.com/",
+    "Title": "Principal Product Manager",
+    "TagLine": "VS Code Team Member",
+    "Bio": "I'm Harald Kirschner, a Principal Product Manager at Microsoft working on Visual Studio Code and GitHub Copilot, supporting over 40 million active developers code faster and more efficiently across virtually any programming language. Before Microsoft, I led Developer Experience at Mozilla, where I led Firefox DevTools and helped deliver Firefox Quantum, which doubled browser performance. My background in software engineering, including early work on MooTools, gives me hands-on insight into the challenges developers face daily. When I'm not working, I enjoy hiking California's coastal trails and experimenting with generative art. As a speaker at the AI Engineer Summit, I'm excited to share insights from our work on AI coding tools and Model Context Protocol to help developers achieve flow state even in complex environments.",
+    "X (Twitter)": "https://x.com/digitarald",
+    "LinkedIn": "https://www.linkedin.com/in/digitarald",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/b3aa-400o400o1-QY9ZDq5tRjNCVFZg4W6j3h.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "914489",
+        "Title": "Full Spectrum MCP: Uncovering Hidden Servers and Clients Capabilities",
+        "Description": "The true power of Model Context Protocol emerges when clients and servers collaborate across the full spectrum of the specification. This talk presents practical examples of how VS Code's comprehensive implementation of MCP transforms the capabilities of AI assistants, making them more contextual, efficient, and user-friendly. We'll showcase advanced features like dynamic tool discovery and workspace-aware roots, demonstrating how they create experiences impossible with standard tools integrations while confronting the reality gap between MCP's theoretical potential and practical implementation challenges.",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
         "Scheduled At": "4 Jun 2025 12:05 PM"
       }
     ]
@@ -2618,35 +2183,6 @@
     ]
   },
   {
-    "Speaker ID": "2cd31242-f8a9-46fd-8090-6965d08643c5",
-    "Name": "Matthew Hertz",
-    "Company": "Man Group",
-    "Company Domain": "mehertz.com",
-    "Company URL": "https://man.com/",
-    "Company Website": "https://man.com",
-    "Title": "Head of Machine Learning Technology",
-    "TagLine": "Head of Machine Learning Technology",
-    "Bio": "https://www.man.com/matthew-hertz\r\n\r\n(See speaker pitch for more info as well)\r\n\r\nMatthew Hertz leads the Machine Learning Technology team at Man Group. This team is responsible for the integration of generative AI throughout the firm and the development and maintenance of the front office machine learning platform.\r\n\r\nPrior to this, Matthew was the Head of Engineering for ArcticDB, a high-performance data-frame database optimised for time-series data. Matthew has been building data-driven technology platforms within firms in the financial services industry since 2015.\r\n\r\nMatthew holds a master’s degree in computer science from the University of Southampton.\r\n\r\n",
-    "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/matthew-hertz-2aba0aa4/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/160a-400o400o1-3ba3cWjqyueeHxpX17pu1k.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "915273",
-        "Title": "Quantitative Research in the era of Agentic AI",
-        "Description": "Agents and vibe coding have already disrupted software engineering, but what about domains such as systematic quant trading? Can we build an agent to help find alpha - and ultimately to predict the future of financial markets?\r\n\r\nIn this talk, we'll walk you through the journey of creating and deploying the Alpha Assistant - a semi-autonomous research coding agent (\"outer loop\") specifically designed for Man Group's Quantitative Research teams.\r\n\r\nLearn about what goes into building a domain-specific coding agent in a niche, technical, and scientific domain. We'll touch on key themes such as agentic interface design (and why we moved *away* from a Claude Code-esque CLI interface), what we've learnt applying the \"bitter lesson for agents\", and what full autonomy for quant research might look like. ",
-        "Format": "Talk",
-        "Level": "Advanced",
-        "Scope": "Case Study/War Story",
-        "Tracks": "AI in Fortune 500",
-        "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
-        "Scheduled At": "4 Jun 2025 12:05 PM"
-      }
-    ]
-  },
-  {
     "Speaker ID": "217586b5-d1f3-4c69-8f8f-774e76a06602",
     "Name": "Amir Haghighat",
     "Company": "Baseten",
@@ -2672,6 +2208,93 @@
         "Tracks": "AI in Fortune 500",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "4 Jun 2025 12:05 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "b47f46a4-b920-4f97-aeaa-689185733e73",
+    "Name": "Mukuntha Narayanan",
+    "Company": "Pinterest, Inc.",
+    "Company Domain": "pinterest.com",
+    "Company URL": "www.pinterest.com",
+    "Company Website": "",
+    "Title": "Machine Learning Engineer",
+    "TagLine": "Machine Learning Engineer",
+    "Bio": "Mukuntha Narayanan is a Machine Learning Engineer at Pinterest, where he focuses on leveraging large language models to advance search relevance. Mukuntha’s background includes a Master’s in Machine Learning from Carnegie Mellon University, industry roles in developing robust language models at Observe.AI, and published research on both language and vision tasks at top venues like TPAMI, EMNLP-BlackboxNLP, and Interspeech. He is passionate about building scalable language technologies that shape how people discover and connect with information.",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/mukuntha-n-s",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/9146-400o400o1-MxPhATdRSQ1s9yXEbkJCaZ.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "932498",
+        "Title": "What We Learned from Using LLMs in Pinterest Search",
+        "Description": "Pinterest Search integrates Large Language Models (LLMs) to enhance relevance scoring by combining search queries with rich multimodal content, including visual captions, link-based text, and user curation signals. A semi-supervised learning framework enables scaling to large and multilingual datasets, going beyond English and limited human labels. These LLM-driven models are distilled into efficient architectures for real-time serving, with experimental validation and large-scale deployment demonstrating substantial improvements in search relevance for Pinterest users worldwide.",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "RecSys",
+        "Room": "Golden Gate Ballroom A: LLM RecSys",
+        "Scheduled At": "4 Jun 2025 12:05 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "a834abf6-7c03-4b20-89f6-46f826954443",
+    "Name": "Han Wang",
+    "Company": "Pinterest, Inc",
+    "Company Domain": "pinterest.com",
+    "Company URL": "https://newsroom.pinterest.com/company/",
+    "Company Website": "",
+    "Title": "Machine Learning Engineer",
+    "TagLine": "Pinterest, Machine Learning Engineer",
+    "Bio": "Han Wang is a Machine Learning Engineer at Pinterest, where she focuses on advancing search ranking and relevance. Her recent work leverages LLMs to improve the search relevance model at Pinterest, leading to improved overall relevance within the search feed and a better user experience. Before joining Pinterest, she earned her PhD in Statistics from North Carolina State University, where her research focused on reinforcement learning and missing data methodologies. ",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/han-wang-2626a713a/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/fcf8-400o400o1-7bRVVQbnRw2A6sZDp3BEN5.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "932498",
+        "Title": "What We Learned from Using LLMs in Pinterest Search",
+        "Description": "Pinterest Search integrates Large Language Models (LLMs) to enhance relevance scoring by combining search queries with rich multimodal content, including visual captions, link-based text, and user curation signals. A semi-supervised learning framework enables scaling to large and multilingual datasets, going beyond English and limited human labels. These LLM-driven models are distilled into efficient architectures for real-time serving, with experimental validation and large-scale deployment demonstrating substantial improvements in search relevance for Pinterest users worldwide.",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "RecSys",
+        "Room": "Golden Gate Ballroom A: LLM RecSys",
+        "Scheduled At": "4 Jun 2025 12:05 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "bb2ab6f3-c148-4f33-b1c8-da2ecdc1b6c7",
+    "Name": "Samuel Colvin",
+    "Company": "Pydantic Inc.",
+    "Company Domain": "pydantic.dev",
+    "Company URL": "",
+    "Company Website": "https://pydantic.dev/",
+    "Title": "Founder",
+    "TagLine": "Founder of Pydantic",
+    "Bio": "Samuel Colvin is a Python and Rust developer, and Founder of Pydantic Inc., backed by Sequoia to build Pydantic Logfire (AI observability) and PydanticAI (production grade Agent Framework).\r\n\r\n The Pydantic library, which he created in 2017, is downloaded over 300M times per month and is a core component of virtually every GenAI Python library (both provider SDKs and agent frameworks).",
+    "X (Twitter)": "https://x.com/samuel_colvin",
+    "LinkedIn": "https://www.linkedin.com/in/samuel-colvin/",
+    "Blog": "https://github.com/samuelcolvin",
+    "Profile Picture": "https://sessionize.com/image/bbf4-400o400o1-Y9XzjuwEQJkVe5LdLiuGmB.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "911925",
+        "Title": "MCP is all you need",
+        "Description": "Everyone is talking about agents, and right after that, they’re talking about agent-to-agent communications. Not surprisingly, various nascent, competing protocols are popping up to handle it.\r\n\r\nBut maybe all we need is MCP — the OG of GenAI communication protocols (it's from way back in 2024!).\r\n\r\nLast year, Jason Liu gave the second most watched AIE talk — “Pydantic is all you need”.\r\n\r\nThis year, I (the creator of Pydantic) am continuing the tradition by arguing that MCP might be all we need for agent-to-agent communications.\r\n\r\nWhat I’ll cover:\r\n\r\n- Misusing Common Patterns: MCP was designed for desktop/IDE applications like Claude Code and Cursor. How can we adapt MCP for autonomous agents?\r\n- Many Common Problems: MCP is great, but what can go wrong? How can you work around it? Can the protocol be extended to solve these issues?\r\n- Monitoring Complex Phenomena: How does observability work (and not work) with MCP?\r\n- Multiple Competing Protocols: A quick run-through of other agent communication protocols like A2A and AGNTCY, and probably a few more by June 😴\r\n- Massive Crustaceans Party: What might success look like if everything goes to plan?",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
+        "Scheduled At": "4 Jun 2025 02:00 PM"
       }
     ]
   },
@@ -2966,6 +2589,64 @@
     ]
   },
   {
+    "Speaker ID": "7caad073-31e6-4fac-b598-3d8f2262fad2",
+    "Name": "Tom Shapland, PhD",
+    "Company": "LiveKit",
+    "Company Domain": "livekit.io",
+    "Company URL": "https://livekit.io/",
+    "Company Website": "https://livekit.io/",
+    "Title": "Product Manager",
+    "TagLine": "Product Manager",
+    "Bio": "Tom Shapland, PhD, is a Product Manager at LiveKit. LiveKit is an open source platform for building, deploying, and scaling realtime multimodal agents. He's passionate about the multimodal future of human-computer interfaces. Before LiveKit, he was the cofounder of a Voice AI observability platform (Canonical AI) and an agriculture technology startup (Tule, YC S14). He lives in the East Bay and coaches lacrosse for his two kids. ",
+    "X (Twitter)": "https://x.com/tom_shapland",
+    "LinkedIn": "https://www.linkedin.com/in/tom-shapland-b4494212/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/65a4-400o400o1-GmcsnSyyVoxcnDgAUP1AMp.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "932493",
+        "Title": "Why ChatGPT Keeps Interrupting You",
+        "Description": "ChatGPT Advanced Voice Mode isn’t interrupting just you. Interruptions, and turn-taking in general, are unsolved problems for all Voice AI agents. Nobody likes being cut short – and people have much less patience for machines than they do for other humans. Turn-taking failures take many forms (e.g., the agent interrupts the user, the agent mistakes a cough for an interruption), and all of them lead to users immediately hanging up the phone.\r\n\r\nIn this talk, we use human conversation as a framework for understanding both today’s approaches to turn detection and where the field is headed. You’ll learn about how linguists think about turn detection in human dialogue, what’s working (and what’s broken) in current methods, and how we might build Voice AIs that interrupt you less than your human brother. ",
+        "Format": "Talk",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "Voice",
+        "Room": "Foothill E: Voice",
+        "Scheduled At": "4 Jun 2025 02:00 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "831c2f4f-7b86-431b-a943-24aea281cbf5",
+    "Name": "Hamed Firooz",
+    "Company": "LinkedIn",
+    "Company Domain": "gmail.com",
+    "Company URL": "LinkedIn.com",
+    "Company Website": "",
+    "Title": "Principal AI Scientist",
+    "TagLine": "Principal Scientist -- LinkedIn Core AI",
+    "Bio": "Principal AI Scientist at LinkedIn Core AI. With 15 years in large-scale AI, Hamed leads the 50-person team behind LinkedIn’s 150-billion-parameter foundation model that personalizes the experience for hundreds of millions of members. Before LinkedIn, he led multimodal Content Understanding model at Meta AI that handle tens of billions of daily requests. His work spans open-source projects like Hateful Memes benchmark dataset and papers at venues such as NeurIPS and ICML.",
+    "X (Twitter)": "https://x.com/mamhamed",
+    "LinkedIn": "https://www.linkedin.com/in/hamed-firooz-0760a527/",
+    "Blog": "https://firooz.us",
+    "Profile Picture": "https://sessionize.com/image/02c0-400o400o1-Jjfpg2wgwWtTkbaJFZEzv6.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936205",
+        "Title": "360Brew LLM-based Foundation Model for Personalized Ranking and Recommendation",
+        "Description": "We will give a talk about our journey of building a foundation model for solving ranking and recommendation tasks across LinkedIn platform",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "RecSys",
+        "Room": "Golden Gate Ballroom A: LLM RecSys",
+        "Scheduled At": "4 Jun 2025 02:00 PM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "b739c7b1-589c-4479-857b-7bbf1fca41b8",
     "Name": "Denys Linkov",
     "Company": "Wisedocs",
@@ -3048,6 +2729,93 @@
         "Scope": "Technical deep dive",
         "Tracks": "AI in Fortune 500",
         "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
+        "Scheduled At": "4 Jun 2025 02:25 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "e770d774-d3ce-487e-b76e-ec767ab4b0e3",
+    "Name": "Alex Volkov",
+    "Company": "Weights & Biases",
+    "Company Domain": "gmail.com",
+    "Company URL": "https://wandb.ai/",
+    "Company Website": "https://wandb.ai",
+    "Title": "AI Evangelist",
+    "TagLine": "AI Evangelist",
+    "Bio": "Alex Volkov is an AI Evangelist at Weights & Biases as well as the founder and host of ThursdAI, a weekly newsletter and podcast that explores the latest innovations in AI, their practical applications, and the open-source AI community. Alex is an AI startup founder with 20 years of full-stack software engineering experience, offering a deep well of insights into AI innovation. He’s celebrated for his ability to clarify and summarize the complexities of the rapid AI advances and advocating for its beneficial uses.",
+    "X (Twitter)": "https://x.com/altryne",
+    "LinkedIn": "",
+    "Blog": "https://sub.thursdai.news",
+    "Profile Picture": "https://sessionize.com/image/b6dc-400o400o1-n42m8vkZMc2L1ZmuTGD5JD.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "915013",
+        "Title": "Observable tools - the state of MCP observability",
+        "Description": "AI Engineers deserve observable tools! \r\n\r\nMCP getting adoption means that less and less of your agents code is running under your control, and this has DX and observability challenges, let's fix that! \r\n\r\nJoin Alex Volkov from Weights & Biases and Steve Manual from mcp.run on this recap of the current state of MCP observability, including the observable.tools initiative, a recap of where the field stands and what to look forward to + a practical example of MCP tool usage evaluation framework from mcp.run! ",
+        "Format": "Talk",
+        "Level": "Expert",
+        "Scope": "Technical deep dive",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
+        "Scheduled At": "4 Jun 2025 02:25 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "ea8c6f3b-982d-4ac8-8a1b-08e569262e93",
+    "Name": "Steve Manuel",
+    "Company": "Dylibso",
+    "Company Domain": "dylibso.com",
+    "Company URL": "https://dylibso.com/",
+    "Company Website": "https://dylibso.com",
+    "Title": "Co-founder & CEO",
+    "TagLine": "CEO",
+    "Bio": "Steve is the co-founder & CEO of Dylibso, creators of mcp.run. He is an entrepreneur, programmer, guitarist, and general tinkerer. He has been taking things apart and putting them back together since before he can remember… his first words were, “phillips” and “flathead”.",
+    "X (Twitter)": "https://x.com/nilslice",
+    "LinkedIn": "https://linkedin.com/in/stevemanuel",
+    "Blog": "https://docs.mcp.run/blog",
+    "Profile Picture": "https://sessionize.com/image/de67-400o400o1-LvvRAywopMF9HRKLyGKJKh.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "915013",
+        "Title": "Observable tools - the state of MCP observability",
+        "Description": "AI Engineers deserve observable tools! \r\n\r\nMCP getting adoption means that less and less of your agents code is running under your control, and this has DX and observability challenges, let's fix that! \r\n\r\nJoin Alex Volkov from Weights & Biases and Steve Manual from mcp.run on this recap of the current state of MCP observability, including the observable.tools initiative, a recap of where the field stands and what to look forward to + a practical example of MCP tool usage evaluation framework from mcp.run! ",
+        "Format": "Talk",
+        "Level": "Expert",
+        "Scope": "Technical deep dive",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
+        "Scheduled At": "4 Jun 2025 02:25 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "6af0adad-3637-4d37-a604-570e28f53773",
+    "Name": "Benjamin Eckel",
+    "Company": "Dylibso",
+    "Company Domain": "dylibso.com",
+    "Company URL": "https://www.mcp.run/",
+    "Company Website": "https://dylibso.com/",
+    "Title": "Co-founder and CTO",
+    "TagLine": "Co-Founder of Dylibso",
+    "Bio": "Benjamin has over a decade of experience as a software engineer and is the co-founder and CTO of Dylibso. He previously led DX at Recurly and worked on integrations and edge observability at Datadog.",
+    "X (Twitter)": "https://twitter.com/bhelx",
+    "LinkedIn": "https://www.linkedin.com/in/benjamin-eckel-b025831a3/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/7fc5-400o400o1-sjzbuhKVSFiePoYuFoAtfo.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "915013",
+        "Title": "Observable tools - the state of MCP observability",
+        "Description": "AI Engineers deserve observable tools! \r\n\r\nMCP getting adoption means that less and less of your agents code is running under your control, and this has DX and observability challenges, let's fix that! \r\n\r\nJoin Alex Volkov from Weights & Biases and Steve Manual from mcp.run on this recap of the current state of MCP observability, including the observable.tools initiative, a recap of where the field stands and what to look forward to + a practical example of MCP tool usage evaluation framework from mcp.run! ",
+        "Format": "Talk",
+        "Level": "Expert",
+        "Scope": "Technical deep dive",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
         "Scheduled At": "4 Jun 2025 02:25 PM"
       }
     ]
@@ -3143,7 +2911,7 @@
     "Speaker ID": "4d8f9ca5-846a-4577-a858-944d5047f16d",
     "Name": "Jordan Dearsley",
     "Company": "Vapi",
-    "Company Domain": "vapi.com",
+    "Company Domain": "vapi.ai",
     "Company URL": "https://vapi.ai/",
     "Company Website": "https://vapi.ai/",
     "Title": "Co-founder and CEO",
@@ -3164,6 +2932,35 @@
         "Scope": "Introductory (landscape)",
         "Tracks": "Voice",
         "Room": "Foothill E: Voice",
+        "Scheduled At": "4 Jun 2025 02:25 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "53f93fd4-a3dc-4047-892a-ae2db2f3c173",
+    "Name": "Yesu Feng",
+    "Company": "Netflix",
+    "Company Domain": "netflix.com",
+    "Company URL": "netflix.com",
+    "Company Website": "",
+    "Title": "Staff Research Scientist/Engineer",
+    "TagLine": "Netflix, Staff Research Scientist",
+    "Bio": "Yesu Feng is a staff research scientist/engineer at Netflix, his work focused on generative foundation models for personalized recommendation. Before Netflix, he was at Linkedin and later Uber, worked on homepage feed and marketplace optimization, respectively.  ",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/d78c-400o400o1-Pyxn2ShL4g2YCAx7BJDYBb.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "932583",
+        "Title": "One model to rule recommendations: Netflix's Big Bet",
+        "Description": "Discuss the foundation model strategy for personalization at Netflix based on this post https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39 and recent developments. ",
+        "Format": "Talk",
+        "Level": "Expert",
+        "Scope": "Technical deep dive",
+        "Tracks": "RecSys",
+        "Room": "Golden Gate Ballroom A: LLM RecSys",
         "Scheduled At": "4 Jun 2025 02:25 PM"
       }
     ]
@@ -3204,7 +3001,7 @@
     "Company Domain": "openai.com",
     "Company URL": "https://openai.com/",
     "Company Website": "",
-    "Title": "Customer Solutions Engineer",
+    "Title": "Customer Engineer",
     "TagLine": "Applied AI",
     "Bio": "I'm Anoop Kotha, a member of the OpenAI team that works with our customers to create novel LLM experiences. Previously I was an engineer at Retool. ",
     "X (Twitter)": "",
@@ -3262,7 +3059,7 @@
     "Company Domain": "airockies.com",
     "Company URL": "Workday.com",
     "Company Website": "",
-    "Title": "Principal Product Manager",
+    "Title": "Principal PM",
     "TagLine": "Principal AI Product Manager @ Workday",
     "Bio": "Building and scaling 0-1 products in the enterprise.",
     "X (Twitter)": "",
@@ -3343,6 +3140,35 @@
     ]
   },
   {
+    "Speaker ID": "592da3f8-71f2-4512-83a7-6d429034e3c4",
+    "Name": "Jan Curn",
+    "Company": "Apify",
+    "Company Domain": "apify.com",
+    "Company URL": "https://apify.com/",
+    "Company Website": "https://apify.com/",
+    "Title": "Founder and CEO",
+    "TagLine": "CEO",
+    "Bio": "Jan Curn is the founder and CEO of Apify, a full-stack web scraping and automation platform that powers (not only) AI agents with up-to-date data. He has a lifelong passion for software engineering, which earned him an MSc and PhD in computer science and eventually led him to founding Apify. Jan lives between SF and Prague, is active in the tech community in both cities, organizes meetups, and talks about software, startups, or AI.\r\n",
+    "X (Twitter)": "https://x.com/jancurn",
+    "LinkedIn": "https://www.linkedin.com/in/jancurn/",
+    "Blog": "https://blog.apify.com/author/jancurn/",
+    "Profile Picture": "https://sessionize.com/image/a3e7-400o400o1-E6G56RwwfBTEJPLpBmoVm2.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "926313",
+        "Title": "The rise of the agentic economy on the shoulders of MCP",
+        "Description": "Thanks to MCP and all the MCP server directories, agents can now autonomously discover new tools and other agents. This lays down the foundation for the future agentic economy, where businesses will sell to autonomous agents (B2A) and eventually agents will sell to other agents (A2A).\r\n\r\nBut one key part is still missing: agents do not have a standard way to subscribe to external services and pay for them.\r\n\r\nIn this talk, we’ll show how to give agents full autonomy to discover and pay for new external MCP-enabled services, even if those services don’t support it, using a little-known MCP server nesting capability. We’ll also cover how to monetize AI agents and the B2A/A2A business models.\r\n",
+        "Format": "Talk",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
+        "Scheduled At": "4 Jun 2025 02:50 PM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "41cbc412-cbc2-46dd-bdf5-4cf662ac194a",
     "Name": "Tejaswi Tenneti",
     "Company": "Instacart",
@@ -3396,6 +3222,35 @@
         "Scope": "Technical deep dive",
         "Tracks": "RecSys",
         "Room": "Golden Gate Ballroom A: LLM RecSys",
+        "Scheduled At": "4 Jun 2025 02:50 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "ca0c85d0-179e-481e-8fbd-b6afb70f18dd",
+    "Name": "Peter Bar",
+    "Company": "Intercom",
+    "Company Domain": "intercom.io",
+    "Company URL": "https://www.intercom.com/",
+    "Company Website": "https://www.intercom.com/",
+    "Title": "Product Lead",
+    "TagLine": "Product Lead, Voice AI",
+    "Bio": "I’m Peter Bar, a Product Lead with over 10 years of experience in the tech industry. At Intercom, I’m responsible for Voice AI initiatives and led the development and launch of Fin Voice, our AI voice agent. My background spans both B2B and consumer tech, blending technical depth with strategic product leadership. Before Intercom, I drove growth and customer experience efforts at Deliveroo (food delivery) and worked on music discovery products at Shazam. I hold a Master’s degree in Computer Science from Imperial College London.",
+    "X (Twitter)": "https://x.com/PeterAlexBar",
+    "LinkedIn": "https://www.linkedin.com/in/peterbar/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/3d1b-400o400o1-PDYvtgvYRGbRFtDmb13wfD.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "931123",
+        "Title": "Shipping an Enterprise Voice AI Agent in 100 Days",
+        "Description": "What does it take to go from blank page to live enterprise voice agent in 100 days?\r\n\r\nThat’s the challenge we took on with Fin Voice at Intercom. Enterprise customer service demands high-quality, reliable voice interactions - but delivering that fast means wrestling with tough problems like latency, hallucinations, voice quality, and answer accuracy.\r\n\r\nWe rapidly evaluated and integrated a full voice stack - including transcription, language model, text-to-speech, retrieval-augmented generation, and telephony - while designing tools that fit seamlessly into existing human support workflows.\r\n\r\nIn this session, I’ll share key lessons from our accelerated development of Fin Voice. We'll explore the technical and operational hurdles we faced, the trade-offs we made, and how we built deployment and handover tools that work for customer service teams. You'll leave with insights into building AI-driven voice products that are both powerful and practical.",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Case Study/War Story",
+        "Tracks": "Voice",
+        "Room": "Foothill E: Voice",
         "Scheduled At": "4 Jun 2025 02:50 PM"
       }
     ]
@@ -3491,7 +3346,7 @@
     "Speaker ID": "cfff00f5-73e9-4881-bb4a-b9e34b98b26e",
     "Name": "Gorkem Yurtseven",
     "Company": "fal",
-    "Company Domain": "fal.com",
+    "Company Domain": "fal.ai",
     "Company URL": "https://fal.ai/",
     "Company Website": "",
     "Title": "Co-founder and CTO",
@@ -3523,7 +3378,7 @@
     "Company Domain": "aircoverpr.com",
     "Company URL": "https://www.withorb.com/",
     "Company Website": "https://www.withorb.com/",
-    "Title": "CEO and co-founder",
+    "Title": "CEO and Co-founder",
     "TagLine": "CEO",
     "Bio": "Alvaro Morales is the co-founder and CEO of Orb, a leading billing and monetization platform enabling SaaS and GenAI companies to adopt flexible, usage-based, and outcome-driven pricing models. Since founding Orb in 2021, he has helped businesses transition from traditional seat-based pricing to dynamic, data-driven monetization strategies that scale with customer value. Previously, he led growth engineering at Asana, optimizing pricing and revenue strategies. Morales holds Master’s and Bachelor’s degrees in Computer Science from MIT and has worked at Palantir, Yahoo!, and MIT’s CSAIL. A fintech innovator, he is shaping the future of AI monetization in a usage-based economy.",
     "X (Twitter)": "https://x.com/alvaromorales",
@@ -3691,6 +3546,35 @@
     ]
   },
   {
+    "Speaker ID": "13aa4fa5-29c4-4019-b4e1-ee83caaecb54",
+    "Name": "Jerry Liu",
+    "Company": "LlamaIndex",
+    "Company Domain": "runllama.ai",
+    "Company URL": "llamaindex.ai",
+    "Company Website": "",
+    "Title": "Co-founder/CEO",
+    "TagLine": "CEO",
+    "Bio": "Jerry is the co-founder/CEO of LlamaIndex, the most accurate and flexible way to automate your document workflows with AI agents. Before this, he led the ML monitoring team at Robust Intelligence, did self-driving AI research at Uber ATG and worked on recommendation systems at Quora.",
+    "X (Twitter)": "https://twitter.com/jerryjliu0",
+    "LinkedIn": "https://www.linkedin.com/in/jerry-liu-64390071/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/61b9-400o400o1-3brCmcVKAHmSGaKS6QsZmA.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "925259",
+        "Title": "Building AI Agents that actually automate Knowledge Work",
+        "Description": "Agents are all the rage in 2025, and every single b2b SaaS startup/incumbent promises AI agents that can \"automate work\" in some way. \r\n\r\nBut how do you actually build this? The answer is two fold: \r\n1. really really good tools \r\n2. carefully tailored agent reasoning over these tools that range from assistant-to-automation based UXs.  \r\n\r\nThe main goal of this talk is to a practical overview of agent architectures that can automate real-world work, with a focus on document-centric tasks. Learn the core building blocks of best-in-class \"tools\" around processing, manipulating, and indexing/retrieving PDFs to Excel spreadsheets. Also learn the range of agent architectures suited for different tasks, from chat assistant-based UXs with high human-in-the-loop, to automation UXs that rely on encoding a business process into an end-to-end task solver. These architectures have to be generalizable but also highly accurate as agents get increasingly better at reasoning and code-writing. ",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "Retrieval+Search",
+        "Room": "Golden Gate Ballroom A: Retrieval + Search",
+        "Scheduled At": "5 Jun 2025 11:15 AM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "0526d7d4-e6b6-4fae-a9bc-38f96ba75bd3",
     "Name": "Chang She",
     "Company": "LanceDB",
@@ -3784,7 +3668,7 @@
     "Company Domain": "factory.ai",
     "Company URL": "https://www.factory.ai/",
     "Company Website": "https://www.factory.ai/",
-    "Title": "Co-founder and CTO",
+    "Title": "Cofounder and CTO",
     "TagLine": "CTO",
     "Bio": "Eno Reyes is cofounder and CTO of Factory, a platform that accelerates enterprise software development with autonomous AI agents and unified context from across your engineering tools. Enterprises are using Factory to accelerate everything from bug-fixing and coding to PRD creation, release automation, migrations, and more.\r\n\r\nPrior to Factory, he was an ML engineer at Hugging Face working on enterprise LLMs.",
     "X (Twitter)": "https://x.com/EnoReyes",
@@ -3923,29 +3807,87 @@
     ]
   },
   {
-    "Speaker ID": "34a27f5f-368a-4f4a-8c7b-b0413323e035",
-    "Name": "Alex Duffy",
-    "Company": "Every Inc.",
-    "Company Domain": "every.to",
-    "Company URL": "https://every.to/",
-    "Company Website": "https://every.to/",
-    "Title": "Head of AI Strategy",
-    "TagLine": "Head of AI",
-    "Bio": "I’m Alex Duffy. I lead AI strategy at Every Inc., helping teams across industries put AI into practice. Previously, I co-founded AI Camp, teaching thousands of students to build their own AI projects, and launched Salt AI, creating tools to help researchers, designers, and creators bring ideas to life. I’m passionate about building teams and tools to empower people with AI. I really believe in creating technology that works for us, not that is work for us. ",
-    "X (Twitter)": "https://x.com/alxai_",
-    "LinkedIn": "https://www.linkedin.com/in/alex-d/",
+    "Speaker ID": "0880058d-a4ab-45cd-a57a-912c18d09bd0",
+    "Name": "Adam Behrens",
+    "Company": "New Generation",
+    "Company Domain": "new-gen.ai",
+    "Company URL": "https://www.new-gen.ai/",
+    "Company Website": "https://www.new-gen.ai/",
+    "Title": "Co-founder and CEO",
+    "TagLine": "CEO",
+    "Bio": "Adam Behrens is the co-founder and CEO of a, a company that partners with global brands and merchants to unlock AI native commerce opportunities. New Gen builds infrastructure for brands to host their own conversational AI experiences and to connect their data into 3rd party chat clients like ChatGPT and Claude. Adam previously worked on trading infrastructure at Bridgewater and Banking-as-a-Service at Stripe. Outside of training AI models he is busy training his 8 month old Vizsla puppy.",
+    "X (Twitter)": "https://x.com/etpuisfume",
+    "LinkedIn": "https://www.linkedin.com/in/adam-behrens/",
     "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/6e93-400o400o1-UDESThkaig3MRZVhYqL9r9.png",
+    "Profile Picture": "https://sessionize.com/image/dd9a-400o400o1-aK2KD9ofRRFnkVARmm586d.jpg",
     "Session Count": 1,
     "Sessions": [
       {
-        "Session ID": "915974",
-        "Title": "Benchmarks Are Memes: How What We Measure Shapes AI—and Us",
-        "Description": "Benchmarks shape more than just AI models—they shape our future. The things we choose to measure become self-fulfilling prophecies, guiding AI toward specific abilities and, ultimately, defining humanity’s evolving role in the AI era. Today’s benchmarks have propelled incredible progress, but now we have an exciting opportunity: thoughtfully designing benchmarks around what genuinely matters to us—cooperation, creativity, education, and meaningful human experiences.\r\n\r\nIn this talk, we’ll explore how benchmarks function as powerful cultural memes, influencing not only technical outcomes but societal direction. Drawing on practical examples we have seen at Every consulting in industries like finance, journalism, education, and even personally making AI play diplomacy. We’ll uncover what makes a benchmark impactful, approachable, and inspiring. You’ll see our engaging new AI Diplomacy benchmark demo, illustrating vividly how thoughtful evaluation design can excite both engineers and the wider community.\r\n\r\nYou’ll hopefully walk away inspired and equipped to define benchmarks intentionally, helping steer AI toward outcomes that truly matter.",
+        "Session ID": "914891",
+        "Title": "Machines of Buying & Selling Grace",
+        "Description": "How to go beyond browser automation to truly agentic commerce, where AI can buy, sell and negotiate on behalf of users and merchants.",
         "Format": "Talk",
         "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "AI in Fortune 500",
+        "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
+        "Scheduled At": "5 Jun 2025 11:40 AM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "152141e8-8994-4813-857d-c9dedda1f73f",
+    "Name": "Sahil Yadav",
+    "Company": "TelemeTrak",
+    "Company Domain": "outlook.com",
+    "Company URL": "",
+    "Company Website": "https://telemetrak.com",
+    "Title": "Chief Product Officer",
+    "TagLine": "Chief Product Officer",
+    "Bio": "Sahil Yadav is Chief Product Officer at TelemeTrak, where he leads AI-powered infrastructure platforms for government and industrial clients. He has previously launched AI based network automation platforms at Cisco, AI driven predictive analytics products at GE, and industrial AI safety systems at Guardhat, each used by Fortune 500 firms and mission-critical operations. With 13+ years of experience in AI product management, he specializes in scaling edge/cloud AI, driving enterprise adoption and operationalizing AI trust. His expertise lies in building resilient, AI-driven systems that work where others break, behind firewalls, across compliance borders, and in zero-trust environments.",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/yadavsahil/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/aa4b-400o400o1-PetSwTEPaDhLYGSGW4QQAQ.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "916025",
+        "Title": "CIOs and Industry Leaders: Do You Trust Your AI’s Inferences?",
+        "Description": "Enterprise AI adoption is accelerating, but with it comes a hard question: Do we trust the model’s decisions? In this 18-minute talk, I’ll explore the invisible risks behind automated decision-making in safety-critical and revenue-sensitive environments. Drawing on case studies across manufacturing, telecom, and industrial IoT, I’ll highlight how explainability, traceability, and robust guardrails drive adoption and protect enterprise value.\r\nAttendees will walk away with:\r\n•\tA 3-step framework for operationalizing AI trust\r\n•\tReal-world lessons from building guardrails in on-prem and hybrid systems\r\n•\tTools and techniques for debugging and explaining inferences at scale\r\n•\tA blueprint for building trust between models, engineers, and executive stakeholders",
+        "Format": "Talk",
+        "Level": "Expert",
         "Scope": "Case Study/War Story",
-        "Tracks": "AI Architects",
+        "Tracks": "AI in Fortune 500",
+        "Room": "SOMA: AI Architects",
+        "Scheduled At": "5 Jun 2025 11:40 AM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "1a0174dc-9579-4c49-ace9-af98edbf57ca",
+    "Name": "Hariharan Ganesan",
+    "Company": "TelemeTrak",
+    "Company Domain": "umich.edu",
+    "Company URL": "https://telemetrak.com/",
+    "Company Website": "",
+    "Title": "Senior Solutions Architect",
+    "TagLine": "Sr. Solutions Architect",
+    "Bio": "Hari. Gn is a Sr. Solutions Architect with over 15 years of experience delivering supply-chain solutions for global companies such as Google, Wayfair, and Toyota. He specializes in demand forecasting, inventory optimization, and constraint-driven planning, translating complex analytics into actionable, real-world tools.\r\n\r\nPassionate about practical applications of Explainable AI (XAI), Hari has authored two papers in the Journal of Business Forecasting and regularly shares insights with executive-level stakeholders. He believes in a straightforward, no-nonsense approach to AI: clear, practical, and genuinely usable.",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/harigsn/",
+    "Blog": "https://medium.com/@harign/life-the-universe-and-everything-in-supply-chain-85d0772c79a4",
+    "Profile Picture": "https://sessionize.com/image/5953-400o400o1-JQ5nmny3kR7gDvYpVbNu6B.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "916025",
+        "Title": "CIOs and Industry Leaders: Do You Trust Your AI’s Inferences?",
+        "Description": "Enterprise AI adoption is accelerating, but with it comes a hard question: Do we trust the model’s decisions? In this 18-minute talk, I’ll explore the invisible risks behind automated decision-making in safety-critical and revenue-sensitive environments. Drawing on case studies across manufacturing, telecom, and industrial IoT, I’ll highlight how explainability, traceability, and robust guardrails drive adoption and protect enterprise value.\r\nAttendees will walk away with:\r\n•\tA 3-step framework for operationalizing AI trust\r\n•\tReal-world lessons from building guardrails in on-prem and hybrid systems\r\n•\tTools and techniques for debugging and explaining inferences at scale\r\n•\tA blueprint for building trust between models, engineers, and executive stakeholders",
+        "Format": "Talk",
+        "Level": "Expert",
+        "Scope": "Case Study/War Story",
+        "Tracks": "AI in Fortune 500",
         "Room": "SOMA: AI Architects",
         "Scheduled At": "5 Jun 2025 11:40 AM"
       }
@@ -4168,35 +4110,6 @@
     "LinkedIn": "https://www.linkedin.com/in/ydenisov/",
     "Blog": "",
     "Profile Picture": "https://sessionize.com/image/46bb-400o400o1-Xi3CX4ELMLBFpP6ijXhxub.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "914912",
-        "Title": "Does AI Actually Boost Developer Productivity? (Stanford / 100k Devs Study)",
-        "Description": "Forget vendor hype: Is AI actually boosting developer productivity, or just shifting bottlenecks? Stop guessing.\r\n\r\nOur study at Stanford cuts through the noise, analyzing real-world productivity data from nearly 100,000 developers across hundreds of companies. We reveal the hard numbers: while the average productivity boost is significant (~20%), the reality is complex – some teams even see productivity decrease with AI adoption.\r\n\r\nThe crucial insights lie in why this variance occurs. Discover which company types, industries, and tech stacks achieve dramatic gains versus minimal impact (or worse). Leave with the objective, data-driven evidence needed to build a winning AI strategy tailored to your context, not just follow the trend.\r\n",
-        "Format": "Talk",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "AI Architects",
-        "Room": "SOMA: AI Architects",
-        "Scheduled At": "5 Jun 2025 12:05 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "9dc819a3-58dc-4487-82a6-e178f36d9cec",
-    "Name": "Simon Obstbaum",
-    "Company": "YOPESO",
-    "Company Domain": "obstbaum.eu",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Founder",
-    "TagLine": "Researcher, former CTO @ Crunchyroll",
-    "Bio": "Since 2020 I’ve turned to my passion: researching software engineering productivity. \r\n\r\nBefore this, I served as CTO at Crunchyroll, where I led the engineering team through rapid subscriber and team growth, transitioning from a data center monolith to a microservice-based cloud architecture. Crunchyroll itself was acquired by AT&T/WarnerMedia and later by Sony in a $1.2 billion deal.\r\n\r\nOriginally founded YOPESO in 2005, growing it to hundreds of engineers across the US, Europe, and Asia. ",
-    "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/simonobstbaum/",
-    "Blog": "https://obstbaum.eu",
-    "Profile Picture": "https://sessionize.com/image/a6b0-400o400o1-WcbRBA54BanaXhuFz1HJgf.jpg",
     "Session Count": 1,
     "Sessions": [
       {
@@ -4561,7 +4474,7 @@
     ]
   },
   {
-    "Speaker ID": "ccf69e35-16bc-4f6d-8b5c-79d4b374eb1f",
+    "Speaker ID": "8149d861-c793-4ed8-a471-0d11559758ba",
     "Name": "Josh Albrecht",
     "Company": "Imbue",
     "Company Domain": "imbue.com",
@@ -4570,8 +4483,8 @@
     "Title": "CTO and Co-founder",
     "TagLine": "CTO and Co-founder",
     "Bio": "Josh Albrecht is CTO and Co-founder of Imbue, an AI lab launched in 2022 that has since raised $230M at a $1B valuation to create coding agents that make it easier for more people to write software. Josh is also a partner at angel fund Outset Capital, where he invests in promising pre-seed companies. Previously, Josh founded multiple companies including an AI recruiting startup that went through Y Combinator and a 3D injection molding software company that was acquired. He was also an early engineer at Addepar, served as a Thiel Fellow mentor, and published machine learning research as an academic researcher. ",
-    "X (Twitter)": "https://x.com/joshalbrecht",
-    "LinkedIn": "https://www.linkedin.com/in/joshalbrecht/",
+    "X (Twitter)": "https://twitter.com/joshalbrecht/",
+    "LinkedIn": "https://www.linkedin.com/in/joshalbrecht",
     "Blog": "https://joshalbrecht.com/",
     "Profile Picture": "https://sessionize.com/image/47d9-400o400o1-fhsDJ9SBoUuiAy5EZxX6pZ.jpg",
     "Session Count": 1,
@@ -4683,7 +4596,7 @@
     "Company Domain": "alixpartners.com",
     "Company URL": "https://www.alixpartners.com/our-people/28458/kevin-madura/",
     "Company Website": "https://alixpartners.com",
-    "Title": "Technical Advisory Lead",
+    "Title": "Technical Advisor and Testifying Expert",
     "TagLine": "Director, Advanced Technologies",
     "Bio": "Kevin leads technical advisory engagements and investigations in situations involving complex software, applied AI, and digital assets. As testifying expert and \"translator\" of technical material, he regularly interfaces with executive leadership, legal counsel, regulators, and engineers, balancing deep technical expertise with strategic clarity to drive outcomes.",
     "X (Twitter)": "https://x.com/kmad",
@@ -5002,7 +4915,7 @@
     "Company Domain": "caylent.com",
     "Company URL": "https://caylent.com",
     "Company Website": "https://caylent.com",
-    "Title": "Technology Leader",
+    "Title": "Technology Leader and Investor",
     "TagLine": "CTO at Caylent",
     "Bio": "Randall Hunt is a technology leader, investor, and hands-on keyboard coder based in Los Angeles, CA. Previously, Randall led software and developer relations teams at Facebook, SpaceX, AWS, MongoDB, and NASA. Randall spends most of his time listening to customers, building demos, writing blog posts, and mentoring junior engineers. Python and C++ are his favorite programming languages, but he begrudgingly admits that Javascript rules the world. Outside of work, Randall loves to read science fiction, advise startups, travel, and ski.",
     "X (Twitter)": "https://x.com/jrhunt",
@@ -5013,8 +4926,8 @@
     "Sessions": [
       {
         "Session ID": "925912",
-        "Title": "Embeddings ARE NOT All You Need: Understanding Tradeoffs in Multimodal Search",
-        "Description": "Multimodal search demos show impressive capabilities but understanding how to scale these systems while balancing cost and performance is where things get tricky.\r\n\r\nThrough three real-world implementations from wildlife stock footage to breaking news to sports highlights, I'll demonstrate how HNSW-indexed vector embeddings and more traditional caption-based approaches each excel in different domains. You'll see how querying pooled image embeddings struggle with spatiotemporal relationships that simple JSON tagging handles effortlessly. You'll see how traditional computer vision techniques applied as preprocessing steps enable video understanding models to more accurately answer “was the athlete over this line?”.\r\n\r\nI'll share implementation patterns for these approaches with animated architecture diagrams. We’ll cover why chunking and preprocessing strategies impact both accuracy and index size. By the end of this talk, you'll understand the nuanced technical tradeoffs between embeddings, metadata filtering, and hybrid retrieval for your specific multimodal search challenges. Most importantly, you'll get some real world costs around indexing and continued operation.",
+        "Title": "POC to PROD: Hard Lessons from 200+ Enterprise GenAI Deployments",
+        "Description": "The transition from experimental GenAI demonstrations to robust, production-grade systems involves significant technical and organizational complexities. Humans provide a ceiling on the true ROI of automations. This session synthesizes key patterns and practical strategies gathered from more than 200 GenAI implementations across multiple industries and business sizes.\r\n\r\nBeyond the general lessons that apply to most products leveraging GenAI, we'll cover detailed observations within three application areas: multimodal understanding and search, enterprise knowledge retrieval, and AI agent architectures. We will share real-world comparative performance data and metrics on embedding models, vector index implementations, and explore various implementation methodologies that balance performance and cost.\r\n\r\nAdditionally, the session addresses organizational insights critical to successful AI deployments, such as the importance of clearly defined evaluation processes and understanding real-world user interaction challenges, highlighted by examples from healthcare environments. Attendees will gain an understanding of decision-making criteria, including the appropriate complexity of prompt engineering versus more elaborate orchestration methods, token/cost management strategies in multilingual settings, and the challenges in driving behavioral change with new UX and application interaction capabilities.\r\n\r\nParticipants will leave equipped with practical, data-supported insights for effectively navigating their own GenAI projects, including benchmarks and criteria for informed technology selection, and techniques to streamline the transition from initial concept to sustainable operational deployment. Please note, we all know this field evolves rapidly and we will mark which lessons we believe are immutable.",
         "Format": "Talk",
         "Level": "Advanced",
         "Scope": "Case Study/War Story",
@@ -5057,7 +4970,7 @@
     "Speaker ID": "95cbe8fd-d8e5-43d7-92cf-56f1edc9b11a",
     "Name": "Steve  Ruiz",
     "Company": "tldraw",
-    "Company Domain": "tldraw.com",
+    "Company Domain": "tldraw.computer",
     "Company URL": "",
     "Company Website": "",
     "Title": "unknown",
@@ -5147,7 +5060,7 @@
     "Company Domain": "outlook.com",
     "Company URL": "www.pragramaticaiprogrammer.com",
     "Company Website": "",
-    "Title": "AI and Technology Innovator",
+    "Title": "AI Technology Innovator",
     "TagLine": "AI for Technology",
     "Bio": "Brett Kotch has transformed trading technology at top global financial institutions, including Millennium, Citibank, Barclays, and Liquidnet, where he was part of the original team enabling anonymous execution of large trades, creating one of Wall Street’s largest pools of institutional liquidity. Brett is actively driving innovative solutions to advance AI within technology. Brett holds a degree in Computer Science from Columbia University.\r\n\r\n",
     "X (Twitter)": "",
@@ -5199,6 +5112,35 @@
     ]
   },
   {
+    "Speaker ID": "34a27f5f-368a-4f4a-8c7b-b0413323e035",
+    "Name": "Alex Duffy",
+    "Company": "Every Inc.",
+    "Company Domain": "every.to",
+    "Company URL": "https://every.to/",
+    "Company Website": "https://every.to/",
+    "Title": "Head of AI Strategy",
+    "TagLine": "Head of AI",
+    "Bio": "I’m Alex Duffy. I lead AI strategy at Every Inc., helping teams across industries put AI into practice. Previously, I co-founded AI Camp, teaching thousands of students to build their own AI projects, and launched Salt AI, creating tools to help researchers, designers, and creators bring ideas to life. I’m passionate about building teams and tools to empower people with AI. I really believe in creating technology that works for us, not that is work for us. ",
+    "X (Twitter)": "https://x.com/alxai_",
+    "LinkedIn": "https://www.linkedin.com/in/alex-d/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/6e93-400o400o1-UDESThkaig3MRZVhYqL9r9.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "915974",
+        "Title": "Benchmarks Are Memes: How What We Measure Shapes AI—and Us",
+        "Description": "Benchmarks shape more than just AI models—they shape our future. The things we choose to measure become self-fulfilling prophecies, guiding AI toward specific abilities and, ultimately, defining humanity’s evolving role in the AI era. Today’s benchmarks have propelled incredible progress, but now we have an exciting opportunity: thoughtfully designing benchmarks around what genuinely matters to us—cooperation, creativity, education, and meaningful human experiences.\r\n\r\nIn this talk, we’ll explore how benchmarks function as powerful cultural memes, influencing not only technical outcomes but societal direction. Drawing on practical examples we have seen at Every consulting in industries like finance, journalism, education, and even personally making AI play diplomacy. We’ll uncover what makes a benchmark impactful, approachable, and inspiring. You’ll see our engaging new AI Diplomacy benchmark demo, illustrating vividly how thoughtful evaluation design can excite both engineers and the wider community.\r\n\r\nYou’ll hopefully walk away inspired and equipped to define benchmarks intentionally, helping steer AI toward outcomes that truly matter.",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Case Study/War Story",
+        "Tracks": "AI Architects",
+        "Room": "Foothill G 1&2: Design Engineering",
+        "Scheduled At": "5 Jun 2025 02:50 PM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "59e622be-92dc-41b8-b8a5-b5a541cdff17",
     "Name": "Jeff Huber",
     "Company": "Chroma",
@@ -5234,7 +5176,7 @@
     "Company Domain": "jxnl.co",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Machine Learning Engineer, Consultant, Educator",
+    "Title": "Machine Learning Engineer",
     "TagLine": "Principal",
     "Bio": "Machine learning engineer, consultant, educator. ",
     "X (Twitter)": "",
@@ -5286,13 +5228,42 @@
     ]
   },
   {
+    "Speaker ID": "b7fecb1d-b305-48dd-9ea6-7d774471eece",
+    "Name": "Micah Hill-Smith",
+    "Company": "Artificial Analysis",
+    "Company Domain": "artificialanalysis.ai",
+    "Company URL": "artificialanalysis.ai",
+    "Company Website": "",
+    "Title": "Co-founder and CEO",
+    "TagLine": "CEO",
+    "Bio": "I'm Micah, co-founder and CEO of Artificial Analysis - an independent AI benchmarking company. We help developers understand AI capabliites and make critical decisions about models and technologies. We publish extensive benchmarking results on our public website (including intelligence, performance, cost and more), and develop reports to inform key strategic decisions. I became obsessed with benchmarking AI models initially as an AI engineer building applications, and have previously spent time as a strategy consultant with McKinsey & Company.",
+    "X (Twitter)": "https://x.com/_micah_h",
+    "LinkedIn": "https://www.linkedin.com/in/micahhill-smith/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/07b3-400o400o1-QE76JYnPD1eyfy8acyXxPX.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936564",
+        "Title": "Trends Across the AI Frontier",
+        "Description": "The entire AI stack is developing faster than ever - from chips to infrastructure to models. How do you sort the signal from the noise? Artificial Analysis an independent benchmarking and insights company dedicated to helping developers and companies pick the right models and technologies for building applications. This talk will walk through the state of the frontier across the AI stack. ",
+        "Format": "Keynote",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "Evals",
+        "Room": "Keynote/General Session (Yerba Buena 7&8)",
+        "Scheduled At": "5 Jun 2025 04:20 PM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "af9c04da-4bdc-4238-9755-9bf1530b72c3",
     "Name": "Sean Grove",
     "Company": "OpenAI",
     "Company Domain": "gmail.com",
     "Company URL": "https://openai.com/",
     "Company Website": "https://openai.com/",
-    "Title": "Alignment Researcher",
+    "Title": "Alignment Reasoning Specialist",
     "TagLine": "Member of Technical Staff",
     "Bio": "Sean Grove works on alignment reasoning at OpenAI, helping translate high‑level intent into enforceable specs and evaluations. Before OpenAI he founded OneGraph, a GraphQL developer‑tools startup later acquired by Netlify. He has delivered dozens of technical talks worldwide on developer tooling, APIs, AI UX and design, and now alignment.",
     "X (Twitter)": "https://x.com/sgrove",

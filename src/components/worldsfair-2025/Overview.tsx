@@ -185,7 +185,7 @@ export function Overview() {
             <li>
               Jun 5:
               <a
-                href="https://lu.ma/aiafterhourssf"
+                href="https://lu.ma/wodr7uk0"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >

@@ -22,9 +22,12 @@ export const manualKeynoteSpeakers = [
     "ProfilePicture": "/wf25speakers/simonw.jpeg",
     "Sessions": [
       {
-        "Title": "2025 in AI Engineering (tbc)",
+        "Title": "Frontier LLMs: What's Changed, What Won't",
         "Format": "Keynote",
-        "Description": "Simon Willison discusses open-source AI tools and how they empower developers and researchers.",
+        "Description": `What's changed in the world of LLMs since the AI World's Fair last year? A lot! 
+
+I'll be taking full advantage of my role as a fiercely independent researcher to review the past 12 months of advances in the field and catch everyone up on the latest models, free from any influence of vendors or employers.
+        `,
         "Tracks": "AI in Action"
       }
     ]
@@ -151,21 +154,21 @@ export const manualKeynoteSpeakers = [
       }
     ]
   },
-  {
-    "Name": "Micah Hill-Smith",
-    "Company": "Artificial Analysis",
-    "Domain": "artificialanalysis.ai",
-    "Tagline": "CEO",
-    "ProfilePicture": "/wf25speakers/Micah-Hill-Smith.jpg",
-    "Sessions": [
-      {
-        "Title": "(tba) Trends in Frontier LLM Performance",
-        "Format": "Keynote",
-        "Description": "Micah Hill-Smith presents an in-depth analysis of the current AI landscape, highlighting key trends and future projections.",
-        "Tracks": "AI in Action"
-      }
-    ]
-  },
+  // {
+  //   "Name": "Micah Hill-Smith",
+  //   "Company": "Artificial Analysis",
+  //   "Domain": "artificialanalysis.ai",
+  //   "Tagline": "CEO",
+  //   "ProfilePicture": "/wf25speakers/Micah-Hill-Smith.jpg",
+  //   "Sessions": [
+  //     {
+  //       "Title": "(tba) Trends in Frontier LLM Performance",
+  //       "Format": "Keynote",
+  //       "Description": "Micah Hill-Smith presents an in-depth analysis of the current AI landscape, highlighting key trends and future projections.",
+  //       "Tracks": "AI in Action"
+  //     }
+  //   ]
+  // },
   {
     "Name": "Justin Junyang Lin",
     "Company": "Alibaba Qwen",
@@ -234,21 +237,21 @@ export const manualKeynoteSpeakers = [
       }
     ]
   },
-  {
-    "Name": "Michael Truell",
-    "Company": "Cursor",
-    "Domain": "cursor.com", 
-    "Tagline": "CEO",
-    "ProfilePicture": "/wf25speakers/michael_truell.jpg",
-    "Sessions": [
-      {
-        "Title": "tba",
-        "Format": "Keynote",
-        "Description": "tbd",
-        "Tracks": "SWE Agents"
-      }
-    ]
-  },
+  // {
+  //   "Name": "Michael Truell",
+  //   "Company": "Cursor",
+  //   "Domain": "cursor.com", 
+  //   "Tagline": "CEO",
+  //   "ProfilePicture": "/wf25speakers/michael_truell.jpg",
+  //   "Sessions": [
+  //     {
+  //       "Title": "tba",
+  //       "Format": "Keynote",
+  //       "Description": "tbd",
+  //       "Tracks": "SWE Agents"
+  //     }
+  //   ]
+  // },
   {
     "Name": "Omar Khattab",
     "Company": "Databricks",
