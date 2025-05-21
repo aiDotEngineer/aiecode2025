@@ -64,7 +64,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Clay Bavor": 1000,
   "Danielle Persczyk": 1000,
   "Greg Brockman": 1000,
-  "Michael Truell": 1000,
+  "Kevin Hou": 1000,
   "Jack Rae": 1000,
   // [INFO] Prioritize Logan Kilpatrick (Google DeepMind, AI Studio Lead, Gemini 2.5)
   "Logan Kilpatrick": 900,
@@ -93,7 +93,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "swyx": -1, // Added swyx
   "Ben Dunphy": -0.5, // Added Ben Dunphy
   "Ankur Goyal": 700, // Added Ankur Goyal
-  "Andrew Hsu": 700,
+  "Scott Wu": 900,
 
   // Mid-Tier Priority
   "Chelcie Taylor": 900,
@@ -119,6 +119,9 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Preeti Somal": 800,
   "Annika Brundyn": 500,
   "Aastha Jhunjhunwala": 200,
+  "Steve Ruiz": 200,
+  "Okta Speaker": 200,
+  "Tomas Reimers": 200,
   
   // Speakers from specific companies or roles if not covered above
   "Damien Murphy": 300, // Google

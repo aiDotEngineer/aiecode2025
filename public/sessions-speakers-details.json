@@ -42,7 +42,7 @@
     "Speakers": "Dani Grant, Chelcie Taylor",
     "Companies": "Jam.dev, Notable Capital",
     "Company Domains": "jam.dev, notablecap.com",
-    "Titles": "CEO, Investor"
+    "Titles": "CEO, Investor / VC"
   },
   {
     "Session ID": "915616",
@@ -72,22 +72,7 @@
     "Speakers": "Shrestha Basu Mallick, Kwindla Kramer",
     "Companies": "Google DeepMind, Daily",
     "Company Domains": "gmail.com, daily.co",
-    "Titles": "Group Product Manager and Product Lead for Gemini API, PM and Developer of Pipecat"
-  },
-  {
-    "Session ID": "929855",
-    "Title": "Devin 2.0 and the Future of SWE",
-    "Description": "A talk on the future of software engineering with Scott Wu of Cognition AI, the makers of Devin.",
-    "Session Format": "Talk",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Scott Wu",
-    "Companies": "Cognition AI",
-    "Company Domains": "cognition.ai",
-    "Titles": "Co-founder and CEO"
+    "Titles": "Group Product Manager and Product Lead for Gemini API, PM and Developer of Pipecat Framework"
   },
   {
     "Session ID": "933462",
@@ -116,7 +101,7 @@
     "Scheduled At": "",
     "Speakers": "Tomas Reimers",
     "Companies": "Graphite",
-    "Company Domains": "graphite.com",
+    "Company Domains": "graphite.dev",
     "Titles": "CPO and Co-founder"
   },
   {
@@ -131,7 +116,7 @@
     "Scheduled At": "",
     "Speakers": "Chad Bailey, Brian Johnson, Kwindla Kramer",
     "Companies": "Daily, Tavus, Daily",
-    "Company Domains": "daily.co, tavus.io, daily.co",
+    "Company Domains": "daily.co, tavus.ai, daily.co",
     "Titles": "Engineer, Staff Engineer, Co-founder"
   },
   {
@@ -192,7 +177,7 @@
     "Speakers": "Mark Backman, Kwindla Kramer",
     "Companies": "Daily, Daily",
     "Company Domains": "daily.co, daily.co",
-    "Titles": "VP of Product, Originator of Pipecat / WebRTC Infrastructure Engineer"
+    "Titles": "VP of Product, Originator of Pipecat"
   },
   {
     "Session ID": "933599",
@@ -238,6 +223,21 @@
     "Companies": "Amazon",
     "Company Domains": "amazon.com",
     "Titles": "unknown"
+  },
+  {
+    "Session ID": "933618",
+    "Title": "Conquering Agent Chaos",
+    "Description": "Agent deployments can be dicey, especially at first.  This session goes over all the things that cause headache with deployments from serverless issues to networking issues - and how we fix them.",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Product launch",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Rick Blalock",
+    "Companies": "Unknown Agent-Native Company",
+    "Company Domains": "agentuity.com",
+    "Titles": "Founder and Developer"
   },
   {
     "Session ID": "933621",
@@ -296,7 +296,7 @@
     "Scheduled At": "",
     "Speakers": "Kshitij  Grover",
     "Companies": "Orb",
-    "Company Domains": "orb.ai",
+    "Company Domains": "orb.dev",
     "Titles": "Co-Founder and CTO"
   },
   {
@@ -328,6 +328,21 @@
     "Companies": "WorkOS ",
     "Company Domains": "nisi.org",
     "Titles": "Software Engineer"
+  },
+  {
+    "Session ID": "933669",
+    "Title": "\"Data readiness\" is a myth: Make AI Reliabile with an Agentic Semantic Layer",
+    "Description": "The rapid progress in LLM capability has not translated to increased reliability for business critical AI use cases. The root-cause? Data is \"not ready\".\r\nConversational analytics doesn't go beyond the analyst team because it's hard to verify if the generated queries are actually doing what they are supposed to.\r\nRAG based systems often fail to handle the breadth and depth of real world use-cases because it requires a prohibitive amount of preparation & maintenance of an underlying knowledge graph.\r\n\r\nAgentic AI systems need to hard-code specific workflows to work reliably and end up looking more like software engineering with LLM calls instead of delivering on the promise of truly agentic workflows.\r\n\r\nIn all of these failure modes, the common culprit is that the planning or reasoning done by the LLM fails to accurately capture the user's intent or the domain's context aka the lack of a well prepared semantic data layer.\r\n\r\nEnterprise data is silo-ed and vastly varying levels of quality and the perfect \"semantic layer\" and \"metadata\" is a moving target. New data is continuously being created and business definitions are rapidly changing and often entirely on-demand.\r\nIn this talk we'll share how you can build and maintain a semantic data layer that is maintained entirely by AI, and show (with live examples) how that dramatically improves reliability of the AI system that needs dynamic access to data.\r\nWe'll demonstrate how this sufficiently augments existing RAG, text-to-SQL and tool calling techniques and starts opening the door to reliable AI deployments.\r\n",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Anushrut Gupta",
+    "Companies": "Hasura",
+    "Company Domains": "hasura.io",
+    "Titles": "Applied AI Lead"
   },
   {
     "Session ID": "933675",
@@ -402,7 +417,7 @@
     "Speakers": "Charles Frye",
     "Companies": "Modal Labs",
     "Company Domains": "modal.com",
-    "Titles": "AI Engineer / Educator and Evangelist"
+    "Titles": "LLM Engineer"
   },
   {
     "Session ID": "933719",
@@ -507,7 +522,7 @@
     "Speakers": "David Karam",
     "Companies": "Pi Labs",
     "Company Domains": "withpi.ai",
-    "Titles": "Co-founder"
+    "Titles": "Co-Founder"
   },
   {
     "Session ID": "915961",
@@ -582,7 +597,7 @@
     "Speakers": "Ilan Bigio",
     "Companies": "OpenAI",
     "Company Domains": "gmail.com",
-    "Titles": "Founding Member, Developer Experience Team"
+    "Titles": "Founding member of OpenAI’s Developer Experience team"
   },
   {
     "Session ID": "933607",
@@ -595,7 +610,7 @@
     "Room": "Golden Gate Ballroom B: Workshops",
     "Scheduled At": "3 Jun 2025 01:00 PM",
     "Speakers": "Du’An Lightfoot",
-    "Companies": "Amazon Web Services",
+    "Companies": "Amazon Web Services (AWS)",
     "Company Domains": "aws.amazon.com",
     "Titles": "Sr. Developer Advocate"
   },
@@ -612,7 +627,7 @@
     "Speakers": "Dominik Kundel",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Developer Experience & SDKs"
+    "Titles": "Developer Experience & SDKs Lead"
   },
   {
     "Session ID": "927324",
@@ -627,7 +642,7 @@
     "Speakers": "Sarah Guo",
     "Companies": "Conviction",
     "Company Domains": "conviction.com",
-    "Titles": "Founder"
+    "Titles": "Session Owner"
   },
   {
     "Session ID": "929790",
@@ -642,7 +657,7 @@
     "Speakers": "Danielle Perszyk",
     "Companies": "Amazon",
     "Company Domains": "gmail.com",
-    "Titles": "Cognitive Scientist at Amazon AGI SF Lab"
+    "Titles": "Cognitive Scientist"
   },
   {
     "Session ID": "903524",
@@ -777,7 +792,7 @@
     "Speakers": "Vaibhav Page, Infant Vasanth",
     "Companies": "BlackRock, BlackRock",
     "Company Domains": "blackrock.com, gmail.com",
-    "Titles": "Principal Engineer, Engineering Lead, Studio Compute Platform & Data & AI Acceleration"
+    "Titles": "Principal Engineer, Engineering Lead, Studio Compute Platform and Data & AI Acceleration Team"
   },
   {
     "Session ID": "905305",
@@ -807,7 +822,7 @@
     "Speakers": "Devansh Tandon",
     "Companies": "Google",
     "Company Domains": "gmail.com",
-    "Titles": "Principal Product Manager, YouTube Discovery System and GenAI Efforts"
+    "Titles": "Principal Product Manager"
   },
   {
     "Session ID": "907834",
@@ -825,21 +840,6 @@
     "Titles": "Machine Learning Engineer and Applied AI Researcher"
   },
   {
-    "Session ID": "911270",
-    "Title": "Want reliable agents? Generate better (synthetic) data.",
-    "Description": "You don’t need a bigger model. You need better synthetic data.\r\n\r\nIn this talk, we’ll demonstrate how you can build reliable, domain-specific agents, without manually labeling thousands of samples. \r\n\r\nUsing agentic data pipelines, you can finally achieve 9s of accuracy—e.g., 95%+ accuracy on domain-specific tasks like Text-to-SQL. We'll show how, with just a handful of high-quality examples, you can generate, validate, and iteratively expand your dataset. \r\n\r\nThis workflow keeps humans in the loop where they add the most value (spotting inconsistencies, defining edge cases, etc.) while letting LLMs do what they do best (finding patterns, generating diverse examples, enforcing structure, etc.). The result is faster iteration and higher-quality training data—without tedious and expensive manual labeling.\r\n\r\nBuilding reliable agents also requires good evaluation data sets. Evaluations are critical for measuring alignment with your training objectives. Again, using agentic pipelines, you can continuously assess model performance, identify failure modes, and generate more synthetic data to further improve your model. \r\n\r\nWith this proven approach, you can train smaller models to be experts in your domain with a small amount of data in a relatively short amount of time. \r\n\r\n",
-    "Session Format": "Talk",
-    "Level": "Introductory and overview",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "Agent Reliability (04)",
-    "Room": "Foothill C: Agent Reliability",
-    "Scheduled At": "4 Jun 2025 11:40 AM",
-    "Speakers": "Sharon Zhou",
-    "Companies": "Lamini",
-    "Company Domains": "lamini.ai",
-    "Titles": "Co-founder and CEO"
-  },
-  {
     "Session ID": "912811",
     "Title": "When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge",
     "Description": "Enterprise knowledge bases are filled with \"dense mapping,\" thousands of documents where similar terms appear repeatedly, causing traditional vector retrieval to return the wrong version or irrelevant information. When our customers kept hitting this wall with their RAG systems, we knew we needed a fundamentally different approach.\r\n\r\nIn this talk, I'll share Writer's journey developing a graph-based RAG architecture that achieved 86.31% accuracy on the RobustQA benchmark while maintaining sub-second response times, significantly outperforming vector approaches.\r\n\r\nI'll survey the key techniques behind this performance leap and why graph-based approaches excel with complex enterprise information structures like product documentation, financial documents, and technical specifications that challenge traditional RAG systems. You'll learn about using specialized LLMs to build semantic relationships, how compression techniques efficiently handle concentrated enterprise data patterns, and how infusing key data points in the memory layer of the LLM lowers hallucination.\r\n\r\nThe presentation will provide practical insights into identifying when graph-based approaches make sense for your organization's specific data challenges, helping you make informed architectural decisions for your next enterprise RAG system.",
@@ -853,6 +853,21 @@
     "Companies": "Writer",
     "Company Domains": "writer.com",
     "Titles": "Director of Developer Relations"
+  },
+  {
+    "Session ID": "913755",
+    "Title": "Scaling AI agents without breaking reliability",
+    "Description": "As AI agents move from prototypes to production, developers are running into new challenges with orchestration, failure handling, and infrastructure. This session will unpack lessons from teams already building real-world systems and share how to design for reliability from the start.",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "AI Infrastructure (05)",
+    "Room": "Foothill C: Agent Reliability",
+    "Scheduled At": "4 Jun 2025 11:40 AM",
+    "Speakers": "Preeti Somal",
+    "Companies": "Temporal",
+    "Company Domains": "moxiegrouppr.com",
+    "Titles": "Senior Vice President of Engineering"
   },
   {
     "Session ID": "914550",
@@ -1050,21 +1065,6 @@
     "Titles": "Founder"
   },
   {
-    "Session ID": "913755",
-    "Title": "Scaling AI agents without breaking reliability",
-    "Description": "As AI agents move from prototypes to production, developers are running into new challenges with orchestration, failure handling, and infrastructure. This session will unpack lessons from teams already building real-world systems and share how to design for reliability from the start.",
-    "Session Format": "Talk",
-    "Level": "Intermediate",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "AI Infrastructure (05)",
-    "Room": "Foothill F: Infrastructure",
-    "Scheduled At": "4 Jun 2025 02:00 PM",
-    "Speakers": "Preeti Somal",
-    "Companies": "Temporal",
-    "Company Domains": "moxiegrouppr.com",
-    "Titles": "Senior Vice President of Engineering"
-  },
-  {
     "Session ID": "915338",
     "Title": "How to build Enterprise-aware agents",
     "Description": "While LLMs demonstrated impressive reasoning capabilities, their out-of-the-box reasoning is akin to hiring a brilliant but brand-new employee who doesn’t have the enterprise context of “how things are done at this company”. In this talk, I'll introduce “Workflow Search” as a paradigm to build enterprise-aware agents that can balance predictability on common tasks, and flexibility on unforeseen tasks.\r\n",
@@ -1122,7 +1122,7 @@
     "Speakers": "Grant Lee",
     "Companies": "Gamma",
     "Company Domains": "gamma.app",
-    "Titles": "Founder"
+    "Titles": "Founder & CEO"
   },
   {
     "Session ID": "931123",
@@ -1230,19 +1230,19 @@
     "Titles": "Co-founder and CEO"
   },
   {
-    "Session ID": "914049",
-    "Title": "How to Build Planning Agents without losing control",
-    "Description": "Planning agents help solve complex tasks by breaking them into steps. They work across enterprise systems where data lives in many places. These agents are powerful but can be hard to control. This session shows how to use blueprints as guardrails for these agents. I will explain techniques to ensure agents follow the right plan. I will cover evaluation methods to verify agents stay aligned with user goals.",
+    "Session ID": "914890",
+    "Title": "The Billable Hour is Dead; Long Live the Billable Hour?",
+    "Description": "If software was eating the world before, knowledge work will soon be devoured by AI. In corporate America there are thousands of hours spent on rote tasks every day by employees, consultants, and lawyers alike. But is AI really capable of replacing work in the real world yet? \r\nProductivity estimates from GenAI range from 1.5% (NBER) to 96% (☝ us! ️). In this talk we'll share war stories of where the answer is yes (and no) and how we reduced human time spent on tasks from days to minutes in high-impact situations. \r\nThe path from promise to actual product, used in real world settings, from our experience, is still unmapped. Learn what we built, how we built it - with code - and how we got stakeholder buy-in to deploy it.",
     "Session Format": "Talk",
     "Level": "Advanced",
-    "Scope": "Technical deep dive",
+    "Scope": "Case Study/War Story",
     "Assigned Track": "AI in the Fortune 500 (L2)",
     "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
     "Scheduled At": "4 Jun 2025 02:25 PM",
-    "Speakers": "Yogendra Miraje",
-    "Companies": "FactSet Research Systems Inc",
-    "Company Domains": "gmail.com",
-    "Titles": "AI Engineer"
+    "Speakers": "Kevin Madura, Mo Bhasin",
+    "Companies": "AlixPartners, AlixPartners",
+    "Company Domains": "alixpartners.com, gmail.com",
+    "Titles": "Technical Advisor, Director of AI Products"
   },
   {
     "Session ID": "915013",
@@ -1346,7 +1346,7 @@
     "Scheduled At": "4 Jun 2025 02:40 PM",
     "Speakers": "Jordan Dearsley",
     "Companies": "Vapi",
-    "Company Domains": "vapi.com",
+    "Company Domains": "vapi.ai",
     "Titles": "Co-founder and CEO"
   },
   {
@@ -1361,7 +1361,7 @@
     "Scheduled At": "4 Jun 2025 02:50 PM",
     "Speakers": "Robert  Wachen",
     "Companies": "Etched",
-    "Company Domains": "etched.ai",
+    "Company Domains": "etched.co",
     "Titles": "Co-founder and COO"
   },
   {
@@ -1392,7 +1392,7 @@
     "Speakers": "Ola  Mabadeje",
     "Companies": "Cisco",
     "Company Domains": "cisco.com",
-    "Titles": "Leader, Generative AI Incubation group"
+    "Titles": "Leader, Generative AI Incubation Group"
   },
   {
     "Session ID": "916115",
@@ -1407,7 +1407,7 @@
     "Speakers": "Itamar Friedman",
     "Companies": "Qodo",
     "Company Domains": "qodo.ai",
-    "Titles": "CEO and co-founder"
+    "Titles": "CEO and Co-founder"
   },
   {
     "Session ID": "926313",
@@ -1497,7 +1497,7 @@
     "Speakers": "Logan Kilpatrick",
     "Companies": "Google",
     "Company Domains": "gmail.com",
-    "Titles": "Product Lead, Google AI Studio"
+    "Titles": "Product Lead for Google AI Studio"
   },
   {
     "Session ID": "916116",
@@ -1557,7 +1557,7 @@
     "Speakers": "Alvaro Morales",
     "Companies": "Orb",
     "Company Domains": "aircoverpr.com",
-    "Titles": "CEO and co-founder"
+    "Titles": "CEO and Co-founder"
   },
   {
     "Session ID": "914027",
@@ -1635,6 +1635,21 @@
     "Titles": "Co-founder/CEO"
   },
   {
+    "Session ID": "929855",
+    "Title": "Devin 2.0 and the Future of SWE",
+    "Description": "A talk on the future of software engineering with Scott Wu of Cognition AI, the makers of Devin.",
+    "Session Format": "Talk",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Yerba Buena Ballroom 7&8: SWE Agents",
+    "Scheduled At": "5 Jun 2025 11:15 AM",
+    "Speakers": "Scott Wu",
+    "Companies": "Cognition AI",
+    "Company Domains": "cognition.ai",
+    "Titles": "Co-founder and CEO"
+  },
+  {
     "Session ID": "903966",
     "Title": "Scaling Enterprise-Grade RAG Systems: Lessons from the Legal Frontier",
     "Description": "In domains like law, compliance, and tax, building enterprise-grade RAG means very large scale, spikey workloads, a focus on accuracy, and non-negotiable privacy.\r\nIn this talk, we'll share war stories and battle scars of how Harvey has built the world's most advanced AI agents for the legal profession on top of a highly optimized retrieval architecture. We'll cover how to get better retrieval via both sparse and dense retrieval methods, why domain-specific reranking is essential, and how to handle ambiguity in real-world queries.\r\nWe'll also touch on how LanceDB's search engine enables this architecture by delivering low-latency, high-throughput retrieval across millions of documents of varying sizes without compromising privacy. This solid foundation enables Harvey to build a product that brings highly accurate answers to hundreds of law firms and professional services firms across 45 countries.",
@@ -1647,7 +1662,7 @@
     "Speakers": "Chang She, Aman Kishore, Calvin Qi",
     "Companies": "LanceDB, Harvey AI, Harvey AI",
     "Company Domains": "lancedb.com, harvey.ai, harvey.ai",
-    "Titles": "Co-author of Pandas, Builder of LanceDB, Former Founder, RAG Specialist for Legal and Tax Use Cases"
+    "Titles": "Co-founder, Former Founder, Retrieval Augmented Generation Engineer"
   },
   {
     "Session ID": "904751",
@@ -1692,7 +1707,7 @@
     "Speakers": "Kelvin Ma",
     "Companies": "Google Photos",
     "Company Domains": "gmail.com",
-    "Titles": "Technical Lead, Creative Expressions Team, Google Photos"
+    "Titles": "Technical Lead, Creative Expressions Team"
   },
   {
     "Session ID": "914786",
@@ -1722,7 +1737,7 @@
     "Speakers": "John Pham",
     "Companies": "The San Francisco Compute Company",
     "Company Domains": "gmail.com",
-    "Titles": "Engineer and Designer"
+    "Titles": "Engineer and Self-Taught Designer"
   },
   {
     "Session ID": "914891",
@@ -1752,7 +1767,7 @@
     "Speakers": "Sahil Yadav, Hariharan Ganesan",
     "Companies": "TelemeTrak, TelemeTrak",
     "Company Domains": "outlook.com, umich.edu",
-    "Titles": "Chief Product Officer, Senior Solutions Architect"
+    "Titles": "Chief Product Officer, Sr. Solutions Architect"
   },
   {
     "Session ID": "916140",
@@ -1782,7 +1797,7 @@
     "Speakers": "Rafal Wilinski, Vitor Balocco",
     "Companies": "Zapier, Zapier",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "AI Tech Lead, Staff Software Engineer, AI R&D"
+    "Titles": "AI Tech Lead for Zapier Agents, Staff Software Engineer, AI R&D Team"
   },
   {
     "Session ID": "913839",
@@ -1962,7 +1977,7 @@
     "Speakers": "Christopher Chedeau",
     "Companies": "Facebook",
     "Company Domains": "gmail.com",
-    "Titles": "Co-creator of React Native and Prettier, Creator of Excalidraw"
+    "Titles": "Software Engineer"
   },
   {
     "Session ID": "933458",
@@ -1976,7 +1991,7 @@
     "Scheduled At": "5 Jun 2025 02:00 PM",
     "Speakers": "Tomas Reimers",
     "Companies": "Graphite",
-    "Company Domains": "graphite.com",
+    "Company Domains": "graphite.dev",
     "Titles": "CPO and Co-founder"
   },
   {
@@ -2082,7 +2097,22 @@
     "Speakers": "Josh Albrecht",
     "Companies": "Imbue",
     "Company Domains": "imbue.com",
-    "Titles": "CTO"
+    "Titles": "CTO and Co-founder"
+  },
+  {
+    "Session ID": "914049",
+    "Title": "How to Build Planning Agents without losing control",
+    "Description": "Planning agents help solve complex tasks by breaking them into steps. They work across enterprise systems where data lives in many places. These agents are powerful but can be hard to control. This session shows how to use blueprints as guardrails for these agents. I will explain techniques to ensure agents follow the right plan. I will cover evaluation methods to verify agents stay aligned with user goals.",
+    "Session Format": "Talk",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "AI in the Fortune 500 (L2)",
+    "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
+    "Scheduled At": "5 Jun 2025 02:20 PM",
+    "Speakers": "Yogendra Miraje",
+    "Companies": "FactSet Research Systems Inc",
+    "Company Domains": "gmail.com",
+    "Titles": "AI Engineer"
   },
   {
     "Session ID": "914814",
@@ -2098,21 +2128,6 @@
     "Companies": "Daytona",
     "Company Domains": "gmail.com",
     "Titles": "Co-founder"
-  },
-  {
-    "Session ID": "914890",
-    "Title": "The Billable Hour is Dead; Long Live the Billable Hour?",
-    "Description": "If software was eating the world before, knowledge work will soon be devoured by AI. In corporate America there are thousands of hours spent on rote tasks every day by employees, consultants, and lawyers alike. But is AI really capable of replacing work in the real world yet? \r\nProductivity estimates from GenAI range from 1.5% (NBER) to 96% (☝ us! ️). In this talk we'll share war stories of where the answer is yes (and no) and how we reduced human time spent on tasks from days to minutes in high-impact situations. \r\nThe path from promise to actual product, used in real world settings, from our experience, is still unmapped. Learn what we built, how we built it - with code - and how we got stakeholder buy-in to deploy it.",
-    "Session Format": "Talk",
-    "Level": "Advanced",
-    "Scope": "Case Study/War Story",
-    "Assigned Track": "AI in the Fortune 500 (L2)",
-    "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
-    "Scheduled At": "5 Jun 2025 02:20 PM",
-    "Speakers": "Kevin Madura, Mo Bhasin",
-    "Companies": "AlixPartners, AlixPartners",
-    "Company Domains": "alixpartners.com, gmail.com",
-    "Titles": "Technical Advisory Lead, Director of AI Products"
   },
   {
     "Session ID": "916215",
@@ -2157,7 +2172,7 @@
     "Speakers": "Nathan Lambert",
     "Companies": "Allen Institute for AI",
     "Company Domains": "natolambert.com",
-    "Titles": "Senior Research Scientist and Post-Training Lead"
+    "Titles": "Senior Research Scientist and post-training lead"
   },
   {
     "Session ID": "934617",
@@ -2292,7 +2307,7 @@
     "Speakers": "Jeff Huber, Jason Liu",
     "Companies": "Chroma, 567 Studio",
     "Company Domains": "trychroma.com, jxnl.co",
-    "Titles": "CEO and cofounder, Machine Learning Engineer"
+    "Titles": "CEO and Cofounder, Machine Learning Engineer, Consultant, Educator"
   },
   {
     "Session ID": "907695",
@@ -2337,7 +2352,7 @@
     "Speakers": "Brett Kotch",
     "Companies": "The Pragmatic AI Programmer",
     "Company Domains": "outlook.com",
-    "Titles": "Founder"
+    "Titles": "AI Technology Innovator"
   },
   {
     "Session ID": "915873",
@@ -2367,7 +2382,7 @@
     "Speakers": "Rita  Kozlov",
     "Companies": "cloudflare",
     "Company Domains": "gmail.com",
-    "Titles": "Platform Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936564",
@@ -2397,6 +2412,6 @@
     "Speakers": "Sean Grove",
     "Companies": "OpenAI",
     "Company Domains": "gmail.com",
-    "Titles": "Member of Technical Staff, Alignment Reasoning"
+    "Titles": "Member of Technical Staff on OpenAI’s Alignment Reasoning team"
   }
 ]

@@ -267,22 +267,22 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
       }
     ]
   },
-  {
-    // [INFO] Added by Cascade on 2025-05-12: Andrew Hsu, Speak.com, Voice track
-    "Name": "Andrew Hsu",
-    "Company": "Speak.com",
-    "Domain": "speak.com",
-    "Tagline": "CTO",
-    "ProfilePicture": "/wf25speakers/andrew_hsu.jpeg",
-    "Sessions": [
-      {
-        "Title": "Building a Voice AI Startup",
-        "Format": "Talk",
-        "Description": "Andrew Hsu, CTO of Speak.com, shares insights and lessons learned from building a voice AI startup, covering technical, team, and product challenges unique to conversational AI.",
-        "Tracks": "Voice"
-      }
-    ]
-  },
+  // {
+  //   // [INFO] Added by Cascade on 2025-05-12: Andrew Hsu, Speak.com, Voice track
+  //   "Name": "Andrew Hsu",
+  //   "Company": "Speak.com",
+  //   "Domain": "speak.com",
+  //   "Tagline": "CTO",
+  //   "ProfilePicture": "/wf25speakers/andrew_hsu.jpeg",
+  //   "Sessions": [
+  //     {
+  //       "Title": "Building a Voice AI Startup",
+  //       "Format": "Talk",
+  //       "Description": "Andrew Hsu, CTO of Speak.com, shares insights and lessons learned from building a voice AI startup, covering technical, team, and product challenges unique to conversational AI.",
+  //       "Tracks": "Voice"
+  //     }
+  //   ]
+  // },
   {
     // [INFO] Added by Cascade on 2025-05-16: Quan Vuong, Physical Intelligence, Physical AGI keynote on Autonomy/Robotics track
     "Name": "Quan Vuong",
