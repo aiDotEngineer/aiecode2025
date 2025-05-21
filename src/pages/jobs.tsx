@@ -204,66 +204,101 @@ const data = [
 
 
 export default function JobsPage() {
+  // Sort companies alphabetically by companyName (do not mutate original data)
+  const sortedCompanies = [...data].sort((a, b) => a.companyName.localeCompare(b.companyName));
+
+  // Prepare anchor links for side panel
+  const anchorLinks = sortedCompanies.map((company) => ({
+    name: company.companyName,
+    anchor: company.companyName.replace(/\s+/g, "-").toLowerCase(),
+  }));
+
   // Improved job board layout for better visual hierarchy, info density, and spacing
-return (
-  <div className="flex flex-col items-center pb-24 bg-gray-50 min-h-screen">
-    <PageIntro title="AI Engineering Jobs" >
-      <p className="text-lg text-gray-500">Updated: 2025-05-20</p>
-      <p className="text-lg text-gray-500">All jobs are fresh and curated by sponsors of the AI Engineer World's Fair!</p>
-    </PageIntro>
-    <Container className="mt-24">
-      {/* Add a max-width and center all content for better readability */}
-      <div className="w-full max-w-3xl mx-auto space-y-10">
-        {/* Iterate through companies */}
-        {data.map((company, companyIdx) => (
-          <section key={company.companyName} className="">
-            {/* Company header: prominent, visually separated */}
-            <div className="mb-3 flex items-center gap-2">
-              <span className="text-2xl font-extrabold text-gray-900 tracking-tight leading-tight">
-                {company.companyName}
-              </span>
-              {/* Optional: Add a subtle divider for visual grouping */}
-              <span className="flex-1 border-t border-gray-200 ml-2" />
-            </div>
-            {/* Jobs for this company, grouped in cards */}
-            <div className="flex flex-col gap-4">
-              {company.jobs.map((job, jobIdx) => (
-                <div
-                  key={job.title + job.linkUrl}
-                  className="bg-white shadow-sm rounded-xl border border-gray-200 p-5 group hover:shadow-md transition relative"
-                >
-                  {/* Job Title - bold, compact */}
-                  <div className="flex items-center justify-between mb-1">
-                    <span className="font-semibold text-lg text-gray-800">
-                      {job.title}
-                    </span>
-                  </div>
-                  {/* Description - smaller, more compact */}
-                  <div className="text-sm text-gray-600 mb-4">
-                    {job.description}
-                  </div>
-                  {/* More Information button - visually prominent, right-aligned */}
-                  <div className="flex justify-end">
-                    <a
-                      href={job.linkUrl}
-                      className="inline-block px-4 py-2 border border-blue-600 rounded-lg font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 transition text-sm shadow-sm"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      More Information
-                    </a>
-                  </div>
-                  {/* Subtle divider between jobs (not after last job) */}
-                  {jobIdx < company.jobs.length - 1 && (
-                    <div className="absolute bottom-0 left-4 right-4 border-t border-gray-100" style={{marginBottom: '-1.25rem'}} />
-                  )}
-                </div>
+  return (
+    <div className="flex flex-col items-center pb-24 bg-gray-50 min-h-screen">
+      <PageIntro title="AI Engineering Jobs" >
+        <p className="text-lg text-gray-500">Updated: 2025-05-20</p>
+        <p className="text-lg text-gray-500">All jobs are fresh and curated by sponsors of the AI Engineer World's Fair!</p>
+        <p className="text-lg text-gray-500">For sponsors: if you want to list more jobs, please contact swyx or Lia.</p>
+      </PageIntro>
+      {/* Desktop sticky side panel + main content flex layout */}
+      <div className="w-full flex flex-row max-w-7xl mx-auto mt-24">
+        {/* Sticky Side Panel (hidden on mobile/tablet) */}
+        <nav className="hidden lg:block w-64 mr-10">
+          <div className="sticky top-32">
+            <div className="mb-3 text-xs font-semibold text-gray-500 uppercase tracking-wider">Employers</div>
+            <ul className="space-y-2">
+              {anchorLinks.map((link) => (
+                <li key={link.anchor}>
+                  <a
+                    href={`#${link.anchor}`}
+                    className="block px-3 py-2 rounded-md text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition font-medium text-lg"
+                  >
+                    {link.name}
+                  </a>
+                </li>
               ))}
-            </div>
-          </section>
-        ))}
+            </ul>
+          </div>
+        </nav>
+        {/* Main job board content */}
+        <Container className="flex-1">
+          <div className="w-full max-w-3xl mx-auto space-y-10">
+            {/* Iterate through sorted companies */}
+            {sortedCompanies.map((company, companyIdx) => (
+              <section
+                key={company.companyName}
+                id={company.companyName.replace(/\s+/g, "-").toLowerCase()}
+                className="scroll-mt-[100px]"
+              >
+                {/* Company header: prominent, visually separated */}
+                <div className="mb-3 flex items-center gap-2">
+                  <span className="text-2xl font-extrabold text-gray-900 tracking-tight leading-tight">
+                    {company.companyName}
+                  </span>
+                  {/* Optional: Add a subtle divider for visual grouping */}
+                  <span className="flex-1 border-t border-gray-200 ml-2" />
+                </div>
+                {/* Jobs for this company, grouped in cards */}
+                <div className="flex flex-col gap-4">
+                  {company.jobs.map((job, jobIdx) => (
+                    <div
+                      key={job.title + job.linkUrl}
+                      className="bg-white shadow-sm rounded-xl border border-gray-200 p-5 group hover:shadow-md transition relative"
+                    >
+                      {/* Job Title - bold, compact */}
+                      <div className="flex items-center justify-between mb-1">
+                        <span className="font-semibold text-lg text-gray-800">
+                          {job.title}
+                        </span>
+                      </div>
+                      {/* Description - smaller, more compact */}
+                      <div className="text-sm text-gray-600 mb-4">
+                        {job.description}
+                      </div>
+                      {/* More Information button - visually prominent, right-aligned */}
+                      <div className="flex justify-end">
+                        <a
+                          href={job.linkUrl}
+                          className="inline-block px-4 py-2 border border-blue-600 rounded-lg font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 transition text-sm shadow-sm"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          More Information
+                        </a>
+                      </div>
+                      {/* Subtle divider between jobs (not after last job) */}
+                      {jobIdx < company.jobs.length - 1 && (
+                        <div className="absolute bottom-0 left-4 right-4 border-t border-gray-100" style={{marginBottom: '-1.25rem'}} />
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+        </Container>
       </div>
-    </Container>
-  </div>
-);
+    </div>
+  )
 }
