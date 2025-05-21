@@ -206,6 +206,11 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
         </div>
       </header>
 
+      <div>
+        <p className="text-center">For hackers: <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a> for your own vibecoded view, like <a href="https://noodlesoup.com/ai-engineer-worlds-fair-2025" className="underline hover:text-blue-800">@noodlesoup's app</a></p>  
+      </div>
+      
+
       {/* Mobile filters */}
       <div className="md:hidden space-y-4">
         {/* <p>

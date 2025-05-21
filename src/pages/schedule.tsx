@@ -53,6 +53,8 @@ const SchedulePage: React.FC = () => {
         <div className="max-w-full mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-6">World's Fair 2025 Schedule</h1>
         {/* [INFO][2025-05-20T10:26:59-07:00] Venue info box added below top cards */}
+
+      
         <div className="max-w-2xl mx-auto px-4 mb-8">
           <a
             href="https://maps.app.goo.gl/3BqJtoYUmYGr94Va9"
@@ -74,6 +76,9 @@ const SchedulePage: React.FC = () => {
             <div className="text-blue-700 underline mt-1">View on Google Maps</div>
           </a>
         </div>
+      <div>
+        <p className="text-center">For hackers: <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a> for your own vibecoded view, like <a href="https://noodlesoup.com/ai-engineer-worlds-fair-2025" className="underline hover:text-blue-800">@noodlesoup's app</a></p>  
+      </div>
           {/*
             [INFO][2025-05-20T10:17:04-07:00] Embedding official sessionize schedule iframe.
             This is the canonical calendar view for the event schedule.
