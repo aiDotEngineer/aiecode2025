@@ -42,7 +42,7 @@
     "Speakers": "Dani Grant, Chelcie Taylor",
     "Companies": "Jam.dev, Notable Capital",
     "Company Domains": "jam.dev, notablecap.com",
-    "Titles": "CEO, Investor / VC"
+    "Titles": "CEO, Investor / Partner"
   },
   {
     "Session ID": "915616",
@@ -72,7 +72,7 @@
     "Speakers": "Shrestha Basu Mallick, Kwindla Kramer",
     "Companies": "Google DeepMind, Daily",
     "Company Domains": "gmail.com, daily.co",
-    "Titles": "Group Product Manager and Product Lead for Gemini API, PM and Developer of Pipecat Framework"
+    "Titles": "Group Product Manager, Product Manager"
   },
   {
     "Session ID": "933462",
@@ -86,7 +86,7 @@
     "Scheduled At": "",
     "Speakers": "Kenneth DuMez",
     "Companies": "Graphite",
-    "Company Domains": "graphite.dev",
+    "Company Domains": "graphite.com",
     "Titles": "Developer Relations Lead"
   },
   {
@@ -116,8 +116,8 @@
     "Scheduled At": "",
     "Speakers": "Chad Bailey, Brian Johnson, Kwindla Kramer",
     "Companies": "Daily, Tavus, Daily",
-    "Company Domains": "daily.co, tavus.ai, daily.co",
-    "Titles": "Engineer, Staff Engineer, Co-founder"
+    "Company Domains": "daily.co, tavus.io, daily.co",
+    "Titles": "Software Engineer, Staff Engineer, Co-founder"
   },
   {
     "Session ID": "933569",
@@ -162,7 +162,7 @@
     "Speakers": "Philip Kiely",
     "Companies": "Baseten",
     "Company Domains": "baseten.co",
-    "Titles": "Lead, Developer Relations"
+    "Titles": "Developer Relations Lead"
   },
   {
     "Session ID": "933589",
@@ -177,7 +177,7 @@
     "Speakers": "Mark Backman, Kwindla Kramer",
     "Companies": "Daily, Daily",
     "Company Domains": "daily.co, daily.co",
-    "Titles": "VP of Product, Originator of Pipecat"
+    "Titles": "VP of Product, Originator of Pipecat / WebRTC Infrastructure Engineer"
   },
   {
     "Session ID": "933599",
@@ -220,8 +220,8 @@
     "Room": "",
     "Scheduled At": "",
     "Speakers": "Mani Khanuja",
-    "Companies": "Amazon",
-    "Company Domains": "amazon.com",
+    "Companies": "Amazon Web Services",
+    "Company Domains": "aws.amazon.com",
     "Titles": "unknown"
   },
   {
@@ -235,7 +235,7 @@
     "Room": "",
     "Scheduled At": "",
     "Speakers": "Rick Blalock",
-    "Companies": "Unknown Agent-Native Company",
+    "Companies": "unknown",
     "Company Domains": "agentuity.com",
     "Titles": "Founder and Developer"
   },
@@ -250,9 +250,9 @@
     "Room": "",
     "Scheduled At": "",
     "Speakers": "Laurie Voss",
-    "Companies": "LlamaIndex",
-    "Company Domains": "llamaindex.ai",
-    "Titles": "Session Owner"
+    "Companies": "npm, Inc.",
+    "Company Domains": "npmjs.com",
+    "Titles": "Co-founder"
   },
   {
     "Session ID": "933622",
@@ -417,22 +417,7 @@
     "Speakers": "Charles Frye",
     "Companies": "Modal Labs",
     "Company Domains": "modal.com",
-    "Titles": "LLM Engineer"
-  },
-  {
-    "Session ID": "933719",
-    "Title": "What every AI engineer needs to know about GPUs",
-    "Description": "Every programmer needs to know a few things about hardware, like processors, memory, and disks. Due to AI systems' extreme demand for mathematical processing power, AI engineers need to know a few things about GPUs -- the world's most popular high-throughput mathematical co-processor.\r\n\r\nIn this talk, I will explain the fundamental engineering constraints and design decisions that shape GPUs and trace those up to some counter-intuitive facts about the performance characteristics of AI systems, with actionable insights for their deployers and consumers.",
-    "Session Format": "Workshop",
-    "Level": "Intermediate",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Charles Frye",
-    "Companies": "Modal Labs",
-    "Company Domains": "modal.com",
-    "Titles": "Educator and Evangelist"
+    "Titles": "LLM Engineer / Educator"
   },
   {
     "Session ID": "915269",
@@ -492,7 +477,7 @@
     "Speakers": "Philip Kiely, Yineng Zhang",
     "Companies": "Baseten, Baseten",
     "Company Domains": "baseten.co, zhyncs.com",
-    "Titles": "Lead, Developer Relations, Software Engineer, Model Performance Team"
+    "Titles": "Lead, Developer Relations, Software Engineer, Model Performance team"
   },
   {
     "Session ID": "929509",
@@ -522,7 +507,7 @@
     "Speakers": "David Karam",
     "Companies": "Pi Labs",
     "Company Domains": "withpi.ai",
-    "Titles": "Co-Founder"
+    "Titles": "Co-founder"
   },
   {
     "Session ID": "915961",
@@ -582,7 +567,7 @@
     "Speakers": "Philipp Krenn",
     "Companies": "Elastic",
     "Company Domains": "xeraa.net",
-    "Titles": "Head of Developer Relations"
+    "Titles": "Lead, Developer Relations"
   },
   {
     "Session ID": "930540",
@@ -597,7 +582,7 @@
     "Speakers": "Ilan Bigio",
     "Companies": "OpenAI",
     "Company Domains": "gmail.com",
-    "Titles": "Founding member of OpenAI’s Developer Experience team"
+    "Titles": "Founding Member, Developer Experience Team"
   },
   {
     "Session ID": "933607",
@@ -640,9 +625,9 @@
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
     "Scheduled At": "4 Jun 2025 09:00 AM",
     "Speakers": "Sarah Guo",
-    "Companies": "Conviction",
-    "Company Domains": "conviction.com",
-    "Titles": "Session Owner"
+    "Companies": "Conviction VC",
+    "Company Domains": "conviction.vc",
+    "Titles": "General Partner"
   },
   {
     "Session ID": "929790",
@@ -657,7 +642,7 @@
     "Speakers": "Danielle Perszyk",
     "Companies": "Amazon",
     "Company Domains": "gmail.com",
-    "Titles": "Cognitive Scientist"
+    "Titles": "Cognitive Scientist at Amazon AGI SF Lab"
   },
   {
     "Session ID": "903524",
@@ -687,7 +672,7 @@
     "Speakers": "Kwindla Kramer, Sean DuBois",
     "Companies": "Daily, OpenAI",
     "Company Domains": "daily.co, openai.com",
-    "Titles": "WebRTC Infrastructure Engineer, WebRTC and Realtime API Engineer"
+    "Titles": "WebRTC Infrastructure Engineer, Realtime API Engineer"
   },
   {
     "Session ID": "916117",
@@ -750,21 +735,6 @@
     "Titles": "unknown"
   },
   {
-    "Session ID": "928676",
-    "Title": "[Infra Keynote] Geopolitics of AI Infrastructure",
-    "Description": "As AI reshapes the global balance of power, the infrastructure behind it—chips, data centers, power, and supply chains—has become a new arena for geopolitical competition. This talk explores how nations are racing to secure critical AI hardware, control compute capacity, and assert influence over the technologies and talent that define the future.",
-    "Session Format": "Talk",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "AI Infrastructure (05)",
-    "Room": "Foothill F: Infrastructure",
-    "Scheduled At": "4 Jun 2025 11:15 AM",
-    "Speakers": "Dylan Patel",
-    "Companies": "SemiAnalysis",
-    "Company Domains": "semianalysis.com",
-    "Titles": "Founder, CEO, and Chief Analyst"
-  },
-  {
     "Session ID": "929337",
     "Title": "Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs",
     "Description": "Recommendation systems and search have long adopted advances in language modeling, from early adoption of Word2vec for embedding-based retrieval to the transformative impact of GRUs, Transformers, and BERT on predicting user interactions. Now, the rise of large language models (LLMs) is inspiring innovations in model architecture, scalable system designs, and richer customer experiences.\r\n\r\nIn this keynote, we'll dive into cutting-edge industry applications of LLMs in recommendation and search systems, exploring real-world implementations and measurable outcomes. Join us for an look at current trends and an exciting vision of how LLM-driven techniques will shape the future of content discovery and intelligent search.",
@@ -780,6 +750,21 @@
     "Titles": "Principal Applied Scientist"
   },
   {
+    "Session ID": "933719",
+    "Title": "What every AI engineer needs to know about GPUs",
+    "Description": "Every programmer needs to know a few things about hardware, like processors, memory, and disks. Due to AI systems' extreme demand for mathematical processing power, AI engineers need to know a few things about GPUs -- the world's most popular high-throughput mathematical co-processor.\r\n\r\nIn this talk, I will explain the fundamental engineering constraints and design decisions that shape GPUs and trace those up to some counter-intuitive facts about the performance characteristics of AI systems, with actionable insights for their deployers and consumers.",
+    "Session Format": "Workshop",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Foothill F: Infrastructure",
+    "Scheduled At": "4 Jun 2025 11:15 AM",
+    "Speakers": "Charles Frye",
+    "Companies": "Modal Labs",
+    "Company Domains": "modal.com",
+    "Titles": "Educator and Evangelist for Neural Network Applications"
+  },
+  {
     "Session ID": "904722",
     "Title": "Accelerating Investment Operations: How BlackRock Builds Custom Knowledge Apps at Scale.",
     "Description": "Investment Operations teams are the backbone of asset and investment management firms. Their day-to-day work not only enables portfolio managers to respond swiftly to market events but also ensures that complex, unstructured data flows seamlessly across the organization.\r\nIn this talk, we introduce a modular, Kubernetes-native AI framework purpose-built to scale custom Knowledge Apps across the enterprise. Designed with speed, flexibility, and compliance in mind, the framework empowers teams to launch production-grade document extraction applications in minutes instead of months, unlocking new levels of automation and efficiency for investment management workflows.\r\nWe’ll also share how this framework has helped BlackRock streamline document extraction processes, generate investment signals, reduce operational overhead, and accelerate the delivery of high-impact business use cases—all while maintaining the robustness and control required in a regulated industry.",
@@ -792,7 +777,7 @@
     "Speakers": "Vaibhav Page, Infant Vasanth",
     "Companies": "BlackRock, BlackRock",
     "Company Domains": "blackrock.com, gmail.com",
-    "Titles": "Principal Engineer, Engineering Lead, Studio Compute Platform and Data & AI Acceleration Team"
+    "Titles": "Principal Engineer, Engineering Team Lead, Studio Compute Platform"
   },
   {
     "Session ID": "905305",
@@ -806,7 +791,7 @@
     "Scheduled At": "4 Jun 2025 11:40 AM",
     "Speakers": "Dr. Jasper Zhang, PhD",
     "Companies": "Hyperbolic",
-    "Company Domains": "hyperbolic.com",
+    "Company Domains": "hyperbolic.ai",
     "Titles": "CEO and Co-founder"
   },
   {
@@ -882,7 +867,7 @@
     "Speakers": "Sid Bendre",
     "Companies": "Oleve",
     "Company Domains": "oleve.co",
-    "Titles": "Co-founder and Head of Technical and AI Efforts"
+    "Titles": "Co-founder, Head of Platform and AI"
   },
   {
     "Session ID": "914842",
@@ -990,21 +975,6 @@
     "Titles": "AI Automation Engineer"
   },
   {
-    "Session ID": "914934",
-    "Title": "The Web Browser Is All You Need",
-    "Description": "(PLACEHOLDER) With the rise of MCP servers, A2A, and our trusty friend, OpenAPI, it turns our the web browser may be the default MCP server for the rest of the internet.\r\n\r\nIn this talk, we'll walk through how a web browsing tool is probably the only tool you'll need to enable production AI Agents. ",
-    "Session Format": "Talk",
-    "Level": "Introductory and overview",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "AI Infrastructure (05)",
-    "Room": "Foothill F: Infrastructure",
-    "Scheduled At": "4 Jun 2025 12:05 PM",
-    "Speakers": "Paul Klein IV",
-    "Companies": "Browserbase",
-    "Company Domains": "browserbase.com",
-    "Titles": "Founder"
-  },
-  {
     "Session ID": "914975",
     "Title": "PMs Are Great. But Have You Tried AI?",
     "Description": "If you’ve ever been blocked by vague specs, shifting goals, or chasing “vibes,” things have only gotten messier in the age of AI.\r\n\r\nWhat if the PM were an AI—and it understood the product, the customers, the market, the design, and, most importantly, you?\r\n\r\nAt Reforge, we built AI agents that analyze user feedback at scale, perform real-time market analysis, write aspects, model feature impact, and run continuous user research -- pushing us to rethink what \"product work” actually looks like.\r\n\r\nIn this talk, we’ll explore what happens when engineers collaborate with AI PMs instead of humans: evaluation-driven backlogs grounded in real user data, ruthless and precise feature scoping, and product decisions that iterate as fast as the models powering them.\r\n\r\nYou’ll learn the user behaviors and engineering patterns behind feedback analysis, synthetic users, AI-native surveys, and the metrics we use to measure impact before a feature ships—along with the cultural shifts teams need to embrace to make this future a reality.\r\n\r\nIn this new era, the teams who win won’t just adopt AI—they’ll architect workflows where human intuition and machine intelligence ship product side by side.",
@@ -1032,7 +1002,7 @@
     "Speakers": "Amir Haghighat",
     "Companies": "Baseten",
     "Company Domains": "baseten.co",
-    "Titles": "Co-founder and CTO"
+    "Titles": "Co-Founder and CTO"
   },
   {
     "Session ID": "932498",
@@ -1048,6 +1018,36 @@
     "Companies": "Pinterest, Inc., Pinterest, Inc",
     "Company Domains": "pinterest.com, pinterest.com",
     "Titles": "Machine Learning Engineer, Machine Learning Engineer"
+  },
+  {
+    "Session ID": "937137",
+    "Title": "Large Scale AI on Apple Silicon using EXO",
+    "Description": "The hardware lottery: when a research idea wins because it is better suited to current hardware and software, and not because it is universally superior.\r\n\r\nMachine learning researchers frequently regard hardware as a hard limit and halt their exploration. Yet throughout history, the decisive factor has often been which algorithm best fits the prevailing hardware-software stack - neural networks being the classic example.\r\n\r\nIn this talk, EXO Labs co-founder Alex Cheema will share recent algorithmic improvements for running large scale AI workloads on Apple Silicon.\r\n\r\nAlex will demonstrate how the EXO Framework enables inference, fine-tuning, and training of large ML models on Apple Silicon, from the scale of one MacBook locally to clusters of colocated M3 Ultra Mac Studios.",
+    "Session Format": "Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Foothill F: Infrastructure",
+    "Scheduled At": "4 Jun 2025 12:05 PM",
+    "Speakers": "Alex Cheema",
+    "Companies": "EXO Labs",
+    "Company Domains": "exolabs.net",
+    "Titles": "Co-founder"
+  },
+  {
+    "Session ID": "937225",
+    "Title": "3 ingredients for building reliable enterprise agents",
+    "Description": "It's easy to build a prototype of an agent, but hard to put an agent in production - especially in an enterprise setting. In this section, will talk about three ingredients for building reliable agents in the enterprise.",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
+    "Scheduled At": "4 Jun 2025 12:05 PM",
+    "Speakers": "Harrison Chase",
+    "Companies": "LangChain",
+    "Company Domains": "langchain.dev",
+    "Titles": "CEO and co-founder"
   },
   {
     "Session ID": "911925",
@@ -1092,7 +1092,7 @@
     "Speakers": "Ben Stein",
     "Companies": "Teammates",
     "Company Domains": "teammates.work",
-    "Titles": "Founder & CEO"
+    "Titles": "Founder and Chief Product & Technology Officer"
   },
   {
     "Session ID": "915740",
@@ -1123,6 +1123,21 @@
     "Companies": "Gamma",
     "Company Domains": "gamma.app",
     "Titles": "Founder & CEO"
+  },
+  {
+    "Session ID": "928676",
+    "Title": "[Infra Keynote] Geopolitics of AI Infrastructure",
+    "Description": "As AI reshapes the global balance of power, the infrastructure behind it—chips, data centers, power, and supply chains—has become a new arena for geopolitical competition. This talk explores how nations are racing to secure critical AI hardware, control compute capacity, and assert influence over the technologies and talent that define the future.",
+    "Session Format": "Talk",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "AI Infrastructure (05)",
+    "Room": "Foothill F: Infrastructure",
+    "Scheduled At": "4 Jun 2025 02:00 PM",
+    "Speakers": "Dylan Patel",
+    "Companies": "SemiAnalysis",
+    "Company Domains": "semianalysis.com",
+    "Titles": "Founder, CEO, and Chief Analyst"
   },
   {
     "Session ID": "931123",
@@ -1242,7 +1257,7 @@
     "Speakers": "Kevin Madura, Mo Bhasin",
     "Companies": "AlixPartners, AlixPartners",
     "Company Domains": "alixpartners.com, gmail.com",
-    "Titles": "Technical Advisor, Director of AI Products"
+    "Titles": "Technical Advisory Lead, Director of AI Products"
   },
   {
     "Session ID": "915013",
@@ -1361,7 +1376,7 @@
     "Scheduled At": "4 Jun 2025 02:50 PM",
     "Speakers": "Robert  Wachen",
     "Companies": "Etched",
-    "Company Domains": "etched.co",
+    "Company Domains": "etched.ai",
     "Titles": "Co-founder and COO"
   },
   {
@@ -1452,7 +1467,7 @@
     "Speakers": "Anoop Kotha",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Customer Solutions Engineer"
+    "Titles": "Customer Engagement Specialist"
   },
   {
     "Session ID": "932493",
@@ -1662,7 +1677,7 @@
     "Speakers": "Chang She, Aman Kishore, Calvin Qi",
     "Companies": "LanceDB, Harvey AI, Harvey AI",
     "Company Domains": "lancedb.com, harvey.ai, harvey.ai",
-    "Titles": "Co-founder, Former Founder, Retrieval Augmented Generation Engineer"
+    "Titles": "Co-author of Pandas, Builder of LanceDB, Former Founder, RAG Engineer / Specialist"
   },
   {
     "Session ID": "904751",
@@ -1707,7 +1722,7 @@
     "Speakers": "Kelvin Ma",
     "Companies": "Google Photos",
     "Company Domains": "gmail.com",
-    "Titles": "Technical Lead, Creative Expressions Team"
+    "Titles": "Product Engineer, Technical Lead for Google Photos Creative Expressions Team"
   },
   {
     "Session ID": "914786",
@@ -1737,7 +1752,7 @@
     "Speakers": "John Pham",
     "Companies": "The San Francisco Compute Company",
     "Company Domains": "gmail.com",
-    "Titles": "Engineer and Self-Taught Designer"
+    "Titles": "Engineer and Designer"
   },
   {
     "Session ID": "914891",
@@ -1765,9 +1780,9 @@
     "Room": "SOMA: AI Architects",
     "Scheduled At": "5 Jun 2025 11:40 AM",
     "Speakers": "Sahil Yadav, Hariharan Ganesan",
-    "Companies": "TelemeTrak, TelemeTrak",
+    "Companies": "TelemeTrak, NA",
     "Company Domains": "outlook.com, umich.edu",
-    "Titles": "Chief Product Officer, Sr. Solutions Architect"
+    "Titles": "Chief Product Officer, Senior Solutions Architect"
   },
   {
     "Session ID": "916140",
@@ -1797,7 +1812,7 @@
     "Speakers": "Rafal Wilinski, Vitor Balocco",
     "Companies": "Zapier, Zapier",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "AI Tech Lead for Zapier Agents, Staff Software Engineer, AI R&D Team"
+    "Titles": "AI Tech Lead, Staff Software Engineer, AI R&D"
   },
   {
     "Session ID": "913839",
@@ -1812,7 +1827,7 @@
     "Speakers": "Julia Neagu, Deanna Emery, Maitar Asher",
     "Companies": "Quotient AI, Quotient AI, Tavily",
     "Company Domains": "quotientai.co, quotientai.co, tavily.com",
-    "Titles": "Co-founder and CEO, Founding AI Researcher, Head of Engineering"
+    "Titles": "Co-founder and CEO, Founding AI Researcher, Founding Member and Head of Engineering"
   },
   {
     "Session ID": "914361",
@@ -1977,7 +1992,7 @@
     "Speakers": "Christopher Chedeau",
     "Companies": "Facebook",
     "Company Domains": "gmail.com",
-    "Titles": "Software Engineer"
+    "Titles": "Co-creator of React Native and Prettier, Creator of Excalidraw"
   },
   {
     "Session ID": "933458",
@@ -1991,7 +2006,7 @@
     "Scheduled At": "5 Jun 2025 02:00 PM",
     "Speakers": "Tomas Reimers",
     "Companies": "Graphite",
-    "Company Domains": "graphite.dev",
+    "Company Domains": "graphite.com",
     "Titles": "CPO and Co-founder"
   },
   {
@@ -2186,7 +2201,7 @@
     "Scheduled At": "5 Jun 2025 02:25 PM",
     "Speakers": "Steve  Ruiz",
     "Companies": "tldraw",
-    "Company Domains": "tldraw.computer",
+    "Company Domains": "tldraw.com",
     "Titles": "unknown"
   },
   {
@@ -2292,7 +2307,7 @@
     "Speakers": "Alex Duffy",
     "Companies": "Every Inc.",
     "Company Domains": "every.to",
-    "Titles": "Head of AI Strategy"
+    "Titles": "Lead AI Strategy"
   },
   {
     "Session ID": "916104",
@@ -2307,7 +2322,7 @@
     "Speakers": "Jeff Huber, Jason Liu",
     "Companies": "Chroma, 567 Studio",
     "Company Domains": "trychroma.com, jxnl.co",
-    "Titles": "CEO and Cofounder, Machine Learning Engineer, Consultant, Educator"
+    "Titles": "CEO and cofounder, Machine learning engineer, consultant, educator"
   },
   {
     "Session ID": "907695",
@@ -2340,19 +2355,19 @@
     "Titles": "AI Product Manager"
   },
   {
-    "Session ID": "915353",
-    "Title": "The Evolution of Software Development with AI",
-    "Description": "Artificial Intelligence is a rapidly advancing technology revolutionizing the world, especially in software creation. As AI advances, it handles more intricate tasks, significantly reshaping how we write software.\r\n\r\nThe journey through the evolution of programming with AI can be categorized into seven distinct stages. Each stage represents a unique milestone in how AI integrates with and enhances software development.",
+    "Session ID": "914934",
+    "Title": "The Web Browser Is All You Need",
+    "Description": "(PLACEHOLDER) With the rise of MCP servers, A2A, and our trusty friend, OpenAPI, it turns our the web browser may be the default MCP server for the rest of the internet.\r\n\r\nIn this talk, we'll walk through how a web browsing tool is probably the only tool you'll need to enable production AI Agents. ",
     "Session Format": "Talk",
     "Level": "Introductory and overview",
     "Scope": "Introductory (landscape)",
-    "Assigned Track": "AI Architects (L1)",
+    "Assigned Track": "AI Infrastructure (05)",
     "Room": "SOMA: AI Architects",
     "Scheduled At": "5 Jun 2025 03:00 PM",
-    "Speakers": "Brett Kotch",
-    "Companies": "The Pragmatic AI Programmer",
-    "Company Domains": "outlook.com",
-    "Titles": "AI Technology Innovator"
+    "Speakers": "Paul Klein IV",
+    "Companies": "Browserbase",
+    "Company Domains": "browserbase.com",
+    "Titles": "Founder"
   },
   {
     "Session ID": "915873",
@@ -2382,7 +2397,7 @@
     "Speakers": "Rita  Kozlov",
     "Companies": "cloudflare",
     "Company Domains": "gmail.com",
-    "Titles": "unknown"
+    "Titles": "Platform Engineer"
   },
   {
     "Session ID": "936564",
@@ -2412,6 +2427,6 @@
     "Speakers": "Sean Grove",
     "Companies": "OpenAI",
     "Company Domains": "gmail.com",
-    "Titles": "Member of Technical Staff on OpenAI’s Alignment Reasoning team"
+    "Titles": "Member of Technical Staff, Alignment Reasoning"
   }
 ]
