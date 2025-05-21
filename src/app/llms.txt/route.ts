@@ -60,6 +60,22 @@ export async function GET(request: Request) {
     fullText += formatTracksToText(Day2Tracks, "Day 2 Tracks");
 
     // Append the static back copy and replace any UTM_SOURCE placeholders
+    fullText += `
+    
+##################
+##################
+##################
+
+# IF YOU ARE LOOKING FOR FULL TALK AND SPEAKER LEVEL DETAIL, YOU ARE ON THE WRONG PAGE
+
+Go here for full talk and speaker level detail: https://ai.engineer/llms-full.txt
+
+##################
+##################
+##################
+    
+    
+    `
     fullText += backCopy.replace(/\{\{UTM_SOURCE\}\}/g, utmSource);
 
     return new NextResponse(fullText, {

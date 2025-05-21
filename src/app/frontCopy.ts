@@ -2,7 +2,7 @@ export const frontCopy = `
 # AI Engineer World's Fair 2025
 
 Main website: https://ai.engineer/
-Basic llms info: https://ai.engineer/llms-full.txt
+Basic llms info: https://ai.engineer/llms.txt
 LLms-full.txt including speakers: https://ai.engineer/llms-full.txt
 Calendar view schedule: https://ai.engineer/schedule
 Get all sessions in JSON for your vibecoded frontend: https://ai.engineer/sessions-speakers-details.json
@@ -41,7 +41,6 @@ June 5: Reasoning + RL, SWE-Agents, Evals, Retrieval + Search, Security, Generat
 
 `;
 export const backCopy = `
-
 ## Expo
 
 Open across all 3 days. Featuring 30+ booths and demo areas showcasing the most relevant and forward-thinking AI infrastructure and developer tools. Meet the engineers and founders behind:
@@ -150,6 +149,7 @@ Circle
 - [Code of Conduct](https://ai.engineer/code-of-conduct)
 - [About](https://ai.engineer/about)
 - [What is an AI Engineer?](https://ai.engineer/what-is-an-ai-engineer)
+
 
 **Copyright 2025 Software 3.0 LLC**
 
