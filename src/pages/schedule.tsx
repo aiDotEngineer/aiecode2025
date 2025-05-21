@@ -77,7 +77,7 @@ const SchedulePage: React.FC = () => {
           </a>
         </div>
       <div>
-        <p className="text-center">For hackers: <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a> for your own vibecoded view, like <a href="https://noodlesoup.com/ai-engineer-worlds-fair-2025" className="underline hover:text-blue-800">@noodlesoup's app</a></p>  
+        <p className="text-center">For hackers: <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a> for your own vibecoded view, like <a href="https://noodlesoup.com/ai-engineer-worlds-fair-2025" className="underline hover:text-blue-800">@noodlesoup's app</a>. We manually update this JSON dump regularly but the Sessionize schedule below is the ultimate source of truth.</p>  
       </div>
           {/*
             [INFO][2025-05-20T10:17:04-07:00] Embedding official sessionize schedule iframe.

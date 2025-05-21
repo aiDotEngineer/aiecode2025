@@ -207,7 +207,7 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
       </header>
 
       <div>
-        <p className="text-center">For hackers: <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a> for your own vibecoded view, like <a href="https://noodlesoup.com/ai-engineer-worlds-fair-2025" className="underline hover:text-blue-800">@noodlesoup's app</a></p>  
+        <p className="text-center">For hackers: <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a> for your own vibecoded view, like <a href="https://noodlesoup.com/ai-engineer-worlds-fair-2025" className="underline hover:text-blue-800">@noodlesoup's app</a>. We manually update this JSON dump regularly but the <a href="https://ai.engineer/schedule" className="underline hover:text-blue-800">Sessionize schedule</a> is the ultimate source of truth.</p>  
       </div>
       
 
