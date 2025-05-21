@@ -204,39 +204,66 @@ const data = [
 
 
 export default function JobsPage() {
-  return (
-    <div className="flex flex-col gap-8 pb-24">
-      <PageIntro title="AI Engineering Jobs" />
-      <Container>
-        <div className="prose max-w-none">
-          {data.map((company, companyIdx) => (
-            <React.Fragment key={company.companyName}>
-              <hr className="my-8 border-t border-gray-200" />
-              <h1 className="font-bold text-2xl mb-3">{company.companyName}</h1>
+  // Improved job board layout for better visual hierarchy, info density, and spacing
+return (
+  <div className="flex flex-col items-center pb-24 bg-gray-50 min-h-screen">
+    <PageIntro title="AI Engineering Jobs" >
+      <p className="text-lg text-gray-500">Updated: 2025-05-20</p>
+      <p className="text-lg text-gray-500">All jobs are fresh and curated by sponsors of the AI Engineer World's Fair!</p>
+    </PageIntro>
+    <Container className="mt-24">
+      {/* Add a max-width and center all content for better readability */}
+      <div className="w-full max-w-3xl mx-auto space-y-10">
+        {/* Iterate through companies */}
+        {data.map((company, companyIdx) => (
+          <section key={company.companyName} className="">
+            {/* Company header: prominent, visually separated */}
+            <div className="mb-3 flex items-center gap-2">
+              <span className="text-2xl font-extrabold text-gray-900 tracking-tight leading-tight">
+                {company.companyName}
+              </span>
+              {/* Optional: Add a subtle divider for visual grouping */}
+              <span className="flex-1 border-t border-gray-200 ml-2" />
+            </div>
+            {/* Jobs for this company, grouped in cards */}
+            <div className="flex flex-col gap-4">
               {company.jobs.map((job, jobIdx) => (
-                <div key={job.title + job.linkUrl}>
-                  <h3 className="font-bold text-xl mb-3">Title:</h3>
-                  <p>{job.title}</p>
-                  <h3 className="font-bold text-xl mb-3">Description:</h3>
-                  {job.description}
-                  <a
-                    href={job.linkUrl}
-                    className="inline-block px-6 py-2 border border-gray-300 rounded-full font-bold text-black bg-white hover:bg-gray-100 transition"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    More Information
-                  </a>
-                  {/* Only add <hr> between jobs of the same company, not after the last one */}
+                <div
+                  key={job.title + job.linkUrl}
+                  className="bg-white shadow-sm rounded-xl border border-gray-200 p-5 group hover:shadow-md transition relative"
+                >
+                  {/* Job Title - bold, compact */}
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="font-semibold text-lg text-gray-800">
+                      {job.title}
+                    </span>
+                  </div>
+                  {/* Description - smaller, more compact */}
+                  <div className="text-sm text-gray-600 mb-4">
+                    {job.description}
+                  </div>
+                  {/* More Information button - visually prominent, right-aligned */}
+                  <div className="flex justify-end">
+                    <a
+                      href={job.linkUrl}
+                      className="inline-block px-4 py-2 border border-blue-600 rounded-lg font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 transition text-sm shadow-sm"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      More Information
+                    </a>
+                  </div>
+                  {/* Subtle divider between jobs (not after last job) */}
                   {jobIdx < company.jobs.length - 1 && (
-                    <hr className="my-8 border-t border-gray-200" />
+                    <div className="absolute bottom-0 left-4 right-4 border-t border-gray-100" style={{marginBottom: '-1.25rem'}} />
                   )}
                 </div>
               ))}
-            </React.Fragment>
-          ))}
-        </div>
-      </Container>
-    </div>
-  )
+            </div>
+          </section>
+        ))}
+      </div>
+    </Container>
+  </div>
+);
 }
