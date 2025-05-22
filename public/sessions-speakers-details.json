@@ -42,7 +42,7 @@
     "Speakers": "Dani Grant, Chelcie Taylor",
     "Companies": "Jam.dev, Notable Capital",
     "Company Domains": "jam.dev, notablecap.com",
-    "Titles": "CEO, Investor / Venture Capitalist"
+    "Titles": "CEO, Investor / Partner"
   },
   {
     "Session ID": "915616",
@@ -72,7 +72,7 @@
     "Speakers": "Shrestha Basu Mallick, Kwindla Kramer",
     "Companies": "Google DeepMind, Daily",
     "Company Domains": "gmail.com, daily.co",
-    "Titles": "Group Product Manager and product lead for Gemini API, Developer/Engineer working on large-scale WebRTC infrastructure"
+    "Titles": "Group Product Manager and product lead for Gemini API, PM and developer of Pipecat, working on large-scale WebRTC infrastructure"
   },
   {
     "Session ID": "933462",
@@ -101,7 +101,7 @@
     "Scheduled At": "",
     "Speakers": "Tomas Reimers",
     "Companies": "Graphite",
-    "Company Domains": "graphite.dev",
+    "Company Domains": "graphite.com",
     "Titles": "CPO and Co-founder"
   },
   {
@@ -192,7 +192,7 @@
     "Speakers": "Philip Kiely",
     "Companies": "Baseten",
     "Company Domains": "baseten.co",
-    "Titles": "Lead, Developer Relations"
+    "Titles": "Head of Developer Relations"
   },
   {
     "Session ID": "933589",
@@ -222,7 +222,7 @@
     "Speakers": "Arjun Desai",
     "Companies": "Cartesia",
     "Company Domains": "cartesia.ai",
-    "Titles": "CTO and co-founder"
+    "Titles": "CTO and Co-founder"
   },
   {
     "Session ID": "933603",
@@ -265,7 +265,7 @@
     "Room": "",
     "Scheduled At": "",
     "Speakers": "Rick Blalock",
-    "Companies": "unknown (new agent-native company founded in 2024)",
+    "Companies": "unknown",
     "Company Domains": "agentuity.com",
     "Titles": "Founder and Developer"
   },
@@ -280,9 +280,9 @@
     "Room": "",
     "Scheduled At": "",
     "Speakers": "Laurie Voss",
-    "Companies": "npm, Inc.",
-    "Company Domains": "npmjs.com",
-    "Titles": "Co-founder"
+    "Companies": "LlamaIndex",
+    "Company Domains": "llamaindex.ai",
+    "Titles": "VP of Developer Relations"
   },
   {
     "Session ID": "933622",
@@ -312,7 +312,7 @@
     "Speakers": "Philipp Krenn",
     "Companies": "Elastic",
     "Company Domains": "xeraa.net",
-    "Titles": "Lead Developer Relations"
+    "Titles": "Lead, Developer Relations"
   },
   {
     "Session ID": "933629",
@@ -342,7 +342,7 @@
     "Speakers": "Nathan Sobo",
     "Companies": "GitHub",
     "Company Domains": "github.com",
-    "Titles": "unknown"
+    "Titles": "Software Engineer"
   },
   {
     "Session ID": "933641",
@@ -506,7 +506,7 @@
     "Scheduled At": "",
     "Speakers": "Nir Gazit",
     "Companies": "Traceloop",
-    "Company Domains": "traceloop.ai",
+    "Company Domains": "traceloop.com",
     "Titles": "CEO"
   },
   {
@@ -522,7 +522,7 @@
     "Speakers": "Charles Frye",
     "Companies": "Modal Labs",
     "Company Domains": "modal.com",
-    "Titles": "LLM Engineer / Educator"
+    "Titles": "LLM Engineer"
   },
   {
     "Session ID": "936204",
@@ -627,7 +627,7 @@
     "Speakers": "Ishan Anand",
     "Companies": "Independent",
     "Company Domains": "gmail.com",
-    "Titles": "AI consultant and technology executive"
+    "Titles": "AI Consultant and Technology Executive"
   },
   {
     "Session ID": "916066",
@@ -642,7 +642,7 @@
     "Speakers": "Philip Kiely, Yineng Zhang",
     "Companies": "Baseten, Baseten",
     "Company Domains": "baseten.co, zhyncs.com",
-    "Titles": "Lead, Developer Relations, Software Engineer, Model Performance Team"
+    "Titles": "Lead, Developer Relations, Software Engineer, Model Performance"
   },
   {
     "Session ID": "929509",
@@ -732,7 +732,7 @@
     "Speakers": "Philipp Krenn",
     "Companies": "Elastic",
     "Company Domains": "xeraa.net",
-    "Titles": "Lead, Developer Relations"
+    "Titles": "Lead Developer Relations"
   },
   {
     "Session ID": "930540",
@@ -760,7 +760,7 @@
     "Room": "Golden Gate Ballroom B: Workshops",
     "Scheduled At": "3 Jun 2025 01:00 PM",
     "Speakers": "Du’An Lightfoot",
-    "Companies": "Amazon Web Services",
+    "Companies": "Amazon Web Services (AWS)",
     "Company Domains": "aws.amazon.com",
     "Titles": "Sr. Developer Advocate"
   },
@@ -777,7 +777,7 @@
     "Speakers": "Dominik Kundel",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Developer Experience & SDKs"
+    "Titles": "Developer Experience & SDKs Lead"
   },
   {
     "Session ID": "927324",
@@ -837,7 +837,7 @@
     "Speakers": "Kwindla Kramer, Sean DuBois",
     "Companies": "Daily, OpenAI",
     "Company Domains": "daily.co, openai.com",
-    "Titles": "WebRTC Infrastructure Engineer, WebRTC and Realtime API Engineer"
+    "Titles": "WebRTC Infrastructure Engineer, Realtime API Engineer"
   },
   {
     "Session ID": "916117",
@@ -927,7 +927,7 @@
     "Speakers": "Charles Frye",
     "Companies": "Modal Labs",
     "Company Domains": "modal.com",
-    "Titles": "Educator and Evangelist for Neural Network Applications"
+    "Titles": "Educator and Evangelist"
   },
   {
     "Session ID": "907834",
@@ -972,7 +972,7 @@
     "Speakers": "Vaibhav Page, Infant Vasanth",
     "Companies": "BlackRock, BlackRock",
     "Company Domains": "blackrock.com, gmail.com",
-    "Titles": "Principal Engineer, Engineering Team Lead - Studio Compute Platform and Data & AI Acceleration Team"
+    "Titles": "Principal Engineer, Engineering Team Lead, Studio Compute Platform and Data & AI Acceleration"
   },
   {
     "Session ID": "905305",
@@ -986,7 +986,7 @@
     "Scheduled At": "4 Jun 2025 11:40 AM",
     "Speakers": "Dr. Jasper Zhang, PhD",
     "Companies": "Hyperbolic",
-    "Company Domains": "hyperbolic.io",
+    "Company Domains": "hyperbolic.com",
     "Titles": "CEO and Co-founder"
   },
   {
@@ -1047,7 +1047,7 @@
     "Speakers": "Sid Bendre",
     "Companies": "Oleve",
     "Company Domains": "oleve.co",
-    "Titles": "Co-founder, Technical and AI Lead"
+    "Titles": "Co-founder and Head of Technical and AI Efforts"
   },
   {
     "Session ID": "914842",
@@ -1227,7 +1227,7 @@
     "Speakers": "Harrison Chase",
     "Companies": "LangChain",
     "Company Domains": "langchain.dev",
-    "Titles": "CEO and co-founder"
+    "Titles": "CEO and Co-founder"
   },
   {
     "Session ID": "933545",
@@ -1242,7 +1242,7 @@
     "Speakers": "Eric Hou",
     "Companies": "Augment Code",
     "Company Domains": "augmentcode.com",
-    "Titles": "unknown"
+    "Titles": "Engineer"
   },
   {
     "Session ID": "911925",
@@ -1287,7 +1287,7 @@
     "Speakers": "Ben Stein",
     "Companies": "Teammates",
     "Company Domains": "teammates.work",
-    "Titles": "Founder & Product Leader"
+    "Titles": "Founder & CEO"
   },
   {
     "Session ID": "915740",
@@ -1316,7 +1316,7 @@
     "Scheduled At": "4 Jun 2025 02:00 PM",
     "Speakers": "Jordan Dearsley",
     "Companies": "Vapi",
-    "Company Domains": "vapi.com",
+    "Company Domains": "vapi.ai",
     "Titles": "Co-founder and CEO"
   },
   {
@@ -1347,7 +1347,7 @@
     "Speakers": "Grant Lee",
     "Companies": "Gamma",
     "Company Domains": "gamma.app",
-    "Titles": "Founder"
+    "Titles": "Founder & CEO"
   },
   {
     "Session ID": "928676",
@@ -1392,7 +1392,7 @@
     "Speakers": "Hamed Firooz, Maziar Sanjabi",
     "Companies": "LinkedIn, LinkedIn",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "Principal AI Scientist at LinkedIn Core AI, Principal Scientist at LinkedIn AI"
+    "Titles": "Principal AI Scientist, Principal Scientist"
   },
   {
     "Session ID": "904822",
@@ -1437,7 +1437,7 @@
     "Speakers": "Kevin Madura, Mo Bhasin",
     "Companies": "AlixPartners, AlixPartners",
     "Company Domains": "alixpartners.com, gmail.com",
-    "Titles": "Technical Advisor, Director of AI Products"
+    "Titles": "Technical Advisory Leader, Director of AI Products"
   },
   {
     "Session ID": "915013",
@@ -1467,7 +1467,7 @@
     "Speakers": "Kyle Kranen US",
     "Companies": "NVIDIA",
     "Company Domains": "nvidia.com",
-    "Titles": "Engineering Leader, Datacenter-Scale Inference Engineering"
+    "Titles": "Engineering Leader, Datacenter-scale Inference Engineering"
   },
   {
     "Session ID": "915738",
@@ -1557,7 +1557,7 @@
     "Speakers": "Anoop Kotha",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "unknown"
+    "Titles": "Customer Solutions Engineer"
   },
   {
     "Session ID": "915770",
@@ -1587,7 +1587,7 @@
     "Speakers": "Ola  Mabadeje",
     "Companies": "Cisco",
     "Company Domains": "cisco.com",
-    "Titles": "Leader, Generative AI Incubation group"
+    "Titles": "Leader, Generative AI Incubation"
   },
   {
     "Session ID": "916115",
@@ -1857,7 +1857,7 @@
     "Speakers": "Chang She, Aman Kishore, Calvin Qi",
     "Companies": "LanceDB, Harvey AI, Harvey AI",
     "Company Domains": "lancedb.com, harvey.ai, harvey.ai",
-    "Titles": "unknown, Former Founder, unknown"
+    "Titles": "Co-founder, Founder, RAG Specialist"
   },
   {
     "Session ID": "904751",
@@ -1932,7 +1932,7 @@
     "Speakers": "Kelvin Ma",
     "Companies": "Google Photos",
     "Company Domains": "gmail.com",
-    "Titles": "Product Engineer, Technical Lead for Google Photos' Creative Expressions team"
+    "Titles": "Technical Lead, Creative Expressions Team"
   },
   {
     "Session ID": "914786",
@@ -1992,7 +1992,7 @@
     "Speakers": "Rafal Wilinski, Vitor Balocco",
     "Companies": "Zapier, Zapier",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "AI Tech Lead for Zapier Agents, Staff Software Engineer, AI Lead for Zapier Agents"
+    "Titles": "AI Tech Lead for Zapier Agents, Staff Software Engineer, AI R&D Team"
   },
   {
     "Session ID": "913839",
@@ -2126,7 +2126,7 @@
     "Scheduled At": "5 Jun 2025 12:15 PM",
     "Speakers": "Tomas Reimers",
     "Companies": "Graphite",
-    "Company Domains": "graphite.dev",
+    "Company Domains": "graphite.com",
     "Titles": "CPO and Co-founder"
   },
   {
@@ -2140,7 +2140,7 @@
     "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
     "Scheduled At": "5 Jun 2025 12:15 PM",
     "Speakers": "Mike Chambers",
-    "Companies": "Amazon Web Services",
+    "Companies": "AWS",
     "Company Domains": "aws.amazon.com",
     "Titles": "Senior Developer Advocate and Generative AI Specialist"
   },
@@ -2247,7 +2247,7 @@
     "Speakers": "Keegan McCallum",
     "Companies": "Luma AI",
     "Company Domains": "keeganmccallum.com",
-    "Titles": "Head of ML infrastructure"
+    "Titles": "Head of ML Infrastructure"
   },
   {
     "Session ID": "914533",
@@ -2292,7 +2292,7 @@
     "Speakers": "Christopher Chedeau",
     "Companies": "Facebook",
     "Company Domains": "gmail.com",
-    "Titles": "unknown"
+    "Titles": "Software Engineer"
   },
   {
     "Session ID": "916215",
@@ -2427,7 +2427,7 @@
     "Speakers": "Nathan Lambert",
     "Companies": "Allen Institute for AI",
     "Company Domains": "natolambert.com",
-    "Titles": "Senior Research Scientist and post-training lead"
+    "Titles": "Senior Research Scientist and Post-Training Lead"
   },
   {
     "Session ID": "934617",
@@ -2440,8 +2440,8 @@
     "Room": "Foothill G 1&2: Design Engineering",
     "Scheduled At": "5 Jun 2025 02:25 PM",
     "Speakers": "Steve  Ruiz",
-    "Companies": "unknown",
-    "Company Domains": "unknown",
+    "Companies": "tldraw",
+    "Company Domains": "tldraw.com",
     "Titles": "unknown"
   },
   {
@@ -2532,7 +2532,7 @@
     "Speakers": "Alex Duffy",
     "Companies": "Every Inc.",
     "Company Domains": "every.to",
-    "Titles": "Lead AI Strategy"
+    "Titles": "Head of AI Strategy"
   },
   {
     "Session ID": "916104",
@@ -2547,7 +2547,7 @@
     "Speakers": "Jeff Huber, Jason Liu",
     "Companies": "Chroma, 567 Studio",
     "Company Domains": "trychroma.com, jxnl.co",
-    "Titles": "CEO and cofounder, Machine learning engineer, consultant, educator"
+    "Titles": "CEO and Cofounder, Machine Learning Engineer"
   },
   {
     "Session ID": "935969",
@@ -2562,7 +2562,7 @@
     "Speakers": "Rita  Kozlov",
     "Companies": "cloudflare",
     "Company Domains": "gmail.com",
-    "Titles": "Platform Engineer"
+    "Titles": "Platform Developer"
   },
   {
     "Session ID": "936564",
@@ -2592,6 +2592,6 @@
     "Speakers": "Sean Grove",
     "Companies": "OpenAI",
     "Company Domains": "gmail.com",
-    "Titles": "Member of Technical Staff on OpenAI’s Alignment Reasoning team"
+    "Titles": "Member of Technical Staff, Alignment Reasoning"
   }
 ]

@@ -119,10 +119,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Preeti Somal": 800,
   "Annika Brundyn": 500,
   "Aastha Jhunjhunwala": 200,
-  "Steve Ruiz": 200,
-  "Okta Speaker": 200,
-  "Tomas Reimers": 200,
-  
+
   // Speakers from specific companies or roles if not covered above
   "Damien Murphy": 300, // Google
   "Rustin Banks": 300, // Google Labs
@@ -138,8 +135,23 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Shafik Quoraishee": 300, // New York Times
 };
 
+
+
 // Default priority score for speakers not in the list above
 const DEFAULT_PRIORITY_SCORE = 100;
+
+// List of speakers to exclude from the results - because bad data
+const EXCLUDED_SPEAKERS = new Set([
+  "Steve Ruiz",
+  "Okta Speaker",
+  "Julia Kasper",
+  "Den Delimarsky",
+  "Cedric Vidal",
+  "Dat Ngo",
+  "Aman Khan",
+  "Jim Bennett",
+  "Tomas Reimers"
+]);
 
 // Define the type for manual speaker entries based on manual-keynote-speakers.json
 interface ManualSpeakerEntry {
@@ -167,64 +179,67 @@ export function formatSpeakersData(): FormattedData {
 
   // 1. Process Manual Keynote Speakers
   const manualPresenters: FormattedSpeaker[] = manualKeynoteSpeakersData.map((manualSpeaker, index) => {
-  manualSpeakerNames.add(manualSpeaker.Name);
-  const priorityScore = SPEAKER_PRIORITY_SCORES[manualSpeaker.Name] || 1000; // Default to 1000 for manual keynotes
+    manualSpeakerNames.add(manualSpeaker.Name);
+    const priorityScore = SPEAKER_PRIORITY_SCORES[manualSpeaker.Name] || 1000; // Default to 1000 for manual keynotes
 
-  return {
-    id: `manual-${manualSpeaker.Name.replace(/\s+/g, '-').toLowerCase()}-${index}`,
-    attributes: {
-      name: manualSpeaker.Name,
-      tagline: manualSpeaker.Tagline,
-      socialLinks: undefined, // Manual speakers don't have social links in this JSON
-      displayOrder: index, // Original order from manual JSON
-      priorityScore,
-      profilePhoto: {
-        data: {
-          attributes: {
-            url: manualSpeaker.ProfilePicture
+    return {
+      id: `manual-${manualSpeaker.Name.replace(/\s+/g, '-').toLowerCase()}-${index}`,
+      attributes: {
+        name: manualSpeaker.Name,
+        tagline: manualSpeaker.Tagline,
+        socialLinks: undefined, // Manual speakers don't have social links in this JSON
+        displayOrder: index, // Original order from manual JSON
+        priorityScore,
+        profilePhoto: {
+          data: {
+            attributes: {
+              url: manualSpeaker.ProfilePicture
+            }
           }
+        },
+        company: {
+          data: manualSpeaker.Company ? {
+            attributes: {
+              name: manualSpeaker.Company
+            }
+          } : undefined
+        },
+        sessions: {
+          data: manualSpeaker.Sessions.map(session => ({
+            attributes: {
+              title: session.Title,
+              format: session.Format,
+              description: session.Description,
+              track: session.Tracks ? { 
+                data: { attributes: { name: session.Tracks } } 
+              } : { data: undefined },
+              // These fields are not present in manual speakers, but included for type consistency
+              level: undefined,
+              scope: undefined,
+              room: undefined,
+              scheduledAt: undefined,
+            }
+          }))
         }
-      },
-      company: {
-        data: manualSpeaker.Company ? {
-          attributes: {
-            name: manualSpeaker.Company
-          }
-        } : undefined
-      },
-      sessions: {
-        data: manualSpeaker.Sessions.map(session => ({
-          attributes: {
-            title: session.Title,
-            format: session.Format,
-            description: session.Description,
-            track: session.Tracks ? { 
-              data: { attributes: { name: session.Tracks } } 
-            } : { data: undefined },
-            // These fields are not present in manual speakers, but included for type consistency
-            level: undefined,
-            scope: undefined,
-            room: undefined,
-            scheduledAt: undefined,
-          }
-        }))
       }
-    }
-  };
-});
+    };
+  });
 
-  // [LOG] [PRIORITY] [formatSpeakersData] [2025-05-13T20:29:02-07:00] [36mEnsuring Logan Kilpatrick is prioritized as a keynote speaker[0m
-  const logan = manualPresenters.find(s => s.attributes.name === "Logan Kilpatrick");
-  if (logan) {
-    console.log('[PRIORITY] [formatSpeakersData] [2025-05-13T20:29:02-07:00]', '\x1b[32mLogan Kilpatrick found in manual keynote speakers and prioritized.\x1b[0m', logan);
-  } else {
-    console.warn('[WARN] [formatSpeakersData] [2025-05-13T20:29:02-07:00]', '\x1b[31mLogan Kilpatrick NOT found in manual keynote speakers!\x1b[0m');
-  }
+  // // [LOG] [PRIORITY] [formatSpeakersData] [2025-05-13T20:29:02-07:00] [36mEnsuring Logan Kilpatrick is prioritized as a keynote speaker[0m
+  // const logan = manualPresenters.find(s => s.attributes.name === "Logan Kilpatrick");
+  // if (logan) {
+  //   console.log('[PRIORITY] [formatSpeakersData] [2025-05-13T20:29:02-07:00]', '\x1b[32mLogan Kilpatrick found in manual keynote speakers and prioritized.\x1b[0m', logan);
+  // } else {
+  //   console.warn('[WARN] [formatSpeakersData] [2025-05-13T20:29:02-07:00]', '\x1b[31mLogan Kilpatrick NOT found in manual keynote speakers!\x1b[0m');
+  // }
+  
   allPresenters = allPresenters.concat(manualPresenters);
 
   // 2. Process Speakers from speakers-sessions-details.json
   const existingPresenters: FormattedSpeaker[] = speakersData
-    .filter(speakerFromJson => !manualSpeakerNames.has(speakerFromJson.Name)) // Avoid duplicates
+    .filter(speakerFromJson => 
+      !manualSpeakerNames.has(speakerFromJson.Name) // Avoid duplicates
+    )
     .map((speakerFromJson, index) => {
       const priorityScore = SPEAKER_PRIORITY_SCORES[speakerFromJson.Name] || (DEFAULT_PRIORITY_SCORE * (Math.random() + 1));
       
@@ -279,6 +294,7 @@ return {
 
     });
   allPresenters = allPresenters.concat(existingPresenters);
+  allPresenters = allPresenters.filter(speaker => !EXCLUDED_SPEAKERS.has(speaker.attributes.name));
 
   // 3. Sort all presenters together
   const sortedPresenters = allPresenters.sort((a, b) => {
