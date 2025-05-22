@@ -173,6 +173,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 2:
+              <a
+                href="https://lu.ma/xpanderai-workshop"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>Xpander.ai</b> AI Agents Workshop
+              </a>
+            </li>
+            <li>
               Jun 3:
               <a
                 href="https://aws-anthropic-gen-ai-reception-2025.splashthat.com"
