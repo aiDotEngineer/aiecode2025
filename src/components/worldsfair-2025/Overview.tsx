@@ -159,7 +159,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                <b>AI Engineer World's Fair Official Hackathon</b>
+                <b>AI Engineer World's Fair Official Hackathon</b> - $10k in cash prizes + judged by 3000 AI Engineers!
               </a>
             </li>
             <li>
