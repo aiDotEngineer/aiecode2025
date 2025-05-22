@@ -528,6 +528,79 @@ export function Sponsors() {
             className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
+        <a href="https://every.to/" target="_blank" className="inline-block">
+          <Logo
+            logo="every"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.oleve.co/" target="_blank" className="inline-block">
+          <Logo
+            logo="oleve"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://all-hands.dev/" target="_blank" className="inline-block">
+          <Logo
+            logo="allhands"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>   
+        <a href="https://www.reforge.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="reforge"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />  
+        </a>        
+        <a href="https://www.apify.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="apify"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>        
+        <a href="https://casco.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="casco"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>        
+        <a href="https://www.blackrock.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="blackrock"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.qodo.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="qodo"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.wisedocs.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="wisedocs"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.caylent.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="caylent"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.writer.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="writer"
+            variant="black"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.quotient.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="quotient"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
       </div>
 
       <div className="text-center space-y-6 p-8 bg-stone-200 rounded-2xl">
