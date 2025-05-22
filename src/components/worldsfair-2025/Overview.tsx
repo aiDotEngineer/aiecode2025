@@ -193,6 +193,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 4:
+              <a
+                href="https://lu.ma/finetuned"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>Damn You Fine[tuned]</b> (by Baseten & Oxen.ai)
+              </a>
+            </li>
+            <li>
               Jun 5:
               <a
                 href="https://lu.ma/wodr7uk0"
