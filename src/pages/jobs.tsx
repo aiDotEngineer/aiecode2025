@@ -14,6 +14,74 @@ const data = [
     }]
   },
   {
+    companyName: "Amazon",
+    jobs: [{
+      title: "Senior Machine Learning Engineer, Bedrock",
+      description: <> <p>Looking for a highly-skilled Senior Machine Learning Engineer, to lead the development and delivery of technologies to push the boundaries of efficient inference for open source Generative Artificial Intelligence (GenAI) models. This role offers the exciting chance to work in a highly technical domain at the boundary between fundamental AI research and production engineering such as Quantization, Speculative Decoding, and Long Context for inference efficiency.</p>
+      </>,
+      linkUrl: "https://www.amazon.jobs/en/jobs/2979255/senior-machine-learning-engineer-bedrock?no_int_redir=1",
+    },
+    {
+      title: "Senior Applied Scientist, DS3",
+      description: <> <p>We are seeking a Senior Applied Scientist for the team. This is a role that combines science knowledge (around machine learning and reinforcement learning), compilers and systems. It will be your job to develop novel ML/RL systems and algorithms while working with the engineering team to integrate them into different projects. You will be at the heart of a growing and exciting focus area for AWS and work with other acclaimed engineers and world famous scientists.</p>
+      </>,
+      linkUrl: "https://www.amazon.jobs/en/jobs/2828356/senior-applied-scientist-ds3?no_int_redir=1",
+    },
+    {
+      title: "Research Engineer III, Deep Science for Systems and Services",
+      description: <> <p>This role is targeted for research engineers working on inference optimization of foundation models on AI accelerators.</p>
+      </>,
+      linkUrl: "https://www.amazon.jobs/en/jobs/2940880/research-engineer-iii-deep-science-for-systems-and-services?no_int_redir=1",
+    }]
+  },   
+  {
+    companyName: "SuperAnnotate",
+    jobs: [{
+      title: "AI Solutions Director",
+      description: <>  <p>The Staff Developer Advocate at Temporal Technologies will be the voice and face of our developer community in the AI space in the Bay Area. This role involves producing high-quality technical content, engaging with developers, and gathering feedback for product development. The successful candidate will drive developer engagement and contribute to the growth of our open-source community.</p>
+      </>,
+      linkUrl: "https://jobs.lever.co/superannotate/ef61c956-446c-481a-9ce9-61d6fc5653c8",
+    }]
+  },       
+  {
+    companyName: "Temporal",
+    jobs: [{
+      title: "Staff Developer Advocate, AI - San Francisco",
+      description: <>  <p>The Staff Developer Advocate at Temporal Technologies will be the voice and face of our developer community in the AI space in the Bay Area. This role involves producing high-quality technical content, engaging with developers, and gathering feedback for product development. The successful candidate will drive developer engagement and contribute to the growth of our open-source community.</p>
+      </>,
+      linkUrl: "https://job-boards.greenhouse.io/temporaltechnologies/jobs/4652028007",
+    }]
+  },  
+  {
+    companyName: "Langbase",
+    jobs: [{
+      title: "Full-Stack Software Engineer ",
+      description: <>  <p>We are hiring several phenomenal Full Stack TypeScript Developers with experience writing high-quality TypeScript code and additional knowledge of cloud deployment like serverless architectures (Cloudflare/AWS/Azure). In this role, you will contribute to the development and enhancement of our platform, ensuring seamless integration and optimal performance.</p>
+      </>,
+      linkUrl: "https://tally.so/r/waKbO9",
+    }]
+  },    
+  {
+    companyName: "Arise AI",
+    jobs: [{
+      title: "Technical Product Marketing Manager",
+      description: <>  <p>We’re looking for a Technical Product Marketing Manager (PMM) to drive product growth and adoption by improving the onboarding experience, optimizing user journeys, and creating data-driven nurture strategies. You’ll work closely with Product, Marketing Growth, and Developer Relations teams to refine how users experience Arize—ensuring they get value faster and stay engaged.</p>
+      </>,
+      linkUrl: "https://arize.com/career/?gh_jid=5473181004",
+    }]
+  },
+  {
+    companyName: "Hasura",
+    jobs: [{
+      title: "Staff Software Engineer, PromptQL AI",
+      description: <>  <p>We're looking for a staff engineer to be a part of the core PromptQL team at Hasura (https://promptql.hasura.io).</p>
+      <p>PromptQL is redefining how AI systems should access data in a business context with an emphasis on visibility, steer-ability, and repeatability.</p>
+      <p>Building on the foundation of Hasura's Data Delivery Network (DDN), PromptQL is going to be a major focus for Hasura in 2025. As part of a small, high-impact team working directly with Hasura leadership, you’ll help shape the product direction and deliver core functionality across AI, data, and infrastructure layers.</p>
+      </>,
+      linkUrl: "https://hasura.io/careers/?jobId=zYbcdjMLTicP",
+    }]
+  },  
+  {
     companyName: "Baseten",
     jobs: [{
       title: "Machine Learning Engineer - Fine Tuning",
