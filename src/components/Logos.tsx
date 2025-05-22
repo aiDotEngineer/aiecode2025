@@ -194,6 +194,19 @@ import pomeriumWhite from "~/images/logos/pomerium-dark.svg";
 import togetheraiWhite from "~/images/logos/together-dark.svg";
 import workosWhite from "~/images/logos/work-os-dark.svg";
 
+import every from "~/images/logos/every_black.svg";
+import oleve from "~/images/logos/oleve.png";
+
+import allhands from "~/images/logos/allhands.svg";
+import reforge from "~/images/logos/reforge.svg";
+import apify from "~/images/logos/apify.svg";
+import casco from "~/images/logos/casco.svg";
+import blackrock from "~/images/logos/blackrock.svg";
+import qodo from "~/images/logos/qodo.svg";
+import wisedocs from "~/images/logos/wisedocs.svg";
+import caylent from "~/images/logos/caylent.png";
+import quotient from "~/images/logos/quotient.svg";
+
 type Key = keyof typeof logos;
 
 interface LogoProps extends Omit<ImageProps, "src" | "alt"> {
@@ -927,4 +940,48 @@ export const logos = defineLogos({
     name: "WorkOS",
     white: workosWhite,
   },
+  every: {
+    name: "Every",
+    color: every,
+  },
+  oleve: {
+    name: "Oleve",
+    color: oleve,
+  },
+  allhands: {
+    name: "Allhands",
+    color: allhands,
+  },
+  reforge: {
+    name: "Reforge",
+    color: reforge,
+  },
+  apify: {
+    name: "Apify",
+    color: apify,
+  },
+  casco: {
+    name: "Casco",
+    color: casco,
+  },
+  blackrock: {
+    name: "Blackrock",
+    color: blackrock,
+  },
+  qodo: {
+    name: "Qodo",
+    color: qodo,
+  },
+  wisedocs: {
+    name: "WiseDocs",
+    color: wisedocs,  
+  },
+  caylent: {
+    name: "Caylent",
+    color: caylent,
+  },
+  quotient: {
+    name: "Quotient",
+    color: quotient,
+  }
 });
