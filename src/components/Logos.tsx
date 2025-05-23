@@ -67,6 +67,7 @@ import cncf from "~/images/logos/cncf.svg";
 import codegenBlack from "~/images/logos/codegen-black.svg";
 import codeium from "~/images/logos/codeium-green.svg";
 import codium from "~/images/logos/codium.svg";
+import contextual from "~/images/logos/contextual-logo.svg";
 import convex from "~/images/logos/convex.svg";
 import cooperpress from "~/images/logos/cooperpress.svg";
 import covalentBlack from "~/images/logos/covalent-black.svg";
@@ -105,6 +106,7 @@ import groq from "~/images/logos/groq.svg";
 import haihai from "~/images/logos/haihai.png";
 // import hasuraBlack from "~/images/logos/hasura-black.svg";
 import hasura from "~/images/logos/promptql-logo.svg";
+import heroku from "~/images/logos/heroku-logo.svg";
 import hexBlack from "~/images/logos/hex-black.svg";
 import hexWhite from "~/images/logos/hex-white.svg";
 import humanSignal from "~/images/logos/humansignal.svg";
@@ -518,6 +520,10 @@ export const logos = defineLogos({
     name: "Codeium",
     color: codeium,
   },
+  contextual: {
+    name: "Contextual",
+    color: contextual,
+  },
   convex: {
     name: "Convex",
     color: convex,
@@ -633,6 +639,10 @@ export const logos = defineLogos({
     name: "Hasura",
     color: hasura,
     black: hasura,
+  },
+  heroku: {
+    name: "Heroku",
+    color: heroku,
   },
   hex: {
     name: "Hex",
