@@ -195,6 +195,16 @@ export function Overview() {
             <li>
               Jun 4:
               <a
+                href="https://lu.ma/nb9ss3s7?utm_medium=landing-page&utm_source=ai-engineering-worlds-fair"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>Dagger.io</b> Build-an-Agent Hack Night
+              </a>
+            </li>
+            <li>
+              Jun 4:
+              <a
                 href="https://lu.ma/finetuned"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
