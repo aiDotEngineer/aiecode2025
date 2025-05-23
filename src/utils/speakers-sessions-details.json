@@ -280,20 +280,100 @@
     ]
   },
   {
+    "Speaker ID": "89141d5d-353b-4aa9-9792-0002a0a33f39",
+    "Name": "Tomas Reimers",
+    "Company": "Graphite",
+    "Company Domain": "graphql.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "CPO and Co-founder",
+    "TagLine": "Graphite CPO & Co-founder",
+    "Bio": "Tomas Reimers, Forbes 30u30 class of ‘23, is the CPO and Co-founder of Graphite, the NYC DevTools startup that’s revolutionizing how the fastest-moving engineers build and ship software. Prior to co-founding Graphite, Tomas was a dev-tools engineer at Meta, developing a framework that supported the work of 200+ product teams and more than 1000 developers. He is passionate about all things software and will enthusiastically debate best engineering and architecture practices with you for hours.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/4c3d-400o400o1-nkAAJo2pWhhLeubYDcA64E.png",
+    "Session Count": 3,
+    "Sessions": [
+      {
+        "Session ID": "933450",
+        "Title": "Code Review for the Age of AI",
+        "Description": "Today’s codebases move faster than ever, making human code reviews increasingly challenging. In this quick technical talk, we’ll explore how AI-driven code review technology changes the game, rapidly identifying subtle logic errors, hidden security vulnerabilities, and performance bottlenecks before they ever reach production. Drawing on insights from over millions of real-world pull requests reviewed by Diamond, Graphite’s AI code review agent, you'll learn how teams are achieving faster merges and higher code quality.\r\n\r\nWe'll wrap up with a brief introduction to Diamond, demonstrating how effortlessly it integrates into your GitHub workflows, followed by live demos and Q\\&A with our engineers at the booth.",
+        "Format": "",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action, SWE Agents, Vibe Coding",
+        "Room": "",
+        "Scheduled At": ""
+      },
+      {
+        "Session ID": "933453",
+        "Title": "Onboarding your robot coworkers: customizing AI code review agents to your team’s style",
+        "Description": "It’s not enough that AI can review and understand your code in a vacuum. In order to be effective, AI agents need context around your entire codebase and understand the nuances of the way your team works. This talk will examine technical approaches and best practices for teaching AI tools to enforce highly customized style guides and coding conventions no matter what tech stack you’re working in.",
+        "Format": "",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action, Security, SWE Agents, Vibe Coding",
+        "Room": "",
+        "Scheduled At": ""
+      },
+      {
+        "Session ID": "933472",
+        "Title": "AI-powered entomology: Lessons from millions of AI code reviews",
+        "Description": "This talk will explore insights from millions of automated code reviews, revealing trends in bugs, vulnerabilities, and code health that Graphite’s AI code review agent have uncovered. This talk will also provide meta commentary into the types of bugs AI code review agents are great at spotting, and how far the field of AI code review has come in the last year alone.",
+        "Format": "",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action, SWE Agents, Security",
+        "Room": "Nobhill A&B: Expo Sessions",
+        "Scheduled At": "4 Jun 2025 10:45 AM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/4c3d-400o400o1-nkAAJo2pWhhLeubYDcA64E.png",
+        "Title": "CPO and Co-founder",
+        "TagLine": "Graphite CPO & Co-founder",
+        "Bio": "Tomas Reimers, Forbes 30u30 class of ‘23, is the CPO and Co-founder of Graphite, the NYC DevTools startup that’s revolutionizing how the fastest-moving engineers build and ship software. Prior to co-founding Graphite, Tomas was a dev-tools engineer at Meta, developing a framework that supported the work of 200+ product teams and more than 1000 developers. He is passionate about all things software and will enthusiastically debate best engineering and architecture practices with you for hours."
+      },
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/4c3d-400o400o1-nkAAJo2pWhhLeubYDcA64E.png",
+        "Title": "CPO and Co-founder",
+        "TagLine": "Graphite CPO & Co-founder",
+        "Bio": "Tomas Reimers, Forbes 30u30 class of ‘23, is the CPO and Co-founder of Graphite, the NYC DevTools startup that’s revolutionizing how the fastest-moving engineers build and ship software. Prior to co-founding Graphite, Tomas was a dev-tools engineer at Meta, developing a framework that supported the work of 200+ product teams and more than 1000 developers. He is passionate about all things software and will enthusiastically debate best engineering and architecture practices with you for hours."
+      },
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/4c3d-400o400o1-nkAAJo2pWhhLeubYDcA64E.png",
+        "Title": "CPO and Co-founder",
+        "TagLine": "Graphite CPO & Co-founder",
+        "Bio": "Tomas Reimers, Forbes 30u30 class of ‘23, is the CPO and Co-founder of Graphite, the NYC DevTools startup that’s revolutionizing how the fastest-moving engineers build and ship software. Prior to co-founding Graphite, Tomas was a dev-tools engineer at Meta, developing a framework that supported the work of 200+ product teams and more than 1000 developers. He is passionate about all things software and will enthusiastically debate best engineering and architecture practices with you for hours."
+      }
+    ]
+  },
+  {
     "Speaker ID": "66c8ee2b-80f0-4167-a4b4-1dd6f87c6f32",
     "Name": "Chad Bailey",
     "Company": "Daily",
     "Company Domain": "daily.co",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Real-time Communication Engineer",
+    "Title": "Engineer",
     "TagLine": "Member of Technical Staff, Daily",
     "Bio": "Chad Bailey started his career testing software for the Space Shuttle. After many years of building web apps, he's spent the last several working on real-time communication at Daily. Most recently, he's been building the Pipecat framework, and a series of increasingly ridiculous voice bots to show it off.",
     "X (Twitter)": "",
     "LinkedIn": "",
     "Blog": "",
     "Profile Picture": "https://sessionize.com/image/7550-400o400o1-DPseyBDY58k9g5EXaxQnUq.png",
-    "Session Count": 1,
+    "Session Count": 2,
     "Sessions": [
       {
         "Session ID": "933493",
@@ -305,6 +385,17 @@
         "Tracks": "Generative Media",
         "Room": "",
         "Scheduled At": ""
+      },
+      {
+        "Session ID": "933593",
+        "Title": "Building Voice Agents with Gemini and Pipecat",
+        "Description": "Hands-on workshop led by engineers from Google and Daily",
+        "Format": "Workshop",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "Voice",
+        "Room": "",
+        "Scheduled At": ""
       }
     ],
     "Speaker Details Array": [
@@ -313,7 +404,16 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/7550-400o400o1-DPseyBDY58k9g5EXaxQnUq.png",
-        "Title": "Real-time Communication Engineer",
+        "Title": "Engineer",
+        "TagLine": "Member of Technical Staff, Daily",
+        "Bio": "Chad Bailey started his career testing software for the Space Shuttle. After many years of building web apps, he's spent the last several working on real-time communication at Daily. Most recently, he's been building the Pipecat framework, and a series of increasingly ridiculous voice bots to show it off."
+      },
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/7550-400o400o1-DPseyBDY58k9g5EXaxQnUq.png",
+        "Title": "Engineer",
         "TagLine": "Member of Technical Staff, Daily",
         "Bio": "Chad Bailey started his career testing software for the Space Shuttle. After many years of building web apps, he's spent the last several working on real-time communication at Daily. Most recently, he's been building the Pipecat framework, and a series of increasingly ridiculous voice bots to show it off."
       }
@@ -366,14 +466,14 @@
     "Company Domain": "daily.co",
     "Company URL": "https://www.daily.co/",
     "Company Website": "https://openai.com/",
-    "Title": "WebRTC Infrastructure Engineer",
+    "Title": "Originator of Pipecat and WebRTC infrastructure engineer",
     "TagLine": "CEO ",
     "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man.",
     "X (Twitter)": "https://x.com/kwindla",
     "LinkedIn": "https://www.linkedin.com/in/kwkramer/",
     "Blog": "https://www.linkedin.com/in/sean-dubois/",
     "Profile Picture": "https://sessionize.com/image/d6ae-400o400o1-HJCEgwnJadsHAkcAkU46oh.jpg",
-    "Session Count": 5,
+    "Session Count": 6,
     "Sessions": [
       {
         "Session ID": "933493",
@@ -383,6 +483,17 @@
         "Level": "Introductory and overview",
         "Scope": "Technical deep dive",
         "Tracks": "Generative Media",
+        "Room": "",
+        "Scheduled At": ""
+      },
+      {
+        "Session ID": "933593",
+        "Title": "Building Voice Agents with Gemini and Pipecat",
+        "Description": "Hands-on workshop led by engineers from Google and Daily",
+        "Format": "Workshop",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "Voice",
         "Room": "",
         "Scheduled At": ""
       },
@@ -437,7 +548,7 @@
         "LinkedIn": "https://www.linkedin.com/in/kwkramer/",
         "Blog": "https://www.linkedin.com/in/sean-dubois/",
         "Profile Picture": "https://sessionize.com/image/d6ae-400o400o1-HJCEgwnJadsHAkcAkU46oh.jpg",
-        "Title": "WebRTC Infrastructure Engineer",
+        "Title": "Originator of Pipecat and WebRTC infrastructure engineer",
         "TagLine": "CEO ",
         "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man."
       },
@@ -446,7 +557,7 @@
         "LinkedIn": "https://www.linkedin.com/in/kwkramer/",
         "Blog": "https://www.linkedin.com/in/sean-dubois/",
         "Profile Picture": "https://sessionize.com/image/d6ae-400o400o1-HJCEgwnJadsHAkcAkU46oh.jpg",
-        "Title": "WebRTC Infrastructure Engineer",
+        "Title": "Originator of Pipecat and WebRTC infrastructure engineer",
         "TagLine": "CEO ",
         "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man."
       },
@@ -455,7 +566,7 @@
         "LinkedIn": "https://www.linkedin.com/in/kwkramer/",
         "Blog": "https://www.linkedin.com/in/sean-dubois/",
         "Profile Picture": "https://sessionize.com/image/d6ae-400o400o1-HJCEgwnJadsHAkcAkU46oh.jpg",
-        "Title": "WebRTC Infrastructure Engineer",
+        "Title": "Originator of Pipecat and WebRTC infrastructure engineer",
         "TagLine": "CEO ",
         "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man."
       },
@@ -464,7 +575,7 @@
         "LinkedIn": "https://www.linkedin.com/in/kwkramer/",
         "Blog": "https://www.linkedin.com/in/sean-dubois/",
         "Profile Picture": "https://sessionize.com/image/d6ae-400o400o1-HJCEgwnJadsHAkcAkU46oh.jpg",
-        "Title": "WebRTC Infrastructure Engineer",
+        "Title": "Originator of Pipecat and WebRTC infrastructure engineer",
         "TagLine": "CEO ",
         "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man."
       },
@@ -473,9 +584,98 @@
         "LinkedIn": "https://www.linkedin.com/in/kwkramer/",
         "Blog": "https://www.linkedin.com/in/sean-dubois/",
         "Profile Picture": "https://sessionize.com/image/d6ae-400o400o1-HJCEgwnJadsHAkcAkU46oh.jpg",
-        "Title": "WebRTC Infrastructure Engineer",
+        "Title": "Originator of Pipecat and WebRTC infrastructure engineer",
         "TagLine": "CEO ",
         "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man."
+      },
+      {
+        "X (Twitter)": "https://x.com/kwindla",
+        "LinkedIn": "https://www.linkedin.com/in/kwkramer/",
+        "Blog": "https://www.linkedin.com/in/sean-dubois/",
+        "Profile Picture": "https://sessionize.com/image/d6ae-400o400o1-HJCEgwnJadsHAkcAkU46oh.jpg",
+        "Title": "Originator of Pipecat and WebRTC infrastructure engineer",
+        "TagLine": "CEO ",
+        "Bio": "Kwin works on large-scale WebRTC infrastructure at Daily. He is the originator of Pipecat, the widely used, open source, vendor neutral voice agent framework supported by NVIDIA, Google, AWS and used by hundreds of startups. Before co-fonding Daily, Kwin built the sci-fi user interfaces in Minority Report and Iron Man."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "428890ba-7b5c-444d-98b9-87fe5d27875f",
+    "Name": "Numair Baseer",
+    "Company": "Windsurf",
+    "Company Domain": "windsurf.dev",
+    "Company URL": "",
+    "Company Website": "https://windsurf.com",
+    "Title": "AI Developer / Software Engineer",
+    "TagLine": "Deployed Engineer, Windsurf",
+    "Bio": "Born and raised in the Bay Area, Numair is a technology professional with a passion for AI-driven development. Having graduated from UCLA, he has a strong foundation in computer science and problem-solving. Currently at Windsurf, Numair focuses on enhancing coding efficiency and developer workflows with cutting-edge AI tools.",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/numair-baseer/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/e2ec-400o400o1-TVfUcZhRgfFziypXJf3Jia.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933632",
+        "Title": "Agentic Coding with Windsurf",
+        "Description": "Agentic coding marks a new era in software development, where AI agents take on autonomous roles in coding tasks. The Windsurf IDE embodies this shift by integrating intelligent agents like Cascade, which maintain full codebase context to perform multi-file edits, run terminal commands, and suggest changes through tools like Supercomplete and Flows. In this session, we will explore features that allow developers to guide strategy while the AI handles execution, enhancing productivity and enabling more creative, high-level work.",
+        "Format": "Workshop",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action, SWE Agents",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "https://www.linkedin.com/in/numair-baseer/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/e2ec-400o400o1-TVfUcZhRgfFziypXJf3Jia.jpg",
+        "Title": "AI Developer / Software Engineer",
+        "TagLine": "Deployed Engineer, Windsurf",
+        "Bio": "Born and raised in the Bay Area, Numair is a technology professional with a passion for AI-driven development. Having graduated from UCLA, he has a strong foundation in computer science and problem-solving. Currently at Windsurf, Numair focuses on enhancing coding efficiency and developer workflows with cutting-edge AI tools."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "cff88604-f3a4-4805-b692-3d5d0ee89f05",
+    "Name": "Sam  Fertig",
+    "Company": "Windsurf",
+    "Company Domain": "windsurf.ai",
+    "Company URL": "",
+    "Company Website": "https://windsurf.com",
+    "Title": "Deployed Engineer",
+    "TagLine": "Deployed Engineer, Windsurf",
+    "Bio": "Sam Fertig is a Deployed Engineer at Windsurf, where he helps deliver cutting-edge software solutions in complex operational environments. Prior to Windsurf, he worked at C3 AI, gaining experience at the intersection of data, engineering, and enterprise AI. Sam holds a degree in Computer Science and Politics from Oberlin College. Outside of work, he’s passionate about MMA and Jiu Jitsu, and enjoys playing guitar in his free time.",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/samhfertig/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/5180-400o400o1-PZWjLnbLGrCeWY18vJHGYW.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933633",
+        "Title": "The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You",
+        "Description": "Sometimes it seems like Windsurf knows you a little too well. It's one thing to generate generic code, but to predict your next intent? From matching existing code patterns and styles to tracking how local changes affect the larger codebase, this talk digs into the technical challenges of context awareness and why simply indexing code falls short. Relive our journey tackling the core issue in the AI IDE space : balancing retrieval quality with latency constraints and scaling effectively as codebases grow. For those curious about the infrastructure behind context-aware AI, this talk offers insights into our approach of turning massive codebases into collections of useful context.",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action, SWE Agents, AI in Fortune 500",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "https://www.linkedin.com/in/samhfertig/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/5180-400o400o1-PZWjLnbLGrCeWY18vJHGYW.png",
+        "Title": "Deployed Engineer",
+        "TagLine": "Deployed Engineer, Windsurf",
+        "Bio": "Sam Fertig is a Deployed Engineer at Windsurf, where he helps deliver cutting-edge software solutions in complex operational environments. Prior to Windsurf, he worked at C3 AI, gaining experience at the intersection of data, engineering, and enterprise AI. Sam holds a degree in Computer Science and Politics from Oberlin College. Outside of work, he’s passionate about MMA and Jiu Jitsu, and enjoys playing guitar in his free time."
       }
     ]
   },
@@ -540,13 +740,293 @@
     ]
   },
   {
+    "Speaker ID": "db8127aa-f31f-4e13-8a91-68470c2c41f7",
+    "Name": "Eashan Sinha",
+    "Company": "Windsurf",
+    "Company Domain": "windsurf.ai",
+    "Company URL": "",
+    "Company Website": "https://windsurf.com",
+    "Title": "Deployed Engineer",
+    "TagLine": "Deployed Engineer, Windsurf",
+    "Bio": "Graduating from Georgia Tech with his bachelors and masters in computer science, Eashan specializes in AI and ML and has a strong foundation in building GenAI products. Eashan spent time as an engineer at TikTok and founded his own generative AI based company that was accepted into Y Combinator prior to joining Windsurf as a Deployed Engineer. Currently, Eashan is focused on enhancing AI agent efficiency and performance with large codebases and enterprise use cases.",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/eashansinha/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/1074-400o400o1-ErsBxp6U9wDjbAeS94EPtC.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933684",
+        "Title": "Mastering Engineering Flow with Windsurf",
+        "Description": "As experienced engineers, especially senior and staff engineers, our focus shifts towards complex problem-solving, architectural decisions, and mentoring. While AI tools promise productivity gains, Windsurf offers more than just code completion and chat assistance – it's an agentic IDE built to enhance engineering flow. This talk explores how experienced engineers can leverage Windsurf's deep contextual awareness, structured guidance, and automated workflows to tackle sophisticated and complex tasks. We'll demonstrate practical strategies for accelerating feature development, automating code maintenance and reviews, and ultimately freeing up cognitive load to focus on high-impact engineering challenges. Learn how to move beyond basic AI assistance and truly partner with Windsurf to excel in your role.",
+        "Format": "Talk",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "AI in Action, SWE Agents, AI in Fortune 500",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "https://www.linkedin.com/in/eashansinha/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/1074-400o400o1-ErsBxp6U9wDjbAeS94EPtC.png",
+        "Title": "Deployed Engineer",
+        "TagLine": "Deployed Engineer, Windsurf",
+        "Bio": "Graduating from Georgia Tech with his bachelors and masters in computer science, Eashan specializes in AI and ML and has a strong foundation in building GenAI products. Eashan spent time as an engineer at TikTok and founded his own generative AI based company that was accepted into Y Combinator prior to joining Windsurf as a Deployed Engineer. Currently, Eashan is focused on enhancing AI agent efficiency and performance with large codebases and enterprise use cases."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "51d52d6c-9ca2-4b7d-806c-0cc4913c47fa",
+    "Name": "Jia Wu",
+    "Company": "Windsurf",
+    "Company Domain": "windsurf.com",
+    "Company URL": "",
+    "Company Website": "https://windsurf.com",
+    "Title": "Solutions Architect",
+    "TagLine": "Deployed Engineer, Windsurf",
+    "Bio": "A solutions architect by profession and an academic by training, Jia brings a unique blend of research depth and industry insight to every challenge. Currently at Windsurf, he leverages a deep foundation in computer science to design and scale innovative tech solutions. Jia holds a Masters in Computer Science from the University of Waterloo and earned an undergraduate degree from Western University. With a passion for bridging cutting-edge research and real-world application, he is always exploring the evolving intersection of technology, systems architecture, and innovation.",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/jia-rong-wu/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/0777-400o400o1-SopsCBzZjgp3iesuoX5CGi.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933685",
+        "Title": "Windsurf & Wonders",
+        "Description": "Come learn about why Windsurf is the premiere choice for engineers and enterprises alike in applications of AI for development.",
+        "Format": "",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action, SWE Agents, AI in Fortune 500",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "https://www.linkedin.com/in/jia-rong-wu/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/0777-400o400o1-SopsCBzZjgp3iesuoX5CGi.png",
+        "Title": "Solutions Architect",
+        "TagLine": "Deployed Engineer, Windsurf",
+        "Bio": "A solutions architect by profession and an academic by training, Jia brings a unique blend of research depth and industry insight to every challenge. Currently at Windsurf, he leverages a deep foundation in computer science to design and scale innovative tech solutions. Jia holds a Masters in Computer Science from the University of Waterloo and earned an undergraduate degree from Western University. With a passion for bridging cutting-edge research and real-world application, he is always exploring the evolving intersection of technology, systems architecture, and innovation."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "2ff913ec-cd3d-481e-955f-2598dbeba4bc",
+    "Name": "Tejashwa Tiwari",
+    "Company": "Windsurf",
+    "Company Domain": "codeium.com",
+    "Company URL": "windsurf.com",
+    "Company Website": "https://windsurf.com",
+    "Title": "Analytics and Automation Engineer",
+    "TagLine": "Automation Engineer @ Windsurf",
+    "Bio": "Tejashwa is an Analytics and Automation Engineer at Windsurf, where he develops systems to transform product data into insights and automate workflows across the platform. He holds a Master’s degree in Computer Science. ",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/tejashtiwari/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/df67-400o400o1-hhJzpoHaSseEmnyA9rEb8u.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933685",
+        "Title": "Windsurf & Wonders",
+        "Description": "Come learn about why Windsurf is the premiere choice for engineers and enterprises alike in applications of AI for development.",
+        "Format": "",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action, SWE Agents, AI in Fortune 500",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "https://www.linkedin.com/in/tejashtiwari/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/df67-400o400o1-hhJzpoHaSseEmnyA9rEb8u.jpg",
+        "Title": "Analytics and Automation Engineer",
+        "TagLine": "Automation Engineer @ Windsurf",
+        "Bio": "Tejashwa is an Analytics and Automation Engineer at Windsurf, where he develops systems to transform product data into insights and automate workflows across the platform. He holds a Master’s degree in Computer Science. "
+      }
+    ]
+  },
+  {
+    "Speaker ID": "44b5552e-4f9f-4dd4-bf8b-e420e0723a79",
+    "Name": "Mikiko Bazeley",
+    "Company": "MongoDB",
+    "Company Domain": "mongodb.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Staff Developer Advocate",
+    "TagLine": "Staff Developer Advocate, MongoDB",
+    "Bio": "Mikiko Bazeley is a Staff Developer Advocate at MongoDB, where she helps AI engineers build smarter, continuously learning systems using generative AI, vector search, and memory-aware infrastructure. Her career spans over a decade across AI engineering, MLOps, and developer advocacy—bringing together hands-on technical depth and a passion for education.\r\nHer work blends hands-on engineering with architecture and experimentation—having built and scaled model training pipelines, platforms, and retrieval systems across companies at every stage. At Fireworks AI and Labelbox, she played a key role in launching high-performance LLMs (like DeepSeek and Llama 3.2), enabling users to design and build multimodal and RAG systems, and evaluating strategies for fine-tuning and inference. Before that, she helped optimize MLOps platforms at Intuit (via Mailchimp) to streamline deployment, observability, and change management for data science teams.\r\nMikiko also brings foundational experience from earlier applied roles at Autodesk, Livongo, and WalkMe, where she developed predictive models, experimentation frameworks, and analytics systems to support growth and personalization. Across every project, her focus has remained consistent: building practical, reliable systems that make AI work in the real world.\r\nIn her talk, she’ll explore how multi-agent systems coordinate through shared and evolving memory—and what it takes to architect that memory for adaptability, scale, and intelligence.",
+    "X (Twitter)": "https://x.com/BazeleyMikiko",
+    "LinkedIn": "https://www.linkedin.com/in/mikikobazeley/",
+    "Blog": "https://mikikobazeley.substack.com/",
+    "Profile Picture": "https://sessionize.com/image/ddcd-400o400o1-G8taUYzVutKkHeump2L1mz.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933702",
+        "Title": "Smarter Together: Designing Multi-Agent Systems with Shared, Evolving Memory",
+        "Description": "In today’s most advanced AI systems, intelligence is no longer confined to a single model or agent—it emerges from coordination. But coordination requires memory: short-term, long-term, and shared. In this talk, we’ll break down how agent systems can store, retrieve, and evolve shared memory to become smarter over time. You'll learn what it takes to architect these continuously learning systems, how to track and improve memory quality, and why robust, flexible infrastructure is the foundation of it all. Stick around to see how this works in practice—live.",
+        "Format": "",
+        "Level": "Advanced",
+        "Scope": "Technical deep dive",
+        "Tracks": "Evals, Agent Reliability, Anything Else/Open Category, Retrieval+Search",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "https://x.com/BazeleyMikiko",
+        "LinkedIn": "https://www.linkedin.com/in/mikikobazeley/",
+        "Blog": "https://mikikobazeley.substack.com/",
+        "Profile Picture": "https://sessionize.com/image/ddcd-400o400o1-G8taUYzVutKkHeump2L1mz.png",
+        "Title": "Staff Developer Advocate",
+        "TagLine": "Staff Developer Advocate, MongoDB",
+        "Bio": "Mikiko Bazeley is a Staff Developer Advocate at MongoDB, where she helps AI engineers build smarter, continuously learning systems using generative AI, vector search, and memory-aware infrastructure. Her career spans over a decade across AI engineering, MLOps, and developer advocacy—bringing together hands-on technical depth and a passion for education.\r\nHer work blends hands-on engineering with architecture and experimentation—having built and scaled model training pipelines, platforms, and retrieval systems across companies at every stage. At Fireworks AI and Labelbox, she played a key role in launching high-performance LLMs (like DeepSeek and Llama 3.2), enabling users to design and build multimodal and RAG systems, and evaluating strategies for fine-tuning and inference. Before that, she helped optimize MLOps platforms at Intuit (via Mailchimp) to streamline deployment, observability, and change management for data science teams.\r\nMikiko also brings foundational experience from earlier applied roles at Autodesk, Livongo, and WalkMe, where she developed predictive models, experimentation frameworks, and analytics systems to support growth and personalization. Across every project, her focus has remained consistent: building practical, reliable systems that make AI work in the real world.\r\nIn her talk, she’ll explore how multi-agent systems coordinate through shared and evolving memory—and what it takes to architect that memory for adaptability, scale, and intelligence."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "1de273ef-c835-4842-9507-56ad0ac33b2c",
+    "Name": "Thibaut  Gourdel",
+    "Company": "MongoDB",
+    "Company Domain": "mongodb.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Technical PMM",
+    "TagLine": "Senior Technical Product Marketing Manager, MongoDB",
+    "Bio": "Thibaut Gourdel is a seasoned professional with extensive experience in data engineering, integration, and applied AI. Currently a technical PMM at MongoDB, he focuses on integrations with AI frameworks to support and accelerate developer adoption.",
+    "X (Twitter)": "https://x.com/thibaut_gourdel/",
+    "LinkedIn": "https://www.linkedin.com/in/thibautgourdel/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/3ee3-400o400o1-HDvxvSQRsbaf2gxx1AMzRz.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933706",
+        "Title": "GraphRAG: Integrating LLMs with Knowledge Graphs",
+        "Description": "While traditional RAG is effective, it can struggle with complex relationships and reasoning across large knowledge bases. GraphRAG, an advanced variant, addresses these challenges by leveraging knowledge graphs to enable deeper understanding and improved response accuracy. Learn how LLMs extract key entities and relationships from your data to construct a graph structure, and how the system uses graph traversal to find related entities and enrich prompts. Stay for a live demo showcasing these concepts in action.\t",
+        "Format": "",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "GraphRAG, Retrieval+Search",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "https://x.com/thibaut_gourdel/",
+        "LinkedIn": "https://www.linkedin.com/in/thibautgourdel/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/3ee3-400o400o1-HDvxvSQRsbaf2gxx1AMzRz.png",
+        "Title": "Technical PMM",
+        "TagLine": "Senior Technical Product Marketing Manager, MongoDB",
+        "Bio": "Thibaut Gourdel is a seasoned professional with extensive experience in data engineering, integration, and applied AI. Currently a technical PMM at MongoDB, he focuses on integrations with AI frameworks to support and accelerate developer adoption."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "82a8b503-5e92-4c3d-8002-e42064c5c9e4",
+    "Name": "Apoorva Joshi",
+    "Company": "MongoDB",
+    "Company Domain": "mongodb.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "AI Developer Advocate",
+    "TagLine": "Senior AI Developer Advocate, MongoDB",
+    "Bio": "Apoorva is a Data Scientist turned Developer Advocate, with over 6 years of experience applying Machine Learning to problems in Cybersecurity, including phishing detection, malware protection, and entity behavior analytics. As an AI Developer Advocate at MongoDB, she now helps developers be successful at building AI applications through written content and hands-on workshops.",
+    "X (Twitter)": "",
+    "LinkedIn": "https://www.linkedin.com/in/apoorvajoshi95/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/c508-400o400o1-SUrPbB4EXZiUxWqWBAjQ1Z.png",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933707",
+        "Title": "Building Multimodal AI Agents with MongoDB, Gemini, and LangGraph",
+        "Description": "In this workshop, you will learn the core concepts of AI agents, multimodality, and what it takes to build multimodal agentic applications. You will learn how this works in practice by building a multimodal agent that can process both images and text using MongoDB as a vector database, Google’s multimodal Gemini model as the agent’s “brain”, and LangGraph to orchestrate the end-to-end agentic workflow. \r\n\r\nYou will be provided with a GitHub repository consisting of learning materials and resources required to successfully execute the hands-on portions of the workshop.",
+        "Format": "Workshop",
+        "Level": "Advanced",
+        "Scope": "Technical deep dive",
+        "Tracks": "Anything Else/Open Category",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "https://www.linkedin.com/in/apoorvajoshi95/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/c508-400o400o1-SUrPbB4EXZiUxWqWBAjQ1Z.png",
+        "Title": "AI Developer Advocate",
+        "TagLine": "Senior AI Developer Advocate, MongoDB",
+        "Bio": "Apoorva is a Data Scientist turned Developer Advocate, with over 6 years of experience applying Machine Learning to problems in Cybersecurity, including phishing detection, malware protection, and entity behavior analytics. As an AI Developer Advocate at MongoDB, she now helps developers be successful at building AI applications through written content and hands-on workshops."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "64940200-6b83-4a82-9216-7a68a3788d54",
+    "Name": "Windsurf Speaker",
+    "Company": "Windsurf",
+    "Company Domain": "windsurf.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Speaker",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936251",
+        "Title": "Windsurf Booth Session #2",
+        "Description": "",
+        "Format": "",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "Speaker",
+        "TagLine": "",
+        "Bio": ""
+      }
+    ]
+  },
+  {
     "Speaker ID": "83bf9959-5e36-4c3d-b99d-4f966f430254",
     "Name": "Matt McClernan",
     "Company": "Augment Code",
     "Company Domain": "augmentcode.com",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Engineering Leader",
+    "Title": "unknown",
     "TagLine": "",
     "Bio": "",
     "X (Twitter)": "",
@@ -573,9 +1053,49 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "",
-        "Title": "Engineering Leader",
+        "Title": "unknown",
         "TagLine": "",
         "Bio": ""
+      }
+    ]
+  },
+  {
+    "Speaker ID": "e74f4530-4fe3-4b9d-92e5-f2ecccd23163",
+    "Name": "Asha  Sharma",
+    "Company": "Microsoft",
+    "Company Domain": "microsoft.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Corporate Vice President, AI Platform",
+    "TagLine": "",
+    "Bio": "Asha Sharma is Corporate Vice President, leading product development for Microsoft’s AI Platform. In this role, she oversees the teams and technologies that power AI across Microsoft and its enterprise customers—spanning critical infrastructure, foundation models, and end-to-end toolchains for building, managing, and deploying AI and agentic applications. Her portfolio includes Azure AI Foundry, Azure OpenAI Service, Azure Machine Learning, Responsible AI, AI Search, customizable APIs and Azure AI Services. She also leads Applied Engineering, Computational Engineering and Growth for Microsoft’s Core AI division.\r\nPrior to joining Microsoft, Sharma served as Chief Operating Officer of Instacart, with full P&L responsibility overseeing product, design, data science, research, marketing, operations, customer support and new business initiatives. Earlier, as Vice President of Product at Meta, she oversaw Messenger, Instagram Direct, Messenger Kids, Remote Presence (calling and video) and company-wide platform services.\r\nSharma serves on the boards of The Home Depot and Coupang. She holds a Bachelor of Science in Business from the University of Minnesota’s Carlson School of Management.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936800",
+        "Title": "Spark to System: Building the Open Agentic Web",
+        "Description": "AI builders no longer ask whether to use agents—but how many and how fast. In this kickoff keynote, Microsoft’s Asha Sharma shows what happens when natural language creation meets an industrial grade backbone.  Watch live demos—to see agents move from idea to production in real time. Walk out with the commands, repos, and open protocols to build your piece of the agentic web.",
+        "Format": "Keynote",
+        "Level": "Intermediate",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "Anything Else/Open Category",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "Corporate Vice President, AI Platform",
+        "TagLine": "",
+        "Bio": "Asha Sharma is Corporate Vice President, leading product development for Microsoft’s AI Platform. In this role, she oversees the teams and technologies that power AI across Microsoft and its enterprise customers—spanning critical infrastructure, foundation models, and end-to-end toolchains for building, managing, and deploying AI and agentic applications. Her portfolio includes Azure AI Foundry, Azure OpenAI Service, Azure Machine Learning, Responsible AI, AI Search, customizable APIs and Azure AI Services. She also leads Applied Engineering, Computational Engineering and Growth for Microsoft’s Core AI division.\r\nPrior to joining Microsoft, Sharma served as Chief Operating Officer of Instacart, with full P&L responsibility overseeing product, design, data science, research, marketing, operations, customer support and new business initiatives. Earlier, as Vice President of Product at Meta, she oversaw Messenger, Instagram Direct, Messenger Kids, Remote Presence (calling and video) and company-wide platform services.\r\nSharma serves on the boards of The Home Depot and Coupang. She holds a Bachelor of Science in Business from the University of Minnesota’s Carlson School of Management."
       }
     ]
   },
@@ -700,6 +1220,326 @@
     ]
   },
   {
+    "Speaker ID": "35b1aa17-4543-4b77-9a0c-42640c09de1a",
+    "Name": "Jon Peck",
+    "Company": "Microsoft",
+    "Company Domain": "microsoft.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Enterprise Advocate",
+    "TagLine": "Senior Technical Advocate",
+    "Bio": "Enterprise Advocate (and occasional manager) at GitHub, Jon Peck meets daily with maintainers, startups, and F500 executives to familiarize them with industry best practices, policy suggestions, and product capabilities across DevOps and AI. With 25+ years of experience as a fullstack developer, architect, and advocate, he aims to bring engaging, real-world learnings to both boardrooms and global conferences.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936901",
+        "Title": "Unlocking AI-Powered DevOps Within Your Organization",
+        "Description": "\"Software development is a team sport, with many different roles, where eveyone can win. But success isn't guaranteed; it depends on specific practices, policies, and tools which enable minimally-siloed, AI-accelerated collaboration across all parts of the DevOps process, from PM to development to CI/CD and security.\r\n \r\n Discover the patterns and tools which lead to success, methods for changing the status quo, and perhaps a few horror stories. We'll touch on innersourcing, cloud development, AI, automation, governance, security, scaling and more -- with actionable learnings for everyone from small maintainer communities to F500 Enterprises.\"",
+        "Format": "Talk",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "Enterprise Advocate",
+        "TagLine": "Senior Technical Advocate",
+        "Bio": "Enterprise Advocate (and occasional manager) at GitHub, Jon Peck meets daily with maintainers, startups, and F500 executives to familiarize them with industry best practices, policy suggestions, and product capabilities across DevOps and AI. With 25+ years of experience as a fullstack developer, architect, and advocate, he aims to bring engaging, real-world learnings to both boardrooms and global conferences."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "4444b525-da8f-4daa-b949-92a64698ee9d",
+    "Name": "Harald  Kirschner",
+    "Company": "Microsoft",
+    "Company Domain": "microsoft.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "VS Code Team Member",
+    "TagLine": "PRINCIPAL PRODUCT MANAGER",
+    "Bio": "Hi, I’m Harald — your friendly VS Code team member. I work across the stack to make VS Code more powerful, flexible, and ready for whatever developers throw at it. Before that, I helped shape Firefox, from DevTools to Progressive Web Apps to Quantum, and contributed to a range of open-source projects along the way. Always building, always shipping, always learning ",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936902",
+        "Title": "Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments",
+        "Description": "\"Vibe coding\" often falters in complex enterprise environments. Drawing from real implementations, this talk demonstrates systematic approaches to customizing AI assistants for challenging codebases. We'll explore specialized techniques for navigating complex architectures, evidence-based strategies for undocumented legacy systems, methodologies for maintaining context across polyglot environments, and frameworks for standardizing AI usage while preserving developer autonomy. Through case studies from finance and healthcare, we'll present a comprehensive evaluation framework that bridges the gap between AI's theoretical capabilities and practical enterprise implementation, enabling true flow-state collaboration even within the most complex development ecosystems.",
+        "Format": "Talk",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "VS Code Team Member",
+        "TagLine": "PRINCIPAL PRODUCT MANAGER",
+        "Bio": "Hi, I’m Harald — your friendly VS Code team member. I work across the stack to make VS Code more powerful, flexible, and ready for whatever developers throw at it. Before that, I helped shape Firefox, from DevTools to Progressive Web Apps to Quantum, and contributed to a range of open-source projects along the way. Always building, always shipping, always learning "
+      }
+    ]
+  },
+  {
+    "Speaker ID": "87d56d14-520e-4be6-9b19-33932a1288a7",
+    "Name": "Jon Peck",
+    "Company": "Microsoft",
+    "Company Domain": "microsoft.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Enterprise Advocate",
+    "TagLine": "",
+    "Bio": "Enterprise Advocate (and occasional manager) at GitHub, Jon Peck meets daily with maintainers, startups, and F500 executives to familiarize them with industry best practices, policy suggestions, and product capabilities across DevOps and AI. With 25+ years of experience as a fullstack developer, architect, and advocate, he aims to bring engaging, real-world learnings to both boardrooms and global conferences.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936903",
+        "Title": "Real-world MCPs in GitHub Copilot Agent Mode",
+        "Description": "As developers, we don't spend most of our time vibe-coding prototypes. More often, we're adding features, squashing bugs, and building tests for existing apps across a wide variety of services and technologies. Come learn how MCPs help GitHub Copilot to untangle real engineering problems. By allowing agent mode to securely work with data sources, testing tools, infrastructure providers, and even core DevOps tooling -- we can go beyond the hype, and solve the actual engineering problems we face every day.",
+        "Format": "Talk",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "Enterprise Advocate",
+        "TagLine": "",
+        "Bio": "Enterprise Advocate (and occasional manager) at GitHub, Jon Peck meets daily with maintainers, startups, and F500 executives to familiarize them with industry best practices, policy suggestions, and product capabilities across DevOps and AI. With 25+ years of experience as a fullstack developer, architect, and advocate, he aims to bring engaging, real-world learnings to both boardrooms and global conferences."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "34b4f1c6-7c1b-481b-be13-cb6dc3b7ece9",
+    "Name": "Jonathan Larson",
+    "Company": "unknown",
+    "Company Domain": "unknown",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "unknown",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936906",
+        "Title": "GraphRAG methods to create optimized LLM context windows for retrieval",
+        "Description": "",
+        "Format": "Talk",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "unknown",
+        "TagLine": "",
+        "Bio": ""
+      }
+    ]
+  },
+  {
+    "Speaker ID": "82ce9d24-3423-4b48-a5ad-c88a29b82650",
+    "Name": "Meng  Tang",
+    "Company": "Microsoft",
+    "Company Domain": "microsoft.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "AI Developer Advocate",
+    "TagLine": "",
+    "Bio": "Meng is a seasoned professional with extensive experience in the fields of Azure Machine Learning, ONNX Runtime, and Foundry Local.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936907",
+        "Title": "Empowering Developers to build Cutting-Edge AI experiences on device",
+        "Description": "",
+        "Format": "Talk",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "AI Developer Advocate",
+        "TagLine": "",
+        "Bio": "Meng is a seasoned professional with extensive experience in the fields of Azure Machine Learning, ONNX Runtime, and Foundry Local."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "02c70f1e-d803-45f5-a422-f87ef77397f1",
+    "Name": "Pablo  Castro",
+    "Company": "Microsoft",
+    "Company Domain": "microsoft.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Corporate Vice President and Distinguished Engineer",
+    "TagLine": "",
+    "Bio": "Pablo is a Corporate Vice President and Distinguished Engineer at Microsoft. He currently leads the Azure AI Search team, where he focuses on building a state-of-the-art information understanding and retrieval system for generative AI applications. Pablo’s interests include information retrieval, machine learning, distributed systems, and database systems. Before Microsoft, Pablo was the co-founder of Lagash Systems, a boutique consulting company later acquired by Mercado Libre, and before that he worked on expert systems for risk analysis",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936908",
+        "Title": "Agentic RAG: build a reasoning retrieval engine with Azure AI Search",
+        "Description": "",
+        "Format": "Talk",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "Corporate Vice President and Distinguished Engineer",
+        "TagLine": "",
+        "Bio": "Pablo is a Corporate Vice President and Distinguished Engineer at Microsoft. He currently leads the Azure AI Search team, where he focuses on building a state-of-the-art information understanding and retrieval system for generative AI applications. Pablo’s interests include information retrieval, machine learning, distributed systems, and database systems. Before Microsoft, Pablo was the co-founder of Lagash Systems, a boutique consulting company later acquired by Mercado Libre, and before that he worked on expert systems for risk analysis"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "a7d1e5af-56e0-4573-84f4-29ba98db0f9b",
+    "Name": "Cedric  Vidal",
+    "Company": "Microsoft",
+    "Company Domain": "microsoft.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Principal AI Advocate",
+    "TagLine": "Principal AI Advocate",
+    "Bio": "Cedric Vidal is a Principal AI Advocate at Microsoft, specializing in Generative AI 🤖, and the startup 🚀 and research 🔬 ecosystems. He is dedicated to promoting AI in startups and facilitating the transition of research and startup products to the market. If you're an AI Startup Founder or Engineer, I'd like to feature your work, come talk to me. Before his current role, Cedric spent 4 years as an Engineering Manager in the AI data labeling space for the self-driving 🚕 industry at Argo AI (now re-spawned as Latitude AI). He also served as the CTO of the Fintech AI SAAS startup Quicksign and worked as a software engineering services consultant for major Fintech enterprises for 10 years. ",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936909",
+        "Title": "Battle-Test Your AI Agents: Ensuring Safety with Azure’s Red Teaming Agent",
+        "Description": "",
+        "Format": "Talk",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "Principal AI Advocate",
+        "TagLine": "Principal AI Advocate",
+        "Bio": "Cedric Vidal is a Principal AI Advocate at Microsoft, specializing in Generative AI 🤖, and the startup 🚀 and research 🔬 ecosystems. He is dedicated to promoting AI in startups and facilitating the transition of research and startup products to the market. If you're an AI Startup Founder or Engineer, I'd like to feature your work, come talk to me. Before his current role, Cedric spent 4 years as an Engineering Manager in the AI data labeling space for the self-driving 🚕 industry at Argo AI (now re-spawned as Latitude AI). He also served as the CTO of the Fintech AI SAAS startup Quicksign and worked as a software engineering services consultant for major Fintech enterprises for 10 years. "
+      }
+    ]
+  },
+  {
+    "Speaker ID": "87708ccb-c027-46ab-911b-806c6cf5c776",
+    "Name": "Matthias Loibl",
+    "Company": "Polar Signals",
+    "Company Domain": "polarsignals.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "unknown",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "937936",
+        "Title": "Polar Signals Expo Session",
+        "Description": "",
+        "Format": "",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "unknown",
+        "TagLine": "",
+        "Bio": ""
+      }
+    ]
+  },
+  {
     "Speaker ID": "8baabfb1-58b9-4ab8-b3af-95a406e99707",
     "Name": "Taylor Jordan Smith",
     "Company": "Red Hat",
@@ -786,7 +1626,7 @@
     "Company Domain": "baseten.co",
     "Company URL": "https://www.baseten.co/",
     "Company Website": "https://baseten.co",
-    "Title": "Head of Developer Relations",
+    "Title": "Lead, Developer Relations",
     "TagLine": "Head of Developer Relations",
     "Bio": "Philip Kiely leads Developer Relations at Baseten. Prior to joining Baseten in 2022, he worked across software engineering and technical writing for a variety of startups. Outside of work, you'll find Philip practicing martial arts, reading a new book, or cheering for his adopted bay area sports teams.",
     "X (Twitter)": "https://twitter.com/philip_kiely",
@@ -824,7 +1664,7 @@
         "LinkedIn": "https://linkedin.com/in/philipkiely",
         "Blog": "https://philipkiely.com",
         "Profile Picture": "https://sessionize.com/image/9495-400o400o1-U7SVLhc5ruNbNJ5xr6KF2Z.png",
-        "Title": "Head of Developer Relations",
+        "Title": "Lead, Developer Relations",
         "TagLine": "Head of Developer Relations",
         "Bio": "Philip Kiely leads Developer Relations at Baseten. Prior to joining Baseten in 2022, he worked across software engineering and technical writing for a variety of startups. Outside of work, you'll find Philip practicing martial arts, reading a new book, or cheering for his adopted bay area sports teams."
       },
@@ -833,7 +1673,7 @@
         "LinkedIn": "https://linkedin.com/in/philipkiely",
         "Blog": "https://philipkiely.com",
         "Profile Picture": "https://sessionize.com/image/9495-400o400o1-U7SVLhc5ruNbNJ5xr6KF2Z.png",
-        "Title": "Head of Developer Relations",
+        "Title": "Lead, Developer Relations",
         "TagLine": "Head of Developer Relations",
         "Bio": "Philip Kiely leads Developer Relations at Baseten. Prior to joining Baseten in 2022, he worked across software engineering and technical writing for a variety of startups. Outside of work, you'll find Philip practicing martial arts, reading a new book, or cheering for his adopted bay area sports teams."
       }
@@ -846,7 +1686,7 @@
     "Company Domain": "zhyncs.com",
     "Company URL": "https://www.baseten.co",
     "Company Website": "https://www.baseten.co",
-    "Title": "Software Engineer",
+    "Title": "Software Engineer, Model Performance team",
     "TagLine": "Inference lead at SGLang",
     "Bio": "Yineng Zhang is a Software Engineer at Baseten Model Performance team. He is also a core developer of the SGLang project.",
     "X (Twitter)": "https://x.com/zhyncs42",
@@ -873,7 +1713,7 @@
         "LinkedIn": "https://www.linkedin.com/in/zhyncs",
         "Blog": "https://zhyncs.com",
         "Profile Picture": "https://sessionize.com/image/e95d-400o400o1-SDevFXKdezx37JYRHYKMF7.jpg",
-        "Title": "Software Engineer",
+        "Title": "Software Engineer, Model Performance team",
         "TagLine": "Inference lead at SGLang",
         "Bio": "Yineng Zhang is a Software Engineer at Baseten Model Performance team. He is also a core developer of the SGLang project."
       }
@@ -1056,6 +1896,46 @@
         "Title": "Senior Leader",
         "TagLine": "Head of Ecosystem",
         "Bio": "Jeremy is a senior leader with both a technical and a strategic streak. Passionate about people and entrepreneurship, integration and automation. Through technical/business roles at Dagger, GitHub, Twistlock, and Puppet, Jeremy has both zoomed in and zoomed out a lot, acquiring an appreciation for the details and an ever-broader sense of the big architectural picture."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "4b95a47c-6ec3-4b44-ba84-c158e802fc89",
+    "Name": "Danielle Perszyk",
+    "Company": "Amazon",
+    "Company Domain": "gmail.com",
+    "Company URL": "https://labs.amazon.science/",
+    "Company Website": "https://labs.amazon.science/",
+    "Title": "Cognitive Scientist",
+    "TagLine": "Cognitive Scientist, PhD",
+    "Bio": "Danielle is a cognitive scientist at the new Amazon AGI SF Lab. She received her PhD from Northwestern, where she studied the evolution and development of language. Previously, she was at Google and Adept. ",
+    "X (Twitter)": "https://x.com/drperszyk",
+    "LinkedIn": "https://www.linkedin.com/in/danielleoscillations/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/b67c-400o400o1-BFXHNVeqAK4D8jNpezM9ZJ.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "929790",
+        "Title": "Useful General Intelligence",
+        "Description": "We’re all hearing that AI agents will enable AGI, but they can’t yet reliably perform even basic computer tasks. It turns out that getting AI to click, type, and scroll is more challenging than getting it to generate code. How can we build general-purpose agents that can do anything we can do on a computer? \r\n\r\nThis is our goal at the Amazon AGI SF Lab. In this talk, I’ll propose a new approach to agents that we call Useful General Intelligence. After describing how we’re solving the biggest challenges in computer use while enabling developers to access our tech in it’s earliest developmental stages, I’ll show real workflows that developers have built with Nova Act, our agentic model and SDK. ",
+        "Format": "Keynote",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "AI in Action",
+        "Room": "Golden Gate Ballroom B: Workshops",
+        "Scheduled At": "3 Jun 2025 12:40 PM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "https://x.com/drperszyk",
+        "LinkedIn": "https://www.linkedin.com/in/danielleoscillations/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/b67c-400o400o1-BFXHNVeqAK4D8jNpezM9ZJ.jpg",
+        "Title": "Cognitive Scientist",
+        "TagLine": "Cognitive Scientist, PhD",
+        "Bio": "Danielle is a cognitive scientist at the new Amazon AGI SF Lab. She received her PhD from Northwestern, where she studied the evolution and development of language. Previously, she was at Google and Adept. "
       }
     ]
   },
@@ -1320,13 +2200,193 @@
     ]
   },
   {
+    "Speaker ID": "14177da5-e0bd-45c1-8a6a-c3bf998a7d01",
+    "Name": "Forrest Brazeal",
+    "Company": "Augment Code",
+    "Company Domain": "freemanandforrest.com",
+    "Company URL": "https://www.augmentcode.com",
+    "Company Website": "",
+    "Title": "Founder",
+    "TagLine": "Speaker and Workshop Organizer",
+    "Bio": "Forrest Brazeal is an author, tech educator, cartoonist, and Pwnie Award-winning songwriter. He left Google in 2024 to found the technical media company Freeman & Forrest. His community initiative, the Cloud Resume Challenge, has helped thousands of nontraditional learners take their first steps toward a career in tech.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/fb62-400o400o1-LP3LgxHV4MZwSETSniUTA9.jpg",
+    "Session Count": 2,
+    "Sessions": [
+      {
+        "Session ID": "933560",
+        "Title": "AI agents & deep context in legacy codebases - to the moon!",
+        "Description": "Attendees will learn to use an AI coding agent as a fast and intuitive part of navigating and working with complex, production-grade legacy code bases. We will drop directly into the code–written in assembly–that landed the1969 Apollo 11 astronauts on the moon and, through a series of challenges, locate parts of the code tied to key functionality. Using the agent to convert a key guidance computer algorithm into a more modern programming language, attendees will then compete to see whose code has what it takes to land on the moon.",
+        "Format": "Workshop",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "SWE Agents",
+        "Room": "Golden Gate Ballroom B: Workshops",
+        "Scheduled At": "3 Jun 2025 03:30 PM"
+      },
+      {
+        "Session ID": "936298",
+        "Title": "To the moon! Navigating deep context in legacy code with Augment Agent",
+        "Description": "Shortened presentation-only version of our Apollo 11 workshop",
+        "Format": "Talk",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "SWE Agents",
+        "Room": "Juniper: Expo Sessions",
+        "Scheduled At": "4 Jun 2025 11:00 AM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/fb62-400o400o1-LP3LgxHV4MZwSETSniUTA9.jpg",
+        "Title": "Founder",
+        "TagLine": "Speaker and Workshop Organizer",
+        "Bio": "Forrest Brazeal is an author, tech educator, cartoonist, and Pwnie Award-winning songwriter. He left Google in 2024 to found the technical media company Freeman & Forrest. His community initiative, the Cloud Resume Challenge, has helped thousands of nontraditional learners take their first steps toward a career in tech."
+      },
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/fb62-400o400o1-LP3LgxHV4MZwSETSniUTA9.jpg",
+        "Title": "Founder",
+        "TagLine": "Speaker and Workshop Organizer",
+        "Bio": "Forrest Brazeal is an author, tech educator, cartoonist, and Pwnie Award-winning songwriter. He left Google in 2024 to found the technical media company Freeman & Forrest. His community initiative, the Cloud Resume Challenge, has helped thousands of nontraditional learners take their first steps toward a career in tech."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "79afe59b-ceb1-48d0-b189-a458b7ef0082",
+    "Name": "Nick Nisi",
+    "Company": "WorkOS ",
+    "Company Domain": "nisi.org",
+    "Company URL": "https://workos.com",
+    "Company Website": "https://nicknisi.com",
+    "Title": "Software Engineer",
+    "TagLine": "Software developer and panelist on the JS Party podcast",
+    "Bio": " Nick Nisi is an elite software engineer who is a veteran of open source web development, a lover of karaoke, an advocate for diversity in tech, a conference organizer extraordinaire, a lover of new experiences, and a beacon of expertise, kindness and hope for his development team.",
+    "X (Twitter)": "https://twitter.com/nicknisi",
+    "LinkedIn": "https://www.linkedin.com/in/nicknisi/",
+    "Blog": "https://nicknisi.com",
+    "Profile Picture": "https://sessionize.com/image/7353-400o400o1-NyWb1iLwNiUgQbAtFfjFME.jpg",
+    "Session Count": 2,
+    "Sessions": [
+      {
+        "Session ID": "933688",
+        "Title": "AI Pipelines and Agents in Pure TypeScript with Mastra.ai",
+        "Description": "This hands-on workshop introduces Mastra.ai, a TypeScript framework that streamlines the development of agentic AI systems compared to traditional approaches using LangChain and vector databases. Participants will learn to build structured AI workflows with composable tools and reliable control, enabling them to create internal AI assistants that can handle requests like data cleaning, email drafting, and document summarization with minimal code. The session covers Mastra installation, running a local MCP server, defining tools and agents in TypeScript, using the Mastra playground, and implementing practical examples such as RAG setups and tool-chaining agents—all designed to equip attendees with the skills to develop scalable AI-driven internal tools based on sound software engineering principles rather than just experimental prompts.",
+        "Format": "Workshop",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "MCP, AI in Action",
+        "Room": "Salons 2-6: Workshops",
+        "Scheduled At": "3 Jun 2025 03:30 PM"
+      },
+      {
+        "Session ID": "933656",
+        "Title": "Agents, Access, and the Future of Machine Identity",
+        "Description": "AI agents are calling APIs, submitting forms, and sending emails—but how do you control what they’re allowed to do? As agents act on behalf of users or organizations, traditional patterns like OAuth, session tokens, and role-based access often fall short.\r\nIn this talk, we’ll explore how machine identity is evolving to meet this new landscape. You’ll learn:\r\n\r\n- How to think about authentication for agents (not just humans)\r\n- What it means to authorize an action when the actor is an LLM or headless service\r\n- Real-world strategies from WorkOS and Cloudflare for assigning, managing, and revoking agent identity and access\r\n\r\nBy the end, you’ll walk away with practical tools and mental models to build agent-powered systems that are secure, auditable, and scalable.",
+        "Format": "",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "MCP, AI in Action, Security, Infrastructure",
+        "Room": "Willow: Expo Sessions",
+        "Scheduled At": "5 Jun 2025 12:45 PM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "https://twitter.com/nicknisi",
+        "LinkedIn": "https://www.linkedin.com/in/nicknisi/",
+        "Blog": "https://nicknisi.com",
+        "Profile Picture": "https://sessionize.com/image/7353-400o400o1-NyWb1iLwNiUgQbAtFfjFME.jpg",
+        "Title": "Software Engineer",
+        "TagLine": "Software developer and panelist on the JS Party podcast",
+        "Bio": " Nick Nisi is an elite software engineer who is a veteran of open source web development, a lover of karaoke, an advocate for diversity in tech, a conference organizer extraordinaire, a lover of new experiences, and a beacon of expertise, kindness and hope for his development team."
+      },
+      {
+        "X (Twitter)": "https://twitter.com/nicknisi",
+        "LinkedIn": "https://www.linkedin.com/in/nicknisi/",
+        "Blog": "https://nicknisi.com",
+        "Profile Picture": "https://sessionize.com/image/7353-400o400o1-NyWb1iLwNiUgQbAtFfjFME.jpg",
+        "Title": "Software Engineer",
+        "TagLine": "Software developer and panelist on the JS Party podcast",
+        "Bio": " Nick Nisi is an elite software engineer who is a veteran of open source web development, a lover of karaoke, an advocate for diversity in tech, a conference organizer extraordinaire, a lover of new experiences, and a beacon of expertise, kindness and hope for his development team."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "9f02f784-0f81-4e62-a173-d8e84c178bc5",
+    "Name": "Suman Debnath",
+    "Company": "Amazon Web Services",
+    "Company Domain": "aws.amazon.com",
+    "Company URL": "",
+    "Company Website": "https://aws.amazon.com/?nc2=h_lg",
+    "Title": "Principal Developer Advocate (AI/ML)",
+    "TagLine": "Principal Developer Advocate (AI/ML)",
+    "Bio": "Suman Debnath is a Principal Developer Advocate (AI/ML) at Amazon Web Services. His current focus areas include NLP, LLMs, and retrieval systems (RAG). Suman is committed to leveraging open-source tools such as LangChain, PyTorch, Numpy, and Pandas to advance machine learning. He has developed performance benchmarking and monitoring tools for distributed storage systems and has spoken at over 100 global events, including AI Engineer Summit, PyCon, PyData, ODSC, and many others across multiple countries.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/5e5d-400o400o1-sRANVScUVMrcgXD2Uo8LH8.png",
+    "Session Count": 2,
+    "Sessions": [
+      {
+        "Session ID": "933721",
+        "Title": "VoiceVision RAG - Integrating Visual Document Intelligence with Voice Response",
+        "Description": "In this workshop we will explore the integration of Colpali, a cutting-edge Vision based Retrieval Model, with voice synthesis for next-generation RAG systems. We'll demonstrate how Colpali's ability to generate multi-vector embeddings directly from document images bypasses traditional OCR and complex preprocessing, while adding voice output creates a more intuitive and accessible user experience. Attendees will see how this combination handles documents with mixed textual and visual information, leading to more efficient and accurate information retrieval with natural voice responses.",
+        "Format": "Workshop",
+        "Level": "Intermediate",
+        "Scope": "Technical deep dive",
+        "Tracks": "Voice, Retrieval+Search",
+        "Room": "Foothill G1&2: Workshops",
+        "Scheduled At": "3 Jun 2025 03:30 PM"
+      },
+      {
+        "Session ID": "933603",
+        "Title": "Introducing Strands Agents, an Open Source AI Agents SDK",
+        "Description": "Building AI agents used to require complex orchestration, extensive scaffolding, and months of tuning. With Strands Agents, an open source SDK from AWS. You can now build, test, and deploy intelligent agents in just a few lines of code. This session introduces the model-driven approach behind Strands, where a model, a prompt, and a set of tools are all you need to create powerful, production-ready agents. Learn how Strands leverages modern foundation models to handle reasoning, tool use, and reflection, reducing development time from months to days.",
+        "Format": "",
+        "Level": "Advanced",
+        "Scope": "Technical deep dive",
+        "Tracks": "Evals, Retrieval+Search",
+        "Room": "Nobhill A&B: Expo Sessions",
+        "Scheduled At": "5 Jun 2025 10:45 AM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/5e5d-400o400o1-sRANVScUVMrcgXD2Uo8LH8.png",
+        "Title": "Principal Developer Advocate (AI/ML)",
+        "TagLine": "Principal Developer Advocate (AI/ML)",
+        "Bio": "Suman Debnath is a Principal Developer Advocate (AI/ML) at Amazon Web Services. His current focus areas include NLP, LLMs, and retrieval systems (RAG). Suman is committed to leveraging open-source tools such as LangChain, PyTorch, Numpy, and Pandas to advance machine learning. He has developed performance benchmarking and monitoring tools for distributed storage systems and has spoken at over 100 global events, including AI Engineer Summit, PyCon, PyData, ODSC, and many others across multiple countries."
+      },
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/5e5d-400o400o1-sRANVScUVMrcgXD2Uo8LH8.png",
+        "Title": "Principal Developer Advocate (AI/ML)",
+        "TagLine": "Principal Developer Advocate (AI/ML)",
+        "Bio": "Suman Debnath is a Principal Developer Advocate (AI/ML) at Amazon Web Services. His current focus areas include NLP, LLMs, and retrieval systems (RAG). Suman is committed to leveraging open-source tools such as LangChain, PyTorch, Numpy, and Pandas to advance machine learning. He has developed performance benchmarking and monitoring tools for distributed storage systems and has spoken at over 100 global events, including AI Engineer Summit, PyCon, PyData, ODSC, and many others across multiple countries."
+      }
+    ]
+  },
+  {
     "Speaker ID": "fa7aeb1e-2489-4c86-a0f3-13697cb4d20b",
     "Name": "Sarah Guo",
-    "Company": "Greylock Partners",
-    "Company Domain": "greylock.com",
+    "Company": "Conviction",
+    "Company Domain": "conviction.com",
     "Company URL": "",
     "Company Website": "",
-    "Title": "General Partner",
+    "Title": "Keynote Speaker",
     "TagLine": "",
     "Bio": "",
     "X (Twitter)": "",
@@ -1353,49 +2413,49 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "",
-        "Title": "General Partner",
+        "Title": "Keynote Speaker",
         "TagLine": "",
         "Bio": ""
       }
     ]
   },
   {
-    "Speaker ID": "4b95a47c-6ec3-4b44-ba84-c158e802fc89",
-    "Name": "Danielle Perszyk",
-    "Company": "Amazon",
-    "Company Domain": "gmail.com",
-    "Company URL": "https://labs.amazon.science/",
-    "Company Website": "https://labs.amazon.science/",
-    "Title": "Cognitive Scientist",
-    "TagLine": "Cognitive Scientist, PhD",
-    "Bio": "Danielle is a cognitive scientist at the new Amazon AGI SF Lab. She received her PhD from Northwestern, where she studied the evolution and development of language. Previously, she was at Google and Adept. ",
-    "X (Twitter)": "https://x.com/drperszyk",
-    "LinkedIn": "https://www.linkedin.com/in/danielleoscillations/",
+    "Speaker ID": "41dc7bdd-f306-4c02-9da8-fe19e1887b6b",
+    "Name": "Simon Willison",
+    "Company": "Litwa",
+    "Company Domain": "litwa.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Founder and CTO",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
     "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/b67c-400o400o1-BFXHNVeqAK4D8jNpezM9ZJ.jpg",
+    "Profile Picture": "",
     "Session Count": 1,
     "Sessions": [
       {
-        "Session ID": "929790",
-        "Title": "Useful General Intelligence",
-        "Description": "We’re all hearing that AI agents will enable AGI, but they can’t yet reliably perform even basic computer tasks. It turns out that getting AI to click, type, and scroll is more challenging than getting it to generate code. How can we build general-purpose agents that can do anything we can do on a computer? \r\n\r\nThis is our goal at the Amazon AGI SF Lab. In this talk, I’ll propose a new approach to agents that we call Useful General Intelligence. After describing how we’re solving the biggest challenges in computer use while enabling developers to access our tech in it’s earliest developmental stages, I’ll show real workflows that developers have built with Nova Act, our agentic model and SDK. ",
+        "Session ID": "935987",
+        "Title": "Simon Willison Keynote",
+        "Description": "",
         "Format": "Keynote",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "AI in Action",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
         "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "4 Jun 2025 09:40 AM"
+        "Scheduled At": "4 Jun 2025 10:00 AM"
       }
     ],
     "Speaker Details Array": [
       {
-        "X (Twitter)": "https://x.com/drperszyk",
-        "LinkedIn": "https://www.linkedin.com/in/danielleoscillations/",
+        "X (Twitter)": "",
+        "LinkedIn": "",
         "Blog": "",
-        "Profile Picture": "https://sessionize.com/image/b67c-400o400o1-BFXHNVeqAK4D8jNpezM9ZJ.jpg",
-        "Title": "Cognitive Scientist",
-        "TagLine": "Cognitive Scientist, PhD",
-        "Bio": "Danielle is a cognitive scientist at the new Amazon AGI SF Lab. She received her PhD from Northwestern, where she studied the evolution and development of language. Previously, she was at Google and Adept. "
+        "Profile Picture": "",
+        "Title": "Founder and CTO",
+        "TagLine": "",
+        "Bio": ""
       }
     ]
   },
@@ -1436,46 +2496,6 @@
         "Title": "Group Product Manager and product lead for Gemini API",
         "TagLine": "Product lead, Gemini Developer API",
         "Bio": " Shrestha Basu Mallick is Group Product Manager and product lead for Gemini API at Google DeepMind. Prior to this, Shrestha led product development for AI assistance across all Google coding surfaces. Shrestha’s first role in Alphabet was at X, the Moonshot Factory, as Head of Product for a materials discovery platform that has since graduated to become its own startup. Before Google, Shrestha has had various roles in product and strategy at Salesforce Einstein, McKinsey, and Docusign. Shrestha holds a PhD in Applied Physics from Stanford."
-      }
-    ]
-  },
-  {
-    "Speaker ID": "89141d5d-353b-4aa9-9792-0002a0a33f39",
-    "Name": "Tomas Reimers",
-    "Company": "Graphite",
-    "Company Domain": "graphite.dev",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "CPO and Co-founder",
-    "TagLine": "Graphite CPO & Co-founder",
-    "Bio": "Tomas Reimers, Forbes 30u30 class of ‘23, is the CPO and Co-founder of Graphite, the NYC DevTools startup that’s revolutionizing how the fastest-moving engineers build and ship software. Prior to co-founding Graphite, Tomas was a dev-tools engineer at Meta, developing a framework that supported the work of 200+ product teams and more than 1000 developers. He is passionate about all things software and will enthusiastically debate best engineering and architecture practices with you for hours.",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/4c3d-400o400o1-nkAAJo2pWhhLeubYDcA64E.png",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "933472",
-        "Title": "AI-powered entomology: Lessons from millions of AI code reviews",
-        "Description": "This talk will explore insights from millions of automated code reviews, revealing trends in bugs, vulnerabilities, and code health that Graphite’s AI code review agent have uncovered. This talk will also provide meta commentary into the types of bugs AI code review agents are great at spotting, and how far the field of AI code review has come in the last year alone.",
-        "Format": "",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "AI in Action, SWE Agents, Security",
-        "Room": "Nobhill A&B: Expo Sessions",
-        "Scheduled At": "4 Jun 2025 10:45 AM"
-      }
-    ],
-    "Speaker Details Array": [
-      {
-        "X (Twitter)": "",
-        "LinkedIn": "",
-        "Blog": "",
-        "Profile Picture": "https://sessionize.com/image/4c3d-400o400o1-nkAAJo2pWhhLeubYDcA64E.png",
-        "Title": "CPO and Co-founder",
-        "TagLine": "Graphite CPO & Co-founder",
-        "Bio": "Tomas Reimers, Forbes 30u30 class of ‘23, is the CPO and Co-founder of Graphite, the NYC DevTools startup that’s revolutionizing how the fastest-moving engineers build and ship software. Prior to co-founding Graphite, Tomas was a dev-tools engineer at Meta, developing a framework that supported the work of 200+ product teams and more than 1000 developers. He is passionate about all things software and will enthusiastically debate best engineering and architecture practices with you for hours."
       }
     ]
   },
@@ -1556,46 +2576,6 @@
         "Title": "VP of AI Agents",
         "TagLine": "VP of AI Agents @ WorkOS, Stanford Research Fellow",
         "Bio": "Tobin is the VP of AI Agents at WorkOS, building enterprise-ready AI agents and is a research fellow at Stanford University leading research for the Safe and Useful AI Agents initiative in HAI. Tobin completed his PhD at MIT in 2025 on \"Private, Verifiable, and Auditable AI Systems\" advised by Prof Sandy Pentland, where he was a senior fellow with the E14 VC Fund. Tobin was an Australian-American Fulbright Scholar for his time at MIT and an author of the 2025 International AI Safety Report. "
-      }
-    ]
-  },
-  {
-    "Speaker ID": "14177da5-e0bd-45c1-8a6a-c3bf998a7d01",
-    "Name": "Forrest Brazeal",
-    "Company": "Augment Code",
-    "Company Domain": "freemanandforrest.com",
-    "Company URL": "https://www.augmentcode.com",
-    "Company Website": "",
-    "Title": "Founder",
-    "TagLine": "Speaker and Workshop Organizer",
-    "Bio": "Forrest Brazeal is an author, tech educator, cartoonist, and Pwnie Award-winning songwriter. He left Google in 2024 to found the technical media company Freeman & Forrest. His community initiative, the Cloud Resume Challenge, has helped thousands of nontraditional learners take their first steps toward a career in tech.",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/fb62-400o400o1-LP3LgxHV4MZwSETSniUTA9.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936298",
-        "Title": "To the moon! Navigating deep context in legacy code with Augment Agent",
-        "Description": "Shortened presentation-only version of our Apollo 11 workshop",
-        "Format": "Talk",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "SWE Agents",
-        "Room": "Juniper: Expo Sessions",
-        "Scheduled At": "4 Jun 2025 11:00 AM"
-      }
-    ],
-    "Speaker Details Array": [
-      {
-        "X (Twitter)": "",
-        "LinkedIn": "",
-        "Blog": "",
-        "Profile Picture": "https://sessionize.com/image/fb62-400o400o1-LP3LgxHV4MZwSETSniUTA9.jpg",
-        "Title": "Founder",
-        "TagLine": "Speaker and Workshop Organizer",
-        "Bio": "Forrest Brazeal is an author, tech educator, cartoonist, and Pwnie Award-winning songwriter. He left Google in 2024 to found the technical media company Freeman & Forrest. His community initiative, the Cloud Resume Challenge, has helped thousands of nontraditional learners take their first steps toward a career in tech."
       }
     ]
   },
@@ -1846,7 +2826,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "huxe.com",
     "Company Website": "",
-    "Title": "Product Leader",
+    "Title": "Founder and Product Leader",
     "TagLine": "CEO & Co-Founder Huxe || Previously NotebookLM",
     "Bio": "A product leader with a unique lens on AI's user experience challenges, Raiza brings insights from both big tech and startup trenches. \r\n\r\nMost recently leading Google's NotebookLM team, she has shaped how millions of users interact with generative AI. Now, as a founder, she is reimagining these experiences from first principles. \r\n\r\nWith years of hands-on PM experience guiding technical teams through the practical realities of shipping AI products, Raiza offers a rare combination of enterprise-scale perspective and startup-speed execution.",
     "X (Twitter)": "https://x.com/raizamrtn",
@@ -1873,7 +2853,7 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/4455-400o400o1-wqpaVc41zMJrRTRDbX6dtU.png",
-        "Title": "Product Leader",
+        "Title": "Founder and Product Leader",
         "TagLine": "CEO & Co-Founder Huxe || Previously NotebookLM",
         "Bio": "A product leader with a unique lens on AI's user experience challenges, Raiza brings insights from both big tech and startup trenches. \r\n\r\nMost recently leading Google's NotebookLM team, she has shaped how millions of users interact with generative AI. Now, as a founder, she is reimagining these experiences from first principles. \r\n\r\nWith years of hands-on PM experience guiding technical teams through the practical realities of shipping AI products, Raiza offers a rare combination of enterprise-scale perspective and startup-speed execution."
       }
@@ -1886,7 +2866,7 @@
     "Company Domain": "anthropic.com",
     "Company URL": "https://www.anthropic.com/",
     "Company Website": "https://www.anthropic.com/",
-    "Title": "unknown",
+    "Title": "MCP Team Member",
     "TagLine": "Anthropic, MCP Team",
     "Bio": "[PLACEHOLDER]",
     "X (Twitter)": "https://x.com/jeromeswannack",
@@ -1924,7 +2904,7 @@
         "LinkedIn": "https://www.linkedin.com/in/jerome-swannack-1ba18173/",
         "Blog": "https://www.jeromeswannack.com/",
         "Profile Picture": "https://sessionize.com/image/495b-400o400o1-9jSKoLHfBgyuTQLzF5RoNR.png",
-        "Title": "unknown",
+        "Title": "MCP Team Member",
         "TagLine": "Anthropic, MCP Team",
         "Bio": "[PLACEHOLDER]"
       },
@@ -1933,7 +2913,7 @@
         "LinkedIn": "https://www.linkedin.com/in/jerome-swannack-1ba18173/",
         "Blog": "https://www.jeromeswannack.com/",
         "Profile Picture": "https://sessionize.com/image/495b-400o400o1-9jSKoLHfBgyuTQLzF5RoNR.png",
-        "Title": "unknown",
+        "Title": "MCP Team Member",
         "TagLine": "Anthropic, MCP Team",
         "Bio": "[PLACEHOLDER]"
       }
@@ -1983,10 +2963,10 @@
     "Speaker ID": "415efc97-c2d6-431b-9712-b990158280dc",
     "Name": "Charles Frye",
     "Company": "Modal Labs",
-    "Company Domain": "modallabs.com",
+    "Company Domain": "modal.com",
     "Company URL": "",
     "Company Website": "",
-    "Title": "AI Evangelist",
+    "Title": "Educator and Evangelist",
     "TagLine": "Developer Advocate, Modal Labs",
     "Bio": "Charles teaches people to build data, ML, and AI applications. He got his PhD from the University of California, Berkeley, in 2020 for work on the geometry of neural network optimization. He has since worked as an educator and evangelist for neural network applications at Weights & Biases, Full Stack Deep Learning, and now Modal Labs.",
     "X (Twitter)": "",
@@ -2013,7 +2993,7 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/e0a4-400o400o1-PH8Virem1RtLgkA2UCeqGN.jpg",
-        "Title": "AI Evangelist",
+        "Title": "Educator and Evangelist",
         "TagLine": "Developer Advocate, Modal Labs",
         "Bio": "Charles teaches people to build data, ML, and AI applications. He got his PhD from the University of California, Berkeley, in 2020 for work on the geometry of neural network optimization. He has since worked as an educator and evangelist for neural network applications at Weights & Biases, Full Stack Deep Learning, and now Modal Labs."
       }
@@ -2066,7 +3046,7 @@
     "Company Domain": "intercom.io",
     "Company URL": "https://www.intercom.com/",
     "Company Website": "https://www.intercom.com/",
-    "Title": "Product Lead, Voice AI",
+    "Title": "Product Lead",
     "TagLine": "Product Lead, Voice AI",
     "Bio": "I’m Peter Bar, a Product Lead with over 10 years of experience in the tech industry. At Intercom, I’m responsible for Voice AI initiatives and led the development and launch of Fin Voice, our AI voice agent. My background spans both B2B and consumer tech, blending technical depth with strategic product leadership. Before Intercom, I drove growth and customer experience efforts at Deliveroo (food delivery) and worked on music discovery products at Shazam. I hold a Master’s degree in Computer Science from Imperial College London.",
     "X (Twitter)": "https://x.com/PeterAlexBar",
@@ -2093,7 +3073,7 @@
         "LinkedIn": "https://www.linkedin.com/in/peterbar/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/3d1b-400o400o1-PDYvtgvYRGbRFtDmb13wfD.jpg",
-        "Title": "Product Lead, Voice AI",
+        "Title": "Product Lead",
         "TagLine": "Product Lead, Voice AI",
         "Bio": "I’m Peter Bar, a Product Lead with over 10 years of experience in the tech industry. At Intercom, I’m responsible for Voice AI initiatives and led the development and launch of Fin Voice, our AI voice agent. My background spans both B2B and consumer tech, blending technical depth with strategic product leadership. Before Intercom, I drove growth and customer experience efforts at Deliveroo (food delivery) and worked on music discovery products at Shazam. I hold a Master’s degree in Computer Science from Imperial College London."
       }
@@ -2306,7 +3286,7 @@
     "Company Domain": "oleve.co",
     "Company URL": "https://www.oleve.co/",
     "Company Website": "https://www.oleve.co/",
-    "Title": "Co-founder and Head of Platform",
+    "Title": "Co-founder",
     "TagLine": "Co-Founder",
     "Bio": "Sid Bendre is the co-founder of Oleve, a company building a portfolio of iconic consumer software across multiple verticals. With a lean team, Oleve has already launched two virally successful consumer AI products that have amassed over 250 million views across social media platforms. One of their products reached #4 on the App Store's Education charts in 2024 and #5 in 2025, competing alongside giants like Photomath (Google) and Duolingo. Backed by Neo, Cal Henderson (co-founder of Slack), Russell Kaplan (President of Cognition), and Maria Zhang (ex-CTO of Tinder), Oleve is building the AI infrastructure to run a $1B portfolio of consumer software over the next decade. At Oleve, Sid leads technical and AI efforts, running the “Platform” team responsible for the underlying AI infrastructure that powers their lean scaling approach. Before Oleve, Sid led AI experimentation efforts at a startup hedge fund and worked at Slack, Zendesk, and Microsoft.",
     "X (Twitter)": "https://x.com/SidBendre",
@@ -2344,7 +3324,7 @@
         "LinkedIn": "https://www.linkedin.com/in/sidbendre/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/0d00-400o400o1-BQmZLpsEnnPaQ4Ynw4eQqm.jpg",
-        "Title": "Co-founder and Head of Platform",
+        "Title": "Co-founder",
         "TagLine": "Co-Founder",
         "Bio": "Sid Bendre is the co-founder of Oleve, a company building a portfolio of iconic consumer software across multiple verticals. With a lean team, Oleve has already launched two virally successful consumer AI products that have amassed over 250 million views across social media platforms. One of their products reached #4 on the App Store's Education charts in 2024 and #5 in 2025, competing alongside giants like Photomath (Google) and Duolingo. Backed by Neo, Cal Henderson (co-founder of Slack), Russell Kaplan (President of Cognition), and Maria Zhang (ex-CTO of Tinder), Oleve is building the AI infrastructure to run a $1B portfolio of consumer software over the next decade. At Oleve, Sid leads technical and AI efforts, running the “Platform” team responsible for the underlying AI infrastructure that powers their lean scaling approach. Before Oleve, Sid led AI experimentation efforts at a startup hedge fund and worked at Slack, Zendesk, and Microsoft."
       },
@@ -2353,7 +3333,7 @@
         "LinkedIn": "https://www.linkedin.com/in/sidbendre/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/0d00-400o400o1-BQmZLpsEnnPaQ4Ynw4eQqm.jpg",
-        "Title": "Co-founder and Head of Platform",
+        "Title": "Co-founder",
         "TagLine": "Co-Founder",
         "Bio": "Sid Bendre is the co-founder of Oleve, a company building a portfolio of iconic consumer software across multiple verticals. With a lean team, Oleve has already launched two virally successful consumer AI products that have amassed over 250 million views across social media platforms. One of their products reached #4 on the App Store's Education charts in 2024 and #5 in 2025, competing alongside giants like Photomath (Google) and Duolingo. Backed by Neo, Cal Henderson (co-founder of Slack), Russell Kaplan (President of Cognition), and Maria Zhang (ex-CTO of Tinder), Oleve is building the AI infrastructure to run a $1B portfolio of consumer software over the next decade. At Oleve, Sid leads technical and AI efforts, running the “Platform” team responsible for the underlying AI infrastructure that powers their lean scaling approach. Before Oleve, Sid led AI experimentation efforts at a startup hedge fund and worked at Slack, Zendesk, and Microsoft."
       }
@@ -2566,7 +3546,7 @@
     "Company Domain": "together.ai",
     "Company URL": "https://www.together.ai/",
     "Company Website": "https://www.together.ai/",
-    "Title": "Lead, Developer Relations",
+    "Title": "Head of Developer Relations",
     "TagLine": "DevRel lead ",
     "Bio": "Hassan El Mghari is a software engineer based in New York specializing in building full-stack AI applications. His AI applications have a combined user base of over 3 million. He currently leads the developer relations team at Together.ai, where his work includes building example AI apps, creating content, and educating developers on AI development.",
     "X (Twitter)": "https://twitter.com/nutlope",
@@ -2593,7 +3573,7 @@
         "LinkedIn": "https://www.linkedin.com/in/nutlope/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/2767-400o400o1-MnFYxtNJ6podCsRVudboUA.jpg",
-        "Title": "Lead, Developer Relations",
+        "Title": "Head of Developer Relations",
         "TagLine": "DevRel lead ",
         "Bio": "Hassan El Mghari is a software engineer based in New York specializing in building full-stack AI applications. His AI applications have a combined user base of over 3 million. He currently leads the developer relations team at Together.ai, where his work includes building example AI apps, creating content, and educating developers on AI development."
       }
@@ -2606,7 +3586,7 @@
     "Company Domain": "humanlayer.dev",
     "Company URL": "https://www.humanlayer.dev/",
     "Company Website": "https://humanlayer.dev",
-    "Title": "AI Agent Developer",
+    "Title": "AI Agent Engineer",
     "TagLine": "Founder",
     "Bio": "Hey - I'm Dex, and I'm hacking on safer more reliable agents at HumanLayer. HumanLayer helps AI builders create agents that feel more like real coworkers - taking them out of ChatGPT-style interfaces and deploying them into slack, email, or wherever their users already are. Before this I was working on AI Agents that managed SQL warehouses, and did a long stint at replicated.com helping the worlds best software teams deliver Kubernetes apps into customer environments. I've been coding since 17, when I built tools for NASA researchers to navigate the south pole of the moon. Enjoyer of tacos and burpees (not necessarily in that order)",
     "X (Twitter)": "https://twitter.com/dexhorthy",
@@ -2633,7 +3613,7 @@
         "LinkedIn": "https://www.linkedin.com/in/dexterihorthy",
         "Blog": "https://theouterloop.substack.com",
         "Profile Picture": "https://sessionize.com/image/ae9e-400o400o1-MiCnM3v6KqD2jb5Rwr3cCv.png",
-        "Title": "AI Agent Developer",
+        "Title": "AI Agent Engineer",
         "TagLine": "Founder",
         "Bio": "Hey - I'm Dex, and I'm hacking on safer more reliable agents at HumanLayer. HumanLayer helps AI builders create agents that feel more like real coworkers - taking them out of ChatGPT-style interfaces and deploying them into slack, email, or wherever their users already are. Before this I was working on AI Agents that managed SQL warehouses, and did a long stint at replicated.com helping the worlds best software teams deliver Kubernetes apps into customer environments. I've been coding since 17, when I built tools for NASA researchers to navigate the south pole of the moon. Enjoyer of tacos and burpees (not necessarily in that order)"
       }
@@ -2926,7 +3906,7 @@
     "Company Domain": "langchain.dev",
     "Company URL": "https://www.langchain.com/",
     "Company Website": "",
-    "Title": "CEO and Co-founder",
+    "Title": "CEO and co-founder",
     "TagLine": "CEO",
     "Bio": "Harrison Chase is the CEO and co-founder of LangChain, a company formed around the popular open source Python/Typescript packages. The goal of LangChain is to make it as easy as possible to use LLMs to develop context-aware reasoning applications. Prior to starting LangChain, he led the ML team at Robust Intelligence (an MLOps company focused on testing and validation of machine learning models), led the entity linking team at Kensho (a fintech startup), and studied stats and CS at Harvard.",
     "X (Twitter)": "",
@@ -2953,7 +3933,7 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/7caf-400o400o1-WLRanuGKrWvZsj74RnWXi2.jpg",
-        "Title": "CEO and Co-founder",
+        "Title": "CEO and co-founder",
         "TagLine": "CEO",
         "Bio": "Harrison Chase is the CEO and co-founder of LangChain, a company formed around the popular open source Python/Typescript packages. The goal of LangChain is to make it as easy as possible to use LLMs to develop context-aware reasoning applications. Prior to starting LangChain, he led the ML team at Robust Intelligence (an MLOps company focused on testing and validation of machine learning models), led the entity linking team at Kensho (a fintech startup), and studied stats and CS at Harvard."
       }
@@ -3206,7 +4186,7 @@
     "Company Domain": "modal.com",
     "Company URL": "modal.com",
     "Company Website": "",
-    "Title": "Evangelist",
+    "Title": "Educator and Evangelist",
     "TagLine": "Building useful technology out of large neural networks",
     "Bio": "Charles teaches people to build data, ML, and AI applications. He got his PhD from the University of California, Berkeley, in 2020 for work on the geometry of neural network optimization. He has since worked as an educator and evangelist for neural network applications at Weights & Biases, Full Stack Deep Learning, and now Modal Labs.",
     "X (Twitter)": "",
@@ -3233,7 +4213,7 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/dad1-400o400o1-SzdPZy7GnHqsMy5Tt9hM8C.jpg",
-        "Title": "Evangelist",
+        "Title": "Educator and Evangelist",
         "TagLine": "Building useful technology out of large neural networks",
         "Bio": "Charles teaches people to build data, ML, and AI applications. He got his PhD from the University of California, Berkeley, in 2020 for work on the geometry of neural network optimization. He has since worked as an educator and evangelist for neural network applications at Weights & Biases, Full Stack Deep Learning, and now Modal Labs."
       }
@@ -3246,8 +4226,8 @@
     "Company Domain": "llamaindex.ai",
     "Company URL": "",
     "Company Website": "",
-    "Title": "VP Developer Relations",
-    "TagLine": "VP Developer Relations",
+    "Title": "VP of Developer Relations",
+    "TagLine": "VP Developer Relations, LlamaIndex",
     "Bio": "Laurie has been a web developer for 27 years, and along the way he co-founded npm, Inc.. He cares passionately about making technology accessible to everyone by demystifying complex technology topics.",
     "X (Twitter)": "",
     "LinkedIn": "",
@@ -3273,8 +4253,8 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/fb2f-400o400o1-R9cKxHYQDusBUF4SJvJawH.png",
-        "Title": "VP Developer Relations",
-        "TagLine": "LlamaIndex",
+        "Title": "VP of Developer Relations",
+        "TagLine": "VP Developer Relations, LlamaIndex",
         "Bio": "Laurie has been a web developer for 27 years, and along the way he co-founded npm, Inc.. He cares passionately about making technology accessible to everyone by demystifying complex technology topics."
       }
     ]
@@ -3363,10 +4343,10 @@
     "Speaker ID": "87bb824e-bb03-423f-88df-414edb3e9700",
     "Name": "Mani Khanuja",
     "Company": "AWS",
-    "Company Domain": "aws.amazon.com",
+    "Company Domain": "amazon.com",
     "Company URL": "",
     "Company Website": "",
-    "Title": "AI/ML Specialist",
+    "Title": "unknown",
     "TagLine": "Principal ML Services SA",
     "Bio": "",
     "X (Twitter)": "",
@@ -3393,7 +4373,7 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "",
-        "Title": "AI/ML Specialist",
+        "Title": "unknown",
         "TagLine": "Principal ML Services SA",
         "Bio": ""
       }
@@ -3403,7 +4383,7 @@
     "Speaker ID": "03a546b2-ff3e-4fc5-8fe2-0c29c95f1953",
     "Name": "Kshitij  Grover",
     "Company": "Orb",
-    "Company Domain": "orb.io",
+    "Company Domain": "orb.ai",
     "Company URL": "",
     "Company Website": "",
     "Title": "Co-Founder and CTO",
@@ -3683,7 +4663,7 @@
     "Speaker ID": "4d8f9ca5-846a-4577-a858-944d5047f16d",
     "Name": "Jordan Dearsley",
     "Company": "Vapi",
-    "Company Domain": "vapi.com",
+    "Company Domain": "vapi.ai",
     "Company URL": "https://vapi.ai/",
     "Company Website": "https://vapi.ai/",
     "Title": "Co-founder and CEO",
@@ -3726,7 +4706,7 @@
     "Company Domain": "ensemblehp.com",
     "Company URL": "https://www.ensemblehp.com/",
     "Company Website": "",
-    "Title": "Machine Learning and Engineering Leader",
+    "Title": "AI and Engineering Leader",
     "TagLine": "Head of AI",
     "Bio": "Nathan Wan is a machine learning and engineering leader who has built production AI systems across multiple domains before healthcare. After building speech recognition and language models and leading operational teams at Google, he led scaled platforms and teams applying AI to cancer detection and drug discovery in biotech. At Ensemble Health Partners, Nathan is leading efforts to transform RCM into a tech-driven performance engine.",
     "X (Twitter)": "",
@@ -3753,7 +4733,7 @@
         "LinkedIn": "https://www.linkedin.com/in/nwan1/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/c9a8-400o400o1-RyRmUSQEcH7GZDx9rw5zAE.jpg",
-        "Title": "Machine Learning and Engineering Leader",
+        "Title": "AI and Engineering Leader",
         "TagLine": "Head of AI",
         "Bio": "Nathan Wan is a machine learning and engineering leader who has built production AI systems across multiple domains before healthcare. After building speech recognition and language models and leading operational teams at Google, he led scaled platforms and teams applying AI to cancer detection and drug discovery in biotech. At Ensemble Health Partners, Nathan is leading efforts to transform RCM into a tech-driven performance engine."
       }
@@ -4006,7 +4986,7 @@
     "Company Domain": "alixpartners.com",
     "Company URL": "https://www.alixpartners.com/our-people/28458/kevin-madura/",
     "Company Website": "https://alixpartners.com",
-    "Title": "Technical Advisor and Testifying Expert",
+    "Title": "Technical Advisor and Expert Witness",
     "TagLine": "Director, Advanced Technologies",
     "Bio": "Kevin leads technical advisory engagements and investigations in situations involving complex software, applied AI, and digital assets. As testifying expert and \"translator\" of technical material, he regularly interfaces with executive leadership, legal counsel, regulators, and engineers, balancing deep technical expertise with strategic clarity to drive outcomes.",
     "X (Twitter)": "https://x.com/kmad",
@@ -4033,7 +5013,7 @@
         "LinkedIn": "https://www.linkedin.com/in/kevinmadura/",
         "Blog": "https://kmad.github.io",
         "Profile Picture": "https://sessionize.com/image/8ec5-400o400o1-WcgVoUZzWdW9zEnwmsGvec.jpg",
-        "Title": "Technical Advisor and Testifying Expert",
+        "Title": "Technical Advisor and Expert Witness",
         "TagLine": "Director, Advanced Technologies",
         "Bio": "Kevin leads technical advisory engagements and investigations in situations involving complex software, applied AI, and digital assets. As testifying expert and \"translator\" of technical material, he regularly interfaces with executive leadership, legal counsel, regulators, and engineers, balancing deep technical expertise with strategic clarity to drive outcomes."
       }
@@ -4646,7 +5626,7 @@
     "Company Domain": "cisco.com",
     "Company URL": "https://www.cisco.com/",
     "Company Website": "",
-    "Title": "Leader, Generative AI Incubation",
+    "Title": "Leader, Generative AI Incubation Group",
     "TagLine": "Product Leader",
     "Bio": "With decades of experience in the tech industry, Ola is an accomplished speaker and leader in product management, specializing in the creation and scaling of ventures within emerging and disruptive domains. As a current leader in the Generative AI Incubation group at Cisco, Ola drives cutting-edge Generative AI ideas from concept to scalable and profitable businesses at startup velocity.\r\nOla's mission is to harness his cross-functional expertise and wealth of experience to drive innovation and growth in enterprise AI, Generative AI, computer vision, edge computing, and other transformative technologies that are shaping the future.",
     "X (Twitter)": "",
@@ -4673,7 +5653,7 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/029e-400o400o1-nd3ixD6rytghYCjpQzHfH2.jpg",
-        "Title": "Leader, Generative AI Incubation",
+        "Title": "Leader, Generative AI Incubation Group",
         "TagLine": "Product Leader",
         "Bio": "With decades of experience in the tech industry, Ola is an accomplished speaker and leader in product management, specializing in the creation and scaling of ventures within emerging and disruptive domains. As a current leader in the Generative AI Incubation group at Cisco, Ola drives cutting-edge Generative AI ideas from concept to scalable and profitable businesses at startup velocity.\r\nOla's mission is to harness his cross-functional expertise and wealth of experience to drive innovation and growth in enterprise AI, Generative AI, computer vision, edge computing, and other transformative technologies that are shaping the future."
       }
@@ -4686,7 +5666,7 @@
     "Company Domain": "qodo.ai",
     "Company URL": "https://www.qodo.ai/",
     "Company Website": "https://www.qodo.ai/",
-    "Title": "CEO and Co-founder",
+    "Title": "CEO and co-founder",
     "TagLine": "CEO",
     "Bio": " Itamar Friedman is the CEO and co-founder of Qodo (fka CodiumAI), the leader in the emerging code integrity space.\r\nPrior to that, Itamar was the co-founder and CTO of Visualead, which Alibaba Group acquired. As a director at Alibaba, he led teams to create innovative ML-based B2C and B2D applications and tools used by millions.\r\nItamar holds a BSc & MSc in Electrical Engineering (Summa Cum Laude) from the Technion, majoring in Machine Learning and Computer Vision.\r\n\r\n",
     "X (Twitter)": "https://x.com/itamar_mar",
@@ -4713,7 +5693,7 @@
         "LinkedIn": "https://www.linkedin.com/in/itamarf/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/1d5e-400o400o1-NPcEvVbuqLb2gDi2dSpNsr.jpg",
-        "Title": "CEO and Co-founder",
+        "Title": "CEO and co-founder",
         "TagLine": "CEO",
         "Bio": " Itamar Friedman is the CEO and co-founder of Qodo (fka CodiumAI), the leader in the emerging code integrity space.\r\nPrior to that, Itamar was the co-founder and CTO of Visualead, which Alibaba Group acquired. As a director at Alibaba, he led teams to create innovative ML-based B2C and B2D applications and tools used by millions.\r\nItamar holds a BSc & MSc in Electrical Engineering (Summa Cum Laude) from the Technion, majoring in Machine Learning and Computer Vision.\r\n\r\n"
       }
@@ -4766,7 +5746,7 @@
     "Company Domain": "agentuity.com",
     "Company URL": "",
     "Company Website": "https://agentuity.com/",
-    "Title": "Developer",
+    "Title": "CPO",
     "TagLine": "Founder, Agentuity",
     "Bio": "Seasoned founder with exit.  Developer at night and during the day if I can fit it in meetings... Scaled a mobile developer platform from hundreds to 800,000 developers. Successfully started and sold a fisheries platform & app to the world's largest fishing app with 15m+ users, and then led that company as CPO. ",
     "X (Twitter)": "https://x.com/rblalock",
@@ -4793,7 +5773,7 @@
         "LinkedIn": "https://www.linkedin.com/in/rickblalock/",
         "Blog": "https://rickblalock.dev/",
         "Profile Picture": "https://sessionize.com/image/3199-400o400o1-sY3qeP5fMBSgrv67uCLL1Z.png",
-        "Title": "Developer",
+        "Title": "CPO",
         "TagLine": "Founder, Agentuity",
         "Bio": "Seasoned founder with exit.  Developer at night and during the day if I can fit it in meetings... Scaled a mobile developer platform from hundreds to 800,000 developers. Successfully started and sold a fisheries platform & app to the world's largest fishing app with 15m+ users, and then led that company as CPO. "
       }
@@ -4920,6 +5900,86 @@
     ]
   },
   {
+    "Speaker ID": "2d3685ce-29b1-4596-b44c-8115f3999797",
+    "Name": "Greg Brockman",
+    "Company": "OpenAI",
+    "Company Domain": "openai.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Co-founder & CTO",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936006",
+        "Title": "#define AI Engineer",
+        "Description": "Greg Brockman's career and advice for AI Engineers",
+        "Format": "",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "Keynote/General Session (Yerba Buena 7&8)",
+        "Scheduled At": "4 Jun 2025 04:40 PM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "Co-founder & CTO",
+        "TagLine": "",
+        "Bio": ""
+      }
+    ]
+  },
+  {
+    "Speaker ID": "2eeb60af-71b2-43dc-9100-8970239201b1",
+    "Name": "Shawn Wang",
+    "Company": "OpenAI",
+    "Company Domain": "openai.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "AI Engineer",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936006",
+        "Title": "#define AI Engineer",
+        "Description": "Greg Brockman's career and advice for AI Engineers",
+        "Format": "",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "Keynote/General Session (Yerba Buena 7&8)",
+        "Scheduled At": "4 Jun 2025 04:40 PM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "AI Engineer",
+        "TagLine": "",
+        "Bio": ""
+      }
+    ]
+  },
+  {
     "Speaker ID": "1782748e-538e-4943-9d97-46a90338691c",
     "Name": "Logan Kilpatrick",
     "Company": "Google",
@@ -4956,6 +6016,46 @@
         "Title": "Product Lead for Google AI Studio",
         "TagLine": "Product, Google Deepmind",
         "Bio": "Logan leads product for Google AI Studio and works on the Gemini API. Before Google, Logan led developer relations at OpenAI."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "5bbf871e-90a7-44a5-a459-410313b251e7",
+    "Name": "Jack Rae",
+    "Company": "unknown",
+    "Company Domain": "unknown",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Keynote Speaker",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936022",
+        "Title": "Jack Rae Keynote",
+        "Description": "",
+        "Format": "Keynote",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "Keynote/General Session (Yerba Buena 7&8)",
+        "Scheduled At": "5 Jun 2025 09:25 AM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "",
+        "Title": "Keynote Speaker",
+        "TagLine": "",
+        "Bio": ""
       }
     ]
   },
@@ -5043,7 +6143,7 @@
     "Speaker ID": "b2515fe3-7618-42fd-b3f3-b243ec874a55",
     "Name": "Kenneth DuMez",
     "Company": "Graphite",
-    "Company Domain": "graphite.com",
+    "Company Domain": "graphite.dev",
     "Company URL": "",
     "Company Website": "",
     "Title": "Developer Relations Lead",
@@ -5096,46 +6196,6 @@
         "Title": "Developer Relations Lead",
         "TagLine": "DevRel Lead, Graphite",
         "Bio": "Kenneth DuMez is the Developer Relations Lead at Graphite, the AI developer productivity platform that helps engineers create, review, & merge pull requests, stay unblocked, and ship faster. Kenneth is currently focused on educating developers around the world about best software engineering practices, how to leverage AI in the code review process, and using the “stacking” workflow to empower engineers to ship and review code faster. Prior to joining Graphite, Kenneth was a developer relations engineer at Teleport, and was also a founding member of VMware Tanzu where he was focused on developing and extending Kubernetes build solutions."
-      }
-    ]
-  },
-  {
-    "Speaker ID": "9f02f784-0f81-4e62-a173-d8e84c178bc5",
-    "Name": "Suman Debnath",
-    "Company": "Amazon Web Services",
-    "Company Domain": "aws.amazon.com",
-    "Company URL": "",
-    "Company Website": "https://aws.amazon.com/?nc2=h_lg",
-    "Title": "Principal Developer Advocate (AI/ML)",
-    "TagLine": "Principal Developer Advocate (AI/ML)",
-    "Bio": "Suman Debnath is a Principal Developer Advocate (AI/ML) at Amazon Web Services. His current focus areas include NLP, LLMs, and retrieval systems (RAG). Suman is committed to leveraging open-source tools such as LangChain, PyTorch, Numpy, and Pandas to advance machine learning. He has developed performance benchmarking and monitoring tools for distributed storage systems and has spoken at over 100 global events, including AI Engineer Summit, PyCon, PyData, ODSC, and many others across multiple countries.",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/5e5d-400o400o1-sRANVScUVMrcgXD2Uo8LH8.png",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "933603",
-        "Title": "Introducing Strands Agents, an Open Source AI Agents SDK",
-        "Description": "Building AI agents used to require complex orchestration, extensive scaffolding, and months of tuning. With Strands Agents, an open source SDK from AWS. You can now build, test, and deploy intelligent agents in just a few lines of code. This session introduces the model-driven approach behind Strands, where a model, a prompt, and a set of tools are all you need to create powerful, production-ready agents. Learn how Strands leverages modern foundation models to handle reasoning, tool use, and reflection, reducing development time from months to days.",
-        "Format": "",
-        "Level": "Advanced",
-        "Scope": "Technical deep dive",
-        "Tracks": "Evals, Retrieval+Search",
-        "Room": "Nobhill A&B: Expo Sessions",
-        "Scheduled At": "5 Jun 2025 10:45 AM"
-      }
-    ],
-    "Speaker Details Array": [
-      {
-        "X (Twitter)": "",
-        "LinkedIn": "",
-        "Blog": "",
-        "Profile Picture": "https://sessionize.com/image/5e5d-400o400o1-sRANVScUVMrcgXD2Uo8LH8.png",
-        "Title": "Principal Developer Advocate (AI/ML)",
-        "TagLine": "Principal Developer Advocate (AI/ML)",
-        "Bio": "Suman Debnath is a Principal Developer Advocate (AI/ML) at Amazon Web Services. His current focus areas include NLP, LLMs, and retrieval systems (RAG). Suman is committed to leveraging open-source tools such as LangChain, PyTorch, Numpy, and Pandas to advance machine learning. He has developed performance benchmarking and monitoring tools for distributed storage systems and has spoken at over 100 global events, including AI Engineer Summit, PyCon, PyData, ODSC, and many others across multiple countries."
       }
     ]
   },
@@ -5263,7 +6323,7 @@
     "Speaker ID": "cfff00f5-73e9-4881-bb4a-b9e34b98b26e",
     "Name": "Gorkem Yurtseven",
     "Company": "fal",
-    "Company Domain": "fal.ai",
+    "Company Domain": "fal.com",
     "Company URL": "https://fal.ai/",
     "Company Website": "",
     "Title": "Co-founder and CTO",
@@ -5306,7 +6366,7 @@
     "Company Domain": "aircoverpr.com",
     "Company URL": "https://www.withorb.com/",
     "Company Website": "https://www.withorb.com/",
-    "Title": "Co-founder and CEO",
+    "Title": "CEO and co-founder",
     "TagLine": "CEO",
     "Bio": "Alvaro Morales is the co-founder and CEO of Orb, a leading billing and monetization platform enabling SaaS and GenAI companies to adopt flexible, usage-based, and outcome-driven pricing models. Since founding Orb in 2021, he has helped businesses transition from traditional seat-based pricing to dynamic, data-driven monetization strategies that scale with customer value. Previously, he led growth engineering at Asana, optimizing pricing and revenue strategies. Morales holds Master’s and Bachelor’s degrees in Computer Science from MIT and has worked at Palantir, Yahoo!, and MIT’s CSAIL. A fintech innovator, he is shaping the future of AI monetization in a usage-based economy.",
     "X (Twitter)": "https://x.com/alvaromorales",
@@ -5333,7 +6393,7 @@
         "LinkedIn": "https://www.linkedin.com/in/alvaro-morales/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/6c39-400o400o1-JBNFJeGFzwhuctMDmcV6j5.png",
-        "Title": "Co-founder and CEO",
+        "Title": "CEO and co-founder",
         "TagLine": "CEO",
         "Bio": "Alvaro Morales is the co-founder and CEO of Orb, a leading billing and monetization platform enabling SaaS and GenAI companies to adopt flexible, usage-based, and outcome-driven pricing models. Since founding Orb in 2021, he has helped businesses transition from traditional seat-based pricing to dynamic, data-driven monetization strategies that scale with customer value. Previously, he led growth engineering at Asana, optimizing pricing and revenue strategies. Morales holds Master’s and Bachelor’s degrees in Computer Science from MIT and has worked at Palantir, Yahoo!, and MIT’s CSAIL. A fintech innovator, he is shaping the future of AI monetization in a usage-based economy."
       }
@@ -5506,7 +6566,7 @@
     "Company Domain": "runllama.ai",
     "Company URL": "llamaindex.ai",
     "Company Website": "",
-    "Title": "Co-founder/CEO",
+    "Title": "Co-founder and CEO",
     "TagLine": "CEO",
     "Bio": "Jerry is the co-founder/CEO of LlamaIndex, the most accurate and flexible way to automate your document workflows with AI agents. Before this, he led the ML monitoring team at Robust Intelligence, did self-driving AI research at Uber ATG and worked on recommendation systems at Quora.",
     "X (Twitter)": "https://twitter.com/jerryjliu0",
@@ -5533,7 +6593,7 @@
         "LinkedIn": "https://www.linkedin.com/in/jerry-liu-64390071/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/61b9-400o400o1-3brCmcVKAHmSGaKS6QsZmA.jpg",
-        "Title": "Co-founder/CEO",
+        "Title": "Co-founder and CEO",
         "TagLine": "CEO",
         "Bio": "Jerry is the co-founder/CEO of LlamaIndex, the most accurate and flexible way to automate your document workflows with AI agents. Before this, he led the ML monitoring team at Robust Intelligence, did self-driving AI research at Uber ATG and worked on recommendation systems at Quora."
       }
@@ -5620,13 +6680,53 @@
     ]
   },
   {
+    "Speaker ID": "d4f80bfc-8626-4a93-aae4-2541afd061d1",
+    "Name": "Fouad Matin",
+    "Company": "OpenAI",
+    "Company Domain": "openai.com",
+    "Company URL": "https://openai.com",
+    "Company Website": "https://openai.com",
+    "Title": "Engineer",
+    "TagLine": "Member of Technical Staff, OpenAI",
+    "Bio": "Fouad Matin is an engineer who co-founded Indent, temporary access control startup, before joining OpenAI to work on AGI-ready security, and previously worked on data infrastructure products at Segment. In 2016, he co-founded VotePlz, a non-partisan voter registration and turnout non-profit. Passionate about helping people find fulfilling work, he previously started a referral recruiting company which went through Y Combinator in W16 batch.",
+    "X (Twitter)": "https://x.com/fouadmatin",
+    "LinkedIn": "https://linkedin.com/fouadmatin",
+    "Blog": "https://fouad.org",
+    "Profile Picture": "https://sessionize.com/image/3369-400o400o1-7o9HgmNLCQzqRtdLm4Lxtd.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "938753",
+        "Title": "Safety and security for code-executing agents",
+        "Description": "Code is the lingua franca for both software engineers and highly capable AI models. As we give agents the ability to build, test, and run code that they generate, the command line becomes their canvas—and their attack surface.\r\n\r\nThis keynote explores what it takes to bring code-executing agents from research to real-world deployment while maintaining control and security. We’ll cover how terminals offer AI an ideal interface, why they’re deceptively risky, and what it means to embed security, guardrails, and trust at every layer.\r\n\r\nIt’s not just about what agents can do—it’s about what they should do, and how we make sure they do it safely.",
+        "Format": "Keynote",
+        "Level": "Introductory and overview",
+        "Scope": "Technical deep dive",
+        "Tracks": "Security",
+        "Room": "Foothill C: Security",
+        "Scheduled At": "5 Jun 2025 11:15 AM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "https://x.com/fouadmatin",
+        "LinkedIn": "https://linkedin.com/fouadmatin",
+        "Blog": "https://fouad.org",
+        "Profile Picture": "https://sessionize.com/image/3369-400o400o1-7o9HgmNLCQzqRtdLm4Lxtd.jpg",
+        "Title": "Engineer",
+        "TagLine": "Member of Technical Staff, OpenAI",
+        "Bio": "Fouad Matin is an engineer who co-founded Indent, temporary access control startup, before joining OpenAI to work on AGI-ready security, and previously worked on data infrastructure products at Segment. In 2016, he co-founded VotePlz, a non-partisan voter registration and turnout non-profit. Passionate about helping people find fulfilling work, he previously started a referral recruiting company which went through Y Combinator in W16 batch."
+      }
+    ]
+  },
+  {
     "Speaker ID": "0526d7d4-e6b6-4fae-a9bc-38f96ba75bd3",
     "Name": "Chang She",
     "Company": "LanceDB",
     "Company Domain": "lancedb.com",
     "Company URL": "https://www.lancedb.com/",
     "Company Website": "https://www.lancedb.com",
-    "Title": "Co-founder",
+    "Title": "Co-founder and Engineer",
     "TagLine": "CEO",
     "Bio": "Two decades of building data tools for ML/AI. Pandas co-author. Building LanceDB, the database for multimodal AI.",
     "X (Twitter)": "https://x.com/changhiskhan",
@@ -5653,7 +6753,7 @@
         "LinkedIn": "https://www.linkedin.com/in/changshe/",
         "Blog": "https://blog.lancedb.com",
         "Profile Picture": "https://sessionize.com/image/7a07-400o400o1-MuSbRRkcoMr4jC4RVdNg4t.jpg",
-        "Title": "Co-founder",
+        "Title": "Co-founder and Engineer",
         "TagLine": "CEO",
         "Bio": "Two decades of building data tools for ML/AI. Pandas co-author. Building LanceDB, the database for multimodal AI."
       }
@@ -6026,7 +7126,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://sfcompute.com/",
     "Company Website": "https://sfcompute.com",
-    "Title": "Engineer and Designer",
+    "Title": "Engineer and Self-Taught Designer",
     "TagLine": "Head of Design ",
     "Bio": "I'm John Pham, an engineer and a self-taught designer. I seek the dopamine hits of building delightful experiences for others. I've worked at Vercel, Microsoft and NASA doing just that.",
     "X (Twitter)": "https://twitter.com/johnphamous",
@@ -6053,7 +7153,7 @@
         "LinkedIn": "https://www.linkedin.com/in/johnphamous/",
         "Blog": "https://pham.codes",
         "Profile Picture": "https://sessionize.com/image/3d96-400o400o1-ckJzaLGR1pNqpqzGEBgRR.jpg",
-        "Title": "Engineer and Designer",
+        "Title": "Engineer and Self-Taught Designer",
         "TagLine": "Head of Design ",
         "Bio": "I'm John Pham, an engineer and a self-taught designer. I seek the dopamine hits of building delightful experiences for others. I've worked at Vercel, Microsoft and NASA doing just that."
       }
@@ -6146,7 +7246,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://zapier.com/ai",
     "Company Website": "",
-    "Title": "Staff Software Engineer, AI R&D",
+    "Title": "Staff Software Engineer",
     "TagLine": "Staff AI Engineer",
     "Bio": "Vitor is a Staff Software Engineer on the AI R&D team at Zapier, involved in most of Zapier's AI initiatives:\r\n- AI Lead for Zapier Agents\r\n- Creator of the AI Zap builder (natural language to automation)\r\n- Co-creator of AI custom actions\r\n- Co-creator of AI actions / Zapier MCP",
     "X (Twitter)": "https://x.com/vitorbal",
@@ -6173,7 +7273,7 @@
         "LinkedIn": "https://www.linkedin.com/in/vitorbal/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/7002-400o400o1-QFU6dChdaXe3r7jUmdJz7K.png",
-        "Title": "Staff Software Engineer, AI R&D",
+        "Title": "Staff Software Engineer",
         "TagLine": "Staff AI Engineer",
         "Bio": "Vitor is a Staff Software Engineer on the AI R&D team at Zapier, involved in most of Zapier's AI initiatives:\r\n- AI Lead for Zapier Agents\r\n- Creator of the AI Zap builder (natural language to automation)\r\n- Co-creator of AI custom actions\r\n- Co-creator of AI actions / Zapier MCP"
       }
@@ -6266,7 +7366,7 @@
     "Company Domain": "tavily.com",
     "Company URL": "https://tavily.com",
     "Company Website": "",
-    "Title": "Head of Engineering",
+    "Title": "Founding Member and Head of Engineering",
     "TagLine": "Head of Engineering",
     "Bio": "Maitar Asher is a founding member and Head of Engineering at Tavily, a New York–based startup developing a web infrastructure layer for AI agents. \r\n\r\nShe leads the technology build and has architected core systems—including Tavily’s intelligent caching layer and enhanced search retrieval—to power the industry’s premier search engine for large language models.\r\n\r\nPrior to Tavily, she developed deep learning tools for PET/CT image segmentation as a Machine Learning Research Engineer at Stanford University. She holds a B.S. in Computer Science (Machine Learning) from Columbia University.",
     "X (Twitter)": "",
@@ -6293,7 +7393,7 @@
         "LinkedIn": "https://www.linkedin.com/in/maitar-a-b48197218/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/b38d-400o400o1-XQqMy4CnJxWLTBpFJgw8yY.png",
-        "Title": "Head of Engineering",
+        "Title": "Founding Member and Head of Engineering",
         "TagLine": "Head of Engineering",
         "Bio": "Maitar Asher is a founding member and Head of Engineering at Tavily, a New York–based startup developing a web infrastructure layer for AI agents. \r\n\r\nShe leads the technology build and has architected core systems—including Tavily’s intelligent caching layer and enhanced search retrieval—to power the industry’s premier search engine for large language models.\r\n\r\nPrior to Tavily, she developed deep learning tools for PET/CT image segmentation as a Machine Learning Research Engineer at Stanford University. She holds a B.S. in Computer Science (Machine Learning) from Columbia University."
       }
@@ -6740,10 +7840,50 @@
     ]
   },
   {
+    "Speaker ID": "0db693b9-12cb-437d-a92f-922ba0751480",
+    "Name": "Ivan Burazin",
+    "Company": "Daytona",
+    "Company Domain": "gmail.com",
+    "Company URL": "https://www.daytona.io/",
+    "Company Website": "https://www.daytona.io/",
+    "Title": "Co-founder",
+    "TagLine": "CEO",
+    "Bio": "Ivan Burazin co-founded Codeanywhere, the very first cloud IDE, back in 2009 where he and the team had to create everything from scratch, from the IDE itself, to the entire orchestration. Concurrently, he established Shift, the premier developer conference in Europe, which was later acquired by Infobip - a global communications cloud giant in 2021. Following the acquisition, Ivan served on the executive board of this 4,000-person company and as the Chief Developer Experience Officer, where he oversaw global developer-oriented operations.\r\nIn 2023, Ivan co-founded Daytona, a fast-growing open-source platform addressing the limitations of AI coding agents by enabling them to programmatically and securely interact with runtime environments. \r\nBacked by $7M in funding, Daytona empowers developers, from startups to Fortune 500 companies to enable AI agents to achieve their full potential.\r\n",
+    "X (Twitter)": "https://twitter.com/ivanburazin",
+    "LinkedIn": "https://www.linkedin.com/in/ivanburazin/",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/ba67-400o400o1-RZgw2DqaC7TEEp4b41MiwA.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "914814",
+        "Title": "AX is the only Experience that Matters",
+        "Description": "If you’re building devtools for humans, you’re building for the past. \r\n\r\nAlready a quarter of Y Combinator’s latest batch used AI to write 95% or more of their code. AI agents are scaling at an exponential rate and soon, they’ll outnumber human developers by orders of magnitude.\r\n\r\n\r\nThe real bottleneck isn’t intelligence. It’s tooling. Terminals, local machines, and dashboards weren’t built for agents. They make do… until they can’t.\r\n\r\nIn this talk, I’ll share how we killed the CLI at Daytona, rebuilt our infrastructure from first principles, and what it takes to build devtools that agents can actually use. Because in an agent-native future, if agents can’t use your tool, no one will.\r\n",
+        "Format": "Talk",
+        "Level": "Introductory and overview",
+        "Scope": "Case Study/War Story",
+        "Tracks": "AI Architects",
+        "Room": "SOMA: AI Architects",
+        "Scheduled At": "5 Jun 2025 12:15 PM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "https://twitter.com/ivanburazin",
+        "LinkedIn": "https://www.linkedin.com/in/ivanburazin/",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/ba67-400o400o1-RZgw2DqaC7TEEp4b41MiwA.jpg",
+        "Title": "Co-founder",
+        "TagLine": "CEO",
+        "Bio": "Ivan Burazin co-founded Codeanywhere, the very first cloud IDE, back in 2009 where he and the team had to create everything from scratch, from the IDE itself, to the entire orchestration. Concurrently, he established Shift, the premier developer conference in Europe, which was later acquired by Infobip - a global communications cloud giant in 2021. Following the acquisition, Ivan served on the executive board of this 4,000-person company and as the Chief Developer Experience Officer, where he oversaw global developer-oriented operations.\r\nIn 2023, Ivan co-founded Daytona, a fast-growing open-source platform addressing the limitations of AI coding agents by enabling them to programmatically and securely interact with runtime environments. \r\nBacked by $7M in funding, Daytona empowers developers, from startups to Fortune 500 companies to enable AI agents to achieve their full potential.\r\n"
+      }
+    ]
+  },
+  {
     "Speaker ID": "13020bf9-1f56-43e1-a54c-04055aa8413a",
     "Name": "Tomas Reimers",
     "Company": "Graphite",
-    "Company Domain": "graphite.com",
+    "Company Domain": "graphite.dev",
     "Company URL": "",
     "Company Website": "",
     "Title": "CPO and Co-founder",
@@ -6860,46 +8000,6 @@
     ]
   },
   {
-    "Speaker ID": "360f3633-c499-4ac4-a9e9-eb8da0613e07",
-    "Name": "Michael Grinich",
-    "Company": "WorkOS",
-    "Company Domain": "workos.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Founder and CEO",
-    "TagLine": "Founder & CEO, WorkOS ",
-    "Bio": "Michael is the founder and CEO of WorkOS, a developer platform powering enterprise features for leading AI companies—including OpenAI, Anthropic, Perplexity, and Cursor—as well as hundreds of other modern SaaS applications.",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/178a-400o400o1-K3idWedxpTs7BkKsiniQHk.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "933686",
-        "Title": "CIAM for AI: Who Are Your Agents and What Can They Do?",
-        "Description": "AI agents are changing the way modern SaaS products operate. Whether automating workflows, integrating with APIs, or acting on behalf of users, AI-driven assistants and autonomous systems are becoming core product features. But securing these agents presents a fundamental challenge: How do you authenticate AI agents? How do you control what they can access? How do you ensure they act within the right permissions? This talk will explore these concepts and more while highlighting current research and best practices.",
-        "Format": "Talk",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "MCP, Security, AI Product Management",
-        "Room": "SOMA: AI Architects",
-        "Scheduled At": "5 Jun 2025 12:15 PM"
-      }
-    ],
-    "Speaker Details Array": [
-      {
-        "X (Twitter)": "",
-        "LinkedIn": "",
-        "Blog": "",
-        "Profile Picture": "https://sessionize.com/image/178a-400o400o1-K3idWedxpTs7BkKsiniQHk.jpg",
-        "Title": "Founder and CEO",
-        "TagLine": "Founder & CEO, WorkOS ",
-        "Bio": "Michael is the founder and CEO of WorkOS, a developer platform powering enterprise features for leading AI companies—including OpenAI, Anthropic, Perplexity, and Cursor—as well as hundreds of other modern SaaS applications."
-      }
-    ]
-  },
-  {
     "Speaker ID": "6708d2e5-94fd-4417-8dfe-a511e7de5671",
     "Name": "Bobby Tiernay",
     "Company": "Okta (Auth0)",
@@ -6942,8 +8042,8 @@
   {
     "Speaker ID": "fe1273b4-19a2-4e6f-a011-36d324b801eb",
     "Name": "Kameron Sween",
-    "Company": "Okta",
-    "Company Domain": "okta.com",
+    "Company": "Auth0",
+    "Company Domain": "auth0.com",
     "Company URL": "",
     "Company Website": "",
     "Title": "unknown",
@@ -7023,7 +8123,7 @@
     "Speaker ID": "64bac3f8-8b07-4015-89da-dea03221a28e",
     "Name": "Nir Gazit",
     "Company": "traceloop",
-    "Company Domain": "traceloop.ai",
+    "Company Domain": "traceloop.com",
     "Company URL": "",
     "Company Website": "",
     "Title": "CEO",
@@ -7096,46 +8196,6 @@
         "Title": "Product Manager",
         "TagLine": "Product Manager, Gitpod",
         "Bio": "Lou is Product Manager at Gitpod, a platform for secure development environments for both humans and agents powering some of the world's largest financial, insurance, and health care providers. Lou was previously Principal Engineer for developer experience at DAZN building a platform for ~15M global users in 150+ markets."
-      }
-    ]
-  },
-  {
-    "Speaker ID": "79afe59b-ceb1-48d0-b189-a458b7ef0082",
-    "Name": "Nick Nisi",
-    "Company": "WorkOS ",
-    "Company Domain": "nisi.org",
-    "Company URL": "https://workos.com",
-    "Company Website": "https://nicknisi.com",
-    "Title": "Software Engineer",
-    "TagLine": "Software developer and panelist on the JS Party podcast",
-    "Bio": " Nick Nisi is an elite software engineer who is a veteran of open source web development, a lover of karaoke, an advocate for diversity in tech, a conference organizer extraordinaire, a lover of new experiences, and a beacon of expertise, kindness and hope for his development team.",
-    "X (Twitter)": "https://twitter.com/nicknisi",
-    "LinkedIn": "https://www.linkedin.com/in/nicknisi/",
-    "Blog": "https://nicknisi.com",
-    "Profile Picture": "https://sessionize.com/image/7353-400o400o1-NyWb1iLwNiUgQbAtFfjFME.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "933656",
-        "Title": "Agents, Access, and the Future of Machine Identity",
-        "Description": "AI agents are calling APIs, submitting forms, and sending emails—but how do you control what they’re allowed to do? As agents act on behalf of users or organizations, traditional patterns like OAuth, session tokens, and role-based access often fall short.\r\nIn this talk, we’ll explore how machine identity is evolving to meet this new landscape. You’ll learn:\r\n\r\n- How to think about authentication for agents (not just humans)\r\n- What it means to authorize an action when the actor is an LLM or headless service\r\n- Real-world strategies from WorkOS and Cloudflare for assigning, managing, and revoking agent identity and access\r\n\r\nBy the end, you’ll walk away with practical tools and mental models to build agent-powered systems that are secure, auditable, and scalable.",
-        "Format": "",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "MCP, AI in Action, Security, Infrastructure",
-        "Room": "Willow: Expo Sessions",
-        "Scheduled At": "5 Jun 2025 12:45 PM"
-      }
-    ],
-    "Speaker Details Array": [
-      {
-        "X (Twitter)": "https://twitter.com/nicknisi",
-        "LinkedIn": "https://www.linkedin.com/in/nicknisi/",
-        "Blog": "https://nicknisi.com",
-        "Profile Picture": "https://sessionize.com/image/7353-400o400o1-NyWb1iLwNiUgQbAtFfjFME.jpg",
-        "Title": "Software Engineer",
-        "TagLine": "Software developer and panelist on the JS Party podcast",
-        "Bio": " Nick Nisi is an elite software engineer who is a veteran of open source web development, a lover of karaoke, an advocate for diversity in tech, a conference organizer extraordinaire, a lover of new experiences, and a beacon of expertise, kindness and hope for his development team."
       }
     ]
   },
@@ -7226,7 +8286,7 @@
     "Company Domain": "imbue.com",
     "Company URL": "https://imbue.com/",
     "Company Website": "https://imbue.com/",
-    "Title": "CTO and Co-founder",
+    "Title": "CTO",
     "TagLine": "CTO and Co-founder",
     "Bio": "Josh Albrecht is CTO and Co-founder of Imbue, an AI lab launched in 2022 that has since raised $230M at a $1B valuation to create coding agents that make it easier for more people to write software. Josh is also a partner at angel fund Outset Capital, where he invests in promising pre-seed companies. Previously, Josh founded multiple companies including an AI recruiting startup that went through Y Combinator and a 3D injection molding software company that was acquired. He was also an early engineer at Addepar, served as a Thiel Fellow mentor, and published machine learning research as an academic researcher. ",
     "X (Twitter)": "https://twitter.com/joshalbrecht/",
@@ -7253,7 +8313,7 @@
         "LinkedIn": "https://www.linkedin.com/in/joshalbrecht",
         "Blog": "https://joshalbrecht.com/",
         "Profile Picture": "https://sessionize.com/image/47d9-400o400o1-fhsDJ9SBoUuiAy5EZxX6pZ.jpg",
-        "Title": "CTO and Co-founder",
+        "Title": "CTO",
         "TagLine": "CTO and Co-founder",
         "Bio": "Josh Albrecht is CTO and Co-founder of Imbue, an AI lab launched in 2022 that has since raised $230M at a $1B valuation to create coding agents that make it easier for more people to write software. Josh is also a partner at angel fund Outset Capital, where he invests in promising pre-seed companies. Previously, Josh founded multiple companies including an AI recruiting startup that went through Y Combinator and a 3D injection molding software company that was acquired. He was also an early engineer at Addepar, served as a Thiel Fellow mentor, and published machine learning research as an academic researcher. "
       }
@@ -7376,46 +8436,6 @@
         "Title": "Co-founder and CEO",
         "TagLine": "CEO ",
         "Bio": "Kyle Corbitt is the co-founder and CEO of OpenPipe, the RL post-training company. OpenPipe has trained thousands of customer models for both enterprises and tech-forward startups.\r\n\r\nBefore founding OpenPipe, Kyle led the Startup School team at Y Combinator, which was responsible for the product and content that YC produces for early-stage companies. Prior to that he worked as an engineer at Google and studied ML at school."
-      }
-    ]
-  },
-  {
-    "Speaker ID": "0db693b9-12cb-437d-a92f-922ba0751480",
-    "Name": "Ivan Burazin",
-    "Company": "Daytona",
-    "Company Domain": "gmail.com",
-    "Company URL": "https://www.daytona.io/",
-    "Company Website": "https://www.daytona.io/",
-    "Title": "Co-founder",
-    "TagLine": "CEO",
-    "Bio": "Ivan Burazin co-founded Codeanywhere, the very first cloud IDE, back in 2009 where he and the team had to create everything from scratch, from the IDE itself, to the entire orchestration. Concurrently, he established Shift, the premier developer conference in Europe, which was later acquired by Infobip - a global communications cloud giant in 2021. Following the acquisition, Ivan served on the executive board of this 4,000-person company and as the Chief Developer Experience Officer, where he oversaw global developer-oriented operations.\r\nIn 2023, Ivan co-founded Daytona, a fast-growing open-source platform addressing the limitations of AI coding agents by enabling them to programmatically and securely interact with runtime environments. \r\nBacked by $7M in funding, Daytona empowers developers, from startups to Fortune 500 companies to enable AI agents to achieve their full potential.\r\n",
-    "X (Twitter)": "https://twitter.com/ivanburazin",
-    "LinkedIn": "https://www.linkedin.com/in/ivanburazin/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/ba67-400o400o1-RZgw2DqaC7TEEp4b41MiwA.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "914814",
-        "Title": "AX is the only Experience that Matters",
-        "Description": "If you’re building devtools for humans, you’re building for the past. \r\n\r\nAlready a quarter of Y Combinator’s latest batch used AI to write 95% or more of their code. AI agents are scaling at an exponential rate and soon, they’ll outnumber human developers by orders of magnitude.\r\n\r\n\r\nThe real bottleneck isn’t intelligence. It’s tooling. Terminals, local machines, and dashboards weren’t built for agents. They make do… until they can’t.\r\n\r\nIn this talk, I’ll share how we killed the CLI at Daytona, rebuilt our infrastructure from first principles, and what it takes to build devtools that agents can actually use. Because in an agent-native future, if agents can’t use your tool, no one will.\r\n",
-        "Format": "Talk",
-        "Level": "Introductory and overview",
-        "Scope": "Case Study/War Story",
-        "Tracks": "AI Architects",
-        "Room": "SOMA: AI Architects",
-        "Scheduled At": "5 Jun 2025 02:00 PM"
-      }
-    ],
-    "Speaker Details Array": [
-      {
-        "X (Twitter)": "https://twitter.com/ivanburazin",
-        "LinkedIn": "https://www.linkedin.com/in/ivanburazin/",
-        "Blog": "",
-        "Profile Picture": "https://sessionize.com/image/ba67-400o400o1-RZgw2DqaC7TEEp4b41MiwA.jpg",
-        "Title": "Co-founder",
-        "TagLine": "CEO",
-        "Bio": "Ivan Burazin co-founded Codeanywhere, the very first cloud IDE, back in 2009 where he and the team had to create everything from scratch, from the IDE itself, to the entire orchestration. Concurrently, he established Shift, the premier developer conference in Europe, which was later acquired by Infobip - a global communications cloud giant in 2021. Following the acquisition, Ivan served on the executive board of this 4,000-person company and as the Chief Developer Experience Officer, where he oversaw global developer-oriented operations.\r\nIn 2023, Ivan co-founded Daytona, a fast-growing open-source platform addressing the limitations of AI coding agents by enabling them to programmatically and securely interact with runtime environments. \r\nBacked by $7M in funding, Daytona empowers developers, from startups to Fortune 500 companies to enable AI agents to achieve their full potential.\r\n"
       }
     ]
   },
@@ -7576,6 +8596,46 @@
         "Title": "Member of Technical Staff",
         "TagLine": "Member of Technical Staff ",
         "Bio": "Satwik Singh is a core builder and emerging technical leader in the rapidly evolving field of applied AI and agentic systems. As a Member of Technical Staff at 11x AI, Satwik is at the forefront of developing \"Alice\", an AI sales representative that operates autonomously at scale—transforming how modern GTM teams work.\r\n\r\nAt 11x, Satwik has architected and delivered several of the company's most critical agent capabilities. He led the creation of the Knowledge Base Retrieval-Augmented Generation (RAG) and Deep Research pipeline, which powers Alice's ability to reason over complex product information and tailor responses with high fidelity: a first-of-its-kind system in the GTM agent space. He has also worked across systems to handle the credits ledger, and engineered the Sourcing Agent that autonomously crafts campaigns. Satwik has been instrumental in shaping the technical foundation of Alice's intelligence and reliability.\r\n\r\nPrior to 11x, Satwik was a software engineer at Meta, where he worked on Generative AI products within the Core Ads organization and contributed to infrastructure across Reality Labs. His work helped ship first-generation GenAI creative enhancements for Feed Ads—driving significant revenue gains at scale.\r\n\r\nSatwik's unique strength lies in his ability to move seamlessly between infrastructure, AI product, and agent behavior—designing systems that are production-ready, high-impact, and aligned with real business outcomes. With deep hands-on experience and a vision for what Agentic AI can become, he's helping define the next era of intelligent software."
+      }
+    ]
+  },
+  {
+    "Speaker ID": "360f3633-c499-4ac4-a9e9-eb8da0613e07",
+    "Name": "Michael Grinich",
+    "Company": "WorkOS",
+    "Company Domain": "workOS.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Founder and CEO",
+    "TagLine": "Founder & CEO, WorkOS ",
+    "Bio": "Michael is the founder and CEO of WorkOS, a developer platform powering enterprise features for leading AI companies—including OpenAI, Anthropic, Perplexity, and Cursor—as well as hundreds of other modern SaaS applications.",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/178a-400o400o1-K3idWedxpTs7BkKsiniQHk.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "933686",
+        "Title": "CIAM for AI: Who Are Your Agents and What Can They Do?",
+        "Description": "AI agents are changing the way modern SaaS products operate. Whether automating workflows, integrating with APIs, or acting on behalf of users, AI-driven assistants and autonomous systems are becoming core product features. But securing these agents presents a fundamental challenge: How do you authenticate AI agents? How do you control what they can access? How do you ensure they act within the right permissions? This talk will explore these concepts and more while highlighting current research and best practices.",
+        "Format": "Talk",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "MCP, Security, AI Product Management",
+        "Room": "SOMA: AI Architects",
+        "Scheduled At": "5 Jun 2025 02:00 PM"
+      }
+    ],
+    "Speaker Details Array": [
+      {
+        "X (Twitter)": "",
+        "LinkedIn": "",
+        "Blog": "",
+        "Profile Picture": "https://sessionize.com/image/178a-400o400o1-K3idWedxpTs7BkKsiniQHk.jpg",
+        "Title": "Founder and CEO",
+        "TagLine": "Founder & CEO, WorkOS ",
+        "Bio": "Michael is the founder and CEO of WorkOS, a developer platform powering enterprise features for leading AI companies—including OpenAI, Anthropic, Perplexity, and Cursor—as well as hundreds of other modern SaaS applications."
       }
     ]
   },
@@ -7826,7 +8886,7 @@
     "Company Domain": "caylent.com",
     "Company URL": "https://caylent.com",
     "Company Website": "https://caylent.com",
-    "Title": "Technology Leader and Investor",
+    "Title": "Technology Leader",
     "TagLine": "CTO at Caylent",
     "Bio": "Randall Hunt is a technology leader, investor, and hands-on keyboard coder based in Los Angeles, CA. Previously, Randall led software and developer relations teams at Facebook, SpaceX, AWS, MongoDB, and NASA. Randall spends most of his time listening to customers, building demos, writing blog posts, and mentoring junior engineers. Python and C++ are his favorite programming languages, but he begrudgingly admits that Javascript rules the world. Outside of work, Randall loves to read science fiction, advise startups, travel, and ski.",
     "X (Twitter)": "https://x.com/jrhunt",
@@ -7853,7 +8913,7 @@
         "LinkedIn": "https://www.linkedin.com/in/ranman/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/146b-400o400o1-K4KVZWvVXeiN3CaJcBgTtd.jpg",
-        "Title": "Technology Leader and Investor",
+        "Title": "Technology Leader",
         "TagLine": "CTO at Caylent",
         "Bio": "Randall Hunt is a technology leader, investor, and hands-on keyboard coder based in Los Angeles, CA. Previously, Randall led software and developer relations teams at Facebook, SpaceX, AWS, MongoDB, and NASA. Randall spends most of his time listening to customers, building demos, writing blog posts, and mentoring junior engineers. Python and C++ are his favorite programming languages, but he begrudgingly admits that Javascript rules the world. Outside of work, Randall loves to read science fiction, advise startups, travel, and ski."
       }
@@ -7866,7 +8926,7 @@
     "Company Domain": "natolambert.com",
     "Company URL": "https://allenai.org/",
     "Company Website": "https://allenai.org/",
-    "Title": "Senior Research Scientist and Post-Training Lead",
+    "Title": "Senior Research Scientist and post-training lead",
     "TagLine": "Senior Research Scientist at Ai2 & Founder of Interconnects.ai",
     "Bio": "Nathan Lambert is a Senior Research Scientist and post-training lead at the Allen Institute for AI focusing on building open language models. At the same time he founded and operates Interconnects.ai to increase transparency and understanding of current AI models and systems.\r\n\r\nPreviously, he helped build an RLHF research team at HuggingFace. He received his PhD from the University of California, Berkeley working at the intersection of machine learning and robotics. He was advised by Professor Kristofer Pister in the Berkeley Autonomous Microsystems Lab and Roberto Calandra at Meta AI Research. He was lucky to intern at Facebook AI and DeepMind during his Ph.D. Nathan was was awarded the UC Berkeley EECS Demetri Angelakos Memorial Achievement Award for Altruism for his efforts to better community norms.",
     "X (Twitter)": "https://twitter.com/natolambert",
@@ -7893,7 +8953,7 @@
         "LinkedIn": "https://www.linkedin.com/in/natolambert/",
         "Blog": "https://www.interconnects.ai/",
         "Profile Picture": "https://sessionize.com/image/5217-400o400o1-WyvArXo2YbAyFyb1eH36wp.jpg",
-        "Title": "Senior Research Scientist and Post-Training Lead",
+        "Title": "Senior Research Scientist and post-training lead",
         "TagLine": "Senior Research Scientist at Ai2 & Founder of Interconnects.ai",
         "Bio": "Nathan Lambert is a Senior Research Scientist and post-training lead at the Allen Institute for AI focusing on building open language models. At the same time he founded and operates Interconnects.ai to increase transparency and understanding of current AI models and systems.\r\n\r\nPreviously, he helped build an RLHF research team at HuggingFace. He received his PhD from the University of California, Berkeley working at the intersection of machine learning and robotics. He was advised by Professor Kristofer Pister in the Berkeley Autonomous Microsystems Lab and Roberto Calandra at Meta AI Research. He was lucky to intern at Facebook AI and DeepMind during his Ph.D. Nathan was was awarded the UC Berkeley EECS Demetri Angelakos Memorial Achievement Award for Altruism for his efforts to better community norms."
       }
@@ -8146,7 +9206,7 @@
     "Company Domain": "trychroma.com",
     "Company URL": "https://www.trychroma.com/",
     "Company Website": "https://www.trychroma.com/",
-    "Title": "CEO and Cofounder",
+    "Title": "CEO and cofounder",
     "TagLine": "CEO",
     "Bio": "Jeff Huber is the CEO and cofounder of Chroma. Jeff's work has been featured in TechCrunch, VentureBeat, MacWorld, GQ, Fast Company, Fortune, Forbes, Business Insider, Quartz and others. Chroma is a widely-loved and adopted open-source vector database.",
     "X (Twitter)": "https://twitter.com/jeffreyhuber",
@@ -8173,7 +9233,7 @@
         "LinkedIn": "https://www.linkedin.com/in/jeffchuber/",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/34f2-400o400o1-rnYjraDKkutyWWRmMgtkLP.jpg",
-        "Title": "CEO and Cofounder",
+        "Title": "CEO and cofounder",
         "TagLine": "CEO",
         "Bio": "Jeff Huber is the CEO and cofounder of Chroma. Jeff's work has been featured in TechCrunch, VentureBeat, MacWorld, GQ, Fast Company, Fortune, Forbes, Business Insider, Quartz and others. Chroma is a widely-loved and adopted open-source vector database."
       }
@@ -8226,7 +9286,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "cloudflare.com",
     "Company Website": "",
-    "Title": "Developer Platform Engineer",
+    "Title": "Platform Developer Advocate",
     "TagLine": "vp developers & ai, cloudflare",
     "Bio": "From the very beginning, Rita has been a key figure in the development of Cloudflare's developer platform. Their initial experience as a solutions engineer, helping early enterprise customers adopt the service, gave them firsthand insight into user needs. It was the power of Cloudflare Workers that truly resonated, inspiring a vision for a serverless future. For the past eight years, they have built out the platform which now spans products including storage, compute and AI, and is used by everyone from indie millions of indie developers to Fortune 500 companies. ",
     "X (Twitter)": "https://twitter.com/ritakozlov_",
@@ -8253,7 +9313,7 @@
         "LinkedIn": "",
         "Blog": "",
         "Profile Picture": "https://sessionize.com/image/4a76-400o400o1-JWNeEGkowi8eboPsWT89bu.jpg",
-        "Title": "Developer Platform Engineer",
+        "Title": "Platform Developer Advocate",
         "TagLine": "vp developers & ai, cloudflare",
         "Bio": "From the very beginning, Rita has been a key figure in the development of Cloudflare's developer platform. Their initial experience as a solutions engineer, helping early enterprise customers adopt the service, gave them firsthand insight into user needs. It was the power of Cloudflare Workers that truly resonated, inspiring a vision for a serverless future. For the past eight years, they have built out the platform which now spans products including storage, compute and AI, and is used by everyone from indie millions of indie developers to Fortune 500 companies. "
       }
@@ -8386,7 +9446,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://openai.com/",
     "Company Website": "https://openai.com/",
-    "Title": "Alignment Reasoning Specialist",
+    "Title": "Alignment Researcher",
     "TagLine": "Member of Technical Staff",
     "Bio": "Sean Grove works on alignment reasoning at OpenAI, helping translate high‑level intent into enforceable specs and evaluations. Before OpenAI he founded OneGraph, a GraphQL developer‑tools startup later acquired by Netlify. He has delivered dozens of technical talks worldwide on developer tooling, APIs, AI UX and design, and now alignment.",
     "X (Twitter)": "https://x.com/sgrove",
@@ -8413,7 +9473,7 @@
         "LinkedIn": "https://www.linkedin.com/in/segrove/",
         "Blog": "https://www.riseos.com/",
         "Profile Picture": "https://sessionize.com/image/7e44-400o400o1-M6CbERvhHqSDdghtgqPjC9.jpg",
-        "Title": "Alignment Reasoning Specialist",
+        "Title": "Alignment Researcher",
         "TagLine": "Member of Technical Staff",
         "Bio": "Sean Grove works on alignment reasoning at OpenAI, helping translate high‑level intent into enforceable specs and evaluations. Before OpenAI he founded OneGraph, a GraphQL developer‑tools startup later acquired by Netlify. He has delivered dozens of technical talks worldwide on developer tooling, APIs, AI UX and design, and now alignment."
       }

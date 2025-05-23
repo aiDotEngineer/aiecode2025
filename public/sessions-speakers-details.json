@@ -42,7 +42,7 @@
     "Speakers": "Dani Grant, Chelcie Taylor",
     "Companies": "Jam.dev, Notable Capital",
     "Company Domains": "jam.dev, notablecap.com",
-    "Titles": "CEO, VC Partner"
+    "Titles": "CEO, Investor"
   },
   {
     "Session ID": "915616",
@@ -90,6 +90,36 @@
     "Titles": "Director of Solutions, EMEA"
   },
   {
+    "Session ID": "933450",
+    "Title": "Code Review for the Age of AI",
+    "Description": "Today’s codebases move faster than ever, making human code reviews increasingly challenging. In this quick technical talk, we’ll explore how AI-driven code review technology changes the game, rapidly identifying subtle logic errors, hidden security vulnerabilities, and performance bottlenecks before they ever reach production. Drawing on insights from over millions of real-world pull requests reviewed by Diamond, Graphite’s AI code review agent, you'll learn how teams are achieving faster merges and higher code quality.\r\n\r\nWe'll wrap up with a brief introduction to Diamond, demonstrating how effortlessly it integrates into your GitHub workflows, followed by live demos and Q\\&A with our engineers at the booth.",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Tomas Reimers",
+    "Companies": "Graphite",
+    "Company Domains": "graphite.com",
+    "Titles": "CPO and Co-founder"
+  },
+  {
+    "Session ID": "933453",
+    "Title": "Onboarding your robot coworkers: customizing AI code review agents to your team’s style",
+    "Description": "It’s not enough that AI can review and understand your code in a vacuum. In order to be effective, AI agents need context around your entire codebase and understand the nuances of the way your team works. This talk will examine technical approaches and best practices for teaching AI tools to enforce highly customized style guides and coding conventions no matter what tech stack you’re working in.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Tomas Reimers",
+    "Companies": "Graphite",
+    "Company Domains": "graphite.dev",
+    "Titles": "CPO and Co-founder"
+  },
+  {
     "Session ID": "933493",
     "Title": "Realtime conversational video with Pipecat and Tavus",
     "Description": "Tavus shipped the world's first realtime video avatar platform last year. Developers use Tavus' conversational video APIs to create education, social, and customer support agents. The Tavus team built their innovative product using the Pipecat open source framework and Daily's global WebRTC infrastructure. Join us for a technical deep dive into conversational video.",
@@ -101,8 +131,53 @@
     "Scheduled At": "",
     "Speakers": "Chad Bailey, Brian Johnson, Kwindla Kramer",
     "Companies": "Daily, Tavus, Daily",
-    "Company Domains": "daily.co, tavus.io, daily.co",
-    "Titles": "Engineer, Staff Engineer, Co-founder"
+    "Company Domains": "daily.co, tavus.ai, daily.co",
+    "Titles": "Software Engineer, Staff Engineer, Engineer / Originator of Pipecat"
+  },
+  {
+    "Session ID": "933593",
+    "Title": "Building Voice Agents with Gemini and Pipecat",
+    "Description": "Hands-on workshop led by engineers from Google and Daily",
+    "Session Format": "Workshop",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Chad Bailey, Kwindla Kramer",
+    "Companies": "Daily, Daily",
+    "Company Domains": "daily.co, daily.co",
+    "Titles": "Engineer, Co-founder"
+  },
+  {
+    "Session ID": "933632",
+    "Title": "Agentic Coding with Windsurf",
+    "Description": "Agentic coding marks a new era in software development, where AI agents take on autonomous roles in coding tasks. The Windsurf IDE embodies this shift by integrating intelligent agents like Cascade, which maintain full codebase context to perform multi-file edits, run terminal commands, and suggest changes through tools like Supercomplete and Flows. In this session, we will explore features that allow developers to guide strategy while the AI handles execution, enhancing productivity and enabling more creative, high-level work.",
+    "Session Format": "Workshop",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Numair Baseer",
+    "Companies": "Windsurf",
+    "Company Domains": "windsurf.ai",
+    "Titles": "AI Developer"
+  },
+  {
+    "Session ID": "933633",
+    "Title": "The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You",
+    "Description": "Sometimes it seems like Windsurf knows you a little too well. It's one thing to generate generic code, but to predict your next intent? From matching existing code patterns and styles to tracking how local changes affect the larger codebase, this talk digs into the technical challenges of context awareness and why simply indexing code falls short. Relive our journey tackling the core issue in the AI IDE space : balancing retrieval quality with latency constraints and scaling effectively as codebases grow. For those curious about the infrastructure behind context-aware AI, this talk offers insights into our approach of turning massive codebases into collections of useful context.",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Sam  Fertig",
+    "Companies": "Windsurf",
+    "Company Domains": "windsurf.ai",
+    "Titles": "Deployed Engineer"
   },
   {
     "Session ID": "933645",
@@ -120,6 +195,96 @@
     "Titles": "Director of Product, LLM"
   },
   {
+    "Session ID": "933684",
+    "Title": "Mastering Engineering Flow with Windsurf",
+    "Description": "As experienced engineers, especially senior and staff engineers, our focus shifts towards complex problem-solving, architectural decisions, and mentoring. While AI tools promise productivity gains, Windsurf offers more than just code completion and chat assistance – it's an agentic IDE built to enhance engineering flow. This talk explores how experienced engineers can leverage Windsurf's deep contextual awareness, structured guidance, and automated workflows to tackle sophisticated and complex tasks. We'll demonstrate practical strategies for accelerating feature development, automating code maintenance and reviews, and ultimately freeing up cognitive load to focus on high-impact engineering challenges. Learn how to move beyond basic AI assistance and truly partner with Windsurf to excel in your role.",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Eashan Sinha",
+    "Companies": "Windsurf",
+    "Company Domains": "windsurf.dev",
+    "Titles": "Deployed Engineer"
+  },
+  {
+    "Session ID": "933685",
+    "Title": "Windsurf & Wonders",
+    "Description": "Come learn about why Windsurf is the premiere choice for engineers and enterprises alike in applications of AI for development.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Jia Wu, Tejashwa Tiwari",
+    "Companies": "Windsurf, Windsurf",
+    "Company Domains": "windsurf.com, codeium.com",
+    "Titles": "Solutions Architect, Analytics and Automation Engineer"
+  },
+  {
+    "Session ID": "933702",
+    "Title": "Smarter Together: Designing Multi-Agent Systems with Shared, Evolving Memory",
+    "Description": "In today’s most advanced AI systems, intelligence is no longer confined to a single model or agent—it emerges from coordination. But coordination requires memory: short-term, long-term, and shared. In this talk, we’ll break down how agent systems can store, retrieve, and evolve shared memory to become smarter over time. You'll learn what it takes to architect these continuously learning systems, how to track and improve memory quality, and why robust, flexible infrastructure is the foundation of it all. Stick around to see how this works in practice—live.",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Mikiko Bazeley",
+    "Companies": "MongoDB",
+    "Company Domains": "mongodb.com",
+    "Titles": "Staff Developer Advocate"
+  },
+  {
+    "Session ID": "933706",
+    "Title": "GraphRAG: Integrating LLMs with Knowledge Graphs",
+    "Description": "While traditional RAG is effective, it can struggle with complex relationships and reasoning across large knowledge bases. GraphRAG, an advanced variant, addresses these challenges by leveraging knowledge graphs to enable deeper understanding and improved response accuracy. Learn how LLMs extract key entities and relationships from your data to construct a graph structure, and how the system uses graph traversal to find related entities and enrich prompts. Stay for a live demo showcasing these concepts in action.\t",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Thibaut  Gourdel",
+    "Companies": "MongoDB",
+    "Company Domains": "mongodb.com",
+    "Titles": "Technical Product Marketing Manager"
+  },
+  {
+    "Session ID": "933707",
+    "Title": "Building Multimodal AI Agents with MongoDB, Gemini, and LangGraph",
+    "Description": "In this workshop, you will learn the core concepts of AI agents, multimodality, and what it takes to build multimodal agentic applications. You will learn how this works in practice by building a multimodal agent that can process both images and text using MongoDB as a vector database, Google’s multimodal Gemini model as the agent’s “brain”, and LangGraph to orchestrate the end-to-end agentic workflow. \r\n\r\nYou will be provided with a GitHub repository consisting of learning materials and resources required to successfully execute the hands-on portions of the workshop.",
+    "Session Format": "Workshop",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Apoorva Joshi",
+    "Companies": "MongoDB",
+    "Company Domains": "mongodb.com",
+    "Titles": "AI Developer Advocate"
+  },
+  {
+    "Session ID": "936251",
+    "Title": "Windsurf Booth Session #2",
+    "Description": "",
+    "Session Format": "",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Windsurf Speaker",
+    "Companies": "Windsurf",
+    "Company Domains": "windsurf.com",
+    "Titles": "unknown"
+  },
+  {
     "Session ID": "936299",
     "Title": "Vibe Coding in Production",
     "Description": "What's the role of vibe coding in a production-grade applications? Join Augment Code's Matt McClernan as he speaks to engineering leaders about building with AI. ",
@@ -133,6 +298,21 @@
     "Companies": "Augment Code",
     "Company Domains": "augmentcode.com",
     "Titles": "unknown"
+  },
+  {
+    "Session ID": "936800",
+    "Title": "Spark to System: Building the Open Agentic Web",
+    "Description": "AI builders no longer ask whether to use agents—but how many and how fast. In this kickoff keynote, Microsoft’s Asha Sharma shows what happens when natural language creation meets an industrial grade backbone.  Watch live demos—to see agents move from idea to production in real time. Walk out with the commands, repos, and open protocols to build your piece of the agentic web.",
+    "Session Format": "Keynote",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Asha  Sharma",
+    "Companies": "Microsoft",
+    "Company Domains": "microsoft.com",
+    "Titles": "Corporate Vice President, AI Platform"
   },
   {
     "Session ID": "936816",
@@ -163,6 +343,126 @@
     "Companies": "Microsoft",
     "Company Domains": "microsoft.com",
     "Titles": "Principal AI Advocate"
+  },
+  {
+    "Session ID": "936901",
+    "Title": "Unlocking AI-Powered DevOps Within Your Organization",
+    "Description": "\"Software development is a team sport, with many different roles, where eveyone can win. But success isn't guaranteed; it depends on specific practices, policies, and tools which enable minimally-siloed, AI-accelerated collaboration across all parts of the DevOps process, from PM to development to CI/CD and security.\r\n \r\n Discover the patterns and tools which lead to success, methods for changing the status quo, and perhaps a few horror stories. We'll touch on innersourcing, cloud development, AI, automation, governance, security, scaling and more -- with actionable learnings for everyone from small maintainer communities to F500 Enterprises.\"",
+    "Session Format": "Talk",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Jon Peck",
+    "Companies": "Microsoft",
+    "Company Domains": "microsoft.com",
+    "Titles": "Enterprise Advocate at GitHub"
+  },
+  {
+    "Session ID": "936902",
+    "Title": "Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments",
+    "Description": "\"Vibe coding\" often falters in complex enterprise environments. Drawing from real implementations, this talk demonstrates systematic approaches to customizing AI assistants for challenging codebases. We'll explore specialized techniques for navigating complex architectures, evidence-based strategies for undocumented legacy systems, methodologies for maintaining context across polyglot environments, and frameworks for standardizing AI usage while preserving developer autonomy. Through case studies from finance and healthcare, we'll present a comprehensive evaluation framework that bridges the gap between AI's theoretical capabilities and practical enterprise implementation, enabling true flow-state collaboration even within the most complex development ecosystems.",
+    "Session Format": "Talk",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Harald  Kirschner",
+    "Companies": "Microsoft",
+    "Company Domains": "microsoft.com",
+    "Titles": "VS Code Team Member"
+  },
+  {
+    "Session ID": "936903",
+    "Title": "Real-world MCPs in GitHub Copilot Agent Mode",
+    "Description": "As developers, we don't spend most of our time vibe-coding prototypes. More often, we're adding features, squashing bugs, and building tests for existing apps across a wide variety of services and technologies. Come learn how MCPs help GitHub Copilot to untangle real engineering problems. By allowing agent mode to securely work with data sources, testing tools, infrastructure providers, and even core DevOps tooling -- we can go beyond the hype, and solve the actual engineering problems we face every day.",
+    "Session Format": "Talk",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Jon Peck",
+    "Companies": "Microsoft",
+    "Company Domains": "microsoft.com",
+    "Titles": "Enterprise Advocate at GitHub"
+  },
+  {
+    "Session ID": "936906",
+    "Title": "GraphRAG methods to create optimized LLM context windows for retrieval",
+    "Description": "",
+    "Session Format": "Talk",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Jonathan Larson",
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "936907",
+    "Title": "Empowering Developers to build Cutting-Edge AI experiences on device",
+    "Description": "",
+    "Session Format": "Talk",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Meng  Tang",
+    "Companies": "Microsoft",
+    "Company Domains": "microsoft.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "936908",
+    "Title": "Agentic RAG: build a reasoning retrieval engine with Azure AI Search",
+    "Description": "",
+    "Session Format": "Talk",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Pablo  Castro",
+    "Companies": "Microsoft",
+    "Company Domains": "microsoft.com",
+    "Titles": "Corporate Vice President and Distinguished Engineer"
+  },
+  {
+    "Session ID": "936909",
+    "Title": "Battle-Test Your AI Agents: Ensuring Safety with Azure’s Red Teaming Agent",
+    "Description": "",
+    "Session Format": "Talk",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Cedric  Vidal",
+    "Companies": "Microsoft",
+    "Company Domains": "microsoft.com",
+    "Titles": "Principal AI Advocate"
+  },
+  {
+    "Session ID": "937936",
+    "Title": "Polar Signals Expo Session",
+    "Description": "",
+    "Session Format": "",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Matthias Loibl",
+    "Companies": "Polar Signals",
+    "Company Domains": "polarsignals.com",
+    "Titles": "unknown"
   },
   {
     "Session ID": "915269",
@@ -207,7 +507,7 @@
     "Speakers": "Ishan Anand",
     "Companies": "Independent",
     "Company Domains": "gmail.com",
-    "Titles": "AI Consultant and Technology Executive"
+    "Titles": "AI consultant and technology executive"
   },
   {
     "Session ID": "916066",
@@ -270,6 +570,21 @@
     "Titles": "Ecosystem Team Member, Senior Leader"
   },
   {
+    "Session ID": "929790",
+    "Title": "Useful General Intelligence",
+    "Description": "We’re all hearing that AI agents will enable AGI, but they can’t yet reliably perform even basic computer tasks. It turns out that getting AI to click, type, and scroll is more challenging than getting it to generate code. How can we build general-purpose agents that can do anything we can do on a computer? \r\n\r\nThis is our goal at the Amazon AGI SF Lab. In this talk, I’ll propose a new approach to agents that we call Useful General Intelligence. After describing how we’re solving the biggest challenges in computer use while enabling developers to access our tech in it’s earliest developmental stages, I’ll show real workflows that developers have built with Nova Act, our agentic model and SDK. ",
+    "Session Format": "Keynote",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Golden Gate Ballroom B: Workshops",
+    "Scheduled At": "3 Jun 2025 12:40 PM",
+    "Speakers": "Danielle Perszyk",
+    "Companies": "Amazon",
+    "Company Domains": "gmail.com",
+    "Titles": "Cognitive Scientist"
+  },
+  {
     "Session ID": "907544",
     "Title": "Case Study + Deep Dive: Telemedicine Support Agents with LangGraph/MCP",
     "Description": "Workshop/walkthrough of a Stride/Avila Science partnership to build agentic telemedicine support",
@@ -312,7 +627,7 @@
     "Speakers": "Philipp Krenn",
     "Companies": "Elastic",
     "Company Domains": "xeraa.net",
-    "Titles": "Head of Developer Relations"
+    "Titles": "Lead, Developer Relations"
   },
   {
     "Session ID": "930540",
@@ -357,7 +672,52 @@
     "Speakers": "Dominik Kundel",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Developer and Product Leader, Developer Experience & SDKs"
+    "Titles": "Developer Experience & SDKs Lead"
+  },
+  {
+    "Session ID": "933560",
+    "Title": "AI agents & deep context in legacy codebases - to the moon!",
+    "Description": "Attendees will learn to use an AI coding agent as a fast and intuitive part of navigating and working with complex, production-grade legacy code bases. We will drop directly into the code–written in assembly–that landed the1969 Apollo 11 astronauts on the moon and, through a series of challenges, locate parts of the code tied to key functionality. Using the agent to convert a key guidance computer algorithm into a more modern programming language, attendees will then compete to see whose code has what it takes to land on the moon.",
+    "Session Format": "Workshop",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Golden Gate Ballroom B: Workshops",
+    "Scheduled At": "3 Jun 2025 03:30 PM",
+    "Speakers": "Forrest Brazeal",
+    "Companies": "Augment Code",
+    "Company Domains": "freemanandforrest.com",
+    "Titles": "Founder"
+  },
+  {
+    "Session ID": "933688",
+    "Title": "AI Pipelines and Agents in Pure TypeScript with Mastra.ai",
+    "Description": "This hands-on workshop introduces Mastra.ai, a TypeScript framework that streamlines the development of agentic AI systems compared to traditional approaches using LangChain and vector databases. Participants will learn to build structured AI workflows with composable tools and reliable control, enabling them to create internal AI assistants that can handle requests like data cleaning, email drafting, and document summarization with minimal code. The session covers Mastra installation, running a local MCP server, defining tools and agents in TypeScript, using the Mastra playground, and implementing practical examples such as RAG setups and tool-chaining agents—all designed to equip attendees with the skills to develop scalable AI-driven internal tools based on sound software engineering principles rather than just experimental prompts.",
+    "Session Format": "Workshop",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Salons 2-6: Workshops",
+    "Scheduled At": "3 Jun 2025 03:30 PM",
+    "Speakers": "Nick Nisi",
+    "Companies": "WorkOS ",
+    "Company Domains": "nisi.org",
+    "Titles": "Software Engineer, Developer Experience"
+  },
+  {
+    "Session ID": "933721",
+    "Title": "VoiceVision RAG - Integrating Visual Document Intelligence with Voice Response",
+    "Description": "In this workshop we will explore the integration of Colpali, a cutting-edge Vision based Retrieval Model, with voice synthesis for next-generation RAG systems. We'll demonstrate how Colpali's ability to generate multi-vector embeddings directly from document images bypasses traditional OCR and complex preprocessing, while adding voice output creates a more intuitive and accessible user experience. Attendees will see how this combination handles documents with mixed textual and visual information, leading to more efficient and accurate information retrieval with natural voice responses.",
+    "Session Format": "Workshop",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Foothill G1&2: Workshops",
+    "Scheduled At": "3 Jun 2025 03:30 PM",
+    "Speakers": "Suman Debnath",
+    "Companies": "Amazon Web Services",
+    "Company Domains": "aws.amazon.com",
+    "Titles": "Principal Developer Advocate (AI/ML)"
   },
   {
     "Session ID": "927324",
@@ -375,19 +735,19 @@
     "Titles": "Session Owner"
   },
   {
-    "Session ID": "929790",
-    "Title": "Useful General Intelligence",
-    "Description": "We’re all hearing that AI agents will enable AGI, but they can’t yet reliably perform even basic computer tasks. It turns out that getting AI to click, type, and scroll is more challenging than getting it to generate code. How can we build general-purpose agents that can do anything we can do on a computer? \r\n\r\nThis is our goal at the Amazon AGI SF Lab. In this talk, I’ll propose a new approach to agents that we call Useful General Intelligence. After describing how we’re solving the biggest challenges in computer use while enabling developers to access our tech in it’s earliest developmental stages, I’ll show real workflows that developers have built with Nova Act, our agentic model and SDK. ",
+    "Session ID": "935987",
+    "Title": "Simon Willison Keynote",
+    "Description": "",
     "Session Format": "Keynote",
-    "Level": "Introductory and overview",
-    "Scope": "Introductory (landscape)",
+    "Level": "",
+    "Scope": "",
     "Assigned Track": "",
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
-    "Scheduled At": "4 Jun 2025 09:40 AM",
-    "Speakers": "Danielle Perszyk",
-    "Companies": "Amazon",
-    "Company Domains": "gmail.com",
-    "Titles": "Cognitive Scientist"
+    "Scheduled At": "4 Jun 2025 10:00 AM",
+    "Speakers": "Simon Willison",
+    "Companies": "Lanyrd",
+    "Company Domains": "lanyrd.com",
+    "Titles": "Co-founder"
   },
   {
     "Session ID": "916131",
@@ -402,7 +762,7 @@
     "Speakers": "Shrestha Basu Mallick, Kwindla Kramer",
     "Companies": "Google DeepMind, Daily",
     "Company Domains": "gmail.com, daily.co",
-    "Titles": "Group Product Manager and product lead for Gemini API, Product Manager / Lead Developer of Pipecat"
+    "Titles": "Group Product Manager and Product Lead for Gemini API, Product Manager and Developer of Pipecat"
   },
   {
     "Session ID": "933472",
@@ -416,7 +776,7 @@
     "Scheduled At": "4 Jun 2025 10:45 AM",
     "Speakers": "Tomas Reimers",
     "Companies": "Graphite",
-    "Company Domains": "graphite.com",
+    "Company Domains": "graphite.dev",
     "Titles": "CPO and Co-founder"
   },
   {
@@ -492,7 +852,7 @@
     "Speakers": "Kwindla Kramer, Sean DuBois",
     "Companies": "Daily, OpenAI",
     "Company Domains": "daily.co, openai.com",
-    "Titles": "WebRTC Infrastructure Engineer, Realtime API Engineer"
+    "Titles": "WebRTC Infrastructure Engineer, WebRTC and Realtime API Engineer"
   },
   {
     "Session ID": "916117",
@@ -627,7 +987,7 @@
     "Speakers": "Vaibhav Page, Infant Vasanth",
     "Companies": "BlackRock, BlackRock",
     "Company Domains": "blackrock.com, gmail.com",
-    "Titles": "Principal Engineer, Engineering Lead, Studio Compute Platform"
+    "Titles": "Principal Engineer, Engineering Lead, Studio Compute Platform and Data & AI Acceleration"
   },
   {
     "Session ID": "905305",
@@ -687,7 +1047,7 @@
     "Speakers": "Sid Bendre",
     "Companies": "Oleve",
     "Company Domains": "oleve.co",
-    "Titles": "Co-founder, Head of Technical and AI Efforts"
+    "Titles": "Co-founder and Head of Technical and AI Efforts"
   },
   {
     "Session ID": "914842",
@@ -882,7 +1242,7 @@
     "Speakers": "Harrison Chase",
     "Companies": "LangChain",
     "Company Domains": "langchain.dev",
-    "Titles": "CEO and Co-founder"
+    "Titles": "CEO and co-founder"
   },
   {
     "Session ID": "933545",
@@ -897,7 +1257,7 @@
     "Speakers": "Eric Hou",
     "Companies": "Augment Code",
     "Company Domains": "augmentcode.com",
-    "Titles": "Builder"
+    "Titles": "Engineer"
   },
   {
     "Session ID": "937506",
@@ -957,7 +1317,7 @@
     "Speakers": "Charles Frye",
     "Companies": "Modal Labs",
     "Company Domains": "modal.com",
-    "Titles": "LLM Engineer"
+    "Titles": "LLM Engineer / Educator / Evangelist"
   },
   {
     "Session ID": "933621",
@@ -971,7 +1331,7 @@
     "Scheduled At": "4 Jun 2025 01:05 PM",
     "Speakers": "Laurie Voss",
     "Companies": "LlamaIndex",
-    "Company Domains": "llamaindex.com",
+    "Company Domains": "llamaindex.ai",
     "Titles": "VP of Developer Relations"
   },
   {
@@ -1031,7 +1391,7 @@
     "Scheduled At": "4 Jun 2025 01:25 PM",
     "Speakers": "Kshitij  Grover",
     "Companies": "Orb",
-    "Company Domains": "orb.dev",
+    "Company Domains": "orb.com",
     "Titles": "Co-Founder and CTO"
   },
   {
@@ -1106,7 +1466,7 @@
     "Scheduled At": "4 Jun 2025 02:00 PM",
     "Speakers": "Jordan Dearsley",
     "Companies": "Vapi",
-    "Company Domains": "vapi.ai",
+    "Company Domains": "vapi.com",
     "Titles": "Co-founder and CEO"
   },
   {
@@ -1137,7 +1497,7 @@
     "Speakers": "Grant Lee",
     "Companies": "Gamma",
     "Company Domains": "gamma.app",
-    "Titles": "Founder"
+    "Titles": "Founder & CEO"
   },
   {
     "Session ID": "928676",
@@ -1227,7 +1587,7 @@
     "Speakers": "Kevin Madura, Mo Bhasin",
     "Companies": "AlixPartners, AlixPartners",
     "Company Domains": "alixpartners.com, gmail.com",
-    "Titles": "Technical Advisory Lead, Director of AI Products"
+    "Titles": "Technical Advisor, Director of AI Products"
   },
   {
     "Session ID": "915013",
@@ -1257,7 +1617,7 @@
     "Speakers": "Kyle Kranen US",
     "Companies": "NVIDIA",
     "Company Domains": "nvidia.com",
-    "Titles": "Engineering Leader, Datacenter-scale Inference Engineering"
+    "Titles": "Engineering Leader, Datacenter-Scale Inference"
   },
   {
     "Session ID": "915738",
@@ -1362,7 +1722,7 @@
     "Speakers": "Anoop Kotha",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Customer Engineer"
+    "Titles": "Customer Solutions Engineer"
   },
   {
     "Session ID": "915770",
@@ -1407,7 +1767,7 @@
     "Speakers": "Itamar Friedman",
     "Companies": "Qodo",
     "Company Domains": "qodo.ai",
-    "Titles": "CEO and co-founder"
+    "Titles": "CEO and Co-founder"
   },
   {
     "Session ID": "926313",
@@ -1467,7 +1827,7 @@
     "Speakers": "Philipp Krenn",
     "Companies": "Elastic",
     "Company Domains": "xeraa.net",
-    "Titles": "Head of Developer Relations"
+    "Titles": "Lead Developer Relations"
   },
   {
     "Session ID": "936894",
@@ -1515,6 +1875,21 @@
     "Titles": "Head of Product Engineering"
   },
   {
+    "Session ID": "936006",
+    "Title": "#define AI Engineer",
+    "Description": "Greg Brockman's career and advice for AI Engineers",
+    "Session Format": "",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "Keynote/General Session (Yerba Buena 7&8)",
+    "Scheduled At": "4 Jun 2025 04:40 PM",
+    "Speakers": "Greg Brockman, Shawn Wang",
+    "Companies": "OpenAI, unknown",
+    "Company Domains": "openai.com, unknown",
+    "Titles": "Co-Founder & Chairman, unknown"
+  },
+  {
     "Session ID": "935461",
     "Title": "A year of Gemini progress + what comes next",
     "Description": "Over the last year, Google and Gemini models have shown rapid progress across all dimensions (model, product, etc). Let's highlight all the work that has happened, how we got the worlds best models, and where we are going next (across both the model landscape and out AI products).",
@@ -1528,6 +1903,21 @@
     "Companies": "Google",
     "Company Domains": "gmail.com",
     "Titles": "Product Lead for Google AI Studio"
+  },
+  {
+    "Session ID": "936022",
+    "Title": "Jack Rae Keynote",
+    "Description": "",
+    "Session Format": "Keynote",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "Keynote/General Session (Yerba Buena 7&8)",
+    "Scheduled At": "5 Jun 2025 09:25 AM",
+    "Speakers": "Jack Rae",
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "Keynote Speaker"
   },
   {
     "Session ID": "916116",
@@ -1571,7 +1961,7 @@
     "Scheduled At": "5 Jun 2025 10:45 AM",
     "Speakers": "Kenneth DuMez",
     "Companies": "Graphite",
-    "Company Domains": "graphite.com",
+    "Company Domains": "graphite.dev",
     "Titles": "Developer Relations Lead"
   },
   {
@@ -1661,7 +2051,7 @@
     "Scheduled At": "5 Jun 2025 11:15 AM",
     "Speakers": "Gorkem Yurtseven",
     "Companies": "fal",
-    "Company Domains": "fal.ai",
+    "Company Domains": "fal.com",
     "Titles": "Co-founder and CTO"
   },
   {
@@ -1770,6 +2160,21 @@
     "Titles": "Co-founder"
   },
   {
+    "Session ID": "938753",
+    "Title": "Safety and security for code-executing agents",
+    "Description": "Code is the lingua franca for both software engineers and highly capable AI models. As we give agents the ability to build, test, and run code that they generate, the command line becomes their canvas—and their attack surface.\r\n\r\nThis keynote explores what it takes to bring code-executing agents from research to real-world deployment while maintaining control and security. We’ll cover how terminals offer AI an ideal interface, why they’re deceptively risky, and what it means to embed security, guardrails, and trust at every layer.\r\n\r\nIt’s not just about what agents can do—it’s about what they should do, and how we make sure they do it safely.",
+    "Session Format": "Keynote",
+    "Level": "Introductory and overview",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Foothill C: Security",
+    "Scheduled At": "5 Jun 2025 11:15 AM",
+    "Speakers": "Fouad Matin",
+    "Companies": "OpenAI",
+    "Company Domains": "openai.com",
+    "Titles": "Engineer"
+  },
+  {
     "Session ID": "903966",
     "Title": "Scaling Enterprise-Grade RAG Systems: Lessons from the Legal Frontier",
     "Description": "In domains like law, compliance, and tax, building enterprise-grade RAG means very large scale, spikey workloads, a focus on accuracy, and non-negotiable privacy.\r\nIn this talk, we'll share war stories and battle scars of how Harvey has built the world's most advanced AI agents for the legal profession on top of a highly optimized retrieval architecture. We'll cover how to get better retrieval via both sparse and dense retrieval methods, why domain-specific reranking is essential, and how to handle ambiguity in real-world queries.\r\nWe'll also touch on how LanceDB's search engine enables this architecture by delivering low-latency, high-throughput retrieval across millions of documents of varying sizes without compromising privacy. This solid foundation enables Harvey to build a product that brings highly accurate answers to hundreds of law firms and professional services firms across 45 countries.",
@@ -1782,7 +2187,7 @@
     "Speakers": "Chang She, Aman Kishore, Calvin Qi",
     "Companies": "LanceDB, Harvey AI, Harvey AI",
     "Company Domains": "lancedb.com, harvey.ai, harvey.ai",
-    "Titles": "Co-author of Pandas, Builder of LanceDB, Former Founder, Retrieval Augmented Generation Specialist"
+    "Titles": "Co-author of Pandas, Builder of LanceDB, Former Founder, RAG Engineer / Retrieval Augmented Generation Specialist"
   },
   {
     "Session ID": "904751",
@@ -1857,7 +2262,7 @@
     "Speakers": "Kelvin Ma",
     "Companies": "Google Photos",
     "Company Domains": "gmail.com",
-    "Titles": "Technical Lead, Creative Expressions team, Google Photos"
+    "Titles": "Technical Lead, Creative Expressions Team"
   },
   {
     "Session ID": "914786",
@@ -1902,7 +2307,7 @@
     "Speakers": "Stefania Druga",
     "Companies": "Google",
     "Company Domains": "hackidemia.com",
-    "Titles": "Research Scientist, Google Gemini"
+    "Titles": "Research Scientist at Google Gemini"
   },
   {
     "Session ID": "936133",
@@ -1932,7 +2337,7 @@
     "Speakers": "Julia Neagu, Deanna Emery, Maitar Asher",
     "Companies": "Quotient AI, Quotient AI, Tavily",
     "Company Domains": "quotientai.co, quotientai.co, tavily.com",
-    "Titles": "Co-founder and CEO, Founding AI Researcher, Founding Member and Head of Engineering"
+    "Titles": "Co-founder and CEO, Founding AI Researcher, Head of Engineering"
   },
   {
     "Session ID": "914912",
@@ -2040,6 +2445,21 @@
     "Titles": "Senior Solutions Architect, Solutions Architect"
   },
   {
+    "Session ID": "914814",
+    "Title": "AX is the only Experience that Matters",
+    "Description": "If you’re building devtools for humans, you’re building for the past. \r\n\r\nAlready a quarter of Y Combinator’s latest batch used AI to write 95% or more of their code. AI agents are scaling at an exponential rate and soon, they’ll outnumber human developers by orders of magnitude.\r\n\r\n\r\nThe real bottleneck isn’t intelligence. It’s tooling. Terminals, local machines, and dashboards weren’t built for agents. They make do… until they can’t.\r\n\r\nIn this talk, I’ll share how we killed the CLI at Daytona, rebuilt our infrastructure from first principles, and what it takes to build devtools that agents can actually use. Because in an agent-native future, if agents can’t use your tool, no one will.\r\n",
+    "Session Format": "Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Case Study/War Story",
+    "Assigned Track": "AI Architects (L1)",
+    "Room": "SOMA: AI Architects",
+    "Scheduled At": "5 Jun 2025 12:15 PM",
+    "Speakers": "Ivan Burazin",
+    "Companies": "Daytona",
+    "Company Domains": "gmail.com",
+    "Titles": "Co-founder"
+  },
+  {
     "Session ID": "933458",
     "Title": "Don’t get one-shotted: Leveraging AI to test, review, merge, and deploy code",
     "Description": "As AI tools like GitHub Copilot and ChatGPT help engineers generate code at an unprecedented rate, the “outer loop”—reviewing, testing, merging, and deploying—becomes more vital than ever. Studies have shown that up to half of AI-generated solutions contain bugs or vulnerabilities, underscoring the continued importance of thorough, human-in-the-loop reviews. In this talk we'll take a look at how next-gen developer tools can harness AI not just for generating code, but also reviewing it. By thoughtfully integrating AI into that fully understands your entire codebase, teams can accelerate velocity without sacrificing quality.\r\n\r\nAttendees will learn real-world strategies and best practices for establishing an “outer loop” that safely and efficiently deploys high volumes of AI-assisted code,  without compromising reliability. We’ll also discuss pitfalls to avoid when integrating AI into existing pipelines.",
@@ -2065,9 +2485,9 @@
     "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
     "Scheduled At": "5 Jun 2025 12:15 PM",
     "Speakers": "Mike Chambers",
-    "Companies": "Amazon Web Services",
+    "Companies": "AWS",
     "Company Domains": "aws.amazon.com",
-    "Titles": "Senior Developer Advocate and Generative AI Specialist"
+    "Titles": "Senior Developer Advocate and Generative AI specialist"
   },
   {
     "Session ID": "933678",
@@ -2085,21 +2505,6 @@
     "Titles": "Chief AI Scientist"
   },
   {
-    "Session ID": "933686",
-    "Title": "CIAM for AI: Who Are Your Agents and What Can They Do?",
-    "Description": "AI agents are changing the way modern SaaS products operate. Whether automating workflows, integrating with APIs, or acting on behalf of users, AI-driven assistants and autonomous systems are becoming core product features. But securing these agents presents a fundamental challenge: How do you authenticate AI agents? How do you control what they can access? How do you ensure they act within the right permissions? This talk will explore these concepts and more while highlighting current research and best practices.",
-    "Session Format": "Talk",
-    "Level": "Introductory and overview",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "SOMA: AI Architects",
-    "Scheduled At": "5 Jun 2025 12:15 PM",
-    "Speakers": "Michael Grinich",
-    "Companies": "WorkOS",
-    "Company Domains": "workos.com",
-    "Titles": "Founder and CEO"
-  },
-  {
     "Session ID": "936795",
     "Title": "Okta Track Sponsored Session",
     "Description": "To make AI agents production ready, authentication and authorization are fundamental. AI agents need to understand who the user is and what they are allowed to access or do. Otherwise, they risk allowing unauthorized operations or sharing data users shouldn't have access to.\r\n\r\nThis means it is paramount to solve these four challenges: \r\n•Knowing who users are\r\n•Calling APIs on their behalf\r\n•Retrieving only data users are allowed to see\r\n•Managing human in the loop and authorization interaction with UI less agents\r\n\r\nWe'll demo how Auth for GenAI, Auth0's new product for AI agents, solves these in a developer-friendly and secure way, so developers and teams building AI apps  can focus on building their products. This talk is for Engineers building production AI applications, not just demos. You'll walk away with a clear understanding of where identity fits in the GenAI stack and how to build truly secure and capable agents with it.",
@@ -2110,7 +2515,7 @@
     "Room": "Foothill C: Security",
     "Scheduled At": "5 Jun 2025 12:15 PM",
     "Speakers": "Bobby Tiernay, Kameron Sween",
-    "Companies": "Okta (Auth0), Okta",
+    "Companies": "Okta (Auth0), Okta (Auth0)",
     "Company Domains": "okta.com, okta.com",
     "Titles": "Architect, unknown"
   },
@@ -2127,7 +2532,7 @@
     "Speakers": "Philip Kiely",
     "Companies": "Baseten",
     "Company Domains": "baseten.co",
-    "Titles": "Head of Developer Relations"
+    "Titles": "Lead, Developer Relations"
   },
   {
     "Session ID": "933599",
@@ -2142,7 +2547,7 @@
     "Speakers": "Arjun Desai",
     "Companies": "Cartesia",
     "Company Domains": "cartesia.ai",
-    "Titles": "CTO and Co-founder"
+    "Titles": "CTO and co-founder"
   },
   {
     "Session ID": "933712",
@@ -2155,7 +2560,7 @@
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "5 Jun 2025 12:30 PM",
     "Speakers": "Nir Gazit",
-    "Companies": "Traceloop",
+    "Companies": "traceloop",
     "Company Domains": "traceloop.ai",
     "Titles": "CEO"
   },
@@ -2280,21 +2685,6 @@
     "Titles": "Co-founder and CEO"
   },
   {
-    "Session ID": "914814",
-    "Title": "AX is the only Experience that Matters",
-    "Description": "If you’re building devtools for humans, you’re building for the past. \r\n\r\nAlready a quarter of Y Combinator’s latest batch used AI to write 95% or more of their code. AI agents are scaling at an exponential rate and soon, they’ll outnumber human developers by orders of magnitude.\r\n\r\n\r\nThe real bottleneck isn’t intelligence. It’s tooling. Terminals, local machines, and dashboards weren’t built for agents. They make do… until they can’t.\r\n\r\nIn this talk, I’ll share how we killed the CLI at Daytona, rebuilt our infrastructure from first principles, and what it takes to build devtools that agents can actually use. Because in an agent-native future, if agents can’t use your tool, no one will.\r\n",
-    "Session Format": "Talk",
-    "Level": "Introductory and overview",
-    "Scope": "Case Study/War Story",
-    "Assigned Track": "AI Architects (L1)",
-    "Room": "SOMA: AI Architects",
-    "Scheduled At": "5 Jun 2025 02:00 PM",
-    "Speakers": "Ivan Burazin",
-    "Companies": "Daytona",
-    "Company Domains": "gmail.com",
-    "Titles": "Co-founder"
-  },
-  {
     "Session ID": "915389",
     "Title": "AI and Human Whiteboarding Partnership",
     "Description": "Covid sent everybody home and created the space of virtual whiteboards. At first the experience reused the physical constraints but soon it became better than a physical whiteboard thanks to using virtual native concepts like copy-paste and using keyboard input.\r\nThe next step in this evolution is to integrate AI into the workflow. We've tried a lot of things with Excalidraw and ended up landing on turning prompt into diagram. Come to the talk to understand how it fits into the workflow and how we implemented it.",
@@ -2307,7 +2697,7 @@
     "Speakers": "Christopher Chedeau",
     "Companies": "Facebook",
     "Company Domains": "gmail.com",
-    "Titles": "Software Engineer"
+    "Titles": "Co-creator of React Native and Prettier, Creator of Excalidraw"
   },
   {
     "Session ID": "915934",
@@ -2338,6 +2728,21 @@
     "Companies": "11x AI, 11x AI",
     "Company Domains": "gmail.com, gmail.com",
     "Titles": "Engineering Manager, Member of Technical Staff"
+  },
+  {
+    "Session ID": "933686",
+    "Title": "CIAM for AI: Who Are Your Agents and What Can They Do?",
+    "Description": "AI agents are changing the way modern SaaS products operate. Whether automating workflows, integrating with APIs, or acting on behalf of users, AI-driven assistants and autonomous systems are becoming core product features. But securing these agents presents a fundamental challenge: How do you authenticate AI agents? How do you control what they can access? How do you ensure they act within the right permissions? This talk will explore these concepts and more while highlighting current research and best practices.",
+    "Session Format": "Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "SOMA: AI Architects",
+    "Scheduled At": "5 Jun 2025 02:00 PM",
+    "Speakers": "Michael Grinich",
+    "Companies": "WorkOS",
+    "Company Domains": "workos.com",
+    "Titles": "Founder and CEO"
   },
   {
     "Session ID": "936156",
@@ -2427,7 +2832,7 @@
     "Speakers": "Ben Hylak, Sid Bendre",
     "Companies": "Raindrop.ai, Oleve",
     "Company Domains": "dawnai.com, oleve.co",
-    "Titles": "Co-founder, Co-founder, Head of Platform"
+    "Titles": "Co-founder, Co-founder"
   },
   {
     "Session ID": "925912",
@@ -2562,7 +2967,7 @@
     "Speakers": "Alex Duffy",
     "Companies": "Every Inc.",
     "Company Domains": "every.to",
-    "Titles": "Lead AI Strategy"
+    "Titles": "Lead AI Strategist"
   },
   {
     "Session ID": "916104",
@@ -2607,7 +3012,7 @@
     "Speakers": "Nathan Sobo",
     "Companies": "GitHub",
     "Company Domains": "github.com",
-    "Titles": "Software Engineer / Former Lead of Atom Team"
+    "Titles": "Software Engineer"
   },
   {
     "Session ID": "933474",
