@@ -601,6 +601,18 @@ export function Sponsors() {
             className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
+        <a href="https://haizelabs.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="haize"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.traversal.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="traversal"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>                
       </div>
 
       <div className="text-center space-y-6 p-8 bg-stone-200 rounded-2xl">

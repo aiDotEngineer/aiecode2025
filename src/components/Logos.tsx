@@ -207,6 +207,9 @@ import wisedocs from "~/images/logos/wisedocs.svg";
 import caylent from "~/images/logos/caylent.png";
 import quotient from "~/images/logos/quotient.svg";
 
+import haize from "~/images/logos/haize.svg";
+import traversal from "~/images/logos/traversal.png";
+
 type Key = keyof typeof logos;
 
 interface LogoProps extends Omit<ImageProps, "src" | "alt"> {
@@ -983,5 +986,13 @@ export const logos = defineLogos({
   quotient: {
     name: "Quotient",
     color: quotient,
+  },
+  traversal: {
+    name: "Traversal",
+    color: traversal,
+  },
+  haize: {
+    name: "Haize",
+    color: haize,
   }
 });
