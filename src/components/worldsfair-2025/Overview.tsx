@@ -159,7 +159,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                <b>AI Engineer World's Fair Official Hackathon</b> - $10k in cash prizes + judged by 3000 AI Engineers!
+                <b className="bg-yellow-300">AI Engineer World's Fair Official Hackathon</b> - $10k in cash prizes + judged by 3000 AI Engineers!
               </a>
             </li>
             <li>
@@ -169,7 +169,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                n8n AI Workflow Hackathon
+                <b>n8n</b> AI Workflow Hackathon
               </a>
             </li>
             <li>
@@ -199,7 +199,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                <b>Dagger.io</b> Build-an-Agent Hack Night
+                Build-an-Agent Hack Night (w/ <b>Dagger.io</b>)
               </a>
             </li>
             <li>
@@ -209,7 +209,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                <b>Damn You Fine[tuned]</b> (by Baseten & Oxen.ai)
+                Damn You Fine[tuned] (by <b>Baseten & Oxen.ai</b>)
               </a>
             </li>
             <li>
@@ -219,7 +219,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                AI After Hours with SourceGraph GenAI Reception
+                AI After Hours with <b>SourceGraph</b>
               </a>
             </li>
           </ul>
@@ -227,14 +227,14 @@ export function Overview() {
             <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
               IMPORTANT
             </span>{" "}
-            Below are some of the 2024 events - email{" "}
-            <a
-              href="mailto:sponsorships@ai.engineer"
+            Below are some of the 2024 events - to get in front of 3000 AI Engineers, tweet {" "}
+            <span
+              // href="mailto:sponsorships@ai.engineer"
               className="text-blue-500 hover:text-blue-400"
             >
-              sponsorships@ai.engineer
-            </a>{" "}
-            to organize a 2025 side event!
+              @aidotengineer/@swyx
+            </span>{" "}
+            with a link to your 2025 side event!
           </p>
           <p className="text-gray-on-white text-base">
             Our partners and friends organized these side events last year:
