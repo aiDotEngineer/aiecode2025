@@ -3,16 +3,49 @@
 // Assumes the app uses ChoosePrimaryLayout for header/footer and meta, as seen in other pages.
 // Logs are included for hydration/debugging.
 
-import React from 'react';
+import { NextPage } from 'next';
 import Head from 'next/head';
-// // [INFO][2025-05-20T10:17:38-07:00] Fix: ChoosePrimaryLayout is a named export, not default.
+import { useRouter } from 'next/router';
+import React, { useEffect, useRef, useState } from 'react';
+import { useLocalStorage } from '../components/worldsfair-2025/useLocalStorage';
 // import { ChoosePrimaryLayout } from '../components/ChoosePrimaryLayout';
 // // [INFO][2025-05-20T10:19:31-07:00] Importing Header for explicit page header
 import { Header } from '../components/worldsfair-2025/Header'; // [INFO][2025-05-20T10:54:38-07:00] Un-commented for always-visible header
 // import { HeroBuyTickets } from '../components/worldsfair-2025/HeroBuyTickets';
 // import { NewsletterFormThree } from '../components/Newsletter';
 
-const SchedulePage: React.FC = () => {
+type ScheduleView = 'calendar' | 'list' | 'detailed';
+
+interface ScheduleViewButtonProps {
+  activeView: ScheduleView;
+  viewName: ScheduleView;
+  label: string;
+  onClick: () => void;
+}
+
+const ScheduleViewButton: React.FC<ScheduleViewButtonProps> = ({
+  activeView,
+  viewName,
+  label,
+  onClick,
+}) => (
+  <button
+    onClick={onClick}
+    className={`px-4 py-2 rounded-md transition-colors ${
+      activeView === viewName
+        ? 'bg-blue-600 text-white border border-blue-600'
+        : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+    }`}
+  >
+    {label}
+  </button>
+);
+
+const SchedulePage: NextPage = () => {
+  const [activeView, setActiveView] = useLocalStorage<ScheduleView>(
+    'scheduleView',
+    'calendar' as ScheduleView
+  );
   // Print informative log on mount
   React.useEffect(() => {
     // Color code: blue; Stage: MOUNT
@@ -52,60 +85,108 @@ const SchedulePage: React.FC = () => {
       <main className="min-h-screen bg-stone-100 py-32">
         <div className="max-w-full mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-6">World's Fair 2025 Schedule</h1>
-        {/* [INFO][2025-05-20T10:26:59-07:00] Venue info box added below top cards */}
+          
+          {/* Venue info box */}
+          <div className="max-w-2xl mx-auto px-4 mb-8">
+            <a
+              href="https://maps.app.goo.gl/3BqJtoYUmYGr94Va9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-xl border border-blue-200 bg-blue-50 hover:bg-blue-100 transition shadow-md p-5 text-center"
+            >
+              <div className="flex items-center justify-center gap-3 mb-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-blue-500">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.5-7.5 11.25-7.5 11.25S4.5 18 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+                <span className="font-semibold text-lg text-blue-800">SF Marriott Marquis, June 3–5, 2025 &middot; San Francisco</span>
+              </div>
+              <div className="text-blue-900">Foothill/SOMA rooms are on Level 2</div>
+              <div className="text-blue-900">Golden Gate Ballrooms are on B1</div>
+              <div className="text-blue-900">Yerba Buena Ballrooms and Salons are on B2</div>
+              
+              <div className="text-blue-700 underline mt-1">View on Google Maps</div>
+            </a>
+          </div>
+          
+          {/* Import instructions */}
+          <div className="mb-8">
+            <p className="text-center max-w-2xl mx-auto">
+              To import all sessions to your calendar, click this{' '}
+              <a href="https://sessionize.com/api/v2/e70d4iqk/view/All" className="underline hover:text-blue-800">iCal</a> link. <br /> 
+              For hackers:{' '}
+              <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a>{' '}
+              (or{' '}
+              <a href="https://sessionize.com/api/v2/w3hd2z8a/view/All" className="underline hover:text-blue-800">raw JSON</a>) for your own vibecoded view, 
+              like{' '}
+              <a href="https://aie-swipe.vercel.app/" className="underline hover:text-blue-800">@noodlesoup's app</a>. 
+              We manually update this JSON dump regularly but the Sessionize schedule is the most up to date source of truth.
+            </p>  
+          </div>
 
-      
-        <div className="max-w-2xl mx-auto px-4 mb-8">
-          <a
-            href="https://maps.app.goo.gl/3BqJtoYUmYGr94Va9"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block rounded-xl border border-blue-200 bg-blue-50 hover:bg-blue-100 transition shadow-md p-5 text-center"
+          {/* Schedule View Tabs */}
+          <div className="flex justify-center space-x-2 mb-4 items-center gap-2">
+            Views:
+            <ScheduleViewButton 
+              activeView={activeView}
+              viewName="calendar"
+              label="Calendar"
+              onClick={() => setActiveView("calendar" as ScheduleView)}
+            />
+            <ScheduleViewButton 
+              activeView={activeView}
+              viewName="list"
+              label="List"
+              onClick={() => setActiveView("list" as ScheduleView)}
+            />
+            <ScheduleViewButton 
+              activeView={activeView}
+              viewName="detailed"
+              label="List with Descriptions"
+              onClick={() => setActiveView("detailed" as ScheduleView)}
+            />
+          </div>
+
+          {/* Schedule Iframe */}
+          <div
+            className={
+              `relative border rounded overflow-hidden mb-8 ` +
+              (activeView === "detailed"
+                ? "w-full max-w-4xl mx-auto h-[80vh]"
+                : activeView === "list"
+                ? "w-full max-w-4xl mx-auto h-[70vh]"
+                : "w-full h-[90vh]")
+            }
           >
-            <div className="flex items-center justify-center gap-3 mb-1">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-blue-500">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.5-7.5 11.25-7.5 11.25S4.5 18 4.5 10.5a7.5 7.5 0 1115 0z" />
-              </svg>
-              <span className="font-semibold text-lg text-blue-800">SF Marriott Marquis, June 3–5, 2025 &middot; San Francisco</span>
-            </div>
-            <div className="text-blue-900">Foothill/SOMA rooms are on Level 2</div>
-            <div className="text-blue-900">Golden Gate Ballrooms are on B1</div>
-            <div className="text-blue-900">Yerba Buena Ballrooms and Salons are on B2</div>
-            
-            <div className="text-blue-700 underline mt-1">View on Google Maps</div>
-          </a>
+            <iframe
+              key={activeView} // Force re-render when view changes
+              className="w-full h-full"
+              src={
+                activeView === 'calendar' 
+                  ? 'https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart'
+                  : activeView === 'list'
+                  ? 'https://sessionize.com/api/v2/0si6nqex/view/GridSmart'
+                  : 'https://sessionize.com/api/v2/0si6nqex/view/Sessions'
+              }
+              frameBorder="0"
+              title="World's Fair 2025 Schedule"
+            />
+          </div>
+
+          <p className="text-center mt-8 mb-16">
+            <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-200">
+              IMPORTANT
+            </span>{" "}
+            The full schedule is not yet up, as some sessions are yet to be finalized. Obvious gaps in the schedule will be filled.
+            {/* Our{' '}
+            <a
+              className="text-blue-500 font-bold hover:text-blue-400"
+              href="/schedule"
+            >
+              full talk schedule is now published here
+            </a> */}
+          </p>
         </div>
-      <div>
-        <p className="text-center max-w-2xl mx-auto">To import all sessions to your calendar, click this <a href="https://sessionize.com/api/v2/e70d4iqk/view/All" className="underline hover:text-blue-800">iCal</a> link. For hackers: <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a> (or <a href="https://sessionize.com/api/v2/w3hd2z8a/view/All" className="underline hover:text-blue-800">raw JSON</a>) for your own vibecoded view, like <a href="https://aie-swipe.vercel.app/" className="underline hover:text-blue-800">@noodlesoup's app</a>. We manually update this JSON dump regularly but the Sessionize schedule is the most up to date source of truth.</p>  
-      </div>
-          {/*
-            [INFO][2025-05-20T10:17:04-07:00] Embedding official sessionize schedule iframe.
-            This is the canonical calendar view for the event schedule.
-          */}
-          <iframe
-            id="gridsmart"
-            className="w-full h-[90vh] border rounded px-16"
-            src="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart"
-            frameBorder="0"
-            width="100%"
-            height="100vh"
-            title="World's Fair 2025 Schedule"
-          />
-        </div>
-        <p className="text-center mt-16">
-          <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-200">
-            IMPORTANT
-          </span>{" "}
-          The full schedule is not yet up, as some sessions are yet to be finalized. Obvious gaps in the schedule will be filled.
-          {/* Our{' '}
-          <a
-            className="text-blue-500 font-bold hover:text-blue-400"
-            href="/schedule"
-          >
-            full talk schedule is now published here
-          </a> */}
-        </p>
       </main>
     </>
   );
