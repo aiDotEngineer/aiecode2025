@@ -1566,6 +1566,16 @@ const SchedulePage: NextPage = () => {
           // Strip out any <script> tags for safety before injecting
           // html = html.replace(/<style[\s\S]*?>[\s\S]*?<\/style>/gi, '');
           html = customScript + html;
+        } else {
+          html = `<style>
+          
+#sessionize.sessionize-wrapper a {
+    color: #111;
+    text-decoration: none;
+    border-bottom: none;
+    transition: all .15s ease-in
+}
+    </style>` + html;
         }
         
         setIframeContent(html);
