@@ -42,7 +42,7 @@
     "Speakers": "Dani Grant, Chelcie Taylor",
     "Companies": "Jam.dev, Notable Capital",
     "Company Domains": "jam.dev, notablecap.com",
-    "Titles": "CEO, Investor / Partner"
+    "Titles": "CEO, VC Partner"
   },
   {
     "Session ID": "915616",
@@ -60,64 +60,34 @@
     "Titles": "Founder and CEO"
   },
   {
-    "Session ID": "916131",
-    "Title": "Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat",
-    "Description": "The Gemini Live API GA  is now powered by Google's best cost-effective thinking model Gemini 2.5 Flash. We will do a deep dive on the capabilities that the Gemini Live API combined with Pipecat unlock for devs with special focus on session management, turn detection, tool use (including async function calls), proactivity, multilinguality and integration with telephony and other infra. We will demo some of the more innovative capabilities. We will also talk through some customer use cases - especially how customers can use Pipecat to extend these realtime multimodal capabilities to client side applications such as customer support agents, gaming agents, tutoring agents etc. In addition, we also have an experimental version of the Live API powered by with Google's native audio offering that can be tried in an experimental capacity . This experimental model  can communicate with seamless, emotive, steerable, multilingual dialogue and enhances use cases where more natural voices can be a big differentiator. ",
+    "Session ID": "916143",
+    "Title": "Make Your AI Agents Remember What They Do!",
+    "Description": "Are you ready to give your AI agents a memory upgrade? \r\nJoin us for a hands-on, fast-paced workshop where we explore how memory can transform your agents.\r\n\r\nWhat You'll Do:\r\nSet Up Leading Memory Solutions: Get practical, side-by-side experience with open-source tools including AIUS, Cognee, LangMem, MemGPT, Mem0, and Zep.\r\n\r\nExplore Memory Types: Learn the theory behind agent memory, including long-term, short-term, episodic, semantic, and other memory types.\r\n\r\nRun Experiments: Test how memory improves recall, contextual awareness, and reasoning in autonomous agents.\r\n\r\nCompare Implementations: Get a snapshot of how different solutions implement memory—what’s built-in, what’s flexible, and what’s experimental.\r\n\r\nWhether you’re working on AI copilots, agentic workflows, or research prototypes—this workshop will help you embed real memory into your AI stack.",
     "Session Format": "Workshop",
-    "Level": "Intermediate",
+    "Level": "Introductory and overview",
     "Scope": "Technical deep dive",
     "Assigned Track": "",
     "Room": "",
     "Scheduled At": "",
-    "Speakers": "Shrestha Basu Mallick, Kwindla Kramer",
-    "Companies": "Google DeepMind, Daily",
-    "Company Domains": "gmail.com, daily.co",
-    "Titles": "Group Product Manager and product lead for Gemini API, PM and developer of Pipecat, working on large-scale WebRTC infrastructure"
+    "Speakers": "Mark Bain",
+    "Companies": "AIUS Technologies",
+    "Company Domains": "gmail.com",
+    "Titles": "Founder"
   },
   {
-    "Session ID": "933462",
-    "Title": "The fastest software dev workflow in the world: AI meets stacked diffs",
-    "Description": "Learn the secrets behind the workflows that engineers at the fastest moving companies in the world are using to build software for billions of users worldwide. This workshop will cover a comprehensive overview of how to leverage generative AI to write code, how to stack and submit these pull requests, and finally how to use AI to review them.",
-    "Session Format": "Workshop",
-    "Level": "Intermediate",
+    "Session ID": "927353",
+    "Title": "Engineering Better Evals: Scalable LLM Evaluation Pipelines",
+    "Description": "As LLM-powered products become more sophisticated, the need for scalable, reliable evaluation pipelines has never been more critical. This session dives deep into advanced LLM evaluation strategies that move beyond toy benchmarks and toward real-world production impact.\r\nWe’ll explore how to architect and implement evaluation pipelines that work across both online and offline environments—reducing dev complexity and accelerating iteration. The session will cover:\r\n\r\n- LLM-as-a-judge frameworks\r\n- Human-in-the-loop evaluation\r\n- How hybrid approaches unlock more robust and nuanced performance assessments\r\n\r\nWe’ll break down technical architectures, share real implementation patterns, and examine trade-offs between evaluation techniques to help engineers make informed choices.\r\nWhether you’re building from scratch or refining existing workflows, this talk offers practical strategies for crafting efficient, scalable, and accurate eval pipelines tailored to custom LLM products.\r\n",
+    "Session Format": "Talk",
+    "Level": "Advanced",
     "Scope": "Introductory (landscape)",
     "Assigned Track": "",
     "Room": "",
     "Scheduled At": "",
-    "Speakers": "Kenneth DuMez",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.dev",
-    "Titles": "Developer Relations Lead"
-  },
-  {
-    "Session ID": "933472",
-    "Title": "AI-powered entomology: Lessons from millions of AI code reviews",
-    "Description": "This talk will explore insights from millions of automated code reviews, revealing trends in bugs, vulnerabilities, and code health that Graphite’s AI code review agent have uncovered. This talk will also provide meta commentary into the types of bugs AI code review agents are great at spotting, and how far the field of AI code review has come in the last year alone.",
-    "Session Format": "",
-    "Level": "Introductory and overview",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Tomas Reimers",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.com",
-    "Titles": "CPO and Co-founder"
-  },
-  {
-    "Session ID": "933474",
-    "Title": "Cattle, not genies: building AI agents from first principles",
-    "Description": "As magical as they may seem, AI agents should be treated like any other software system. This talk will cover the best practices in designing and building AI systems including observability, security hardening, and proper UX.",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Kenneth DuMez",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.dev",
-    "Titles": "Developer Relations Lead"
+    "Speakers": "Dat  Ngo",
+    "Companies": "Arize",
+    "Company Domains": "arize.com",
+    "Titles": "Director of Solutions, EMEA"
   },
   {
     "Session ID": "933493",
@@ -132,232 +102,7 @@
     "Speakers": "Chad Bailey, Brian Johnson, Kwindla Kramer",
     "Companies": "Daily, Tavus, Daily",
     "Company Domains": "daily.co, tavus.io, daily.co",
-    "Titles": "Software Engineer, Staff Engineer, Co-founder"
-  },
-  {
-    "Session ID": "933549",
-    "Title": "Agentic GraphRAG: AI’s Logical Edge",
-    "Description": "AI models are getting tasked to do increasingly complex and industry specific tasks where different retrieval approaches provide distinct advantages in accuracy, explainability, and cost to execute. GraphRAG retrieval models have become a powerful tool to solve domain specific problems where answers require logical reasoning and correlation that can be aided by graph relationships and proximity algorithms. We will demonstrate how an agent architecture combining RAG and GraphRAG retrieval patterns can bridge the gap in data analysis, strategic planning, and retrieval to solve complex domain specific problems.\t",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Stephen Chin",
-    "Companies": "Neo4j",
-    "Company Domains": "steve.chin.social",
-    "Titles": "VP of Developer Relations"
-  },
-  {
-    "Session ID": "933569",
-    "Title": "Building CISO-approved agent fleet architecture",
-    "Description": "Security is the biggest blocker for agent orchestration adoption in regulated industries for SWE agents. Gitpod's agent orchestration went from an originally self-hosted kubernetes architecture to the current 'bring your own cloud' model that enables deployment our SWE agent orchestration platform in secure environments. The architecture allows customers to securely connect their foundational models and agent memory solutions and comes with features like auto-suspend and resume for agent fleets. In this talk we deep dive into the architecture to share our years of learnings in how to secure agent workloads at scale in secure and regulated environments. ",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Lou Bichard",
-    "Companies": "Gitpod",
-    "Company Domains": "gitpod.io",
-    "Titles": "Product Manager"
-  },
-  {
-    "Session ID": "933575",
-    "Title": "Amping it up: an experimental research demo of coding agents to uplevel humans building software",
-    "Description": "If you're attending this conference, you've probably used agents to build new apps from scratch. Or fix a bug in your existing app. Or add a new feature. Or migrate some dependencies. Or review a messy code change to catch subtle bugs. Or grok a big legacy codebase. But have you tried to do all these things at once, in parallel, in front of a live audience? Come watch the spectacle as we redline context windows and try to stretch the power of LLMs and agentic tool use as far as we can",
-    "Session Format": "",
-    "Level": "Introductory and overview",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Beyang Liu",
-    "Companies": "Sourcegraph",
-    "Company Domains": "sourcegraph.com",
-    "Titles": "Co-founder and CTO"
-  },
-  {
-    "Session ID": "933580",
-    "Title": "Optimizing inference for voice models in production",
-    "Description": "How do you get time to first byte (TTFB) below 150 milliseconds for voice models -- and scale it in production? As it turns out, open-source TTS models like Orpheus have an LLM backbone that lets us use familiar tools and optimizations like TensorRT-LLM and FP8 quantization to serve the models with low latency. But client code, network infrastructure, and other outside-the-GPU factors can introduce latency in the production stack. In this talk, we'll cover the basic mechanics of TTS inference, common pitfalls to avoid in integrating them into production systems, and how to extend this high-performance system to serve customized models with voice cloning and fine-tuning.",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Philip Kiely",
-    "Companies": "Baseten",
-    "Company Domains": "baseten.co",
-    "Titles": "Head of Developer Relations"
-  },
-  {
-    "Session ID": "933589",
-    "Title": "Pipecat Cloud: Enterprise Voice Agents Built On Open Source",
-    "Description": "Voice AI agents today can conduct natural, human-like conversations and perform a wide variety of tasks: customer support, lead qualification, healthcare patient intake, market research, and more.\r\n\r\nToday's best voice agents combine: realtime responsiveness, open-ended conversational intelligence, reliable instruction following, and flexible integration with existing back-end systems.\r\n\r\nLearn how to build state of the art voice agents using Pipecat's open source, vendor neutral tooling. You can deploy Pipecat agents to your own infrastructure or to Pipecat Cloud.\r\n\r\nPipecat is used and supported by teams at NVIDIA, AWS, Google DeepMind, OpenAI, and hundreds of other companies.",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Product launch",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Mark Backman, Kwindla Kramer",
-    "Companies": "Daily, Daily",
-    "Company Domains": "daily.co, daily.co",
-    "Titles": "VP of Product, Co-founder"
-  },
-  {
-    "Session ID": "933599",
-    "Title": "Serving Voice  AI at Scale",
-    "Description": "Real-Time  Voice AI applications demand the lowest possible latencies to enhance user  experiences with more advanced reasoning and agentic capabilities. AWS is  hosting Arjun Desai, CTO and co-founder of Cartesia, in a fireside chat for a  technical deep dive into learnings and best practices for building a  state-of-the-art inference stack that serves global enterprise customers.",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Arjun Desai",
-    "Companies": "Cartesia",
-    "Company Domains": "cartesia.ai",
-    "Titles": "CTO and Co-founder"
-  },
-  {
-    "Session ID": "933603",
-    "Title": "From Prototype to Production: Evaluating and Optimizing Agentic RAG Systems",
-    "Description": "As RAG systems and AI agents mature from experimental demos to real-world deployments, the need for robust evaluation and optimization becomes critical. This session will provide a framework for systematically measuring agent performance, retrieval quality, latency, and cost-efficiency in production environments. We’ll explore techniques for benchmarking agent reasoning, tuning retrieval pipelines, and identifying bottlenecks in orchestration workflows. Attendees will learn best practices for optimizing multi-agent coordination, prompt strategies, and embedding selection, as well as how to integrate observability and feedback loops for continuous improvement. Whether you’re scaling an LLM-based assistant or deploying domain-specific RAG apps, this session equips you with the tools and methodologies to move from functional to production-grade intelligence.",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Suman Debnath",
-    "Companies": "Amazon Web Services",
-    "Company Domains": "aws.amazon.com",
-    "Titles": "Principal Developer Advocate (AI/ML)"
-  },
-  {
-    "Session ID": "933605",
-    "Title": "Data is Your Differentiator: Building Secure and Tailored AI Systems",
-    "Description": "As  organizations seek to harness their proprietary data while maintaining  security and compliance, Amazon Bedrock provides a comprehensive framework  for building tailored AI applications. Using Amazon Bedrock Knowledge Bases  and Amazon Bedrock Data Automation, organizations can create AI solutions  that truly understand their unique business context, terminology, and  requirements. Combined with Amazon Bedrock Guardrails, these capabilities  enhance the accuracy and relevance of AI-generated responses, while ensuring  that sensitive information remains protected within the organization's  control - enabling businesses to build secure and compliant enterprise-grade  generative AI solutions that accelerate time to value.",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Mani Khanuja",
-    "Companies": "Amazon",
-    "Company Domains": "amazon.com",
-    "Titles": "unknown"
-  },
-  {
-    "Session ID": "933618",
-    "Title": "Conquering Agent Chaos",
-    "Description": "Agent deployments can be dicey, especially at first.  This session goes over all the things that cause headache with deployments from serverless issues to networking issues - and how we fix them.",
-    "Session Format": "",
-    "Level": "Introductory and overview",
-    "Scope": "Product launch",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Rick Blalock",
-    "Companies": "unknown",
-    "Company Domains": "agentuity.com",
-    "Titles": "Founder and Developer"
-  },
-  {
-    "Session ID": "933621",
-    "Title": "Effective agent design patterns in production",
-    "Description": "At LlamaIndex we see a lot of agents built every day, and we've got a sense of what works and what doesn't. We've distilled those learnings down into a series of patterns and best practices for building real-world, production agents, and we're here to share them. You'll learn patterns for applying structure and guidance to famously nondeterministic LLMs and get concrete instruction on how to implement them.",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Laurie Voss",
-    "Companies": "LlamaIndex",
-    "Company Domains": "llamaindex.ai",
-    "Titles": "VP of Developer Relations"
-  },
-  {
-    "Session ID": "933622",
-    "Title": "The Build-Run Divide: How Chime Bridges Product Vision and AI Operational Reality",
-    "Description": "Product leaders see AI possibilities. Operations teams see implementation nightmares. The chasm between these perspectives kills promising AI features before they reach users.\r\n\r\nIn this talk, Chris Hernandez (Manager of AI Speech Analytics at Chime) and Jeremy Silva (Product Lead at Freeplay) share an integrated framework we've developed across product strategy and operations at a leading neo-bank. You'll see how we transformed siloed processes into a unified approach that connects prototyping, evaluations, human review workflows, and model benchmarking from day one.\r\n\r\nWe'll reveal the collaborative tools built to make trade-off decisions visible, the evaluation metrics that satisfy both business and technical stakeholders, and the governance model that enabled us to ship AI features 3x faster. Learn how to create processes where product and operations strengthen each other rather than compete, and build AI capabilities that scale beyond individual features into organization-wide advantage.\r\n",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Case Study/War Story",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Chris Hernandez",
-    "Companies": "Chime",
-    "Company Domains": "chime.com",
-    "Titles": "Manager of AI Speech Analytics"
-  },
-  {
-    "Session ID": "933625",
-    "Title": "Vector Search Benchmark[eting]",
-    "Description": "Every vector database out there is both faster and slower than any other competitor — if you believe all the benchmarketing out there.\r\nLet's turn the marketing into useful benchmarks that actually help you:\r\n1. How not to benchmark (spoiler: don’t trust the glossy charts).\r\n2. What’s uniquely tricky about benchmarking vector search.\r\n3. How to build meaningful benchmarks tailored to your use case.\r\n\r\nPS: Yes, you will have to get your hands dirty. Never believe a benchmark that you haven't tweaked yourself.",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Philipp Krenn",
-    "Companies": "Elastic",
-    "Company Domains": "xeraa.net",
-    "Titles": "Lead, Developer Relations"
-  },
-  {
-    "Session ID": "933629",
-    "Title": "How to trust an agent with software delivery",
-    "Description": "AI-powered agents promise faster, easier software delivery, but their unpredictable behavior often makes engineers hesitant to fully trust them with critical workflows. Sam Alba, Co-founder of Dagger (and previously co-creator of Docker), explains how teams can reliably integrate agents into their delivery pipelines by shifting how they structure and manage automation.\r\n\r\nHe'll share four practical strategies learned from real-world experience:\r\n\r\n1. Treat agents as workflow participants, not isolated tools.\r\nStop using agents as disconnected scripts or IDE plugins. Treating them as first-class parts of your delivery process simplifies your architecture, reduces hidden complexity, and makes agent outcomes more predictable.\r\n\r\n2. Use many small agents instead of one big one.\r\nJust as software evolved from monoliths to microservices, software delivery benefits from smaller, specialized agents with clearly defined responsibilities. Smaller agents are easier to understand, maintain, and integrate.\r\n\r\n3. Define clear environments—the real lever for reliability.\r\nInstead of chasing perfect prompts or models, focus on clearly defining the tools, resources, and permissions around your agents. Precisely controlling their environments makes agents behave consistently and reliably.\r\n\r\n4. Design workflows for easy debugging and observability.\r\nAgents will sometimes fail unexpectedly. Sam will share simple, effective ways to build clear tracing and observability into your workflows from the start, making debugging quicker and less frustrating.\r\n\r\nYou'll leave with practical, immediately usable techniques that give you the confidence to trust AI agents in your software delivery pipelines.",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Sam Alba",
-    "Companies": "Dagger",
-    "Company Domains": "dagger.io",
-    "Titles": "Co-founder"
-  },
-  {
-    "Session ID": "933635",
-    "Title": "The Future of Human-AI Collaboration",
-    "Description": "Source code is ready for its \"Photoshop to Figma moment.\" We're still collaborating at the speed of email. With agents in the mix we need to entirely rethink how we collaborate – both with humans and AI.\r\n\r\nIn this talk, we'll share our vision for how humans and AI could collaborate and the technological advancements needed to get us there.\r\n\r\nSome of the limitations we have today:\r\n- Traditional collaboration tools like Git were designed for email's pace\r\n- AI's immediate responses make traditional tools feel like bottlenecks\r\n- Developers need better ways to manage parallel conversations with agents\r\n\r\nWe’ll dive into the collaborative future we invision: \r\n- Always-connected workspaces\r\n- Fluid multi-agent interactions\r\n- Rich and digestible historical context\r\n- And more\r\n\r\nAnd we’ll cover some of the technology enablers needed to get us there – we’ll talk about how we engineered Zed from the ground up to have CRDTs built in and what that means for the future (more here:https://zed.dev/blog/full-spectrum-of-collaboration).",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Nathan Sobo",
-    "Companies": "GitHub",
-    "Company Domains": "github.com",
-    "Titles": "Software Engineer"
-  },
-  {
-    "Session ID": "933641",
-    "Title": "Revenue Engineering: How to Price (and Reprice) Your AI Product",
-    "Description": "You’ve trained the model—now it’s time to train the business. This talk dives into the engineering behind pricing systems that can evolve as fast as your AI stack.\r\n\r\nOrb CTO Kshitij Grover will walk through how leading AI companies design infrastructure to support experimentation, scale, and real-world monetization constraints.\r\n\r\nTopics include:\r\n- How to meter usage and map it to pricing with accuracy and auditability\r\n- Factoring in margins and underlying costs when designing pricing strategy\r\n- Handling complexity across motions: self-serve vs. enterprise, pay-as-you-go vs. committed contracts\r\n- How to test pricing changes safely (and roll them back when needed)\r\n\r\nWhether you’re bootstrapping a pricing system from scratch or replacing a brittle V1, you’ll leave with architectural patterns and mental models to make pricing a first-class engineering concern.\r\n",
-    "Session Format": "",
-    "Level": "Introductory and overview",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Kshitij  Grover",
-    "Companies": "Orb",
-    "Company Domains": "orb.com",
-    "Titles": "Co-Founder and CTO"
+    "Titles": "Engineer, Staff Engineer, Co-founder"
   },
   {
     "Session ID": "933645",
@@ -375,169 +120,19 @@
     "Titles": "Director of Product, LLM"
   },
   {
-    "Session ID": "933646",
-    "Title": "Why Your Agent’s Brain Needs a Playbook: Practical Wins from Using Ontologies",
-    "Description": "You're trying to guide how your agents think and act. Code-orchestrated workflows are too rigid, but LLMs charting their own course feel too chaotic. When you need a middle ground, it’s time to reach for the secret weapon: ontologies. These graph-shaped fragments of actionable knowledge can fill in critical gaps.\r\n\r\nIn this talk, we’ll explore together how ontologies bring structure, semantics, and sanity to GenAI-powered applications. You’ll learn when they’re useful, how to apply them, and what kinds of problems they help solve. Through practical examples, we’ll show how ontologies (1) guide knowledge graph construction, (2) add a semantic layer for more efficient and accurate retrieval (GraphRAG), and (3) encode domain logic you don’t want to leave up to the LLM.",
-    "Session Format": "",
-    "Level": "Introductory and overview",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Stephen Chin",
-    "Companies": "Neo4j",
-    "Company Domains": "steve.chin.social",
-    "Titles": "VP of Developer Relations"
-  },
-  {
-    "Session ID": "933652",
-    "Title": "Events are the Wrong Abstraction for Your AI Agents",
-    "Description": "AI Agents are distributed systems. Agents need to connect and communicate with tools, data repositories, other agents, etc., all over a network. Event-Driven Architecture is a common pattern for facilitating this connectivity, using Events as the communication abstraction. However, this pattern introduces complexities as well, such as fragmented logic, increased latency, decreased observability, and more. But what if there were a way to get the benefits of Event-Driven Architecture without the complexities? Enter Durable Execution. In this talk, we'll discuss the pitfalls of Event-Driven Architecture, how Durable Execution solves these issues, and why Durable Execution, not Events, is the correct abstraction for building AI Agents.",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Mason Egger",
-    "Companies": "Temporal Technologies",
-    "Company Domains": "temporal.io",
-    "Titles": "Senior Developer Advocate"
-  },
-  {
-    "Session ID": "933656",
-    "Title": "Agents, Access, and the Future of Machine Identity",
-    "Description": "AI agents are calling APIs, submitting forms, and sending emails—but how do you control what they’re allowed to do? As agents act on behalf of users or organizations, traditional patterns like OAuth, session tokens, and role-based access often fall short.\r\nIn this talk, we’ll explore how machine identity is evolving to meet this new landscape. You’ll learn:\r\n\r\n- How to think about authentication for agents (not just humans)\r\n- What it means to authorize an action when the actor is an LLM or headless service\r\n- Real-world strategies from WorkOS and Cloudflare for assigning, managing, and revoking agent identity and access\r\n\r\nBy the end, you’ll walk away with practical tools and mental models to build agent-powered systems that are secure, auditable, and scalable.",
-    "Session Format": "",
-    "Level": "Introductory and overview",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Nick Nisi",
-    "Companies": "WorkOS ",
-    "Company Domains": "nisi.org",
-    "Titles": "Software Engineer"
-  },
-  {
-    "Session ID": "933669",
-    "Title": "\"Data readiness\" is a myth: Make AI Reliabile with an Agentic Semantic Layer",
-    "Description": "The rapid progress in LLM capability has not translated to increased reliability for business critical AI use cases. The root-cause? Data is \"not ready\".\r\nConversational analytics doesn't go beyond the analyst team because it's hard to verify if the generated queries are actually doing what they are supposed to.\r\nRAG based systems often fail to handle the breadth and depth of real world use-cases because it requires a prohibitive amount of preparation & maintenance of an underlying knowledge graph.\r\n\r\nAgentic AI systems need to hard-code specific workflows to work reliably and end up looking more like software engineering with LLM calls instead of delivering on the promise of truly agentic workflows.\r\n\r\nIn all of these failure modes, the common culprit is that the planning or reasoning done by the LLM fails to accurately capture the user's intent or the domain's context aka the lack of a well prepared semantic data layer.\r\n\r\nEnterprise data is silo-ed and vastly varying levels of quality and the perfect \"semantic layer\" and \"metadata\" is a moving target. New data is continuously being created and business definitions are rapidly changing and often entirely on-demand.\r\nIn this talk we'll share how you can build and maintain a semantic data layer that is maintained entirely by AI, and show (with live examples) how that dramatically improves reliability of the AI system that needs dynamic access to data.\r\nWe'll demonstrate how this sufficiently augments existing RAG, text-to-SQL and tool calling techniques and starts opening the door to reliable AI deployments.\r\n",
+    "Session ID": "936299",
+    "Title": "Vibe Coding in Production",
+    "Description": "What's the role of vibe coding in a production-grade applications? Join Augment Code's Matt McClernan as he speaks to engineering leaders about building with AI. ",
     "Session Format": "Talk",
-    "Level": "Intermediate",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Anushrut Gupta",
-    "Companies": "Hasura",
-    "Company Domains": "hasura.io",
-    "Titles": "Applied AI Lead"
-  },
-  {
-    "Session ID": "933671",
-    "Title": "Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data",
-    "Description": "Agentic workflows often become complex, brittle, and hard to maintain when they need to retrieve and reason across both structured data (typically requiring precise query execution) and unstructured data (commonly handled via vector search in RAG). In this talk, we’ll explore how mapping key information into a knowledge graph can simplify these workflows and improve retrieval quality. You’ll learn core concepts behind GraphRAG, how to integrate it into agent tools, and get access to end-to-end code examples so you can start building right away.",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Zach Blumenfeld",
-    "Companies": "Neo4j",
-    "Company Domains": "neo4j.com",
-    "Titles": "AI/ML Graph Specialist"
-  },
-  {
-    "Session ID": "933689",
-    "Title": "The State of AI-Powered Search and Retrieval",
-    "Description": "In this talk, we examine the state-of-the-art in AI-powered search and retrieval. We detail techniques for enhancing performance beyond base embedding models, including hybrid search, reranking strategies, query decomposition and document enrichment, the use of domain-specific and fine-tuned embeddings, custom data processing pipelines (ETL), and contextualized chunking methods.",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Frank Liu",
-    "Companies": "MongoDB",
-    "Company Domains": "mongodb.com",
-    "Titles": "Staff Product Manager"
-  },
-  {
-    "Session ID": "933692",
-    "Title": "Architecting Agent Memory: Principles, Patterns, and Best Practices",
-    "Description": "In the rapidly evolving landscape of agentic systems, memory management has emerged as a key pillar for building intelligent, context-aware AI Agents. Inspired by the complexity of human memory systems—such as episodic, working, semantic, and procedural memory—this talk unpacks how AI agents can achieve believability, reliability, and capability by retaining and reasoning over past experiences.\r\nWe’ll begin by establishing a conceptual framework based on real-world implementations from memory management libraries and system architectures:\r\nMemory Components representing various structured memory types (e.g., conversation, workflow, episodic, persona)\r\nMemory Modes reflecting operational strategies for short-term, long-term, and dynamic memory handling\r\nNext, the talk transitions to practical implementation patterns critical for effective memory lifecycle management:\r\nMaintaining rich conversation history and contextual awareness\r\nPersistence strategies leveraging vector databases and hybrid search\r\nMemory augmentation using embeddings, relevance scoring, and semantic retrieval\r\nProduction-ready practices for scaling memory in multi-agent ecosystems\r\nWe’ll also examine advanced memory strategies within agentic systems:\r\nMemory cascading and selective deletion\r\nIntegration of tool use and persona memory\r\nOptimizing performance around memory retrieval and LLM context window limits\r\nWhether you're developing autonomous agents, chatbots, or complex workflow orchestration systems, this talk offers knowledge and tactical insights for building AI that can remember, adapt, and improve over time.\r\nThis session is ideal for:\r\nAI engineers and agent framework developers\r\nArchitects designing Agentic RAG or multi-agent systems\r\nPractitioners building contextual, personalized AI experiences\r\nBy the end of the session, you’ll understand how to leverage memory as a strategic asset in agentic design—and walk away ready to build agents that not only act and reason but also remember.\t",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Richmond Alake",
-    "Companies": "MongoDB",
-    "Company Domains": "mongodb.com",
-    "Titles": "Developer Advocate"
-  },
-  {
-    "Session ID": "933709",
-    "Title": "What does Enterprise Ready MCP mean?",
-    "Description": "Taking an MCP server from a fun consumer app to an enterprise winner isn't simple—but lessons from existing SaaS tools can map onto ",
-    "Session Format": "",
     "Level": "Introductory and overview",
     "Scope": "Introductory (landscape)",
     "Assigned Track": "",
     "Room": "",
     "Scheduled At": "",
-    "Speakers": "Tobin  South",
-    "Companies": "WorkOS",
-    "Company Domains": "workos.com",
-    "Titles": "VP of AI Agents"
-  },
-  {
-    "Session ID": "933712",
-    "Title": "Prompt Engineering is Dead",
-    "Description": "Manual prompt crafting doesn't scale. In this session, we'll explore how to replace it with a test-driven, automated approach. You'll see how to define output evaluators, write minimal prompts, and let agents iterate toward optimal performance—all without manual tweaking. If you're still hand-tuning prompts, you're doing it wrong.",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Nir Gazit",
-    "Companies": "Traceloop",
-    "Company Domains": "traceloop.com",
-    "Titles": "CEO"
-  },
-  {
-    "Session ID": "933716",
-    "Title": "How fast are LLM inference engines anyway?",
-    "Description": "Open weights models and open source inference servers have made massive strides in the year since we last got together at AIE World's Fair.\r\n\r\nWhere once we had only pirated LLaMA 2 weights and Transformers, we now have an embarrassment of riches. In fact, we have too many choices! What's an AI engineer looking to self-host inference to do?\r\n\r\nIn this session, we'll share our benchmarking results from hundreds of runs across models, frameworks, and hardware. We'll also share tips and tricks from working with teams deploying LLM inference at scale.",
-    "Session Format": "",
-    "Level": "Intermediate",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Charles Frye",
-    "Companies": "Modal Labs",
-    "Company Domains": "modal.com",
-    "Titles": "LLM Engineer"
-  },
-  {
-    "Session ID": "936204",
-    "Title": "Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work",
-    "Description": "As LLM-powered products become more sophisticated, the need for scalable, reliable evaluation pipelines has never been more critical. This session dives deep into advanced LLM evaluation strategies that move beyond toy benchmarks and toward real-world production impact.\r\n\r\nWe’ll explore how to architect and implement evaluation pipelines that work across both online and offline environments—reducing dev complexity and accelerating iteration. The session will cover:\r\n\r\n- LLM-as-a-judge frameworks\r\n- Human-in-the-loop evaluation\r\n- How hybrid approaches unlock more robust and nuanced performance assessments\r\n\r\nWe’ll break down technical architectures, share real implementation patterns, and examine trade-offs between evaluation techniques to help engineers make informed choices.\r\nWhether you’re building from scratch or refining existing workflows, this talk offers practical strategies for crafting efficient, scalable, and accurate eval pipelines tailored to custom LLM products.",
-    "Session Format": "",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Dat Ngo, Aman Khan",
-    "Companies": "Arize AI, Arize AI",
-    "Company Domains": "arize.com, arize.com",
-    "Titles": "Director of Solutions, EMEA, Director of Solutions, EMEA"
+    "Speakers": "Matt McClernan",
+    "Companies": "Augment Code",
+    "Company Domains": "augmentcode.com",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936816",
@@ -568,21 +163,6 @@
     "Companies": "Microsoft",
     "Company Domains": "microsoft.com",
     "Titles": "Principal AI Advocate"
-  },
-  {
-    "Session ID": "936894",
-    "Title": "Taming Rogue AI Agents with Observability-Driven Evaluation",
-    "Description": "",
-    "Session Format": "",
-    "Level": "",
-    "Scope": "",
-    "Assigned Track": "",
-    "Room": "",
-    "Scheduled At": "",
-    "Speakers": "Jim Bennett",
-    "Companies": "unknown",
-    "Company Domains": "unknown",
-    "Titles": "unknown"
   },
   {
     "Session ID": "915269",
@@ -642,7 +222,7 @@
     "Speakers": "Philip Kiely, Yineng Zhang",
     "Companies": "Baseten, Baseten",
     "Company Domains": "baseten.co, zhyncs.com",
-    "Titles": "Lead, Developer Relations, Software Engineer, Model Performance"
+    "Titles": "Developer Relations Lead, Software Engineer, Model Performance Team"
   },
   {
     "Session ID": "929509",
@@ -732,7 +312,7 @@
     "Speakers": "Philipp Krenn",
     "Companies": "Elastic",
     "Company Domains": "xeraa.net",
-    "Titles": "Lead Developer Relations"
+    "Titles": "Head of Developer Relations"
   },
   {
     "Session ID": "930540",
@@ -760,7 +340,7 @@
     "Room": "Golden Gate Ballroom B: Workshops",
     "Scheduled At": "3 Jun 2025 01:00 PM",
     "Speakers": "Du’An Lightfoot",
-    "Companies": "Amazon Web Services (AWS)",
+    "Companies": "Amazon Web Services",
     "Company Domains": "aws.amazon.com",
     "Titles": "Sr. Developer Advocate"
   },
@@ -777,7 +357,7 @@
     "Speakers": "Dominik Kundel",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Developer Experience & SDKs Lead"
+    "Titles": "Developer and Product Leader, Developer Experience & SDKs"
   },
   {
     "Session ID": "927324",
@@ -790,9 +370,9 @@
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
     "Scheduled At": "4 Jun 2025 09:00 AM",
     "Speakers": "Sarah Guo",
-    "Companies": "Greylock Partners",
-    "Company Domains": "greylock.com",
-    "Titles": "General Partner"
+    "Companies": "Conviction",
+    "Company Domains": "conviction.com",
+    "Titles": "Session Owner"
   },
   {
     "Session ID": "929790",
@@ -808,6 +388,81 @@
     "Companies": "Amazon",
     "Company Domains": "gmail.com",
     "Titles": "Cognitive Scientist"
+  },
+  {
+    "Session ID": "916131",
+    "Title": "Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat",
+    "Description": "The Gemini Live API GA  is now powered by Google's best cost-effective thinking model Gemini 2.5 Flash. We will do a deep dive on the capabilities that the Gemini Live API combined with Pipecat unlock for devs with special focus on session management, turn detection, tool use (including async function calls), proactivity, multilinguality and integration with telephony and other infra. We will demo some of the more innovative capabilities. We will also talk through some customer use cases - especially how customers can use Pipecat to extend these realtime multimodal capabilities to client side applications such as customer support agents, gaming agents, tutoring agents etc. In addition, we also have an experimental version of the Live API powered by with Google's native audio offering that can be tried in an experimental capacity . This experimental model  can communicate with seamless, emotive, steerable, multilingual dialogue and enhances use cases where more natural voices can be a big differentiator. ",
+    "Session Format": "Workshop",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 10:45 AM",
+    "Speakers": "Shrestha Basu Mallick, Kwindla Kramer",
+    "Companies": "Google DeepMind, Daily",
+    "Company Domains": "gmail.com, daily.co",
+    "Titles": "Group Product Manager and product lead for Gemini API, Product Manager / Lead Developer of Pipecat"
+  },
+  {
+    "Session ID": "933472",
+    "Title": "AI-powered entomology: Lessons from millions of AI code reviews",
+    "Description": "This talk will explore insights from millions of automated code reviews, revealing trends in bugs, vulnerabilities, and code health that Graphite’s AI code review agent have uncovered. This talk will also provide meta commentary into the types of bugs AI code review agents are great at spotting, and how far the field of AI code review has come in the last year alone.",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 10:45 AM",
+    "Speakers": "Tomas Reimers",
+    "Companies": "Graphite",
+    "Company Domains": "graphite.com",
+    "Titles": "CPO and Co-founder"
+  },
+  {
+    "Session ID": "933692",
+    "Title": "Architecting Agent Memory: Principles, Patterns, and Best Practices",
+    "Description": "In the rapidly evolving landscape of agentic systems, memory management has emerged as a key pillar for building intelligent, context-aware AI Agents. Inspired by the complexity of human memory systems—such as episodic, working, semantic, and procedural memory—this talk unpacks how AI agents can achieve believability, reliability, and capability by retaining and reasoning over past experiences.\r\nWe’ll begin by establishing a conceptual framework based on real-world implementations from memory management libraries and system architectures:\r\nMemory Components representing various structured memory types (e.g., conversation, workflow, episodic, persona)\r\nMemory Modes reflecting operational strategies for short-term, long-term, and dynamic memory handling\r\nNext, the talk transitions to practical implementation patterns critical for effective memory lifecycle management:\r\nMaintaining rich conversation history and contextual awareness\r\nPersistence strategies leveraging vector databases and hybrid search\r\nMemory augmentation using embeddings, relevance scoring, and semantic retrieval\r\nProduction-ready practices for scaling memory in multi-agent ecosystems\r\nWe’ll also examine advanced memory strategies within agentic systems:\r\nMemory cascading and selective deletion\r\nIntegration of tool use and persona memory\r\nOptimizing performance around memory retrieval and LLM context window limits\r\nWhether you're developing autonomous agents, chatbots, or complex workflow orchestration systems, this talk offers knowledge and tactical insights for building AI that can remember, adapt, and improve over time.\r\nThis session is ideal for:\r\nAI engineers and agent framework developers\r\nArchitects designing Agentic RAG or multi-agent systems\r\nPractitioners building contextual, personalized AI experiences\r\nBy the end of the session, you’ll understand how to leverage memory as a strategic asset in agentic design—and walk away ready to build agents that not only act and reason but also remember.\t",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 10:45 AM",
+    "Speakers": "Richmond Alake",
+    "Companies": "MongoDB",
+    "Company Domains": "mongodb.com",
+    "Titles": "Developer Advocate"
+  },
+  {
+    "Session ID": "933709",
+    "Title": "What does Enterprise Ready MCP mean?",
+    "Description": "Everyone is building MCP servers: from Slack integrations to personal data tools. They're good demos, but not ready to turn into production. So, what does it take to make MCP *enterprise-ready?*\r\n\r\nWe're going to cover the end-to-end process of getting a hacky MCP server authenticated, permissioned, and secure. We'll talk about registries, SSO, audit logs, agent identifiers, autonomy for agents, and oversight. Oh and we'll use MCP to buy some stuff.\r\n\r\nCome learn the stack needed to scale your MCP to the enterprise and some fun hacks along the way.",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 11:00 AM",
+    "Speakers": "Tobin  South",
+    "Companies": "WorkOS",
+    "Company Domains": "workos.com",
+    "Titles": "VP of AI Agents"
+  },
+  {
+    "Session ID": "936298",
+    "Title": "To the moon! Navigating deep context in legacy code with Augment Agent",
+    "Description": "Shortened presentation-only version of our Apollo 11 workshop",
+    "Session Format": "Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 11:00 AM",
+    "Speakers": "Forrest Brazeal, Matt Ball",
+    "Companies": "Augment Code, Augment Code ",
+    "Company Domains": "freemanandforrest.com, augmentcode.com",
+    "Titles": "Founder, Solutions Architect"
   },
   {
     "Session ID": "903524",
@@ -951,7 +606,7 @@
     "Session Format": "Talk",
     "Level": "Intermediate",
     "Scope": "Case Study/War Story",
-    "Assigned Track": "",
+    "Assigned Track": "Voice (07)",
     "Room": "Foothill E: Voice",
     "Scheduled At": "4 Jun 2025 11:35 AM",
     "Speakers": "Peter Bar",
@@ -972,7 +627,7 @@
     "Speakers": "Vaibhav Page, Infant Vasanth",
     "Companies": "BlackRock, BlackRock",
     "Company Domains": "blackrock.com, gmail.com",
-    "Titles": "Principal Engineer, Engineering Team Lead, Studio Compute Platform and Data & AI Acceleration"
+    "Titles": "Principal Engineer, Engineering Lead, Studio Compute Platform"
   },
   {
     "Session ID": "905305",
@@ -986,23 +641,8 @@
     "Scheduled At": "4 Jun 2025 11:40 AM",
     "Speakers": "Dr. Jasper Zhang, PhD",
     "Companies": "Hyperbolic",
-    "Company Domains": "hyperbolic.com",
+    "Company Domains": "hyperbolic.io",
     "Titles": "CEO and Co-founder"
-  },
-  {
-    "Session ID": "906567",
-    "Title": "Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+ DAU",
-    "Description": "YouTube recommendations drive nearly two-thirds of the platform's staggering 5 billion daily watch hours for 2 billion+ DAU. Traditionally powered by large embedding models (LEMs), we're undertaking a fundamental shift: rebuilding our recommendation stack using foundation models like Gemini. This talk dives into our engineering journey adapting general-purpose LLMs (Gemini) for the highly specialized, dynamic, and massive-scale task of YouTube recommendations.\r\n\r\nWe'll start with a critical first step: creating a \"language\" for YouTube videos. Learn how we developed 'SemanticID', a novel tokenization scheme that distills multimodal video features (text, audio, frames) into discrete tokens representable by an LLM. Our paper (Better Generalization with Semantic IDs: A Case Study in Ranking for Recommendations) is a landmark work in this space.  \r\n\r\nWe then adapt the base Gemini checkpoint to understand sequences of these video tokens alongside natural language, effectively teaching it the grammar of user watch behavior. A key insight: unlike static LLM training, YouTube's corpus evolves so rapidly (millions of new videos daily) that daily retraining is non-negotiable to maintain recommendation quality.\r\n\r\nNow we can prompt LRM with user history and context to generate personalized candidate recommendations, achieving the biggest engagement wins on YouTube in the last ~decade. \r\n\r\nThere’s a lot of attention on the LLM-led transformation of Search (with AI Overviews, Perplexity, ChatGPT-Search etc). However, across large consumer apps, it’s the recommendation systems & feeds that drive most consumer engagement, not just search (eg. YouTube recs drive 67% of WatchTime). This talk is about the LLM-led transformation of recommendations & feeds – building a recommendation engine on top of Gemini.\r\n",
-    "Session Format": "Talk",
-    "Level": "Advanced",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "LLM RecSys (03)",
-    "Room": "Golden Gate Ballroom A: LLM RecSys",
-    "Scheduled At": "4 Jun 2025 11:40 AM",
-    "Speakers": "Devansh Tandon",
-    "Companies": "Google",
-    "Company Domains": "gmail.com",
-    "Titles": "Principal Product Manager"
   },
   {
     "Session ID": "912811",
@@ -1047,7 +687,7 @@
     "Speakers": "Sid Bendre",
     "Companies": "Oleve",
     "Company Domains": "oleve.co",
-    "Titles": "Co-founder and Head of Technical and AI Efforts"
+    "Titles": "Co-founder, Head of Technical and AI Efforts"
   },
   {
     "Session ID": "914842",
@@ -1078,6 +718,21 @@
     "Companies": "Anthropic",
     "Company Domains": "anthropic.com",
     "Titles": "unknown"
+  },
+  {
+    "Session ID": "932498",
+    "Title": "What We Learned from Using LLMs in Pinterest Search",
+    "Description": "Pinterest Search integrates Large Language Models (LLMs) to enhance relevance scoring by combining search queries with rich multimodal content, including visual captions, link-based text, and user curation signals. A semi-supervised learning framework enables scaling to large and multilingual datasets, going beyond English and limited human labels. These LLM-driven models are distilled into efficient architectures for real-time serving, with experimental validation and large-scale deployment demonstrating substantial improvements in search relevance for Pinterest users worldwide.",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Golden Gate Ballroom A: LLM RecSys",
+    "Scheduled At": "4 Jun 2025 11:40 AM",
+    "Speakers": "Mukuntha Narayanan, Han Wang",
+    "Companies": "Pinterest, Inc., Pinterest",
+    "Company Domains": "pinterest.com, pinterest.com",
+    "Titles": "Machine Learning Engineer, Machine Learning Engineer"
   },
   {
     "Session ID": "915031",
@@ -1185,19 +840,19 @@
     "Titles": "Founder/CEO, Founder/CEO"
   },
   {
-    "Session ID": "932498",
-    "Title": "What We Learned from Using LLMs in Pinterest Search",
-    "Description": "Pinterest Search integrates Large Language Models (LLMs) to enhance relevance scoring by combining search queries with rich multimodal content, including visual captions, link-based text, and user curation signals. A semi-supervised learning framework enables scaling to large and multilingual datasets, going beyond English and limited human labels. These LLM-driven models are distilled into efficient architectures for real-time serving, with experimental validation and large-scale deployment demonstrating substantial improvements in search relevance for Pinterest users worldwide.",
+    "Session ID": "936205",
+    "Title": "360Brew LLM-based Foundation Model for Personalized Ranking and Recommendation",
+    "Description": "We will give a talk about our journey of building a foundation model for solving ranking and recommendation tasks across LinkedIn platform",
     "Session Format": "Talk",
     "Level": "Intermediate",
     "Scope": "Technical deep dive",
     "Assigned Track": "",
     "Room": "Golden Gate Ballroom A: LLM RecSys",
     "Scheduled At": "4 Jun 2025 12:05 PM",
-    "Speakers": "Mukuntha Narayanan, Han Wang",
-    "Companies": "Pinterest, Inc., Pinterest",
-    "Company Domains": "pinterest.com, pinterest.com",
-    "Titles": "Machine Learning Engineer, Machine Learning Engineer"
+    "Speakers": "Hamed Firooz, Maziar Sanjabi",
+    "Companies": "LinkedIn, LinkedIn",
+    "Company Domains": "gmail.com, gmail.com",
+    "Titles": "Principal AI Scientist, Principal Scientist"
   },
   {
     "Session ID": "937137",
@@ -1242,7 +897,142 @@
     "Speakers": "Eric Hou",
     "Companies": "Augment Code",
     "Company Domains": "augmentcode.com",
-    "Titles": "Engineer"
+    "Titles": "Builder"
+  },
+  {
+    "Session ID": "937506",
+    "Title": "Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing",
+    "Description": "This is a talk that goes over our experience deploying Orpheus (Emotive, Realtime TTS) to production. It will cover topics:\r\n\r\n- Latency and optimizations\r\n- High fidelity voice clones w/ examples\r\n- Load balancing w/ multiple GPUs and multiple LoRas",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Foothill E: Voice",
+    "Scheduled At": "4 Jun 2025 12:15 PM",
+    "Speakers": "Neil Dwyer, Jack Dwyer",
+    "Companies": "Gabber, Gabber",
+    "Company Domains": "gabber.dev, gabber.dev",
+    "Titles": "Founder, Product Marketer"
+  },
+  {
+    "Session ID": "933549",
+    "Title": "Agentic GraphRAG: AI’s Logical Edge",
+    "Description": "AI models are getting tasked to do increasingly complex and industry specific tasks where different retrieval approaches provide distinct advantages in accuracy, explainability, and cost to execute. GraphRAG retrieval models have become a powerful tool to solve domain specific problems where answers require logical reasoning and correlation that can be aided by graph relationships and proximity algorithms. We will demonstrate how an agent architecture combining RAG and GraphRAG retrieval patterns can bridge the gap in data analysis, strategic planning, and retrieval to solve complex domain specific problems.\t",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 12:45 PM",
+    "Speakers": "Stephen Chin",
+    "Companies": "Neo4j",
+    "Company Domains": "steve.chin.social",
+    "Titles": "VP of Developer Relations"
+  },
+  {
+    "Session ID": "933629",
+    "Title": "How to trust an agent with software delivery",
+    "Description": "AI-powered agents promise faster, easier software delivery, but their unpredictable behavior often makes engineers hesitant to fully trust them with critical workflows. Sam Alba, Co-founder of Dagger (and previously co-creator of Docker), explains how teams can reliably integrate agents into their delivery pipelines by shifting how they structure and manage automation.\r\n\r\nHe'll share four practical strategies learned from real-world experience:\r\n\r\n1. Treat agents as workflow participants, not isolated tools.\r\nStop using agents as disconnected scripts or IDE plugins. Treating them as first-class parts of your delivery process simplifies your architecture, reduces hidden complexity, and makes agent outcomes more predictable.\r\n\r\n2. Use many small agents instead of one big one.\r\nJust as software evolved from monoliths to microservices, software delivery benefits from smaller, specialized agents with clearly defined responsibilities. Smaller agents are easier to understand, maintain, and integrate.\r\n\r\n3. Define clear environments—the real lever for reliability.\r\nInstead of chasing perfect prompts or models, focus on clearly defining the tools, resources, and permissions around your agents. Precisely controlling their environments makes agents behave consistently and reliably.\r\n\r\n4. Design workflows for easy debugging and observability.\r\nAgents will sometimes fail unexpectedly. Sam will share simple, effective ways to build clear tracing and observability into your workflows from the start, making debugging quicker and less frustrating.\r\n\r\nYou'll leave with practical, immediately usable techniques that give you the confidence to trust AI agents in your software delivery pipelines.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 12:45 PM",
+    "Speakers": "Sam Alba",
+    "Companies": "Dagger",
+    "Company Domains": "dagger.io",
+    "Titles": "Co-founder"
+  },
+  {
+    "Session ID": "933716",
+    "Title": "How fast are LLM inference engines anyway?",
+    "Description": "Open weights models and open source inference servers have made massive strides in the year since we last got together at AIE World's Fair.\r\n\r\nWhere once we had only pirated LLaMA 2 weights and Transformers, we now have an embarrassment of riches. In fact, we have too many choices! What's an AI engineer looking to self-host inference to do?\r\n\r\nIn this session, we'll share our benchmarking results from hundreds of runs across models, frameworks, and hardware. We'll also share tips and tricks from working with teams deploying LLM inference at scale.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 12:45 PM",
+    "Speakers": "Charles Frye",
+    "Companies": "Modal Labs",
+    "Company Domains": "modal.com",
+    "Titles": "LLM Engineer"
+  },
+  {
+    "Session ID": "933621",
+    "Title": "Effective agent design patterns in production",
+    "Description": "At LlamaIndex we see a lot of agents built every day, and we've got a sense of what works and what doesn't. We've distilled those learnings down into a series of patterns and best practices for building real-world, production agents, and we're here to share them. You'll learn patterns for applying structure and guidance to famously nondeterministic LLMs and get concrete instruction on how to implement them.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 01:05 PM",
+    "Speakers": "Laurie Voss",
+    "Companies": "LlamaIndex",
+    "Company Domains": "llamaindex.com",
+    "Titles": "VP of Developer Relations"
+  },
+  {
+    "Session ID": "933652",
+    "Title": "Events are the Wrong Abstraction for Your AI Agents",
+    "Description": "AI Agents are distributed systems. Agents need to connect and communicate with tools, data repositories, other agents, etc., all over a network. Event-Driven Architecture is a common pattern for facilitating this connectivity, using Events as the communication abstraction. However, this pattern introduces complexities as well, such as fragmented logic, increased latency, decreased observability, and more. But what if there were a way to get the benefits of Event-Driven Architecture without the complexities? Enter Durable Execution. In this talk, we'll discuss the pitfalls of Event-Driven Architecture, how Durable Execution solves these issues, and why Durable Execution, not Events, is the correct abstraction for building AI Agents.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 01:05 PM",
+    "Speakers": "Mason Egger",
+    "Companies": "Temporal Technologies",
+    "Company Domains": "temporal.io",
+    "Titles": "Senior Developer Advocate"
+  },
+  {
+    "Session ID": "933669",
+    "Title": "\"Data readiness\" is a myth: Make AI Reliabile with an Agentic Semantic Layer",
+    "Description": "The rapid progress in LLM capability has not translated to increased reliability for business critical AI use cases. The root-cause? Data is \"not ready\".\r\nConversational analytics doesn't go beyond the analyst team because it's hard to verify if the generated queries are actually doing what they are supposed to.\r\nRAG based systems often fail to handle the breadth and depth of real world use-cases because it requires a prohibitive amount of preparation & maintenance of an underlying knowledge graph.\r\n\r\nAgentic AI systems need to hard-code specific workflows to work reliably and end up looking more like software engineering with LLM calls instead of delivering on the promise of truly agentic workflows.\r\n\r\nIn all of these failure modes, the common culprit is that the planning or reasoning done by the LLM fails to accurately capture the user's intent or the domain's context aka the lack of a well prepared semantic data layer.\r\n\r\nEnterprise data is silo-ed and vastly varying levels of quality and the perfect \"semantic layer\" and \"metadata\" is a moving target. New data is continuously being created and business definitions are rapidly changing and often entirely on-demand.\r\nIn this talk we'll share how you can build and maintain a semantic data layer that is maintained entirely by AI, and show (with live examples) how that dramatically improves reliability of the AI system that needs dynamic access to data.\r\nWe'll demonstrate how this sufficiently augments existing RAG, text-to-SQL and tool calling techniques and starts opening the door to reliable AI deployments.\r\n",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 01:05 PM",
+    "Speakers": "Anushrut Gupta",
+    "Companies": "Hasura",
+    "Company Domains": "hasura.io",
+    "Titles": "Applied AI Lead"
+  },
+  {
+    "Session ID": "933605",
+    "Title": "Data is Your Differentiator: Building Secure and Tailored AI Systems",
+    "Description": "As  organizations seek to harness their proprietary data while maintaining  security and compliance, Amazon Bedrock provides a comprehensive framework  for building tailored AI applications. Using Amazon Bedrock Knowledge Bases  and Amazon Bedrock Data Automation, organizations can create AI solutions  that truly understand their unique business context, terminology, and  requirements. Combined with Amazon Bedrock Guardrails, these capabilities  enhance the accuracy and relevance of AI-generated responses, while ensuring  that sensitive information remains protected within the organization's  control - enabling businesses to build secure and compliant enterprise-grade  generative AI solutions that accelerate time to value.",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 01:25 PM",
+    "Speakers": "Mani Khanuja",
+    "Companies": "AWS",
+    "Company Domains": "aws.amazon.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "933641",
+    "Title": "Revenue Engineering: How to Price (and Reprice) Your AI Product",
+    "Description": "You’ve trained the model—now it’s time to train the business. This talk dives into the engineering behind pricing systems that can evolve as fast as your AI stack.\r\n\r\nOrb CTO Kshitij Grover will walk through how leading AI companies design infrastructure to support experimentation, scale, and real-world monetization constraints.\r\n\r\nTopics include:\r\n- How to meter usage and map it to pricing with accuracy and auditability\r\n- Factoring in margins and underlying costs when designing pricing strategy\r\n- Handling complexity across motions: self-serve vs. enterprise, pay-as-you-go vs. committed contracts\r\n- How to test pricing changes safely (and roll them back when needed)\r\n\r\nWhether you’re bootstrapping a pricing system from scratch or replacing a brittle V1, you’ll leave with architectural patterns and mental models to make pricing a first-class engineering concern.\r\n",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 01:25 PM",
+    "Speakers": "Kshitij  Grover",
+    "Companies": "Orb",
+    "Company Domains": "orb.dev",
+    "Titles": "Co-Founder and CTO"
   },
   {
     "Session ID": "911925",
@@ -1272,7 +1062,7 @@
     "Speakers": "Chau Tran, Chau Tran",
     "Companies": "Glean, Glean",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "Software Engineer, Technical Lead on AI/Agents"
+    "Titles": "Software Engineer, Technical Lead on AI"
   },
   {
     "Session ID": "915648",
@@ -1287,7 +1077,7 @@
     "Speakers": "Ben Stein",
     "Companies": "Teammates",
     "Company Domains": "teammates.work",
-    "Titles": "Founder & CEO"
+    "Titles": "Founder and CEO"
   },
   {
     "Session ID": "915740",
@@ -1347,7 +1137,7 @@
     "Speakers": "Grant Lee",
     "Companies": "Gamma",
     "Company Domains": "gamma.app",
-    "Titles": "Founder & CEO"
+    "Titles": "Founder"
   },
   {
     "Session ID": "928676",
@@ -1380,19 +1170,19 @@
     "Titles": "Chief Technology Officer"
   },
   {
-    "Session ID": "936205",
-    "Title": "360Brew LLM-based Foundation Model for Personalized Ranking and Recommendation",
-    "Description": "We will give a talk about our journey of building a foundation model for solving ranking and recommendation tasks across LinkedIn platform",
+    "Session ID": "932583",
+    "Title": "One model to rule recommendations: Netflix's Big Bet",
+    "Description": "Discuss the foundation model strategy for personalization at Netflix based on this post https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39 and recent developments. ",
     "Session Format": "Talk",
-    "Level": "Intermediate",
+    "Level": "Expert",
     "Scope": "Technical deep dive",
     "Assigned Track": "",
     "Room": "Golden Gate Ballroom A: LLM RecSys",
     "Scheduled At": "4 Jun 2025 02:00 PM",
-    "Speakers": "Hamed Firooz, Maziar Sanjabi",
-    "Companies": "LinkedIn, LinkedIn",
-    "Company Domains": "gmail.com, gmail.com",
-    "Titles": "Principal AI Scientist, Principal Scientist"
+    "Speakers": "Yesu Feng",
+    "Companies": "Netflix",
+    "Company Domains": "netflix.com",
+    "Titles": "Staff Research Scientist/Engineer"
   },
   {
     "Session ID": "904822",
@@ -1437,7 +1227,7 @@
     "Speakers": "Kevin Madura, Mo Bhasin",
     "Companies": "AlixPartners, AlixPartners",
     "Company Domains": "alixpartners.com, gmail.com",
-    "Titles": "Technical Advisory Leader, Director of AI Products"
+    "Titles": "Technical Advisory Lead, Director of AI Products"
   },
   {
     "Session ID": "915013",
@@ -1500,6 +1290,21 @@
     "Titles": "Developer Advocate Manager"
   },
   {
+    "Session ID": "929231",
+    "Title": "Instacart’s LLM-driven approach to Search and Discovery",
+    "Description": "",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "LLM RecSys (03)",
+    "Room": "Golden Gate Ballroom A: LLM RecSys",
+    "Scheduled At": "4 Jun 2025 02:25 PM",
+    "Speakers": "Tejaswi Tenneti, Vinesh Gudla",
+    "Companies": "Instacart, Instacart",
+    "Company Domains": "instacart.com, instacart.com",
+    "Titles": "Director of Machine Learning, Staff Machine Learning Engineer"
+  },
+  {
     "Session ID": "932493",
     "Title": "Why ChatGPT Keeps Interrupting You",
     "Description": "ChatGPT Advanced Voice Mode isn’t interrupting just you. Interruptions, and turn-taking in general, are unsolved problems for all Voice AI agents. Nobody likes being cut short – and people have much less patience for machines than they do for other humans. Turn-taking failures take many forms (e.g., the agent interrupts the user, the agent mistakes a cough for an interruption), and all of them lead to users immediately hanging up the phone.\r\n\r\nIn this talk, we use human conversation as a framework for understanding both today’s approaches to turn detection and where the field is headed. You’ll learn about how linguists think about turn detection in human dialogue, what’s working (and what’s broken) in current methods, and how we might build Voice AIs that interrupt you less than your human brother. ",
@@ -1515,19 +1320,19 @@
     "Titles": "Product Manager"
   },
   {
-    "Session ID": "932583",
-    "Title": "One model to rule recommendations: Netflix's Big Bet",
-    "Description": "Discuss the foundation model strategy for personalization at Netflix based on this post https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39 and recent developments. ",
+    "Session ID": "906567",
+    "Title": "Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+ DAU",
+    "Description": "YouTube recommendations drive nearly two-thirds of the platform's staggering 5 billion daily watch hours for 2 billion+ DAU. Traditionally powered by large embedding models (LEMs), we're undertaking a fundamental shift: rebuilding our recommendation stack using foundation models like Gemini. This talk dives into our engineering journey adapting general-purpose LLMs (Gemini) for the highly specialized, dynamic, and massive-scale task of YouTube recommendations.\r\n\r\nWe'll start with a critical first step: creating a \"language\" for YouTube videos. Learn how we developed 'SemanticID', a novel tokenization scheme that distills multimodal video features (text, audio, frames) into discrete tokens representable by an LLM. Our paper (Better Generalization with Semantic IDs: A Case Study in Ranking for Recommendations) is a landmark work in this space.  \r\n\r\nWe then adapt the base Gemini checkpoint to understand sequences of these video tokens alongside natural language, effectively teaching it the grammar of user watch behavior. A key insight: unlike static LLM training, YouTube's corpus evolves so rapidly (millions of new videos daily) that daily retraining is non-negotiable to maintain recommendation quality.\r\n\r\nNow we can prompt LRM with user history and context to generate personalized candidate recommendations, achieving the biggest engagement wins on YouTube in the last ~decade. \r\n\r\nThere’s a lot of attention on the LLM-led transformation of Search (with AI Overviews, Perplexity, ChatGPT-Search etc). However, across large consumer apps, it’s the recommendation systems & feeds that drive most consumer engagement, not just search (eg. YouTube recs drive 67% of WatchTime). This talk is about the LLM-led transformation of recommendations & feeds – building a recommendation engine on top of Gemini.\r\n",
     "Session Format": "Talk",
-    "Level": "Expert",
+    "Level": "Advanced",
     "Scope": "Technical deep dive",
-    "Assigned Track": "",
+    "Assigned Track": "LLM RecSys (03)",
     "Room": "Golden Gate Ballroom A: LLM RecSys",
-    "Scheduled At": "4 Jun 2025 02:25 PM",
-    "Speakers": "Yesu Feng",
-    "Companies": "Netflix",
-    "Company Domains": "netflix.com",
-    "Titles": "Staff Research Scientist/Engineer"
+    "Scheduled At": "4 Jun 2025 02:50 PM",
+    "Speakers": "Devansh Tandon",
+    "Companies": "Google",
+    "Company Domains": "gmail.com",
+    "Titles": "Principal Product Manager"
   },
   {
     "Session ID": "912986",
@@ -1557,7 +1362,7 @@
     "Speakers": "Anoop Kotha",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Customer Solutions Engineer"
+    "Titles": "Customer Engineer"
   },
   {
     "Session ID": "915770",
@@ -1620,21 +1425,6 @@
     "Titles": "Founder and CEO"
   },
   {
-    "Session ID": "929231",
-    "Title": "Instacart’s LLM-driven approach to Search and Discovery",
-    "Description": "",
-    "Session Format": "Talk",
-    "Level": "Intermediate",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "LLM RecSys (03)",
-    "Room": "Golden Gate Ballroom A: LLM RecSys",
-    "Scheduled At": "4 Jun 2025 02:50 PM",
-    "Speakers": "Tejaswi Tenneti, Vinesh Gudla",
-    "Companies": "Instacart, Instacart",
-    "Company Domains": "instacart.com, instacart.com",
-    "Titles": "Director of Machine Learning, Staff Machine Learning Engineer"
-  },
-  {
     "Session ID": "933596",
     "Title": "Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat",
     "Description": "The Gemini Live API GA  is now powered by Google's best cost-effective thinking model Gemini 2.5 Flash. We will do a deep dive on the capabilities that the Gemini Live API combined with Pipecat unlock for devs with special focus on session management, turn detection, tool use (including async function calls), proactivity, multilinguality and integration with telephony and other infra. We will demo some of the more innovative capabilities. We will also talk through some customer use cases - especially how customers can use Pipecat to extend these realtime multimodal capabilities to client side applications such as customer support agents, gaming agents, tutoring agents etc. In addition, we also have an experimental version of the Live API powered by with Google's native audio offering that can be tried in an experimental capacity . This experimental model  can communicate with seamless, emotive, steerable, multilingual dialogue and enhances use cases where more natural voices can be a big differentiator. ",
@@ -1648,6 +1438,51 @@
     "Companies": "Daily",
     "Company Domains": "daily.co",
     "Titles": "Co-founder"
+  },
+  {
+    "Session ID": "933618",
+    "Title": "Conquering Agent Chaos",
+    "Description": "Agent deployments can be dicey, especially at first.  This session goes over all the things that cause headache with deployments from serverless issues to networking issues - and how we fix them.",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Product launch",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 03:15 PM",
+    "Speakers": "Rick Blalock",
+    "Companies": "unknown",
+    "Company Domains": "agentuity.com",
+    "Titles": "Founder"
+  },
+  {
+    "Session ID": "933625",
+    "Title": "Vector Search Benchmark[eting]",
+    "Description": "Every vector database out there is both faster and slower than any other competitor — if you believe all the benchmarketing out there.\r\nLet's turn the marketing into useful benchmarks that actually help you:\r\n1. How not to benchmark (spoiler: don’t trust the glossy charts).\r\n2. What’s uniquely tricky about benchmarking vector search.\r\n3. How to build meaningful benchmarks tailored to your use case.\r\n\r\nPS: Yes, you will have to get your hands dirty. Never believe a benchmark that you haven't tweaked yourself.",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 03:15 PM",
+    "Speakers": "Philipp Krenn",
+    "Companies": "Elastic",
+    "Company Domains": "xeraa.net",
+    "Titles": "Head of Developer Relations"
+  },
+  {
+    "Session ID": "936894",
+    "Title": "Taming Rogue AI Agents with Observability-Driven Evaluation",
+    "Description": "LLM agents often drift into failure when prompts, retrieval, external data, and policies interact in unpredictable ways. This session introduces a repeatable, metric-driven framework for detecting, diagnosing, and correcting these undesirable behaviors in agentic systems at production scale.",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 03:15 PM",
+    "Speakers": "Jim Bennett",
+    "Companies": "Galileo",
+    "Company Domains": "mac.com",
+    "Titles": "Principal Developer Advocate"
   },
   {
     "Session ID": "933612",
@@ -1668,10 +1503,10 @@
     "Session ID": "933675",
     "Title": "Windsurf everywhere, doing everything, all at once",
     "Description": "abstract tbd",
-    "Session Format": "Talk",
+    "Session Format": "Keynote",
     "Level": "Intermediate",
     "Scope": "Introductory (landscape)",
-    "Assigned Track": "Tiny Teams (01)",
+    "Assigned Track": "",
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
     "Scheduled At": "4 Jun 2025 04:20 PM",
     "Speakers": "Kevin Hou",
@@ -1692,7 +1527,7 @@
     "Speakers": "Logan Kilpatrick",
     "Companies": "Google",
     "Company Domains": "gmail.com",
-    "Titles": "Product Lead, Google AI Studio"
+    "Titles": "Product Lead for Google AI Studio"
   },
   {
     "Session ID": "916116",
@@ -1725,6 +1560,96 @@
     "Titles": "Founder and CEO"
   },
   {
+    "Session ID": "933462",
+    "Title": "The fastest software dev workflow in the world: AI meets stacked diffs",
+    "Description": "Learn the secrets behind the workflows that engineers at the fastest moving companies in the world are using to build software for billions of users worldwide. This workshop will cover a comprehensive overview of how to leverage generative AI to write code, how to stack and submit these pull requests, and finally how to use AI to review them.",
+    "Session Format": "Workshop",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 10:45 AM",
+    "Speakers": "Kenneth DuMez",
+    "Companies": "Graphite",
+    "Company Domains": "graphite.com",
+    "Titles": "Developer Relations Lead"
+  },
+  {
+    "Session ID": "933603",
+    "Title": "Introducing Strands Agents, an Open Source AI Agents SDK",
+    "Description": "Building AI agents used to require complex orchestration, extensive scaffolding, and months of tuning. With Strands Agents, an open source SDK from AWS. You can now build, test, and deploy intelligent agents in just a few lines of code. This session introduces the model-driven approach behind Strands, where a model, a prompt, and a set of tools are all you need to create powerful, production-ready agents. Learn how Strands leverages modern foundation models to handle reasoning, tool use, and reflection, reducing development time from months to days.",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 10:45 AM",
+    "Speakers": "Suman Debnath",
+    "Companies": "Amazon Web Services",
+    "Company Domains": "aws.amazon.com",
+    "Titles": "Principal Developer Advocate (AI/ML)"
+  },
+  {
+    "Session ID": "933646",
+    "Title": "Why Your Agent’s Brain Needs a Playbook: Practical Wins from Using Ontologies",
+    "Description": "You're trying to guide how your agents think and act. Code-orchestrated workflows are too rigid, but LLMs charting their own course feel too chaotic. When you need a middle ground, it’s time to reach for the secret weapon: ontologies. These graph-shaped fragments of actionable knowledge can fill in critical gaps.\r\n\r\nIn this talk, we’ll explore together how ontologies bring structure, semantics, and sanity to GenAI-powered applications. You’ll learn when they’re useful, how to apply them, and what kinds of problems they help solve. Through practical examples, we’ll show how ontologies (1) guide knowledge graph construction, (2) add a semantic layer for more efficient and accurate retrieval (GraphRAG), and (3) encode domain logic you don’t want to leave up to the LLM.",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 10:45 AM",
+    "Speakers": "Stephen Chin",
+    "Companies": "Neo4j",
+    "Company Domains": "steve.chin.social",
+    "Titles": "VP of Developer Relations"
+  },
+  {
+    "Session ID": "933589",
+    "Title": "Pipecat Cloud: Enterprise Voice Agents Built On Open Source",
+    "Description": "Voice AI agents today can conduct natural, human-like conversations and perform a wide variety of tasks: customer support, lead qualification, healthcare patient intake, market research, and more.\r\n\r\nToday's best voice agents combine: realtime responsiveness, open-ended conversational intelligence, reliable instruction following, and flexible integration with existing back-end systems.\r\n\r\nLearn how to build state of the art voice agents using Pipecat's open source, vendor neutral tooling. You can deploy Pipecat agents to your own infrastructure or to Pipecat Cloud.\r\n\r\nPipecat is used and supported by teams at NVIDIA, AWS, Google DeepMind, OpenAI, and hundreds of other companies.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Product launch",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 11:00 AM",
+    "Speakers": "Mark Backman, Kwindla Kramer",
+    "Companies": "Daily, Daily",
+    "Company Domains": "daily.co, daily.co",
+    "Titles": "VP of Product, Co-founder"
+  },
+  {
+    "Session ID": "933622",
+    "Title": "The Build-Run Divide: How Chime Bridges Product Vision and AI Operational Reality",
+    "Description": "Product leaders see AI possibilities. Operations teams see implementation nightmares. The chasm between these perspectives kills promising AI features before they reach users.\r\n\r\nIn this talk, Chris Hernandez (Manager of AI Speech Analytics at Chime) and Jeremy Silva (Product Lead at Freeplay) share an integrated framework we've developed across product strategy and operations at a leading neo-bank. You'll see how we transformed siloed processes into a unified approach that connects prototyping, evaluations, human review workflows, and model benchmarking from day one.\r\n\r\nWe'll reveal the collaborative tools built to make trade-off decisions visible, the evaluation metrics that satisfy both business and technical stakeholders, and the governance model that enabled us to ship AI features 3x faster. Learn how to create processes where product and operations strengthen each other rather than compete, and build AI capabilities that scale beyond individual features into organization-wide advantage.\r\n",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Case Study/War Story",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 11:00 AM",
+    "Speakers": "Chris Hernandez",
+    "Companies": "Chime",
+    "Company Domains": "chime.com",
+    "Titles": "Manager of AI Speech Analytics"
+  },
+  {
+    "Session ID": "933689",
+    "Title": "The State of AI-Powered Search and Retrieval",
+    "Description": "In this talk, we examine the state-of-the-art in AI-powered search and retrieval. We detail techniques for enhancing performance beyond base embedding models, including hybrid search, reranking strategies, query decomposition and document enrichment, the use of domain-specific and fine-tuned embeddings, custom data processing pipelines (ETL), and contextualized chunking methods.",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 11:00 AM",
+    "Speakers": "Frank Liu",
+    "Companies": "MongoDB",
+    "Company Domains": "mongodb.com",
+    "Titles": "Staff Product Manager"
+  },
+  {
     "Session ID": "910158",
     "Title": "The State of Generative Media Today",
     "Description": "Generative AI is reshaping the creative landscape, enabling the production of images, audio, and video with unprecedented speed and sophistication. This session offers an in-depth exploration of the current state of generative media, highlighting cutting-edge models, platforms, and tools that are transforming the industry. ",
@@ -1736,7 +1661,7 @@
     "Scheduled At": "5 Jun 2025 11:15 AM",
     "Speakers": "Gorkem Yurtseven",
     "Companies": "fal",
-    "Company Domains": "fal.com",
+    "Company Domains": "fal.ai",
     "Titles": "Co-founder and CTO"
   },
   {
@@ -1752,7 +1677,7 @@
     "Speakers": "Alvaro Morales",
     "Companies": "Orb",
     "Company Domains": "aircoverpr.com",
-    "Titles": "CEO and co-founder"
+    "Titles": "CEO and Co-founder"
   },
   {
     "Session ID": "914027",
@@ -1800,21 +1725,6 @@
     "Titles": "Research Engineering Lead"
   },
   {
-    "Session ID": "915934",
-    "Title": "Teaching Cars to Think: Language Models and Autonomous Vehicles",
-    "Description": "This session explores Waymo's latest research on the End-to-End Multimodal Model for Autonomous Driving (EMMA) and advanced sensor simulation techniques. Jyh-Jing Hwang will demonstrate how multimodal large language models like Gemini could improve autonomous driving through unified end-to-end architectures that process raw sensor data directly into driving decisions. \r\n\r\nThe presentation will showcase EMMA's state-of-the-art performance in trajectory planning, 3D object detection, and road graph understanding, as well as another Drive&Gen research approach to sensor simulation for evaluating an end-to-end motion planning model. Attendees will gain insights into the benefits of co-training across multiple autonomous driving tasks and the potential of controlled video generation for testing under various environmental conditions.\r\n\r\nMore on EMMA here: https://waymo.com/blog/2024/10/introducing-emma\r\n",
-    "Session Format": "Talk",
-    "Level": "Intermediate",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "Autonomy + Robotics (16)",
-    "Room": "Foothill E: Autonomy + Robotics",
-    "Scheduled At": "5 Jun 2025 11:15 AM",
-    "Speakers": "Jyh-Jing Hwang",
-    "Companies": "Waymo ",
-    "Company Domains": "google.com",
-    "Titles": "Research Scientist and Technical Lead Manager"
-  },
-  {
     "Session ID": "925259",
     "Title": "Building AI Agents that actually automate Knowledge Work",
     "Description": "Agents are all the rage in 2025, and every single b2b SaaS startup/incumbent promises AI agents that can \"automate work\" in some way. \r\n\r\nBut how do you actually build this? The answer is two fold: \r\n1. really really good tools \r\n2. carefully tailored agent reasoning over these tools that range from assistant-to-automation based UXs.  \r\n\r\nThe main goal of this talk is to a practical overview of agent architectures that can automate real-world work, with a focus on document-centric tasks. Learn the core building blocks of best-in-class \"tools\" around processing, manipulating, and indexing/retrieving PDFs to Excel spreadsheets. Also learn the range of agent architectures suited for different tasks, from chat assistant-based UXs with high human-in-the-loop, to automation UXs that rely on encoding a business process into an end-to-end task solver. These architectures have to be generalizable but also highly accurate as agents get increasingly better at reasoning and code-writing. ",
@@ -1845,6 +1755,21 @@
     "Titles": "Co-founder and CEO"
   },
   {
+    "Session ID": "938258",
+    "Title": "Robotics: why now?",
+    "Description": "Sharing recent progress from Physical Intelligence and why it is an exciting time to push the frontier in general purpose robotics",
+    "Session Format": "Keynote",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Foothill E: Autonomy + Robotics",
+    "Scheduled At": "5 Jun 2025 11:15 AM",
+    "Speakers": "Quan Vuong",
+    "Companies": "Physical Intelligence",
+    "Company Domains": "physicalintelligence.company",
+    "Titles": "Co-founder"
+  },
+  {
     "Session ID": "903966",
     "Title": "Scaling Enterprise-Grade RAG Systems: Lessons from the Legal Frontier",
     "Description": "In domains like law, compliance, and tax, building enterprise-grade RAG means very large scale, spikey workloads, a focus on accuracy, and non-negotiable privacy.\r\nIn this talk, we'll share war stories and battle scars of how Harvey has built the world's most advanced AI agents for the legal profession on top of a highly optimized retrieval architecture. We'll cover how to get better retrieval via both sparse and dense retrieval methods, why domain-specific reranking is essential, and how to handle ambiguity in real-world queries.\r\nWe'll also touch on how LanceDB's search engine enables this architecture by delivering low-latency, high-throughput retrieval across millions of documents of varying sizes without compromising privacy. This solid foundation enables Harvey to build a product that brings highly accurate answers to hundreds of law firms and professional services firms across 45 countries.",
@@ -1857,7 +1782,7 @@
     "Speakers": "Chang She, Aman Kishore, Calvin Qi",
     "Companies": "LanceDB, Harvey AI, Harvey AI",
     "Company Domains": "lancedb.com, harvey.ai, harvey.ai",
-    "Titles": "Co-founder, Founder, RAG Specialist"
+    "Titles": "Co-author of Pandas, Builder of LanceDB, Former Founder, Retrieval Augmented Generation Specialist"
   },
   {
     "Session ID": "904751",
@@ -1915,9 +1840,9 @@
     "Room": "SOMA: AI Architects",
     "Scheduled At": "5 Jun 2025 11:35 AM",
     "Speakers": "Sahil Yadav, Hariharan Ganesan",
-    "Companies": "TelemeTrak, NA",
+    "Companies": "AOI, NA",
     "Company Domains": "outlook.com, umich.edu",
-    "Titles": "Chief Product Officer, Sr. Solutions Architect"
+    "Titles": "Head of Software Products, Sr. Solutions Architect"
   },
   {
     "Session ID": "910197",
@@ -1932,7 +1857,7 @@
     "Speakers": "Kelvin Ma",
     "Companies": "Google Photos",
     "Company Domains": "gmail.com",
-    "Titles": "Technical Lead, Creative Expressions Team"
+    "Titles": "Technical Lead, Creative Expressions team, Google Photos"
   },
   {
     "Session ID": "914786",
@@ -1992,7 +1917,7 @@
     "Speakers": "Rafal Wilinski, Vitor Balocco",
     "Companies": "Zapier, Zapier",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "AI Tech Lead for Zapier Agents, Staff Software Engineer, AI R&D Team"
+    "Titles": "AI Tech Lead for Zapier Agents, Staff Software Engineer, AI R&D"
   },
   {
     "Session ID": "913839",
@@ -2007,7 +1932,7 @@
     "Speakers": "Julia Neagu, Deanna Emery, Maitar Asher",
     "Companies": "Quotient AI, Quotient AI, Tavily",
     "Company Domains": "quotientai.co, quotientai.co, tavily.com",
-    "Titles": "Co-founder and CEO, Founding AI Researcher, Head of Engineering"
+    "Titles": "Co-founder and CEO, Founding AI Researcher, Founding Member and Head of Engineering"
   },
   {
     "Session ID": "914912",
@@ -2097,7 +2022,7 @@
     "Speakers": "Misha  Laskin",
     "Companies": "Reflection",
     "Company Domains": "reflection.ai",
-    "Titles": "CEO"
+    "Titles": "Co-founder and CEO"
   },
   {
     "Session ID": "916103",
@@ -2126,7 +2051,7 @@
     "Scheduled At": "5 Jun 2025 12:15 PM",
     "Speakers": "Tomas Reimers",
     "Companies": "Graphite",
-    "Company Domains": "graphite.com",
+    "Company Domains": "graphite.dev",
     "Titles": "CPO and Co-founder"
   },
   {
@@ -2140,7 +2065,7 @@
     "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
     "Scheduled At": "5 Jun 2025 12:15 PM",
     "Speakers": "Mike Chambers",
-    "Companies": "AWS",
+    "Companies": "Amazon Web Services",
     "Company Domains": "aws.amazon.com",
     "Titles": "Senior Developer Advocate and Generative AI Specialist"
   },
@@ -2184,10 +2109,100 @@
     "Assigned Track": "",
     "Room": "Foothill C: Security",
     "Scheduled At": "5 Jun 2025 12:15 PM",
-    "Speakers": "Okta  Speaker",
-    "Companies": "Okta",
-    "Company Domains": "okta.com",
-    "Titles": "unknown"
+    "Speakers": "Bobby Tiernay, Kameron Sween",
+    "Companies": "Okta (Auth0), Okta",
+    "Company Domains": "okta.com, okta.com",
+    "Titles": "Architect, unknown"
+  },
+  {
+    "Session ID": "933580",
+    "Title": "Optimizing inference for voice models in production",
+    "Description": "How do you get time to first byte (TTFB) below 150 milliseconds for voice models -- and scale it in production? As it turns out, open-source TTS models like Orpheus have an LLM backbone that lets us use familiar tools and optimizations like TensorRT-LLM and FP8 quantization to serve the models with low latency. But client code, network infrastructure, and other outside-the-GPU factors can introduce latency in the production stack. In this talk, we'll cover the basic mechanics of TTS inference, common pitfalls to avoid in integrating them into production systems, and how to extend this high-performance system to serve customized models with voice cloning and fine-tuning.",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 12:30 PM",
+    "Speakers": "Philip Kiely",
+    "Companies": "Baseten",
+    "Company Domains": "baseten.co",
+    "Titles": "Head of Developer Relations"
+  },
+  {
+    "Session ID": "933599",
+    "Title": "Serving Voice  AI at Scale",
+    "Description": "Real-Time  Voice AI applications demand the lowest possible latencies to enhance user  experiences with more advanced reasoning and agentic capabilities. AWS is  hosting Arjun Desai, CTO and co-founder of Cartesia, in a fireside chat for a  technical deep dive into learnings and best practices for building a  state-of-the-art inference stack that serves global enterprise customers.",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 12:30 PM",
+    "Speakers": "Arjun Desai",
+    "Companies": "Cartesia",
+    "Company Domains": "cartesia.ai",
+    "Titles": "CTO and Co-founder"
+  },
+  {
+    "Session ID": "933712",
+    "Title": "Prompt Engineering is Dead",
+    "Description": "Manual prompt crafting doesn't scale. In this session, we'll explore how to replace it with a test-driven, automated approach. You'll see how to define output evaluators, write minimal prompts, and let agents iterate toward optimal performance—all without manual tweaking. If you're still hand-tuning prompts, you're doing it wrong.",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 12:30 PM",
+    "Speakers": "Nir Gazit",
+    "Companies": "Traceloop",
+    "Company Domains": "traceloop.ai",
+    "Titles": "CEO"
+  },
+  {
+    "Session ID": "933569",
+    "Title": "Building CISO-approved agent fleet architecture",
+    "Description": "Security is the biggest blocker for agent orchestration adoption in regulated industries for SWE agents. Gitpod's agent orchestration went from an originally self-hosted kubernetes architecture to the current 'bring your own cloud' model that enables deployment our SWE agent orchestration platform in secure environments. The architecture allows customers to securely connect their foundational models and agent memory solutions and comes with features like auto-suspend and resume for agent fleets. In this talk we deep dive into the architecture to share our years of learnings in how to secure agent workloads at scale in secure and regulated environments. ",
+    "Session Format": "",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 12:45 PM",
+    "Speakers": "Lou Bichard",
+    "Companies": "Gitpod",
+    "Company Domains": "gitpod.io",
+    "Titles": "Product Manager"
+  },
+  {
+    "Session ID": "933656",
+    "Title": "Agents, Access, and the Future of Machine Identity",
+    "Description": "AI agents are calling APIs, submitting forms, and sending emails—but how do you control what they’re allowed to do? As agents act on behalf of users or organizations, traditional patterns like OAuth, session tokens, and role-based access often fall short.\r\nIn this talk, we’ll explore how machine identity is evolving to meet this new landscape. You’ll learn:\r\n\r\n- How to think about authentication for agents (not just humans)\r\n- What it means to authorize an action when the actor is an LLM or headless service\r\n- Real-world strategies from WorkOS and Cloudflare for assigning, managing, and revoking agent identity and access\r\n\r\nBy the end, you’ll walk away with practical tools and mental models to build agent-powered systems that are secure, auditable, and scalable.",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 12:45 PM",
+    "Speakers": "Nick Nisi",
+    "Companies": "WorkOS ",
+    "Company Domains": "nisi.org",
+    "Titles": "Software Engineer"
+  },
+  {
+    "Session ID": "933671",
+    "Title": "Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data",
+    "Description": "Agentic workflows often become complex, brittle, and hard to maintain when they need to retrieve and reason across both structured data (typically requiring precise query execution) and unstructured data (commonly handled via vector search in RAG). In this talk, we’ll explore how mapping key information into a knowledge graph can simplify these workflows and improve retrieval quality. You’ll learn core concepts behind GraphRAG, how to integrate it into agent tools, and get access to end-to-end code examples so you can start building right away.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 12:45 PM",
+    "Speakers": "Zach Blumenfeld",
+    "Companies": "Neo4j",
+    "Company Domains": "neo4j.com",
+    "Titles": "AI/ML Graph Specialist"
   },
   {
     "Session ID": "913351",
@@ -2295,6 +2310,21 @@
     "Titles": "Software Engineer"
   },
   {
+    "Session ID": "915934",
+    "Title": "Teaching Cars to Think: Language Models and Autonomous Vehicles",
+    "Description": "This session explores Waymo's latest research on the End-to-End Multimodal Model for Autonomous Driving (EMMA) and advanced sensor simulation techniques. Jyh-Jing Hwang will demonstrate how multimodal large language models like Gemini could improve autonomous driving through unified end-to-end architectures that process raw sensor data directly into driving decisions. \r\n\r\nThe presentation will showcase EMMA's state-of-the-art performance in trajectory planning, 3D object detection, and road graph understanding, as well as another Drive&Gen research approach to sensor simulation for evaluating an end-to-end motion planning model. Attendees will gain insights into the benefits of co-training across multiple autonomous driving tasks and the potential of controlled video generation for testing under various environmental conditions.\r\n\r\nMore on EMMA here: https://waymo.com/blog/2024/10/introducing-emma\r\n",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "Autonomy + Robotics (16)",
+    "Room": "Foothill E: Autonomy + Robotics",
+    "Scheduled At": "5 Jun 2025 02:00 PM",
+    "Speakers": "Jyh-Jing Hwang",
+    "Companies": "Waymo ",
+    "Company Domains": "google.com",
+    "Titles": "Research Scientist and Technical Lead Manager"
+  },
+  {
     "Session ID": "916215",
     "Title": "Ingest, Chunk, Retrieve: How We Built an AI Sales Rep that Trains Herself",
     "Description": "AI agents and digital workers are becoming an essential tool for teams of all sizes and across all industries. However, training these agents to become experts in your product, business, and customers remains a significant challenge. But what if onboarding a digital worker was as simple as uploading your pitch deck? At 11x, we built Alice, an AI sales rep that writes outbound emails with the nuance and context of a top-performing human - because she learns like one too.\r\n\r\nIn this talk, we'll share how we built a RAG system that lets users train Alice on their internal materials: PDFs, websites, call recordings, and more. We'll walk through our ingestion flow, OCR and chunking pipeline, and explain how we leveraged different technologies and vendors to support a wide-range of file types. We'll also discuss how we leveraged Pinecone and other vector embedding technologies to drive relevant, high-performing messaging. Finally, I'll share what we’ve learned running this system in production across 300+ customers and over 1m prospect interactions each month.",
@@ -2394,10 +2424,10 @@
     "Assigned Track": "AI Architects (L1)",
     "Room": "SOMA: AI Architects",
     "Scheduled At": "5 Jun 2025 02:25 PM",
-    "Speakers": "Ben Hylak",
-    "Companies": "Raindrop.ai",
-    "Company Domains": "dawnai.com",
-    "Titles": "Co-founder"
+    "Speakers": "Ben Hylak, Sid Bendre",
+    "Companies": "Raindrop.ai, Oleve",
+    "Company Domains": "dawnai.com, oleve.co",
+    "Titles": "Co-founder, Co-founder, Head of Platform"
   },
   {
     "Session ID": "925912",
@@ -2441,7 +2471,7 @@
     "Scheduled At": "5 Jun 2025 02:25 PM",
     "Speakers": "Steve  Ruiz",
     "Companies": "tldraw",
-    "Company Domains": "tldraw.com",
+    "Company Domains": "tldraw.computer",
     "Titles": "unknown"
   },
   {
@@ -2476,7 +2506,7 @@
   },
   {
     "Session ID": "914798",
-    "Title": "Operationalizing AI Interpretability with Neural Programming Interfaces (NPIs)",
+    "Title": "Operationalizing AI Interpretability",
     "Description": "Mechanistic interpretability is a frontier field that aims to reverse engineer neural networks. At Goodfire, we're operationalizing the latest in interpretability research by building Ember: the universal platform for neural programming. Ember decodes the neurons of an AI model to give direct, programmable access to its internal representations.\r\nIn this talk, we'll share more about what's unlocked by moving beyond black-box inputs and outputs, including entirely new ways to apply, train, and align AI models. We're excited for a future in which neural programming allows users to discover new knowledge hidden in their model, precisely shape its behaviors, and improve its performance. ",
     "Session Format": "Talk",
     "Level": "Intermediate",
@@ -2532,7 +2562,7 @@
     "Speakers": "Alex Duffy",
     "Companies": "Every Inc.",
     "Company Domains": "every.to",
-    "Titles": "Head of AI Strategy"
+    "Titles": "Lead AI Strategy"
   },
   {
     "Session ID": "916104",
@@ -2562,7 +2592,52 @@
     "Speakers": "Rita  Kozlov",
     "Companies": "cloudflare",
     "Company Domains": "gmail.com",
-    "Titles": "Platform Developer"
+    "Titles": "Platform Engineer"
+  },
+  {
+    "Session ID": "915826",
+    "Title": "CI in the Era of AI: From Unit Tests to Stochastic Evals",
+    "Description": "Software engineers have long understood that high-quality code requires comprehensive automated testing. For decades, our industry has relied on deterministic tests with clear pass/fail outcomes to ensure reliability. \r\n\r\nHigh-quality software depends on automated testing. That's certainly true at Zed, where we're building a next-generation native IDE in Rust. Zed runs at 120 frames per second, but it would also crash once a second if we didn't maintain and run a comprehensive suite of unit tests on every change.\r\n\r\nBut what happens when AI enters the equation?\r\n\r\nIn this talk, we'll explore how continuous integration evolves when working with AI components. \"Evals\" - parlance from the machine learning field - are fundamentally a continuation of the software testing tradition, but with a critical difference: they're inherently stochastic.\r\n\r\nZed's traditional CI goes to extreme lengths to eliminate non-determinism, as nobody likes having their pull requests blocked by flaky builds. We've even fully simulated network interactions with a deterministic random scheduler. AI components, however, forced us to confront a fundamental paradigm shift—uncertainty isn't a bug but an intrinsic feature of these systems, compelling us to embrace what we couldn't avoid.\r\n\r\nWe'll share our journey of reconceptualizing evals as \"stochastic unit tests\" - still verifying system behavior, but without binary pass/fail grades.\r\n\r\nWe'll discuss practical approaches to:\r\n- Thoughtfully building test suites for AI components\r\n- Shifting from red/green outcomes to \"shades of gray\"\r\n- Replacing build gates with trend analysis and performance monitoring\r\n- Maintaining engineering confidence despite statistical variance\r\n\r\nWhether you're incorporating AI into existing systems or building new AI-powered tools, this talk will provide practical insights into maintaining quality when determinism gives way to probability.",
+    "Session Format": "Online Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Juniper: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 03:15 PM",
+    "Speakers": "Nathan Sobo",
+    "Companies": "GitHub",
+    "Company Domains": "github.com",
+    "Titles": "Software Engineer / Former Lead of Atom Team"
+  },
+  {
+    "Session ID": "933474",
+    "Title": "Cattle, not genies: building AI agents from first principles",
+    "Description": "As magical as they may seem, AI agents should be treated like any other software system. This talk will cover the best practices in designing and building AI systems including observability, security hardening, and proper UX.",
+    "Session Format": "",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 03:15 PM",
+    "Speakers": "Kenneth DuMez",
+    "Companies": "Graphite",
+    "Company Domains": "graphite.com",
+    "Titles": "Developer Relations Lead"
+  },
+  {
+    "Session ID": "933575",
+    "Title": "Amping it up: an experimental research demo of coding agents to uplevel humans building software",
+    "Description": "If you're attending this conference, you've probably used agents to build new apps from scratch. Or fix a bug in your existing app. Or add a new feature. Or migrate some dependencies. Or review a messy code change to catch subtle bugs. Or grok a big legacy codebase. But have you tried to do all these things at once, in parallel, in front of a live audience? Come watch the spectacle as we redline context windows and try to stretch the power of LLMs and agentic tool use as far as we can",
+    "Session Format": "",
+    "Level": "Introductory and overview",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Willow: Expo Sessions",
+    "Scheduled At": "5 Jun 2025 03:30 PM",
+    "Speakers": "Beyang Liu",
+    "Companies": "Sourcegraph",
+    "Company Domains": "sourcegraph.com",
+    "Titles": "Co-founder and CTO"
   },
   {
     "Session ID": "936564",
