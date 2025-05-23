@@ -1,3 +1,4 @@
+
 // [INFO][2025-05-20T10:17:04-07:00][schedule.tsx]
 // This page provides a dedicated /schedule route with the official schedule iframe embedded.
 // Assumes the app uses ChoosePrimaryLayout for header/footer and meta, as seen in other pages.
@@ -30,8 +31,9 @@ const ScheduleViewButton: React.FC<ScheduleViewButtonProps> = ({
   onClick,
 }) => (
   <button
+    key={activeView}
     onClick={onClick}
-    className={`px-4 py-2 rounded-md transition-colors ${
+    className={`px-4 py-2 rounded-md cursor-pointer transition-colors ${
       activeView === viewName
         ? 'bg-blue-600 text-white border border-blue-600'
         : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
@@ -44,7 +46,7 @@ const ScheduleViewButton: React.FC<ScheduleViewButtonProps> = ({
 const SchedulePage: NextPage = () => {
   const [activeView, setActiveView] = useLocalStorage<ScheduleView>(
     'scheduleView',
-    'list' as ScheduleView
+    'calendar' as ScheduleView
   );
   const [iframeContent, setIframeContent] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -117,7 +119,7 @@ const SchedulePage: NextPage = () => {
 }
 
 #sessionize.sessionize-wrapper a {
-    color: inherit;
+    color: #111;
     text-decoration: none;
     border-bottom: none;
     transition: all .15s ease-in
@@ -949,7 +951,7 @@ const SchedulePage: NextPage = () => {
     font-size: 20px;
     line-height: 1.25;
     font-weight: bold;
-    color: #e8e9e9
+    color: #111
 }
 
 #sessionize.sessionize-wrapper .sz-speaker.sz-speaker--full .sz-speaker__tagline {
@@ -1559,10 +1561,10 @@ const SchedulePage: NextPage = () => {
           // if (html.includes('</body>')) {
           //   html = html.replace('</body>', `${customScript}</body>`);
           // } else {
-          //   // Strip out any <script> tags for safety before injecting
-          //   html = html.replace(/<script[\s\S]*?>[\s\S]*?<\/script>/gi, '');
           //   // If no body tag, just append our content
           // }
+          // Strip out any <script> tags for safety before injecting
+          // html = html.replace(/<style[\s\S]*?>[\s\S]*?<\/style>/gi, '');
           html = customScript + html;
         }
         
@@ -1664,16 +1666,16 @@ const SchedulePage: NextPage = () => {
               label="Calendar"
               onClick={() => setActiveView("calendar" as ScheduleView)}
             />
-            <ScheduleViewButton 
+            {/* <ScheduleViewButton 
               activeView={activeView}
               viewName="list"
               label="List"
               onClick={() => setActiveView("list" as ScheduleView)}
-            />
+            /> */}
             <ScheduleViewButton 
               activeView={activeView}
               viewName="detailed"
-              label="List with Descriptions"
+              label="Long list with Descriptions"
               onClick={() => setActiveView("detailed" as ScheduleView)}
             />
           </div>
