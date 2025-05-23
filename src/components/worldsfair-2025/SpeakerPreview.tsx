@@ -455,13 +455,19 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
               <li key={presenter.id}>
                 <div className="group relative overflow-hidden rounded-lg lg:rounded-xl bg-neutral-100">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    suppressHydrationWarning={true}
-                    alt={name}
-                    loading="lazy"
-                    src={url}
-                    className="h-32 lg:h-48 w-full object-cover transition duration-500 motion-safe:group-hover:scale-105"
-                  />
+                  {url && url !== 'not available' ? (
+                    <img
+                      suppressHydrationWarning={true}
+                      alt={name}
+                      loading="lazy"
+                      src={url}
+                      className="h-32 lg:h-48 w-full object-cover transition duration-500 motion-safe:group-hover:scale-105"
+                    />
+                  ) : (
+                    <div className="h-32 lg:h-48 w-full flex items-center justify-center bg-neutral-200 text-neutral-400 text-xl">
+                      <span className="opacity-60">No Photo</span>
+                    </div>
+                  )}
                   <div className="absolute inset-0 bg-linear-to-t from-black to-transparent"></div>
                   <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-black to-black/0 to-40% p-2 lg:py-2 lg:px-4">
                     
@@ -478,15 +484,15 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
                       </span>
                       <br suppressHydrationWarning={true} />
                       <em className="hidden group-hover:block text-xs" suppressHydrationWarning={true}>
-  {sessions.data[0]?.attributes.title}
-{/* Profile picture view: show only Scheduled At if present */}
-{sessions.data[0]?.attributes.scheduledAt && (
-  <span className="block text-[0.6rem] text-blue-200 mt-1" suppressHydrationWarning={true}>
-    {/* <b>Scheduled At:</b>  */}
-    {sessions.data[0]?.attributes.scheduledAt}
-  </span>
-)}
-</em>
+                      {sessions.data[0]?.attributes.title}
+                    {/* Profile picture view: show only Scheduled At if present */}
+                    {sessions.data[0]?.attributes.scheduledAt && (
+                      <span className="block text-[0.6rem] text-blue-200 mt-1" suppressHydrationWarning={true}>
+                        {/* <b>Scheduled At:</b>  */}
+                        {sessions.data[0]?.attributes.scheduledAt}
+                      </span>
+                    )}
+                    </em>
 
                     </p>
                     {/* <p className={`font-display font-semibold tracking-wide text-white ${name.length > 10 ? 'text-xs' : 'text-base/6'}`}> */}
