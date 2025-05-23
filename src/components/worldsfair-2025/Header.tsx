@@ -95,7 +95,7 @@ export function Header({ path, alwaysShow }: Props) {
                   <>
                     <Link
                       className="font-bold max-lg:hidden"
-                      href={'/llms.txt'}
+                      href={'/llms'}
                     >
                       llms.txt
                     </Link>
@@ -238,7 +238,7 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
               Speakers
             </NavLink> */}
             {/* <NavLink href={"/llms.txt"} onClick={() => setNavOpen(false)}> */}
-            <NavLink href={"/llms.txt"} onClick={() => setNavOpen(false)}>
+            <NavLink href={"/llms"} onClick={() => setNavOpen(false)}>
               llms.txt
             </NavLink>
             <NavLink href={SPONSORS_URL} onClick={() => setNavOpen(false)}>
