@@ -115,9 +115,11 @@ export function VenueAndHotel() {
               <span className="line-through">We had a limited hotel number of rooms at the Marriott Marquis (also the conf venue) 
               available for a negotiated rate of $399 from May 29-Jun 7. </span> 
               <br />
-              We also have a limited number of overflow hotel rooms at the Hilton Parc 55, a 7-minute walk away, for
+              <span className="line-through">We also had a limited number of overflow hotel rooms at the Hilton Parc 55, a 7-minute walk away, for
               $319 and at the Beacon Grand, a 10-minute walk away, for
-              $289 - Type in Group Code: <span className="font-mono font-bold">0601AEWF</span>!
+              $289 - Type in Group Code: <span className="font-mono font-bold">0601AEWF</span>!</span>
+              <br />
+              <span className="font-bold">All our hotel room blocks are now sold out.</span>
             </p>
           </div>
         </div>
@@ -137,20 +139,22 @@ export function VenueAndHotel() {
             </Button>
             
             <Button
-              invert
               border
-              href="https://book.passkey.com/go/AIworldsfair"
+              // href="https://book.passkey.com/go/AIworldsfair"
               target="_blank"
+              className="line-through cursor-default"
+              disabled={true}
             >
-              Hilton Parc 55
+              Hilton Parc 55 (sold out)
             </Button>
             <Button
-              invert
               border
-              href="https://www.beacongrand.com/group-blocks"
+              // href="https://www.beacongrand.com/group-blocks"
               target="_blank"
+              className="line-through cursor-default"
+              disabled={true}
             >
-              Beacon Grand (Code: 0601AEWF)
+              Beacon Grand (sold out)
             </Button>
           </div>
         </div>
