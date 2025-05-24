@@ -9,8 +9,8 @@ import { Button } from '../Button';
 
 export function VenueAndHotel() {
   return (
-    <div className="space-y-12">
-      <header className="space-y-4">
+    <div className="space-y-12" id="venue">
+      <header className="space-y-4" id="hotels">
         <div className="text-gray-on-white text-2xl">Venue & Hotel</div>
         <h1 className="text-6xl font-bold">The Marriott Marquis</h1>
         <div className="flex  gap-1 flex-col md:flex-row md:gap-3 md:items-center">
