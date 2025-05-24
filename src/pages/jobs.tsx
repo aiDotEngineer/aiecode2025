@@ -190,7 +190,7 @@ const data = [
       linkUrl: "https://jobs.ashbyhq.com/Ampersand/91ad641a-cd99-4e3b-b695-ba096e995dc2",
     },{
       title: "AI Engineer",
-      description: <>  <p>If you’re an AI enthusiast who loves playing with<b>cutting-edge tech</b>, a <b>product-minded generalist</b> who enjoys hopping across the stack, and a builder who ships <b>quality code quickly</b> this is the role for you. In return, you’ll get outsized scope, a front-row seat to shaping the connectivity layer for AI, and meaningful equity at the ground floor.</p>
+      description: <>  <p>If you’re an AI enthusiast who loves playing with <b>cutting-edge tech</b>, a <b>product-minded generalist</b> who enjoys hopping across the stack, and a builder who ships <b>quality code quickly</b> this is the role for you. In return, you’ll get outsized scope, a front-row seat to shaping the connectivity layer for AI, and meaningful equity at the ground floor.</p>
       </>,
       linkUrl: "https://jobs.ashbyhq.com/Ampersand/cf716270-9b3c-4d29-9aeb-d38bb6dc59a7",
     }]
