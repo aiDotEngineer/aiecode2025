@@ -110,36 +110,6 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   //   ]
   // },
   {
-    "Name": "Christian Szegedy",
-    "Company": "x.AI",
-    "Domain": "x.AI",
-    "Tagline": "Former cofounder",
-    "ProfilePicture": "/wf25speakers/christian_szegedy.jpg",
-    "Sessions": [
-      {
-        "Title": "Verified Superintelligence",
-        "Format": "Keynote",
-        "Description": "Christian Szegedy discusses approaches to building and verifying superintelligent AI systems.",
-        "Tracks": "Reasoning+RL"
-      }
-    ]
-  },
-  {
-    "Name": "Harrison Chase",
-    "Company": "LangChain",
-    "Domain": "langchain.com",
-    "Tagline": "CEO",
-    "ProfilePicture": "/wf25speakers/harrison_chase.webp", 
-    "Sessions": [
-      {
-        "Title": "Ambient Agents",
-        "Format": "",
-        "Description": "Harrison Chase demonstrates the power of LangChain in creating sophisticated applications with Large Language Models.",
-        "Tracks": "AI in Fortune 500"
-      }
-    ]
-  },
-  {
     "Name": "Den Delimarsky",
     "Company": "Microsoft",
     "Domain": "microsoft.com",
