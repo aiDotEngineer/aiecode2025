@@ -185,21 +185,6 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
     ]
   },
   {
-    "Name": "Boris Cherny",
-    "Company": "Anthropic",
-    "Domain": "anthropic.com", 
-    "Tagline": "Claude Code",
-    "ProfilePicture": "/wf25speakers/boris_cherny.jpg",
-    "Sessions": [
-      {
-        "Title": "Claude Code (tba)",
-        "Format": "Talk",
-        "Description": "Boris Cherny discusses advancements and applications of Claude Code by Anthropic.",
-        "Tracks": "SWE Agents"
-      }
-    ]
-  },
-  {
     "Name": "swyx",
     "Company": "smol.ai",
     "Domain": "latent.space", 
