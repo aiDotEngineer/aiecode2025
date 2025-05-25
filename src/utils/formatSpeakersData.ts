@@ -66,7 +66,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Greg Brockman": 1000,
   "Kevin Hou": 1000,
   "Jack Rae": 1000,
-  // [INFO] Prioritize Logan Kilpatrick (Google DeepMind, AI Studio Lead, Gemini 2.5)
+  "Asha Sharma": 1000,
   "Logan Kilpatrick": 900,
   "Harrison Chase": 900,
   "Christian Szegedy": 900,
