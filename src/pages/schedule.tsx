@@ -1660,16 +1660,14 @@ const SchedulePage: NextPage = () => {
               For hackers:{' '}
               <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a>{' '}
               (or{' '}
-              <a href="https://sessionize.com/api/v2/w3hd2z8a/view/All" className="underline hover:text-blue-800">raw JSON</a>) for your own vibecoded view, 
-              like{' '}
-              <a href="https://aie-swipe.vercel.app/" className="underline hover:text-blue-800">@noodlesoup's app</a>. 
+              <a href="https://sessionize.com/api/v2/w3hd2z8a/view/All" className="underline hover:text-blue-800">raw JSON</a>) for your own vibecoded view!
               We manually update this JSON dump regularly but the Sessionize schedule is the most up to date source of truth.
             </p>  
           </div>
 
           {/* Schedule View Tabs */}
           <div className="flex justify-center space-x-2 mb-4 items-center gap-2">
-            Views:
+            Official Views:
             <ScheduleViewButton 
               activeView={activeView}
               viewName="calendar"
@@ -1688,6 +1686,11 @@ const SchedulePage: NextPage = () => {
               label="Long list with Descriptions"
               onClick={() => setActiveView("detailed" as ScheduleView)}
             />
+          </div>
+          <div className="max-w-md mx-auto mb-4 gap-2">
+            Unofficial Views:
+            {' '}
+              <a href="https://aie-swipe.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@noodlesoup's app</a> (Tinder-style talk discovery)  or <a href="https://worlds-fair-schedule.agpallav.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@pallavmac's app</a> (list+bookmarking). 
           </div>
 
           {/* Schedule Iframe */}

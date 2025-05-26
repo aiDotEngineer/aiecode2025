@@ -69,6 +69,7 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Asha Sharma": 1000,
   "Logan Kilpatrick": 900,
   "Harrison Chase": 900,
+  "Tom Moor": 900,
   "Christian Szegedy": 900,
   "Quan Vuong": 900,
   "Shrestha Basu Mallick": 900,

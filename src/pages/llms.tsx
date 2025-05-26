@@ -58,7 +58,7 @@ export default function LLMsPage() {
               (or{' '}
               <a href="https://sessionize.com/api/v2/w3hd2z8a/view/All" className="underline hover:text-blue-800">raw JSON</a>) for your own vibecoded view, 
               like{' '}
-              <a href="https://aie-swipe.vercel.app/" className="underline hover:text-blue-800">@noodlesoup's app</a>. 
+              <a href="https://aie-swipe.vercel.app/" className="underline hover:text-blue-800">@noodlesoup's app</a> (Tinder-style talk discovery)  or <a href="https://worlds-fair-schedule.agpallav.com/" className="underline hover:text-blue-800">@pallavmac's app</a> (list+bookmarking). 
         </p>
       </Container>
     </div>
