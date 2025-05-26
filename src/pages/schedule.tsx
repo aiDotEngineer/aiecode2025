@@ -1667,7 +1667,7 @@ const SchedulePage: NextPage = () => {
 
           {/* Schedule View Tabs */}
           <div className="flex justify-center space-x-2 mb-4 items-center gap-2">
-            Official Views:
+            Official Views (most up to date):
             <ScheduleViewButton 
               activeView={activeView}
               viewName="calendar"
@@ -1688,7 +1688,7 @@ const SchedulePage: NextPage = () => {
             />
           </div>
           <div className="max-w-md mx-auto mb-4 gap-2">
-            Unofficial Views:
+            Unofficial Views (may be out of date):
             {' '}
               <a href="https://aie-swipe.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@noodlesoup's app</a> (Tinder-style talk discovery)  or <a href="https://worlds-fair-schedule.agpallav.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@pallavmac's app</a> (list+bookmarking). 
           </div>
