@@ -525,19 +525,19 @@ export function SpeakerPreview({ presenters, tracks, formats }: Props) {
 
     </div>
 
-    <p className="text-center space-y-6 max-w-3xl m-auto text-gray-on-white mb-8 ">
+    {/* <p className="text-center space-y-6 max-w-3xl m-auto text-gray-on-white mb-8 ">
         With 18 tracks and over 150 sessions, you can design the program schedule
         that perfectly matches your business needs. There are up to 10
         simultaneous sessions running at any one time, so it's a good thing we
         have a <b>group discount</b> for
         teams attending together!
-      </p>
+      </p> */}
       <div className="rounded-lg lg:rounded-3xl bg-neutral-800 p-4 lg:p-6 text-center">
         <p className="text-white">
           <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
             Important
           </span>{" "}
-          Speaker list is NOT final! Stay tuned for more exciting additions to our speaker lineup. <br></br>(but pls buy tickets already, last minute stresses everybody out)
+          Speaker list is mostly finalized. There may be last minute changes due to scheduling conflicts, but see the AIE attendee Slack for updates starting Jun 1. <br></br>(but pls buy tickets already, last minute stresses everybody out)
         </p>
       </div>
     </div>
