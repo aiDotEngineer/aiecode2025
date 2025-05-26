@@ -229,7 +229,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                AI After Hours with <b>SourceGraph</b>
+                AI After Hours with <b>Sourcegraph</b>
               </a>
             </li>
           </ul>
