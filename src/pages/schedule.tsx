@@ -1687,7 +1687,7 @@ const SchedulePage: NextPage = () => {
               onClick={() => setActiveView("detailed" as ScheduleView)}
             />
           </div>
-          <div className="max-w-md mx-auto mb-4 gap-2">
+          <div className="max-w-2xl text-sm mx-auto mb-4 gap-2">
             Unofficial Views (may be out of date):
             {' '}
               <a href="https://aie-swipe.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@noodlesoup's app</a> (Tinder-style talk discovery)  or <a href="https://worlds-fair-schedule.agpallav.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@pallavmac's app</a> (list+bookmarking). 
