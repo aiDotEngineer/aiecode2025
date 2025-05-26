@@ -2,7 +2,7 @@ import React from 'react';
 
 import { api } from '~/support/api';
 import type { Session } from './AuthContext';
-import { useAuth } from './AuthContext';
+// import { useAuth } from './AuthContext';
 import { Button } from './Button';
 import { FormInput } from './FormInput';
 
@@ -16,35 +16,36 @@ type Props = {
 };
 
 export function SignInForm({ onSuccess }: Props) {
-  const [step, setStep] = React.useState<Step>('email');
-  const [loginId, setLoginId] = React.useState('');
-  const { setAuthSession } = useAuth();
+  return <div>signin disabled for now </div>
+  // const [step, setStep] = React.useState<Step>('email');
+  // const [loginId, setLoginId] = React.useState('');
+  // // const { setAuthSession } = useAuth();
 
-  switch (step) {
-    case 'email':
-      return (
-        <EmailForm
-          onSuccess={(id) => {
-            setLoginId(id);
-            setStep('otp');
-          }}
-        />
-      );
+  // switch (step) {
+  //   case 'email':
+  //     return (
+  //       <EmailForm
+  //         onSuccess={(id) => {
+  //           setLoginId(id);
+  //           setStep('otp');
+  //         }}
+  //       />
+  //     );
 
-    case 'otp':
-      return (
-        <OtpForm
-          id={loginId}
-          onCancel={() => {
-            setStep('email');
-          }}
-          onSuccess={(session) => {
-            setAuthSession(session);
-            onSuccess?.();
-          }}
-        />
-      );
-  }
+  //   case 'otp':
+  //     return (
+  //       <OtpForm
+  //         id={loginId}
+  //         onCancel={() => {
+  //           setStep('email');
+  //         }}
+  //         onSuccess={(session) => {
+  //           setAuthSession(session);
+  //           onSuccess?.();
+  //         }}
+  //       />
+  //     );
+  // }
 }
 
 function EmailForm({ onSuccess }: { onSuccess: (id: string) => void }) {

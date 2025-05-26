@@ -1,18 +1,20 @@
 import React from 'react';
 
-import { useBool } from '~/hooks/useBool';
-import { useAuth } from '../AuthContext';
+// import { useBool } from '~/hooks/useBool';
+// import { useAuth } from '../AuthContext';
 
 export function HeaderProfile() {
-  const { endSession, user } = useAuth();
-  const [isOpen, setIsOpen] = useBool();
-  const ref = useOutsideClick<HTMLDivElement>(setIsOpen.off);
+  // const { endSession, user } = useAuth();
+  // const [isOpen, setIsOpen] = useBool();
+  // const ref = useOutsideClick<HTMLDivElement>(setIsOpen.off);
 
-  if (!user) return null;
+  // if (!user) return null;
 
   return (
-    <div className="relative flex gap-6" ref={ref}>
-      <button type="button" onClick={setIsOpen.toggle}>
+    <div className="relative flex gap-6" 
+    // ref={ref}
+    >
+      {/* <button type="button" onClick={setIsOpen.toggle}>
         <ProfileAvatar name={user.name} />
       </button>
 
@@ -39,7 +41,7 @@ export function HeaderProfile() {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

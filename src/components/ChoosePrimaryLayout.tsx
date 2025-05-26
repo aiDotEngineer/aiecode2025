@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { Footer as WorldsFair2025Footer } from "~/components/worldsfair-2025/Footer";
 import { Header as WorldsFair2025Header } from "~/components/worldsfair-2025/Header";
 import { MetaTags as WorldsFair2025MetaTags } from "~/components/worldsfair-2025/MetaTags";
-import { AuthProvider } from "./AuthContext";
+// import { AuthProvider } from "./AuthContext";
 
 type Props = {
   children: React.ReactNode;
@@ -20,14 +20,14 @@ export function ChoosePrimaryLayout({ children: page }: Props) {
   const pathname = usePathname();
 
   return (
-    <AuthProvider>
+    // <AuthProvider>
       <EventContext.Provider value={worldsFair2025Context()}>
         <WorldsFair2025MetaTags />
         <WorldsFair2025Header key={pathname} path={pathname || ''} />
         {page}
         <WorldsFair2025Footer />
       </EventContext.Provider>
-    </AuthProvider>
+    // </AuthProvider>
   );
 }
 

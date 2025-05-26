@@ -109,21 +109,6 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   //     }
   //   ]
   // },
-  {
-    "Name": "Den Delimarsky",
-    "Company": "Microsoft",
-    "Domain": "microsoft.com",
-    "Tagline": "MCP Auth",
-    "ProfilePicture": "/wf25speakers/den_delimarsky.png",
-    "Sessions": [
-      {
-        "Title": "(tba) The MCP Auth Spec",
-        "Format": "Talk",
-        "Description": "Den Delimarsky presents the MCP Auth spec and its role in standardized, secure AI interactions.",
-        "Tracks": "MCP"
-      }
-    ]
-  },
   // {
   //   "Name": "Micah Hill-Smith",
   //   "Company": "Artificial Analysis",
