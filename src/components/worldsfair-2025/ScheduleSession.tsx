@@ -241,12 +241,17 @@ function ConciseView({ session, expandAll }: { session: any; expandAll?: boolean
              * The negative margin when hovered is to counteract the margins applied
              * to any child of the the .markdown-content class
              */}
-            {session.about && (
+            {(session.about || session.room) && (
               <div className={expandAll 
                 ? "block -mb-3 text-xs" 
                 : "hidden group-hover/content:block group-hover/content:-mb-3 text-xs"
               }>
-                <MarkdownView markdown={session.about} />
+                {session.room && (
+                  <p className="text-gray-600 mb-2">
+                    <span className="font-semibold">Room:</span> {session.room}
+                  </p>
+                )}
+                {session.about && <MarkdownView markdown={session.about} />}
               </div>
             )}
           </div>
