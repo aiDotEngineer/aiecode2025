@@ -285,9 +285,9 @@ function SessionSummary({ session }: { session: any }) {
   return (
     <div className="flex flex-col gap-4 lg:gap-8">
       <p className="text-2xl lg:text-4xl font-semibold text-black">
-        <Link href={`/worldsfair/2024/schedule/${session.slug}`}>
+        {/* <Link href={`/worldsfair/2024/schedule/${session.slug}`}> */}
           {session.title}
-        </Link>
+        {/* </Link> */}
       </p>
 
       <MarkdownView markdown={session.about || ''} />
@@ -306,7 +306,7 @@ function SessionSummary({ session }: { session: any }) {
             </Button>
           )}
 
-          {session.type !== 'OTHER' && (
+          {/* {session.type !== 'OTHER' && (
             <Button
               aria-label={`See more details, event: ${session.title}`}
               border
@@ -315,7 +315,7 @@ function SessionSummary({ session }: { session: any }) {
             >
               See More Details
             </Button>
-          )}
+          )} */}
         </div>
       )}
     </div>
