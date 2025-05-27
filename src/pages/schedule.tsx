@@ -1661,14 +1661,16 @@ const SchedulePage: NextPage = () => {
               For hackers:{' '}
               <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a>{' '}
               (or{' '}
-              <a href="https://sessionize.com/api/v2/w3hd2z8a/view/All" className="underline hover:text-blue-800">raw JSON</a>) for your own vibecoded view!
+              <a href="https://sessionize.com/api/v2/w3hd2z8a/view/All" className="underline hover:text-blue-800">raw JSON</a> or 
+              <a href="https://sehttps://sessionize.com/api/v2/w3hd2z8a/view/Speakers" className="underline hover:text-blue-800">speakers JSON</a> 
+              ) for your own vibecoded view!
               We manually update this JSON dump regularly but the Sessionize schedule is the most up to date source of truth.
             </p>  
           </div>
 
           {/* Schedule View Tabs */}
           <div className="flex justify-center space-x-2 mb-4 items-center gap-2">
-            Official Views (most up to date):
+            Official Views (guaranteed up to date):
             <ScheduleViewButton 
               activeView={activeView}
               viewName="calendar"
@@ -1688,7 +1690,7 @@ const SchedulePage: NextPage = () => {
               List View
             </button>
           </div>
-          <div className="max-w-2xl text-sm mx-auto mb-4 gap-2">
+          <div className="max-w-2xl text-md mx-auto mb-4 gap-2">
             Unofficial Views (may be out of date):
             {' '}
               <a href="https://aie-swipe.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@noodlesoup's app</a> (Tinder-style talk discovery)  or <a href="https://worlds-fair-schedule.agpallav.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@pallavmac's app</a> (list+bookmarking). 
