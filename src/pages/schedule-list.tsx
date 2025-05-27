@@ -199,11 +199,11 @@ const ScheduleListPage: NextPage = () => {
 
   return (
     <>
-      <Header path="/schedule-list" alwaysShow />
+      {/* <Header path="/schedule-list" alwaysShow />
 
-      <main className="min-h-screen bg-stone-100 pt-32">
+      <main className="min-h-screen bg-stone-100 pt-32"> */}
         <div className="mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-6">World's Fair 2025 Schedule</h1>
+          <h1 className="text-4xl font-bold text-center mb-6">List View</h1>
 
           {/* Schedule Content */}
           {isLoading ? (
@@ -218,15 +218,15 @@ const ScheduleListPage: NextPage = () => {
             <Schedule sessionEvents={sessionEvents} />
           )}
 
-          <p className="text-center mt-8 mb-16">
+          {/* <p className="text-center mt-8 mb-16">
             <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-200">
               IMPORTANT
             </span>{" "}
             The full schedule is not yet up, as some sessions are yet to be finalized. Obvious gaps
             in the schedule will be filled.
-          </p>
+          </p> */}
         </div>
-      </main>
+      {/* </main> */}
     </>
   );
 };
