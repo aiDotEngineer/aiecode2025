@@ -10,6 +10,7 @@ import { useLocalStorage } from "../components/worldsfair-2025/useLocalStorage";
 import Link from "next/link";
 import clsx from "clsx";
 
+// Interfaces for the JSON
 interface SessionizeSpeaker {
   id: string;
   firstName?: string;
