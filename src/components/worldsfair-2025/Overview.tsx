@@ -195,7 +195,7 @@ export function Overview() {
             <li>
               Jun 3:
               <a
-                href="https://aws-anthropic-gen-ai-reception-2025.splashthat.com"
+                href="https://lu.ma/wodr7uk0?tk=dvB21W"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
@@ -250,6 +250,16 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 AI After Hours with <b>Sourcegraph</b>
+              </a>
+            </li>
+            <li>
+              Jun 5:
+              <a
+                href=" https://www.supermomos.com/socials/ai-leaders-builders-fireside"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                AI Leaders & Builders Fireside Chat + Mixer (<b>Singapore EDB</b> and <b>SGN</b>)
               </a>
             </li>
           </ul>
