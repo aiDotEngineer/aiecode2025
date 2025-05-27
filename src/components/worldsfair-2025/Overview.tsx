@@ -205,6 +205,16 @@ export function Overview() {
             <li>
               Jun 4:
               <a
+                href="https://lu.ma/09vufbbo"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                AI Leadership Dinner (w/ <b>Cloudflare - Leadership passes only</b>)
+              </a>
+            </li>
+            <li>
+              Jun 4:
+              <a
                 href="https://lu.ma/nb9ss3s7?utm_medium=landing-page&utm_source=ai-engineering-worlds-fair"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
