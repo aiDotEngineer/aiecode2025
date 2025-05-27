@@ -81,6 +81,7 @@ const ScheduleListPage: NextPage = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [showPlenary, setShowPlenary] = useLocalStorage("showPlenary", true);
+  const [expandAll, setExpandAll] = useLocalStorage("expandAll", false);
   const [activeDay, setActiveDay] = useState<string>("");
 
   // Fetch and transform data
@@ -346,11 +347,26 @@ const ScheduleListPage: NextPage = () => {
                         htmlFor="plenary-sessions-checkbox"
                         className="ml-2 text-sm font-medium text-gray-900"
                       >
-                        Add Plenary Schedule
+                        Add Plenary
+                      </label>
+                      <input
+                        id="expand-all-checkbox"
+                        type="checkbox"
+                        checked={expandAll}
+                        onChange={(e) => {
+                          setExpandAll(e.target.checked);
+                        }}
+                        className="w-4 h-4 text-blue-600 bg-gray-100 rounded-sm border-gray-300 focus:ring-blue-500 focus:ring-2 flex justify-center ml-4"
+                      />
+                      <label
+                        htmlFor="expand-all-checkbox"
+                        className="ml-2 text-sm font-medium text-gray-900"
+                      >
+                        Expand All
                       </label>
                       <Link
                         href="/schedule"
-                        className="bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-400 px-4 py-1 rounded-md cursor-pointer transition-colors ml-6"
+                        className="bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-400 px-4 py-1 rounded-md cursor-pointer transition-colors ml-6 hidden lg:block"
                       >
                         ← Calendar View
                       </Link>
@@ -373,6 +389,7 @@ const ScheduleListPage: NextPage = () => {
                           key={day}
                           sessions={sessions}
                           onIntersect={() => setActiveDay(day)}
+                          expandAll={expandAll}
                         />
                       ))}
                   </div>
@@ -399,10 +416,12 @@ function ScheduleGroup({
   day,
   onIntersect,
   sessions,
+  expandAll,
 }: {
   day: string;
   onIntersect?: () => void;
   sessions: any[];
+  expandAll?: boolean;
 }) {
   const headingRef = React.useRef<HTMLDivElement>(null);
 
@@ -432,7 +451,7 @@ function ScheduleGroup({
 
       <div className="flex flex-col">
         {sessions.map((session) => (
-          <ScheduleSession key={session.id} session={session} />
+          <ScheduleSession key={session.id} session={session} expandAll={expandAll} />
         ))}
       </div>
     </div>

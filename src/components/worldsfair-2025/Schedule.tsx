@@ -25,6 +25,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
   const filter = searchParams?.get('filter') ?? '';
 
   const [showPlenary, setShowPlenary] = useLocalStorage('showPlenary', true);
+  const [expandAll, setExpandAll] = useLocalStorage('expandAll', false);
   const dateMenuRef = useRef<HTMLDivElement>(null);
 
   const trackNameOptions = sessionEvents
@@ -108,6 +109,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
                 setActiveDay(day);
               }}
               sessions={sessions}
+              expandAll={expandAll}
             />
           ))}
       </div>
@@ -170,7 +172,22 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
                 htmlFor="plenary-sessions-checkbox"
                 className="ml-2 text-sm font-medium text-gray-900"
               >
-                Add Plenary Schedule
+                Add Plenary
+              </label>
+              <input
+                id="expand-all-checkbox"
+                type="checkbox"
+                checked={expandAll}
+                onChange={(e) => {
+                  setExpandAll(e.target.checked);
+                }}
+                className="w-4 h-4 text-blue-600 bg-gray-100 rounded-sm border-gray-300 focus:ring-blue-500 focus:ring-2 flex justify-center ml-4"
+              />
+              <label
+                htmlFor="expand-all-checkbox"
+                className="ml-2 text-sm font-medium text-gray-900"
+              >
+                Expand All
               </label>
             </div>
           </div>
@@ -234,11 +251,13 @@ function ScheduleGroup({
   day,
   onIntersect,
   sessions,
+  expandAll,
 }: {
   day: string;
   onIntersect?: () => void;
   // sessions: SessionEvent[];
   sessions: any[];
+  expandAll?: boolean;
 }) {
   const headingRef = useRef<HTMLDivElement>(null);
 
@@ -272,7 +291,7 @@ function ScheduleGroup({
 
       <div className="flex flex-col">
         {sessions.map((session) => (
-          <ScheduleSession key={session.id} session={session} />
+          <ScheduleSession key={session.id} session={session} expandAll={expandAll} />
         ))}
       </div>
     </div>

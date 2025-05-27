@@ -82,16 +82,17 @@ function getPresentersForNames(presenters: any) {
 type SessionProps = {
   // session: SessionEvent;
   session: any;
+  expandAll?: boolean;
 };
 
-export function ScheduleSession({ session }: SessionProps) {
+export function ScheduleSession({ session, expandAll }: SessionProps) {
   const [isExpanded, setIsExpanded] = useBool(false);
 
   return isExpanded ? (
     <ExpandedView onCloseClick={setIsExpanded.off} session={session} />
   ) : (
     <button className="appearance-none block" onClick={setIsExpanded.on}>
-      <ConciseView session={session} />
+      <ConciseView session={session} expandAll={expandAll} />
     </button>
   );
 }
@@ -164,7 +165,7 @@ function ExpandedView({
 }
 
 // function ConciseView({ session }: { session: SessionEvent }) {
-function ConciseView({ session }: { session: any }) {
+function ConciseView({ session, expandAll }: { session: any; expandAll?: boolean }) {
   const plenaryClasses =
     session.trackName === 'Plenary'
       ? 'bg-gray-300 border-b border-black/10'
@@ -241,7 +242,10 @@ function ConciseView({ session }: { session: any }) {
              * to any child of the the .markdown-content class
              */}
             {session.about && (
-              <div className="hidden group-hover/content:block group-hover/content:-mb-3 text-xs">
+              <div className={expandAll 
+                ? "block -mb-3 text-xs" 
+                : "hidden group-hover/content:block group-hover/content:-mb-3 text-xs"
+              }>
                 <MarkdownView markdown={session.about} />
               </div>
             )}
