@@ -186,12 +186,12 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
                 )}
                 <span>{expandAll ? "Collapse All" : "Expand All"}</span>
               </button>
-              <Link
+              {/* <Link
                 href="/schedule"
                 className="bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-400 px-4 py-1 rounded-md cursor-pointer transition-colors ml-6 hidden lg:block"
               >
                 ← Calendar View
-              </Link>
+              </Link> */}
             </div>
           </div>
         </Container>
