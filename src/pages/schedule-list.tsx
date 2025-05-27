@@ -3,13 +3,7 @@ import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Header } from "../components/worldsfair-2025/Header";
-import { ScheduleSession } from "../components/worldsfair-2025/ScheduleSession";
-import { Container } from "../components/Container";
-import { formatSingleDate } from "../utils/formatSingleDate";
-import { useLocalStorage } from "../components/worldsfair-2025/useLocalStorage";
-import { BsArrowsCollapse, BsArrowsExpand } from "react-icons/bs";
-import Link from "next/link";
-import clsx from "clsx";
+import { Schedule } from "../components/worldsfair-2025/Schedule";
 
 // Interfaces for the JSON
 interface SessionizeSpeaker {
@@ -75,15 +69,9 @@ interface SessionDetail {
 }
 
 const ScheduleListPage: NextPage = () => {
-  const router = useRouter();
-  const { filter = "" } = router.query;
-
   const [sessionEvents, setSessionEvents] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [showPlenary, setShowPlenary] = useLocalStorage("showPlenary", true);
-  const [expandAll, setExpandAll] = useLocalStorage("expandAll", false);
-  const [activeDay, setActiveDay] = useState<string>("");
 
   // Fetch and transform data
   useEffect(() => {
@@ -198,12 +186,6 @@ const ScheduleListPage: NextPage = () => {
         });
 
         setSessionEvents(transformedSessions);
-
-        // Set initial active day
-        if (transformedSessions.length > 0) {
-          const firstDate = transformedSessions[0].since.split("T")[0];
-          setActiveDay(firstDate);
-        }
       } catch (err) {
         console.error("Error fetching session data:", err);
         setError("Failed to load schedule. Please try again later.");
@@ -214,67 +196,6 @@ const ScheduleListPage: NextPage = () => {
 
     fetchSessionData();
   }, []);
-
-  // Get unique track names for filter
-  const trackNameOptions = sessionEvents
-    .reduce((names: string[], next: any) => {
-      return names.includes(next.trackName) ? names : names.concat(next.trackName);
-    }, [] as string[])
-    .filter((name: string) => !name.toLowerCase().includes("plenary"));
-
-  // Filter sessions based on selected track and plenary preference
-  const filteredSessions = React.useMemo(() => {
-    // Show All
-    if (filter === "") {
-      // Show all with plenary
-      if (showPlenary) {
-        return sessionEvents;
-      }
-      // Show all without plenary
-      return sessionEvents.filter(
-        (session: any) => !session.trackName.toLowerCase().includes("plenary")
-      );
-    }
-
-    // Filter Results
-    return sessionEvents.filter((event: any) => {
-      if (showPlenary) {
-        return event.trackName.toLowerCase().includes((filter as string).toLowerCase());
-      }
-      return (
-        !event.trackName.toLowerCase().includes("plenary") &&
-        event.trackName.toLowerCase().includes((filter as string).toLowerCase())
-      );
-    });
-  }, [filter, showPlenary, sessionEvents]);
-
-  // Group sessions by date
-  const sessionsByDate = React.useMemo(() => {
-    const result: Record<string, any[]> = {};
-
-    for (const session of filteredSessions) {
-      const [date] = session.since.split("T");
-
-      if (!date) continue;
-
-      if (!result[date]) {
-        result[date] = [];
-      }
-
-      result[date]?.push(session);
-    }
-
-    // Sort sessions within each date
-    for (const date in result) {
-      result[date]?.sort((sessionA, sessionB) => {
-        return sessionA.since.localeCompare(sessionB.since);
-      });
-    }
-
-    return result;
-  }, [filteredSessions]);
-
-  const dates = Object.keys(sessionsByDate).sort();
 
   return (
     <>
@@ -294,102 +215,7 @@ const ScheduleListPage: NextPage = () => {
               <p className="text-xl text-red-600">{error}</p>
             </div>
           ) : (
-            <>
-              {/* Sticky date navigation and filters */}
-              <div className="sticky top-0 z-50 bg-stone-100 transition-all shadow-lg md:shadow-none">
-                <Container>
-                  <div className="flex flex-col gap-4 py-4 sm:flex-row sm:items-center sm:gap-8 lg:h-[70px] lg:py-0">
-                    <div className="flex flex-row gap-8 items-center">
-                      {dates.map((date) => (
-                        <Link href={`#${date}`} key={date}>
-                          <span
-                            className={clsx(
-                              "text-normal font-semibold text-black md:text-2xl hover:underline",
-                              activeDay === date ? "underline" : "opacity-60"
-                            )}
-                          >
-                            {formatSingleDate(date)}
-                          </span>
-                        </Link>
-                      ))}
-                    </div>
-
-                    <select
-                      onChange={(e) => {
-                        const newFilter = e.target.value;
-                        router.push({
-                          pathname: "/schedule-list",
-                          query: newFilter ? { filter: newFilter } : {},
-                        });
-                      }}
-                      value={filter as string}
-                      className="border p-4 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block"
-                    >
-                      <option value="">All Tracks</option>
-                      {trackNameOptions.map((type: string) => {
-                        return (
-                          <option key={type} value={type}>
-                            {type}
-                          </option>
-                        );
-                      })}
-                    </select>
-                    <div className="flex items-center">
-                      <input
-                        id="plenary-sessions-checkbox"
-                        type="checkbox"
-                        checked={showPlenary}
-                        onChange={(e) => {
-                          setShowPlenary(e.target.checked);
-                        }}
-                        className="w-4 h-4 text-blue-600 bg-gray-100 rounded-sm border-gray-300 focus:ring-blue-500 focus:ring-2 flex justify-center"
-                      />
-                      <label
-                        htmlFor="plenary-sessions-checkbox"
-                        className="ml-2 text-sm font-medium text-gray-900"
-                      >
-                        Add Plenary
-                      </label>
-                      <button
-                        onClick={() => setExpandAll(!expandAll)}
-                        className="flex items-center gap-2 ml-4 text-sm font-medium text-gray-900 hover:text-gray-700 transition-colors cursor-pointer"
-                        title={expandAll ? "Collapse all sessions" : "Expand all sessions"}
-                      >
-                        {expandAll ? <BsArrowsCollapse size={24} /> : <BsArrowsExpand size={24} />}
-                        <span>{expandAll ? "Collapse All" : "Expand All"}</span>
-                      </button>
-                      <Link
-                        href="/schedule"
-                        className="bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-400 px-4 py-1 rounded-md cursor-pointer transition-colors ml-6 hidden lg:block"
-                      >
-                        ← Calendar View
-                      </Link>
-                    </div>
-                  </div>
-                </Container>
-              </div>
-
-              {/* Sessions list */}
-              <Container className="mt-16 mb-32">
-                {!filteredSessions || filteredSessions.length === 0 ? (
-                  <p>No sessions found for this date and track</p>
-                ) : (
-                  <div className="flex flex-col gap-24">
-                    {Object.entries(sessionsByDate)
-                      .sort(([aKey], [bKey]) => aKey.localeCompare(bKey))
-                      .map(([day, sessions]) => (
-                        <ScheduleGroup
-                          day={day}
-                          key={day}
-                          sessions={sessions}
-                          onIntersect={() => setActiveDay(day)}
-                          expandAll={expandAll}
-                        />
-                      ))}
-                  </div>
-                )}
-              </Container>
-            </>
+            <Schedule sessionEvents={sessionEvents} />
           )}
 
           <p className="text-center mt-8 mb-16">
@@ -404,52 +230,5 @@ const ScheduleListPage: NextPage = () => {
     </>
   );
 };
-
-// Schedule Group Component
-function ScheduleGroup({
-  day,
-  onIntersect,
-  sessions,
-  expandAll,
-}: {
-  day: string;
-  onIntersect?: () => void;
-  sessions: any[];
-  expandAll?: boolean;
-}) {
-  const headingRef = React.useRef<HTMLDivElement>(null);
-
-  React.useEffect(() => {
-    const handleScroll = () => {
-      if (headingRef.current) {
-        const { top } = headingRef.current.getBoundingClientRect();
-
-        if (top <= 100) {
-          onIntersect?.();
-        }
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [onIntersect]);
-
-  return (
-    <div className="flex flex-col gap-4" key={day}>
-      <h3 className="font-semibold text-2xl scroll-mt-36 sm:scroll-mt-24" id={day} ref={headingRef}>
-        {formatSingleDate(day)}
-      </h3>
-
-      <div className="flex flex-col">
-        {sessions.map((session) => (
-          <ScheduleSession key={session.id} session={session} expandAll={expandAll} />
-        ))}
-      </div>
-    </div>
-  );
-}
 
 export default ScheduleListPage;
