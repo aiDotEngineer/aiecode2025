@@ -241,8 +241,8 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
             <NavLink href={"/llms"} onClick={() => setNavOpen(false)}>
               MCP/llms.txt
             </NavLink>
-            <NavLink href={SPONSORS_URL} onClick={() => setNavOpen(false)}>
-              Sponsors
+            <NavLink href={SCHEDULE_URL} onClick={() => setNavOpen(false)}>
+              Schedule
             </NavLink>
           </div>
         </div>
