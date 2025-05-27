@@ -7,6 +7,7 @@ import { ScheduleSession } from "../components/worldsfair-2025/ScheduleSession";
 import { Container } from "../components/Container";
 import { formatSingleDate } from "../utils/formatSingleDate";
 import { useLocalStorage } from "../components/worldsfair-2025/useLocalStorage";
+import { BsArrowsCollapse, BsArrowsExpand } from "react-icons/bs";
 import Link from "next/link";
 import clsx from "clsx";
 
@@ -349,21 +350,14 @@ const ScheduleListPage: NextPage = () => {
                       >
                         Add Plenary
                       </label>
-                      <input
-                        id="expand-all-checkbox"
-                        type="checkbox"
-                        checked={expandAll}
-                        onChange={(e) => {
-                          setExpandAll(e.target.checked);
-                        }}
-                        className="w-4 h-4 text-blue-600 bg-gray-100 rounded-sm border-gray-300 focus:ring-blue-500 focus:ring-2 flex justify-center ml-4"
-                      />
-                      <label
-                        htmlFor="expand-all-checkbox"
-                        className="ml-2 text-sm font-medium text-gray-900"
+                      <button
+                        onClick={() => setExpandAll(!expandAll)}
+                        className="flex items-center gap-2 ml-4 text-sm font-medium text-gray-900 hover:text-gray-700 transition-colors cursor-pointer"
+                        title={expandAll ? "Collapse all sessions" : "Expand all sessions"}
                       >
-                        Expand All
-                      </label>
+                        {expandAll ? <BsArrowsCollapse size={24} /> : <BsArrowsExpand size={24} />}
+                        <span>{expandAll ? "Collapse All" : "Expand All"}</span>
+                      </button>
                       <Link
                         href="/schedule"
                         className="bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-400 px-4 py-1 rounded-md cursor-pointer transition-colors ml-6 hidden lg:block"
