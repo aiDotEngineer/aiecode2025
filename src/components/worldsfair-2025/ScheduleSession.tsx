@@ -82,16 +82,17 @@ function getPresentersForNames(presenters: any) {
 type SessionProps = {
   // session: SessionEvent;
   session: any;
+  expandAll?: boolean;
 };
 
-export function ScheduleSession({ session }: SessionProps) {
+export function ScheduleSession({ session, expandAll }: SessionProps) {
   const [isExpanded, setIsExpanded] = useBool(false);
 
   return isExpanded ? (
     <ExpandedView onCloseClick={setIsExpanded.off} session={session} />
   ) : (
     <button className="appearance-none block" onClick={setIsExpanded.on}>
-      <ConciseView session={session} />
+      <ConciseView session={session} expandAll={expandAll} />
     </button>
   );
 }
@@ -164,7 +165,7 @@ function ExpandedView({
 }
 
 // function ConciseView({ session }: { session: SessionEvent }) {
-function ConciseView({ session }: { session: any }) {
+function ConciseView({ session, expandAll }: { session: any; expandAll?: boolean }) {
   const plenaryClasses =
     session.trackName === 'Plenary'
       ? 'bg-gray-300 border-b border-black/10'
@@ -240,9 +241,17 @@ function ConciseView({ session }: { session: any }) {
              * The negative margin when hovered is to counteract the margins applied
              * to any child of the the .markdown-content class
              */}
-            {session.about && (
-              <div className="hidden group-hover/content:block group-hover/content:-mb-3 text-xs">
-                <MarkdownView markdown={session.about} />
+            {(session.about || session.room) && (
+              <div className={expandAll 
+                ? "block -mb-3 text-xs" 
+                : "hidden group-hover/content:block group-hover/content:-mb-3 text-xs"
+              }>
+                {session.room && (
+                  <p className="text-gray-600 mb-2">
+                    <span className="font-semibold">Room:</span> {session.room}
+                  </p>
+                )}
+                {session.about && <MarkdownView markdown={session.about} />}
               </div>
             )}
           </div>
@@ -285,9 +294,9 @@ function SessionSummary({ session }: { session: any }) {
   return (
     <div className="flex flex-col gap-4 lg:gap-8">
       <p className="text-2xl lg:text-4xl font-semibold text-black">
-        <Link href={`/worldsfair/2024/schedule/${session.slug}`}>
+        {/* <Link href={`/worldsfair/2024/schedule/${session.slug}`}> */}
           {session.title}
-        </Link>
+        {/* </Link> */}
       </p>
 
       <MarkdownView markdown={session.about || ''} />
@@ -306,7 +315,7 @@ function SessionSummary({ session }: { session: any }) {
             </Button>
           )}
 
-          {session.type !== 'OTHER' && (
+          {/* {session.type !== 'OTHER' && (
             <Button
               aria-label={`See more details, event: ${session.title}`}
               border
@@ -315,7 +324,7 @@ function SessionSummary({ session }: { session: any }) {
             >
               See More Details
             </Button>
-          )}
+          )} */}
         </div>
       )}
     </div>

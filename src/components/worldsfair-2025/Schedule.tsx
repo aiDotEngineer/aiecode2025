@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import clsx from 'clsx';
+import { BsArrowsCollapse, BsArrowsExpand } from 'react-icons/bs';
 
 // import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
 
@@ -25,6 +26,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
   const filter = searchParams?.get('filter') ?? '';
 
   const [showPlenary, setShowPlenary] = useLocalStorage('showPlenary', true);
+  const [expandAll, setExpandAll] = useLocalStorage('expandAll', false);
   const dateMenuRef = useRef<HTMLDivElement>(null);
 
   const trackNameOptions = sessionEvents
@@ -108,6 +110,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
                 setActiveDay(day);
               }}
               sessions={sessions}
+              expandAll={expandAll}
             />
           ))}
       </div>
@@ -118,7 +121,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
     <>
       <div
         ref={dateMenuRef}
-        className="sticky top-0 z-50 bg-white transition-all shadow-lg md:shadow-none"
+        className="sticky top-0 z-50 bg-stone-100 transition-all shadow-lg md:shadow-none"
       >
         <Container>
           {/* heights intentionally match the header */}
@@ -145,7 +148,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
                 router.push(`${pathname}?${params.toString()}`);
               }}
               value={filter}
-              className="border p-4 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block"
+              className="border p-4 border-gray-300 bg-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block"
             >
               <option value="">All Tracks</option>
               {trackNameOptions.map((type: string) => {
@@ -170,8 +173,25 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
                 htmlFor="plenary-sessions-checkbox"
                 className="ml-2 text-sm font-medium text-gray-900"
               >
-                Add Plenary Schedule
+                Add Plenary
               </label>
+              <button
+                onClick={() => setExpandAll(!expandAll)}
+                className="flex items-center gap-2 ml-4 text-sm font-medium text-gray-900 hover:text-gray-700 transition-colors cursor-pointer"
+              >
+                {expandAll ? (
+                  <BsArrowsCollapse size={22} />
+                ) : (
+                  <BsArrowsExpand size={22} />
+                )}
+                <span>{expandAll ? "Collapse All" : "Expand All"}</span>
+              </button>
+              <Link
+                href="/schedule"
+                className="bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-400 px-4 py-1 rounded-md cursor-pointer transition-colors ml-6 hidden lg:block"
+              >
+                ← Calendar View
+              </Link>
             </div>
           </div>
         </Container>
@@ -234,11 +254,13 @@ function ScheduleGroup({
   day,
   onIntersect,
   sessions,
+  expandAll,
 }: {
   day: string;
   onIntersect?: () => void;
   // sessions: SessionEvent[];
   sessions: any[];
+  expandAll?: boolean;
 }) {
   const headingRef = useRef<HTMLDivElement>(null);
 
@@ -272,7 +294,7 @@ function ScheduleGroup({
 
       <div className="flex flex-col">
         {sessions.map((session) => (
-          <ScheduleSession key={session.id} session={session} />
+          <ScheduleSession key={session.id} session={session} expandAll={expandAll} />
         ))}
       </div>
     </div>

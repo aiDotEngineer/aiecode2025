@@ -50,6 +50,7 @@ const SchedulePage: NextPage = () => {
   );
   const [iframeContent, setIframeContent] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const router = useRouter();
 
   // Fetch and modify HTML content when activeView changes
   useEffect(() => {
@@ -1680,12 +1681,12 @@ const SchedulePage: NextPage = () => {
               label="List"
               onClick={() => setActiveView("list" as ScheduleView)}
             /> */}
-            <ScheduleViewButton 
-              activeView={activeView}
-              viewName="detailed"
-              label="Long list with Descriptions"
-              onClick={() => setActiveView("detailed" as ScheduleView)}
-            />
+            <button
+              className="px-4 py-2 rounded-md cursor-pointer transition-colors bg-gray-200 text-gray-700 hover:bg-gray-200 border border-gray-400"
+              onClick={() => router.push('/schedule-list')}
+            >
+              List View
+            </button>
           </div>
           <div className="max-w-2xl text-sm mx-auto mb-4 gap-2">
             Unofficial Views (may be out of date):
