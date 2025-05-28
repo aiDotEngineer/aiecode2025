@@ -195,6 +195,16 @@ export function Overview() {
             <li>
               Jun 3:
               <a
+                href="https://lu.ma/34vu2ojj"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>CRV</b> AI Engineer Happy Hour
+              </a>
+            </li>
+            <li>
+              Jun 3:
+              <a
                 href="https://lu.ma/fi449s7o"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
