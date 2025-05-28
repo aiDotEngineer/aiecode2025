@@ -153,7 +153,7 @@ export function Overview() {
           </p>
           <ul className="text-gray-on-white text-base list-disc ml-2">
             <li>
-              May 31 - Jun 1:
+              May 31 - Jun 1 (Saturday - Sunday):
               <a
                 href="https://cerebralvalley.ai/e/aiewf-hackathon-2025"
                 target="_blank"
@@ -173,7 +173,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 2:
+              Jun 2 (Monday):
               <a
                 href="https://lu.ma/87kr0w9r"
                 target="_blank"
@@ -283,7 +283,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 5:
+              Jun 5 (Thursday):
               <a
                 href="https://lu.ma/aiafterhourssf"
                 target="_blank"
@@ -295,11 +295,21 @@ export function Overview() {
             <li>
               Jun 5:
               <a
-                href=" https://www.supermomos.com/socials/ai-leaders-builders-fireside"
+                href="https://www.supermomos.com/socials/ai-leaders-builders-fireside"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 AI Leaders & Builders Fireside Chat + Mixer (<b>Singapore EDB</b> and <b>SGN</b>)
+              </a>
+            </li>
+            <li>
+              Jun 6 (Friday):
+              <a
+                href="https://lu.ma/3slkqscs"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>Placeholder</b> AI Engineer Social/Meetup (join to indicate availability)
               </a>
             </li>
           </ul>
