@@ -105,6 +105,18 @@ export function Footer() {
             <div className="space-y-4">
               <b className="block">About</b>
               <Link
+                href={`${CONF_URL}/tos`}
+                className="block text-gray-on-white text-sm"
+              >
+                Terms of Service
+              </Link>
+              <Link
+                href={`${CONF_URL}/privacy`}
+                className="block text-gray-on-white text-sm"
+              >
+                Privacy
+              </Link>                
+              <Link
                 href={`${CONF_URL}/conduct`}
                 className="block text-gray-on-white text-sm"
               >
