@@ -312,6 +312,16 @@ export function Overview() {
                 <b>Placeholder</b> AI Engineer Social/Meetup (join to indicate availability)
               </a>
             </li>
+            <li>
+              Jun 6:
+              <a
+                href="https://lu.ma/a6c8pruh"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                Building software that lasts with <b>Northflank, Krea, PlayAI, Weights</b>
+              </a>
+            </li>
           </ul>
           <p className="text-gray-on-white text-base">
             <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
