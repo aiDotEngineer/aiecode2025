@@ -223,23 +223,23 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 4 (Thurs):
-              <a
-                href="https://lu.ma/09vufbbo"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                AI Leadership Dinner (w/ <b>Cloudflare</b> for Leadership only)
-              </a>
-            </li>
-            <li>
-              Jun 4:
+              Jun 4 (Wed):
               <a
                 href="https://lu.ma/4owq9aif"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 <b>Graphite x Accel</b>: AI Leadership Summit
+              </a>
+            </li>
+            <li>
+              Jun 4:
+              <a
+                href="https://lu.ma/09vufbbo"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                AI Leadership Dinner (w/ <b>Cloudflare</b> for Leadership only)
               </a>
             </li>
             <li>
