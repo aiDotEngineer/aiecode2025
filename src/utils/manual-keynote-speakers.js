@@ -135,7 +135,7 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
         "Title": "Qwen: Towards a Generalist Model / Agent",
         "Format": "Talk",
         "Description": "Since Alibaba launched the Qwen series of large models in 2023, the Qwen series of large language models and multimodal large models have been continuously updated and improved. This presentation will introduce the latest developments in the Qwen series of models, including the large language model Qwen3, vision-language large model Qwen2.5-VL, omni model Qwen2.5-Omni, etc. Additionally, this presentation will also cover the future development directions of the Qwen series.",
-        "Tracks": "AI in Action, Online Talk"
+        "Tracks": "AI in Action"
       }
     ]
   },

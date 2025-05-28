@@ -4062,7 +4062,7 @@
         "Format": "Online Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Online Track",
+        "Tracks": "GraphRAG",
         "Room": "Golden Gate Ballroom B: GraphRAG",
         "Scheduled At": "4 Jun 2025 12:15 PM"
       }
@@ -8382,7 +8382,7 @@
         "Format": "Online Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Online Track",
+        "Tracks": "Design Engineering",
         "Room": "Foothill G 1&2: Design Engineering",
         "Scheduled At": "5 Jun 2025 11:55 AM"
       }
@@ -8742,7 +8742,7 @@
         "Format": "Online Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "Online Track",
+        "Tracks": "Reasoning+RL",
         "Room": "Yerba Buena Ballroom 2-6: Reasoning + RL",
         "Scheduled At": "5 Jun 2025 12:15 PM"
       }
