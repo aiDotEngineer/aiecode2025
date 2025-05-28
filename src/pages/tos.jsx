@@ -18,7 +18,7 @@ export default function Tos() {
 
 <p className="mt-8">These Terms contain important information regarding limitations on our liability, your indemnification obligations, and your agreement to binding individual arbitration and a class action waiver. If you are a representative of an entity, the entity may be held vicariously liable under these Terms. Please review carefully as you are binding yourself and/or the entity you are representing and you warrant that you have the capacity to bind such entity.</p>
 
-<p className="mt-8">In addition to these Terms, our <a href="/privacy">Privacy Policy</a> and <a href="/conduct">Code of Conduct</a> applies to your attendance of the Event and are incorporated herein by reference.</p>
+<p className="mt-8">In addition to these Terms, our <a href="/privacy" className="underline font-bold">Privacy Policy</a> and <a href="/conduct" className="underline font-bold">Code of Conduct</a> applies to your attendance of the Event and are incorporated herein by reference.</p>
 
 <p className="mt-8"><b>1. Application and Credentials</b></p>
 
