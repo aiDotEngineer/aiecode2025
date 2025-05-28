@@ -74,7 +74,7 @@ const SchedulePage: NextPage = () => {
               <a href="https://ai.engineer/sessions-speakers-details.json" className="underline hover:text-blue-800">Get all sessions in JSON</a>{' '}
               (or{' '}
               <a href="https://sessionize.com/api/v2/w3hd2z8a/view/All" className="underline hover:text-blue-800">raw JSON</a> or {' '}
-              <a href="https://sehttps://sessionize.com/api/v2/w3hd2z8a/view/Speakers" className="underline hover:text-blue-800">speakers JSON</a> 
+              <a href="https://sessionize.com/api/v2/w3hd2z8a/view/Speakers" className="underline hover:text-blue-800">speakers JSON</a> 
               ) for your own vibecoded view!
               We manually update this JSON dump regularly but the Sessionize schedule is the most up to date source of truth.
             </p>  
@@ -96,9 +96,10 @@ const SchedulePage: NextPage = () => {
                 sandbox="allow-scripts allow-same-origin"
               />
           </div>
-          
-          <ScheduleListPage />
         </div>
+
+        <ScheduleListPage />
+        
       </main>
     </>
   );
