@@ -223,6 +223,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 3:
+              <a
+                href="https://lu.ma/oee72oif"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                Agents Builders Meetup with <b>Latent Space, Veris, and Sailplane</b>
+              </a>
+            </li>
+            <li>
               Jun 4 (Wed):
               <a
                 href="https://lu.ma/4owq9aif"
