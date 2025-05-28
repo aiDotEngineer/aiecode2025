@@ -99,7 +99,7 @@ export default function Page({ sessionEvents }: any) {
           <header className="text-center space-y-6">
             <h1 className="text-5xl">
               {/* [INFO][2025-05-20T10:44:10-07:00] Use Next.js <Link> for internal navigation to /schedule */}
-<b>Schedule (bookmark <Link href="/schedule" className="text-blue-600 hover:underline">this URL</Link> for direct access)</b>
+<b>Schedule (bookmark <Link href="/schedule" className="text-blue-600 hover:underline">/schedule</Link> for direct access)</b>
             </h1>
             <p className="max-w-3xl m-auto text-gray-on-white text-justify mb-4">
               {/* There are up to 6 simultaneous things at any one time in this

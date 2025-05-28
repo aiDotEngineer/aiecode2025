@@ -203,7 +203,7 @@ const ScheduleListPage: NextPage = () => {
 
       <main className="min-h-screen bg-stone-100 pt-32"> */}
         <div className="mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-6">List View</h1>
+          <h1 className="text-4xl font-bold text-center mt-6">List View</h1>
 
           {/* Schedule Content */}
           {isLoading ? (

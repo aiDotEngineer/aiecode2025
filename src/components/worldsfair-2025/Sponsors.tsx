@@ -419,13 +419,6 @@ export function Sponsors() {
             className="inline-block h-12 w-18 md:h-20 md:w-28 object-contain mx-6"
           />
         </a>
-        <a href="https://vessl.ai" target="_blank" className="inline-block">
-          <Logo
-            logo="vessl"
-            variant="black"
-            className="inline-block h-12 w-32 md:h-20 md:w-54 object-contain mx-6"
-          />
-        </a>
         <a href="https://riza.ai" target="_blank" className="inline-block">
           <Logo
             logo="riza"

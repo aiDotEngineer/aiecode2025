@@ -219,7 +219,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                AI Leadership Dinner (w/ <b>Cloudflare - Leadership passes only</b>)
+                AI Leadership Dinner (w/ <b>Cloudflare</b> for Leadership passes)
               </a>
             </li>
             <li>
@@ -298,12 +298,13 @@ export function Overview() {
               IMPORTANT
             </span>{" "}
             Below are some of the 2024 events - to get in front of 3000 AI Engineers, tweet {" "}
-            <span
-              // href="mailto:sponsorships@ai.engineer"
+            <a
+              href="https://twitter.com/aidotengineer"
+              target="_blank"
               className="text-blue-500 hover:text-blue-400"
             >
               @aidotengineer/@swyx
-            </span>{" "}
+            </a>{" "}
             with a link to your 2025 side event!
           </p>
           <p className="text-gray-on-white text-base">
