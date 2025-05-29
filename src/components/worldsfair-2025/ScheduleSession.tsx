@@ -113,7 +113,7 @@ function ExpandedView({
   const { presenters } = session;
   const showFacilitators = presenters.length > 0 || isMicrosoft || isDecibel;
 
-  const plenaryClasses = session.trackName === 'Plenary' ? 'bg-gray-300' : '';
+  const plenaryClasses = session.isPlenumSession ? 'bg-gray-300' : '';
 
   return (
     <article className="relative z-10">
@@ -167,7 +167,7 @@ function ExpandedView({
 // function ConciseView({ session }: { session: SessionEvent }) {
 function ConciseView({ session, expandAll }: { session: any; expandAll?: boolean }) {
   const plenaryClasses =
-    session.trackName === 'Plenary'
+    session.isPlenumSession
       ? 'bg-gray-300 border-b border-black/10'
       : '';
 

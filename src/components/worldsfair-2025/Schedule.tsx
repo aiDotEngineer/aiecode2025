@@ -31,11 +31,16 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
 
   const trackNameOptions = sessionEvents
     .reduce((names: string[], next: any) => {
-      return names.includes(next.trackName)
-        ? names
-        : names.concat(next.trackName);
+      // Split comma-separated tracks and add each individually
+      const tracks = next.trackName.split(',').map((t: string) => t.trim());
+      tracks.forEach((track: string) => {
+        if (!names.includes(track)) {
+          names.push(track);
+        }
+      });
+      return names;
     }, [] as string[])
-    .filter((name: string) => !name.toLowerCase().includes('plenary'));
+    .sort();
 
   const sessions = useMemo(() => {
     // Show All
@@ -46,19 +51,19 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
       }
       // Show all without plenary
       return sessionEvents.filter(
-        (session: any) => !session.trackName.toLowerCase().includes('plenary'),
+        (session: any) => !session.isPlenumSession,
       );
     }
 
     // Filter Results
     return sessionEvents.filter((event: any) => {
+      const matchesFilter = event.trackName.toLowerCase().includes(filter.toLowerCase());
+      
       if (showPlenary) {
-        return event.trackName.toLowerCase().includes(filter.toLowerCase());
+        return matchesFilter;
       }
-      return (
-        !event.trackName.toLowerCase().includes('plenary') &&
-        event.trackName.toLowerCase().includes(filter.toLowerCase())
-      );
+      // When plenary is hidden, exclude plenary sessions
+      return !event.isPlenumSession && matchesFilter;
     });
   }, [filter, showPlenary, sessionEvents]);
 
