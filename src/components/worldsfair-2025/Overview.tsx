@@ -313,6 +313,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 5:
+              <a
+                href="https://lu.ma/a6c8pruh"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                Building software that lasts with <b>Northflank, Krea, PlayAI, Weights</b>
+              </a>
+            </li>
+            <li>
               Jun 6 (Friday):
               <a
                 href="https://lu.ma/3slkqscs"
@@ -320,16 +330,6 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 <b>Placeholder</b> AI Engineer Social/Meetup (join to indicate availability)
-              </a>
-            </li>
-            <li>
-              Jun 6:
-              <a
-                href="https://lu.ma/a6c8pruh"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Building software that lasts with <b>Northflank, Krea, PlayAI, Weights</b>
               </a>
             </li>
           </ul>
