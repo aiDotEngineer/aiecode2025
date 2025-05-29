@@ -2,8 +2,14 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "POST") {
+    if (!process.env.PCC_API_URL || !process.env.PCC_API_KEY) {
+      return res.status(500).json({
+        success: false,
+        error: "Agent is not configured. Please contact support.",
+      });
+    }
     try {
-      const response = await fetch("https://api.pipecat.daily.co/v1/public/ai-wf-bot/start", {
+      const response = await fetch(process.env.PCC_API_URL, {
         method: "POST",
         mode: "cors",
         headers: {
