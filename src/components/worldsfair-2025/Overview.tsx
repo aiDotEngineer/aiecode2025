@@ -193,6 +193,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 2:
+              <a
+                href="https://lu.ma/b9tfsnbj"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                AI VIP Mixer with <b>G2i and Hypermode</b>
+              </a>
+            </li>
+            <li>
               Jun 3 (Tuesday):
               <a
                 href="https://lu.ma/34vu2ojj"
