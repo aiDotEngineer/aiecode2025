@@ -161,16 +161,17 @@ const ScheduleListPage: NextPage = () => {
           const room = roomsMap.get(session.roomId);
           let trackName = trackFromDetails;
 
-          // If no assigned track or empty string, fall back to determining from session type or room
-          if (!trackName) {
+          // Override with Keynote if room contains keynote
+          if (room?.name?.toLowerCase().includes("keynote")) {
+            trackName = "Keynote";
+          } else if (!trackName) {
+            // If no assigned track or empty string, fall back  to determining from session type or room
             if (session.isServiceSession) {
               trackName = "Service";
             } else if (room?.name) {
               // Extract track from room name if it contains track info
               if (room.name.toLowerCase().includes("workshop")) {
                 trackName = "Workshop";
-              } else if (room.name.toLowerCase().includes("keynote")) {
-                trackName = "Keynote";
               } else {
                 trackName = "General Session";
               }
