@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Header } from "../components/worldsfair-2025/Header";
 import { Schedule } from "../components/worldsfair-2025/Schedule";
+import speakersSessionsData from '../utils/speakers-sessions-details.json';
 
 // Interfaces for the JSON
 interface SessionizeSpeaker {
@@ -52,20 +53,33 @@ interface SessionizeData {
   rooms: SessionizeRoom[];
 }
 
-interface SessionDetail {
-  "Session ID": string;
+interface SpeakerSessionDetail {
+  "Speaker ID": string;
+  Name: string;
+  Company: string;
+  "Company Domain": string;
+  "Company URL": string;
+  "Company Website": string;
   Title: string;
-  Description: string;
-  "Session Format": string;
-  Level: string;
-  Scope: string;
-  "Assigned Track": string;
-  Room: string;
-  "Scheduled At": string;
-  Speakers: string;
-  Companies: string;
-  "Company Domains": string;
-  Titles: string;
+  TagLine: string;
+  Bio: string;
+  "X (Twitter)": string;
+  LinkedIn: string;
+  Blog: string;
+  "Profile Picture": string;
+  "Session Count": number;
+  Sessions: Array<{
+    "Session ID": string;
+    Title: string;
+    Description: string;
+    Format: string;
+    Level: string;
+    Scope: string;
+    Tracks: string;
+    Room: string;
+    "Scheduled At": string;
+  }>;
+  "Speaker Details Array": any[];
 }
 
 const ScheduleListPage: NextPage = () => {
@@ -79,49 +93,53 @@ const ScheduleListPage: NextPage = () => {
       try {
         setIsLoading(true);
 
-        // Fetch from Sessionize API and session details
-        const [sessionizeResponse, detailsResponse] = await Promise.all([
-          fetch("https://sessionize.com/api/v2/w3hd2z8a/view/All"),
-          fetch("/sessions-speakers-details.json"),
-        ]);
-
+        // Fetch from Sessionize API
+        const sessionizeResponse = await fetch("https://sessionize.com/api/v2/w3hd2z8a/view/All");
         const data: SessionizeData = await sessionizeResponse.json();
-        const sessionDetails: SessionDetail[] = await detailsResponse.json();
 
         // Create lookup maps
         const speakersMap = new Map(data.speakers?.map((s) => [s.id, s]) || []);
         const roomsMap = new Map(data.rooms?.map((r) => [r.id, r]) || []);
-        const detailsMap = new Map(sessionDetails.map((d) => [d["Session ID"], d]));
+        
+        // Create a map of sessions from speakers-sessions-details.json
+        const sessionsTrackMap = new Map<string, string>();
+        const speakersDetails = speakersSessionsData as SpeakerSessionDetail[];
+        
+        speakersDetails.forEach(speaker => {
+          speaker.Sessions.forEach(session => {
+            // Store the full tracks string (may contain multiple comma-separated tracks)
+            sessionsTrackMap.set(session["Session ID"], session.Tracks || "");
+          });
+        });
 
         // Transform sessions to match the expected format
         const transformedSessions = data.sessions.map((session, index) => {
-          // Get details from the details JSON
-          const details = detailsMap.get(session.id);
-
-          // Split speakers and companies by comma
-          const speakerNames = details?.Speakers?.split(", ") || [];
-          const companyNames = details?.Companies?.split(", ") || [];
-
+          // Get track from speakers-sessions-details.json
+          const trackFromDetails = sessionsTrackMap.get(session.id) || "";
+          
           // Get speaker details
           const presenters = session.speakers
-            .map((speakerId, idx) => {
+            .map((speakerId) => {
               const speaker = speakersMap.get(speakerId);
               if (!speaker) return null;
-
-              // Get the corresponding company for this speaker
-              const speakerCompany = companyNames[idx] || companyNames[0] || "";
+              
+              // Find speaker in speakers-sessions-details.json to get company
+              const speakerDetail = speakersDetails.find(s => 
+                s.Sessions.some(sess => sess["Session ID"] === session.id) &&
+                s.Name === (speaker.firstName && speaker.lastName ? `${speaker.firstName} ${speaker.lastName}` : speaker.fullName)
+              );
 
               return {
                 attributes: {
                   name:
                     speaker.firstName && speaker.lastName
                       ? `${speaker.firstName} ${speaker.lastName}`
-                      : speaker.fullName || speakerNames[idx] || "TBD",
+                      : speaker.fullName || "TBD",
                   tagline: speaker.tagLine || "",
                   company: {
                     data: {
                       attributes: {
-                        name: speakerCompany,
+                        name: speakerDetail?.Company || "",
                       },
                     },
                   },
@@ -141,13 +159,11 @@ const ScheduleListPage: NextPage = () => {
 
           // Use track from details if available
           const room = roomsMap.get(session.roomId);
-          let trackName = details?.["Assigned Track"] || "";
+          let trackName = trackFromDetails;
 
-          // If no assigned track or empty string, fall back to determining from session type
+          // If no assigned track or empty string, fall back to determining from session type or room
           if (!trackName) {
-            if (session.isPlenumSession) {
-              trackName = "Plenary";
-            } else if (session.isServiceSession) {
+            if (session.isServiceSession) {
               trackName = "Service";
             } else if (room?.name) {
               // Extract track from room name if it contains track info
@@ -177,6 +193,7 @@ const ScheduleListPage: NextPage = () => {
             displayOrder: index,
             recordingLink: session.recordingUrl,
             type: session.isServiceSession ? "SERVICE" : "SESSION",
+            isPlenumSession: session.isPlenumSession,
           };
         });
 
