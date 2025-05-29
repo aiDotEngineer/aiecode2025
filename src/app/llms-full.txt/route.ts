@@ -59,6 +59,8 @@ function formatDerivedTracksAndSessionsToText(groupedSessions: Map<string, Sessi
         if (sessionIndex > 0) {
           text += `  ------------------------------------\n\n`; // Separator between sessions
         }
+        
+        text += `    Track: ${trackName}\n`;
         text += `    Speaker: ${session.speakerName} (${session.speakerTagline || 'N/A'})\n`;
         if (session.format) text += `    Format: ${session.format}\n`;
         if (session.Room) text += `    Room: ${session.Room}\n`;
