@@ -203,7 +203,7 @@ export function Overview() {
               </a>
             </li>
             <li>
-              Jun 3 (Tuesday):
+              Jun 3:
               <a
                 href="https://lu.ma/fi449s7o"
                 target="_blank"
@@ -229,7 +229,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                Agents Builders Meetup with <b>Latent Space, Veris, and Sailplane</b>
+                Agents Builders: <b>Latent Space, Veris, Sailplane</b>
               </a>
             </li>
             <li>
@@ -309,7 +309,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                AI Leaders & Builders Fireside Chat + Mixer (<b>Singapore EDB</b> and <b>SGN</b>)
+                AI Builders Chat + Mixer (<b>Singapore EDB</b> and <b>SGN</b>)
               </a>
             </li>
             <li>
@@ -319,7 +319,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                Building software that lasts with <b>Northflank, Krea, PlayAI, Weights</b>
+                Software that lasts with <b>Northflank, Krea, PlayAI, Weights</b>
               </a>
             </li>
             <li>
@@ -327,9 +327,9 @@ export function Overview() {
               <a
                 href="https://lu.ma/3slkqscs"
                 target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
+                className="text-blue-700 hover:text-blue-500 mx-1 bg-amber-50 p-1 rounded-sm"
               >
-                <b>Placeholder</b> AI Engineer Social/Meetup (join to indicate availability)
+                <b>Placeholder AI Engineer Social/Meetup</b> (join to indicate availability)
               </a>
             </li>
           </ul>
@@ -337,7 +337,7 @@ export function Overview() {
             <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
               IMPORTANT
             </span>{" "}
-            Below are some of the 2024 events - to get in front of 3000 AI Engineers, tweet {" "}
+            To get on this list and in front of 3000 AI Engineers, tweet {" "}
             <a
               href="https://twitter.com/aidotengineer"
               target="_blank"
@@ -561,14 +561,15 @@ export function Overview() {
           </p>
           <p className="text-gray-on-white text-base">
             <b>If you are organizing an event around the week of June 1-8</b>,
-            please{" "}
+            please tweet {" "}
             <a
-              href="mailto:hello@ai.engineer"
-              className="text-blue-700 hover:text-blue-500"
+              href="https://twitter.com/aidotengineer"
+              target="_blank"
+              className="text-blue-500 hover:text-blue-400"
             >
-              get in touch with us
+              @aidotengineer/@swyx
             </a>{" "}
-            to list on our calendar for attendees to find you!
+            with a link to your 2025 side event to list on our calendar for attendees to find you!
           </p>
         </div>
       </div>
