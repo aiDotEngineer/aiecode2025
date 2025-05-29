@@ -220,7 +220,7 @@ export function Sponsors() {
           <Logo
             logo="temporal"
             variant="black"
-            className="inline-block h-18 w-32 md:h-24 md:w-52 object-contain mx-6 scale-150"
+            className="inline-block invert p-4 h-18 w-32 md:h-24 md:w-52 object-contain mx-6 scale-150"
           />
         </a>
         <a href="https://baseten.co/" target="_blank" className="inline-block">

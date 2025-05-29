@@ -148,7 +148,7 @@ export function Expo() {
           />
         </a>
         <a href="https://temporal.io" target="_blank">
-          <Logo logo="temporal" variant="black" className="object-contain" />
+          <Logo logo="temporal" variant="black" className="object-contain invert" />
         </a>
         <a href="https://baseten.co/" target="_blank">
           <Logo logo="baseten" className="object-contain" />
