@@ -1,11 +1,13 @@
+import "@pipecat-ai/ui/styles.css";
+import { Analytics } from "@vercel/analytics/react";
 import { type AppType } from "next/app";
 import Head from "next/head";
-import { Analytics } from "@vercel/analytics/react";
-import { api } from "~/support/api";
+import { useCallback, useEffect } from "react";
 import "~/styles/tailwind.css";
-import React, { useEffect } from "react";
+import { api } from "~/support/api";
 
-// import ChatBot from '~/components/chat/ChatBot';
+import { Widget } from "@pipecat-ai/ui";
+
 import { ChoosePrimaryLayout } from "~/components/ChoosePrimaryLayout";
 
 type Session = {
@@ -20,15 +22,29 @@ const MyApp: AppType<{ session: Session | null }> = ({
   pageProps: { session: _session, ...pageProps },
 }) => {
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       const urlParams = new URLSearchParams(window.location.search);
-      const utmSource = urlParams.get('source') || urlParams.get('utm_source');
+      const utmSource = urlParams.get("source") || urlParams.get("utm_source");
       if (utmSource) {
-        import('../utils/utmUtils').then(({ storeUtmSource }) => {
+        import("../utils/utmUtils").then(({ storeUtmSource }) => {
           storeUtmSource(utmSource);
         });
       }
     }
+  }, []);
+
+  const handleConnect = useCallback(async () => {
+    const response = await fetch("/api/agent", {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    if (response.ok) {
+      return response;
+    }
+    throw new Error("Failed to connect with agent. Please try again later.");
   }, []);
 
   return (
@@ -42,7 +58,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
       <ChoosePrimaryLayout>
         <Component {...pageProps} />
       </ChoosePrimaryLayout>
-      {/* <ChatBot /> */}
+      <Widget onConnect={handleConnect} collapsedButtonText="Talk to AI Engineer" />
       <Analytics />
     </>
   );
