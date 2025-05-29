@@ -17,7 +17,7 @@ import descope from "~/images/logos/descope.svg";
 import baz from "~/images/logos/baz.svg";
 import agentuity from "~/images/logos/agentuity.svg";
 import traceloop from "~/images/logos/traceloop.svg";
-import temporal from "~/images/logos/temporal.svg";
+import temporal from "~/images/logos/temporal_logo.png";
 import freeplay from "~/images/logos/freeplay.svg";
 import graphite from "~/images/logos/graphite.svg";
 import orb from "~/images/logos/orb.svg";
