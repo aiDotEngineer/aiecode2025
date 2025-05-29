@@ -44,7 +44,21 @@ const MyApp: AppType<{ session: Session | null }> = ({
       <ChoosePrimaryLayout>
         <Component {...pageProps} />
       </ChoosePrimaryLayout>
-      <Widget connectUrl="http://localhost:3000/api/agent" />
+      <Widget
+        onConnect={async () => {
+          const response = await fetch("/api/agent", {
+            method: "POST",
+            mode: "cors",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+          if (response.ok) {
+            return response;
+          }
+          throw new Error("Failed to connect with agent. Please try again later.");
+        }}
+      />
       <Analytics />
     </>
   );
