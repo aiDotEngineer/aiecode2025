@@ -212,6 +212,8 @@ import quotient from "~/images/logos/quotient.svg";
 import haize from "~/images/logos/haize.svg";
 import traversal from "~/images/logos/traversal.png";
 
+import anterior from "~/images/logos/anterior.png";
+
 type Key = keyof typeof logos;
 
 interface LogoProps extends Omit<ImageProps, "src" | "alt"> {
@@ -1004,5 +1006,9 @@ export const logos = defineLogos({
   haize: {
     name: "Haize",
     color: haize,
+  },
+  anterior: {
+    name: "Anterior",
+    color: anterior,
   }
 });
