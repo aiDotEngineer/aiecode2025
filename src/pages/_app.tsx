@@ -2,7 +2,7 @@ import "@pipecat-ai/ui/styles.css";
 import { Analytics } from "@vercel/analytics/react";
 import { type AppType } from "next/app";
 import Head from "next/head";
-import { useEffect } from "react";
+import { useCallback, useEffect } from "react";
 import "~/styles/tailwind.css";
 import { api } from "~/support/api";
 
@@ -33,6 +33,20 @@ const MyApp: AppType<{ session: Session | null }> = ({
     }
   }, []);
 
+  const handleConnect = useCallback(async () => {
+    const response = await fetch("/api/agent", {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    if (response.ok) {
+      return response;
+    }
+    throw new Error("Failed to connect with agent. Please try again later.");
+  }, []);
+
   return (
     <>
       <Head>
@@ -44,21 +58,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
       <ChoosePrimaryLayout>
         <Component {...pageProps} />
       </ChoosePrimaryLayout>
-      <Widget
-        onConnect={async () => {
-          const response = await fetch("/api/agent", {
-            method: "POST",
-            mode: "cors",
-            headers: {
-              "Content-Type": "application/json",
-            },
-          });
-          if (response.ok) {
-            return response;
-          }
-          throw new Error("Failed to connect with agent. Please try again later.");
-        }}
-      />
+      <Widget onConnect={handleConnect} collapsedButtonText="Talk to AI Engineer" />
       <Analytics />
     </>
   );
