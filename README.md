@@ -24,4 +24,6 @@
     - LOOPS_API_KEY
     - NEXT_PUBLIC_SUPABASE_URL
     - SUPABASE_SERVICE_ROLE_KEY
+    - PCC_API_KEY= ask jon from daily or swyx
+    - PCC_API_URL="https://api.pipecat.daily.co/v1/public/ai-wf-bot/start"
     - env.NODE_ENV === 'development'
