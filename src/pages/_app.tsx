@@ -58,7 +58,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
       <ChoosePrimaryLayout>
         <Component {...pageProps} />
       </ChoosePrimaryLayout>
-      <Widget onConnect={handleConnect} collapsedButtonText="Talk to AI Engineer" />
+      <Widget onConnect={handleConnect} collapsedButtonText="Talk to AIE" />
       <Analytics />
     </>
   );
