@@ -266,13 +266,13 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
             <div className="font-bold font-lg">Quick Actions</div>
 
             <div className="flex flex-col md:grid md:grid-cols-2">
-              <Link href={`${CONF_URL}/tos`}>
+              <Link href={`${CONF_URL}tos`}>
                 <SmallLinkText>Terms of Service</SmallLinkText>
               </Link>
-              <Link href={`${CONF_URL}/privacy`}>
+              <Link href={`${CONF_URL}privacy`}>
                 <SmallLinkText>Privacy</SmallLinkText>
               </Link>
-              <Link href={`${CONF_URL}/conduct`}>
+              <Link href={`${CONF_URL}conduct`}>
                 <SmallLinkText>Code of Conduct</SmallLinkText>
               </Link>
               <a href={SCHOLARSHIPS_URL} target="_blank">
