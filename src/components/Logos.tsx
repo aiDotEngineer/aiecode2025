@@ -196,6 +196,13 @@ import pomeriumWhite from "~/images/logos/pomerium-dark.svg";
 import togetheraiWhite from "~/images/logos/together-dark.svg";
 import workosWhite from "~/images/logos/work-os-dark.svg";
 
+import tavily from "~/images/logos/tavily.svg";
+import tldraw from "~/images/logos/tldraw.svg";
+import alixpartners from "~/images/logos/alixpartners.jpeg";
+import lumalabs from "~/images/logos/lumalabs.png";
+import redhat from "~/images/logos/redhat.png";
+import ensemble from "~/images/logos/ensemble.png";
+
 import every from "~/images/logos/every_black.svg";
 import oleve from "~/images/logos/oleve.png";
 
@@ -415,7 +422,30 @@ export const logos = defineLogos({
     name: "NewStack",
     color: NewStack,
   },
-
+  tavily: {
+    name: "tavily",
+    color: tavily
+  },
+  tldraw: {
+    name: "tldraw",
+    color: tldraw
+  },
+  alixpartners: {
+    name: "alixpartners",
+    color: alixpartners
+  },
+  lumalabs: {
+    name: "lumalabs",
+    color: lumalabs
+  },
+  redhat: {
+    name: "redhat",
+    color: redhat
+  },
+  ensemble: {
+    name: "ensemble",
+    color: ensemble
+  },
   adept: {
     name: "Adept",
     black: adeptBlack,

@@ -630,6 +630,42 @@ export function Sponsors() {
             className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>
+        <a href="https://www.tavily.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="tavily"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.tldraw.dev/" target="_blank" className="inline-block">
+          <Logo
+            logo="tldraw"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.alixpartners.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="alixpartners"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.lumalabs.ai/" target="_blank" className="inline-block">
+          <Logo
+            logo="lumalabs"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.redhat.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="redhat"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://www.ensemblehp.com/" target="_blank" className="inline-block">
+          <Logo
+            logo="ensemble"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
       </div>
 
       <div className="text-center space-y-6 p-8 bg-stone-200 rounded-2xl">
