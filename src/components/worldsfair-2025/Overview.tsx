@@ -225,6 +225,16 @@ export function Overview() {
             <li>
               Jun 3:
               <a
+                href="https://lu.ma/o648ixbd"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                AI Agent SF #3 - <b>Agent Protocols</b>
+              </a>
+            </li>
+            <li>
+              Jun 3:
+              <a
                 href="https://lu.ma/wodr7uk0?tk=dvB21W"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
@@ -300,6 +310,16 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 Billing & Baseball (by <b>Orb </b>)
+              </a>
+            </li>
+            <li>
+              Jun 4:
+              <a
+                href="https://lu.ma/52yusbil"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>MongoDB</b> VIP Reception & Fireside Chat with Tengyu Ma
               </a>
             </li>
             <li>
