@@ -563,6 +563,12 @@ export function Sponsors() {
             className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
           />
         </a>        
+        <a href="https://useragent.ai/" target="_blank" className="inline-block">
+          <Logo
+            logo="useragentai"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>        
         <a href="https://casco.com/" target="_blank" className="inline-block">
           <Logo
             logo="casco"
