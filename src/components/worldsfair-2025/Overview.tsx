@@ -353,6 +353,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 5:
+              <a
+                href="https://partiful.com/e/8mRLJDwyGlt1qduiW0Lo"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                Raise your model temperature @ Banya
+              </a>
+            </li>
+            <li>
               Jun 6 (Friday):
               <a
                 href="https://lu.ma/3slkqscs"
