@@ -189,20 +189,20 @@ const nextConfig: NextConfig = {
       ],
       afterFiles: [
         {
-          source: '/:path*',
-          destination: 'https://aie-summit.vercel.app/:path*',
-        }
-      ],
-      fallback: [
-        // Add any manual rewrites below
-        {
           source: '/youtube',
           destination: 'https://youtube.com/@aidotengineer',
         },
         {
           source: '/slack',
           destination: 'https://join.slack.com/t/aidotengineer/shared_invite/zt-36irke9v9-MawZul~zqPeR6mDqfdoleg',
+        },
+        {
+          source: '/:path*',
+          destination: 'https://aie-summit.vercel.app/:path*',
         }
+      ],
+      fallback: [
+        // Add any manual rewrites below PLEASE TEST AS PREVIOUS ATTEMPTS DONT WORK
       ]
     }
   },
