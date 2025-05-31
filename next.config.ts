@@ -198,6 +198,10 @@ const nextConfig: NextConfig = {
         {
           source: '/youtube',
           destination: 'https://youtube.com/@aidotengineer',
+        },
+        {
+          source: '/slack',
+          destination: 'https://join.slack.com/t/aidotengineer/shared_invite/zt-36irke9v9-MawZul~zqPeR6mDqfdoleg',
         }
       ]
     }
