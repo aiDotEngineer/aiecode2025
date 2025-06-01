@@ -29,35 +29,6 @@
     ]
   },
   {
-    "Speaker ID": "64940200-6b83-4a82-9216-7a68a3788d54",
-    "Name": "Windsurf Speaker",
-    "Company": "Windsurf",
-    "Company Domain": "windsurf.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Speaker",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936251",
-        "Title": "Windsurf Booth Session #2",
-        "Description": "",
-        "Format": "",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
     "Speaker ID": "ab81ea4b-98b1-4d9a-88c6-2c62cb1a6200",
     "Name": "Junyang Lin",
     "Company": "Alibaba Group",
@@ -1415,35 +1386,6 @@
         "Tracks": "MCP, AI in Action, Security, Infrastructure",
         "Room": "Willow: Expo Sessions",
         "Scheduled At": "5 Jun 2025 12:45 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "e535f80c-5875-4f7e-a5db-9a049fb7e8d3",
-    "Name": "Zack Proser",
-    "Company": "Mastra.ai",
-    "Company Domain": "mastra.ai",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Engineer",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "933688",
-        "Title": "AI Pipelines and Agents in Pure TypeScript with Mastra.ai",
-        "Description": "This hands-on workshop introduces Mastra.ai, a TypeScript framework that streamlines the development of agentic AI systems compared to traditional approaches using LangChain and vector databases. Participants will learn to build structured AI workflows with composable tools and reliable control, enabling them to create internal AI assistants that can handle requests like data cleaning, email drafting, and document summarization with minimal code. The session covers Mastra installation, running a local MCP server, defining tools and agents in TypeScript, using the Mastra playground, and implementing practical examples such as RAG setups and tool-chaining agents—all designed to equip attendees with the skills to develop scalable AI-driven internal tools based on sound software engineering principles rather than just experimental prompts.",
-        "Format": "Workshop",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "MCP, AI in Action",
-        "Room": "Salons 2-6: Workshops",
-        "Scheduled At": "3 Jun 2025 03:30 PM"
       }
     ]
   },
@@ -3762,64 +3704,6 @@
     ]
   },
   {
-    "Speaker ID": "51d52d6c-9ca2-4b7d-806c-0cc4913c47fa",
-    "Name": "Tejashwa Tiwari",
-    "Company": "Windsurf",
-    "Company Domain": "windsurf.com",
-    "Company URL": "windsurf.com",
-    "Company Website": "https://windsurf.com",
-    "Title": "Analytics and Automation Engineer",
-    "TagLine": "Analytics and Automation Engineer",
-    "Bio": "Tejashwa is an Analytics and Automation Engineer at Windsurf, where he develops systems to transform product data into insights and automate workflows across the platform. He holds a Master’s degree in Computer Science and brings over four years of experience as a software engineer. His background in full-stack development and data engineering enables him to bridge analytics and infrastructure, driving smarter, faster decisions at scale. (edited) \r\n1732234610663.jpeg\r\n ",
-    "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/tejashtiwari/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/da2a-400o400o1-nDmoTN9U1KKCBkjP4jobCq.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "933685",
-        "Title": "Windsurf & Wonders",
-        "Description": "Come learn about why Windsurf is the premiere choice for engineers and enterprises alike in applications of AI for development.",
-        "Format": "",
-        "Level": "Intermediate",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "AI in Action, SWE Agents, AI in Fortune 500",
-        "Room": "Salons 9-15: Expo Hall",
-        "Scheduled At": "4 Jun 2025 01:45 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "2ff913ec-cd3d-481e-955f-2598dbeba4bc",
-    "Name": "Tejashwa Tiwari",
-    "Company": "Windsurf",
-    "Company Domain": "codeium.com",
-    "Company URL": "windsurf.com",
-    "Company Website": "https://windsurf.com",
-    "Title": "Analytics and Automation Engineer",
-    "TagLine": "Automation Engineer @ Windsurf",
-    "Bio": "Tejashwa is an Analytics and Automation Engineer at Windsurf, where he develops systems to transform product data into insights and automate workflows across the platform. He holds a Master’s degree in Computer Science. ",
-    "X (Twitter)": "",
-    "LinkedIn": "https://www.linkedin.com/in/tejashtiwari/",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/df67-400o400o1-hhJzpoHaSseEmnyA9rEb8u.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "933685",
-        "Title": "Windsurf & Wonders",
-        "Description": "Come learn about why Windsurf is the premiere choice for engineers and enterprises alike in applications of AI for development.",
-        "Format": "",
-        "Level": "Intermediate",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "AI in Action, SWE Agents, AI in Fortune 500",
-        "Room": "Salons 9-15: Expo Hall",
-        "Scheduled At": "4 Jun 2025 01:45 PM"
-      }
-    ]
-  },
-  {
     "Speaker ID": "bb2ab6f3-c148-4f33-b1c8-da2ecdc1b6c7",
     "Name": "Samuel Colvin",
     "Company": "Pydantic Inc.",
@@ -5143,64 +5027,6 @@
         "Tracks": "",
         "Room": "Keynote/General Session (Yerba Buena 7&8)",
         "Scheduled At": "4 Jun 2025 04:40 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "2eeb60af-71b2-43dc-9100-8970239201b1",
-    "Name": "swyx .",
-    "Company": "Independent",
-    "Company Domain": "unknown",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "AI Engineer",
-    "TagLine": "Curator, smol.ai",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/36df-400o400o1-NeCgbRYNYXDqszLVsPyoTi.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936006",
-        "Title": "#define AI Engineer",
-        "Description": "Greg Brockman's career and advice for AI Engineers",
-        "Format": "",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "4 Jun 2025 04:40 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "15ac58ac-feb5-45eb-9ebb-a7daf801676c",
-    "Name": "Ben Dunphy",
-    "Company": "Tollbit",
-    "Company Domain": "tollbit.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Organizer",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "946658",
-        "Title": "Welcome to the Tollbit Afterparty",
-        "Description": "",
-        "Format": "",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "4 Jun 2025 05:20 PM"
       }
     ]
   },
@@ -6985,35 +6811,6 @@
     ]
   },
   {
-    "Speaker ID": "3e49e3e2-aa3a-440d-8415-2326ea40283c",
-    "Name": "Lunch Learn",
-    "Company": "Braintrust",
-    "Company Domain": "braintrust.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Lunch & Learn Speaker",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936935",
-        "Title": "Braintrust Lunch & Learn",
-        "Description": "",
-        "Format": "",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Golden Gate Ballroom B: Evals",
-        "Scheduled At": "5 Jun 2025 12:45 PM"
-      }
-    ]
-  },
-  {
     "Speaker ID": "44b5552e-4f9f-4dd4-bf8b-e420e0723a79",
     "Name": "Mikiko Bazeley",
     "Company": "MongoDB",
@@ -8181,64 +7978,6 @@
         "Tracks": "AI in Action",
         "Room": "Keynote/General Session (Yerba Buena 7&8)",
         "Scheduled At": "5 Jun 2025 04:55 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "ff3d3b8d-8dea-43fc-8c44-22e76e09900f",
-    "Name": "Shawn  Wang",
-    "Company": "unknown",
-    "Company Domain": "unknown",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "AI Engineer",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936046",
-        "Title": "AI Engineer World's Fair Hackathon - Grand Prize",
-        "Description": "",
-        "Format": "Keynote",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "5 Jun 2025 05:15 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "72925295-ff51-46e6-b644-961f8b13ccde",
-    "Name": "Benjamin Dunphy",
-    "Company": "World's Fair Hackathon",
-    "Company Domain": "worldsfairhackathon.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "AI Engineer",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936046",
-        "Title": "AI Engineer World's Fair Hackathon - Grand Prize",
-        "Description": "",
-        "Format": "Keynote",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "5 Jun 2025 05:15 PM"
       }
     ]
   }
