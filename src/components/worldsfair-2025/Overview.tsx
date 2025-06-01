@@ -409,7 +409,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
-                Video AI Summit
+                Video AI Summit (<b>TwelveLabs, vimmerse.net, xpressive.ai</b>)
               </a>
             </li>
             <li>
