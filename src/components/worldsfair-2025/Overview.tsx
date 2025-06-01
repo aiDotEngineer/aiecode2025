@@ -403,6 +403,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 5 (late):
+              <a
+                href="https://cerebralvalley.ai/e/aie-worlds-fair-afterparty-hack-night-agent-ops-hq-1ec40b0b?utm_source=t"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                AIE World's Fair Afterparty Hack Night @ AgentOps HQ
+              </a>
+            </li>
+            <li>
               Jun 6 (Friday):
               <a
                 href="https://lu.ma/3slkqscs"
