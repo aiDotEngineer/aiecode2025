@@ -1,5 +1,185 @@
 [
   {
+    "Session ID": "902517",
+    "Title": "How to Build Trustworthy AI",
+    "Description": "Trust is a multifaceted outcome that results when product and engineering teams work together to build AI that is aligned, explainable, and secure. Learn strategies for how to build trustworthy AI and why trust is paramount for AI systems.\r\n\r\nTrustworthy AI = AI Security + AI Safety\r\n\r\nLearn about the differences between AI Security and AI Safety and how the three focus areas of MLSecOps + AI Red Teaming + AI Runtime Security can help you achieve both and ultimately build Trustworthy AI. \r\n\r\nTrustworthy AI Issues in the news:\r\nhttps://x.com/syddiitwt/status/1923427722241487297\r\nhttps://fingfx.thomsonreuters.com/gfx/legaldocs/egvblxokkvq/Walters%20v%20OpenAI%20-%20order.pdf?ref=claritasgrc.ai\r\n\r\nMLSecOps Resources\r\nModelscan https://github.com/protectai/modelscan\r\nCommunity: mlsecops.com\r\n\r\nAI Red Teaming Resources:\r\nhttps://azure.github.io/PyRIT/\r\nhttps://ashy-coast-00aeb501e.6.azurestaticapps.net/MS_AIRT_Lessons_eBook.pdf\r\n\r\nAI Runtime Security Resources:\r\nhttps://www.pillar.security/solutions#ai-detection\r\nhttps://noma.security/\r\n\r\nShowcasing Trustworthy AI to Customers/Prospects\r\nhttps://www.vanta.com/collection/trust/what-is-a-trust-center",
+    "Session Format": "Online Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Allie Howe",
+    "Companies": "unknown",
+    "Company Domains": "secvendors.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "905421",
+    "Title": "open-rag-eval: RAG Evaluation without \"golden\" answers.",
+    "Description": "Open-RAG-Eval is an open-source framework that revolutionizes RAG evaluation by harnessing the power of LLM judges for scalable, automated evaluation without the need for golden answers or golden chunks. Building on pioneering research from the University of Waterloo, this framework integrates innovative tools like UMBRELA for reference-free relevance scoring and AutoNuggetizer for automated fact-checking. Designed with a flexible connectors architecture, it seamlessly plugs into any RAG pipeline while delivering fast, transparent, and interpretable metrics on retrieval, generation, and hallucination in RAG. ",
+    "Session Format": "Online Talk",
+    "Level": "Intermediate",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Ofer Mendelevitch",
+    "Companies": "unknown",
+    "Company Domains": "vectara.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "905792",
+    "Title": "Why the Best AI Agents Are Built Without Frameworks (Primitives over Frameworks)",
+    "Description": "Cursor, v0, chai.new, lovable, bolt — what do they all have in common? They weren’t built on AI frameworks—they're built using primitives optimized for speed, scale, and flexibility.\r\n\r\nLLMs are evolving fast—like, literally every week. New standards pop up (looking at you, MCP), and APIs change faster than you can keep track. Frameworks just can't move at this speed.\r\n\r\nIn this talk, I'll challenge conventional engineering wisdom, sharing my real-world experience scaling thousands of AI agents to handle over 100 million monthly runs.\r\n\r\nYou'll discover how using AI primitives can dramatically speed up iteration, provide bigger scale, and simplify maintenance. \r\n\r\nI'll share eight practical agent architectures—covering memory management, auto tool integration, and simple serverless deployment—to help you quickly build reliable and scalable AI agents.\r\n\r\nBy the end of this session, you'll clearly see why we must rethink and rebuild our infrastructure and focus on AI-native primitives instead of heavy, bloated, and quickly outdated frameworks. \r\n\r\nI wonder if we need another S3-moment but for the AI agent infrastructure.",
+    "Session Format": "Online Talk",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Ahmad Awais",
+    "Companies": "CHAI.new",
+    "Company Domains": "langbase.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "909665",
+    "Title": "The Agent-Native Company",
+    "Description": "Are you just using AI—or are you building a company around it?\r\n\r\nIn this talk, I break down what it means to be an agent-native company—a business designed from the ground up with AI agents at the core of operations, culture, and product. Drawing from my own founder experience (building 14 months of product in 8 weeks with just 6 people and a stack of agents), I’ll walk you through the real-world shift happening right now across tech.\r\n\r\n🔍 What you'll learn:\r\n\r\nThe difference between AI-enhanced vs. AI-native orgs\r\n\r\nWhy the future of hiring is about AI fluency, not just professional networks or credentials\r\n\r\nThe rise of new job titles like “Agent Manager” (yes, that’s a real job)\r\n\r\nHow lean teams can use AI agents to achieve 10x—or even 100x—impact\r\n\r\nWhat “culture is the new stack” really means when humans and AI work together\r\n\r\n🧠 Featuring real-world examples, practical hiring insights, and a peek into how workflows and job roles are changing fast.\r\n\r\n📈 Whether you’re a founder, tech leader, or just curious about the future of work, this is your guide to scaling smart—with AI at the wheel.",
+    "Session Format": "Online Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Rick Blalock",
+    "Companies": "unknown",
+    "Company Domains": "agentuity.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "914551",
+    "Title": "The 4 Patterns of AI Native Development",
+    "Description": "AI is fundamentally reshaping software development roles and activities. While the change is obvious, understanding the actual shifts taking place on the individual developer remains challenging. \r\n\r\nIn this talk, we introduce the four AI Native Dev patterns that are currently emerging:\r\n- From producer to manager: we say what AI needs to do\r\n- From implementation to intent: we care less on the how but focus on the why\r\n- From delivery to discovery: we experiment and learn\r\n- From content creation to knowledge: capture knowhow to get better\r\n\r\nWe backup these patterns by showcasing features in tools that support these shift.\r\n\r\nThe aim of the patterns is to help grasp how to position you and your team members 's career effectively in this changing landscape.",
+    "Session Format": "Online Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Patrick Debois",
+    "Companies": "unknown",
+    "Company Domains": "jedi.be",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "914597",
+    "Title": "Unlocking Africa’s Future: The Transformative Potential of Artificial Intelligence",
+    "Description": "As Africa stands at the crossroads of rapid population growth, urbanization, and digital transformation, Artificial Intelligence (AI) presents unprecedented opportunities to tackle some of the continent’s most pressing challenges. This presentation explores how AI can be harnessed as a tool for sustainable development—addressing issues in healthcare, agriculture, education, infrastructure, and governance.\r\n\r\nWe’ll delve into real-world applications of AI across African nations, highlight innovative local solutions, and discuss how ethical and inclusive AI development can empower communities, bridge data gaps, and foster economic growth. The session will also examine the importance of homegrown talent, policy frameworks, and cross-sector collaboration in shaping an AI-powered future tailored to Africa’s unique context.\r\n\r\nIt is time we reimagine the continent’s future through the lens of AI—one that is driven by innovation, equity, and resilience.",
+    "Session Format": "Online Talk",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Thabang Ledwaba",
+    "Companies": "BBD",
+    "Company Domains": "gmail.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "916008",
+    "Title": "Analyzing 10,000 Sales Calls with AI in 2 Weeks",
+    "Description": "AKA: The Data Goldmine You’re Probably Ignoring\r\n\r\nMost companies are sitting on mountains of customer data: sales calls, customer support tickets, product reviews, user feedback, and social media interactions. But the truth is that most of this valuable data remains untouched - or worse, unusable.\r\n\r\nIn this case study, I'll share how our team leveraged Claude to analyze 10,000 sales call transcripts in a handful of days, extracting deep customer insights at scale. We'll cover the AI engineering challenges we faced, including model selection tradeoffs, reducing hallucinations with retrieval-augmented generation (RAG), and optimizing prompt caching to dramatically cut costs and latency (by up to 90% in some cases).\r\n\r\nThis isn't theoretical - it's a practical blueprint with concrete ROI metrics.\r\nPerfect for AI engineers, data scientists, and anyone sitting on mountains of unstructured customer data they can't analyze at scale.\r\n\r\nRead more at https://www.ignorance.ai/",
+    "Session Format": "Online Talk",
+    "Level": "Advanced",
+    "Scope": "Case Study/War Story",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Charlie Guo",
+    "Companies": "Artificial Ignorance",
+    "Company Domains": "ignorance.ai",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "916050",
+    "Title": "ChatGPT is poorly designed. So I fixed it",
+    "Description": "Let's fix ChatGPT's greatest design sins. We'll design and build a working app that makes ChatGPT multi-modal and multi-model. And no, you don't need to know what those words mean to use it.\r\n\r\nDownload the source code: https://github.com/bholmesdev/fixgpt\r\n\r\nReferences from this video:\r\n- Try https://warp.dev to vibe code your own solution\r\n- Watch Scott and Mark's podcast episode, \"how to not ship the org chart:\" https://www.youtube.com/watch?v=Z1yYcUFzH2A\r\n- Read \"Why is AI marketing so, so bad?\" by Evan Armstrong at The Leverage: https://www.gettheleverage.com/p/why-is-ai-marketing-so-so-bad\r\n- \r\n",
+    "Session Format": "Online Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Ben Holmes",
+    "Companies": "unknown",
+    "Company Domains": "gmail.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "916069",
+    "Title": "The Multi-agent Orchestration Stack: Building an AI Copilot with Bedrock, Flyte & LangGraph",
+    "Description": "As LLMs move into enterprise workflows, developers face a new kind of architecture challenge: how do you build reliable, interpretable systems powered by agents and reasoning?\r\n\r\nThis talk unpacks how we designed and implemented an AI orchestration framework for enterprise architecture — combining LangGraph for multi-agent workflows, Flyte for distributed execution, and AWS Bedrock for LLM inference using Claude 3. The product: an AI copilot for enterprise architects, deeply rooted in your tech stack context.\r\n\r\nAt the core of this system is a domain-specific **knowledge graph** that acts as long-term memory for the agents. It enables persistent, structured representations of architectural state, system dependencies, and business context — giving the agents the grounding they need to generate accurate recommendations, translate natural language into SQL or code, and maintain continuity across workflows.\r\n\r\nWe’ll also cover how we’ve integrated observability practices — including planned OpenTelemetry instrumentation — to trace and debug autonomous AI systems in production.\r\n\r\nIf you’re a developer or AI engineer thinking beyond the chatbot and looking to embed reasoning into complex system design and data tasks, this talk offers an end-to-end blueprint — from orchestration and grounding to production monitoring.",
+    "Session Format": "Online Talk",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Iman  Makaremi",
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "916107",
+    "Title": "Designing AI to Scale Human Thought",
+    "Description": "Forget the hype of AI automation replacing jobs. The future lies in human augmentation — revealing blind spots, sparking creativity, and amplifying thoughtful decision-making. In this talk, we’ll explore the principles that distinguish augmentation from automation in AI UX design, covering interaction patterns, design principles, and trust-building feedback loops. Drawing from real-world experiences building AI-powered tools and beyond, we’ll dive into concepts for crafting interfaces that empower users to think smarter, not just work faster. Expect practical insights and a fresh perspective on AI’s role as a collaborative partner.\r\n\r\nAI Augmentation: https://jytan.net/blog/2025/ai-augmentation/\r\nTusk: https://www.usetusk.ai/",
+    "Session Format": "Online Talk",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Jun Yu Tan",
+    "Companies": "unknown",
+    "Company Domains": "usetusk.ai",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "916149",
+    "Title": "Are MCPs Overhyped? A Rant about MCPs",
+    "Description": "AI agents are becoming smarter but lack the broad capability to take action in practice. At Smithery, we believe the missing link is an AI orchestration layer—a unified interface that gives agents context, action, and a way to learn from real interactions. This talk explores the problem space in the Model Context Protocol (MCP) ecosystem and how we're tackling it at Smithery.",
+    "Session Format": "Online Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Henry Mao",
+    "Companies": "unknown",
+    "Company Domains": "calclavia.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "935982",
+    "Title": "Letting AI Interface with Your App with MCP",
+    "Description": "We are entering a new era of user interaction. It's being built right before our very eyes and changing rapidly. As crazy as it sounds, soon each one of us will get our own Jarvis capable of performing actually useful tasks for us with a completely different user interaction mechanism than we're used to.\r\n\r\nBut someone's gotta give Jarvis the tools to perform these tasks, and that's where we come in.\r\n\r\nIn this talk, Kent will live code an MCP server and use it with an AI assistant to help us catch the vision of what this future could look like and our role in it.",
+    "Session Format": "Online Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Kent C. Dodds",
+    "Companies": "EpicAI.pro",
+    "Company Domains": "kentcdodds.com",
+    "Titles": "unknown"
+  },
+  {
     "Session ID": "936251",
     "Title": "Windsurf Booth Session #2",
     "Description": "",
@@ -10,8 +190,38 @@
     "Room": "",
     "Scheduled At": "",
     "Speakers": "Windsurf Speaker",
-    "Companies": "Windsurf",
-    "Company Domains": "windsurf.com",
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "939091",
+    "Title": "Qwen: Towards a Generalist Model / Agent",
+    "Description": "Since Alibaba launched the Qwen series of large models in 2023, the Qwen series of large language models and multimodal large models have been continuously updated and improved. This presentation will introduce the latest developments in the Qwen series of models, including the large language model Qwen3, vision-language large model Qwen2.5-VL, omni model Qwen2.5-Omni, etc. Additionally, this presentation will also cover the future development directions of the Qwen series.",
+    "Session Format": "Online Talk",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "Online",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Junyang Lin",
+    "Companies": "Alibaba Group",
+    "Company Domains": "gmail.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "946084",
+    "Title": "How To Implement End-to-End Tracing for MCP Client-Server Applications",
+    "Description": "Model-Context-Protocol (MCP) has become the “USB-C for AI.” But when a request jumps across tools, clouds and languages, debugging becomes tricky. Where does your latency spike? What broke your prompt? In this lightning demo, we show how open source Arize Phoenix + OpenInference propagate OpenTelemetry context from an MCP client ➜ server ➜ Claude chain, letting you watch every span in real time, spot bottlenecks, and replay bad traces in seconds. You’ll leave knowing how to gain full-stack visibility for your MCP Apps without any custom code or vendor lock-in.\r\n",
+    "Session Format": "Talk",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "",
+    "Scheduled At": "",
+    "Speakers": "Dat Ngo",
+    "Companies": "Arize AI",
+    "Company Domains": "arize.com",
     "Titles": "unknown"
   },
   {
@@ -27,7 +237,7 @@
     "Speakers": "Damien Murphy",
     "Companies": "Bench Computing",
     "Company Domains": "bench.io",
-    "Titles": "Full Stack Developer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915684",
@@ -40,9 +250,9 @@
     "Room": "Nobhill A&B: Workshops",
     "Scheduled At": "3 Jun 2025 09:00 AM",
     "Speakers": "Taylor Jordan Smith",
-    "Companies": "Red Hat",
+    "Companies": "unknown",
     "Company Domains": "gmail.com",
-    "Titles": "Senior Developer Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915928",
@@ -57,7 +267,7 @@
     "Speakers": "Ishan Anand",
     "Companies": "Independent",
     "Company Domains": "gmail.com",
-    "Titles": "AI consultant"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916066",
@@ -72,7 +282,7 @@
     "Speakers": "Philip Kiely, Yineng Zhang",
     "Companies": "Baseten, Baseten",
     "Company Domains": "baseten.co, zhyncs.com",
-    "Titles": "Developer Relations Lead, Software Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "929509",
@@ -84,10 +294,10 @@
     "Assigned Track": "Workshop",
     "Room": "Foothill C: Workshops",
     "Scheduled At": "3 Jun 2025 09:00 AM",
-    "Speakers": "Unsloth AI N/A",
+    "Speakers": "Daniel Han",
     "Companies": "Unsloth AI",
     "Company Domains": "gmail.com",
-    "Titles": "founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933714",
@@ -102,7 +312,7 @@
     "Speakers": "Zach Blumenfeld",
     "Companies": "Neo4j ",
     "Company Domains": "neotechnology.com",
-    "Titles": "Data Science Product Specialist"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936933",
@@ -117,7 +327,7 @@
     "Speakers": "Nina Lopatina, Rajiv Shah",
     "Companies": "Contextual AI, Contextual AI",
     "Company Domains": "contextual.ai, contextual.ai",
-    "Titles": "Lead Developer Advocate, Chief Evangelist"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "913965",
@@ -128,7 +338,7 @@
     "Scope": "Technical deep dive",
     "Assigned Track": "",
     "Room": "Salons 2-6: Workshops",
-    "Scheduled At": "3 Jun 2025 09:50 AM",
+    "Scheduled At": "3 Jun 2025 09:55 AM",
     "Speakers": "Dani Grant, Chelcie Taylor",
     "Companies": "Jam.dev, Notable Capital",
     "Company Domains": "jam.dev, notablecap.com",
@@ -145,9 +355,9 @@
     "Room": "Foothill G1&2: Workshops",
     "Scheduled At": "3 Jun 2025 10:40 AM",
     "Speakers": "David Karam",
-    "Companies": "Pi Labs",
+    "Companies": "unknown",
     "Company Domains": "withpi.ai",
-    "Titles": "Product Director"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915961",
@@ -160,9 +370,9 @@
     "Room": "Nobhill A&B: Workshops",
     "Scheduled At": "3 Jun 2025 10:40 AM",
     "Speakers": "Kyle Penfound, Jeremy Adams",
-    "Companies": "Dagger, Dagger",
+    "Companies": "unknown, unknown",
     "Company Domains": "pm.me, dagger.io",
-    "Titles": "Ecosystem Team Member, Senior Leader"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "916131",
@@ -175,9 +385,9 @@
     "Room": "Salons 2-6: Workshops",
     "Scheduled At": "3 Jun 2025 10:40 AM",
     "Speakers": "Shrestha Basu Mallick, Kwindla Kramer",
-    "Companies": "Google DeepMind, Daily",
+    "Companies": "unknown, Daily",
     "Company Domains": "gmail.com, daily.co",
-    "Titles": "Group Product Manager, unknown"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "933707",
@@ -190,9 +400,9 @@
     "Room": "SOMA: Workshops",
     "Scheduled At": "3 Jun 2025 10:40 AM",
     "Speakers": "Apoorva Joshi",
-    "Companies": "MongoDB",
-    "Company Domains": "mongodb.com",
-    "Titles": "Developer Advocate"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "935459",
@@ -205,24 +415,24 @@
     "Room": "Nobhill C&D: Microsoft",
     "Scheduled At": "3 Jun 2025 10:40 AM",
     "Speakers": "Christopher Harrison",
-    "Companies": "GitHub",
-    "Company Domains": "github.com",
-    "Titles": "Senior Developer Advocate"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936937",
-    "Title": "Circle Workshop",
-    "Description": "",
+    "Title": "Automating Escrow with USDC and AI",
+    "Description": "This workshop explores how USDC, AI, and smart contracts can streamline escrow by automating fund release based on task or process verification. By using AI to interpret off-chain signals such as document validation, delivery confirmations, or milestone completion, we can trigger secure, programmable USDC payouts without manual intervention. The result is a faster, trust-minimized escrow system ideal for services, trade, and gig economy use cases.",
     "Session Format": "Workshop",
-    "Level": "",
-    "Scope": "",
+    "Level": "Introductory and overview",
+    "Scope": "Technical deep dive",
     "Assigned Track": "",
     "Room": "Golden Gate Ballroom B: Workshops",
     "Scheduled At": "3 Jun 2025 10:40 AM",
     "Speakers": "Corey Cooper",
     "Companies": "Circle",
     "Company Domains": "circle.com",
-    "Titles": "Solutions Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "942803",
@@ -236,8 +446,23 @@
     "Scheduled At": "3 Jun 2025 10:40 AM",
     "Speakers": "Doug Guthrie",
     "Companies": "Braintrust",
-    "Company Domains": "braintrust.com",
-    "Titles": "Solutions Engineer"
+    "Company Domains": "unknown",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "915431",
+    "Title": "Build multilingual Conversational AI Agents",
+    "Description": "In this workshop you will learn how to build multilingual Conversational AI agents that can automatically detect your user's spoken language and can seamlessly switch to their preferred language. ",
+    "Session Format": "Workshop",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Voice (07)",
+    "Room": "Golden Gate Ballroom A: Workshops",
+    "Scheduled At": "3 Jun 2025 11:00 AM",
+    "Speakers": "Thor 雷神 Schaeff",
+    "Companies": "unknown",
+    "Company Domains": "gmail.com",
+    "Titles": "unknown"
   },
   {
     "Session ID": "929790",
@@ -252,7 +477,7 @@
     "Speakers": "Danielle Perszyk",
     "Companies": "Amazon",
     "Company Domains": "gmail.com",
-    "Titles": "Cognitive Scientist"
+    "Titles": "unknown"
   },
   {
     "Session ID": "907544",
@@ -267,7 +492,7 @@
     "Speakers": "Dan Mason",
     "Companies": "Stride",
     "Company Domains": "gmail.com",
-    "Titles": "Principal, AI"
+    "Titles": "unknown"
   },
   {
     "Session ID": "910732",
@@ -282,7 +507,7 @@
     "Speakers": "Philipp Schmid",
     "Companies": "Google DeepMind",
     "Company Domains": "google.com",
-    "Titles": "Senior AI Developer Relations Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916214",
@@ -295,9 +520,9 @@
     "Room": "Foothill G1&2: Workshops",
     "Scheduled At": "3 Jun 2025 01:00 PM",
     "Speakers": "Philipp Krenn",
-    "Companies": "Elastic",
+    "Companies": "unknown",
     "Company Domains": "xeraa.net",
-    "Titles": "Developer Relations Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "921229",
@@ -312,7 +537,7 @@
     "Speakers": "Alison Cossette, Andreas Kollegger",
     "Companies": "Neo4j , Neo4j",
     "Company Domains": "claritrace.com, neo4j.com",
-    "Titles": "Developer Advocate, unknown"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "930540",
@@ -327,7 +552,7 @@
     "Speakers": "Ilan Bigio",
     "Companies": "OpenAI",
     "Company Domains": "gmail.com",
-    "Titles": "Founding Member, Developer Experience"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933607",
@@ -342,7 +567,7 @@
     "Speakers": "Duan Lightfoot",
     "Companies": "AWS",
     "Company Domains": "labeveryday.com",
-    "Titles": "Sr. Developer Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "935456",
@@ -355,9 +580,9 @@
     "Room": "Salons 2-6: Workshops",
     "Scheduled At": "3 Jun 2025 01:00 PM",
     "Speakers": "Harald Kirschner, Christopher Harrison",
-    "Companies": "Microsoft, Microsoft / GitHub",
-    "Company Domains": "microsoft.com, microsoft.com",
-    "Titles": "Principal Product Manager, Senior Developer Advocate"
+    "Companies": "unknown, unknown",
+    "Company Domains": "microsoft.com, unknown",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "936905",
@@ -372,7 +597,7 @@
     "Speakers": "Cedric  Vidal",
     "Companies": "Microsoft",
     "Company Domains": "microsoft.com",
-    "Titles": "Principal AI Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "939088",
@@ -386,8 +611,8 @@
     "Scheduled At": "3 Jun 2025 01:00 PM",
     "Speakers": "Daniel Kim, Daria Soboleva",
     "Companies": "Cerebras, Cerebras",
-    "Company Domains": "cerebras.net, gmail.com",
-    "Titles": "Head of Growth, Head Research Scientist"
+    "Company Domains": "unknown, gmail.com",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "914537",
@@ -402,7 +627,7 @@
     "Speakers": "Dominik Kundel",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Developer and Product Leader"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915269",
@@ -417,7 +642,7 @@
     "Speakers": "Aman Khan",
     "Companies": "Arize",
     "Company Domains": "arize.com",
-    "Titles": "Director of Product, LLM"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933560",
@@ -431,8 +656,8 @@
     "Scheduled At": "3 Jun 2025 03:30 PM",
     "Speakers": "Forrest Brazeal, Matt Ball",
     "Companies": "Augment Code, Augment Code ",
-    "Company Domains": "freemanandforrest.com, augmentcode.com",
-    "Titles": "Founder, Solutions Architect"
+    "Company Domains": "freemanandforrest.com, unknown",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "933593",
@@ -445,9 +670,9 @@
     "Room": "SOMA: Workshops",
     "Scheduled At": "3 Jun 2025 03:30 PM",
     "Speakers": "Chad Bailey, Kwindla Kramer",
-    "Companies": "Daily, Daily",
-    "Company Domains": "daily.co, daily.co",
-    "Titles": "Engineer, Engineer"
+    "Companies": "unknown, Daily",
+    "Company Domains": "unknown, daily.co",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "933632",
@@ -460,9 +685,9 @@
     "Room": "Golden Gate Ballroom A: Workshops",
     "Scheduled At": "3 Jun 2025 03:30 PM",
     "Speakers": "Numair Baseer",
-    "Companies": "Windsurf",
-    "Company Domains": "windsurf.dev",
-    "Titles": "AI Developer"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933688",
@@ -475,9 +700,9 @@
     "Room": "Salons 2-6: Workshops",
     "Scheduled At": "3 Jun 2025 03:30 PM",
     "Speakers": "Nick Nisi, Zack Proser",
-    "Companies": "WorkOS , WorkOS",
-    "Company Domains": "nisi.org, workos.com",
-    "Titles": "Software Engineer, Developer Education Lead"
+    "Companies": "WorkOS , unknown",
+    "Company Domains": "nisi.org, unknown",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "933721",
@@ -492,7 +717,7 @@
     "Speakers": "Suman Debnath",
     "Companies": "Amazon Web Services",
     "Company Domains": "amazon.com",
-    "Titles": "Principal Machine Learning Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "940839",
@@ -507,7 +732,7 @@
     "Speakers": "Jon Peck, Christopher Harrison",
     "Companies": "GitHub, GitHub",
     "Company Domains": "gmail.com, github.com",
-    "Titles": "Enterprise Advocate, Enterprise Advocate"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "942858",
@@ -521,8 +746,8 @@
     "Scheduled At": "3 Jun 2025 03:30 PM",
     "Speakers": "Carlos  Esteban",
     "Companies": "Braintrust",
-    "Company Domains": "notion.so",
-    "Titles": "AI Lead"
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936800",
@@ -535,9 +760,9 @@
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
     "Scheduled At": "4 Jun 2025 09:20 AM",
     "Speakers": "Asha  Sharma",
-    "Companies": "Microsoft",
-    "Company Domains": "microsoft.com",
-    "Titles": "Corporate Vice President"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "927324",
@@ -550,9 +775,9 @@
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
     "Scheduled At": "4 Jun 2025 09:40 AM",
     "Speakers": "Sarah Guo",
-    "Companies": "Conviction",
-    "Company Domains": "conviction.com",
-    "Titles": "Session Owner"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "935987",
@@ -580,9 +805,9 @@
     "Room": "Salons 9-15: Expo Hall",
     "Scheduled At": "4 Jun 2025 10:45 AM",
     "Speakers": "Tomas Reimers",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.com",
-    "Titles": "CPO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933472",
@@ -595,9 +820,9 @@
     "Room": "Nobhill A&B: Expo Sessions",
     "Scheduled At": "4 Jun 2025 10:45 AM",
     "Speakers": "Tomas Reimers",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.dev",
-    "Titles": "CPO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933493",
@@ -612,7 +837,7 @@
     "Speakers": "Chad Bailey, Brian Johnson",
     "Companies": "Daily, Tavus",
     "Company Domains": "daily.co, tavus.io",
-    "Titles": "Engineer, Staff Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "933692",
@@ -625,9 +850,9 @@
     "Room": "Willow: Expo Sessions",
     "Scheduled At": "4 Jun 2025 10:45 AM",
     "Speakers": "Richmond Alake",
-    "Companies": "MongoDB",
-    "Company Domains": "mongodb.com",
-    "Titles": "Developer Advocate"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933684",
@@ -640,9 +865,9 @@
     "Room": "Nobhill A&B: Expo Sessions",
     "Scheduled At": "4 Jun 2025 11:00 AM",
     "Speakers": "Eashan Sinha",
-    "Companies": "Windsurf",
-    "Company Domains": "windsurf.ai",
-    "Titles": "Deployed Engineer"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933706",
@@ -655,9 +880,9 @@
     "Room": "Salons 9-15: Expo Hall",
     "Scheduled At": "4 Jun 2025 11:00 AM",
     "Speakers": "Thibaut  Gourdel",
-    "Companies": "MongoDB",
-    "Company Domains": "mongodb.com",
-    "Titles": "Technical PMM"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933709",
@@ -670,24 +895,24 @@
     "Room": "Willow: Expo Sessions",
     "Scheduled At": "4 Jun 2025 11:00 AM",
     "Speakers": "Tobin  South",
-    "Companies": "WorkOS",
-    "Company Domains": "workos.com",
-    "Titles": "VP of AI Agents"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
-    "Session ID": "936298",
-    "Title": "To the moon! Navigating deep context in legacy code with Augment Agent",
-    "Description": "Shortened presentation-only version of our Apollo 11 workshop",
+    "Session ID": "936299",
+    "Title": "Vibe Coding in Production",
+    "Description": "What's the role of vibe coding in a production-grade applications? Join Augment Code's Matt McClernan as he speaks to engineering leaders about building with AI. ",
     "Session Format": "Talk",
     "Level": "Introductory and overview",
     "Scope": "Introductory (landscape)",
     "Assigned Track": "",
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "4 Jun 2025 11:00 AM",
-    "Speakers": "Forrest Brazeal, Matt Ball",
-    "Companies": "Augment Code, Augment Code ",
-    "Company Domains": "freemanandforrest.com, augmentcode.com",
-    "Titles": "Founder, unknown"
+    "Speakers": "Chris Kelly",
+    "Companies": "Augment Code",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "903524",
@@ -702,7 +927,7 @@
     "Speakers": "Joel Hron",
     "Companies": "Thomson Reuters",
     "Company Domains": "thomsonreuters.com",
-    "Titles": "Chief Technology Officer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915028",
@@ -717,7 +942,7 @@
     "Speakers": "Kwindla Kramer, Sean DuBois",
     "Companies": "Daily, OpenAI",
     "Company Domains": "daily.co, openai.com",
-    "Titles": "Engineer, Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "915992",
@@ -732,7 +957,7 @@
     "Speakers": "Mitesh Patel",
     "Companies": "NVIDIA",
     "Company Domains": "nvidia.com",
-    "Titles": "Developer Advocate Manager"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916117",
@@ -747,7 +972,7 @@
     "Speakers": "Tanmai Gopal",
     "Companies": "PromptQL",
     "Company Domains": "hasura.io",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "925337",
@@ -762,7 +987,7 @@
     "Speakers": "Raiza Martin",
     "Companies": "Huxe",
     "Company Domains": "gmail.com",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "927452",
@@ -792,7 +1017,7 @@
     "Speakers": "Eugene Yan",
     "Companies": "Amazon",
     "Company Domains": "eugeneyan.com",
-    "Titles": "Principal Applied Scientist"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933719",
@@ -805,9 +1030,9 @@
     "Room": "Foothill F: Infrastructure",
     "Scheduled At": "4 Jun 2025 11:15 AM",
     "Speakers": "Charles Frye",
-    "Companies": "Modal Labs",
-    "Company Domains": "modal.com",
-    "Titles": "Educator and Evangelist"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "939142",
@@ -821,7 +1046,7 @@
     "Scheduled At": "4 Jun 2025 11:15 AM",
     "Speakers": "Eric Simons",
     "Companies": "Bolt",
-    "Company Domains": "bolt.com",
+    "Company Domains": "unknown",
     "Titles": "unknown"
   },
   {
@@ -836,8 +1061,8 @@
     "Scheduled At": "4 Jun 2025 11:15 AM",
     "Speakers": "Alessio Fanelli, Clay Bavor",
     "Companies": "Latent Space, Sierra",
-    "Company Domains": "decibel.vc, sierra.ai",
-    "Titles": "Co-host, Co-founder"
+    "Company Domains": "decibel.vc, unknown",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "904722",
@@ -852,7 +1077,7 @@
     "Speakers": "Vaibhav Page, Infant Vasanth",
     "Companies": "BlackRock, BlackRock",
     "Company Domains": "blackrock.com, gmail.com",
-    "Titles": "Principal Engineer, Engineering Manager"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "905305",
@@ -865,9 +1090,9 @@
     "Room": "Foothill F: Infrastructure",
     "Scheduled At": "4 Jun 2025 11:35 AM",
     "Speakers": "Dr. Jasper Zhang, PhD",
-    "Companies": "Hyperbolic",
-    "Company Domains": "hyperbolic.io",
-    "Titles": "CEO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "907834",
@@ -882,7 +1107,7 @@
     "Speakers": "Michael Albada",
     "Companies": "Microsoft Research",
     "Company Domains": "gmail.com",
-    "Titles": "Machine Learning Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914080",
@@ -897,7 +1122,7 @@
     "Speakers": "Dexter Horthy",
     "Companies": "HumanLayer",
     "Company Domains": "humanlayer.dev",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914548",
@@ -912,7 +1137,7 @@
     "Speakers": "Chin Keong Lam",
     "Companies": "Patho.ai",
     "Company Domains": "gmail.com",
-    "Titles": "AI Automation Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914550",
@@ -927,7 +1152,7 @@
     "Speakers": "Sid Bendre",
     "Companies": "Oleve",
     "Company Domains": "oleve.co",
-    "Titles": "Co-founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914842",
@@ -942,7 +1167,7 @@
     "Speakers": "James Lowe",
     "Companies": "Incubator for AI ",
     "Company Domains": "cabinetoffice.gov.uk",
-    "Titles": "Head of AI Engineering"
+    "Titles": "unknown"
   },
   {
     "Session ID": "931123",
@@ -957,7 +1182,7 @@
     "Speakers": "Peter Bar",
     "Companies": "Intercom",
     "Company Domains": "intercom.io",
-    "Titles": "Product Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "932498",
@@ -972,7 +1197,7 @@
     "Speakers": "Mukuntha Narayanan, Han Wang",
     "Companies": "Pinterest, Inc., Pinterest",
     "Company Domains": "pinterest.com, pinterest.com",
-    "Titles": "Machine Learning Engineer, Machine Learning Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "942943",
@@ -987,7 +1212,7 @@
     "Speakers": "John Welsh",
     "Companies": "Anthropic",
     "Company Domains": "anthropic.com",
-    "Titles": "Staff Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "911846",
@@ -1002,7 +1227,7 @@
     "Speakers": "Hassan El Mghari",
     "Companies": "Together AI",
     "Company Domains": "together.ai",
-    "Titles": "Developer Relations Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "912811",
@@ -1017,7 +1242,7 @@
     "Speakers": "Sam Julien",
     "Companies": "Writer",
     "Company Domains": "writer.com",
-    "Titles": "Director of Developer Relations"
+    "Titles": "unknown"
   },
   {
     "Session ID": "913755",
@@ -1032,7 +1257,7 @@
     "Speakers": "Preeti Somal",
     "Companies": "Temporal",
     "Company Domains": "moxiegrouppr.com",
-    "Titles": "Senior Vice President of Engineering"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914489",
@@ -1045,24 +1270,9 @@
     "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
     "Scheduled At": "4 Jun 2025 11:55 AM",
     "Speakers": "Harald Kirschner",
-    "Companies": "Microsoft",
+    "Companies": "unknown",
     "Company Domains": "microsoft.com",
-    "Titles": "Principal Product Manager"
-  },
-  {
-    "Session ID": "914975",
-    "Title": "Survive the AI Knife-Fight: Building Products That Win",
-    "Description": "If you’ve ever been blocked by vague specs, shifting goals, or chasing “vibes,” things have only gotten messier in the age of AI. Everyone is obsessing over engineers doing PM work and PMs cranking out prototypes—but that skips the hardest question: What should we build, and why will it win? Today’s competitive landscape is a knife-fight.  When it’s trivial to ship “something,” true differentiation becomes brutally difficult.",
-    "Session Format": "Keynote",
-    "Level": "Intermediate",
-    "Scope": "Case Study/War Story",
-    "Assigned Track": "Product Management (06)",
-    "Room": "Foothill G 1&2: Product Management",
-    "Scheduled At": "4 Jun 2025 11:55 AM",
-    "Speakers": "Brian Balfour",
-    "Companies": "Reforge",
-    "Company Domains": "reforge.com",
-    "Titles": "Founder/CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915031",
@@ -1077,7 +1287,7 @@
     "Speakers": "Brooke Hopkins",
     "Companies": "Coval",
     "Company Domains": "coval.dev",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915616",
@@ -1091,8 +1301,8 @@
     "Scheduled At": "4 Jun 2025 11:55 AM",
     "Speakers": "David Hsu",
     "Companies": "Retool ",
-    "Company Domains": "retool.com",
-    "Titles": "Founder and CEO"
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "915990",
@@ -1107,7 +1317,7 @@
     "Speakers": "Amir Haghighat",
     "Companies": "Baseten",
     "Company Domains": "baseten.co",
-    "Titles": "CTO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936205",
@@ -1122,7 +1332,7 @@
     "Speakers": "Hamed Firooz, Maziar Sanjabi",
     "Companies": "LinkedIn, LinkedIn",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "Principal AI Scientist, Principal Scientist"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "937137",
@@ -1137,7 +1347,37 @@
     "Speakers": "Alex Cheema",
     "Companies": "EXO Labs",
     "Company Domains": "exolabs.net",
-    "Titles": "Co-founder"
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "945392",
+    "Title": "Shipping something to someone always wins",
+    "Description": "Learnings from building products at Stripe and applying them in an AI native word",
+    "Session Format": "Talk",
+    "Level": "Advanced",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Foothill G 1&2: Product Management",
+    "Scheduled At": "4 Jun 2025 11:55 AM",
+    "Speakers": "Kenneth  Auchenberg",
+    "Companies": "AlleyCorp ",
+    "Company Domains": "alleycorp.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "914975",
+    "Title": "Survive the AI Knife-Fight: Building Products That Win",
+    "Description": "If you’ve ever been blocked by vague specs, shifting goals, or chasing “vibes,” things have only gotten messier in the age of AI. Everyone is obsessing over engineers doing PM work and PMs cranking out prototypes—but that skips the hardest question: What should we build, and why will it win? Today’s competitive landscape is a knife-fight.  When it’s trivial to ship “something,” true differentiation becomes brutally difficult.",
+    "Session Format": "Keynote",
+    "Level": "Intermediate",
+    "Scope": "Case Study/War Story",
+    "Assigned Track": "Product Management (06)",
+    "Room": "Foothill G 1&2: Product Management",
+    "Scheduled At": "4 Jun 2025 12:15 PM",
+    "Speakers": "Brian Balfour",
+    "Companies": "Reforge",
+    "Company Domains": "reforge.com",
+    "Titles": "unknown"
   },
   {
     "Session ID": "915023",
@@ -1150,9 +1390,9 @@
     "Room": "Golden Gate Ballroom B: GraphRAG",
     "Scheduled At": "4 Jun 2025 12:15 PM",
     "Speakers": "Daniel Chalef",
-    "Companies": "Zep AI",
+    "Companies": "unknown",
     "Company Domains": "getzep.com",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915312",
@@ -1167,7 +1407,7 @@
     "Speakers": "Anish Agarwal, Matthew Schoenbauer, Raj Agrawal, Raaz Dwivedi",
     "Companies": "Traversal, Traversal, Traversal, Traversal",
     "Company Domains": "traversal.com, traversal.com, traversal.com, interactionlabs.ai",
-    "Titles": "CEO, Founding Engineer, CTO, Chief Scientist"
+    "Titles": "unknown, unknown, unknown, unknown"
   },
   {
     "Session ID": "933545",
@@ -1182,7 +1422,7 @@
     "Speakers": "Eric Hou",
     "Companies": "Augment Computing",
     "Company Domains": "augmentcode.com",
-    "Titles": "Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "937225",
@@ -1197,7 +1437,7 @@
     "Speakers": "Harrison Chase",
     "Companies": "LangChain",
     "Company Domains": "langchain.dev",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "937506",
@@ -1212,7 +1452,7 @@
     "Speakers": "Neil Dwyer, Jack Dwyer",
     "Companies": "Gabber, Gabber",
     "Company Domains": "gabber.dev, gabber.dev",
-    "Titles": "Founder, Product Marketer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "940118",
@@ -1227,22 +1467,7 @@
     "Speakers": "Max Brodeur-Urbas",
     "Companies": "Gumloop",
     "Company Domains": "gumloop.com",
-    "Titles": "Founder"
-  },
-  {
-    "Session ID": "916143",
-    "Title": "Make Your AI Agents Remember What They Do!",
-    "Description": "Are you ready to give your AI agents a memory upgrade? \r\nJoin us for a hands-on, fast-paced workshop where we explore how memory can transform your agents.\r\n\r\nWhat You'll Do:\r\nSet Up Leading Memory Solutions: Get practical, side-by-side experience with open-source tools including AIUS, Cognee, LangMem, MemGPT, Mem0, and Zep.\r\n\r\nExplore Memory Types: Learn the theory behind agent memory, including long-term, short-term, episodic, semantic, and other memory types.\r\n\r\nRun Experiments: Test how memory improves recall, contextual awareness, and reasoning in autonomous agents.\r\n\r\nCompare Implementations: Get a snapshot of how different solutions implement memory—what’s built-in, what’s flexible, and what’s experimental.\r\n\r\nWhether you’re working on AI copilots, agentic workflows, or research prototypes—this workshop will help you embed real memory into your AI stack.",
-    "Session Format": "Workshop",
-    "Level": "Introductory and overview",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "Golden Gate Ballroom B: GraphRAG",
-    "Scheduled At": "4 Jun 2025 12:35 PM",
-    "Speakers": "Mark Bain",
-    "Companies": "AIUS Technologies",
-    "Company Domains": "gmail.com",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933629",
@@ -1257,7 +1482,7 @@
     "Speakers": "Sam Alba",
     "Companies": "Dagger",
     "Company Domains": "dagger.io",
-    "Titles": "Co-founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933716",
@@ -1272,7 +1497,7 @@
     "Speakers": "Charles Frye",
     "Companies": "Modal Labs",
     "Company Domains": "modal.com",
-    "Titles": "LLM Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "939093",
@@ -1305,6 +1530,21 @@
     "Titles": "Senior Software Engineer, Product Lead"
   },
   {
+    "Session ID": "916143",
+    "Title": "Make Your AI Agents Remember What They Do!",
+    "Description": "Are you ready to give your AI agents a memory upgrade? \r\nJoin us for a hands-on, fast-paced workshop where we explore how memory can transform your agents.\r\n\r\nWhat You'll Do:\r\nSet Up Leading Memory Solutions: Get practical, side-by-side experience with open-source tools including AIUS, Cognee, LangMem, MemGPT, Mem0, and Zep.\r\n\r\nExplore Memory Types: Learn the theory behind agent memory, including long-term, short-term, episodic, semantic, and other memory types.\r\n\r\nRun Experiments: Test how memory improves recall, contextual awareness, and reasoning in autonomous agents.\r\n\r\nCompare Implementations: Get a snapshot of how different solutions implement memory—what’s built-in, what’s flexible, and what’s experimental.\r\n\r\nWhether you’re working on AI copilots, agentic workflows, or research prototypes—this workshop will help you embed real memory into your AI stack.",
+    "Session Format": "Workshop",
+    "Level": "Introductory and overview",
+    "Scope": "Technical deep dive",
+    "Assigned Track": "",
+    "Room": "Golden Gate Ballroom B: GraphRAG",
+    "Scheduled At": "4 Jun 2025 01:00 PM",
+    "Speakers": "Mark Bain",
+    "Companies": "AIUS Technologies Inc.",
+    "Company Domains": "gmail.com",
+    "Titles": "unknown"
+  },
+  {
     "Session ID": "933621",
     "Title": "Effective agent design patterns in production",
     "Description": "At LlamaIndex we see a lot of agents built every day, and we've got a sense of what works and what doesn't. We've distilled those learnings down into a series of patterns and best practices for building real-world, production agents, and we're here to share them. You'll learn patterns for applying structure and guidance to famously nondeterministic LLMs and get concrete instruction on how to implement them.",
@@ -1315,9 +1555,9 @@
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "4 Jun 2025 01:00 PM",
     "Speakers": "Laurie Voss",
-    "Companies": "LlamaIndex",
-    "Company Domains": "llamaindex.ai",
-    "Titles": "VP of Developer Relations"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933636",
@@ -1330,9 +1570,9 @@
     "Room": "Salons 9-15: Expo Hall",
     "Scheduled At": "4 Jun 2025 01:00 PM",
     "Speakers": "Ado Kukic",
-    "Companies": "Sourcegraph",
+    "Companies": "unknown",
     "Company Domains": "gmail.com",
-    "Titles": "DevRel Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933652",
@@ -1345,9 +1585,9 @@
     "Room": "Willow: Expo Sessions",
     "Scheduled At": "4 Jun 2025 01:00 PM",
     "Speakers": "Mason Egger",
-    "Companies": "Temporal Technologies",
-    "Company Domains": "temporal.io",
-    "Titles": "Senior Developer Advocate"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936818",
@@ -1362,7 +1602,7 @@
     "Speakers": "Cedric  Vidal",
     "Companies": "Microsoft",
     "Company Domains": "microsoft.com",
-    "Titles": "Principal AI Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933641",
@@ -1375,9 +1615,9 @@
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "4 Jun 2025 01:15 PM",
     "Speakers": "Kshitij  Grover",
-    "Companies": "Orb",
-    "Company Domains": "orb.com",
-    "Titles": "CTO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936903",
@@ -1392,7 +1632,7 @@
     "Speakers": "Jon Peck",
     "Companies": "GitHub",
     "Company Domains": "gmail.com",
-    "Titles": "Enterprise Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "944044",
@@ -1406,8 +1646,8 @@
     "Scheduled At": "4 Jun 2025 01:15 PM",
     "Speakers": "Jonathon Belotti",
     "Companies": "Modal",
-    "Company Domains": "modal.com",
-    "Titles": "Member of Technical Staff"
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933549",
@@ -1422,7 +1662,7 @@
     "Speakers": "Stephen Chin",
     "Companies": "Neo4j",
     "Company Domains": "steve.chin.social",
-    "Titles": "VP of Developer Relations"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933568",
@@ -1435,9 +1675,9 @@
     "Room": "Salons 9-15: Expo Hall",
     "Scheduled At": "4 Jun 2025 01:30 PM",
     "Speakers": "Lou Bichard",
-    "Companies": "Gitpod",
-    "Company Domains": "gitpod.io",
-    "Titles": "Product Manager"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933669",
@@ -1452,7 +1692,7 @@
     "Speakers": "Anushrut Gupta",
     "Companies": "PromptQL",
     "Company Domains": "hasura.io",
-    "Titles": "Applied AI Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936908",
@@ -1467,7 +1707,7 @@
     "Speakers": "Marco Casalaina",
     "Companies": "Microsoft",
     "Company Domains": "microsoft.com",
-    "Titles": "VP Products of Azure AI"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933685",
@@ -1481,8 +1721,8 @@
     "Scheduled At": "4 Jun 2025 01:45 PM",
     "Speakers": "Tejashwa Tiwari, Tejashwa Tiwari",
     "Companies": "Windsurf, Windsurf",
-    "Company Domains": "windsurf.com, codeium.com",
-    "Titles": "Analytics and Automation Engineer, Analytics and Automation Engineer"
+    "Company Domains": "unknown, codeium.com",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "911925",
@@ -1495,9 +1735,9 @@
     "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
     "Scheduled At": "4 Jun 2025 02:00 PM",
     "Speakers": "Samuel Colvin",
-    "Companies": "Pydantic Inc.",
+    "Companies": "unknown",
     "Company Domains": "pydantic.dev",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915338",
@@ -1510,9 +1750,9 @@
     "Room": "Foothill C: Agent Reliability",
     "Scheduled At": "4 Jun 2025 02:00 PM",
     "Speakers": "Chau Tran, Chau Tran",
-    "Companies": "Glean, Glean",
+    "Companies": "unknown, Glean",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "Software Engineer, Technical Lead"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "915648",
@@ -1527,7 +1767,7 @@
     "Speakers": "Ben Stein",
     "Companies": "Teammates",
     "Company Domains": "teammates.work",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915740",
@@ -1542,7 +1782,7 @@
     "Speakers": "Michael Hunger, Jesús Barrasa, Stephen Chin",
     "Companies": "Neo4j, Neo4j, Neo4j",
     "Company Domains": "neotechnology.com, neo4j.com, steve.chin.social",
-    "Titles": "Head of Product Innovation and GenAI, AI Field CTO, VP of Developer Relations"
+    "Titles": "unknown, unknown, unknown"
   },
   {
     "Session ID": "916079",
@@ -1556,8 +1796,8 @@
     "Scheduled At": "4 Jun 2025 02:00 PM",
     "Speakers": "Jordan Dearsley",
     "Companies": "Vapi",
-    "Company Domains": "vapi.com",
-    "Titles": "CEO"
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "916157",
@@ -1572,7 +1812,7 @@
     "Speakers": "Nathan Wan",
     "Companies": "Ensemble Health Partners",
     "Company Domains": "ensemblehp.com",
-    "Titles": "Machine Learning and Engineering Leader"
+    "Titles": "unknown"
   },
   {
     "Session ID": "923914",
@@ -1587,7 +1827,7 @@
     "Speakers": "Grant Lee",
     "Companies": "Gamma",
     "Company Domains": "gamma.app",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "928676",
@@ -1602,7 +1842,7 @@
     "Speakers": "Dylan Patel",
     "Companies": "SemiAnalysis",
     "Company Domains": "semianalysis.com",
-    "Titles": "Founder and CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "932429",
@@ -1617,7 +1857,7 @@
     "Speakers": "Ben Kus",
     "Companies": "Box",
     "Company Domains": "box.com",
-    "Titles": "Chief Technology Officer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "932583",
@@ -1632,7 +1872,7 @@
     "Speakers": "Yesu Feng",
     "Companies": "Netflix",
     "Company Domains": "netflix.com",
-    "Titles": "Staff Research Scientist/Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "904822",
@@ -1647,7 +1887,7 @@
     "Speakers": "Denys Linkov",
     "Companies": "Wisedocs",
     "Company Domains": "gmail.com",
-    "Titles": "Head of ML"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914015",
@@ -1662,7 +1902,7 @@
     "Speakers": "Sam Bhagwat",
     "Companies": "Mastra",
     "Company Domains": "gmail.com",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914890",
@@ -1675,9 +1915,9 @@
     "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
     "Scheduled At": "4 Jun 2025 02:20 PM",
     "Speakers": "Kevin Madura, Mo Bhasin",
-    "Companies": "AlixPartners, AlixPartners",
+    "Companies": "AlixPartners, unknown",
     "Company Domains": "alixpartners.com, gmail.com",
-    "Titles": "Technical Advisor, Director of AI Products"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "915013",
@@ -1692,7 +1932,7 @@
     "Speakers": "Alex Volkov, Steve Manuel, Benjamin Eckel",
     "Companies": "Weights & Biases, Dylibso, Dylibso",
     "Company Domains": "gmail.com, dylibso.com, dylibso.com",
-    "Titles": "AI Evangelist, CEO, CTO"
+    "Titles": "unknown, unknown, unknown"
   },
   {
     "Session ID": "915471",
@@ -1707,7 +1947,7 @@
     "Speakers": "Kyle Kranen US",
     "Companies": "NVIDIA",
     "Company Domains": "nvidia.com",
-    "Titles": "Engineering Leader"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915738",
@@ -1722,7 +1962,7 @@
     "Speakers": "Christopher Lovejoy",
     "Companies": "Anterior ",
     "Company Domains": "anterior.com",
-    "Titles": "Head of Clinical AI"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916063",
@@ -1737,7 +1977,7 @@
     "Speakers": "Ola  Mabadeje",
     "Companies": "Cisco",
     "Company Domains": "cisco.com",
-    "Titles": "Leader, Generative AI Incubation"
+    "Titles": "unknown"
   },
   {
     "Session ID": "929231",
@@ -1752,7 +1992,7 @@
     "Speakers": "Tejaswi Tenneti, Vinesh Gudla",
     "Companies": "Instacart, Instacart",
     "Company Domains": "instacart.com, instacart.com",
-    "Titles": "Director of Machine Learning, Staff Machine Learning Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "932493",
@@ -1767,7 +2007,7 @@
     "Speakers": "Tom Shapland, PhD",
     "Companies": "LiveKit",
     "Company Domains": "livekit.io",
-    "Titles": "Product Manager"
+    "Titles": "unknown"
   },
   {
     "Session ID": "939097",
@@ -1779,10 +2019,10 @@
     "Assigned Track": "Tiny Teams (01)",
     "Room": "Yerba Buena Ballroom Salons 2-6: Tiny Teams",
     "Scheduled At": "4 Jun 2025 02:20 PM",
-    "Speakers": "Vik Paruchuri",
+    "Speakers": "Vikas Paruchuri",
     "Companies": "Datalab",
-    "Company Domains": "datalab.com",
-    "Titles": "CEO"
+    "Company Domains": "datalab.to",
+    "Titles": "unknown"
   },
   {
     "Session ID": "900332",
@@ -1797,7 +2037,7 @@
     "Speakers": "Tom Smoker",
     "Companies": "WhyHow.AI",
     "Company Domains": "whyhow.ai",
-    "Titles": "Co-Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "906567",
@@ -1812,7 +2052,7 @@
     "Speakers": "Devansh Tandon",
     "Companies": "Google",
     "Company Domains": "gmail.com",
-    "Titles": "Principal Product Manager"
+    "Titles": "unknown"
   },
   {
     "Session ID": "912986",
@@ -1825,9 +2065,9 @@
     "Room": "Foothill F: Infrastructure",
     "Scheduled At": "4 Jun 2025 02:40 PM",
     "Speakers": "Robert  Wachen",
-    "Companies": "Etched",
-    "Company Domains": "etched.ai",
-    "Titles": "COO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "915067",
@@ -1842,7 +2082,7 @@
     "Speakers": "Anoop Kotha",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Customer Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915770",
@@ -1857,7 +2097,7 @@
     "Speakers": "Jeremy Silva, Eliza Cabrera",
     "Companies": "Freeplay, Workday",
     "Company Domains": "freeplay.ai, airockies.com",
-    "Titles": "Product Lead, Principal PM"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "915974",
@@ -1872,7 +2112,7 @@
     "Speakers": "Alex Duffy",
     "Companies": "Every Inc.",
     "Company Domains": "every.to",
-    "Titles": "AI Strategy Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916115",
@@ -1887,7 +2127,7 @@
     "Speakers": "Itamar Friedman",
     "Companies": "Qodo",
     "Company Domains": "qodo.ai",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "926313",
@@ -1902,7 +2142,7 @@
     "Speakers": "Jan Curn",
     "Companies": "Apify",
     "Company Domains": "apify.com",
-    "Titles": "Founder and CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933596",
@@ -1915,9 +2155,9 @@
     "Room": "Foothill E: Voice",
     "Scheduled At": "4 Jun 2025 02:40 PM",
     "Speakers": "Kwindla Kramer, Shrestha Basu Mallick",
-    "Companies": "Daily, Google DeepMind",
+    "Companies": "Daily, unknown",
     "Company Domains": "daily.co, gmail.com",
-    "Titles": "Engineer, Group Product Manager"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "940848",
@@ -1932,7 +2172,7 @@
     "Speakers": "Tom Moor",
     "Companies": "Linear",
     "Company Domains": "gmail.com",
-    "Titles": "Head of Engineering"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933625",
@@ -1945,9 +2185,9 @@
     "Room": "Willow: Expo Sessions",
     "Scheduled At": "4 Jun 2025 03:15 PM",
     "Speakers": "Philipp Krenn",
-    "Companies": "Elastic",
+    "Companies": "unknown",
     "Company Domains": "xeraa.net",
-    "Titles": "Developer Relations Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936894",
@@ -1962,7 +2202,7 @@
     "Speakers": "Jim Bennett",
     "Companies": "Galileo",
     "Company Domains": "mac.com",
-    "Titles": "Principal Developer Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936906",
@@ -1977,7 +2217,7 @@
     "Speakers": "Jonathan Larson",
     "Companies": "Microsoft",
     "Company Domains": "microsoft.com",
-    "Titles": "Senior Principal Data Architect"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933605",
@@ -1992,7 +2232,7 @@
     "Speakers": "Mani Khanuja",
     "Companies": "Amazon Web Services",
     "Company Domains": "gmail.com",
-    "Titles": "Principal Generative AI Specialist"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936204",
@@ -2005,9 +2245,9 @@
     "Room": "Nobhill A&B: Expo Sessions",
     "Scheduled At": "4 Jun 2025 03:30 PM",
     "Speakers": "Dat Ngo, Aman Khan",
-    "Companies": "Arize AI, Arize AI",
-    "Company Domains": "arize.com, arize.com",
-    "Titles": "Director of Solutions, EMEA, Director of Solutions, EMEA"
+    "Companies": "unknown, unknown",
+    "Company Domains": "unknown, unknown",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "937936",
@@ -2022,7 +2262,7 @@
     "Speakers": "Matthias Loibl",
     "Companies": "Polar Signals",
     "Company Domains": "polarsignals.com",
-    "Titles": "Senior Software Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933612",
@@ -2037,7 +2277,7 @@
     "Speakers": "Antje Barth",
     "Companies": "AWS",
     "Company Domains": "amazon.com",
-    "Titles": "Principal Developer Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933675",
@@ -2050,9 +2290,9 @@
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
     "Scheduled At": "4 Jun 2025 04:20 PM",
     "Speakers": "Kevin Hou",
-    "Companies": "Windsurf",
-    "Company Domains": "windsurf.com",
-    "Titles": "Head of Product Engineering"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936006",
@@ -2065,9 +2305,24 @@
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
     "Scheduled At": "4 Jun 2025 04:40 PM",
     "Speakers": "Greg Brockman, swyx .",
-    "Companies": "OpenAI, unknown",
-    "Company Domains": "openai.com, unknown",
-    "Titles": "CTO, unknown"
+    "Companies": "unknown, unknown",
+    "Company Domains": "unknown, unknown",
+    "Titles": "unknown, unknown"
+  },
+  {
+    "Session ID": "946658",
+    "Title": "Welcome to the Tollbit Afterparty",
+    "Description": "",
+    "Session Format": "",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "Keynote/General Session (Yerba Buena 7&8)",
+    "Scheduled At": "4 Jun 2025 05:20 PM",
+    "Speakers": "Ben Dunphy",
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "935461",
@@ -2082,7 +2337,7 @@
     "Speakers": "Logan Kilpatrick",
     "Companies": "Google",
     "Company Domains": "gmail.com",
-    "Titles": "Product Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936022",
@@ -2111,8 +2366,8 @@
     "Scheduled At": "5 Jun 2025 09:45 AM",
     "Speakers": "Manu Goyal",
     "Companies": "Braintrust",
-    "Company Domains": "braintrust.com",
-    "Titles": "founding engineer"
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "916116",
@@ -2127,7 +2382,7 @@
     "Speakers": "Solomon Hykes",
     "Companies": "Dagger",
     "Company Domains": "dagger.io",
-    "Titles": "Founder and CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916189",
@@ -2142,7 +2397,7 @@
     "Speakers": "Jesse Han",
     "Companies": "Morph Labs",
     "Company Domains": "morph.so",
-    "Titles": "Founder and CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933462",
@@ -2155,9 +2410,9 @@
     "Room": "Willow: Expo Sessions",
     "Scheduled At": "5 Jun 2025 10:45 AM",
     "Speakers": "Kenneth DuMez",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.com",
-    "Titles": "Developer Relations Lead"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933603",
@@ -2172,7 +2427,7 @@
     "Speakers": "Suman Debnath",
     "Companies": "Amazon Web Services",
     "Company Domains": "amazon.com",
-    "Titles": "Principal Machine Learning Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933646",
@@ -2187,7 +2442,7 @@
     "Speakers": "Jesús Barrasa",
     "Companies": "Neo4j",
     "Company Domains": "neo4j.com",
-    "Titles": "AI Field CTO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933589",
@@ -2202,12 +2457,12 @@
     "Speakers": "Mark Backman",
     "Companies": "Daily",
     "Company Domains": "daily.co",
-    "Titles": "VP of Product"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933622",
     "Title": "The Build-Operate Divide: Bridging Product Vision and AI Operational Reality",
-    "Description": "Product leaders see AI possibilities. Operations teams see implementation nightmares. The chasm between these perspectives kills promising AI features before they reach users.\r\n\r\nIn this talk, Chris Hernandez (Manager of AI Speech Analytics at Chime) and Jeremy Silva (Product Lead at Freeplay) share an integrated framework we've developed across product strategy and operations at a leading neo-bank. You'll see how we transformed siloed processes into a unified approach that connects prototyping, evaluations, human review workflows, and model benchmarking from day one.\r\n\r\nWe'll reveal the collaborative tools built to make trade-off decisions visible, the evaluation metrics that satisfy both business and technical stakeholders, and the governance model that enabled us to ship AI features 3x faster. Learn how to create processes where product and operations strengthen each other rather than compete, and build AI capabilities that scale beyond individual features into organization-wide advantage.\r\n",
+    "Description": "Product leaders see AI possibilities. Operations teams see implementation chaos. That disconnect can kill promising AI features before they ever reach users.\r\n\r\nIn this session, Chris Hernandez and Jeremy Silva share an integrated framework that bridges product strategy and operational reality. You'll learn how they transformed fragmented AI workflows into a unified approach—from prototyping and prompt testing to human review loops and model benchmarking.\r\n\r\nWe’ll explore how to build evaluation systems that satisfy both technical and business stakeholders, create effective HITL processes from day one, and use QA as a strategic enabler of generative AI quality. Most importantly, we’ll show how product and operations can move beyond friction—working together to deliver AI features that scale responsibly and ship faster, with confidence.",
     "Session Format": "",
     "Level": "Intermediate",
     "Scope": "Case Study/War Story",
@@ -2217,7 +2472,7 @@
     "Speakers": "Chris Hernandez",
     "Companies": "Chime",
     "Company Domains": "chime.com",
-    "Titles": "Manager of AI Speech Analytics"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933689",
@@ -2230,9 +2485,9 @@
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "5 Jun 2025 11:00 AM",
     "Speakers": "Frank Liu",
-    "Companies": "MongoDB",
-    "Company Domains": "mongodb.com",
-    "Titles": "Staff Product Manager"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "910158",
@@ -2246,8 +2501,8 @@
     "Scheduled At": "5 Jun 2025 11:15 AM",
     "Speakers": "Gorkem Yurtseven",
     "Companies": "fal",
-    "Company Domains": "fal.ai",
-    "Titles": "CTO"
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "912033",
@@ -2262,7 +2517,7 @@
     "Speakers": "Alvaro Morales",
     "Companies": "Orb",
     "Company Domains": "aircoverpr.com",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914027",
@@ -2277,7 +2532,7 @@
     "Speakers": "Victor Dibia",
     "Companies": "Microsoft Research",
     "Company Domains": "gmail.com",
-    "Titles": "Principal Research Software Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914401",
@@ -2290,9 +2545,9 @@
     "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
     "Scheduled At": "5 Jun 2025 11:15 AM",
     "Speakers": "Rossella Blatt Vital, Deepsha Menghani",
-    "Companies": "Sprout Social, Sprout Social",
+    "Companies": "unknown, Sprout Social",
     "Company Domains": "gmail.com, sproutsocial.com",
-    "Titles": "VP of AI, Data, and Data Science, Director of Engineering – AI"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "914856",
@@ -2307,7 +2562,7 @@
     "Speakers": "Will Brown",
     "Companies": "Prime Intellect",
     "Company Domains": "columbia.edu",
-    "Titles": "Research Engineering Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "925259",
@@ -2322,7 +2577,7 @@
     "Speakers": "Jerry Liu",
     "Companies": "LlamaIndex",
     "Company Domains": "runllama.ai",
-    "Titles": "Co-founder and CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "929855",
@@ -2337,7 +2592,7 @@
     "Speakers": "Scott Wu",
     "Companies": "Cognition AI",
     "Company Domains": "cognition.ai",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936156",
@@ -2352,7 +2607,7 @@
     "Speakers": "Omar Khattab",
     "Companies": "Databricks",
     "Company Domains": "stanford.edu",
-    "Titles": "Research Scientist"
+    "Titles": "unknown"
   },
   {
     "Session ID": "938258",
@@ -2364,10 +2619,10 @@
     "Assigned Track": "",
     "Room": "Foothill E: Autonomy + Robotics",
     "Scheduled At": "5 Jun 2025 11:15 AM",
-    "Speakers": "Quan Vuong",
-    "Companies": "Physical Intelligence",
-    "Company Domains": "physicalintelligence.company",
-    "Titles": "Co-founder"
+    "Speakers": "Quan Vuong, Jost Tobias Springenberg",
+    "Companies": "Physical Intelligence, Physical Intelligence",
+    "Company Domains": "physicalintelligence.company, physicalintelligence.company",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "938753",
@@ -2382,7 +2637,7 @@
     "Speakers": "Fouad Matin",
     "Companies": "OpenAI",
     "Company Domains": "openai.com",
-    "Titles": "Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "903966",
@@ -2397,7 +2652,7 @@
     "Speakers": "Chang She, Calvin Qi",
     "Companies": "LanceDB, Harvey AI",
     "Company Domains": "lancedb.com, harvey.ai",
-    "Titles": "Co-founder, Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "909905",
@@ -2412,7 +2667,7 @@
     "Speakers": "Jonathan Mortensen",
     "Companies": "Confident Security",
     "Company Domains": "confidentsecurity.com",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914012",
@@ -2427,7 +2682,7 @@
     "Speakers": "Rustin Banks",
     "Companies": "Google Labs",
     "Company Domains": "google.com",
-    "Titles": "AI Product Manager"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914786",
@@ -2442,7 +2697,7 @@
     "Speakers": "Greg Kamradt",
     "Companies": "ARC Prize Foundation",
     "Company Domains": "arcprize.org",
-    "Titles": "President"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914845",
@@ -2457,7 +2712,7 @@
     "Speakers": "John Pham",
     "Companies": "The San Francisco Compute Company",
     "Company Domains": "gmail.com",
-    "Titles": "Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914891",
@@ -2472,7 +2727,7 @@
     "Speakers": "Adam Behrens",
     "Companies": "New Generation",
     "Company Domains": "new-gen.ai",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916025",
@@ -2487,7 +2742,7 @@
     "Speakers": "Sahil Yadav, Hariharan Ganesan",
     "Companies": "AOI, NA",
     "Company Domains": "outlook.com, umich.edu",
-    "Titles": "Head of Software Products, Sr. Solutions Architect"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "916140",
@@ -2500,9 +2755,9 @@
     "Room": "Foothill E: Autonomy + Robotics",
     "Scheduled At": "5 Jun 2025 11:35 AM",
     "Speakers": "Stefania Druga",
-    "Companies": "Google",
+    "Companies": "unknown",
     "Company Domains": "hackidemia.com",
-    "Titles": "Research Scientist"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936133",
@@ -2517,7 +2772,7 @@
     "Speakers": "Rafal Wilinski, Vitor Balocco",
     "Companies": "Zapier, Zapier",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "AI Tech Lead, Staff Software Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "943701",
@@ -2547,7 +2802,7 @@
     "Speakers": "Kelvin Ma",
     "Companies": "Google Photos",
     "Company Domains": "gmail.com",
-    "Titles": "Product Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "913839",
@@ -2562,7 +2817,7 @@
     "Speakers": "Julia Neagu, Deanna Emery, Maitar Asher",
     "Companies": "Quotient AI, Quotient AI, Tavily",
     "Company Domains": "quotientai.co, quotientai.co, tavily.com",
-    "Titles": "CEO, Founding AI Researcher, Head of Engineering"
+    "Titles": "unknown, unknown, unknown"
   },
   {
     "Session ID": "914912",
@@ -2575,9 +2830,9 @@
     "Room": "SOMA: AI Architects",
     "Scheduled At": "5 Jun 2025 11:55 AM",
     "Speakers": "Yegor Denisov-Blanch",
-    "Companies": "Stanford University",
+    "Companies": "unknown",
     "Company Domains": "stanford.edu",
-    "Titles": "Researcher"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915428",
@@ -2590,9 +2845,9 @@
     "Room": "Foothill G 1&2: Design Engineering",
     "Scheduled At": "5 Jun 2025 11:55 AM",
     "Speakers": "Maximillian Piras",
-    "Companies": "Yutori",
+    "Companies": "unknown",
     "Company Domains": "mxmlln.com",
-    "Titles": "Founding Designer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915745",
@@ -2606,8 +2861,8 @@
     "Scheduled At": "5 Jun 2025 11:55 AM",
     "Speakers": "Misha  Laskin",
     "Companies": "Reflection",
-    "Company Domains": "reflection.ai",
-    "Titles": "CEO"
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "915978",
@@ -2622,7 +2877,7 @@
     "Speakers": "Leonard Tang",
     "Companies": "Haize Labs",
     "Company Domains": "haizelabs.com",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916085",
@@ -2635,9 +2890,9 @@
     "Room": "Golden Gate Ballroom C: AI in the Fortune 500",
     "Scheduled At": "5 Jun 2025 11:55 AM",
     "Speakers": "Jaspreet Singh",
-    "Companies": "Intuit",
+    "Companies": "unknown",
     "Company Domains": "gmail.com",
-    "Titles": "Senior Staff Software Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916103",
@@ -2650,9 +2905,9 @@
     "Room": "Foothill E: Autonomy + Robotics",
     "Scheduled At": "5 Jun 2025 11:55 AM",
     "Speakers": "Annika Brundyn, Aastha Jhunjhunwala",
-    "Companies": "NVIDIA, NVIDIA",
+    "Companies": "unknown, unknown",
     "Company Domains": "nvidia.com, nvidia.com",
-    "Titles": "Senior Solutions Architect, Solutions Architect"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "936814",
@@ -2667,7 +2922,7 @@
     "Speakers": "Christopher Harrison",
     "Companies": "GitHub",
     "Company Domains": "github.com",
-    "Titles": "Enterprise Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "939231",
@@ -2682,7 +2937,7 @@
     "Speakers": "Ido Pesok",
     "Companies": "Vercel",
     "Company Domains": "vercel.com",
-    "Titles": "Engineer and Researcher"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914361",
@@ -2697,7 +2952,7 @@
     "Speakers": "Shafik Quoraishee",
     "Companies": "New York Times",
     "Company Domains": "nytimes.com",
-    "Titles": "Senior Android Games Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914814",
@@ -2712,7 +2967,7 @@
     "Speakers": "Ivan Burazin",
     "Companies": "Daytona",
     "Company Domains": "gmail.com",
-    "Titles": "Co-founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916074",
@@ -2727,7 +2982,7 @@
     "Speakers": "Ryan Marten",
     "Companies": "Bespoke Labs",
     "Company Domains": "gmail.com",
-    "Titles": "Founding Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933458",
@@ -2740,9 +2995,9 @@
     "Room": "Yerba Buena Ballroom 7&8: SWE Agents",
     "Scheduled At": "5 Jun 2025 12:15 PM",
     "Speakers": "Tomas Reimers",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.dev",
-    "Titles": "CPO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933610",
@@ -2757,7 +3012,7 @@
     "Speakers": "Mike Chambers",
     "Companies": "Amazon Web Services",
     "Company Domains": "amazon.com",
-    "Titles": "Senior Developer Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933678",
@@ -2770,9 +3025,9 @@
     "Room": "Golden Gate Ballroom A: Retrieval + Search",
     "Scheduled At": "5 Jun 2025 12:15 PM",
     "Speakers": "Tengyu Ma",
-    "Companies": "MongoDB",
-    "Company Domains": "mongodb.com",
-    "Titles": "Chief AI Scientist"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936795",
@@ -2787,7 +3042,7 @@
     "Speakers": "Bobby Tiernay, Kam Sween",
     "Companies": "Auth0, Auth0",
     "Company Domains": "okta.com, okta.com",
-    "Titles": "Architect, Staff Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "943296",
@@ -2802,7 +3057,7 @@
     "Speakers": "Zeke Sikelianos",
     "Companies": "Replicate",
     "Company Domains": "replicate.com",
-    "Titles": "Developer Tools Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933580",
@@ -2817,7 +3072,7 @@
     "Speakers": "Philip Kiely",
     "Companies": "Baseten",
     "Company Domains": "baseten.co",
-    "Titles": "Developer Relations Lead"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933599",
@@ -2830,9 +3085,9 @@
     "Room": "Nobhill A&B: Expo Sessions",
     "Scheduled At": "5 Jun 2025 12:30 PM",
     "Speakers": "Arjun Desai, Rohit Talluri",
-    "Companies": "Cartesia, Amazon Web Services (AWS)",
-    "Company Domains": "cartesia.ai, gmail.com",
-    "Titles": "Co-founder, Generative AI ML Frameworks Specialist"
+    "Companies": "unknown, Amazon Web Services (AWS)",
+    "Company Domains": "unknown, gmail.com",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "933712",
@@ -2845,9 +3100,9 @@
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "5 Jun 2025 12:30 PM",
     "Speakers": "Nir Gazit",
-    "Companies": "traceloop",
-    "Company Domains": "traceloop.ai",
-    "Titles": "CEO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933569",
@@ -2860,9 +3115,9 @@
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "5 Jun 2025 12:45 PM",
     "Speakers": "Lou Bichard",
-    "Companies": "Gitpod",
-    "Company Domains": "gitpod.io",
-    "Titles": "Product Manager"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933656",
@@ -2877,7 +3132,7 @@
     "Speakers": "Nick Nisi",
     "Companies": "WorkOS ",
     "Company Domains": "nisi.org",
-    "Titles": "Software Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933671",
@@ -2890,9 +3145,9 @@
     "Room": "Nobhill A&B: Expo Sessions",
     "Scheduled At": "5 Jun 2025 12:45 PM",
     "Speakers": "Zach Blumenfeld",
-    "Companies": "Neo4j",
-    "Company Domains": "neo4j.com",
-    "Titles": "AI/ML graph specialist"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936816",
@@ -2907,7 +3162,7 @@
     "Speakers": "Den Delimarsky (DEVDIV), Julia Kasper",
     "Companies": "Microsoft, Microsoft",
     "Company Domains": "microsoft.com, microsoft.com",
-    "Titles": "Principal Product Engineer, Developer Experience Specialist"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "936935",
@@ -2937,7 +3192,7 @@
     "Speakers": "Rick Blalock",
     "Companies": "unknown",
     "Company Domains": "agentuity.com",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933626",
@@ -2950,9 +3205,9 @@
     "Room": "Salons 9-15: Expo Hall",
     "Scheduled At": "5 Jun 2025 01:00 PM",
     "Speakers": "Philipp Krenn",
-    "Companies": "Elastic",
+    "Companies": "unknown",
     "Company Domains": "xeraa.net",
-    "Titles": "Developer Relations"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933676",
@@ -2965,9 +3220,9 @@
     "Room": "Nobhill A&B: Expo Sessions",
     "Scheduled At": "5 Jun 2025 01:00 PM",
     "Speakers": "Samuel Colvin",
-    "Companies": "Pydantic Inc.",
+    "Companies": "unknown",
     "Company Domains": "pydantic.dev",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936902",
@@ -2980,9 +3235,9 @@
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "5 Jun 2025 01:00 PM",
     "Speakers": "Harald Kirschner",
-    "Companies": "Microsoft",
+    "Companies": "unknown",
     "Company Domains": "microsoft.com",
-    "Titles": "Principal Product Manager"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936901",
@@ -2997,7 +3252,7 @@
     "Speakers": "Jon Peck",
     "Companies": "GitHub",
     "Company Domains": "gmail.com",
-    "Titles": "Enterprise Advocate"
+    "Titles": "unknown"
   },
   {
     "Session ID": "933702",
@@ -3010,9 +3265,9 @@
     "Room": "Salons 9-15: Expo Hall",
     "Scheduled At": "5 Jun 2025 01:15 PM",
     "Speakers": "Mikiko Bazeley",
-    "Companies": "MongoDB",
-    "Company Domains": "mongodb.com",
-    "Titles": "Staff Developer Advocate"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933491",
@@ -3025,9 +3280,9 @@
     "Room": "Salons 9-15: Expo Hall",
     "Scheduled At": "5 Jun 2025 01:30 PM",
     "Speakers": "Chad Bailey",
-    "Companies": "Pipecat",
-    "Company Domains": "pipecat.org",
-    "Titles": "Developer"
+    "Companies": "Daily",
+    "Company Domains": "daily.co",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933453",
@@ -3040,9 +3295,9 @@
     "Room": "Salons 9-15: Expo Hall",
     "Scheduled At": "5 Jun 2025 01:45 PM",
     "Speakers": "Tomas Reimers",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.com",
-    "Titles": "CPO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "913351",
@@ -3057,7 +3312,7 @@
     "Speakers": "David Mytton",
     "Companies": "Arcjet",
     "Company Domains": "arcjet.com",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914049",
@@ -3072,7 +3327,7 @@
     "Speakers": "Yogi Miraje",
     "Companies": "FactSet Research Systems Inc",
     "Company Domains": "gmail.com",
-    "Titles": "AI Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914081",
@@ -3085,9 +3340,9 @@
     "Room": "Foothill F: Generative Media",
     "Scheduled At": "5 Jun 2025 02:00 PM",
     "Speakers": "Keegan McCallum",
-    "Companies": "Luma AI",
+    "Companies": "unknown",
     "Company Domains": "keeganmccallum.com",
-    "Titles": "Head of ML infrastructure"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914533",
@@ -3102,7 +3357,7 @@
     "Speakers": "Kyle Corbitt",
     "Companies": "OpenPipe",
     "Company Domains": "openpipe.ai",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915389",
@@ -3132,7 +3387,7 @@
     "Speakers": "Jyh-Jing Hwang",
     "Companies": "Waymo ",
     "Company Domains": "google.com",
-    "Titles": "Research Scientist and Technical Lead Manager"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916215",
@@ -3147,7 +3402,7 @@
     "Speakers": "Sherwood Callaway, Satwik Singh",
     "Companies": "11x AI, 11x AI",
     "Company Domains": "gmail.com, gmail.com",
-    "Titles": "Engineering Manager, Member of Technical Staff"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "933686",
@@ -3162,7 +3417,7 @@
     "Speakers": "Michael Grinich",
     "Companies": "WorkOS",
     "Company Domains": "workos.com",
-    "Titles": "Founder and CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "939130",
@@ -3176,7 +3431,7 @@
     "Scheduled At": "5 Jun 2025 02:00 PM",
     "Speakers": "Ankur Goyal",
     "Companies": "Braintrust",
-    "Company Domains": "braintrust.com",
+    "Company Domains": "unknown",
     "Titles": "unknown"
   },
   {
@@ -3192,7 +3447,7 @@
     "Speakers": "Boris Cherny",
     "Companies": "Anthropic",
     "Company Domains": "anthropic.com",
-    "Titles": "Member of Technical Staff"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914024",
@@ -3207,7 +3462,7 @@
     "Speakers": "Will Bryk",
     "Companies": "Exa",
     "Company Domains": "sixeastern.com",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915059",
@@ -3220,9 +3475,9 @@
     "Room": "Golden Gate Ballroom B: Evals",
     "Scheduled At": "5 Jun 2025 02:20 PM",
     "Speakers": "John Dickerson",
-    "Companies": "Mozilla AI",
+    "Companies": "unknown",
     "Company Domains": "mozilla.ai",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915387",
@@ -3237,7 +3492,7 @@
     "Speakers": "Robert Brennan",
     "Companies": "All Hands AI",
     "Company Domains": "all-hands.dev",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915751",
@@ -3252,7 +3507,7 @@
     "Speakers": "Jared Hanson",
     "Companies": "Keycard",
     "Company Domains": "keycard.sh",
-    "Titles": "Co-founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915921",
@@ -3267,7 +3522,7 @@
     "Speakers": "Ben Hylak, Sid Bendre",
     "Companies": "Raindrop.ai, Oleve",
     "Company Domains": "dawnai.com, oleve.co",
-    "Titles": "Co-founder, Co-founder"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "925912",
@@ -3282,7 +3537,7 @@
     "Speakers": "Randall Hunt",
     "Companies": "Caylent",
     "Company Domains": "caylent.com",
-    "Titles": "CTO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "926721",
@@ -3297,7 +3552,7 @@
     "Speakers": "Nathan Lambert",
     "Companies": "Allen Institute for AI",
     "Company Domains": "natolambert.com",
-    "Titles": "Senior Research Scientist"
+    "Titles": "unknown"
   },
   {
     "Session ID": "934617",
@@ -3312,7 +3567,22 @@
     "Speakers": "Steve Ruiz",
     "Companies": "tldraw",
     "Company Domains": "tldraw.com",
-    "Titles": "CEO"
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "945538",
+    "Title": "General purpose robots as professional Chefs",
+    "Description": "How we converted a bimanual robot into a professional chef that works in novel kitchens and learn new recipes from a single demonstration.",
+    "Session Format": "Talk",
+    "Level": "Intermediate",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "Autonomy + Robotics (16)",
+    "Room": "Foothill E: Autonomy + Robotics",
+    "Scheduled At": "5 Jun 2025 02:20 PM",
+    "Speakers": "Nikhil Abraham",
+    "Companies": "CloudChef",
+    "Company Domains": "cloudchef.co",
+    "Titles": "unknown"
   },
   {
     "Session ID": "907695",
@@ -3325,9 +3595,9 @@
     "Room": "Golden Gate Ballroom A: Retrieval + Search",
     "Scheduled At": "5 Jun 2025 02:40 PM",
     "Speakers": "David Karam",
-    "Companies": "Pi Labs",
+    "Companies": "unknown",
     "Company Domains": "withpi.ai",
-    "Titles": "Co-founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914017",
@@ -3342,7 +3612,7 @@
     "Speakers": "Josh Albrecht",
     "Companies": "Imbue",
     "Company Domains": "imbue.com",
-    "Titles": "CTO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914798",
@@ -3357,7 +3627,7 @@
     "Speakers": "Mark Bissell",
     "Companies": "Goodfire AI",
     "Company Domains": "goodfire.ai",
-    "Titles": "Applied Researcher"
+    "Titles": "unknown"
   },
   {
     "Session ID": "914934",
@@ -3370,9 +3640,9 @@
     "Room": "SOMA: AI Architects",
     "Scheduled At": "5 Jun 2025 02:40 PM",
     "Speakers": "Paul Klein IV",
-    "Companies": "Browserbase",
+    "Companies": "unknown",
     "Company Domains": "browserbase.com",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915873",
@@ -3387,7 +3657,7 @@
     "Speakers": "Rene Brandel",
     "Companies": "Casco (YC X25)",
     "Company Domains": "gmail.com",
-    "Titles": "Founder"
+    "Titles": "unknown"
   },
   {
     "Session ID": "916104",
@@ -3402,7 +3672,7 @@
     "Speakers": "Jeff Huber, Jason Liu",
     "Companies": "Chroma, 567 Studio",
     "Company Domains": "trychroma.com, jxnl.co",
-    "Titles": "CEO, Machine Learning Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "935969",
@@ -3417,7 +3687,7 @@
     "Speakers": "Rita  Kozlov",
     "Companies": "cloudflare",
     "Company Domains": "gmail.com",
-    "Titles": "Platform Engineer"
+    "Titles": "unknown"
   },
   {
     "Session ID": "939640",
@@ -3432,21 +3702,6 @@
     "Speakers": "Christian Szegedy",
     "Companies": "-",
     "Company Domains": "morph.so",
-    "Titles": "Research Scientist"
-  },
-  {
-    "Session ID": "943029",
-    "Title": "CloudChef: Industrial Kitchen Automation with LLMs",
-    "Description": "tbd for CloudChef submission",
-    "Session Format": "Talk",
-    "Level": "",
-    "Scope": "",
-    "Assigned Track": "Autonomy + Robotics (16)",
-    "Room": "Foothill E: Autonomy + Robotics",
-    "Scheduled At": "5 Jun 2025 02:40 PM",
-    "Speakers": "Nikhil Abraham",
-    "Companies": "CloudChef",
-    "Company Domains": "cloudchef.com",
     "Titles": "unknown"
   },
   {
@@ -3462,7 +3717,7 @@
     "Speakers": "Eno Reyes",
     "Companies": "Factory",
     "Company Domains": "factory.ai",
-    "Titles": "CTO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "915826",
@@ -3475,9 +3730,9 @@
     "Room": "Juniper: Expo Sessions",
     "Scheduled At": "5 Jun 2025 03:15 PM",
     "Speakers": "Nathan Sobo",
-    "Companies": "Zed",
-    "Company Domains": "zed.dev",
-    "Titles": "Cofounder"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933474",
@@ -3490,29 +3745,29 @@
     "Room": "Willow: Expo Sessions",
     "Scheduled At": "5 Jun 2025 03:15 PM",
     "Speakers": "Kenneth DuMez",
-    "Companies": "Graphite",
-    "Company Domains": "graphite.com",
-    "Titles": "Developer Relations Lead"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
-    "Session ID": "936299",
-    "Title": "Vibe Coding in Production",
-    "Description": "What's the role of vibe coding in a production-grade applications? Join Augment Code's Matt McClernan as he speaks to engineering leaders about building with AI. ",
+    "Session ID": "936298",
+    "Title": "To the moon! Navigating deep context in legacy code with Augment Agent",
+    "Description": "Shortened presentation-only version of our Apollo 11 workshop",
     "Session Format": "Talk",
     "Level": "Introductory and overview",
     "Scope": "Introductory (landscape)",
     "Assigned Track": "",
     "Room": "Nobhill A&B: Expo Sessions",
     "Scheduled At": "5 Jun 2025 03:15 PM",
-    "Speakers": "Matt McClernan",
-    "Companies": "Augment Code",
-    "Company Domains": "augmentcode.com",
-    "Titles": "Engineering Leader"
+    "Speakers": "Forrest Brazeal, Matt Ball",
+    "Companies": "Augment Code, Augment Code ",
+    "Company Domains": "freemanandforrest.com, augmentcode.com",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "933575",
-    "Title": "Amping it up: an experimental research demo of coding agents to uplevel humans building software",
-    "Description": "If you're attending this conference, you've probably used agents to build new apps from scratch. Or fix a bug in your existing app. Or add a new feature. Or migrate some dependencies. Or review a messy code change to catch subtle bugs. Or grok a big legacy codebase. But have you tried to do all these things at once, in parallel, in front of a live audience? Come watch the spectacle as we redline context windows and try to stretch the power of LLMs and agentic tool use as far as we can",
+    "Title": "The emerging skillset of wielding coding agents",
+    "Description": "It's raining coding agents. But while many are saying they're feeling the AGI, others say they're not that useful for serious programming. How much is hype and how much is a skill issue? We'll share empirical observations that help explain the divergence of developer opinion. And we'll cover emergent strategies uncovered by users of Amp, a new coding agent in research preview, that can help you employ agents to complete more complex tasks in production codebases.",
     "Session Format": "",
     "Level": "Introductory and overview",
     "Scope": "Technical deep dive",
@@ -3520,9 +3775,9 @@
     "Room": "Willow: Expo Sessions",
     "Scheduled At": "5 Jun 2025 03:30 PM",
     "Speakers": "Beyang Liu",
-    "Companies": "Sourcegraph",
-    "Company Domains": "sourcegraph.com",
-    "Titles": "CTO"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "933633",
@@ -3535,9 +3790,9 @@
     "Room": "Nobhill A&B: Expo Sessions",
     "Scheduled At": "5 Jun 2025 03:30 PM",
     "Speakers": "Sam  Fertig",
-    "Companies": "Windsurf",
-    "Company Domains": "windsurf.com",
-    "Titles": "Deployed Engineer"
+    "Companies": "unknown",
+    "Company Domains": "unknown",
+    "Titles": "unknown"
   },
   {
     "Session ID": "936907",
@@ -3552,7 +3807,7 @@
     "Speakers": "Emma Ning",
     "Companies": "Microsoft",
     "Company Domains": "microsoft.com",
-    "Titles": "Principal PM"
+    "Titles": "unknown"
   },
   {
     "Session ID": "936564",
@@ -3566,8 +3821,8 @@
     "Scheduled At": "5 Jun 2025 04:00 PM",
     "Speakers": "Micah Hill-Smith, George Cameron",
     "Companies": "Artificial Analysis, Artificial Analysis",
-    "Company Domains": "artificialanalysis.ai, artificialanalysis.com",
-    "Titles": "CEO, CPO"
+    "Company Domains": "artificialanalysis.ai, artificialanalysis.ai",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "943899",
@@ -3581,7 +3836,7 @@
     "Scheduled At": "5 Jun 2025 04:20 PM",
     "Speakers": "Ankur Goyal",
     "Companies": "Braintrust",
-    "Company Domains": "braintrust.com",
+    "Company Domains": "unknown",
     "Titles": "unknown"
   },
   {
@@ -3595,9 +3850,9 @@
     "Room": "Keynote/General Session (Yerba Buena 7&8)",
     "Scheduled At": "5 Jun 2025 04:25 PM",
     "Speakers": "Barr Yaron",
-    "Companies": "Amplify Partners",
+    "Companies": "unknown",
     "Company Domains": "gmail.com",
-    "Titles": "Investment Partner"
+    "Titles": "unknown"
   },
   {
     "Session ID": "941906",
@@ -3612,7 +3867,7 @@
     "Speakers": "Alex Atallah",
     "Companies": "OpenRouter",
     "Company Domains": "openrouter.ai",
-    "Titles": "CEO"
+    "Titles": "unknown"
   },
   {
     "Session ID": "925974",
@@ -3627,6 +3882,21 @@
     "Speakers": "Sean Grove",
     "Companies": "OpenAI",
     "Company Domains": "gmail.com",
-    "Titles": "Member of Technical Staff"
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "936046",
+    "Title": "AI Engineer World's Fair Hackathon - Grand Prize",
+    "Description": "",
+    "Session Format": "Keynote",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "Keynote/General Session (Yerba Buena 7&8)",
+    "Scheduled At": "5 Jun 2025 05:15 PM",
+    "Speakers": "Shawn  Wang, Benjamin Dunphy",
+    "Companies": "unknown, unknown",
+    "Company Domains": "unknown, unknown",
+    "Titles": "unknown, unknown"
   }
 ]

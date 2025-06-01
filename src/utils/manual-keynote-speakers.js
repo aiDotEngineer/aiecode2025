@@ -32,52 +32,52 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
       }
     ]
   },
-  {
-    "Name": "Clay Bavor",
-    "Company": "Sierra",
-    "Domain": "sierra.com",
-    "Tagline": "Co-founder",
-    "ProfilePicture": "/wf25speakers/clay_bavor.png",
-    "Sessions": [
-      {
-        "Title": "The Rise of the AI Architect (tba)",
-        "Format": "Keynote",
-        "Description": "Clay Bavor explores the future of human-computer interaction powered by advanced AI.",
-        "Tracks": "AI Architects"
-      }
-    ]
-  },
-  {
-    "Name": "Greg Brockman",
-    "Company": "OpenAI",
-    "Domain": "openai.com",
-    "Tagline": "President", 
-    "ProfilePicture": "/wf25speakers/gdb.jpg",
-    "Sessions": [
-      {
-        "Title": "#define AI Engineer",
-        "Format": "Keynote",
-        "Description": "Greg Brockman's career advice for AI engineers in the next decade.",
-        "Tracks": "SWE Agents"
-      }
-    ]
-  },
-  {
-    // [INFO] Added by Cascade on 2025-05-13: Logan Kilpatrick, Google DeepMind, Gemini 2.5 progress
-    "Name": "Logan Kilpatrick",
-    "Company": "Google DeepMind",
-    "Domain": "deepmind.google",
-    "Tagline": "AI Studio Lead",
-    "ProfilePicture": "/wf25speakers/logan_kilpatrick.jpg",
-    "Sessions": [
-      {
-        "Title": "(tbc) Gemini 2.5: Progress and Impact",
-        "Format": "Keynote",
-        "Description": "Logan Kilpatrick, AI Studio Lead at Google DeepMind, shares the latest progress on Gemini 2.5: breakthroughs, lessons learned, and how Gemini’s evolution is shaping the future of generative AI products and developer tooling.",
-        "Tracks": "AI in Action"
-      }
-    ]
-  },
+  // {
+  //   "Name": "Clay Bavor",
+  //   "Company": "Sierra",
+  //   "Domain": "sierra.com",
+  //   "Tagline": "Co-founder",
+  //   "ProfilePicture": "/wf25speakers/clay_bavor.png",
+  //   "Sessions": [
+  //     {
+  //       "Title": "The Rise of the AI Architect (tba)",
+  //       "Format": "Keynote",
+  //       "Description": "Clay Bavor explores the future of human-computer interaction powered by advanced AI.",
+  //       "Tracks": "AI Architects"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "Name": "Greg Brockman",
+  //   "Company": "OpenAI",
+  //   "Domain": "openai.com",
+  //   "Tagline": "President", 
+  //   "ProfilePicture": "/wf25speakers/gdb.jpg",
+  //   "Sessions": [
+  //     {
+  //       "Title": "#define AI Engineer",
+  //       "Format": "Keynote",
+  //       "Description": "Greg Brockman's career advice for AI engineers in the next decade.",
+  //       "Tracks": "SWE Agents"
+  //     }
+  //   ]
+  // },
+  // {
+  //   // [INFO] Added by Cascade on 2025-05-13: Logan Kilpatrick, Google DeepMind, Gemini 2.5 progress
+  //   "Name": "Logan Kilpatrick",
+  //   "Company": "Google DeepMind",
+  //   "Domain": "deepmind.google",
+  //   "Tagline": "AI Studio Lead",
+  //   "ProfilePicture": "/wf25speakers/logan_kilpatrick.jpg",
+  //   "Sessions": [
+  //     {
+  //       "Title": "(tbc) Gemini 2.5: Progress and Impact",
+  //       "Format": "Keynote",
+  //       "Description": "Logan Kilpatrick, AI Studio Lead at Google DeepMind, shares the latest progress on Gemini 2.5: breakthroughs, lessons learned, and how Gemini’s evolution is shaping the future of generative AI products and developer tooling.",
+  //       "Tracks": "AI in Action"
+  //     }
+  //   ]
+  // },
   {
     // [INFO] Added by Cascade on 2025-05-13: Jack Rae, Google DeepMind, Gemini Thinking keynote
     "Name": "Jack Rae",
@@ -124,21 +124,21 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   //     }
   //   ]
   // },
-  {
-    "Name": "Justin Junyang Lin",
-    "Company": "Alibaba Qwen",
-    "Domain": "qwenlm.com",
-    "Tagline": "Core Maintainer",
-    "ProfilePicture": "/wf25speakers/junyang_lin.jpg",
-    "Sessions": [
-      {
-        "Title": "Qwen: Towards a Generalist Model / Agent",
-        "Format": "Talk",
-        "Description": "Since Alibaba launched the Qwen series of large models in 2023, the Qwen series of large language models and multimodal large models have been continuously updated and improved. This presentation will introduce the latest developments in the Qwen series of models, including the large language model Qwen3, vision-language large model Qwen2.5-VL, omni model Qwen2.5-Omni, etc. Additionally, this presentation will also cover the future development directions of the Qwen series.",
-        "Tracks": "AI in Action"
-      }
-    ]
-  },
+  // {
+  //   "Name": "Justin Junyang Lin",
+  //   "Company": "Alibaba Qwen",
+  //   "Domain": "qwenlm.com",
+  //   "Tagline": "Core Maintainer",
+  //   "ProfilePicture": "/wf25speakers/junyang_lin.jpg",
+  //   "Sessions": [
+  //     {
+  //       "Title": "Qwen: Towards a Generalist Model / Agent",
+  //       "Format": "Talk",
+  //       "Description": "Since Alibaba launched the Qwen series of large models in 2023, the Qwen series of large language models and multimodal large models have been continuously updated and improved. This presentation will introduce the latest developments in the Qwen series of models, including the large language model Qwen3, vision-language large model Qwen2.5-VL, omni model Qwen2.5-Omni, etc. Additionally, this presentation will also cover the future development directions of the Qwen series.",
+  //       "Tracks": "AI in Action"
+  //     }
+  //   ]
+  // },
   {
     "Name": "swyx",
     "Company": "smol.ai",
@@ -162,21 +162,21 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
     "ProfilePicture": "/wf25speakers/ben_dunphy.jpeg",
     "Sessions": []
   },
-  {
-    "Name": "Ankur Goyal",
-    "Company": "Braintrust",
-    "Domain": "braintrust.com", 
-    "Tagline": "CEO",
-    "ProfilePicture": "/wf25speakers/ankur_goyal.jpeg",
-    "Sessions": [
-      {
-        "Title": "Evals Keynote (tba)",
-        "Format": "Talk",
-        "Description": "Ankur Goyal discusses the future of talent and work in the AI era with Braintrust.",
-        "Tracks": "Evals"
-      }
-    ]
-  },
+  // {
+  //   "Name": "Ankur Goyal",
+  //   "Company": "Braintrust",
+  //   "Domain": "braintrust.com", 
+  //   "Tagline": "CEO",
+  //   "ProfilePicture": "/wf25speakers/ankur_goyal.jpeg",
+  //   "Sessions": [
+  //     {
+  //       "Title": "Evals Keynote (tba)",
+  //       "Format": "Talk",
+  //       "Description": "Ankur Goyal discusses the future of talent and work in the AI era with Braintrust.",
+  //       "Tracks": "Evals"
+  //     }
+  //   ]
+  // },
   // {
   //   "Name": "Michael Truell",
   //   "Company": "Cursor",
@@ -192,21 +192,21 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   //     }
   //   ]
   // },
-  {
-    "Name": "Omar Khattab",
-    "Company": "Databricks",
-    "Domain": "databricks.com", 
-    "Tagline": "Creator of DSPy / Research Scientist",
-    "ProfilePicture": "/wf25speakers/omar_khattab.jpeg",
-    "Sessions": [
-      {
-        "Title": "The State of DSPy (tba)",
-        "Format": "Talk",
-        "Description": "Omar Khattab discusses the principles and applications of DSPy, and his research at Databricks.",
-        "Tracks": "AI in Action"
-      }
-    ]
-  },
+  // {
+  //   "Name": "Omar Khattab",
+  //   "Company": "Databricks",
+  //   "Domain": "databricks.com", 
+  //   "Tagline": "Creator of DSPy / Research Scientist",
+  //   "ProfilePicture": "/wf25speakers/omar_khattab.jpeg",
+  //   "Sessions": [
+  //     {
+  //       "Title": "The State of DSPy (tba)",
+  //       "Format": "Talk",
+  //       "Description": "Omar Khattab discusses the principles and applications of DSPy, and his research at Databricks.",
+  //       "Tracks": "AI in Action"
+  //     }
+  //   ]
+  // },
   // {
   //   // [INFO] Added by Cascade on 2025-05-12: Andrew Hsu, Speak.com, Voice track
   //   "Name": "Andrew Hsu",
