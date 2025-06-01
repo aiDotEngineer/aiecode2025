@@ -173,6 +173,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 2 (Monday AFTERNOON):
+              <a
+                href="https://lu.ma/87kr0w9r"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>SF Compute</b> - Cuda Crunch
+              </a>
+            </li>
+            <li>
               Jun 2 (Monday):
               <a
                 href="https://lu.ma/87kr0w9r"
@@ -360,6 +370,26 @@ export function Overview() {
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
                 Raise your model temperature @ Banya
+              </a>
+            </li>
+            <li>
+              Jun 5:
+              <a
+                href="https://lu.ma/yb8q32lp"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                Hack Comedy: An AI Comedy Show
+              </a>
+            </li>
+            <li>
+              Jun 5:
+              <a
+                href="https://lu.ma/0azsbkmf"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                Video AI Summit
               </a>
             </li>
             <li>
