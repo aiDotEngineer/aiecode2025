@@ -1,6 +1,6 @@
 // Format the speaker data from speakers-sessions-details.json for SpeakerPreview component
-import speakersData from './speakers-sessions-details.json';
-import {manualKeynoteSpeakers} from './manual-keynote-speakers'; // Renamed for clarity
+import speakersData from "./speakers-sessions-details.json";
+import { manualKeynoteSpeakers } from "./manual-keynote-speakers"; // Renamed for clarity
 
 // [INFO] Extended FormattedSpeaker to include level, scope, room, and scheduledAt for session attributes
 export interface FormattedSpeaker {
@@ -15,19 +15,20 @@ export interface FormattedSpeaker {
       data: {
         attributes: {
           url: string;
-        }
-      }
+        };
+      };
     };
     company: {
       data?: {
         attributes: {
           name: string;
-        }
-      }
+        };
+      };
     };
     sessions: {
       data: Array<{
         attributes: {
+          id: string;
           title: string;
           format?: string;
           description?: string;
@@ -35,20 +36,19 @@ export interface FormattedSpeaker {
             data?: {
               attributes: {
                 name: string;
-              }
-            }
+              };
+            };
           };
           // Newly added fields:
           level?: string;
           scope?: string;
           room?: string;
           scheduledAt?: string;
-        }
+        };
       }>;
     };
   };
 }
-
 
 export interface FormattedData {
   presenters: FormattedSpeaker[];
@@ -81,20 +81,20 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Jost Tobias Springenberg": 700, // Added Jost Tobias Springenberg
 
   // Other High Priority Speakers (from speakers-sessions-details.json)
-  "Solomon Hykes": 900, 
+  "Solomon Hykes": 900,
   "Jesse Han": 910,
   "Micah Hill-Smith": 900,
   "Raiza Martin": 950,
   "Dani Grant": 900,
   "Joel Hron": 900,
   "Anoop Kotha": 700,
-  "Kelvin Ma": 800, 
-  "Philipp Schmid": 900, 
+  "Kelvin Ma": 800,
+  "Philipp Schmid": 900,
   "Ben Parr": 900,
   "Justin Junyang Lin": 800, // Added Justin Junyang Lin
   "Boris Cherny": 800, // Added Boris Cherny
   "Ben Kus": 900, // Added Ben Kus
-  "swyx": -1, // Added swyx
+  swyx: -1, // Added swyx
   "Ben Dunphy": -0.5, // Added Ben Dunphy
   "Ankur Goyal": 700, // Added Ankur Goyal
   "Scott Wu": 900,
@@ -112,8 +112,8 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Brooke Hopkins": 700,
   "Jyh-Jing Hwang": 700,
   "Chang She": 600,
-  "Devansh Tandon": 600, 
-  "Chun Jiang": 600, 
+  "Devansh Tandon": 600,
+  "Chun Jiang": 600,
 
   // Lower Priority / Default Tier Grouping
   "Rossella Blatt Vital": 500,
@@ -139,8 +139,6 @@ const SPEAKER_PRIORITY_SCORES: Record<string, number> = {
   "Shafik Quoraishee": 300, // New York Times
 };
 
-
-
 // Default priority score for speakers not in the list above
 const DEFAULT_PRIORITY_SCORE = 100;
 
@@ -154,7 +152,7 @@ const EXCLUDED_SPEAKERS = new Set([
   "Dat Ngo",
   "Aman Khan",
   "Jim Bennett",
-  "Tomas Reimers"
+  "Tomas Reimers",
 ]);
 
 // Define the type for manual speaker entries based on manual-keynote-speakers.json
@@ -165,6 +163,7 @@ interface ManualSpeakerEntry {
   Tagline: string;
   ProfilePicture: string;
   Sessions: Array<{
+    ID: string;
     Title: string;
     Format: string;
     Description?: string;
@@ -182,52 +181,59 @@ export function formatSpeakersData(): FormattedData {
   let allPresenters: FormattedSpeaker[] = [];
 
   // 1. Process Manual Keynote Speakers
-  const manualPresenters: FormattedSpeaker[] = manualKeynoteSpeakersData.map((manualSpeaker, index) => {
-    manualSpeakerNames.add(manualSpeaker.Name);
-    const priorityScore = SPEAKER_PRIORITY_SCORES[manualSpeaker.Name] || 1000; // Default to 1000 for manual keynotes
+  const manualPresenters: FormattedSpeaker[] = manualKeynoteSpeakersData.map(
+    (manualSpeaker, index) => {
+      manualSpeakerNames.add(manualSpeaker.Name);
+      const priorityScore = SPEAKER_PRIORITY_SCORES[manualSpeaker.Name] || 1000; // Default to 1000 for manual keynotes
 
-    return {
-      id: `manual-${manualSpeaker.Name.replace(/\s+/g, '-').toLowerCase()}-${index}`,
-      attributes: {
-        name: manualSpeaker.Name,
-        tagline: manualSpeaker.Tagline,
-        socialLinks: undefined, // Manual speakers don't have social links in this JSON
-        displayOrder: index, // Original order from manual JSON
-        priorityScore,
-        profilePhoto: {
-          data: {
-            attributes: {
-              url: manualSpeaker.ProfilePicture
-            }
-          }
+      return {
+        id: `manual-${manualSpeaker.Name.replace(/\s+/g, "-").toLowerCase()}-${index}`,
+        attributes: {
+          name: manualSpeaker.Name,
+          tagline: manualSpeaker.Tagline,
+          socialLinks: undefined, // Manual speakers don't have social links in this JSON
+          displayOrder: index, // Original order from manual JSON
+          priorityScore,
+          profilePhoto: {
+            data: {
+              attributes: {
+                url: manualSpeaker.ProfilePicture,
+              },
+            },
+          },
+          company: {
+            data: manualSpeaker.Company
+              ? {
+                  attributes: {
+                    name: manualSpeaker.Company,
+                  },
+                }
+              : undefined,
+          },
+          sessions: {
+            data: manualSpeaker.Sessions.map((session) => ({
+              attributes: {
+                id: session.ID,
+                title: session.Title,
+                format: session.Format,
+                description: session.Description,
+                track: session.Tracks
+                  ? {
+                      data: { attributes: { name: session.Tracks } },
+                    }
+                  : { data: undefined },
+                // These fields are not present in manual speakers, but included for type consistency
+                level: undefined,
+                scope: undefined,
+                room: undefined,
+                scheduledAt: undefined,
+              },
+            })),
+          },
         },
-        company: {
-          data: manualSpeaker.Company ? {
-            attributes: {
-              name: manualSpeaker.Company
-            }
-          } : undefined
-        },
-        sessions: {
-          data: manualSpeaker.Sessions.map(session => ({
-            attributes: {
-              title: session.Title,
-              format: session.Format,
-              description: session.Description,
-              track: session.Tracks ? { 
-                data: { attributes: { name: session.Tracks } } 
-              } : { data: undefined },
-              // These fields are not present in manual speakers, but included for type consistency
-              level: undefined,
-              scope: undefined,
-              room: undefined,
-              scheduledAt: undefined,
-            }
-          }))
-        }
-      }
-    };
-  });
+      };
+    }
+  );
 
   // // [LOG] [PRIORITY] [formatSpeakersData] [2025-05-13T20:29:02-07:00] [36mEnsuring Logan Kilpatrick is prioritized as a keynote speaker[0m
   // const logan = manualPresenters.find(s => s.attributes.name === "Logan Kilpatrick");
@@ -236,69 +242,81 @@ export function formatSpeakersData(): FormattedData {
   // } else {
   //   console.warn('[WARN] [formatSpeakersData] [2025-05-13T20:29:02-07:00]', '\x1b[31mLogan Kilpatrick NOT found in manual keynote speakers!\x1b[0m');
   // }
-  
+
   allPresenters = allPresenters.concat(manualPresenters);
 
   // 2. Process Speakers from speakers-sessions-details.json
   const existingPresenters: FormattedSpeaker[] = speakersData
-    .filter(speakerFromJson => 
-      !manualSpeakerNames.has(speakerFromJson.Name) // Avoid duplicates
+    .filter(
+      (speakerFromJson) => !manualSpeakerNames.has(speakerFromJson.Name) // Avoid duplicates
     )
     .map((speakerFromJson, index) => {
-      const priorityScore = SPEAKER_PRIORITY_SCORES[speakerFromJson.Name] || (DEFAULT_PRIORITY_SCORE * (Math.random() + 1));
-      
-      const socialLinks = speakerFromJson.LinkedIn || speakerFromJson["X (Twitter)"] || speakerFromJson["Company Website"] || undefined;
-      
-      // [LOG] [MAP] [formatSpeakersData] [2025-05-19T16:15:22-07:00] \x1b[36mMapping session fields: level, scope, room, scheduledAt\x1b[0m
-return {
-  id: speakerFromJson["Speaker ID"],
-  attributes: {
-    name: speakerFromJson.Name,
-    tagline: speakerFromJson.TagLine,
-    socialLinks,
-    displayOrder: index, // Original order from this JSON file
-    priorityScore,
-    profilePhoto: {
-      data: {
-        attributes: {
-          url: speakerFromJson["Profile Picture"]
-        }
-      }
-    },
-    company: {
-      data: speakerFromJson.Company ? {
-        attributes: {
-          name: speakerFromJson.Company
-        }
-      } : undefined
-    },
-    sessions: {
-      data: speakerFromJson.Sessions.map(session => ({
-        attributes: {
-          title: session.Title,
-          format: session.Format,
-          description: session.Description,
-          track: {
-            data: session.Tracks ? {
-              attributes: {
-                name: session.Tracks
-              }
-            } : undefined
-          },
-          // New fields mapped from JSON
-          level: session.Level || undefined,
-          scope: session.Scope || undefined,
-          room: session.Room || undefined,
-          scheduledAt: session["Scheduled At"] || undefined,
-        }
-      }))
-    }
-  }
-};
+      const priorityScore =
+        SPEAKER_PRIORITY_SCORES[speakerFromJson.Name] ||
+        DEFAULT_PRIORITY_SCORE * (Math.random() + 1);
 
+      const socialLinks =
+        speakerFromJson.LinkedIn ||
+        speakerFromJson["X (Twitter)"] ||
+        speakerFromJson["Company Website"] ||
+        undefined;
+
+      // [LOG] [MAP] [formatSpeakersData] [2025-05-19T16:15:22-07:00] \x1b[36mMapping session fields: level, scope, room, scheduledAt\x1b[0m
+      return {
+        id: speakerFromJson["Speaker ID"],
+        attributes: {
+          name: speakerFromJson.Name,
+          tagline: speakerFromJson.TagLine,
+          socialLinks,
+          displayOrder: index, // Original order from this JSON file
+          priorityScore,
+          profilePhoto: {
+            data: {
+              attributes: {
+                url: speakerFromJson["Profile Picture"],
+              },
+            },
+          },
+          company: {
+            data: speakerFromJson.Company
+              ? {
+                  attributes: {
+                    name: speakerFromJson.Company,
+                  },
+                }
+              : undefined,
+          },
+          sessions: {
+            data: speakerFromJson.Sessions.map((session) => ({
+              attributes: {
+                id: session["Session ID"],
+                title: session.Title,
+                format: session.Format,
+                description: session.Description,
+                track: {
+                  data: session.Tracks
+                    ? {
+                        attributes: {
+                          name: session.Tracks,
+                        },
+                      }
+                    : undefined,
+                },
+                // New fields mapped from JSON
+                level: session.Level || undefined,
+                scope: session.Scope || undefined,
+                room: session.Room || undefined,
+                scheduledAt: session["Scheduled At"] || undefined,
+              },
+            })),
+          },
+        },
+      };
     });
   allPresenters = allPresenters.concat(existingPresenters);
-  allPresenters = allPresenters.filter(speaker => !EXCLUDED_SPEAKERS.has(speaker.attributes.name));
+  allPresenters = allPresenters.filter(
+    (speaker) => !EXCLUDED_SPEAKERS.has(speaker.attributes.name)
+  );
 
   // 3. Sort all presenters together
   const sortedPresenters = allPresenters.sort((a, b) => {
@@ -310,10 +328,10 @@ return {
   });
 
   // 4. Collect tracks and formats from the final sorted list
-  sortedPresenters.forEach(presenter => {
-    presenter.attributes.sessions.data.forEach(session => {
+  sortedPresenters.forEach((presenter) => {
+    presenter.attributes.sessions.data.forEach((session) => {
       if (session.attributes.track?.data?.attributes.name) {
-        session.attributes.track.data.attributes.name.split(',').forEach(trackName => {
+        session.attributes.track.data.attributes.name.split(",").forEach((trackName) => {
           const trimmedTrack = trackName.trim();
           if (trimmedTrack) tracks.add(trimmedTrack);
         });
@@ -327,6 +345,6 @@ return {
   return {
     presenters: sortedPresenters,
     tracks: Array.from(tracks).filter(Boolean),
-    formats: Array.from(formats).filter(Boolean)
+    formats: Array.from(formats).filter(Boolean),
   };
 }

@@ -1,14 +1,15 @@
-import { createEnv } from '@t3-oss/env-nextjs';
-import { z } from 'zod';
+import { createEnv } from "@t3-oss/env-nextjs";
+import { z } from "zod";
 
 // Early validation for required environment variables
 if (!process.env.LOOPS_API_KEY) {
-  throw new Error('LOOPS_API_KEY is required but not configured. Please add it to your .env file.');
+  throw new Error("LOOPS_API_KEY is required but not configured. Please add it to your .env file.");
 }
 
 export const env = createEnv({
   server: {
-    LOOPS_API_KEY: z.string().min(1, 'LOOPS_API_KEY is required'),
+    LOOPS_API_KEY: z.string().min(1, "LOOPS_API_KEY is required"),
+    WRITER_API_KEY: z.string().min(1, "WRITER_API_KEY is required"),
     // Legacy API Keys (currently unused)
     // CMS_HOST: z.string().optional(),
     // CMS_API_KEY: z.string().optional(),

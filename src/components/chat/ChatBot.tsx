@@ -1,43 +1,89 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { useChat } from 'ai/react';
-import { IoChatboxOutline } from 'react-icons/io5';
-import { LuChevronDown, LuChevronUp } from 'react-icons/lu';
+import { useCallback, useState } from "react";
+import { s } from "@hashbrownai/core";
+import { exposeComponent, useUiChat } from "@hashbrownai/react";
+import { IoChatboxOutline } from "react-icons/io5";
+import { LuChevronDown, LuChevronUp } from "react-icons/lu";
 
-import MessagesStream from './MessagesStream';
-import PromptForm from './PromptForm';
+import MessagesStream from "./MessagesStream";
+import PromptForm from "./PromptForm";
+import MarkdownMessage from "./MarkdownMessage";
+import ConferenceSession from "./ConferenceSession";
 
 export default function ChatBot() {
   const [open, setOpen] = useState(false);
-  const { messages, input, handleInputChange, handleSubmit, isLoading } =
-    useChat();
+  const [input, setInput] = useState("");
+  const { messages, sendMessage, isSending, isReceiving, isRunningToolCalls } = useUiChat({
+    debugName: "Summit AI",
+    model: "palmyra-x5",
+    system: "",
+    components: [
+      exposeComponent(MarkdownMessage, {
+        name: "markdown",
+        description:
+          "Displays markdown in the web app. Use this for general responses to the user.",
+        props: {
+          text: s.streaming.string("Markdown to display to the user"),
+        },
+      }),
+      exposeComponent(ConferenceSession, {
+        name: "conferenceSession",
+        description: "Displays a conference session to the user by supplying the session ID",
+        props: {
+          sessionId: s.string("Session ID"),
+        },
+      }),
+    ],
+  });
+
+  const handleInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    setInput(e.target.value);
+  }, []);
+
+  const handleSubmit = useCallback(
+    (e: React.FormEvent<HTMLFormElement>) => {
+      console.log("handleSubmit", input);
+      e.preventDefault();
+      sendMessage({
+        role: "user",
+        content: input,
+      });
+      setInput("");
+    },
+    [input, sendMessage]
+  );
 
   return (
-    <div className="mx-auto fixed bottom-0 z-50 flex max-h-[90vh] w-full flex-col rounded-t-lg bg-black border-x border-t border-gray-600 px-6 py-4 text-white shadow-xl md:right-20 md:max-w-md">
+    <div className="mx-auto fixed bottom-0 z-50 flex max-h-[90vh] w-full flex-col rounded-t-lg bg-black border-x border-t border-gray-600 px-6 py-4 text-white shadow-xl md:left-20 md:max-w-md">
       <ChatHeader open={open} setOpen={setOpen} />
       {open && (
         <>
           <MessagesStream messages={messages} />
+          <div></div>
           <PromptForm
             input={input}
             handleInputChange={handleInputChange}
             handleSubmit={handleSubmit}
-            isLoading={isLoading}
+            isLoading={isSending || isReceiving || isRunningToolCalls}
           />
+          <div className="text-xs text-gray-500 mt-3">
+            Powered by{" "}
+            <a href="https://writer.com" target="_blank" className="text-blue-500">
+              Palmyra X5 from Writer
+            </a>{" "}
+            and{" "}
+            <a href="https://hashbrown.dev" target="_blank" className="text-blue-500">
+              Hashbrown
+            </a>
+          </div>
         </>
       )}
     </div>
   );
 }
 
-function ChatHeader({
-  open,
-  setOpen,
-}: {
-  open: boolean;
-  setOpen: (open: boolean) => void;
-}) {
+function ChatHeader({ open, setOpen }: { open: boolean; setOpen: (open: boolean) => void }) {
   return (
     <button
       className="flex w-full items-center justify-between text-left"
@@ -46,10 +92,10 @@ function ChatHeader({
       <div>
         <h1 className="flex items-center text-sm font-semibold md:text-xl">
           <IoChatboxOutline className="mr-2" />
-          <span>Summit AI</span>
+          <span>World's Fair AI</span>
         </h1>
         <p className="hidden text-sm text-gray-500 md:block">
-          Ask me about talks, speakers, or the schedule.
+          Ask me about talks, speakers, or the schedule
         </p>
       </div>
       <div>
