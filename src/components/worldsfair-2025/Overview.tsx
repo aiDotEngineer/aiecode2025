@@ -175,7 +175,7 @@ export function Overview() {
             <li>
               Jun 2 (Monday AFTERNOON):
               <a
-                href="https://lu.ma/87kr0w9r"
+                href="https://partiful.com/e/OSXWcJWzNYEn11FzPQ2y"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
               >
