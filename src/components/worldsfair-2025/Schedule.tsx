@@ -165,7 +165,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
               })}
             </select>
             <div className="flex items-center">
-              <input
+              {/* <input
                 id="plenary-sessions-checkbox"
                 type="checkbox"
                 checked={showPlenary}
@@ -179,7 +179,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
                 className="ml-2 text-sm font-medium text-gray-900"
               >
                 Add Plenary
-              </label>
+              </label> */}
               <button
                 onClick={() => setExpandAll(!expandAll)}
                 className="flex items-center gap-2 ml-4 text-sm font-medium text-gray-900 hover:text-gray-700 transition-colors cursor-pointer"
@@ -290,9 +290,10 @@ function ScheduleGroup({
   return (
     <div className="flex flex-col gap-4" key={day}>
       <h3
-        className="font-semibold text-2xl scroll-mt-36 sm:scroll-mt-24"
+        className="font-semibold text-2xl scroll-mt-[70px]"
         id={day}
         ref={headingRef}
+        // Offset anchor position by header height
       >
         {formatSingleDate(day)}
       </h3>

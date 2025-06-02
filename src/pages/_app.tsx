@@ -4,6 +4,8 @@ import { type AppType } from "next/app";
 import Head from "next/head";
 import { useCallback, useEffect } from "react";
 import "~/styles/tailwind.css";
+// Global CSS for LiteYouTubeEmbed (must be in _app.tsx)
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 import { api } from "~/support/api";
 
 import { Widget } from "@pipecat-ai/ui";
