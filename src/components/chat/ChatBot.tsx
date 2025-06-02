@@ -12,7 +12,6 @@ import MarkdownMessage from "./MarkdownMessage";
 import ConferenceSession from "./ConferenceSession";
 
 export default function ChatBot() {
-  const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
   const { messages, sendMessage, isSending, isReceiving, isRunningToolCalls } = useUiChat({
     debugName: "Summit AI",
@@ -55,40 +54,34 @@ export default function ChatBot() {
   );
 
   return (
-    <div className="mx-auto fixed bottom-0 z-50 flex max-h-[90vh] w-full flex-col rounded-t-lg bg-black border-x border-t border-gray-600 px-6 py-4 text-white shadow-xl md:left-20 md:max-w-md">
-      <ChatHeader open={open} setOpen={setOpen} />
-      {open && (
-        <>
-          <MessagesStream messages={messages} />
-          <div></div>
-          <PromptForm
-            input={input}
-            handleInputChange={handleInputChange}
-            handleSubmit={handleSubmit}
-            isLoading={isSending || isReceiving || isRunningToolCalls}
-          />
-          <div className="text-xs text-gray-500 mt-3">
-            Powered by{" "}
-            <a href="https://writer.com" target="_blank" className="text-blue-500">
-              Palmyra X5 from Writer
-            </a>{" "}
-            and{" "}
-            <a href="https://hashbrown.dev" target="_blank" className="text-blue-500">
-              Hashbrown
-            </a>
-          </div>
-        </>
-      )}
+    <div className="mx-auto flex w-full flex-col rounded-lg bg-black border-x border-t border-gray-600 px-6 py-4 text-white md:left-20 h-[640px] max-h-[100svh]">
+      <ChatHeader />
+
+      <MessagesStream messages={messages} />
+      <div></div>
+      <PromptForm
+        input={input}
+        handleInputChange={handleInputChange}
+        handleSubmit={handleSubmit}
+        isLoading={isSending || isReceiving || isRunningToolCalls}
+      />
+      <div className="text-xs text-gray-500 mt-3">
+        Powered by{" "}
+        <a href="https://writer.com" target="_blank" className="text-blue-500">
+          Palmyra X5 from Writer
+        </a>{" "}
+        and{" "}
+        <a href="https://hashbrown.dev" target="_blank" className="text-blue-500">
+          Hashbrown
+        </a>
+      </div>
     </div>
   );
 }
 
-function ChatHeader({ open, setOpen }: { open: boolean; setOpen: (open: boolean) => void }) {
+function ChatHeader() {
   return (
-    <button
-      className="flex w-full items-center justify-between text-left"
-      onClick={() => setOpen(!open)}
-    >
+    <button className="flex w-full items-center justify-between text-left">
       <div>
         <h1 className="flex items-center text-sm font-semibold md:text-xl">
           <IoChatboxOutline className="mr-2" />
@@ -97,13 +90,6 @@ function ChatHeader({ open, setOpen }: { open: boolean; setOpen: (open: boolean)
         <p className="hidden text-sm text-gray-500 md:block">
           Ask me about talks, speakers, or the schedule
         </p>
-      </div>
-      <div>
-        {open ? (
-          <LuChevronDown className="h-6 w-6 text-slate-500" />
-        ) : (
-          <LuChevronUp className="h-6 w-6 text-slate-500" />
-        )}
       </div>
     </button>
   );
