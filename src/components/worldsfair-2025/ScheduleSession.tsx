@@ -116,7 +116,7 @@ function ExpandedView({
   const plenaryClasses = session.isPlenumSession ? 'bg-gray-300' : '';
 
   return (
-    <article className="relative z-10">
+    <article className="relative z-10" id={session.slug}>
       <div className="absolute top-3 right-3 z-10">
         <button
           aria-label="Collapse row"
@@ -172,7 +172,7 @@ function ConciseView({ session, expandAll }: { session: any; expandAll?: boolean
       : '';
 
   return (
-    <div className="group/item text-left hover:bg-blue-50 transition-colors">
+    <div className="group/item text-left hover:bg-blue-50 transition-colors" id={session.slug}>
       <Border
         className={`grid grid-cols-3 gap-x-8 lg:gap-y-8 p-3 ${plenaryClasses}`}
       >
@@ -297,6 +297,32 @@ function SessionSummary({ session }: { session: any }) {
         {/* <Link href={`/worldsfair/2024/schedule/${session.slug}`}> */}
           {session.title}
         {/* </Link> */}
+        <Link href={`/schedule#${session.slug}`} aria-label={`Anchor link to ${session.title}`} className="ml-2 inline-block align-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={18}
+            height={18}
+            fill="none"
+            viewBox="0 0 20 20"
+            className="text-gray-400 hover:text-gray-700 transition-colors"
+          >
+            <path
+              stroke="currentColor"
+              strokeWidth={1.5}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M11.5 8.5l1.06-1.06a4 4 0 115.66 5.66l-3.18 3.18a4 4 0 01-5.66-5.66L9.5 11.5"
+            />
+            <path
+              stroke="currentColor"
+              strokeWidth={1.5}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M8.5 11.5l-1.06 1.06a4 4 0 11-5.66-5.66l3.18-3.18a4 4 0 015.66 5.66L10.5 8.5"
+            />
+          </svg>
+        </Link>
+
       </p>
 
       <MarkdownView markdown={session.about || ''} />
