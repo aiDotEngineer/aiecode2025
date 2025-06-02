@@ -290,9 +290,10 @@ function ScheduleGroup({
   return (
     <div className="flex flex-col gap-4" key={day}>
       <h3
-        className="font-semibold text-2xl scroll-mt-36 sm:scroll-mt-24"
+        className="font-semibold text-2xl scroll-mt-[70px]"
         id={day}
         ref={headingRef}
+        {/* Offset anchor position by header height */}
       >
         {formatSingleDate(day)}
       </h3>
