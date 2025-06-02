@@ -375,6 +375,16 @@ export function Overview() {
             <li>
               Jun 5:
               <a
+                href="https://lu.ma/h0pzb6jj?v=1"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                <b>Runpod</b> Rebrand Party
+              </a>
+            </li>
+            <li>
+              Jun 5:
+              <a
                 href="https://partiful.com/e/8mRLJDwyGlt1qduiW0Lo"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
