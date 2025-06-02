@@ -24,6 +24,7 @@ export const env = createEnv({
   client: {},
   runtimeEnv: {
     LOOPS_API_KEY: process.env.LOOPS_API_KEY,
+    WRITER_API_KEY: process.env.WRITER_API_KEY,
     // Legacy API Keys (currently unused)
     // CMS_HOST: process.env.CMS_HOST,
     // CMS_API_KEY: process.env.CMS_API_KEY,
