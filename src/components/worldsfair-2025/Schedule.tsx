@@ -293,7 +293,7 @@ function ScheduleGroup({
         className="font-semibold text-2xl scroll-mt-[70px]"
         id={day}
         ref={headingRef}
-        {/* Offset anchor position by header height */}
+        // Offset anchor position by header height
       >
         {formatSingleDate(day)}
       </h3>
