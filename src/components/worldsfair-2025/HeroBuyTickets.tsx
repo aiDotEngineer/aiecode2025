@@ -5,23 +5,41 @@ import { Button } from '../Button';
 import { NewsletterFormThree } from '../Newsletter';
 import { PromptPaidContent } from '../PromptPaidContent';
 import { useTito } from '../../hooks/useTito';
+import dynamic from 'next/dynamic';
+
+// Dynamically import LiteYouTubeEmbed without SSR to avoid require() errors
+const LiteYouTubeEmbed = dynamic(
+  () => import('react-lite-youtube-embed').then(mod => mod.default),
+  { ssr: false }
+);
 
 export function HeroBuyTickets(_props: { url?: string }) {
   const [success, setSuccess] = useState<null | boolean>(null);
   const titoUrl = useTito();
 
   return (
+    <>
+    <div className="w-full mt-4">
+      <LiteYouTubeEmbed
+        id="U-fMsbY-kHY"
+        title="World's Fair 2025 Promo"
+        wrapperClassName="yt-lite"
+      />
+    </div>
     <div className="md:w-[500px] m-auto space-y-4">
+      {/* YouTube video embed under the buy tickets hero */}
       {/* Take advantage of flexbox and flex items to adjust button sizes beyond their normal height */}
       <div className="flex md:h-14 gap-4 md:gap-4">
         <Button
-          className="flex-1 text-xs md:text-base"
+          className="flex-1 text-xs md:text-base line-through"
           invert
+          disabled
           href={titoUrl}
           target="_blank"
         >
-          Buy 2025 Tickets
+          Buy 2025 Tickets (Sold Out)
         </Button>
+        
         <span className="self-center">or</span>
         <Button
           className="flex-1 text-xs md:text-base hover:bg-neutral-600/40"
@@ -31,6 +49,7 @@ export function HeroBuyTickets(_props: { url?: string }) {
         >
           See 2023-2025 talks
         </Button>
+      </div>
         {/* <PromptPaidContent>
           <Button
             className="flex-1 text-xs md:text-base whitespace-nowrap"
@@ -39,11 +58,10 @@ export function HeroBuyTickets(_props: { url?: string }) {
             Buy 2024 Talks Access
           </Button>
         </PromptPaidContent> */}
-      </div>
 
       <div className="px-6 py-4 rounded-lg bg-neutral-600/40 backdrop-blur-lg w-full m-auto space-y-3 mb-4">
         <div className="lg:flex lg:justify-between lg:items-center text-sm">
-          <div className="font-bold">Get live updates</div>
+          <div className="font-bold">Get recaps and updates</div>
           <div>Be a top AI Engineer</div>
         </div>
         {!success ? (
@@ -56,5 +74,6 @@ export function HeroBuyTickets(_props: { url?: string }) {
         )}
       </div>
     </div>
+    </>
   );
 }
