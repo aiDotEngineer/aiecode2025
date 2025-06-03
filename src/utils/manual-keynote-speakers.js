@@ -1,36 +1,39 @@
 export const manualKeynoteSpeakers = [
   {
-    "Name": "Sarah Guo",
-    "Company": "Conviction",
-    "Domain": "Conviction.com",
-    "Tagline": "Founder",
-    "ProfilePicture": "/wf25speakers/sarah_guo.jpeg",
-    "Sessions": [
+    Name: "Sarah Guo",
+    Company: "Conviction",
+    Domain: "Conviction.com",
+    Tagline: "Founder",
+    ProfilePicture: "/wf25speakers/sarah_guo.jpeg",
+    Sessions: [
       {
-        "Title": "The 2025 AI Landscape (tba)",
-        "Format": "Keynote",
-        "Description": "Sarah Guo shares her insights on the evolving landscape of AI investment and innovation.",
-        "Tracks": "AI in Action"
-      }
-    ]
+        ID: "927324",
+        Title: "The 2025 AI Landscape (tba)",
+        Format: "Keynote",
+        Description:
+          "Sarah Guo shares her insights on the evolving landscape of AI investment and innovation.",
+        Tracks: "AI in Action",
+      },
+    ],
   },
   {
-    "Name": "Simon Willison",
-    "Company": "Independent",
-    "Domain": "simonwillison.net",
-    "Tagline": "AI Engineer",
-    "ProfilePicture": "/wf25speakers/simonw.jpeg",
-    "Sessions": [
+    Name: "Simon Willison",
+    Company: "Independent",
+    Domain: "simonwillison.net",
+    Tagline: "AI Engineer",
+    ProfilePicture: "/wf25speakers/simonw.jpeg",
+    Sessions: [
       {
-        "Title": "Frontier LLMs: What's Changed, What Won't",
-        "Format": "Keynote",
-        "Description": `What's changed in the world of LLMs since the AI World's Fair last year? A lot! 
+        ID: "935987",
+        Title: "Frontier LLMs: What's Changed, What Won't",
+        Format: "Keynote",
+        Description: `What's changed in the world of LLMs since the AI World's Fair last year? A lot! 
 
 I'll be taking full advantage of my role as a fiercely independent researcher to review the past 12 months of advances in the field and catch everyone up on the latest models, free from any influence of vendors or employers.
         `,
-        "Tracks": "AI in Action"
-      }
-    ]
+        Tracks: "AI in Action",
+      },
+    ],
   },
   // {
   //   "Name": "Clay Bavor",
@@ -51,7 +54,7 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   //   "Name": "Greg Brockman",
   //   "Company": "OpenAI",
   //   "Domain": "openai.com",
-  //   "Tagline": "President", 
+  //   "Tagline": "President",
   //   "ProfilePicture": "/wf25speakers/gdb.jpg",
   //   "Sessions": [
   //     {
@@ -80,26 +83,28 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   // },
   {
     // [INFO] Added by Cascade on 2025-05-13: Jack Rae, Google DeepMind, Gemini Thinking keynote
-    "Name": "Jack Rae",
-    "Company": "Google DeepMind",
-    "Domain": "deepmind.google",
-    "Tagline": "Principal Research Scientist",
-    "ProfilePicture": "/wf25speakers/jack_rae.jpg",
-    "Sessions": [
+    Name: "Jack Rae",
+    Company: "Google DeepMind",
+    Domain: "deepmind.google",
+    Tagline: "Principal Research Scientist",
+    ProfilePicture: "/wf25speakers/jack_rae.jpg",
+    Sessions: [
       {
-        "Title": "(tbc) Gemini Thinking and the Future of Reasoning",
-        "Format": "Keynote",
-        "Description": "Jack Rae, Principal Research Scientist at Google DeepMind, will keynote on Gemini Thinking and the future of reasoning in AI: advances, challenges, and what’s next for reasoning capabilities in next-gen foundation models.",
-        "Tracks": "Reasoning+RL"
-      }
-    ]
+        ID: "947233",
+        Title: "(tbc) Gemini Thinking and the Future of Reasoning",
+        Format: "Keynote",
+        Description:
+          "Jack Rae, Principal Research Scientist at Google DeepMind, will keynote on Gemini Thinking and the future of reasoning in AI: advances, challenges, and what’s next for reasoning capabilities in next-gen foundation models.",
+        Tracks: "Reasoning+RL",
+      },
+    ],
   },
   // {
   //   "Name": "Logan Kilpatrick",
   //   "Company": "Google DeepMind",
   //   "Domain": "https://deepmind.google",
   //   "Tagline": "Lead PM, AI Studio",
-  //   "ProfilePicture": "/wf25speakers/logan_kilpatrick.jpg", 
+  //   "ProfilePicture": "/wf25speakers/logan_kilpatrick.jpg",
   //   "Sessions": [
   //     {
   //       "Title": "tba",
@@ -140,32 +145,34 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   //   ]
   // },
   {
-    "Name": "swyx",
-    "Company": "smol.ai",
-    "Domain": "latent.space", 
-    "Tagline": "Curator",
-    "ProfilePicture": `/wf25speakers/swyx${Math.floor(Math.random() * 8)}.jpg`,
-    "Sessions": [
+    Name: "swyx",
+    Company: "smol.ai",
+    Domain: "latent.space",
+    Tagline: "Curator",
+    ProfilePicture: `/wf25speakers/swyx${Math.floor(Math.random() * 8)}.jpg`,
+    Sessions: [
       {
-        "Title": "Building AI-Intensive Applications",
-        "Format": "Keynote",
-        "Description": "swyx updates the Martin Kleppmann classic. Whether you call it a workflow or an agent, AI engineered applications are seeing user-input:LLM-call ratios go from 1:1 (ChatGPT) to 1:100 (Deep Research, Codex) and even 0:n (Ambient/Proactive agents). How does AI Engineering change as you build increasingly AI intensive applications? Let's call a spade a SPADE.",
-        "Tracks": "AI in Action"
-      }
-    ]
+        ID: "936006",
+        Title: "Building AI-Intensive Applications",
+        Format: "Keynote",
+        Description:
+          "swyx updates the Martin Kleppmann classic. Whether you call it a workflow or an agent, AI engineered applications are seeing user-input:LLM-call ratios go from 1:1 (ChatGPT) to 1:100 (Deep Research, Codex) and even 0:n (Ambient/Proactive agents). How does AI Engineering change as you build increasingly AI intensive applications? Let's call a spade a SPADE.",
+        Tracks: "AI in Action",
+      },
+    ],
   },
   {
-    "Name": "Ben Dunphy",
-    "Company": "AI Engineer",
-    "Domain": "ai.engineer", 
-    "Tagline": "Cofounder",
-    "ProfilePicture": "/wf25speakers/ben_dunphy.jpeg",
-    "Sessions": []
+    Name: "Ben Dunphy",
+    Company: "AI Engineer",
+    Domain: "ai.engineer",
+    Tagline: "Cofounder",
+    ProfilePicture: "/wf25speakers/ben_dunphy.jpeg",
+    Sessions: [],
   },
   // {
   //   "Name": "Ankur Goyal",
   //   "Company": "Braintrust",
-  //   "Domain": "braintrust.com", 
+  //   "Domain": "braintrust.com",
   //   "Tagline": "CEO",
   //   "ProfilePicture": "/wf25speakers/ankur_goyal.jpeg",
   //   "Sessions": [
@@ -180,7 +187,7 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   // {
   //   "Name": "Michael Truell",
   //   "Company": "Cursor",
-  //   "Domain": "cursor.com", 
+  //   "Domain": "cursor.com",
   //   "Tagline": "CEO",
   //   "ProfilePicture": "/wf25speakers/michael_truell.jpg",
   //   "Sessions": [
@@ -195,7 +202,7 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   // {
   //   "Name": "Omar Khattab",
   //   "Company": "Databricks",
-  //   "Domain": "databricks.com", 
+  //   "Domain": "databricks.com",
   //   "Tagline": "Creator of DSPy / Research Scientist",
   //   "ProfilePicture": "/wf25speakers/omar_khattab.jpeg",
   //   "Sessions": [
@@ -225,34 +232,38 @@ I'll be taking full advantage of my role as a fiercely independent researcher to
   // },
   {
     // [INFO] Added by Cascade on 2025-05-16: Quan Vuong, Physical Intelligence, Physical AGI keynote on Autonomy/Robotics track
-    "Name": "Quan Vuong",
-    "Company": "Physical Intelligence",
-    "Domain": "physicalintelligence.ai", 
-    "Tagline": "Cofounder",
-    "ProfilePicture": "/wf25speakers/quan_vuong.jpeg",
-    "Sessions": [
+    Name: "Quan Vuong",
+    Company: "Physical Intelligence",
+    Domain: "physicalintelligence.ai",
+    Tagline: "Cofounder",
+    ProfilePicture: "/wf25speakers/quan_vuong.jpeg",
+    Sessions: [
       {
-        "Title": "Physical AGI (tbc)",
-        "Format": "Keynote", 
-        "Description": "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy/Robotics track.",
-        "Tracks": "Autonomy+Robotics"
-      }
-    ]
+        ID: "938258",
+        Title: "Physical AGI (tbc)",
+        Format: "Keynote",
+        Description:
+          "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy/Robotics track.",
+        Tracks: "Autonomy+Robotics",
+      },
+    ],
   },
   {
     // [INFO] Added by Cascade on 2025-05-16: Jost Tobias Springenberg, Physical Intelligence, co-presenting Physical AGI keynote
-    "Name": "Jost Tobias Springenberg",
-    "Company": "Physical Intelligence",
-    "Domain": "physicalintelligence.ai", 
-    "Tagline": "Research Scientist",
-    "ProfilePicture": "/wf25speakers/jost_tobi.jpg",
-    "Sessions": [
+    Name: "Jost Tobias Springenberg",
+    Company: "Physical Intelligence",
+    Domain: "physicalintelligence.ai",
+    Tagline: "Research Scientist",
+    ProfilePicture: "/wf25speakers/jost_tobi.jpg",
+    Sessions: [
       {
-        "Title": "Physical AGI (tbc)",
-        "Format": "Keynote",
-        "Description": "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy+Robotics track.",
-        "Tracks": "Autonomy+Robotics"
-      }
-    ]
-  }
-]
+        ID: "938258",
+        Title: "Physical AGI (tbc)",
+        Format: "Keynote",
+        Description:
+          "Quan Vuong (Cofounder) and Jost Tobias Springenberg (Research Scientist) from Physical Intelligence discuss the advancements and future of Physical AGI in the Autonomy+Robotics track.",
+        Tracks: "Autonomy+Robotics",
+      },
+    ],
+  },
+];
