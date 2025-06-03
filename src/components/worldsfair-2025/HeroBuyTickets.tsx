@@ -21,8 +21,8 @@ export function HeroBuyTickets(_props: { url?: string }) {
     <>
     <div className="w-full mt-4">
       <LiteYouTubeEmbed
-        id="U-fMsbY-kHY"
-        title="World's Fair 2025 Promo"
+        id="z4zXicOAF28"
+        title="World's Fair 2025 Livestream"
         wrapperClassName="yt-lite"
       />
     </div>
