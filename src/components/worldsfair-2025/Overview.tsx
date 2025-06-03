@@ -423,6 +423,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 5:
+              <a
+                href="https://lu.ma/vofzfltk"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1"
+              >
+                AI Engineer After Party with <b>Replicate & Atris</b>
+              </a>
+            </li>
+            <li>
               Jun 5 (late):
               <a
                 href="https://cerebralvalley.ai/e/aie-worlds-fair-afterparty-hack-night-agent-ops-hq-1ec40b0b?utm_source=t"
