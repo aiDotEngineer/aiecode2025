@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import sessionDetails from "~/utils/session-details.json";
+import sessionDetails from "~/utils/sessions-speakers-details.json";
 
 // Set revalidation time (e.g., 1 hour)
 export const revalidate = 3600;

@@ -1,5 +1,5 @@
 [
-    {
+  {
     "Speaker ID": "4c5d598d-b9fe-467a-8459-c9d83c4c8d42",
     "Name": "Allie Howe",
     "Company": "Growth Cyber",
@@ -83,46 +83,6 @@
         "Tracks": "Online Track",
         "Room": "",
         "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "c3365dd3-7b90-4b3c-a7c7-0fe3fe4a927a",
-    "Name": "Rick Blalock",
-    "Company": "AgentHub",
-    "Company Domain": "agentuity.com",
-    "Company URL": "",
-    "Company Website": "https://agentuity.com/",
-    "Title": "Founder",
-    "TagLine": "Founder, Agentuity",
-    "Bio": "Seasoned founder with exit.  Developer at night and during the day if I can fit it in meetings... Scaled a mobile developer platform from hundreds to 800,000 developers. Successfully started and sold a fisheries platform & app to the world's largest fishing app with 15m+ users, and then led that company as CPO. ",
-    "X (Twitter)": "https://x.com/rblalock",
-    "LinkedIn": "https://www.linkedin.com/in/rickblalock/",
-    "Blog": "https://rickblalock.dev/",
-    "Profile Picture": "https://sessionize.com/image/3199-400o400o1-sY3qeP5fMBSgrv67uCLL1Z.png",
-    "Session Count": 2,
-    "Sessions": [
-      {
-        "Session ID": "909665",
-        "Title": "The Agent-Native Company",
-        "Description": "Are you just using AI—or are you building a company around it?\r\n\r\nIn this talk, I break down what it means to be an agent-native company—a business designed from the ground up with AI agents at the core of operations, culture, and product. Drawing from my own founder experience (building 14 months of product in 8 weeks with just 6 people and a stack of agents), I’ll walk you through the real-world shift happening right now across tech.\r\n\r\n🔍 What you'll learn:\r\n\r\nThe difference between AI-enhanced vs. AI-native orgs\r\n\r\nWhy the future of hiring is about AI fluency, not just professional networks or credentials\r\n\r\nThe rise of new job titles like “Agent Manager” (yes, that’s a real job)\r\n\r\nHow lean teams can use AI agents to achieve 10x—or even 100x—impact\r\n\r\nWhat “culture is the new stack” really means when humans and AI work together\r\n\r\n🧠 Featuring real-world examples, practical hiring insights, and a peek into how workflows and job roles are changing fast.\r\n\r\n📈 Whether you’re a founder, tech leader, or just curious about the future of work, this is your guide to scaling smart—with AI at the wheel.",
-        "Format": "Online Talk",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "Online Track",
-        "Room": "",
-        "Scheduled At": ""
-      },
-      {
-        "Session ID": "933618",
-        "Title": "Conquering Agent Chaos",
-        "Description": "Agent deployments can be dicey, especially at first.  This session goes over all the things that cause headache with deployments from serverless issues to networking issues - and how we fix them.",
-        "Format": "",
-        "Level": "Introductory and overview",
-        "Scope": "Product launch",
-        "Tracks": "Infrastructure",
-        "Room": "Willow: Expo Sessions",
-        "Scheduled At": "5 Jun 2025 01:00 PM"
       }
     ]
   },
@@ -330,6 +290,35 @@
     ]
   },
   {
+    "Speaker ID": "64940200-6b83-4a82-9216-7a68a3788d54",
+    "Name": "Windsurf Speaker",
+    "Company": "Windsurf",
+    "Company Domain": "windsurf.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Speaker",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936251",
+        "Title": "Windsurf Booth Session #2",
+        "Description": "",
+        "Format": "",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "",
+        "Scheduled At": ""
+      }
+    ]
+  },
+  {
     "Speaker ID": "ab81ea4b-98b1-4d9a-88c6-2c62cb1a6200",
     "Name": "Junyang Lin",
     "Company": "Alibaba Group",
@@ -423,7 +412,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://ishananand.com/",
     "Company Website": "https://spreadsheets-are-all-you-need.ai/",
-    "Title": "Vice-President of Product Management",
+    "Title": "Vice President of Product Management",
     "TagLine": "AI Consultant and educator",
     "Bio": "Ishan Anand is an AI consultant and technology executive specializing in Generative AI and LLMs. He created \"Spreadsheets-are-all-you-need,\" an innovative course that demystifies large language models by implementing GPT-2 entirely in Excel. As the former CTO and co-founder of Layer0 (acquired by Edgio), and most recently Vice-President of Product Management for Edgio, he's led teams in developing cutting-edge solutions in web performance, edge computing, and AI/ML for enterprise web applications. Ishan brings deep technical expertise from his dual B.S. degrees in Mathematics and EECS from MIT, combined with a unique ability to make advanced technology accessible to broader audiences.",
     "X (Twitter)": "https://x.com/ianand",
@@ -532,8 +521,8 @@
     "Sessions": [
       {
         "Session ID": "929509",
-        "Title": "Kernels, RL, Reasoning, Reward Functions & Quantization",
-        "Description": "Discover if writing custom kernels is still worth it, explore how to do Reinforcement Learning (RL) and reward functions properly, and learn why quantization is key to local LLMs - plus tips to gain accuracy.",
+        "Title": "Advanced: Reinforcement Learning, Kernels, Reasoning, Quantization & Agents",
+        "Description": "Why is Reinforcement Learning (RL) suddenly everywhere, and is it truly effective? Have LLMs hit a plateau in terms of intelligence and capabilities, or is RL the breakthrough they need?\r\n\r\nIn this workshop, we'll dive into the fundamentals of RL, what makes a good reward function, and how RL can help create agents.\r\n\r\nWe'll also talk about kernels, are they still worth your time and what you should focus on. And finally, we’ll explore how LLMs like DeepSeek-R1 can be quantized down to 1.58-bits and still perform well, along with techniques to maintain accuracy.",
         "Format": "Workshop",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
@@ -833,8 +822,8 @@
     "Sessions": [
       {
         "Session ID": "916131",
-        "Title": "Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat",
-        "Description": "The Gemini Live API GA  is now powered by Google's best cost-effective thinking model Gemini 2.5 Flash. We will do a deep dive on the capabilities that the Gemini Live API combined with Pipecat unlock for devs with special focus on session management, turn detection, tool use (including async function calls), proactivity, multilinguality and integration with telephony and other infra. We will demo some of the more innovative capabilities. We will also talk through some customer use cases - especially how customers can use Pipecat to extend these realtime multimodal capabilities to client side applications such as customer support agents, gaming agents, tutoring agents etc. In addition, we also have an experimental version of the Live API powered by with Google's native audio offering that can be tried in an experimental capacity . This experimental model  can communicate with seamless, emotive, steerable, multilingual dialogue and enhances use cases where more natural voices can be a big differentiator. ",
+        "Title": "Building Voice Agents with Gemini and Pipecat",
+        "Description": "Voice AI Agents are being deployed today in a wide range of business contexts. For example:\r\n\r\n  - handling an increasing variety of call center tasks,\r\n  - collecting patient data prior to healthcare appointments,\r\n  - following up on inbound sales leads,\r\n  - coordinating scheduling and logistics between companies, and\r\n  - answering the phone for nearly every kind of small business.\r\n\r\nOn the consumer side, conversational voice (and video) AI is also starting to make its way into social applications and games. And developers are sharing innovative personal voice AI projects and experiments every day on GitHub and social media.\r\n\r\nBuilding production-ready voice agents is complicated. Many elements are non-trivial to implement from scratch.\r\n\r\nThis workshop will start with an overview of the voice AI landscape today.\r\n\r\n  - The models, APIs, and infrastructure are used for Voice AI applications that are operating at production scale. \r\n  - How to write voice agent code that achieves ultra low latency conversation and enterprise-quality reliability.\r\n  - What new models and tools are coming in the second half of 2025.\r\n\r\nThen we will shift to a hands-on format: build and deploy a voice agent.\r\n\r\nEngineers from Google and Daily will help you get set up with a starter kit repo for your intended use case, then help you extend that code to create your own, customized Voice AI application.",
         "Format": "Workshop",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
@@ -869,29 +858,18 @@
     "LinkedIn": "https://www.linkedin.com/in/kwkramer/",
     "Blog": "https://www.linkedin.com/in/sean-dubois/",
     "Profile Picture": "https://sessionize.com/image/d6ae-400o400o1-HJCEgwnJadsHAkcAkU46oh.jpg",
-    "Session Count": 4,
+    "Session Count": 3,
     "Sessions": [
       {
         "Session ID": "916131",
-        "Title": "Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat",
-        "Description": "The Gemini Live API GA  is now powered by Google's best cost-effective thinking model Gemini 2.5 Flash. We will do a deep dive on the capabilities that the Gemini Live API combined with Pipecat unlock for devs with special focus on session management, turn detection, tool use (including async function calls), proactivity, multilinguality and integration with telephony and other infra. We will demo some of the more innovative capabilities. We will also talk through some customer use cases - especially how customers can use Pipecat to extend these realtime multimodal capabilities to client side applications such as customer support agents, gaming agents, tutoring agents etc. In addition, we also have an experimental version of the Live API powered by with Google's native audio offering that can be tried in an experimental capacity . This experimental model  can communicate with seamless, emotive, steerable, multilingual dialogue and enhances use cases where more natural voices can be a big differentiator. ",
+        "Title": "Building Voice Agents with Gemini and Pipecat",
+        "Description": "Voice AI Agents are being deployed today in a wide range of business contexts. For example:\r\n\r\n  - handling an increasing variety of call center tasks,\r\n  - collecting patient data prior to healthcare appointments,\r\n  - following up on inbound sales leads,\r\n  - coordinating scheduling and logistics between companies, and\r\n  - answering the phone for nearly every kind of small business.\r\n\r\nOn the consumer side, conversational voice (and video) AI is also starting to make its way into social applications and games. And developers are sharing innovative personal voice AI projects and experiments every day on GitHub and social media.\r\n\r\nBuilding production-ready voice agents is complicated. Many elements are non-trivial to implement from scratch.\r\n\r\nThis workshop will start with an overview of the voice AI landscape today.\r\n\r\n  - The models, APIs, and infrastructure are used for Voice AI applications that are operating at production scale. \r\n  - How to write voice agent code that achieves ultra low latency conversation and enterprise-quality reliability.\r\n  - What new models and tools are coming in the second half of 2025.\r\n\r\nThen we will shift to a hands-on format: build and deploy a voice agent.\r\n\r\nEngineers from Google and Daily will help you get set up with a starter kit repo for your intended use case, then help you extend that code to create your own, customized Voice AI application.",
         "Format": "Workshop",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
         "Tracks": "Voice",
         "Room": "Salons 2-6: Workshops",
         "Scheduled At": "3 Jun 2025 10:40 AM"
-      },
-      {
-        "Session ID": "933593",
-        "Title": "Building Voice Agents with Gemini and Pipecat",
-        "Description": "Hands-on workshop led by engineers from Google and Daily",
-        "Format": "Workshop",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "Voice",
-        "Room": "SOMA: Workshops",
-        "Scheduled At": "3 Jun 2025 03:30 PM"
       },
       {
         "Session ID": "915028",
@@ -924,7 +902,7 @@
     "Company Domain": "mongodb.com",
     "Company URL": "",
     "Company Website": "",
-    "Title": "Developer Advocate",
+    "Title": "AI Developer Advocate",
     "TagLine": "Senior AI Developer Advocate, MongoDB",
     "Bio": "Apoorva is a Data Scientist turned Developer Advocate, with over 6 years of experience applying Machine Learning to problems in Cybersecurity, including phishing detection, malware protection, and entity behavior analytics. As an AI Developer Advocate at MongoDB, she now helps developers be successful at building AI applications through written content and hands-on workshops.",
     "X (Twitter)": "",
@@ -1276,7 +1254,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://openai.com/",
     "Company Website": "",
-    "Title": "Developer Experience",
+    "Title": "Developer Experience Lead",
     "TagLine": "Developer Experience",
     "Bio": "Ilan Bigio is a founding member of OpenAI’s Developer Experience team where he explores model capabilities, builds demos and developer tools, and shares his learnings through talks and docs.\r\n\r\nHis work includes creating the AI phone ordering demo showcased at DevDay 2024, leading technical development for Swarm, the precursor to the Agents SDK, and contributing to Codex CLI. Prior to that, he was a Solutions Architect at OpenAI, partnering with companies like Cursor, Khan Academy, and Klarna to shape their AI products. Before OpenAI, he was a full-stack Software Engineer at Google, building for YouTube at scale.\r\n\r\nIlan’s journey started as a hobby hacker, diving into operating systems and reverse engineering, before shifting to language models in 2020. He created projects like ShellAI—an open-source, AI-powered terminal assistant—and is passionate about sharing knowledge. With a multidisciplinary background spanning web development, AI/ML, and operating systems, he’s designed and taught courses at Brown and continues to share his expertise through in-depth technical OpenAI guides on topics like Function Calling, Latency Optimization, and Agent Orchestration.",
     "X (Twitter)": "https://x.com/ilanbigio",
@@ -1593,35 +1571,6 @@
     ]
   },
   {
-    "Speaker ID": "66c8ee2b-80f0-4167-a4b4-1dd6f87c6f32",
-    "Name": "Chad Bailey",
-    "Company": "Daily",
-    "Company Domain": "daily.co",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Engineer",
-    "TagLine": "Member of Technical Staff, Daily",
-    "Bio": "Chad Bailey started his career testing software for the Space Shuttle. After many years of building web apps, he's spent the last several working on real-time communication at Daily. Most recently, he's been building the Pipecat framework, and a series of increasingly ridiculous voice bots to show it off.",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/7550-400o400o1-DPseyBDY58k9g5EXaxQnUq.png",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "933593",
-        "Title": "Building Voice Agents with Gemini and Pipecat",
-        "Description": "Hands-on workshop led by engineers from Google and Daily",
-        "Format": "Workshop",
-        "Level": "Intermediate",
-        "Scope": "Technical deep dive",
-        "Tracks": "Voice",
-        "Room": "SOMA: Workshops",
-        "Scheduled At": "3 Jun 2025 03:30 PM"
-      }
-    ]
-  },
-  {
     "Speaker ID": "428890ba-7b5c-444d-98b9-87fe5d27875f",
     "Name": "Numair Baseer",
     "Company": "Windsurf",
@@ -1880,6 +1829,35 @@
     ]
   },
   {
+    "Speaker ID": "f9f290b7-68af-404a-9a05-61789f0032ce",
+    "Name": "Sander Schulhoff",
+    "Company": "HackAPrompt",
+    "Company Domain": "gmail.com",
+    "Company URL": "hackaprompt.com",
+    "Company Website": "https://www.hackaprompt.com",
+    "Title": "CEO",
+    "TagLine": "CEO",
+    "Bio": "I'm Sander Schulhoff, the founder and CEO of HackAPrompt and Learn Prompting. I created the first Prompt Engineering guide on the internet, two months before ChatGPT was released, which has taught 3 million people how to prompt ChatGPT. I also ran, in collaboration with OpenAI, the first AI Red Teaming Hackathon (an event that nearly doubled a similar one by the White House). Today, HackAPrompt partners with the Frontier AI labs to produce research that makes their models more secure. My background is primarily in NLP and deep reinforcement learning. I recently led the team behind The Prompt Report, the most comprehensive study of prompt engineering ever done. Our 76-page survey, co-authored with OpenAI, Microsoft, Google, Princeton, Stanford, and other leading institutions, analyzed 1,500+ academic papers and covered 200+ prompting techniques.",
+    "X (Twitter)": "https://x.com/SanderSchulhoff",
+    "LinkedIn": "https://www.linkedin.com/in/sander-schulhoff/",
+    "Blog": "https://trigaten.github.io",
+    "Profile Picture": "https://sessionize.com/image/8e72-400o400o1-Hf19yabT65pPBcZE6nqxe3.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "947798",
+        "Title": "Prompt Engineering & AI Red Teaming",
+        "Description": "Learn from the creator of Learn Prompting, the internet's 1st Prompt Engineering guide (released 2 months before ChatGPT), and HackAPrompt, the World's 1st AI Red Teaming competition.\r\n\r\nMy talk will cover topics ranging from the history of prompt engineering to the most advanced research-backed prompt engineering techniques.\r\n\r\nI will also discuss the origins of prompt injection and AI red teaming, as well as the current state of industry and the need for agentic red teaming.\r\n\r\nFinally, we will have an interactive competition where you will be able to hone your prompt hacking skills and win prizes from swyx!\r\n\r\nhttps://www.hackaprompt.com",
+        "Format": "Workshop",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "Security",
+        "Room": "SOMA: Workshops",
+        "Scheduled At": "3 Jun 2025 03:30 PM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "e74f4530-4fe3-4b9d-92e5-f2ecccd23163",
     "Name": "Asha  Sharma",
     "Company": "Microsoft",
@@ -1926,8 +1904,8 @@
     "Sessions": [
       {
         "Session ID": "927324",
-        "Title": "Conviction Session",
-        "Description": "Please Fill in",
+        "Title": "State of Startups and AI 2025",
+        "Description": "tba",
         "Format": "Keynote",
         "Level": "Intermediate",
         "Scope": "",
@@ -1940,8 +1918,8 @@
   {
     "Speaker ID": "41dc7bdd-f306-4c02-9da8-fe19e1887b6b",
     "Name": "Simon Willison",
-    "Company": "Independent",
-    "Company Domain": "unknown",
+    "Company": "Self-employed",
+    "Company Domain": "simonwillison.net",
     "Company URL": "",
     "Company Website": "",
     "Title": "Keynote Speaker",
@@ -2119,7 +2097,7 @@
     "Speaker ID": "db8127aa-f31f-4e13-8a91-68470c2c41f7",
     "Name": "Eashan Sinha",
     "Company": "Windsurf",
-    "Company Domain": "windsurf.ai",
+    "Company Domain": "windsurf.com",
     "Company URL": "",
     "Company Website": "https://windsurf.com",
     "Title": "Deployed Engineer",
@@ -2177,7 +2155,7 @@
     "Speaker ID": "83bf9959-5e36-4c3d-b99d-4f966f430254",
     "Name": "Chris Kelly",
     "Company": "Augment Code",
-    "Company Domain": "augment.dev",
+    "Company Domain": "augmentcode.com",
     "Company URL": "https://www.augmentcode.com",
     "Company Website": "",
     "Title": "Head of Developer Experience",
@@ -2438,10 +2416,10 @@
     "Speaker ID": "4b695838-a7ad-4471-9c19-4efd637a82ee",
     "Name": "Eric Simons",
     "Company": "Bolt",
-    "Company Domain": "bolt.dev",
+    "Company Domain": "bolt.com",
     "Company URL": "bolt.new",
     "Company Website": "https://bolt.new",
-    "Title": "Founder",
+    "Title": "VibeCoder",
     "TagLine": "CEO, Bolt.new",
     "Bio": "",
     "X (Twitter)": "https://x.com/EricSimons/",
@@ -2455,8 +2433,8 @@
         "Title": "Bolt: The Dawn of the VibeCoder",
         "Description": "tbd",
         "Format": "Talk",
-        "Level": "",
-        "Scope": "",
+        "Level": "Advanced",
+        "Scope": "Case Study/War Story",
         "Tracks": "Tiny Teams",
         "Room": "Yerba Buena Ballroom Salons 2-6: Tiny Teams",
         "Scheduled At": "4 Jun 2025 11:15 AM"
@@ -2702,7 +2680,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "http://www.patho.ai/",
     "Company Website": "https://www.patho.ai",
-    "Title": "MultiAI Agent Specialist",
+    "Title": "AI Engineer",
     "TagLine": "AI Engineer & Co-Founder ",
     "Bio": "https://www.linkedin.com/in/cklam12345/",
     "X (Twitter)": "",
@@ -2738,7 +2716,7 @@
     "LinkedIn": "https://www.linkedin.com/in/sidbendre/",
     "Blog": "",
     "Profile Picture": "https://sessionize.com/image/0d00-400o400o1-BQmZLpsEnnPaQ4Ynw4eQqm.jpg",
-    "Session Count": 2,
+    "Session Count": 1,
     "Sessions": [
       {
         "Session ID": "914550",
@@ -2750,17 +2728,6 @@
         "Tracks": "Tiny Teams",
         "Room": "Yerba Buena Ballroom Salons 2-6: Tiny Teams",
         "Scheduled At": "4 Jun 2025 11:35 AM"
-      },
-      {
-        "Session ID": "915921",
-        "Title": "Testing the Un-Testable: Monitoring AI Products in the Wild",
-        "Description": "Evals are straightforward—like unit tests, they confirm your model got specific test cases right.\r\n\r\nBut in the real world, your AI encounters millions of unpredictable interactions each day. How do you gauge user trust, identify frustrations, and adapt when there's no single \"correct\" output? Diving through endless logs and manually adding one eval at a time won't cut it.\r\n\r\nIn this session, we'll explore how leading teams are moving beyond static evals; leveraging semantic analytics, LLM teachers, and AI-powered monitoring to deeply understand user experiences at scale—building AI products that don’t just pass tests, but genuinely resonate with users.",
-        "Format": "Talk",
-        "Level": "Intermediate",
-        "Scope": "Case Study/War Story",
-        "Tracks": "AI Architects",
-        "Room": "SOMA: AI Architects",
-        "Scheduled At": "5 Jun 2025 02:20 PM"
       }
     ]
   },
@@ -2916,7 +2883,7 @@
     "Company Domain": "together.ai",
     "Company URL": "https://www.together.ai/",
     "Company Website": "https://www.together.ai/",
-    "Title": "Developer Relations Lead",
+    "Title": "Head of Developer Relations",
     "TagLine": "DevRel lead ",
     "Bio": "Hassan El Mghari is a software engineer based in New York specializing in building full-stack AI applications. His AI applications have a combined user base of over 3 million. He currently leads the developer relations team at Together.ai, where his work includes building example AI apps, creating content, and educating developers on AI development.",
     "X (Twitter)": "https://twitter.com/nutlope",
@@ -3394,7 +3361,7 @@
         "Title": "Mentoring the Machine",
         "Description": "You’d never let a swarm of fresh interns ship to prod on day one—same deal with AI agents. Mentoring the Machine dives into how acting like a tech lead (not just a user) turns those bots into real leverage. In this talk, Eric will deliver practical advice for working with AI agents in the SDLC. He'll also preview how effective use of AI agents changes the calculus of software engineering at both a micro and macro level.\r\n",
         "Format": "Talk",
-        "Level": "Intermediate",
+        "Level": "Introductory and overview",
         "Scope": "Technical deep dive",
         "Tracks": "SWE Agents",
         "Room": "SOMA: AI Architects",
@@ -3519,6 +3486,35 @@
     ]
   },
   {
+    "Speaker ID": "a61b9574-dff6-4fb6-a757-24fccee8c118",
+    "Name": "David Cramer",
+    "Company": "Sentry",
+    "Company Domain": "sentry.io",
+    "Company URL": "https://sentry.io",
+    "Company Website": "https://sentry.io",
+    "Title": "CPO",
+    "TagLine": "Founder, Sentry",
+    "Bio": "David is the founder and CPO of Sentry, a developer-focused application monitoring solution trusted by more than 70,000 organizations. Prior to Sentry he focused on a variety of infrastructure and developer services at consumer tech companies, as well as spending a large amount of time contributing to the Open Source, Python, and Django communities.",
+    "X (Twitter)": "https://twitter.com/zeeg",
+    "LinkedIn": "",
+    "Blog": "https://cra.mr",
+    "Profile Picture": "https://sessionize.com/image/4d8b-400o400o1-H1kSGossysgZEm4jsvEPdQ.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "947995",
+        "Title": "MCP isn’t good, yet.",
+        "Description": "You’ve heard a lot about MCP, probably been given an AI mandate or two, and are trying to figure out what’s real and what’s make believe. \r\n\r\nThis session will give practical advice for how you should be thinking about MCP, the implementation pit falls, and where the speaker thinks things are going. ",
+        "Format": "Talk",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "MCP",
+        "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
+        "Scheduled At": "4 Jun 2025 12:15 PM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "b98c1681-c591-459f-91bc-eaa6bd4ae9be",
     "Name": "Sam Alba",
     "Company": "Dagger",
@@ -3572,64 +3568,6 @@
         "Scope": "Technical deep dive",
         "Tracks": "AI in Action",
         "Room": "Juniper: Expo Sessions",
-        "Scheduled At": "4 Jun 2025 12:45 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "c6fab2d0-68b9-4250-bd65-9273ef98597c",
-    "Name": "Julián  Duque",
-    "Company": "Heroku",
-    "Company Domain": "heroku.com",
-    "Company URL": "",
-    "Company Website": "https://www.heroku.com/",
-    "Title": "Principal Developer Advocate",
-    "TagLine": "Principal Developer Advocate at Heroku",
-    "Bio": "Julián Duque is a Principal Developer Advocate at Heroku, where he focuses on Node.js, JavaScript, and AI applications. With a deep passion for education and developer empowerment, Julián has been building and supporting tech communities around the world since 2001.",
-    "X (Twitter)": "https://twitter.com/julian_duque",
-    "LinkedIn": "https://www.linkedin.com/in/juliandavidduque/",
-    "Blog": "https://julianduque.co/",
-    "Profile Picture": "https://sessionize.com/image/b0c3-400o400o1-Udw53yzaS4MWu3Gm9uD7TD.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "939093",
-        "Title": "Building Agentic Applications with Heroku Managed Inference and Agents",
-        "Description": "In this workshop, you’ll learn how to use Heroku Managed Inference and Agents to build agentic applications. We’ll cover how to provision and deploy LLM models to your app, run untrusted code securely in Python, Node.js, Go, and Ruby using built-in tools, and use the Model Context Protocol (MCP) to connect tools and actions that extend your agents' capabilities.",
-        "Format": "Workshop",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "",
-        "Room": "Nobhill A&B: Expo Sessions",
-        "Scheduled At": "4 Jun 2025 12:45 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "a058237e-c279-457a-847c-2288afd7a7e1",
-    "Name": "Anush Dsouza",
-    "Company": "Heroku",
-    "Company Domain": "heroku.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Product Manager",
-    "TagLine": "Senior Product Manager for Heroku AI",
-    "Bio": "Product Manager for Heroku AI, building agentic application on Heroku and extending them using the model context protocol.",
-    "X (Twitter)": "https://x.com/anushdsouzaa?s=21&t=f5Gy7OhxoOSNMKTP0-HJsw",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/b3c7-400o400o1-s3ZqtXr6cKmpNRDnLuC1FV.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "939093",
-        "Title": "Building Agentic Applications with Heroku Managed Inference and Agents",
-        "Description": "In this workshop, you’ll learn how to use Heroku Managed Inference and Agents to build agentic applications. We’ll cover how to provision and deploy LLM models to your app, run untrusted code securely in Python, Node.js, Go, and Ruby using built-in tools, and use the Model Context Protocol (MCP) to connect tools and actions that extend your agents' capabilities.",
-        "Format": "Workshop",
-        "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "",
-        "Room": "Nobhill A&B: Expo Sessions",
         "Scheduled At": "4 Jun 2025 12:45 PM"
       }
     ]
@@ -3757,7 +3695,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "",
     "Company Website": "https://mongodb.com",
-    "Title": "Developer Relations Lead",
+    "Title": "DevRel Lead",
     "TagLine": "Director, Developer Relations",
     "Bio": "Ado is a full-stack developer and leads the DevRel team at Sourcegraph. Mixing his passion of programming and education, he creates tutorials, talks, courses, and other educational content focusing on AI, Agents, and the future of programming.",
     "X (Twitter)": "http://twitter.com/adocomplete",
@@ -3809,6 +3747,64 @@
     ]
   },
   {
+    "Speaker ID": "c6fab2d0-68b9-4250-bd65-9273ef98597c",
+    "Name": "Julián  Duque",
+    "Company": "Heroku",
+    "Company Domain": "heroku.com",
+    "Company URL": "",
+    "Company Website": "https://www.heroku.com/",
+    "Title": "Principal Developer Advocate",
+    "TagLine": "Principal Developer Advocate at Heroku",
+    "Bio": "Julián Duque is a Principal Developer Advocate at Heroku, where he focuses on Node.js, JavaScript, and AI applications. With a deep passion for education and developer empowerment, Julián has been building and supporting tech communities around the world since 2001.",
+    "X (Twitter)": "https://twitter.com/julian_duque",
+    "LinkedIn": "https://www.linkedin.com/in/juliandavidduque/",
+    "Blog": "https://julianduque.co/",
+    "Profile Picture": "https://sessionize.com/image/b0c3-400o400o1-Udw53yzaS4MWu3Gm9uD7TD.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "939093",
+        "Title": "Building Agentic Applications with Heroku Managed Inference and Agents",
+        "Description": "In this workshop, you’ll learn how to use Heroku Managed Inference and Agents to build agentic applications. We’ll cover how to provision and deploy LLM models to your app, run untrusted code securely in Python, Node.js, Go, and Ruby using built-in tools, and use the Model Context Protocol (MCP) to connect tools and actions that extend your agents' capabilities.",
+        "Format": "Workshop",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "",
+        "Room": "Nobhill A&B: Expo Sessions",
+        "Scheduled At": "4 Jun 2025 01:00 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "a058237e-c279-457a-847c-2288afd7a7e1",
+    "Name": "Anush Dsouza",
+    "Company": "Heroku",
+    "Company Domain": "heroku.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Product Manager",
+    "TagLine": "Senior Product Manager for Heroku AI",
+    "Bio": "Product Manager for Heroku AI, building agentic application on Heroku and extending them using the model context protocol.",
+    "X (Twitter)": "https://x.com/anushdsouzaa?s=21&t=f5Gy7OhxoOSNMKTP0-HJsw",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "https://sessionize.com/image/b3c7-400o400o1-s3ZqtXr6cKmpNRDnLuC1FV.jpg",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "939093",
+        "Title": "Building Agentic Applications with Heroku Managed Inference and Agents",
+        "Description": "In this workshop, you’ll learn how to use Heroku Managed Inference and Agents to build agentic applications. We’ll cover how to provision and deploy LLM models to your app, run untrusted code securely in Python, Node.js, Go, and Ruby using built-in tools, and use the Model Context Protocol (MCP) to connect tools and actions that extend your agents' capabilities.",
+        "Format": "Workshop",
+        "Level": "Introductory and overview",
+        "Scope": "Introductory (landscape)",
+        "Tracks": "",
+        "Room": "Nobhill A&B: Expo Sessions",
+        "Scheduled At": "4 Jun 2025 01:00 PM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "920f3755-20ef-4781-9fd1-146b57031511",
     "Name": "Cedric  Vidal",
     "Company": "Microsoft",
@@ -3841,7 +3837,7 @@
     "Speaker ID": "03a546b2-ff3e-4fc5-8fe2-0c29c95f1953",
     "Name": "Kshitij  Grover",
     "Company": "Orb",
-    "Company Domain": "withorb.com",
+    "Company Domain": "orb.com",
     "Company URL": "",
     "Company Website": "",
     "Title": "CTO",
@@ -4729,7 +4725,7 @@
     "Company Domain": "cisco.com",
     "Company URL": "https://www.cisco.com/",
     "Company Website": "",
-    "Title": "Product Management Lead",
+    "Title": "Generative AI Incubation Leader",
     "TagLine": "Product Leader",
     "Bio": "With decades of experience in the tech industry, Ola is an accomplished speaker and leader in product management, specializing in the creation and scaling of ventures within emerging and disruptive domains. As a current leader in the Generative AI Incubation group at Cisco, Ola drives cutting-edge Generative AI ideas from concept to scalable and profitable businesses at startup velocity.\r\nOla's mission is to harness his cross-functional expertise and wealth of experience to drive innovation and growth in enterprise AI, Generative AI, computer vision, edge computing, and other transformative technologies that are shaping the future.",
     "X (Twitter)": "",
@@ -5251,7 +5247,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "https://aws.amazon.com",
     "Company Website": "https://aws.amazon.com",
-    "Title": "Principal Generative AI Specialist",
+    "Title": "Principal Generative AI Specialist SA",
     "TagLine": "Principal ML Services SA",
     "Bio": "Mani Khanuja is a Principal Generative AI Specialist SA, and an author of the book Applied Machine Learning and High Performance Computing on AWS. She leads machine learning projects in various domains such as computer vision, natural language processing, and generative AI. She speaks at internal and external conferences such AWS re:Invent, Women in Manufacturing West, YouTube webinars, and GHC 23. In her free time, she likes to go for long runs along the beach.",
     "X (Twitter)": "",
@@ -5310,7 +5306,7 @@
     "Company URL": "https://www.polarsignals.com/",
     "Company Website": "https://polarsignals.com",
     "Title": "Senior Software Engineer",
-    "TagLine": "Senior Software Engineer at Polar Signals",
+    "TagLine": "Director of Cloud at Polar Signals",
     "Bio": "Matthias Loibl is a Senior Software Engineer who works on cloud-native observability at Polar Signals, previously at Red Hat and Kubermatic, and is a maintainer of many projects like Prometheus, Thanos, Prometheus Operator, and Parca. He enjoys working on Distributed Systems with Go and gRPC.",
     "X (Twitter)": "https://twitter.com/metalmatze",
     "LinkedIn": "https://www.linkedin.com/in/metalmatze/",
@@ -5480,7 +5476,7 @@
     "Speaker ID": "51235b8a-7571-42c1-8cc4-43d0c268e755",
     "Name": "Manu Goyal",
     "Company": "Braintrust",
-    "Company Domain": "usebraintrust.com",
+    "Company Domain": "braintrust.com",
     "Company URL": "https://www.braintrust.dev/home",
     "Company Website": "https://www.braintrust.dev/home",
     "Title": "Founding Engineer",
@@ -5784,7 +5780,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "",
     "Company Website": "https://sproutsocial.com",
-    "Title": "VP of AI",
+    "Title": "VP of AI, Data, and Data Science",
     "TagLine": "VP of Engineering - AI",
     "Bio": "Rossella Blatt Vital is a passionate AI leader with nearly 20 years of experience turning data into business value—from hands-on research and model-building to strategic executive leadership. She began her journey with a PhD in machine learning, focusing on brain-computer interfaces and cancer detection, and spent years writing code, building models, and shipping AI-powered products before stepping into leadership roles across startups, academia, and Fortune 100 companies.\r\n\r\nAs VP of AI, Data, and Data Science at Sprout Social, Rossella leads the company’s AI transformation—driving strategy across engineering, applied science, and analytics. Her team is building AI-first capabilities across product experiences, platform infrastructure, and foundational data systems.\r\n\r\nShe’s passionate about building meaningful technology—and the teams that power it—with the belief that AI, when led with vision and integrity, can help shape a more thoughtful and human-centered future.",
     "X (Twitter)": "",
@@ -6074,7 +6070,7 @@
     "Company Domain": "harvey.ai",
     "Company URL": "https://www.harvey.ai/",
     "Company Website": "",
-    "Title": "RAG Engineer",
+    "Title": "Retrieval Augmented Generation Engineer",
     "TagLine": "Tech Lead Manager",
     "Bio": "Calvin works on Retrieval Augmented Generation at Harvey for expert use cases in Legal, Tax, and more.",
     "X (Twitter)": "https://x.com/calvincongelado",
@@ -6393,7 +6389,7 @@
     "Company Domain": "google.com",
     "Company URL": "www.google.com",
     "Company Website": "https://www.google.com",
-    "Title": "Developer Advocate",
+    "Title": "Developer",
     "TagLine": "Engineering Lead - Developer Relations @ Google DeepMind",
     "Bio": "http://webpaige.dev",
     "X (Twitter)": "https://www.twitter.com/dynamicwebpaige",
@@ -7112,13 +7108,42 @@
     ]
   },
   {
+    "Speaker ID": "3e49e3e2-aa3a-440d-8415-2326ea40283c",
+    "Name": "Lunch Learn",
+    "Company": "Braintrust",
+    "Company Domain": "usebraintrust.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "Speaker",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936935",
+        "Title": "Braintrust Lunch & Learn",
+        "Description": "",
+        "Format": "",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "Golden Gate Ballroom B: Evals",
+        "Scheduled At": "5 Jun 2025 01:00 PM"
+      }
+    ]
+  },
+  {
     "Speaker ID": "8fddc909-3278-4063-ac19-779f0afdda63",
     "Name": "Rohit Talluri",
     "Company": "Amazon Web Services (AWS)",
     "Company Domain": "gmail.com",
     "Company URL": "https://aws.amazon.com/?nc2=h_lg",
     "Company Website": "",
-    "Title": "ML Frameworks Engineer",
+    "Title": "ML Frameworks Lead",
     "TagLine": "Senior Worldwide Generative AI Specialist BD - Foundation Model Training & Inference",
     "Bio": "Amazon Web Services (AWS) Generative AI ML Frameworks, focusing on Foundation Model Training & Inference. ",
     "X (Twitter)": "",
@@ -7292,7 +7317,7 @@
     "Company Domain": "keeganmccallum.com",
     "Company URL": "",
     "Company Website": "https://lumalabs.ai",
-    "Title": "Head of ML infrastructure",
+    "Title": "Head of ML Infrastructure",
     "TagLine": "Head of ML infrastructure at Luma AI",
     "Bio": "I'm Keegan McCallum, the Head of ML infrastructure at Luma AI. I began my career in research focusing on portfolio optimization. Since then I've founded two startups, lead engineering at two others and have landed at Luma AI working on an unconventional multimodal path to AGI among a cracked team of researchers and engineers. When I'm not working, I'm usually out in the woods hiking with my family, or exploring the culinary delights in whatever city I happen to be in. I'm excited to share the insights and war stories I've gathered launching one of the most successful AI products to date in a (hopefully) fun and engaging way",
     "X (Twitter)": "",
@@ -7739,7 +7764,7 @@
     "Company URL": "https://allenai.org/",
     "Company Website": "https://allenai.org/",
     "Title": "Senior Research Scientist",
-    "TagLine": "Senior Research Scientist at Ai2 & Founder of Interconnects.ai",
+    "TagLine": "Research Lead",
     "Bio": "Nathan Lambert is a Senior Research Scientist and post-training lead at the Allen Institute for AI focusing on building open language models. At the same time he founded and operates Interconnects.ai to increase transparency and understanding of current AI models and systems.\r\n\r\nPreviously, he helped build an RLHF research team at HuggingFace. He received his PhD from the University of California, Berkeley working at the intersection of machine learning and robotics. He was advised by Professor Kristofer Pister in the Berkeley Autonomous Microsystems Lab and Roberto Calandra at Meta AI Research. He was lucky to intern at Facebook AI and DeepMind during his Ph.D. Nathan was was awarded the UC Berkeley EECS Demetri Angelakos Memorial Achievement Award for Altruism for his efforts to better community norms.",
     "X (Twitter)": "https://twitter.com/natolambert",
     "LinkedIn": "https://www.linkedin.com/in/natolambert/",
@@ -7749,8 +7774,8 @@
     "Sessions": [
       {
         "Session ID": "926721",
-        "Title": "What Reinforcement Learning with Verifiable Rewards Changed",
-        "Description": "Reinforcement learning with verifiable rewards (RLVR) came onto the field with a storm after the DeepSeek R1 model showed that training reasonable models was accessible to the entire AI industry. Next it became table stakes for high scores in math and code, but quickly it's shifting to opening the doors on new types of models entirely -- those enabling tool use, reasoning, code execution, and everything to come together to new experiences.\r\n\r\nThis talk describes how RLVR emerged in such a sudden way, what we can glean about AI research generally, and how RLVR changed the AI models we will use forever. ",
+        "Title": "A taxonomy for next-generation  reasoning models",
+        "Description": "Current AI models are extremely skilled, which was seen as the step change in evaluation scores across the industry in the first half of 2025, but often fail when presented with even medium time-horizon tasks. This talk presents a taxonomy of 4 traits of reasoning models -- skills, calibration, strategy, and abstraction -- that will be crucial to creating the next generation of AI applications.  With this, we focus on the latter two, strategy and abstraction, and discuss how these traits will enable long-horizon and reliable agents. The talk concludes with a scenario where these agentic behaviors are the foundation for RL continuing to scale in the coming years and post-training techniques reaching compute parity with pretraining methors sooner than later.",
         "Format": "Talk",
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
@@ -8057,7 +8082,7 @@
     "Company Domain": "gmail.com",
     "Company URL": "cloudflare.com",
     "Company Website": "",
-    "Title": "Product Leader",
+    "Title": "Developer Platform Lead",
     "TagLine": "vp developers & ai, cloudflare",
     "Bio": "From the very beginning, Rita has been a key figure in the development of Cloudflare's developer platform. Their initial experience as a solutions engineer, helping early enterprise customers adopt the service, gave them firsthand insight into user needs. It was the power of Cloudflare Workers that truly resonated, inspiring a vision for a serverless future. For the past eight years, they have built out the platform which now spans products including storage, compute and AI, and is used by everyone from indie millions of indie developers to Fortune 500 companies. ",
     "X (Twitter)": "https://twitter.com/ritakozlov_",
@@ -8424,6 +8449,64 @@
         "Tracks": "AI in Action",
         "Room": "Keynote/General Session (Yerba Buena 7&8)",
         "Scheduled At": "5 Jun 2025 04:55 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "ff3d3b8d-8dea-43fc-8c44-22e76e09900f",
+    "Name": "Shawn  Wang",
+    "Company": "unknown",
+    "Company Domain": "unknown",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "AI Engineer",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936046",
+        "Title": "AI Engineer World's Fair Hackathon - Grand Prize",
+        "Description": "",
+        "Format": "Keynote",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "Keynote/General Session (Yerba Buena 7&8)",
+        "Scheduled At": "5 Jun 2025 05:15 PM"
+      }
+    ]
+  },
+  {
+    "Speaker ID": "72925295-ff51-46e6-b644-961f8b13ccde",
+    "Name": "Benjamin Dunphy",
+    "Company": "World's Fair Hackathon",
+    "Company Domain": "worldsfairhackathon.com",
+    "Company URL": "",
+    "Company Website": "",
+    "Title": "AI Engineer",
+    "TagLine": "",
+    "Bio": "",
+    "X (Twitter)": "",
+    "LinkedIn": "",
+    "Blog": "",
+    "Profile Picture": "",
+    "Session Count": 1,
+    "Sessions": [
+      {
+        "Session ID": "936046",
+        "Title": "AI Engineer World's Fair Hackathon - Grand Prize",
+        "Description": "",
+        "Format": "Keynote",
+        "Level": "",
+        "Scope": "",
+        "Tracks": "",
+        "Room": "Keynote/General Session (Yerba Buena 7&8)",
+        "Scheduled At": "5 Jun 2025 05:15 PM"
       }
     ]
   }

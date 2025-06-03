@@ -271,8 +271,8 @@
   },
   {
     "Session ID": "929509",
-    "Title": "Kernels, RL, Reasoning, Reward Functions & Quantization",
-    "Description": "Discover if writing custom kernels is still worth it, explore how to do Reinforcement Learning (RL) and reward functions properly, and learn why quantization is key to local LLMs - plus tips to gain accuracy.",
+    "Title": "Advanced: Reinforcement Learning, Kernels, Reasoning, Quantization & Agents",
+    "Description": "Why is Reinforcement Learning (RL) suddenly everywhere, and is it truly effective? Have LLMs hit a plateau in terms of intelligence and capabilities, or is RL the breakthrough they need?\r\n\r\nIn this workshop, we'll dive into the fundamentals of RL, what makes a good reward function, and how RL can help create agents.\r\n\r\nWe'll also talk about kernels, are they still worth your time and what you should focus on. And finally, we’ll explore how LLMs like DeepSeek-R1 can be quantized down to 1.58-bits and still perform well, along with techniques to maintain accuracy.",
     "Session Format": "Workshop",
     "Level": "Advanced",
     "Scope": "Technical deep dive",
@@ -342,7 +342,7 @@
     "Speakers": "Dani Grant, Chelcie Taylor",
     "Companies": "Jam.dev, Notable Capital",
     "Company Domains": "jam.dev, notablecap.com",
-    "Titles": "unknown, unknown"
+    "Titles": "CEO, Investor"
   },
   {
     "Session ID": "907684",
@@ -376,8 +376,8 @@
   },
   {
     "Session ID": "916131",
-    "Title": "Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat",
-    "Description": "The Gemini Live API GA  is now powered by Google's best cost-effective thinking model Gemini 2.5 Flash. We will do a deep dive on the capabilities that the Gemini Live API combined with Pipecat unlock for devs with special focus on session management, turn detection, tool use (including async function calls), proactivity, multilinguality and integration with telephony and other infra. We will demo some of the more innovative capabilities. We will also talk through some customer use cases - especially how customers can use Pipecat to extend these realtime multimodal capabilities to client side applications such as customer support agents, gaming agents, tutoring agents etc. In addition, we also have an experimental version of the Live API powered by with Google's native audio offering that can be tried in an experimental capacity . This experimental model  can communicate with seamless, emotive, steerable, multilingual dialogue and enhances use cases where more natural voices can be a big differentiator. ",
+    "Title": "Building Voice Agents with Gemini and Pipecat",
+    "Description": "Voice AI Agents are being deployed today in a wide range of business contexts. For example:\r\n\r\n  - handling an increasing variety of call center tasks,\r\n  - collecting patient data prior to healthcare appointments,\r\n  - following up on inbound sales leads,\r\n  - coordinating scheduling and logistics between companies, and\r\n  - answering the phone for nearly every kind of small business.\r\n\r\nOn the consumer side, conversational voice (and video) AI is also starting to make its way into social applications and games. And developers are sharing innovative personal voice AI projects and experiments every day on GitHub and social media.\r\n\r\nBuilding production-ready voice agents is complicated. Many elements are non-trivial to implement from scratch.\r\n\r\nThis workshop will start with an overview of the voice AI landscape today.\r\n\r\n  - The models, APIs, and infrastructure are used for Voice AI applications that are operating at production scale. \r\n  - How to write voice agent code that achieves ultra low latency conversation and enterprise-quality reliability.\r\n  - What new models and tools are coming in the second half of 2025.\r\n\r\nThen we will shift to a hands-on format: build and deploy a voice agent.\r\n\r\nEngineers from Google and Daily will help you get set up with a starter kit repo for your intended use case, then help you extend that code to create your own, customized Voice AI application.",
     "Session Format": "Workshop",
     "Level": "Intermediate",
     "Scope": "Technical deep dive",
@@ -660,21 +660,6 @@
     "Titles": "unknown, unknown"
   },
   {
-    "Session ID": "933593",
-    "Title": "Building Voice Agents with Gemini and Pipecat",
-    "Description": "Hands-on workshop led by engineers from Google and Daily",
-    "Session Format": "Workshop",
-    "Level": "Intermediate",
-    "Scope": "Technical deep dive",
-    "Assigned Track": "",
-    "Room": "SOMA: Workshops",
-    "Scheduled At": "3 Jun 2025 03:30 PM",
-    "Speakers": "Chad Bailey, Kwindla Kramer",
-    "Companies": "unknown, Daily",
-    "Company Domains": "unknown, daily.co",
-    "Titles": "unknown, unknown"
-  },
-  {
     "Session ID": "933632",
     "Title": "Agentic Coding with Windsurf",
     "Description": "Agentic coding marks a new era in software development, where AI agents take on autonomous roles in coding tasks. The Windsurf IDE embodies this shift by integrating intelligent agents like Cascade, which maintain full codebase context to perform multi-file edits, run terminal commands, and suggest changes through tools like Supercomplete and Flows. In this session, we will explore features that allow developers to guide strategy while the AI handles execution, enhancing productivity and enabling more creative, high-level work.",
@@ -750,6 +735,21 @@
     "Titles": "unknown"
   },
   {
+    "Session ID": "947798",
+    "Title": "Prompt Engineering & AI Red Teaming",
+    "Description": "Learn from the creator of Learn Prompting, the internet's 1st Prompt Engineering guide (released 2 months before ChatGPT), and HackAPrompt, the World's 1st AI Red Teaming competition.\r\n\r\nMy talk will cover topics ranging from the history of prompt engineering to the most advanced research-backed prompt engineering techniques.\r\n\r\nI will also discuss the origins of prompt injection and AI red teaming, as well as the current state of industry and the need for agentic red teaming.\r\n\r\nFinally, we will have an interactive competition where you will be able to hone your prompt hacking skills and win prizes from swyx!\r\n\r\nhttps://www.hackaprompt.com",
+    "Session Format": "Workshop",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "SOMA: Workshops",
+    "Scheduled At": "3 Jun 2025 03:30 PM",
+    "Speakers": "Sander Schulhoff",
+    "Companies": "HackAPrompt",
+    "Company Domains": "gmail.com",
+    "Titles": "unknown"
+  },
+  {
     "Session ID": "936800",
     "Title": "Spark to System: Building the Open Agentic Web",
     "Description": "AI builders no longer ask whether to use agents—but how many and how fast. In this kickoff keynote, Microsoft’s Asha Sharma shows what happens when natural language creation meets an industrial grade backbone.  Watch live demos—to see agents move from idea to production in real time. Walk out with the commands, repos, and open protocols to build your piece of the agentic web.",
@@ -766,8 +766,8 @@
   },
   {
     "Session ID": "927324",
-    "Title": "Conviction Session",
-    "Description": "Please Fill in",
+    "Title": "State of Startups and AI 2025",
+    "Description": "tba",
     "Session Format": "Keynote",
     "Level": "Intermediate",
     "Scope": "",
@@ -942,7 +942,7 @@
     "Speakers": "Kwindla Kramer, Sean DuBois",
     "Companies": "Daily, OpenAI",
     "Company Domains": "daily.co, openai.com",
-    "Titles": "Co-founder, Engineer"
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "915992",
@@ -1024,8 +1024,8 @@
     "Title": "Bolt: The Dawn of the VibeCoder",
     "Description": "tbd",
     "Session Format": "Talk",
-    "Level": "",
-    "Scope": "",
+    "Level": "Advanced",
+    "Scope": "Case Study/War Story",
     "Assigned Track": "Tiny Teams (01)",
     "Room": "Yerba Buena Ballroom Salons 2-6: Tiny Teams",
     "Scheduled At": "4 Jun 2025 11:15 AM",
@@ -1414,7 +1414,7 @@
     "Title": "Mentoring the Machine",
     "Description": "You’d never let a swarm of fresh interns ship to prod on day one—same deal with AI agents. Mentoring the Machine dives into how acting like a tech lead (not just a user) turns those bots into real leverage. In this talk, Eric will deliver practical advice for working with AI agents in the SDLC. He'll also preview how effective use of AI agents changes the calculus of software engineering at both a micro and macro level.\r\n",
     "Session Format": "Talk",
-    "Level": "Intermediate",
+    "Level": "Introductory and overview",
     "Scope": "Technical deep dive",
     "Assigned Track": "",
     "Room": "SOMA: AI Architects",
@@ -1470,6 +1470,21 @@
     "Titles": "unknown"
   },
   {
+    "Session ID": "947995",
+    "Title": "MCP isn’t good, yet.",
+    "Description": "You’ve heard a lot about MCP, probably been given an AI mandate or two, and are trying to figure out what’s real and what’s make believe. \r\n\r\nThis session will give practical advice for how you should be thinking about MCP, the implementation pit falls, and where the speaker thinks things are going. ",
+    "Session Format": "Talk",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Yerba Buena Ballroom Salons 7-8: MCP",
+    "Scheduled At": "4 Jun 2025 12:15 PM",
+    "Speakers": "David Cramer",
+    "Companies": "Sentry",
+    "Company Domains": "sentry.io",
+    "Titles": "unknown"
+  },
+  {
     "Session ID": "933629",
     "Title": "How to trust an agent with software delivery",
     "Description": "AI-powered agents promise faster, easier software delivery, but their unpredictable behavior often makes engineers hesitant to fully trust them with critical workflows. Sam Alba, Co-founder of Dagger (and previously co-creator of Docker), explains how teams can reliably integrate agents into their delivery pipelines by shifting how they structure and manage automation.\r\n\r\nHe'll share four practical strategies learned from real-world experience:\r\n\r\n1. Treat agents as workflow participants, not isolated tools.\r\nStop using agents as disconnected scripts or IDE plugins. Treating them as first-class parts of your delivery process simplifies your architecture, reduces hidden complexity, and makes agent outcomes more predictable.\r\n\r\n2. Use many small agents instead of one big one.\r\nJust as software evolved from monoliths to microservices, software delivery benefits from smaller, specialized agents with clearly defined responsibilities. Smaller agents are easier to understand, maintain, and integrate.\r\n\r\n3. Define clear environments—the real lever for reliability.\r\nInstead of chasing perfect prompts or models, focus on clearly defining the tools, resources, and permissions around your agents. Precisely controlling their environments makes agents behave consistently and reliably.\r\n\r\n4. Design workflows for easy debugging and observability.\r\nAgents will sometimes fail unexpectedly. Sam will share simple, effective ways to build clear tracing and observability into your workflows from the start, making debugging quicker and less frustrating.\r\n\r\nYou'll leave with practical, immediately usable techniques that give you the confidence to trust AI agents in your software delivery pipelines.",
@@ -1498,21 +1513,6 @@
     "Companies": "Modal Labs",
     "Company Domains": "modal.com",
     "Titles": "unknown"
-  },
-  {
-    "Session ID": "939093",
-    "Title": "Building Agentic Applications with Heroku Managed Inference and Agents",
-    "Description": "In this workshop, you’ll learn how to use Heroku Managed Inference and Agents to build agentic applications. We’ll cover how to provision and deploy LLM models to your app, run untrusted code securely in Python, Node.js, Go, and Ruby using built-in tools, and use the Model Context Protocol (MCP) to connect tools and actions that extend your agents' capabilities.",
-    "Session Format": "Workshop",
-    "Level": "Introductory and overview",
-    "Scope": "Introductory (landscape)",
-    "Assigned Track": "",
-    "Room": "Nobhill A&B: Expo Sessions",
-    "Scheduled At": "4 Jun 2025 12:45 PM",
-    "Speakers": "Julián  Duque, Anush Dsouza",
-    "Companies": "Heroku, Heroku",
-    "Company Domains": "unknown, unknown",
-    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "944039",
@@ -1588,6 +1588,21 @@
     "Companies": "unknown",
     "Company Domains": "unknown",
     "Titles": "unknown"
+  },
+  {
+    "Session ID": "939093",
+    "Title": "Building Agentic Applications with Heroku Managed Inference and Agents",
+    "Description": "In this workshop, you’ll learn how to use Heroku Managed Inference and Agents to build agentic applications. We’ll cover how to provision and deploy LLM models to your app, run untrusted code securely in Python, Node.js, Go, and Ruby using built-in tools, and use the Model Context Protocol (MCP) to connect tools and actions that extend your agents' capabilities.",
+    "Session Format": "Workshop",
+    "Level": "Introductory and overview",
+    "Scope": "Introductory (landscape)",
+    "Assigned Track": "",
+    "Room": "Nobhill A&B: Expo Sessions",
+    "Scheduled At": "4 Jun 2025 01:00 PM",
+    "Speakers": "Julián  Duque, Anush Dsouza",
+    "Companies": "Heroku, Heroku",
+    "Company Domains": "unknown, unknown",
+    "Titles": "unknown, unknown"
   },
   {
     "Session ID": "936818",
@@ -3135,21 +3150,6 @@
     "Titles": "unknown, unknown"
   },
   {
-    "Session ID": "936935",
-    "Title": "Braintrust Lunch & Learn",
-    "Description": "",
-    "Session Format": "",
-    "Level": "",
-    "Scope": "",
-    "Assigned Track": "",
-    "Room": "Golden Gate Ballroom B: Evals",
-    "Scheduled At": "5 Jun 2025 12:45 PM",
-    "Speakers": "Lunch Learn",
-    "Companies": "unknown",
-    "Company Domains": "unknown",
-    "Titles": "unknown"
-  },
-  {
     "Session ID": "933618",
     "Title": "Conquering Agent Chaos",
     "Description": "Agent deployments can be dicey, especially at first.  This session goes over all the things that cause headache with deployments from serverless issues to networking issues - and how we fix them.",
@@ -3207,6 +3207,21 @@
     "Speakers": "Harald Kirschner",
     "Companies": "unknown",
     "Company Domains": "microsoft.com",
+    "Titles": "unknown"
+  },
+  {
+    "Session ID": "936935",
+    "Title": "Braintrust Lunch & Learn",
+    "Description": "",
+    "Session Format": "",
+    "Level": "",
+    "Scope": "",
+    "Assigned Track": "",
+    "Room": "Golden Gate Ballroom B: Evals",
+    "Scheduled At": "5 Jun 2025 01:00 PM",
+    "Speakers": "Lunch Learn",
+    "Companies": "unknown",
+    "Company Domains": "unknown",
     "Titles": "unknown"
   },
   {
@@ -3534,10 +3549,10 @@
     "Assigned Track": "AI Architects (L1)",
     "Room": "SOMA: AI Architects",
     "Scheduled At": "5 Jun 2025 02:20 PM",
-    "Speakers": "Ben Hylak, Sid Bendre",
-    "Companies": "Raindrop.ai, Oleve",
-    "Company Domains": "dawnai.com, oleve.co",
-    "Titles": "unknown, unknown"
+    "Speakers": "Ben Hylak",
+    "Companies": "Raindrop.ai",
+    "Company Domains": "dawnai.com",
+    "Titles": "unknown"
   },
   {
     "Session ID": "925912",
@@ -3556,8 +3571,8 @@
   },
   {
     "Session ID": "926721",
-    "Title": "What Reinforcement Learning with Verifiable Rewards Changed",
-    "Description": "Reinforcement learning with verifiable rewards (RLVR) came onto the field with a storm after the DeepSeek R1 model showed that training reasonable models was accessible to the entire AI industry. Next it became table stakes for high scores in math and code, but quickly it's shifting to opening the doors on new types of models entirely -- those enabling tool use, reasoning, code execution, and everything to come together to new experiences.\r\n\r\nThis talk describes how RLVR emerged in such a sudden way, what we can glean about AI research generally, and how RLVR changed the AI models we will use forever. ",
+    "Title": "A taxonomy for next-generation  reasoning models",
+    "Description": "Current AI models are extremely skilled, which was seen as the step change in evaluation scores across the industry in the first half of 2025, but often fail when presented with even medium time-horizon tasks. This talk presents a taxonomy of 4 traits of reasoning models -- skills, calibration, strategy, and abstraction -- that will be crucial to creating the next generation of AI applications.  With this, we focus on the latter two, strategy and abstraction, and discuss how these traits will enable long-horizon and reliable agents. The talk concludes with a scenario where these agentic behaviors are the foundation for RL continuing to scale in the coming years and post-training techniques reaching compute parity with pretraining methors sooner than later.",
     "Session Format": "Talk",
     "Level": "Intermediate",
     "Scope": "Introductory (landscape)",
@@ -3717,7 +3732,7 @@
     "Speakers": "Jeff Huber, Jason Liu",
     "Companies": "Chroma, 567 Studio",
     "Company Domains": "trychroma.com, jxnl.co",
-    "Titles": "unknown, unknown"
+    "Titles": "CEO, Machine Learning Engineer"
   },
   {
     "Session ID": "935969",
