@@ -199,7 +199,7 @@ const nextConfig: NextConfig = {
         },
         {
           source: '/slack',
-          destination: 'https://join.slack.com/t/aidotengineer/shared_invite/zt-36irke9v9-MawZul~zqPeR6mDqfdoleg',
+          destination: 'https://join.slack.com/t/aidotengineer/shared_invite/zt-36p7ffwpy-ltBmPb7vOSWhHzB_U3d~LQ',
         },
         {
           source: '/:path*',
