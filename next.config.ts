@@ -132,6 +132,11 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
+        source: '/ai',
+        destination: '/llms', 
+        permanent: false,
+      },
+      {
         source: '/volunteer',
         destination: 'https://docs.google.com/forms/d/e/1FAIpQLSewGzjGQ51Uv453Qa6XFI9cRz2fmqvgtTfvciuvc4xJs9I3AA/viewform', 
         permanent: false,

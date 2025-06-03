@@ -67,11 +67,11 @@ export default function ChatBot() {
       />
       <div className="text-xs text-gray-500 mt-3">
         Powered by{" "}
-        <a href="https://writer.com" target="_blank" className="text-blue-500">
+        <a href="https://writer.com" target="_blank" className="text-blue-300">
           Palmyra X5 from Writer
         </a>{" "}
         and{" "}
-        <a href="https://hashbrown.dev" target="_blank" className="text-blue-500">
+        <a href="https://hashbrown.dev" target="_blank" className="text-blue-300">
           Hashbrown
         </a>
       </div>
@@ -85,7 +85,7 @@ function ChatHeader() {
       <div>
         <h1 className="flex items-center text-sm font-semibold md:text-xl">
           <IoChatboxOutline className="mr-2" />
-          <span>World's Fair AI</span>
+          <span>AIE AI</span>
         </h1>
         <p className="hidden text-sm text-gray-500 md:block">
           Ask me about talks, speakers, or the schedule

@@ -7,7 +7,7 @@ import ChatBot from "~/components/chat/ChatBot";
 export default function LLMsPage() {
   return (
     <div className="flex flex-col items-center pb-24 bg-gray-50 min-h-screen">
-      <PageIntro title="LLMs.txt and MCP for the conference">
+      <PageIntro title="Our Official AI Engineer Chatbot, LLMs.txt and MCP">
         {/* <p className="text-lg text-gray-500">Updated: 2025-05-20</p> */}
       </PageIntro>
 
@@ -28,7 +28,7 @@ export default function LLMsPage() {
               <div className="flex flex-col gap-2">
                 <a
                   href="/llms.txt"
-                  className="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold text-lg shadow hover:bg-blue-700 transition w-full"
+                  className="inline-block px-6 py-3  mr-4 rounded-lg bg-blue-100 text-blue-800 font-semibold text-lg shadow hover:bg-blue-200 transition"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -42,7 +42,7 @@ export default function LLMsPage() {
               <div className="flex flex-col gap-2">
                 <a
                   href="/llms-full.txt"
-                  className="inline-block px-6 py-3  mr-4 rounded-lg bg-blue-100 text-blue-800 font-semibold text-lg shadow hover:bg-blue-200 transition"
+                  className="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold text-lg shadow hover:bg-blue-700 transition w-full"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -62,6 +62,9 @@ export default function LLMsPage() {
                 >
                   Official AIE MCP GitHub Repo
                 </a>
+                <div className="text-sm text-gray-500 leading-tight">
+                  MCP talks were accepted via MCP.
+                </div>
               </div>
 
               <p className="text-lg text-gray-500">
@@ -98,7 +101,14 @@ export default function LLMsPage() {
                 >
                   @pallavmac's app
                 </a>{" "}
-                (list+bookmarking).
+                (list+bookmarking) or {" "}
+                <a
+                  href="https://chatgpt.com/g/g-683e2d9ef9d08191977503c9924efd09-aie-gpt"
+                  className="underline hover:text-blue-800"
+                >
+                  @swyx's AIE GPT
+                </a>{" "}
+                (use in ChatGPT).
               </p>
             </div>
           </div>
