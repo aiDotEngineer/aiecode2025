@@ -1,5 +1,5 @@
 [
-  {
+    {
     "Speaker ID": "4c5d598d-b9fe-467a-8459-c9d83c4c8d42",
     "Name": "Allie Howe",
     "Company": "Growth Cyber",
@@ -148,35 +148,6 @@
         "Description": "AI is fundamentally reshaping software development roles and activities. While the change is obvious, understanding the actual shifts taking place on the individual developer remains challenging. \r\n\r\nIn this talk, we introduce the four AI Native Dev patterns that are currently emerging:\r\n- From producer to manager: we say what AI needs to do\r\n- From implementation to intent: we care less on the how but focus on the why\r\n- From delivery to discovery: we experiment and learn\r\n- From content creation to knowledge: capture knowhow to get better\r\n\r\nWe backup these patterns by showcasing features in tools that support these shift.\r\n\r\nThe aim of the patterns is to help grasp how to position you and your team members 's career effectively in this changing landscape.",
         "Format": "Online Talk",
         "Level": "Introductory and overview",
-        "Scope": "Introductory (landscape)",
-        "Tracks": "Online Track",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "95b2eef0-08ad-4bad-85fe-2d975f9d6774",
-    "Name": "Thabang Ledwaba",
-    "Company": "BBD",
-    "Company Domain": "gmail.com",
-    "Company URL": "www.bbdsoftware.com",
-    "Company Website": "https://bbdsoftware.com/",
-    "Title": "Engineer",
-    "TagLine": "BBD, TL , PATEL, Software and People Engineer",
-    "Bio": "An Engineer that has been in the industry for just over 10 years, with a keen interest in optimization in technology as well as developer relations with regards to training and building effective teams",
-    "X (Twitter)": "https://x.com/tl_ledwaba",
-    "LinkedIn": "https://www.linkedin.com/in/thabang-ledwaba-3478a57a/?originalSubdomain=za",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/f6c1-400o400o1-Lnszem485TczV61DBqDi7C.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "914597",
-        "Title": "Unlocking Africa’s Future: The Transformative Potential of Artificial Intelligence",
-        "Description": "As Africa stands at the crossroads of rapid population growth, urbanization, and digital transformation, Artificial Intelligence (AI) presents unprecedented opportunities to tackle some of the continent’s most pressing challenges. This presentation explores how AI can be harnessed as a tool for sustainable development—addressing issues in healthcare, agriculture, education, infrastructure, and governance.\r\n\r\nWe’ll delve into real-world applications of AI across African nations, highlight innovative local solutions, and discuss how ethical and inclusive AI development can empower communities, bridge data gaps, and foster economic growth. The session will also examine the importance of homegrown talent, policy frameworks, and cross-sector collaboration in shaping an AI-powered future tailored to Africa’s unique context.\r\n\r\nIt is time we reimagine the continent’s future through the lens of AI—one that is driven by innovation, equity, and resilience.",
-        "Format": "Online Talk",
-        "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
         "Tracks": "Online Track",
         "Room": "",
@@ -353,35 +324,6 @@
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
         "Tracks": "MCP, Online Track",
-        "Room": "",
-        "Scheduled At": ""
-      }
-    ]
-  },
-  {
-    "Speaker ID": "64940200-6b83-4a82-9216-7a68a3788d54",
-    "Name": "Windsurf Speaker",
-    "Company": "Windsurf",
-    "Company Domain": "windsurf.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Speaker",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936251",
-        "Title": "Windsurf Booth Session #2",
-        "Description": "",
-        "Format": "",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
         "Room": "",
         "Scheduled At": ""
       }
@@ -5477,64 +5419,6 @@
     ]
   },
   {
-    "Speaker ID": "2eeb60af-71b2-43dc-9100-8970239201b1",
-    "Name": "swyx .",
-    "Company": "Independent",
-    "Company Domain": "unknown",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "AI Engineer",
-    "TagLine": "Curator, smol.ai",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "https://sessionize.com/image/36df-400o400o1-NeCgbRYNYXDqszLVsPyoTi.jpg",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936006",
-        "Title": "#define AI Engineer",
-        "Description": "Greg Brockman's career and advice for AI Engineers",
-        "Format": "",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "4 Jun 2025 04:45 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "15ac58ac-feb5-45eb-9ebb-a7daf801676c",
-    "Name": "Ben Dunphy",
-    "Company": "Tollbit",
-    "Company Domain": "tollbit.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Host",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "946658",
-        "Title": "Welcome to the Tollbit Afterparty",
-        "Description": "",
-        "Format": "",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "4 Jun 2025 05:25 PM"
-      }
-    ]
-  },
-  {
     "Speaker ID": "1782748e-538e-4943-9d97-46a90338691c",
     "Name": "Logan Kilpatrick",
     "Company": "Google",
@@ -7228,35 +7112,6 @@
     ]
   },
   {
-    "Speaker ID": "3e49e3e2-aa3a-440d-8415-2326ea40283c",
-    "Name": "Lunch Learn",
-    "Company": "Braintrust",
-    "Company Domain": "usebraintrust.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Speaker",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936935",
-        "Title": "Braintrust Lunch & Learn",
-        "Description": "",
-        "Format": "",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Golden Gate Ballroom B: Evals",
-        "Scheduled At": "5 Jun 2025 12:45 PM"
-      }
-    ]
-  },
-  {
     "Speaker ID": "8fddc909-3278-4063-ac19-779f0afdda63",
     "Name": "Rohit Talluri",
     "Company": "Amazon Web Services (AWS)",
@@ -8569,64 +8424,6 @@
         "Tracks": "AI in Action",
         "Room": "Keynote/General Session (Yerba Buena 7&8)",
         "Scheduled At": "5 Jun 2025 04:55 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "ff3d3b8d-8dea-43fc-8c44-22e76e09900f",
-    "Name": "Shawn  Wang",
-    "Company": "unknown",
-    "Company Domain": "unknown",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "AI Engineer",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936046",
-        "Title": "AI Engineer World's Fair Hackathon - Grand Prize",
-        "Description": "",
-        "Format": "Keynote",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "5 Jun 2025 05:15 PM"
-      }
-    ]
-  },
-  {
-    "Speaker ID": "72925295-ff51-46e6-b644-961f8b13ccde",
-    "Name": "Benjamin Dunphy",
-    "Company": "World's Fair Hackathon",
-    "Company Domain": "worldsfairhackathon.com",
-    "Company URL": "",
-    "Company Website": "",
-    "Title": "Grand Prize Winner",
-    "TagLine": "",
-    "Bio": "",
-    "X (Twitter)": "",
-    "LinkedIn": "",
-    "Blog": "",
-    "Profile Picture": "",
-    "Session Count": 1,
-    "Sessions": [
-      {
-        "Session ID": "936046",
-        "Title": "AI Engineer World's Fair Hackathon - Grand Prize",
-        "Description": "",
-        "Format": "Keynote",
-        "Level": "",
-        "Scope": "",
-        "Tracks": "",
-        "Room": "Keynote/General Session (Yerba Buena 7&8)",
-        "Scheduled At": "5 Jun 2025 05:15 PM"
       }
     ]
   }
