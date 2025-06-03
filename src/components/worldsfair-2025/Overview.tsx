@@ -439,7 +439,7 @@ export function Overview() {
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1 bg-amber-50 p-1 rounded-sm"
               >
-                <b>Placeholder AI Engineer Social/Meetup</b> (join to indicate availability)
+                AI.Engineer Social Vibe Coding <b>(Vibes DIY)</b>
               </a>
             </li>
           </ul>
