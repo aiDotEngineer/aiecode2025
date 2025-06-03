@@ -1,15 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
-import { Session } from "~/types/session";
+import { SessionViewModel } from "~/types/session";
 
 export default function ConferenceTalk({ sessionId }: { sessionId: string }) {
-  const [session, setSession] = useState<Session | null>(null);
+  const [session, setSession] = useState<SessionViewModel | null>(null);
   const [error, setError] = useState<string | null>(null);
   const formattedDateTime = useMemo(() => {
-    if (!session?.["Scheduled At"]) {
+    if (!session?.scheduledAt) {
       return "";
     }
 
-    return new Date(session["Scheduled At"]).toLocaleString("en-US", {
+    return new Date(session.scheduledAt).toLocaleString("en-US", {
       month: "short",
       day: "numeric",
       // year: "numeric",
@@ -19,46 +19,32 @@ export default function ConferenceTalk({ sessionId }: { sessionId: string }) {
     });
   }, [session]);
   const formattedRoomName = useMemo(() => {
-    if (!session?.Room) {
+    if (!session?.room) {
       return "";
     }
 
-    if (session.Room.startsWith("Keynote/General Session")) {
+    if (session.room.startsWith("Keynote/General Session")) {
       return "General - Yerba Buena 7&8";
     }
 
-    const [room] = session.Room.split(":");
+    const [room] = session.room.split(":");
     return room;
   }, [session]);
   const formattedSessionType = useMemo(() => {
-    if (!session?.["Session Format"]) {
+    if (!session?.format) {
       return "TALK";
     }
 
-    return session["Session Format"].toUpperCase();
+    return session.format.toUpperCase();
   }, [session]);
   const formattedSpeakers = useMemo(() => {
-    const { Speakers = "", Companies = "" } = session ?? {};
+    const { speakers = [] } = session ?? {};
 
-    if (!Speakers) {
+    if (speakers.length === 0) {
       return "";
     }
 
-    const speakers = Speakers.split(",").map((speaker) => speaker.trim());
-    const companies =
-      Companies === "unknown" ? [] : Companies.split(",").map((company) => company.trim());
-
-    return speakers
-      .map((speaker, index) => {
-        const company = companies[index];
-
-        if (company) {
-          return `${speaker} from ${company}`;
-        }
-
-        return speaker;
-      })
-      .join(", ");
+    return speakers.map((speaker) => speaker.attributes.name).join(", ");
   }, [session]);
 
   useEffect(() => {
@@ -77,7 +63,7 @@ export default function ConferenceTalk({ sessionId }: { sessionId: string }) {
         }
         return res.json();
       })
-      .then((data: Session) => setSession(data))
+      .then((data: SessionViewModel) => setSession(data))
       .catch((err: Error) => {
         if (err.name === "AbortError") {
           return;
@@ -106,11 +92,11 @@ export default function ConferenceTalk({ sessionId }: { sessionId: string }) {
 
   return (
     <div className="bg-slate-800 shadow-md rounded-lg p-4 mb-4">
-      <h2 className="text-base font-bold text-gray-300 leading-tight mb-1">{session.Title}</h2>
+      <h2 className="text-base font-bold text-gray-300 leading-tight mb-1">{session.title}</h2>
       <h3 className="text-xs font-medium text-gray-400">by {formattedSpeakers}</h3>
       {/* <h3 className="text-xs font-medium text-gray-400">ID: {sessionId}</h3> */}
       <div className="border-t border-gray-700 my-2"></div>
-      <p className="text-gray-400 line-clamp-2">{session.Description}</p>
+      <p className="text-gray-400 line-clamp-2">{session.description}</p>
       <div className="border-t border-gray-700 my-2"></div>
       <div className="flex flex-row gap-2">
         <span className="inline-block px-2 py-1 text-[0.625rem] font-medium bg-blue-500 text-gray-200 rounded-sm leading-tight">
