@@ -22,7 +22,7 @@
         "Format": "Online Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Online Track",
+        "Tracks": "AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -51,7 +51,7 @@
         "Format": "Online Talk",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "Online Track",
+        "Tracks": "AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -80,7 +80,7 @@
         "Format": "Online Talk",
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Online Track",
+        "Tracks": "AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -109,7 +109,7 @@
         "Format": "Online Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Online Track",
+        "Tracks": "AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -138,7 +138,7 @@
         "Format": "Online Talk",
         "Level": "Advanced",
         "Scope": "Case Study/War Story",
-        "Tracks": "Online Track",
+        "Tracks": "AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -167,7 +167,7 @@
         "Format": "Online Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Design Engineering, Online Track",
+        "Tracks": "Design Engineering, AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -196,7 +196,7 @@
         "Format": "Online Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "Online Track",
+        "Tracks": "AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -225,7 +225,7 @@
         "Format": "Online Talk",
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Online Track",
+        "Tracks": "AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -254,7 +254,7 @@
         "Format": "Online Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "MCP, Online Track",
+        "Tracks": "MCP, AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -283,7 +283,7 @@
         "Format": "Online Talk",
         "Level": "Introductory and overview",
         "Scope": "Introductory (landscape)",
-        "Tracks": "MCP, Online Track",
+        "Tracks": "MCP, AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -341,7 +341,7 @@
         "Format": "Online Talk",
         "Level": "Advanced",
         "Scope": "Technical deep dive",
-        "Tracks": "AI in Action, Reasoning+RL, Online Track",
+        "Tracks": "AI in Action, Reasoning+RL, AI in Action",
         "Room": "",
         "Scheduled At": ""
       }
@@ -1183,7 +1183,7 @@
         "Format": "",
         "Level": "Intermediate",
         "Scope": "Technical deep dive",
-        "Tracks": "MCP, Online Track",
+        "Tracks": "MCP, AI in Action",
         "Room": "Salons 9-15: Expo Hall",
         "Scheduled At": "5 Jun 2025 01:00 PM"
       }
@@ -3954,7 +3954,7 @@
         "Format": "Online Talk",
         "Level": "Intermediate",
         "Scope": "Introductory (landscape)",
-        "Tracks": "Online Track",
+        "Tracks": "AI in Action",
         "Room": "Salons 9-15: Expo Hall",
         "Scheduled At": "4 Jun 2025 01:30 PM"
       },
