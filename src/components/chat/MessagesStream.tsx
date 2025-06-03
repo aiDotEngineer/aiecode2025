@@ -1,11 +1,8 @@
-import { useEffect, useRef } from 'react';
-import type { Message } from 'ai';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { useEffect, useRef } from "react";
+import { UiChatMessage } from "@hashbrownai/react";
+import MarkdownMessage from "./MarkdownMessage";
 
-import { MarkdownComponents } from './MarkdownComponents';
-
-export default function MessagesStream({ messages }: { messages: Message[] }) {
+export default function MessagesStream({ messages }: { messages: UiChatMessage<any>[] }) {
   const messageAreaRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -16,28 +13,16 @@ export default function MessagesStream({ messages }: { messages: Message[] }) {
   }, [messages]);
 
   return (
-    <div
-      ref={messageAreaRef}
-      className="no-scrollbar flex-1 overflow-y-scroll text-sm"
-    >
+    <div ref={messageAreaRef} className="no-scrollbar flex-1 overflow-y-scroll text-sm space-y-3">
       {messages.map((m, index) => (
         <div
           key={index}
-          className={`rounded-lg p-3 ${
-            m.role === 'user' ? 'bg-blue-900' : 'bg-slate-900'
-          }`}
+          className={`rounded-lg p-3 ${m.role === "user" ? "bg-blue-900" : "bg-slate-900"}`}
         >
           <span className="text-xs font-semibold uppercase text-gray-400">
-            {m.role === 'user' ? 'Me ' : 'Summit AI '}
+            {m.role === "user" ? "Me " : "World's Fair AI "}
           </span>
-          <Markdown
-            // @ts-expect-error remarkPlugins is not typed
-            remarkPlugins={remarkGfm}
-            components={MarkdownComponents}
-            className={'break-words'}
-          >
-            {m.content}
-          </Markdown>
+          {m.role === "user" ? <MarkdownMessage text={m.content} /> : m.ui}
         </div>
       ))}
     </div>

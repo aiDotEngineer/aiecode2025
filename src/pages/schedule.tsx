@@ -83,7 +83,14 @@ const SchedulePage: NextPage = () => {
           <div className="max-w-2xl text-md mx-auto mb-4 gap-2">
             Unofficial Views (may be out of date):
             {' '}
-              <a href="https://aie-swipe.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@noodlesoup's app</a> (Tinder-style talk discovery)  or <a href="https://worlds-fair-schedule.agpallav.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@pallavmac's app</a> (list+bookmarking). 
+              <a href="https://aie-swipe.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@noodlesoup's app</a> (Tinder-style talk discovery)  or <a href="https://worlds-fair-schedule.agpallav.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@pallavmac's app</a> (list+bookmarking)  or {" "}
+                <a
+                  href="https://chatgpt.com/g/g-683e2d9ef9d08191977503c9924efd09-aie-gpt"
+                  className="underline hover:text-blue-800"
+                >
+                  @swyx's AIE GPT
+                </a>{" "}
+                (use in ChatGPT). 
           </div>
 
           <div className="w-full h-[90vh]">
