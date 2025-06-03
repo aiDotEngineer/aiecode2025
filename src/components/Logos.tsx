@@ -1,5 +1,6 @@
 import Image, { type ImageProps } from "next/image";
 
+import plaudai from "~/images/logos/plaudai.png";
 import pydantic from "~/images/logos/pydantic.svg";
 import circle from "~/images/logos/circle.svg";
 import sierra from "~/images/logos/sierra.svg";
@@ -445,6 +446,10 @@ export const logos = defineLogos({
   ensemble: {
     name: "ensemble",
     color: ensemble
+  },
+  plaudai: {
+    name: "plaudai",
+    color: plaudai
   },
   adept: {
     name: "Adept",
