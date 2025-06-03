@@ -32,7 +32,7 @@ via a web app. Keep your responses short and concise.
   Examples:
    - eugene -> Eugene Yan
    - sam -> Sam Julien
-   - juleen -> Sam Julient
+   - juleen -> Sam Julien
    - ben h -> Ben Hylak
 
 ## Session Data
