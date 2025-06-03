@@ -423,6 +423,16 @@ export function Overview() {
               </a>
             </li>
             <li>
+              Jun 6 (Friday NOON):
+              <a
+                href="https://lu.ma/ypawiy9j"
+                target="_blank"
+                className="text-blue-700 hover:text-blue-500 mx-1 bg-amber-50 p-1 rounded-sm"
+              >
+                YogAI: Post-AIEWF Edition w/ <b>Cloudflare, Stytch, Replicate</b>
+              </a>
+            </li>
+            <li>
               Jun 6 (Friday):
               <a
                 href="https://lu.ma/3slkqscs"
