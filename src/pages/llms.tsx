@@ -91,24 +91,16 @@ export default function LLMsPage() {
                   raw JSON
                 </a>
                 ) for your own vibecoded view, like{" "}
-                <a href="https://aie-swipe.vercel.app/" className="underline hover:text-blue-800">
-                  @noodlesoup's app
-                </a>{" "}
-                (Tinder-style talk discovery) or{" "}
-                <a
-                  href="https://worlds-fair-schedule.agpallav.com/"
-                  className="underline hover:text-blue-800"
-                >
-                  @pallavmac's app
-                </a>{" "}
-                (list+bookmarking) or {" "}
-                <a
-                  href="https://chatgpt.com/g/g-683e2d9ef9d08191977503c9924efd09-aie-gpt"
-                  className="underline hover:text-blue-800"
-                >
-                  @swyx's AIE GPT
-                </a>{" "}
-                (use in ChatGPT).
+              <a href="https://aie-swipe.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@noodlesoup's app</a> (Tinder-style talk discovery) or{' '}
+              <a href="https://worlds-fair-schedule.agpallav.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">@pallavmac's app</a> (list+bookmarking) or{' '}
+              <a href="https://aiewf.shebecoding.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-800">Hebe Hillhorst's app</a> or{' '}
+              <a
+              href="https://testflight.apple.com/join/rYEaS8XA"
+              className="underline hover:text-blue-800"
+            >
+              @CedricVidal's iOS TestFlight
+            </a>{" "}
+            (<a href="https://x.com/cedricvidal/status/1930136757334618229" className="underline hover:text-blue-800">vibecoded</a>). 
               </p>
             </div>
           </div>
