@@ -141,6 +141,11 @@ const nextConfig: NextConfig = {
         destination: 'https://docs.google.com/forms/d/e/1FAIpQLSewGzjGQ51Uv453Qa6XFI9cRz2fmqvgtTfvciuvc4xJs9I3AA/viewform', 
         permanent: false,
       },
+      {
+        source: '/education',
+        destination: 'https://docs.google.com/forms/d/e/1FAIpQLSfAbhxrg3YIQgzunLEi01K0v6FiCQ59HRHRkFI9qnasCuQE9g/viewform?usp=header', 
+        permanent: false,
+      },
     ]
   },
   
