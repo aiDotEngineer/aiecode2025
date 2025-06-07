@@ -395,16 +395,6 @@ export function Overview() {
             <li>
               Jun 5:
               <a
-                href="https://lu.ma/yb8q32lp"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Hack Comedy: An AI Comedy Show
-              </a>
-            </li>
-            <li>
-              Jun 5:
-              <a
                 href="https://lu.ma/0azsbkmf"
                 target="_blank"
                 className="text-blue-700 hover:text-blue-500 mx-1"
