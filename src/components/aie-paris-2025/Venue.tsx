@@ -2,9 +2,7 @@ import Image from "next/image";
 import { PiGlobe } from "react-icons/pi";
 import { TbBuildingSkyscraper, TbMap } from "react-icons/tb";
 
-import imgVenue1 from "~/images/worldsfair-2025/hotel/venue-1.jpg";
-import imgVenue2 from "~/images/worldsfair-2025/hotel/venue-2.png";
-import imgVenue3 from "~/images/worldsfair-2025/hotel/venue-3.jpg";
+import imgVenue from "~/images/aie-paris-2025/venue.jpg";
 import { Button } from "../Button";
 
 export function VenueAndHotel() {
@@ -20,7 +18,7 @@ export function VenueAndHotel() {
             </span>
             <a
               className="flex-1 underline font-bold"
-              href="https://maps.app.goo.gl/JzxPJzbk6p9Pu7Bw8"
+              href="https://maps.app.goo.gl/tsA3TkmxKBJkrxDf9"
               target="_blank"
             >
               Map
@@ -31,11 +29,7 @@ export function VenueAndHotel() {
             <span className="text-2xl">
               <PiGlobe />
             </span>
-            <a
-              className="flex-1 underline font-bold"
-              href="https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/overview/"
-              target="_blank"
-            >
+            <a className="flex-1 underline font-bold" href="https://stationf.co/" target="_blank">
               Venue Website
             </a>
           </div>
@@ -44,21 +38,15 @@ export function VenueAndHotel() {
 
       <div className="flex gap-12 max-lg:flex-col items-center">
         <div className="lg:flex-1">
-          <Image src={imgVenue1} alt="Workshop Attendees" className="rounded-3xl" />
+          <Image src={imgVenue} alt="Workshop Attendees" className="rounded-3xl" />
         </div>
         <div className="lg:flex-1 space-y-3">
           <p className="text-gray-on-white text-base">
-            One of the largest hotels in the city, and conveniently located downtown near public
-            transportation and plenty of cafes, restaurants, bars, and sights, the Marriott Marquis
-            (780 Mission St, San Francisco, CA 94103) was our choice to host the first AI Engineer
-            World's Fair in 2024 and we are excited to return!
-          </p>
-          <p className="text-gray-on-white text-base">
-            The hotel's Yerba Buena Ballroom is the largest pillarless ballroom west of Las Vegas,
-            and will serve as a centralized, comfortable location for keynotes, breakout sessions,
-            the expo, networking, and food. One floor above is the Golden Gate Ballroom, serving as
-            a dedicated space for workshops & breakout talks. Plenty of other salons and breakout
-            rooms will serve as Expo Sessions and additional meeting space.
+            Located in Paris, Station F is the world's largest startup campus, home to more than
+            1,000 startups and a wide range of technology programs. Widely recognized as a hub for
+            AI innovation, it features dedicated accelerators and collaborative spaces designed to
+            unite leading AI startups, researchers, and industry partners—driving forward pioneering
+            projects and rapid advancements in artificial intelligence.
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ export function Sponsors() {
       <header className="space-y-6">
         <h1 className="text-6xl font-bold">Sponsors</h1>
         <p className="max-w-2xl text-gray-on-white">
-          We're carefully curat a sponsor expo & non-exhibiting sponsors who are relevant,
+          We're carefully curating a sponsor expo & non-exhibiting sponsors who are relevant,
           interesting, and pushing the boundaries of the AI Engineering ecosystem. These are the
           companies that are building & innovating with AI — from Devtools & Infra to Vector DBs &
           Open Models.
