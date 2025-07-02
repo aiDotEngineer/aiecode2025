@@ -33,7 +33,11 @@ export function Footer() {
               <Link href="/jobs" className="block text-gray-on-white text-sm">
                 Jobs
               </Link>
-              <Link href="" className="block text-gray-on-white text-sm" target="_blank">
+              <Link
+                href="https://tally.so/r/w2YAdM"
+                className="block text-gray-on-white text-sm"
+                target="_blank"
+              >
                 Sponsor Inquiry
               </Link>
             </div>

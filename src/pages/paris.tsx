@@ -77,7 +77,7 @@ function ParisHero() {
                 <Button
                   className="flex-1 text-xs md:text-base hover:bg-neutral-600/40"
                   ghost
-                  href="https://tally.so/r/w2YAdMr"
+                  href="https://tally.so/r/w2YAdM"
                   target="_blank"
                 >
                   Become a Sponsor

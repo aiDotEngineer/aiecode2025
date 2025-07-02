@@ -18,7 +18,7 @@ export function Sponsors() {
           We are currently finalizing our sponsor list. If you would like to sponsor information
           let's{" "}
           <a
-            href="https://tally.so/r/w2YAdMr"
+            href="https://tally.so/r/w2YAdM"
             target="_blank"
             className="text-blue-500 hover:text-blue-400"
           >
