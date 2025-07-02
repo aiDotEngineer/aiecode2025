@@ -26,12 +26,12 @@ export function ChoosePrimaryLayout({ children: page }: Props) {
 
   if (isParis) {
     return (
-      <>
+      <div className="text-black text-lg">
         <ParisMetaTags />
         <ParisHeader />
         {page}
         <ParisFooter />
-      </>
+      </div>
     );
   }
 

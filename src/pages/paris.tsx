@@ -8,78 +8,96 @@ import { CountUp } from "~/components/CountUp";
 import Image from "next/image";
 import imgPlaceholder from "~/images/worldsfair-2025/hero-placeholder.jpg";
 import { useRef } from "react";
+import { Logo } from "~/components/Logos";
+import { Overview } from "~/components/aie-paris-2025/Overview";
+import { VenueAndHotel } from "~/components/aie-paris-2025/Venue";
+import { Sponsors } from "~/components/aie-paris-2025/Sponsors";
+import { WhatsNext } from "~/components/aie-paris-2025/WhatsNext";
 
 // Hero Component for Paris page
 function ParisHero() {
   const videoRef = useRef<HTMLVideoElement>(null!);
 
   return (
-    <div className="py-24 relative text-white">
-      {/* overlay tint for video */}
-      <div className="bg-black/50 md:bg-black/70 absolute -z-10 top-0 bottom-0 left-0 w-full" />
+    <>
+      <div className="py-24 relative text-white">
+        {/* overlay tint for video */}
+        <div className="bg-black/50 md:bg-black/70 absolute -z-10 top-0 bottom-0 left-0 w-full" />
 
-      <Image
-        alt="Video Placeholder Image"
-        src={imgPlaceholder}
-        className="absolute -z-20 top-0 right-0 w-full h-full object-cover"
-      />
-      <video
-        ref={videoRef}
-        autoPlay
-        muted
-        loop
-        className="max-md:hidden absolute -z-20 top-0 right-0 w-full h-full object-cover"
-      >
-        <source src="aie-paris-teaser-hero-bg.mp4" type="video/mp4" />
-      </video>
+        <Image
+          alt="Video Placeholder Image"
+          src={imgPlaceholder}
+          className="absolute -z-20 top-0 right-0 w-full h-full object-cover"
+        />
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          className="max-md:hidden absolute -z-20 top-0 right-0 w-full h-full object-cover"
+        >
+          <source src="aie-paris-teaser-hero-bg.mp4" type="video/mp4" />
+        </video>
 
-      <Container>
-        <div className="space-y-12 pt-12 gap-y-6 flex flex-col">
-          <div className="m-auto">
-            {/* Object required for animated svg */}
-            <object
-              aria-label="AI Engineer Paris Logo"
-              type="image/svg+xml"
-              className="aspect-auto w-72 m-auto lg:w-96"
-              data="/aie-paris-logo.svg"
-            />
-          </div>
-          <div className="text-center m-auto max-w-4xl space-y-3">
-            <div>September 23-24 2025 • Paris</div>
-            <h1 className="text-6xl lg:-mx-4 font-bold">
-              The <span className="text-yellow-300">First</span> Edition Of AI Engineer in Paris
-            </h1>
-            <p className="mb-24">
-              Join 500+ attendees for the First AI Engineer Edition in Paris - supported by the team
-              behind the AI Engineer World’s Fair. A two-day event bringing together AI engineers,
-              CTOs, and VPs of AI to connect, learn, and shape the future of AI engineering.
-            </p>
-          </div>
-          <div className="md:w-[500px] m-auto space-y-4">
-            <div className="flex md:h-14 gap-4 md:gap-4">
-              <Button
-                className="flex-1 text-xs md:text-base"
-                invert
-                disabled
-                href="https://lu.ma/ai-engineer-paris"
-                target="_blank"
-              >
-                Get Tickets
-              </Button>
-              <span className="self-center">or</span>
-              <Button
-                className="flex-1 text-xs md:text-base hover:bg-neutral-600/40"
-                ghost
-                href="https://tally.so/r/w2YAdMr"
-                target="_blank"
-              >
-                Become a Sponsor
-              </Button>
+        <Container>
+          <div className="space-y-12 pt-12 gap-y-6 flex flex-col">
+            <div className="m-auto">
+              {/* Object required for animated svg */}
+              <object
+                aria-label="AI Engineer Paris Logo"
+                type="image/svg+xml"
+                className="aspect-auto w-72 m-auto lg:w-96"
+                data="/aie-paris-logo.svg"
+              />
+            </div>
+            <div className="text-center m-auto max-w-4xl space-y-3">
+              <div>September 23-24 2025 • Paris</div>
+              <h1 className="text-6xl lg:-mx-4 font-bold">
+                The <span className="text-yellow-300">First</span> Edition Of AI Engineer in Paris
+              </h1>
+              <p className="mb-24">
+                Join 500+ attendees for the First AI Engineer Edition in Paris - a community-driven
+                conference, inspired and supported by the team behind the AI Engineer World’s Fair.
+                A two-day event bringing together AI engineers, CTOs, and VPs of AI to connect,
+                learn, and shape the future of AI engineering.
+              </p>
+            </div>
+            <div className="md:w-[500px] m-auto space-y-4 pb-40">
+              <div className="flex md:h-14 gap-4 md:gap-4">
+                <Button
+                  className="flex-1 text-xs md:text-base"
+                  invert
+                  disabled
+                  href="https://lu.ma/ai-engineer-paris"
+                  target="_blank"
+                >
+                  Get Tickets
+                </Button>
+                <span className="self-center">or</span>
+                <Button
+                  className="flex-1 text-xs md:text-base hover:bg-neutral-600/40"
+                  ghost
+                  href="https://tally.so/r/w2YAdMr"
+                  target="_blank"
+                >
+                  Become a Sponsor
+                </Button>
+              </div>
             </div>
           </div>
+        </Container>
+      </div>
+      <div className="text-center flex flex-col items-center space-y-4 z-20 relative  -mt-40">
+        <p className="text-white">Presented By:</p>
+        <div className="flex flex-col items-center">
+          <div className="inline-flex gap-10 lg:gap-20 items-center justify-center py-10 px-20 bg-white rounded-t-3xl w-full sm:w-auto">
+            <a href="https://www.koyeb.com" target="_blank">
+              <Logo logo="koyeb" variant="black" className="w-24 lg:w-28" />
+            </a>
+          </div>
         </div>
-      </Container>
-    </div>
+      </div>
+    </>
   );
 }
 
@@ -153,6 +171,20 @@ export default function Page() {
     <>
       <ParisHero />
       <ParisStats />
+      <Section lightText className="bg-black">
+        <WhatsNext />
+      </Section>
+      <Section className="bg-stone-100" id="overview">
+        <Overview />
+      </Section>
+
+      <Section className="bg-stone-100" id="venue">
+        <VenueAndHotel />
+      </Section>
+
+      <Section id="sponsors">
+        <Sponsors />
+      </Section>
       <ParisBuyTickets />
     </>
   );

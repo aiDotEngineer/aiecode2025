@@ -226,6 +226,9 @@ import anterior from "~/images/logos/anterior.png";
 import aieParisBlack from "~/images/logos/aie-paris-black.svg";
 import aieParisWhite from "~/images/logos/aie-paris-white.svg";
 
+import koyebBlack from "~/images/logos/koyeb.svg";
+import koyebWhite from "~/images/logos/koyeb.svg";
+
 type Key = keyof typeof logos;
 
 interface LogoProps extends Omit<ImageProps, "src" | "alt"> {
@@ -1059,4 +1062,9 @@ export const logos = defineLogos({
     white: aieParisWhite,
     black: aieParisBlack,
   },
+  koyeb: {
+    name: "Koyeb",
+    black: koyebBlack,
+    white: koyebWhite,
+  }
 });
