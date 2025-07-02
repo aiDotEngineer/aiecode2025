@@ -17,6 +17,44 @@ export function Footer() {
         <div className="lg:flex lg:justify-between">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-3 whitespace-nowrap">
             <div className="space-y-4">
+              <b className="block">Content</b>
+              <Link href="/summit/2023" className="block text-gray-on-white text-sm">
+                Summit 2023
+              </Link>
+              <Link href="/worldsfair/2024" className="block text-gray-on-white text-sm">
+                World's Fair 2024
+              </Link>
+              <Link href="/summit/2025" className="block text-gray-on-white text-sm">
+                Summit 2025
+              </Link>
+            </div>
+            <div className="space-y-4">
+              <b className="block">Connect</b>
+              <Link href="/jobs" className="block text-gray-on-white text-sm">
+                Jobs
+              </Link>
+              <Link href="" className="block text-gray-on-white text-sm" target="_blank">
+                Sponsor Inquiry
+              </Link>
+            </div>
+            <div className="space-y-4">
+              <b className="block">About</b>
+              <Link href="/tos" className="block text-gray-on-white text-sm">
+                Terms of Service
+              </Link>
+              <Link href="/privacy" className="block text-gray-on-white text-sm">
+                Privacy
+              </Link>
+              <Link href="/conduct" className="block text-gray-on-white text-sm">
+                Code of Conduct
+              </Link>
+              <a
+                href="https://www.latent.space/p/ai-engineer"
+                className="block text-gray-on-white text-sm"
+                target="_blank"
+              >
+                What is an AI Engineer?
+              </a>
               <b className="block">Social</b>
               <SocialMedia
                 twitter="https://x.com/aidotengineer"
