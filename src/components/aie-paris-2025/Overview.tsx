@@ -34,12 +34,12 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ Tue, Sep 23</div>
+          <div className="text-gray-on-white text-base">/ Tue, Sep 23 4:00 - 7:00pm</div>
           <h2 className="text-3xl font-bold">Evening Expo &amp; Reception</h2>
           <p className="text-gray-on-white text-base">
-            Open to all ticketholders, the evening welcome reception takes place from 4:00 - 8:00pm
-            in the Expo. The evening welcome reception is an opportunity to mingle with other
-            attendees, speakers & sponsors over food and drinks.
+            Meet with the top engineers and founders in the industry. Join your fellow attendees plus speakers 
+            and expo partners for an evening social filled with live demos, networking, and good vibes!
+            Food and drinks provided.
           </p>
         </div>
       </div>
@@ -57,10 +57,10 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ Wed, Sep 24</div>
-          <h2 className="text-3xl font-bold">Conference Days</h2>
+          <div className="text-gray-on-white text-base">/ Wed, Sep 24 8:00am - 6:00pm</div>
+          <h2 className="text-3xl font-bold">Conference Day</h2>
           <p className="text-gray-on-white text-base">
-            A full day of talks and workshops with inspiring and revealing keynotes from the biggest
+            We've curated a full day of talks and workshops with inspiring and revealing keynotes from the biggest
             and most consequential companies, founders, & engineers in the industry.
           </p>
           <p className="text-gray-on-white text-base">
@@ -84,11 +84,11 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ Wed, Sep 24</div>
+          <div className="text-gray-on-white text-base">/ Wed, Sep 24, 6:00 - 10:00pm</div>
           <h2 className="text-3xl font-bold">Afterparty in the Expo</h2>
           <p className="text-gray-on-white text-base">
-            The afterparty is a chance to unwind and connect with other attendees and speakers. It
-            will be held in the Expo from 6:00 - 10:00pm.
+            Reflect and the day's talks and discuss with your peers, speakers, and sponsors.
+            Releax and unwind with food and drinks provided!
           </p>
         </div>
       </div>
