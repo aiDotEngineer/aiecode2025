@@ -57,7 +57,7 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ Wed, Sep 24 8:00am - 5:00pm</div>
+          <div className="text-gray-on-white text-base">/ Wed, Sep 24 8:00am - 6:00pm</div>
           <h2 className="text-3xl font-bold">Conference Day</h2>
           <p className="text-gray-on-white text-base">
             We've curated a full day of talks and workshops with inspiring and revealing keynotes from the biggest
@@ -84,11 +84,11 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ Wed, Sep 24</div>
+          <div className="text-gray-on-white text-base">/ Wed, Sep 24, 6:00 - 10:00pm</div>
           <h2 className="text-3xl font-bold">Afterparty in the Expo</h2>
           <p className="text-gray-on-white text-base">
-            The afterparty is a chance to unwind and connect with other attendees and speakers. It
-            will be held in the Expo from 7:00 - 10:00pm.
+            Reflect and the day's talks and discuss with your peers, speakers, and sponsors.
+            Releax and unwind with food and drinks provided!
           </p>
         </div>
       </div>
