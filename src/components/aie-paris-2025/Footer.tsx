@@ -43,14 +43,8 @@ export function Footer() {
             </div>
             <div className="space-y-4">
               <b className="block">About</b>
-              <Link href="/tos" className="block text-gray-on-white text-sm">
-                Terms of Service
-              </Link>
               <Link href="/privacy" className="block text-gray-on-white text-sm">
                 Privacy
-              </Link>
-              <Link href="/conduct" className="block text-gray-on-white text-sm">
-                Code of Conduct
               </Link>
               <a
                 href="https://www.latent.space/p/ai-engineer"
