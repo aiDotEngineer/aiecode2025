@@ -37,7 +37,7 @@ export function Overview() {
           <div className="text-gray-on-white text-base">/ Tue, Sep 23</div>
           <h2 className="text-3xl font-bold">Evening Expo &amp; Reception</h2>
           <p className="text-gray-on-white text-base">
-            Open to all ticketholders, the evening welcome reception takes place from 4:00 - 7:00pm
+            Open to all ticketholders, the evening welcome reception takes place from 4:00 - 8:00pm
             in the Expo. The evening welcome reception is an opportunity to mingle with other
             attendees, speakers & sponsors over food and drinks.
           </p>
@@ -88,7 +88,7 @@ export function Overview() {
           <h2 className="text-3xl font-bold">Afterparty in the Expo</h2>
           <p className="text-gray-on-white text-base">
             The afterparty is a chance to unwind and connect with other attendees and speakers. It
-            will be held in the Expo from 7:00 - 10:00pm.
+            will be held in the Expo from 6:00 - 10:00pm.
           </p>
         </div>
       </div>
