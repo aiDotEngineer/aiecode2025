@@ -78,13 +78,28 @@ function WhatsNextCard({ icon, title, text, background }: Props) {
   // is 1 line of text in one viewport might be 2 lines when the viewport
   // changes (which is also why we always do 5em)
   return (
-    <div className="group relative rounded-3xl h-72 overflow-hidden p-6 flex flex-col justify-end">
+    <div className="group relative rounded-3xl h-72 overflow-hidden flex flex-col justify-end">
       <Image alt={title} src={background} className="absolute inset-0 h-72 object-cover" />
       <div className="absolute left-0 right-0 top-0 h-[200%] bg-linear-to-t from-black/90 to-black/20 -translate-y-1/2 group-hover:translate-y-0 transition duration-300" />
-      <div className="space-y-3 translate-y-[calc(100%-6em)] group-hover:translate-y-0 transition duration-300 ease-in-out">
-        <Image src={icon} alt="" aria-hidden></Image>
-        <div className="font-bold text-sm">{title}</div>
-        <p className="text-xs opacity-0 group-hover:opacity-100 transition duration-300">{text}</p>
+      <div className="w-full translate-y-[calc(100%-6em)] group-hover:translate-y-0 transition duration-300 ease-in-out relative">
+        {/* Gradient overlay on hover, behind title and text, no padding */}
+        <div
+          className="
+            absolute inset-0 w-full
+            bg-gradient-to-t from-black/70 to-transparent
+            opacity-0 group-hover:opacity-100
+            transition-opacity duration-300
+            pointer-events-none
+            z-0
+          "
+        />
+        <div className="space-y-3 relative z-10 p-6 w-full">
+          <Image src={icon} alt="" aria-hidden />
+          <div className="font-bold text-sm">{title}</div>
+          <p className="text-xs opacity-0 group-hover:opacity-100 transition duration-300">
+            {text}
+          </p>
+        </div>
       </div>
     </div>
   );
