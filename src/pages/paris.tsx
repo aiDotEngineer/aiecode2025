@@ -58,8 +58,8 @@ function ParisHero() {
               <p className="mb-24">
                 Join 500+ attendees for the First AI Engineer Edition in Paris - a community-driven
                 conference, inspired and supported by the team behind the AI Engineer World’s Fair.
-                A two-day event bringing together AI engineers, CTOs, and VPs of AI to connect,
-                learn, and shape the future of AI engineering.
+                This two-day event brings together AI engineers, CTOs, and VPs of AI to connect,
+                learn, and engineer the future of AI. 
               </p>
             </div>
             <div className="md:w-[500px] m-auto space-y-4 pb-40">
@@ -88,7 +88,7 @@ function ParisHero() {
         </Container>
       </div>
       <div className="text-center flex flex-col items-center space-y-4 z-20 relative  -mt-40">
-        <p className="text-white">Presented By:</p>
+        <p className="text-white">Organized By:</p>
         <div className="flex flex-col items-center">
           <div className="inline-flex gap-10 lg:gap-20 items-center justify-center py-10 px-20 bg-white rounded-t-3xl w-full sm:w-auto">
             <a href="https://www.koyeb.com" target="_blank">

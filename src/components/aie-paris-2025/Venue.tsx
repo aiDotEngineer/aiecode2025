@@ -42,7 +42,7 @@ export function VenueAndHotel() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <p className="text-gray-on-white text-base">
-            Located in Paris, Station F is the world's largest startup campus, home to more than
+            Station F is the world's largest startup campus, home to more than
             1,000 startups and a wide range of technology programs. Widely recognized as a hub for
             AI innovation, it features dedicated accelerators and collaborative spaces designed to
             unite leading AI startups, researchers, and industry partners—driving forward pioneering
