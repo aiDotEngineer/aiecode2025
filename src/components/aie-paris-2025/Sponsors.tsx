@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Sponsors() {
   return (
     <div className="space-y-12">
@@ -25,13 +27,13 @@ export function Sponsors() {
         </p>
         <p className="text-gray-600">
           You can view our previous supporters at:{" "}
-          <a href="/" className="text-blue-500 hover:text-blue-400">
+          <Link href="/" className="text-blue-500 hover:text-blue-400">
             World's Fair 2025
-          </a>{" "}
+          </Link>{" "}
           and{" "}
-          <a href="/summit/2025" className="text-blue-500 hover:text-blue-400">
+          <Link href="/summit/2025" className="text-blue-500 hover:text-blue-400">
             Summit 2025
-          </a>
+          </Link>
         </p>
       </div>
     </div>
