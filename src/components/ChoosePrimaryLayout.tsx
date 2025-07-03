@@ -5,6 +5,9 @@ import { usePathname } from "next/navigation";
 import { Footer as WorldsFair2025Footer } from "~/components/worldsfair-2025/Footer";
 import { Header as WorldsFair2025Header } from "~/components/worldsfair-2025/Header";
 import { MetaTags as WorldsFair2025MetaTags } from "~/components/worldsfair-2025/MetaTags";
+import { MetaTags as ParisMetaTags } from "~/components/aie-paris-2025/MetaTags";
+import { Header as ParisHeader } from "~/components/aie-paris-2025/Header";
+import { Footer as ParisFooter } from "~/components/aie-paris-2025/Footer";
 // import { AuthProvider } from "./AuthContext";
 
 type Props = {
@@ -18,6 +21,19 @@ const EventContext = React.createContext<any>(null!);
 export function ChoosePrimaryLayout({ children: page }: Props) {
   // Pathname as key closes menu when URL changes
   const pathname = usePathname();
+
+  const isParis = pathname === "/paris";
+
+  if (isParis) {
+    return (
+      <div className="text-black text-lg">
+        <ParisMetaTags />
+        <ParisHeader />
+        {page}
+        <ParisFooter />
+      </div>
+    );
+  }
 
   return (
     // <AuthProvider>
