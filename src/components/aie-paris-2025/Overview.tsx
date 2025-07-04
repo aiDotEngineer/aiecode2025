@@ -35,11 +35,10 @@ export function Overview() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <div className="text-gray-on-white text-base">/ Tue, Sep 23 4:00 - 8:00pm</div>
-          <h2 className="text-3xl font-bold">Evening Expo &amp; Reception</h2>
+          <h2 className="text-3xl font-bold">Conference opener</h2>
           <p className="text-gray-on-white text-base">
-            Meet with the top engineers and founders in the industry. Join your fellow attendees
-            plus speakers and expo partners for an evening social filled with live demos,
-            networking, and good vibes! Food and drinks provided.
+            Join us for an evening of opening keynotes, expo, and welcome reception vibes! 
+            Meet & chat with the top engineers and founders in the industry. Food and drinks provided.
           </p>
         </div>
       </div>
