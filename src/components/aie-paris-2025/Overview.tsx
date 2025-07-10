@@ -84,7 +84,7 @@ export function Overview() {
           />
         </div>
         <div className="lg:flex-1 space-y-3">
-          <div className="text-gray-on-white text-base">/ Wed, Sep 24, 6:00 - 11:00pm</div>
+          <div className="text-gray-on-white text-base">/ Wed, Sep 24, 6:00 - 10:00pm</div>
           <h2 className="text-3xl font-bold">Afterparty in the Expo</h2>
           <p className="text-gray-on-white text-base">
             Reflect and the day's talks and discuss with your peers, speakers, and sponsors. Releax
