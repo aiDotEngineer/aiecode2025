@@ -37,8 +37,8 @@ export function Overview() {
           <div className="text-gray-on-white text-base">/ Tue, Sep 23 4:00 - 8:00pm</div>
           <h2 className="text-3xl font-bold">Conference opener</h2>
           <p className="text-gray-on-white text-base">
-            Join us for an evening of opening keynotes, expo, and welcome reception vibes! 
-            Meet & chat with the top engineers and founders in the industry. Food and drinks provided.
+            Join us for an evening of opening keynotes, expo, and welcome reception vibes! Meet &
+            chat with the top engineers and founders in the industry. Food and drinks provided.
           </p>
         </div>
       </div>
@@ -91,6 +91,18 @@ export function Overview() {
             and unwind with food and drinks provided!
           </p>
         </div>
+      </div>
+
+      <div className="text-center space-y-6 p-8 bg-stone-200 rounded-2xl">
+        <p className="text-gray-600">
+          The speakers are still being finalized - talks are yet to be announced!{" "}
+          <a
+            href="https://sessionize.com/ai-engineer-paris/"
+            className="text-blue-500 hover:text-blue-400"
+          >
+            Apply to speak here
+          </a>
+        </p>
       </div>
     </div>
   );
