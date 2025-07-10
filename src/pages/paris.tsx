@@ -56,10 +56,10 @@ function ParisHero() {
                 The <span className="text-yellow-300">First</span> Edition Of AI Engineer in Paris
               </h1>
               <p className="mb-24">
-                Join 500+ attendees for the First AI Engineer Edition in Paris - a community-driven
+                Join 700+ attendees for the First AI Engineer Edition in Paris - a community-driven
                 conference, inspired and supported by the team behind the AI Engineer World’s Fair.
                 This two-day event brings together AI engineers, CTOs, and VPs of AI to connect,
-                learn, and engineer the future of AI. 
+                learn, and engineer the future of AI.
               </p>
             </div>
             <div className="md:w-[500px] m-auto space-y-4 pb-40">
@@ -105,7 +105,7 @@ function ParisHero() {
 function ParisStats() {
   const stats = [
     {
-      value: 500,
+      value: 700,
       label: "Founders, VPs of AI & AI Engineers",
       startValue: 100,
     },

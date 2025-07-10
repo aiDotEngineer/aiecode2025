@@ -43,6 +43,13 @@ export function Footer() {
               >
                 Sponsor Inquiry
               </Link>
+              <a
+                href="https://sessionize.com/ai-engineer-paris/"
+                className="block text-gray-on-white text-sm"
+                target="_blank"
+              >
+                Call for Papers
+              </a>
             </div>
             <div className="space-y-4">
               <b className="block">About</b>
