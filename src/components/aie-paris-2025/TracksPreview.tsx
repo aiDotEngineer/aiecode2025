@@ -28,7 +28,6 @@ export function TracksPreview() {
           </a>
           !
         </p>
-        g
       </header>
     </div>
   );
