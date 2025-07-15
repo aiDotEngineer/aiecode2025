@@ -8,10 +8,10 @@ export function TracksPreview() {
           <b>Schedule and Speakers</b>
         </h1>
         <p className="max-w-xl m-auto text-gray-on-black text-justify mb-12">
-          AI Engineer Paris is a single-track event featuring a curated lineup of breakout workshops
-          and technical talks. Over two days, top AI engineers will gather to give practical talks
-          on open-source models, AI agent workflows, high-performance inference, and the latest
-          trends in AI engineering.
+          AI Engineer Paris is a single-track event featuring a curated lineup of technical talks
+          and breakout workshops. Over two days, top AI engineers will gather to give practical
+          talks on open-source models, AI agent workflows, high-performance inference, and the
+          latest trends in AI engineering.
         </p>
 
         <p>
