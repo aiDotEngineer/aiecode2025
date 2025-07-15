@@ -13,7 +13,6 @@ export function TracksPreview() {
           talks on open-source models, AI agent workflows, high-performance inference, and the
           latest trends in AI engineering.
         </p>
-
         <p>
           <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
             IMPORTANT
@@ -22,12 +21,14 @@ export function TracksPreview() {
           <br />
           <a
             href="https://sessionize.com/ai-engineer-paris/"
+            target="_blank"
             className="text-blue-300 font-bold hover:text-blue-100"
           >
             Apply to speak here
           </a>
           !
         </p>
+        g
       </header>
     </div>
   );
