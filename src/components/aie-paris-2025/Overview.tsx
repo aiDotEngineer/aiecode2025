@@ -92,18 +92,6 @@ export function Overview() {
           </p>
         </div>
       </div>
-
-      <div className="text-center space-y-6 p-8 bg-stone-200 rounded-2xl">
-        <p className="text-gray-600">
-          The speakers are still being finalized - talks are yet to be announced!{" "}
-          <a
-            href="https://sessionize.com/ai-engineer-paris/"
-            className="text-blue-500 hover:text-blue-400"
-          >
-            Apply to speak here
-          </a>
-        </p>
-      </div>
     </div>
   );
 }
