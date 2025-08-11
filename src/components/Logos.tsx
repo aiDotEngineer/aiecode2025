@@ -229,6 +229,18 @@ import aieParisWhite from "~/images/logos/aie-paris-white.svg";
 import koyebBlack from "~/images/logos/koyeb.svg";
 import koyebWhite from "~/images/logos/koyeb.svg";
 
+import docker from "~/images/logos/docker.svg";
+import deepmind from "~/images/logos/deepmind.svg";
+import vultrWhite from "~/images/logos/vultr-white.svg";
+import vultrBlack from "~/images/logos/vultr-black.svg";
+import tailscale from "~/images/logos/tailscale.svg"
+import tesslBlack from "~/images/logos/tessl-black.svg";
+import tesslWhite from "~/images/logos/tessl-white.svg";
+import orqai from "~/images/logos/orqai.svg";
+import lago from "~/images/logos/lago.png";
+import midio from "~/images/logos/midio.svg";
+import castai from "~/images/logos/castai.svg";
+
 type Key = keyof typeof logos;
 
 interface LogoProps extends Omit<ImageProps, "src" | "alt"> {
@@ -1066,5 +1078,43 @@ export const logos = defineLogos({
     name: "Koyeb",
     black: koyebBlack,
     white: koyebWhite,
-  }
+  },
+  docker: {
+    name: "Docker",
+    color: docker,
+  },
+  deepmind: {
+    name: "Deepmind",
+    color: deepmind,
+  },
+  vultr: {
+    name: "Vultr",
+    white: vultrWhite,
+    black: vultrBlack,
+  },
+  tailscale: {
+    name: "Tailscale",
+    color: tailscale,
+  },
+  tessl: {
+    name: "Tessl",
+    black: tesslBlack,
+    white: tesslWhite,
+  },
+  orqai: {
+    name: "Orqai",
+    color: orqai,
+  },
+  lago: {
+    name: "Lago",
+    color: lago,
+  },
+  midio: {
+    name: "Midio",
+    color: midio,
+  },
+  castai: {
+    name: "Castai",
+    color: castai,
+  },
 });

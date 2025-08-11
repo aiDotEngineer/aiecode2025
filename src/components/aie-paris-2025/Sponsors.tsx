@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "../Logos";
 
 export function Sponsors() {
   return (
@@ -13,10 +14,191 @@ export function Sponsors() {
         </p>
       </header>
 
+      <div className="uppercase font-bold text-gray-on-white max-md:text-center">
+        Platinum Sponsors
+      </div>
+      <div className="flex gap-12 max-md:flex-col">
+        <div className="md:flex-1 max-md:text-center">
+          <a href="https://neo4j.com" target="_blank" className="inline-block">
+            <Logo
+              logo="neo4j"
+              className="inline-block h-20 w-72 md:h-32 md:w-full object-contain"
+            />
+          </a>
+        </div>
+        <div className="md:flex-1 text-gray-on-white">
+          Neo4j, the Graph Database & Analytics leader, helps organizations find hidden
+          relationships and patterns across billions of data connections deeply, easily, and
+          quickly. Customers leverage the structure of their connected data to reveal new ways of
+          solving their most pressing business problems, with Neo4j’s full graph stack and a vibrant
+          community of developers, data scientists, and architects across hundreds of Fortune 500
+          companies. Visit neo4j.com.
+        </div>
+      </div>
+      <div className="flex gap-12 max-md:flex-col">
+        <div className="md:flex-1 max-md:text-center">
+          <a href="https://www.docker.com/" target="_blank" className="inline-block">
+            <Logo
+              logo="docker"
+              className="inline-block h-20 w-72 md:h-26 md:w-full object-contain"
+            />
+          </a>
+        </div>
+        <div className="md:flex-1 text-gray-on-white">
+          Docker simplifies deploying and scaling AI models with isolated, portable containers.{" "}
+        </div>
+      </div>
+
+      <div className="space-y-0 text-center">
+        <div className="uppercase font-bold text-gray-on-white">Gold Sponsors</div>
+
+        <div className="grid grid-cols-1 md:grid-cols-4 md:gap-x-16 my-16 text-center place-items-center">
+          <a href="https://sentry.io" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="sentry"
+              variant="black"
+              className="inline-block h-20 w-32 md:h-32 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://arize.com" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="arize"
+              className="inline-block h-20 w-48 md:h-32 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://vultr.com" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="vultr"
+              variant="black"
+              className="inline-block h-20 w-48 md:h-32 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://deepmind.google" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="deepmind"
+              // variant="black"
+              className="inline-block h-20 w-48 md:h-32 md:w-44 object-contain mx-6"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div className="space-y-6 text-center">
+        <div className="uppercase font-bold text-gray-on-white">Silver Sponsors</div>
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 my-16 text-center place-items-center">
+          <a href="https://elastic.co" target="_blank" className="inline-block">
+            <Logo
+              logo="elastic"
+              className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://tessl.io" target="_blank" className="inline-block">
+            <Logo
+              logo="tessl"
+              variant="black"
+              className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://daytona.io" target="_blank" className="inline-block">
+            <Logo
+              logo="daytona"
+              variant="black"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://datadoghq.com" target="_blank" className="inline-block">
+            <Logo
+              logo="datadog"
+              className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
+            />
+          </a>
+          <a href="https://graphite.dev" target="_blank" className="inline-block">
+            <Logo
+              logo="graphite"
+              variant="black"
+              className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
+            />
+          </a>
+          <a href="https://orqai.com" target="_blank" className="inline-block">
+            <Logo
+              logo="orqai"
+              className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
+            />
+          </a>
+        </div>
+      </div>
+      <div className="space-y-6 text-center">
+        <div className="uppercase font-bold text-gray-on-white">Bronze Sponsors</div>
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 my-16 text-center place-items-center">
+          <a href="https://allhands.ai" target="_blank" className="inline-block">
+            <Logo
+              logo="allhands"
+              className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://tailscale.com" target="_blank" className="inline-block">
+            <Logo
+              logo="tailscale"
+              className="inline-block h-12 w-32 md:h-28 md:w-54 object-contain mx-6"
+            />
+          </a>
+          <a href="https://apify.com" target="_blank" className="inline-block">
+            <Logo
+              logo="apify"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://getlago.com" target="_blank" className="inline-block">
+            <Logo
+              logo="lago"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://vellum.ai" target="_blank" className="inline-block">
+            <Logo
+              logo="vellum"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://midio.com" target="_blank" className="inline-block">
+            <Logo
+              logo="midio"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://cast.ai" target="_blank" className="inline-block">
+            <Logo
+              logo="castai"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+        </div>
+      </div>
+      {/* 
+      <div className="space-y-6 text-center">
+        <div className="uppercase font-bold text-gray-on-white">Supporters</div>
+        <a href="https://datadoghq.com" target="_blank" className="inline-block">
+          <Logo
+            logo="datadog"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+        <a href="https://gitpod.io" target="_blank" className="inline-block">
+          <Logo
+            logo="gitpod"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+        </a>
+      </div> */}
+
       <div className="text-center space-y-6 p-8 bg-stone-200 rounded-2xl">
+        <p className="text-xl">
+          <span className="uppercase font-mono bg-red-600 p-1 rounded-sm text-yellow-100">
+            Expo slots sold out. Other sponsorships CLOSING SOON
+          </span>
+        </p>
         <p className="text-gray-600">
-          We are currently finalizing our sponsor list. If you would like to sponsor information
-          let's{" "}
+          To learn more about available sponsorship opportunities for AI Engineer Paris 2025, let's{" "}
           <a
             href="https://tally.so/r/w2YAdM"
             target="_blank"
