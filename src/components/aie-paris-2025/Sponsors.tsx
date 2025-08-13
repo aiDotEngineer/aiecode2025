@@ -50,7 +50,7 @@ export function Sponsors() {
       <div className="space-y-0 text-center">
         <div className="uppercase font-bold text-gray-on-white">Gold Sponsors</div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 md:gap-x-16 my-16 text-center place-items-center">
+        <div className="grid grid-cols-1 gap-y-4 md:gap-y-0 md:grid-cols-4 md:gap-x-16 my-16 text-center place-items-center">
           <a href="https://sentry.io" target="_blank" className=" flex-1 inline-block">
             <Logo
               logo="sentry"
@@ -83,7 +83,7 @@ export function Sponsors() {
 
       <div className="space-y-6 text-center">
         <div className="uppercase font-bold text-gray-on-white">Silver Sponsors</div>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 my-16 text-center place-items-center">
+        <div className="grid grid-cols-1 gap-y-4 md:gap-y-0 md:grid-cols-3 md:gap-x-16 my-16 text-center place-items-center">
           <a href="https://elastic.co" target="_blank" className="inline-block">
             <Logo
               logo="elastic"
@@ -127,7 +127,7 @@ export function Sponsors() {
       </div>
       <div className="space-y-6 text-center">
         <div className="uppercase font-bold text-gray-on-white">Bronze Sponsors</div>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 my-16 text-center place-items-center">
+        <div className="grid grid-cols-1 gap-y-4 md:gap-y-0 md:grid-cols-3 md:gap-x-16 my-16 text-center place-items-center">
           <a href="https://www.all-hands.dev/" target="_blank" className="inline-block">
             <Logo
               logo="openhands"
