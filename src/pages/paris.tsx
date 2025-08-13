@@ -14,6 +14,7 @@ import { VenueAndHotel } from "~/components/aie-paris-2025/Venue";
 import { Sponsors } from "~/components/aie-paris-2025/Sponsors";
 import { WhatsNext } from "~/components/aie-paris-2025/WhatsNext";
 import { TracksPreview } from "~/components/aie-paris-2025/TracksPreview";
+import { Expo } from "~/components/aie-paris-2025/Expo";
 
 // Hero Component for Paris page
 function ParisHero() {
@@ -175,17 +176,18 @@ export default function Page() {
       <Section lightText className="bg-black">
         <WhatsNext />
       </Section>
+      <Section>
+        <Expo />
+      </Section>
       <Section className="bg-stone-100" id="overview">
         <Overview />
       </Section>
       <Section lightText className="bg-black">
         <TracksPreview />
       </Section>
-
       <Section className="bg-stone-100" id="venue">
         <VenueAndHotel />
       </Section>
-
       <Section id="sponsors">
         <Sponsors />
       </Section>
