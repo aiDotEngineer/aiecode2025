@@ -44,9 +44,7 @@ export function Sponsors() {
             />
           </a>
         </div>
-        <div className="md:flex-1 text-gray-on-white">
-          Docker simplifies deploying and scaling AI models with isolated, portable containers.{" "}
-        </div>
+        <div className="md:flex-1 text-gray-on-white"></div>
       </div>
 
       <div className="space-y-0 text-center">
@@ -57,27 +55,27 @@ export function Sponsors() {
             <Logo
               logo="sentry"
               variant="black"
-              className="inline-block h-20 w-32 md:h-32 md:w-44 object-contain mx-6"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
             />
           </a>
           <a href="https://arize.com" target="_blank" className=" flex-1 inline-block">
             <Logo
               logo="arize"
-              className="inline-block h-20 w-48 md:h-32 md:w-44 object-contain mx-6"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
             />
           </a>
           <a href="https://vultr.com" target="_blank" className=" flex-1 inline-block">
             <Logo
               logo="vultr"
               variant="black"
-              className="inline-block h-20 w-48 md:h-32 md:w-44 object-contain mx-6"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
             />
           </a>
           <a href="https://deepmind.google" target="_blank" className=" flex-1 inline-block">
             <Logo
               logo="deepmind"
               // variant="black"
-              className="inline-block h-20 w-48 md:h-32 md:w-44 object-contain mx-6"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
             />
           </a>
         </div>
@@ -103,26 +101,26 @@ export function Sponsors() {
             <Logo
               logo="daytona"
               variant="black"
-              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+              className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
             />
           </a>
           <a href="https://datadoghq.com" target="_blank" className="inline-block">
             <Logo
               logo="datadog"
-              className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
+              className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
             />
           </a>
           <a href="https://graphite.dev" target="_blank" className="inline-block">
             <Logo
               logo="graphite"
               variant="black"
-              className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
+              className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
             />
           </a>
           <a href="https://orqai.com" target="_blank" className="inline-block">
             <Logo
               logo="orqai"
-              className="inline-block h-12 w-30 md:h-20 md:w-42 object-contain mx-6"
+              className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
             />
           </a>
         </div>
@@ -130,34 +128,34 @@ export function Sponsors() {
       <div className="space-y-6 text-center">
         <div className="uppercase font-bold text-gray-on-white">Bronze Sponsors</div>
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 my-16 text-center place-items-center">
-          <a href="https://allhands.ai" target="_blank" className="inline-block">
+          <a href="https://www.all-hands.dev/" target="_blank" className="inline-block">
             <Logo
-              logo="allhands"
-              className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+              logo="openhands"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
             />
           </a>
           <a href="https://tailscale.com" target="_blank" className="inline-block">
             <Logo
               logo="tailscale"
-              className="inline-block h-12 w-32 md:h-28 md:w-54 object-contain mx-6"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
             />
           </a>
           <a href="https://apify.com" target="_blank" className="inline-block">
             <Logo
               logo="apify"
-              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6 scale-75"
             />
           </a>
           <a href="https://getlago.com" target="_blank" className="inline-block">
             <Logo
               logo="lago"
-              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6 scale-75"
             />
           </a>
           <a href="https://vellum.ai" target="_blank" className="inline-block">
             <Logo
               logo="vellum"
-              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6 scale-75"
             />
           </a>
           <a href="https://midio.com" target="_blank" className="inline-block">
@@ -170,6 +168,18 @@ export function Sponsors() {
             <Logo
               logo="castai"
               className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://www.descope.com" target="_blank" className="inline-block">
+            <Logo
+              logo="descope"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6"
+            />
+          </a>
+          <a href="https://alpic.ai" target="_blank" className="inline-block">
+            <Logo
+              logo="alpic"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6 scale-70"
             />
           </a>
         </div>

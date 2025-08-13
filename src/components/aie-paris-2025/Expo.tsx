@@ -24,7 +24,7 @@ export function Expo() {
       </header>
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 items-center justify-items-center gap-x-8 gap-y-10">
-        <a href="https://azure.microsoft.com/en-us/solutions/ai" target="_blank">
+        <a href="https://neo4j.com" target="_blank">
           <Logo logo="neo4j" className="object-contain" />
         </a>
         <a href="https://docker.com" target="_blank">
@@ -57,11 +57,11 @@ export function Expo() {
         <a href="https://graphite.dev" target="_blank">
           <Logo logo="graphite" variant="black" className="object-contain" />
         </a>
-        <a href="https://orqai.com" target="_blank">
+        <a href="https://orq.ai" target="_blank">
           <Logo logo="orqai" className="object-contain" />
         </a>
-        <a href="https://allhands.ai" target="_blank">
-          <Logo logo="allhands" className="object-contain m-auto w-[60%]" />
+        <a href="https://www.all-hands.dev" target="_blank">
+          <Logo logo="openhands" className="object-contain" />
         </a>
         <a href="https://tailscale.com" target="_blank">
           <Logo logo="tailscale" className="object-contain" />
@@ -80,6 +80,12 @@ export function Expo() {
         </a>
         <a href="https://cast.ai" target="_blank">
           <Logo logo="castai" className="object-contain" />
+        </a>
+        <a href="https://www.descope.com" target="_blank">
+          <Logo logo="descope" className="object-contain" />
+        </a>
+        <a href="https://alpic.ai" target="_blank">
+          <Logo logo="alpic" className="object-contain" />
         </a>
       </div>
     </div>

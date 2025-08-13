@@ -233,13 +233,15 @@ import docker from "~/images/logos/docker.svg";
 import deepmind from "~/images/logos/deepmind.svg";
 import vultrWhite from "~/images/logos/vultr-white.svg";
 import vultrBlack from "~/images/logos/vultr-black.svg";
-import tailscale from "~/images/logos/tailscale.svg"
+import tailscale from "~/images/logos/tailscale.svg";
 import tesslBlack from "~/images/logos/tessl-black.svg";
 import tesslWhite from "~/images/logos/tessl-white.svg";
 import orqai from "~/images/logos/orqai.svg";
 import lago from "~/images/logos/lago.png";
 import midio from "~/images/logos/midio.svg";
 import castai from "~/images/logos/castai.svg";
+import openhands from "~/images/logos/openhands.svg";
+import alpic from "~/images/logos/alpic.svg";
 
 type Key = keyof typeof logos;
 
@@ -443,31 +445,31 @@ export const logos = defineLogos({
   },
   tavily: {
     name: "tavily",
-    color: tavily
+    color: tavily,
   },
   tldraw: {
     name: "tldraw",
-    color: tldraw
+    color: tldraw,
   },
   alixpartners: {
     name: "alixpartners",
-    color: alixpartners
+    color: alixpartners,
   },
   lumalabs: {
     name: "lumalabs",
-    color: lumalabs
+    color: lumalabs,
   },
   redhat: {
     name: "redhat",
-    color: redhat
+    color: redhat,
   },
   ensemble: {
     name: "ensemble",
-    color: ensemble
+    color: ensemble,
   },
   plaudai: {
     name: "plaudai",
-    color: plaudai
+    color: plaudai,
   },
   adept: {
     name: "Adept",
@@ -1043,7 +1045,7 @@ export const logos = defineLogos({
   },
   wisedocs: {
     name: "WiseDocs",
-    color: wisedocs,  
+    color: wisedocs,
   },
   caylent: {
     name: "Caylent",
@@ -1116,5 +1118,13 @@ export const logos = defineLogos({
   castai: {
     name: "Castai",
     color: castai,
+  },
+  openhands: {
+    name: "Openhands",
+    color: openhands,
+  },
+  alpic: {
+    name: "Alpic",
+    color: alpic,
   },
 });
