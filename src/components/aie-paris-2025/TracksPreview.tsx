@@ -18,15 +18,6 @@ export function TracksPreview() {
             IMPORTANT
           </span>{" "}
           The speakers and full schedule are still being finalized - talks are yet to be announced!{" "}
-          <br />
-          <a
-            href="https://sessionize.com/ai-engineer-paris/"
-            target="_blank"
-            className="text-blue-300 font-bold hover:text-blue-100"
-          >
-            Apply to speak here
-          </a>
-          !
         </p>
       </header>
     </div>
