@@ -44,7 +44,12 @@ export function Sponsors() {
             />
           </a>
         </div>
-        <div className="md:flex-1 text-gray-on-white"></div>
+        <div className="md:flex-1 text-gray-on-white">
+          Docker provides a suite of development tools, services, trusted content, and automations,
+          used individually or together, to accelerate the delivery of secure applications. When the
+          Docker suite is used, Docker transforms how businesses accelerate time-to-market, how
+          developers work securely, how teams collaborate, and how software is delivered.
+        </div>
       </div>
 
       <div className="space-y-0 text-center">
