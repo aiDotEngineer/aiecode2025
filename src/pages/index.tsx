@@ -1,202 +1,387 @@
-import type { InferGetServerSidePropsType } from "next";
-import React from "react";
-import Link from "next/link"; // [INFO][2025-05-20T10:44:10-07:00] Fix: Import Link for Next.js internal navigation
-import Script from "next/script";
-import Image from "next/image";
-import clsx from "clsx";
-// import { getPresenters } from '@pkg/api/src/cms2/presenters';
-// import { getSchedule } from '@pkg/api/src/cms2/schedule';
+import type { InferGetStaticPropsType } from 'next';
+import Image from 'next/image';
+import Link from 'next/link';
+import dayjs from 'dayjs';
+import { LuArrowUpRight } from 'react-icons/lu';
+import { useRef } from 'react';
 
-import { Container } from "~/components/Container";
-import { Quote } from "~/components/Quote";
-import { TestimonialCarousel } from "~/components/Testimonials";
-import { useAppBannerContext } from "~/components/worldsfair-2025/AppBanner";
-import { Counters } from "~/components/worldsfair-2025/Counters";
-import { Expo } from "~/components/worldsfair-2025/Expo";
-import { FreeRemoteTicket } from "~/components/worldsfair-2025/FreeRemoteTicket";
-import { FromTheTeam } from "~/components/worldsfair-2025/FromTheTeam";
-import { Hero } from "~/components/worldsfair-2025/Hero";
-import { Overview } from "~/components/worldsfair-2025/Overview";
-import { Section } from "~/components/worldsfair-2025/Section";
-import { Sponsors } from "~/components/worldsfair-2025/Sponsors";
-import { TicketTable } from "~/components/worldsfair-2025/TicketTable";
-import { TracksPreview } from "~/components/worldsfair-2025/TracksPreview";
-import { VenueAndHotel } from "~/components/worldsfair-2025/VenueAndHotel";
-import { WhatsNext } from "~/components/worldsfair-2025/WhatsNext";
-import { Workshops } from "~/components/worldsfair-2025/Workshops";
-import LogoWall from "~/images/worldsfair-2025/logowall.png";
-import { formatSpeakersData } from "~/utils/formatSpeakersData";
+// import { getSessionsByIds } from '@pkg/api/src/cms2/sessions';
 
-// https://nextjs.org/docs/messages/react-hydration-error#solution-2-disabling-ssr-on-specific-components
-// import { SpeakerPreview } from "~/components/worldsfair-2025/SpeakerPreview";
-import dynamic from 'next/dynamic'
-const SpeakerPreview = dynamic(() =>
-  import('~/components/worldsfair-2025/SpeakerPreview').then((mod) => mod.SpeakerPreview),
+import { Button } from '~/components/Button';
+import { Container } from '~/components/Container';
+import { Logo } from '~/components/Logos';
+import {
+  NewsletterBullets,
+  NewsletterFormFour,
+  NewsletterFormOne,
+} from '~/components/Newsletter';
+import { PromptPaidContent } from '~/components/PromptPaidContent';
+import { SessionCard } from '~/components/SessionCard';
+import srcAieNetworkCards from '~/images/home-page/aie-network-cards.png';
+import imgPlaceholder from '~/images/worldsfair-2025/hero-placeholder.jpg';
+import srcScottWu from '~/images/home-page/scott-wu.png';
+// import background from '~/images/worldsfair-2024/hero-newsletter.jpg';
+import background from '~/images/worldsfair-2025/hero-placeholder.jpg';
+import { Hero } from '~/components/worldsfair-2025/Hero';
+
+import dynamic from 'next/dynamic';
+
+// Dynamically import LiteYouTubeEmbed without SSR to avoid require() errors
+const LiteYouTubeEmbed = dynamic(
+  () => import('react-lite-youtube-embed').then(mod => mod.default),
   { ssr: false }
-)
+);
 
-// type Props = InferGetServerSidePropsType<typeof getStaticProps>;
-// export default function Page({ sessionEvents, presenters, tracks }: Props) {
+const HERO_SESSION_ID = 209; // From Text to Vision
 
-export default function Page({ sessionEvents }: any) {
-  const isBannerVisible = useAppBannerContext();
-  // const workshops = sessionEvents.filter(
-  //   (session) => session.type === 'WORKSHOP',
-  // );
+const sessionIds = [
+  HERO_SESSION_ID,
+  48, // The Making of Devin
+  3, // What We Learned From A Year of Building With LLMs
+  39, // Going Beyond RAG
+];
 
-  // React.useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     document.getElementById("gridsmart")!.innerHTML = `<script type="text/javascript" src="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart"></script>`;
-  //   }, 2000);
-  //   return () => clearInterval(timer);
-  // }, []);
+const containerWidth = 1320;
+// type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
+// export default function Page(props: Props) {
+export default function Page() {
+//   const { showcaseSessions } = props;
 
-  // Get formatted speakers data from our JSON file
-  const { presenters, tracks, formats } = formatSpeakersData();
+//   // Find the one we want to use as the hero session
+//   const heroSession = showcaseSessions.find(
+//     (session) => session.id === HERO_SESSION_ID,
+//   );
+
+//   // Find the ones that ARE NOT the hero session
+//   const otherSessions = showcaseSessions.filter(
+//     (session) => session.id !== HERO_SESSION_ID,
+//   );
+  const videoRef = useRef<HTMLVideoElement>(null!);
 
   return (
-    <div className={clsx("text-black text-lg", { "pt-8": isBannerVisible })}>
-      <Hero />
+    <div>
+      <div className="relative">
+        <div className="absolute -z-20 inset-0 bg-stone-900 bg-[url('/home-hero-bg.jpg')] bg-center bg-cover" />
+        <div className="absolute -z-10 inset-0 bg-gradient-to-t from-gray-950 via-gray-950/80 to-black/30" />
 
-      <Section roundTop>
-        <Counters />
-        {/* <div className="space-y-4">
-          <Image
-            src={LogoWall}
-            alt="AIEWF Logo Wall"
-            className="rounded-3xl w-full object-contain mb-4"
-          />
-          <p className="text-center text-gray-600 mb-4 text-sm">
-            Logos from <a href="/worldsfair/2024" className="text-blue-600 hover:underline">World's Fair 2024</a>, to be updated soon with 2025 logos
-          </p>
-        </div> */}
-        <FromTheTeam />
-      </Section>
-
-      {/* <Section roundTop className="bg-stone-100">
-      </Section> */}
-
-      {/* Not in a <Section /> because it's full bleed */}
-      <div className="bg-stone-100 pb-20">
-        <TestimonialCarousel />
-      </div>
-
-      <Section lightText className="bg-black">
-        <WhatsNext />
-      </Section>
-      
-      <Section  id="speakers">
-        <SpeakerPreview presenters={presenters} tracks={tracks} formats={formats} />
-      </Section>
-
-      <Section lightText className="bg-black">
-        <TracksPreview />
-      </Section>
-
-      <Section roundTop id="schedule" className="bg-stone-100">
-        <div className="space-y-12">
-          <header className="text-center space-y-6">
-            <h1 className="text-5xl">
-              {/* [INFO][2025-05-20T10:44:10-07:00] Use Next.js <Link> for internal navigation to /schedule */}
-<b>Schedule (bookmark <Link href="/schedule" className="text-blue-600 hover:underline">/schedule</Link> for direct access)</b>
-            </h1>
-            <p className="max-w-3xl m-auto text-gray-on-white text-justify mb-4">
-              {/* There are up to 6 simultaneous things at any one time in this
-              multitrack conference!  */}
-              {/* The first conference day runs the{' '}
-              <b>CodeGen, Open Models, RAG, and Fortune 500</b> tracks
-              concurrently, whereas the second has{' '}
-              <b>Multimodality, GPUs, Evals, and Agents</b> tracks.
-              <br /> <br />  */}
-              You can walk the <b>World's Fair Expo</b> (ft. 50+ booths across
-              the AI Engineering landscape) on any of the 3 days, while{" "}
-              <b>Keynote, and AI Leadership sessions</b> span the 2 conference
-              days. There are also plenty of breaks for the most important track
-              of all: the "hallway track"!
-            </p>
-            <iframe
-              id="gridsmart"
-              className="w-full h-[800px]"
-              src="https://sessionize.com/api/v2/hyxh7ov6/view/GridSmart"
-              frameBorder="0"
-              width="100%"
-              height="800"
-            />
-
-            <p>
-              <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
-                IMPORTANT
-              </span>{" "}
-              The full schedule is not yet up, as some sessions are yet to be finalized. Obvious gaps in the schedule will be filled.
-              {/* Our{' '}
-              <a
-                className="text-blue-500 font-bold hover:text-blue-400"
-                href="/schedule"
-              >
-                full talk schedule is now published here
-              </a> */}
-            </p>
-          </header>
-        </div>
-      </Section>
-
-      {/* <Section>
-        <Workshops items={workshops} />
-      </Section> */}
-
-      <Section>
-        <Expo />
-      </Section>
-
-      <Quote name="andrej-karpathy" />
-
-      <Section className="bg-stone-100" id="overview">
-        <Overview />
-      </Section>
-
-      <Quote name="ben-firshman" />
-
-      <Section className="bg-stone-100" id="venue">
-        <VenueAndHotel />
-      </Section>
-
-      <Section id="sponsors">
-        <Sponsors />
-      </Section>
-
-      {/* <Section className="bg-stone-100" id="sponsors">
-        <ExpoPreview />
-      </Section> */}
-
-      {/* Not in <Section /> because they combine better with padding this way */}
-      <div className="py-8" id="tickets">
-        <Container>
-          <div className="space-y-14">
-            <TicketTable />
-            <FreeRemoteTicket />
+        <Container
+          className="pt-6 pb-16 lg:pb-24 text-white h-full"
+          maxWidth={containerWidth}
+        >
+          <div className="flex flex-col gap-32 lg:h-full">
+            <header>
+              <div className="flex justify-between items-center">
+                <div>
+                  <Logo logo="aie" variant="white" />
+                </div>
+                <div>
+                  {/* <PromptPaidContent>
+                    <Button ghost border>
+                      Sign in
+                    </Button>
+                  </PromptPaidContent> */}
+                </div>
+              </div>
+            </header>
+            <div className="flex-1 flex gap-16 max-lg:flex-col">
+              <div className="lg:flex-1 lg:self-end space-y-6">
+                <h1 className="font-bold text-[3.6em] leading-[1em] [text-shadow:#FFF_1px_0_5px]">
+                  The Highest-Signal Technical AI Conferences
+                </h1>
+                <p>
+                 Exclusively for AI Engineers, Founders of breakout AI startups, and AI Architects at the world's largest technology leaders.
+                </p>
+                <div className="p-6 space-y-5 bg-white/10 rounded-2xl">
+                  <div>
+                    <div className="text-2xl font-bold mb-1">
+                      Meet the world's best AI engineers
+                    </div>
+                    <p>Get free videos, updates, and early bird discounts</p>
+                  </div>
+                  <NewsletterFormFour />
+                </div>
+                <a href="https://youtube.com/@aidotengineer">
+                    <Image
+                        src="/wf25logowall-landscape.png"
+                        alt=""
+                        width={600}
+                        height={300}
+                        className="mx-auto mb-32"
+                    />
+                </a>
+              </div>
+              <div className="lg:flex-1 space-y-6">
+                <div className="uppercase font-bold text-gray-300/60 tracking-[.2em]">
+                  Upcoming Events
+                </div>
+                <EventCallout
+                  month="Sept"
+                  day="Q3"
+                  subTitle="September 23-24, 2025, Paris"
+                  title="AIE Paris 2025"
+                  desc="The first third-party AIE community conference, organized by Koyeb, in Paris!"
+                  href="/paris"
+                />
+                <EventCallout
+                  month="Nov"
+                  day="Q4"
+                  subTitle="Nov 20-22, 2025, New York"
+                  title="AI Engineer SWE Agents Summit"
+                  desc="The invite-only summit so nice, we're doing it twice! A followup to the most popular track from the 2025 World's Fair. Applications open soon."
+                  href="https://apply.ai.engineer"
+                  />
+                <EventCallout
+                  month="Save the Date"
+                  day="Q3"
+                  subTitle="Jun 30-July 2 2026, San Francisco"
+                  title="AI Engineer World's Fair 2026"
+                  desc="The largest technical AI conference in the world, with 20 tracks, 250 speakers, 100 expo partners, 5,000 AI Engineers, founders, and VPs of AI. Save the date - we're heading to Moscone Center"
+                //   href="https://apply.ai.engineer"
+                />
+              </div>
+            </div>
           </div>
         </Container>
       </div>
+
+      <Container className="hidden py-12 bg-stone-50 relative" maxWidth={containerWidth}>
+        <h1 className="font-bold text-2xl mb-8">Watch our top talks</h1>
+        <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {/* <div className="relative col-span-full h-[520px] rounded-2xl overflow-hidden">
+            <div className="absolute inset-0 bg-black/50 md:bg-black/70 z-10" />
+            <Image
+            alt="Video Placeholder Image"
+            src={imgPlaceholder}
+            fill
+            className="object-cover z-0"
+            priority
+            />
+            <video
+            ref={videoRef}
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="max-md:hidden absolute inset-0 w-full h-full object-cover z-0"
+            onLoadedData={() => console.info('[TopTalks] video loaded')}
+            onError={(e) => console.error('[TopTalks] video error', e.currentTarget.error)}
+            >
+            <source src="/worldsfair-hero-bg.mp4" type="video/mp4" />
+            </video>
+        </div> */}
+
+        <div className="w-full mt-4 gap-4">
+            <LiteYouTubeEmbed
+                id="z4zXicOAF28"
+                title="World's Fair 2025 Livestream"
+                wrapperClassName="yt-lite"
+            />
+            {/* <LiteYouTubeEmbed
+                id="z4zXicOAF28"
+                title="World's Fair 2025 Livestream"
+                wrapperClassName="yt-lite"
+            /> */}
+        </div>
+          {/* {heroSession && (
+            <SessionCard
+              fullWidth
+              date={dayjs(heroSession?.attributes.date).format('MMMM D, YYYY')}
+              event={
+                heroSession.attributes.track?.data?.attributes.conference?.data
+                  ?.attributes?.title ?? ''
+              }
+              title={heroSession.attributes.title}
+              presenters={heroSession.attributes.presenters}
+              src={
+                heroSession.attributes.gallery?.data?.attributes.photos
+                  .data?.[0]?.attributes.url ?? ''
+              }
+              detailsURL="/worldsfair/2024/schedule/openai-multimodality"
+              talkURL="/worldsfair/2024/schedule/openai-multimodality"
+            />
+          )}
+          {otherSessions.map((session) => (
+            <SessionCard
+              key={session.id}
+              date={dayjs(session.attributes.date).format('MMMM D, YYYY')}
+              event={
+                session.attributes.track?.data?.attributes.conference?.data
+                  ?.attributes?.title ?? ''
+              }
+              title={session.attributes.title}
+              presenters={session.attributes.presenters}
+              src={
+                session.attributes.gallery?.data?.attributes.photos.data?.[0]
+                  ?.attributes.url ?? ''
+              }
+              detailsURL={`/worldsfair/2024/schedule/${session.attributes.slug}`}
+              talkURL={`/worldsfair/2024/schedule/${session.attributes.slug}`}
+            />
+          ))} */}
+
+          {/* <SessionCard
+            date="June 27th 2024"
+            event="World's Fair 2024"
+            title="Making Devin"
+            presenters="Scott Wu, Cognition"
+            src={srcScottWu}
+            detailsURL="/worldsfair/2024/schedule/scott-wu-and-the-making-of-devin-by-cognition-ai"
+            talkURL="/worldsfair/2024/schedule/scott-wu-and-the-making-of-devin-by-cognition-ai"
+          />
+          <SessionCard
+            date="June 27th 2024"
+            event="World's Fair 2024"
+            title="What We Learned From A Year of Building With LLMs"
+            presenters="Github"
+            src={srcGitHubTeam}
+            detailsURL="/worldsfair/2024/schedule/what-we-learned-from-a-year-of-building-with-llms"
+            talkURL="/worldsfair/2024/schedule/what-we-learned-from-a-year-of-building-with-llms"
+          />
+          <SessionCard
+            date="June 27th 2024"
+            event="World's Fair 2024"x zo
+
+            title="Going Beyond RAG: Extended Mind Transformers"
+            presenters="Phoebe Klett, Machine Learning Engineer"
+            src={srcJerryLiu}
+            detailsURL="/worldsfair/2024/schedule/going-beyond-rag-extended-mind-transformers"
+            talkURL="/worldsfair/2024/schedule/going-beyond-rag-extended-mind-transformers"
+          /> */}
+        </div>
+        <div className="flex justify-center mt-8">
+          <Button href="https://youtube.com/@aidotengineer">See top talks</Button>
+        </div>
+      </Container>
+      {/* <Container className="py-24 bg-white" maxWidth={containerWidth}>
+        <div className="flex text-center lg:text-left max-lg:flex-col gap-10">
+          <div className="lg:flex-1 py-5">
+            <div className="flex gap-4 mb-6">
+              <div className="flex max-lg:m-auto -space-x-3">
+                <Image
+                  alt="speaker-thumbnail"
+                  src={srcScottWu}
+                  className="w-16 h-16 rounded-full border-4 border-white object-cover"
+                />
+                <Image
+                  alt="speaker-thumbnail"
+                  src={srcScottWu}
+                  className="w-16 h-16 rounded-full border-4 border-white  object-cover"
+                />
+                <Image
+                  alt="speaker-thumbnail"
+                  src={srcScottWu}
+                  className="w-16 h-16 rounded-full border-4 border-white object-cover"
+                />
+                <span className="h-16 w-36 flex rounded-full bg-gray-100 border-4 border-white">
+                  <span className="m-auto font-bold text-2xl">20,000+</span>
+                </span>
+              </div>
+            </div>
+
+            <h2 className="text-6xl font-bold mb-6">AI Engineer Network</h2>
+
+            <p className="text-gray-600 mb-8 text-xl leading-relaxed">
+              Join the world's largest network of technical founders and AI
+              Engineers. View the new connections you made at events, and grow
+              your network through continued generative matching.
+            </p>
+
+            <p className="text-gray-600 mb-10 text-xl">
+              Attended an event? You're already in the network.
+            </p>
+
+            <Button href="/network">Join the Network App</Button>
+          </div>
+
+          <div className="lg:flex-1">
+            <Image
+              alt="network-image"
+              src={srcAieNetworkCards}
+              className="scale-125"
+            />
+          </div>
+        </div>
+      </Container> */}
+
+      <div
+        className="pt-32 pb-32 px-6 md:px-12 bg-cover"
+        style={{ backgroundImage: `url(${background.src})` }}
+      >
+        <div
+          className="mx-auto bg-white rounded-2xl overflow-clip flex gap-6 max-lg:flex-col"
+          style={{ maxWidth: `1100px` }}
+        >
+          <div className="flex-1 p-10 space-y-5">
+            <h1 className="text-center text-4xl font-bold">
+              Join The AI.Engineer Newsletter
+            </h1>
+            <p className="text-center">
+              Stay up to date on the AI Engineering industry!
+            </p>
+            <NewsletterFormOne />
+          </div>
+          <div className="flex-1 bg-stone-50 p-10">
+            <NewsletterBullets />
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
-
-export const maxDuration = 300;
+// }
 
 // export async function getStaticProps() {
-//   // const [{ presenters, tracks }, { sessionEvents }] = await Promise.all([
-//   //   getPresenters(4),
-//   //   getSchedule([
-//   //     4, // Worldsfair 2025
-//   //   ]),
-//   // ]);
+//   const showcaseSessions = await getSessionsByIds(sessionIds);
 
-//   // return {
-//   //   props: {
-//   //     sessionEvents,
-//   //     presenters,
-//   //     tracks,
-//   //   },
-//   // };
+//   return {
+//     props: {
+//       showcaseSessions,
+//     },
+//   };
 // }
+
+/****************************************
+  Helpers
+*****************************************/
+
+type EventCalloutProps = {
+  month: string;
+  day: string;
+  subTitle: string;
+  title: string;
+  desc: string;
+  href?: string;
+};
+
+function EventCallout({
+  month,
+  day,
+  subTitle,
+  title,
+  desc,
+  href,
+}: EventCalloutProps) {
+  return (
+    <Link
+      href={href || '/'}
+      className="hover:bg-black/40 flex p-8 pl-0 rounded"
+    >
+      <div className="w-36 text-center">
+        <div className="uppercase font-bold tracking-widest">{month}</div>
+        <div className="font-bebas-neue text-[6em] leading-[1em]">{day}</div>
+      </div>
+      <div className="flex-1 self-end lg:flex lg:justify-between">
+        <div className="space-y-1">
+          <div className="text-white/70">{subTitle}</div>
+          <h1 className="text-3xl font-bold">{title}</h1>
+          <p className="text-white/70">{desc}</p>
+        </div>
+        {href && 
+        <div className="self-start mt-4 text-[3em]">
+          <LuArrowUpRight />
+        </div>
+        }
+      </div>
+    </Link>
+  );
+}

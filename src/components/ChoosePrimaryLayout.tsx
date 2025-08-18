@@ -23,6 +23,7 @@ export function ChoosePrimaryLayout({ children: page }: Props) {
   const pathname = usePathname();
 
   const isParis = pathname === "/paris";
+  const isIndex = pathname === "/";
 
   if (isParis) {
     return (
@@ -31,6 +32,16 @@ export function ChoosePrimaryLayout({ children: page }: Props) {
         <ParisHeader />
         {page}
         <ParisFooter />
+      </div>
+    );
+  }
+  if (isIndex) {
+    return (
+      <div className="text-black text-lg">
+        {/* <ParisMetaTags />
+        <ParisHeader /> */}
+        {page}
+        {/* <ParisFooter /> */}
       </div>
     );
   }

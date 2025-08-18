@@ -8,7 +8,7 @@ import "~/styles/tailwind.css";
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 import { api } from "~/support/api";
 
-import { Widget } from "@pipecat-ai/ui";
+// import { Widget } from "@pipecat-ai/ui";
 
 import { ChoosePrimaryLayout } from "~/components/ChoosePrimaryLayout";
 
@@ -60,7 +60,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
       <ChoosePrimaryLayout>
         <Component {...pageProps} />
       </ChoosePrimaryLayout>
-      <Widget onConnect={handleConnect} collapsedButtonText="Talk to AIE" />
+      {/* <Widget onConnect={handleConnect} collapsedButtonText="Talk to AIE" /> */}
       <Analytics />
     </>
   );

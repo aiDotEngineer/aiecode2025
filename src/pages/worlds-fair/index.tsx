@@ -4,7 +4,7 @@ export default blankPage;
 export function getServerSideProps() {
   return {
     redirect: {
-      destination: '/worldsfair',
+      destination: '/2025/worldsfair',
       permanent: false,
     },
   };

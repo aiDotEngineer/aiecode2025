@@ -239,7 +239,7 @@ export function NewsletterFormFour() {
           <form onSubmit={handleSubmit} className="flex gap-4">
             <input
               type="email"
-              placeholder="Enter the email address"
+              placeholder="your-work@email.com"
               aria-label="Email Address"
               autoComplete="email"
               autoFocus
