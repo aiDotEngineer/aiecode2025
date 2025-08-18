@@ -25,8 +25,8 @@ export function WhatsNext() {
             brings the global AI engineering movement to Europe for the first time
             <br />
             <b className="text-yellow-300 text-2xl">
-              A single-track technical conference & expo gathering 700+ engineers, VPs of AI,
-              founders, and CEOs building the future of AI
+              A technical conference & expo gathering 700+ engineers, VPs of AI, founders, and CEOs
+              building the future of AI
             </b>
           </p>
         </div>
