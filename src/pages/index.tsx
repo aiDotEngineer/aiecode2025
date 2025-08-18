@@ -127,7 +127,7 @@ export default function Page() {
                 <EventCallout
                   month="Nov"
                   day="Q4"
-                  subTitle="Nov 20-22, New York, NY"
+                  subTitle="November 20-22, New York, NY"
                   title="AI Engineer SWE Agents Summit"
                   desc="The invite-only summit so nice, we're doing it twice! A followup to the most popular track from the 2025 World's Fair. Applications open soon."
                   href="https://apply.ai.engineer"
@@ -135,7 +135,7 @@ export default function Page() {
                 <EventCallout
                   month="2026"
                   day="TBA"
-                  subTitle="Jun 30-July 2 2026, San Francisco, CA"
+                  subTitle="June 30-July 2 2026, San Francisco, CA"
                   title="AI Engineer World's Fair 2026"
                   desc="The largest technical AI conference in the world, with 20 tracks, 250 speakers, 100 expo partners, 5,000 AI Engineers, founders, and VPs of AI. Save the date - we're heading to Moscone Center!"
                 //   href="https://apply.ai.engineer"
@@ -147,8 +147,8 @@ export default function Page() {
       </div>
 
       <Container className="py-12 bg-stone-50 relative" maxWidth={containerWidth}>
-        <h1 className="font-bold text-2xl mb-8">Watch our top talks</h1>
-        {/* <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> */}
+        <h1 className="font-bold text-2xl mb-8">Watch our top talks (but the best stuff is in person!)</h1>
+        <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {/* <div className="relative col-span-full h-[520px] rounded-2xl overflow-hidden">
             <div className="absolute inset-0 bg-black/50 md:bg-black/70 z-10" />
             <Image
@@ -171,7 +171,7 @@ export default function Page() {
             <source src="/worldsfair-hero-bg.mp4" type="video/mp4" />
             </video>
         </div> */}
-        <div className="flex flex-col lg:flex-row justify-center gap-4 mt-4 w-full">
+        {/* <div className="flex flex-col lg:flex-row justify-center gap-4 mt-4 w-full"> */}
           <div className="w-full mt-4 gap-4">
               <LiteYouTubeEmbed
                   id="z4zXicOAF28"
@@ -203,6 +203,13 @@ export default function Page() {
           <div className="w-full mt-4 gap-4">
               <LiteYouTubeEmbed
                   id="D7BzTxVVMuw"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="Lue8K2jqfKk"
                   title="World's Fair 2025 Livestream"
                   wrapperClassName="yt-lite"
               />
