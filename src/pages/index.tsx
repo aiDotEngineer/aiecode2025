@@ -145,7 +145,7 @@ export default function Page() {
         </Container>
       </div>
 
-      <Container className="hidden py-12 bg-stone-50 relative" maxWidth={containerWidth}>
+      <Container className="py-12 bg-stone-50 relative" maxWidth={containerWidth}>
         <h1 className="font-bold text-2xl mb-8">Watch our top talks</h1>
         <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {/* <div className="relative col-span-full h-[520px] rounded-2xl overflow-hidden">
@@ -328,7 +328,7 @@ export default function Page() {
       </div>
     </div>
   );
-// }
+}
 
 // export async function getStaticProps() {
 //   const showcaseSessions = await getSessionsByIds(sessionIds);
