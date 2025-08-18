@@ -38,10 +38,14 @@ export function ChoosePrimaryLayout({ children: page }: Props) {
   if (isIndex) {
     return (
       <div className="text-black text-lg">
+        <EventContext.Provider value={worldsFair2025Context()}>
         {/* <ParisMetaTags />
+      
         <ParisHeader /> */}
         {page}
+        <WorldsFair2025Footer />
         {/* <ParisFooter /> */}
+        </EventContext.Provider>
       </div>
     );
   }

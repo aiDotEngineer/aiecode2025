@@ -69,7 +69,7 @@ export default function Page() {
           className="pt-6 pb-16 lg:pb-24 text-white h-full"
           maxWidth={containerWidth}
         >
-          <div className="flex flex-col gap-32 lg:h-full">
+          <div className="flex flex-col gap-16 lg:h-full">
             <header>
               <div className="flex justify-between items-center">
                 <div>
@@ -86,7 +86,7 @@ export default function Page() {
             </header>
             <div className="flex-1 flex gap-16 max-lg:flex-col">
               <div className="lg:flex-1 lg:self-end space-y-6">
-                <h1 className="font-bold text-[3.6em] leading-[1em] [text-shadow:#FFF_1px_0_5px]">
+                <h1 className="font-bold text-[2em] lg:text-[3.6em] leading-[1em] [text-shadow:#FFF_1px_0_5px]">
                   The Highest-Signal Technical AI Conferences
                 </h1>
                 <p>
@@ -94,12 +94,13 @@ export default function Page() {
                 </p>
                 <div className="p-6 space-y-5 bg-white/10 rounded-2xl">
                   <div>
-                    <div className="text-2xl font-bold mb-1">
+                    <div className="text-lg lg:text-2xl font-bold mb-1">
                       Meet the world's best AI engineers
                     </div>
-                    <p>Get free videos, updates, and early bird discounts</p>
+                    <p>Get free talk & workshop videos, updates, and early bird discounts</p>
                   </div>
                   <NewsletterFormFour />
+                  {/* <NewsletterFormOne /> */}
                 </div>
                 <a href="https://youtube.com/@aidotengineer">
                     <Image
@@ -118,7 +119,7 @@ export default function Page() {
                 <EventCallout
                   month="Sept"
                   day="Q3"
-                  subTitle="September 23-24, 2025, Paris"
+                  subTitle="September 23-24, Paris, France"
                   title="AIE Paris 2025"
                   desc="The first third-party AIE community conference, organized by Koyeb, in Paris!"
                   href="/paris"
@@ -126,17 +127,17 @@ export default function Page() {
                 <EventCallout
                   month="Nov"
                   day="Q4"
-                  subTitle="Nov 20-22, 2025, New York"
+                  subTitle="Nov 20-22, New York, NY"
                   title="AI Engineer SWE Agents Summit"
                   desc="The invite-only summit so nice, we're doing it twice! A followup to the most popular track from the 2025 World's Fair. Applications open soon."
                   href="https://apply.ai.engineer"
                   />
                 <EventCallout
-                  month="Save the Date"
-                  day="Q3"
-                  subTitle="Jun 30-July 2 2026, San Francisco"
+                  month="2026"
+                  day="TBA"
+                  subTitle="Jun 30-July 2 2026, San Francisco, CA"
                   title="AI Engineer World's Fair 2026"
-                  desc="The largest technical AI conference in the world, with 20 tracks, 250 speakers, 100 expo partners, 5,000 AI Engineers, founders, and VPs of AI. Save the date - we're heading to Moscone Center"
+                  desc="The largest technical AI conference in the world, with 20 tracks, 250 speakers, 100 expo partners, 5,000 AI Engineers, founders, and VPs of AI. Save the date - we're heading to Moscone Center!"
                 //   href="https://apply.ai.engineer"
                 />
               </div>
@@ -147,7 +148,7 @@ export default function Page() {
 
       <Container className="py-12 bg-stone-50 relative" maxWidth={containerWidth}>
         <h1 className="font-bold text-2xl mb-8">Watch our top talks</h1>
-        <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {/* <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> */}
         {/* <div className="relative col-span-full h-[520px] rounded-2xl overflow-hidden">
             <div className="absolute inset-0 bg-black/50 md:bg-black/70 z-10" />
             <Image
@@ -170,19 +171,43 @@ export default function Page() {
             <source src="/worldsfair-hero-bg.mp4" type="video/mp4" />
             </video>
         </div> */}
-
-        <div className="w-full mt-4 gap-4">
-            <LiteYouTubeEmbed
-                id="z4zXicOAF28"
-                title="World's Fair 2025 Livestream"
-                wrapperClassName="yt-lite"
-            />
-            {/* <LiteYouTubeEmbed
-                id="z4zXicOAF28"
-                title="World's Fair 2025 Livestream"
-                wrapperClassName="yt-lite"
-            /> */}
-        </div>
+        <div className="flex flex-col lg:flex-row justify-center gap-4 mt-4 w-full">
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="z4zXicOAF28"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="tbDDYKRFjhk"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="8rABwKRsec4"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="kQmXtrmQ5Zg"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="D7BzTxVVMuw"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+        {/* </div> */}
           {/* {heroSession && (
             <SessionCard
               fullWidth
@@ -250,7 +275,7 @@ export default function Page() {
           /> */}
         </div>
         <div className="flex justify-center mt-8">
-          <Button href="https://youtube.com/@aidotengineer">See top talks</Button>
+          <Button href="https://youtube.com/@aidotengineer">Find more talks</Button>
         </div>
       </Container>
       {/* <Container className="py-24 bg-white" maxWidth={containerWidth}>
@@ -372,7 +397,7 @@ function EventCallout({
       </div>
       <div className="flex-1 self-end lg:flex lg:justify-between">
         <div className="space-y-1">
-          <div className="text-white/70">{subTitle}</div>
+          <div className="uppercase text-yellow-200/90">{subTitle}</div>
           <h1 className="text-3xl font-bold">{title}</h1>
           <p className="text-white/70">{desc}</p>
         </div>
