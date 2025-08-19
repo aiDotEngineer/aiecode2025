@@ -90,7 +90,7 @@ export default function Page() {
                   The Highest-Signal Technical AI Conferences
                 </h1>
                 <p>
-                 Exclusively for AI Engineers, Founders of breakout AI startups, and AI Architects at the world's largest technology leaders.
+                 Serving over a million AI Engineers, Founders of breakout AI startups, and AI Architects at the world's largest technology leaders.
                 </p>
                 <div className="p-6 space-y-5 bg-white/10 rounded-2xl">
                   <div>
@@ -137,7 +137,7 @@ export default function Page() {
                   day="TBA"
                   subTitle="June 30-July 2 2026, San Francisco, CA"
                   title="AI Engineer World's Fair 2026"
-                  desc="The largest technical AI conference in the world, with 20 tracks, 250 speakers, 100 expo partners, 5,000 AI Engineers, founders, and VPs of AI. Save the date - we're heading to Moscone Center!"
+                  desc="The largest technical AI conference in the world, with 20 tracks, 250 speakers, 100 expo partners, 5,000 AI Engineers, founders, and VPs of AI. Save the date - we're heading to Moscone in 2026! If your company would like to be featured, reach out at sponsorships@ai.engineer"
                 //   href="https://apply.ai.engineer"
                 />
               </div>
