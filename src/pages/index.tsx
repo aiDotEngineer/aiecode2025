@@ -148,7 +148,7 @@ export default function Page() {
 
       <Container className="py-12 bg-stone-50 relative" maxWidth={containerWidth}>
         <h1 className="font-bold text-2xl mb-8">Watch our top talks (but the best stuff is in person!)</h1>
-        <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {/* <div className="relative col-span-full h-[520px] rounded-2xl overflow-hidden">
             <div className="absolute inset-0 bg-black/50 md:bg-black/70 z-10" />
             <Image
@@ -174,7 +174,7 @@ export default function Page() {
         {/* <div className="flex flex-col lg:flex-row justify-center gap-4 mt-4 w-full"> */}
           <div className="w-full mt-4 gap-4">
               <LiteYouTubeEmbed
-                  id="z4zXicOAF28"
+                  id="Dj0b_cEBHBI"
                   title="World's Fair 2025 Livestream"
                   wrapperClassName="yt-lite"
               />
@@ -210,6 +210,76 @@ export default function Page() {
           <div className="w-full mt-4 gap-4">
               <LiteYouTubeEmbed
                   id="Lue8K2jqfKk"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="d5EltXhbcfA"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="8kMaTybvDUw"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="640KMYtxCeI"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="avWhreBUYF0"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="WJjInLeaJjo"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="eOxOzcw70f0"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="8EQo4J2BWKw"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="knDDGYHnnSI"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="MC55hdWLq4o"
+                  title="World's Fair 2025 Livestream"
+                  wrapperClassName="yt-lite"
+              />
+          </div>
+          <div className="w-full mt-4 gap-4">
+              <LiteYouTubeEmbed
+                  id="R30col3UPUg"
                   title="World's Fair 2025 Livestream"
                   wrapperClassName="yt-lite"
               />
