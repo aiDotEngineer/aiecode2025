@@ -49,7 +49,7 @@ export function WhatsNext() {
           <WhatsNextCard
             icon={iconPencil}
             title="In-depth Workshops"
-            text="We've curated 4 workshops for you to choose from, servicing everyone from experienced engineers just starting with AI Engineering, to experienced AI engineers looking to get an edge on the competition."
+            text="We've curated 8 workshops for you to choose from, servicing everyone from experienced engineers just starting with AI Engineering, to experienced AI engineers looking to get an edge on the competition."
             background={bgWorkshops}
           />
           <WhatsNextCard
