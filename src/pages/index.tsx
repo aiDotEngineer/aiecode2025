@@ -148,7 +148,7 @@ export default function Page() {
 
       <Container className="py-12 bg-stone-50 relative" maxWidth={containerWidth}>
         <h1 className="font-bold text-2xl mb-8">Watch our top talks (but the best stuff is in person!)</h1>
-        <div className="grid gap-8 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-x-8 gap-y-4 auto-cols-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {/* <div className="relative col-span-full h-[520px] rounded-2xl overflow-hidden">
             <div className="absolute inset-0 bg-black/50 md:bg-black/70 z-10" />
             <Image
