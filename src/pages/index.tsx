@@ -203,7 +203,7 @@ export default function Page() {
           </div>
           <div className="w-full mt-4 gap-4">
               <LiteYouTubeEmbed
-                  id="D7BzTxVVMuw"
+                  id="y-UGrYbJsJk"
                   title="World's Fair 2025 Livestream"
                   wrapperClassName="yt-lite"
               />
