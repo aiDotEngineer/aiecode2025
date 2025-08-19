@@ -92,7 +92,7 @@ export const speakers = [
   {
     name: "Martin Woodward",
     company: "GitHub",
-    company_website: "https://www.microsoft.com",
+    company_website: "https://www.github.com",
     title: "Vice President of DevRel",
     linkedin: "https://www.linkedin.com/in/martinwoodward/",
     profile_picture: "https://sessionize.com/image/0b9b-400o400o1-3zvJTMdx1idyBM93y9QUxF.png",
@@ -156,7 +156,7 @@ export const speakers = [
   {
     name: "Marlene	Mhangami",
     company: "Microsoft",
-    company_website: "https://www.adobe.com",
+    company_website: "https://www.microsoft.com",
     title: "Senior Developer Advocate",
     linkedin: "https://www.linkedin.com/in/marlenemhangami/",
     profile_picture: "https://sessionize.com/image/06f1-400o400o1-NuD8zgwsAzMT2MYadvSCe8.jpg",
