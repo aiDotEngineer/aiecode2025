@@ -154,7 +154,7 @@ export const speakers = [
   //   },
 
   {
-    name: "Marlene	Mhangami",
+    name: "Marlene Mhangami",
     company: "Microsoft",
     company_website: "https://www.microsoft.com",
     title: "Senior Developer Advocate",
