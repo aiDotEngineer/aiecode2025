@@ -69,7 +69,7 @@ export const speakers = [
     name: "Alexandre Girard",
     company: "Airbyte",
     company_website: "https://airbyte.com/",
-    title: "Engineering lead",
+    title: "Engineering Lead",
     linkedin: "https://www.linkedin.com/in/alexandre-girard-67931132/",
     profile_picture: "https://sessionize.com/image/ea7b-400o400o1-V5EH46Ky87m2vPK8w9uMSE.png",
   },
