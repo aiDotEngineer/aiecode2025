@@ -128,7 +128,7 @@ export default function Page() {
                   month="Nov"
                   day="Q4"
                   subTitle="November 20-22, New York, NY"
-                  title="AI Engineer SWE Agents Summit"
+                  title="AI Engineer Fall Summit"
                   desc="The invite-only summit so nice, we're doing it twice! A followup to the most popular track from the 2025 World's Fair. Applications open soon."
                   href="https://apply.ai.engineer"
                   />
