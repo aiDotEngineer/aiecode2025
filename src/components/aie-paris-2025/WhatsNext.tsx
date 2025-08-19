@@ -25,8 +25,8 @@ export function WhatsNext() {
             brings the global AI engineering movement to Europe for the first time
             <br />
             <b className="text-yellow-300 text-2xl">
-              A single-track technical conference & expo gathering 700+ engineers, VPs of AI,
-              founders, and CEOs building the future of AI
+              A technical conference & expo gathering 700+ engineers, VPs of AI, founders, and CEOs
+              building the future of AI
             </b>
           </p>
         </div>
@@ -49,7 +49,7 @@ export function WhatsNext() {
           <WhatsNextCard
             icon={iconPencil}
             title="In-depth Workshops"
-            text="We've curated 4 workshops for you to choose from, servicing everyone from experienced engineers just starting with AI Engineering, to experienced AI engineers looking to get an edge on the competition."
+            text="We've curated 8 workshops for you to choose from, servicing everyone from experienced engineers just starting with AI Engineering, to experienced AI engineers looking to get an edge on the competition."
             background={bgWorkshops}
           />
           <WhatsNextCard

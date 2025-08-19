@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "~/components/Container";
 
 import { Button } from "~/components/Button";
-
+import { speakers } from "~/components/aie-paris-2025/speakers";
 import { Section } from "~/components/worldsfair-2025/Section";
 import { CountUp } from "~/components/CountUp";
 import Image from "next/image";
@@ -15,6 +15,12 @@ import { Sponsors } from "~/components/aie-paris-2025/Sponsors";
 import { WhatsNext } from "~/components/aie-paris-2025/WhatsNext";
 import { TracksPreview } from "~/components/aie-paris-2025/TracksPreview";
 import { Expo } from "~/components/aie-paris-2025/Expo";
+
+import dynamic from "next/dynamic";
+const SpeakerPreview = dynamic(
+  () => import("~/components/aie-paris-2025/SpeakerPreview").then((mod) => mod.SpeakerPreview),
+  { ssr: false }
+);
 
 // Hero Component for Paris page
 function ParisHero() {
@@ -112,7 +118,7 @@ function ParisStats() {
       startValue: 100,
     },
     {
-      value: 10,
+      value: 30,
       label: "Launches & Talks from top Speakers",
     },
     {
@@ -177,14 +183,17 @@ export default function Page() {
         <WhatsNext />
       </Section>
       <Section>
+        <SpeakerPreview presenters={speakers} />
+      </Section>
+      <Section>
         <Expo />
       </Section>
       <Section className="bg-stone-100" id="overview">
         <Overview />
       </Section>
-      <Section lightText className="bg-black">
+      {/* <Section lightText className="bg-black">
         <TracksPreview />
-      </Section>
+      </Section> */}
       <Section className="bg-stone-100" id="venue">
         <VenueAndHotel />
       </Section>
