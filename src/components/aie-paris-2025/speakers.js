@@ -73,14 +73,14 @@ export const speakers = [
     linkedin: "https://www.linkedin.com/in/alexandre-girard-67931132/",
     profile_picture: "https://sessionize.com/image/ea7b-400o400o1-V5EH46Ky87m2vPK8w9uMSE.png",
   },
-  {
-    name: "David Gomes",
-    company: "Databricks",
-    company_website: "https://neon.com",
-    title: "Member of Technical Staff at Neon",
-    linkedin: "https://www.linkedin.com/in/davidrfgomes/",
-    profile_picture: "https://sessionize.com/image/6321-400o400o1-WZPkgMtmYBSbfT6CqX9SaY.jpg",
-  },
+  //   {
+  //     name: "David Gomes",
+  //     company: "Databricks",
+  //     company_website: "https://neon.com",
+  //     title: "Member of Technical Staff at Neon",
+  //     linkedin: "https://www.linkedin.com/in/davidrfgomes/",
+  //     profile_picture: "https://sessionize.com/image/6321-400o400o1-WZPkgMtmYBSbfT6CqX9SaY.jpg",
+  //   },
   {
     name: "Ivan Burazin",
     company: "Daytona",
