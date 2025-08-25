@@ -112,8 +112,8 @@ const mappings = {
   'https://aie-summit.vercel.app/summit/:path*': [
     '/summit/:path*'
   ],
-  'https://aie-summit.vercel.app/worldsfair/:path*': [
-    '/worldsfair/:path*',
+  'https://aie-summit.vercel.app/worldsfair/2024': [
+    '/worldsfair/2024',
   ],
   'https://x.com/@aidotengineer': [
     '/twitter',

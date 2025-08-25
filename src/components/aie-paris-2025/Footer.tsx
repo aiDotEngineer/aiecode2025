@@ -27,7 +27,7 @@ export function Footer() {
               <Link href="/summit/2025" className="block text-gray-on-white text-sm">
                 Summit 2025
               </Link>
-              <Link href="/" className="block text-gray-on-white text-sm">
+              <Link href="/worldsfair/2025" className="block text-gray-on-white text-sm">
                 World's Fair 2025
               </Link>
             </div>
