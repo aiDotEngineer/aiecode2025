@@ -25,14 +25,6 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/9650-400o400o1-Jjsa7t42m8Ab6sNAUJox34.jpg",
   },
   {
-    name: "Solomon Hykes",
-    company: "Dagger",
-    company_website: "https://dagger.io/",
-    title: "Co-Founder & CEO",
-    linkedin: "https://www.linkedin.com/in/solomonhykes/",
-    profile_picture: "https://sessionize.com/image/151f-400o400o1-K24Fa4JzDNJJBc5xKnFiZ2.jpg",
-  },
-  {
     name: "Prateek Rungta",
     company: "OpenAI",
     company_website: "https://openai.com/",
