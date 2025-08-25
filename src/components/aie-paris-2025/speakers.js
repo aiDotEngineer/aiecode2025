@@ -41,6 +41,15 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/23ae-400o400o1-UfWFrGZUdkuEuH5k1PHzoE.jpg",
   },
   {
+    name: "Paige Bailey",
+    company: "DeepMind",
+    company_website: "https://www.deepmind.com",
+    title: "Technical Lead",
+    linkedin: "https://www.linkedin.com/in/dynamicwebpaige/",
+    profile_picture:
+      "https://media.licdn.com/dms/image/v2/C5603AQFoBRGAnhVFuQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516310626986?e=1758758400&v=beta&t=tvXDBMdcN6shvd48skRXJZkNUZJYKv8NJJOtCjgoYxg",
+  },
+  {
     name: "Yann Leger",
     company: "Koyeb",
     company_website: "https://www.koyeb.com/",
