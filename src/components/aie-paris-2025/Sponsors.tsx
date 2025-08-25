@@ -69,13 +69,6 @@ export function Sponsors() {
               className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
             />
           </a>
-          <a href="https://vultr.com" target="_blank" className=" flex-1 inline-block">
-            <Logo
-              logo="vultr"
-              variant="black"
-              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
-            />
-          </a>
           <a href="https://deepmind.google" target="_blank" className=" flex-1 inline-block">
             <Logo
               logo="deepmind"
