@@ -68,6 +68,12 @@ export function Footer() {
               >
                 Summit 2025
               </Link>
+              <Link
+                href="/worldsfair/2025"
+                className="block text-gray-on-white text-sm"
+              >
+                World's Fair 2025
+              </Link>
             </div>
             <div className="space-y-4">
               <b className="block">Connect</b>
