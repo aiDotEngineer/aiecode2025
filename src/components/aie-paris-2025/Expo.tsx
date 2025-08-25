@@ -36,9 +36,6 @@ export function Expo() {
         <a href="https://arize.com" target="_blank">
           <Logo logo="arize" className="object-contain" />
         </a>
-        <a href="https://vultr.com" target="_blank">
-          <Logo logo="vultr" variant="black" className="object-contain" />
-        </a>
         <a href="https://deepmind.google" target="_blank">
           <Logo logo="deepmind" className="object-contain" />
         </a>
