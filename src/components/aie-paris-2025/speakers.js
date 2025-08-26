@@ -110,7 +110,7 @@ export const speakers = [
     name: "Tuana Çelik",
     company: "LlamaIndex",
     company_website: "https://www.llamaindex.ai/",
-    title: "DevRel & AI Enginner",
+    title: "DevRel & AI Engineer",
     linkedin: "https://www.linkedin.com/in/tuanacelik/",
     profile_picture: "https://sessionize.com/image/4adc-400o400o1-hrr259SGBYg7GmdDcmrWjv.jpg",
   },
