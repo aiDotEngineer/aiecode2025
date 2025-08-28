@@ -17,7 +17,7 @@ export const speakers = [
       "https://media.licdn.com/dms/image/v2/D5603AQHG92SlqT2ZAQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728056785015?e=1758153600&v=beta&t=IrVgQHdcpJK8_LvIhVR3UAFWzN8mpIRYS9w9wZhQRHY",
   },
   {
-    name: "Emile Eifrem",
+    name: "Emil Eifrem",
     company: "Neo4j",
     company_website: "https://neo4j.com/",
     title: "Co-Founder & CEO",
