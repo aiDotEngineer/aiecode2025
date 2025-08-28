@@ -39,6 +39,9 @@ export function Expo() {
         <a href="https://deepmind.google" target="_blank">
           <Logo logo="deepmind" className="object-contain" />
         </a>
+        <a href="https://www.algolia.com" target="_blank">
+          <Logo logo="algolia" className="object-contain" />
+        </a>
         <a href="https://elastic.co" target="_blank">
           <Logo logo="elastic" className="object-contain" />
         </a>
