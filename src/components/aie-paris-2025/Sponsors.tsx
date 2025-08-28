@@ -76,6 +76,13 @@ export function Sponsors() {
               className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
             />
           </a>
+          <a href="https://www.algolia.com" target="_blank" className=" flex-1 inline-block">
+            <Logo
+              logo="algolia"
+              // variant="black"
+              className="inline-block h-20 w-48 md:h-32 md:w-64 object-contain mx-6"
+            />
+          </a>
         </div>
       </div>
 

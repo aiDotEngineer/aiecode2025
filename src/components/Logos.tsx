@@ -23,6 +23,7 @@ import freeplay from "~/images/logos/freeplay.svg";
 import graphite from "~/images/logos/graphite.svg";
 import orb from "~/images/logos/orb.svg";
 import AIBrief from "~/images/logos-media/aibrief_nlw.jpg";
+import algolia from "~/images/logos/algolia.svg";
 import cogrevPod from "~/images/logos-media/cogrev_podcast.png";
 import cooperPress from "~/images/logos-media/cooperpress-logo.svg";
 import Economist from "~/images/logos-media/economist_logo.png";
@@ -290,6 +291,10 @@ type Logo = {
 const defineLogos = <T extends Record<string, Logo>>(obj: T): { [K in keyof T]: Logo } => obj;
 
 export const logos = defineLogos({
+  algolia: {
+    name: "Algolia",
+    color: algolia
+  },
   cogrevPod: {
     name: "Cognitive Revolution Podcast",
     color: cogrevPod,
