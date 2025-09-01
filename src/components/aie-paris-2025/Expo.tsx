@@ -87,6 +87,15 @@ export function Expo() {
         <a href="https://alpic.ai" target="_blank">
           <Logo logo="alpic" className="object-contain" />
         </a>
+        <a href="https://bfl.ai/" target="_blank">
+          <Logo logo="blackForestLabs" className="object-contain" />
+        </a>
+        <a href="https://www.comet.com/site/" target="_blank">
+          <Logo logo="comet" className="object-contain" />
+        </a>
+        <a href="https://www.shipfox.io/" target="_blank">
+          <Logo logo="shipfox" className="object-contain" />
+        </a>
       </div>
     </div>
   );

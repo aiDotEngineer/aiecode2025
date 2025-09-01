@@ -187,7 +187,26 @@ export function Sponsors() {
               className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6 scale-70"
             />
           </a>
+          <a href="https://bfl.ai/" target="_blank" className="inline-block">
+            <Logo
+              logo="blackForestLabs"
+              className="inline-block h-12 w-32 md:h-20 md:w-44 object-contain mx-6 scale-70"
+            />
+          </a>
+          <a href="https://www.shipfox.io/" target="_blank" className="inline-block">
+          <Logo
+            logo="shipfox"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+          </a>
+          <a href="https://www.comet.com/site/" target="_blank" className="inline-block">
+          <Logo
+            logo="comet"
+            className="inline-block h-12 w-42 md:h-20 md:w-44 object-contain mx-6"
+          />
+          </a>
         </div>
+
       </div>
       {/* 
       <div className="space-y-6 text-center">
