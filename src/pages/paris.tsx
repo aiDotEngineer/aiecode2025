@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "~/components/Container";
+import Link from "next/link"; // [INFO][2025-05-20T10:44:10-07:00] Fix: Import Link for Next.js internal navigation
 
 import { Button } from "~/components/Button";
 import { speakers } from "~/components/aie-paris-2025/speakers";
@@ -15,6 +16,7 @@ import { Sponsors } from "~/components/aie-paris-2025/Sponsors";
 import { WhatsNext } from "~/components/aie-paris-2025/WhatsNext";
 import { TracksPreview } from "~/components/aie-paris-2025/TracksPreview";
 import { Expo } from "~/components/aie-paris-2025/Expo";
+import Schedule from "~/components/aie-paris-2025/Schedule";
 
 import dynamic from "next/dynamic";
 const SpeakerPreview = dynamic(
@@ -184,6 +186,28 @@ export default function Page() {
       </Section>
       <Section>
         <SpeakerPreview presenters={speakers} />
+      </Section>
+
+      <Section roundTop id="schedule" className="bg-stone-100">
+        <div className="space-y-12">
+          <header className="text-center space-y-6">
+            <h1 className="text-5xl">Schedule</h1>
+            <p className="max-w-3xl m-auto text-gray-on-white text-justify mb-4">
+              You can walk the <b>AI Engineer Paris Expo</b> (ft. 24+ booths across the AI
+              Engineering landscape) on any of the 2 days, while <b>Talks</b> span the 24th of
+              September.
+            </p>
+
+            <Schedule />
+            <p>
+              <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
+                IMPORTANT
+              </span>{" "}
+              The full schedule is not yet up, as some sessions are yet to be finalized. Obvious
+              gaps in the schedule will be filled.
+            </p>
+          </header>
+        </div>
       </Section>
       <Section>
         <Expo />
