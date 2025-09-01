@@ -24,7 +24,9 @@ import graphite from "~/images/logos/graphite.svg";
 import orb from "~/images/logos/orb.svg";
 import AIBrief from "~/images/logos-media/aibrief_nlw.jpg";
 import algolia from "~/images/logos/algolia.svg";
+import blackForestLabs from "~/images/logos/black-forest-labs.svg";
 import cogrevPod from "~/images/logos-media/cogrev_podcast.png";
+import comet from "~/images/logos/comet.svg";
 import cooperPress from "~/images/logos-media/cooperpress-logo.svg";
 import Economist from "~/images/logos-media/economist_logo.png";
 import harperCarroll from "~/images/logos-media/harpercarroll_youtube.jpg";
@@ -154,6 +156,7 @@ import replitBlack from "~/images/logos/replit-black.svg";
 import replitWhite from "~/images/logos/replit-white.svg";
 import replit from "~/images/logos/replit.svg";
 import sambanova from "~/images/logos/sambanova.svg";
+import shipfox from "~/images/logos/shipfox.svg";
 import signalfireBlack from "~/images/logos/signalfire-black.svg";
 import smolaiBlack from "~/images/logos/smolai-black.svg";
 import smolaiWhite from "~/images/logos/smolai-white.svg";
@@ -295,9 +298,17 @@ export const logos = defineLogos({
     name: "Algolia",
     color: algolia
   },
+  blackForestLabs: {
+    name: "Black Forest Labs",
+    color: blackForestLabs,
+  },
   cogrevPod: {
     name: "Cognitive Revolution Podcast",
     color: cogrevPod,
+  },
+  comet: {
+    name: "Comet",
+    color: comet,
   },
   pydantic: {
     name: "Pydantic",
@@ -306,6 +317,10 @@ export const logos = defineLogos({
   circle: {
     name: "Circle",
     color: circle,
+  },
+  shipfox: {
+    name: "Shipfox",
+    color: shipfox,
   },
   sierra: {
     name: "Sierra",
