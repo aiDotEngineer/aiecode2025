@@ -197,8 +197,6 @@ export default function Page() {
               Engineering landscape) on any of the 2 days, while <b>Talks</b> span the 24th of
               September.
             </p>
-
-            <Schedule />
             <p>
               <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
                 IMPORTANT
@@ -206,6 +204,7 @@ export default function Page() {
               The full schedule is not yet up, as some sessions are yet to be finalized. Obvious
               gaps in the schedule will be filled.
             </p>
+            <Schedule />
           </header>
         </div>
       </Section>

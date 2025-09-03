@@ -164,23 +164,21 @@ const ScheduleListPage: NextPage = () => {
           // Use track from details if available
           const room = roomsMap.get(session.roomId);
           let trackName = trackFromDetails;
-
           // Override with Keynote if room contains keynote
           if (room?.name?.toLowerCase().includes("keynote")) {
             trackName = "Keynote";
           } else if (!trackName) {
             // If no assigned track or empty string, fall back  to determining from session type or room
-            if (session.isServiceSession) {
+            if (room?.name?.toLowerCase().includes("central room")) {
+              trackName = "Workshop";
+            } else if (room?.name?.toLowerCase().includes("founder's cafe")) {
+              trackName = "Discovery Track #1";
+            } else if (room?.name?.toLowerCase().includes("junior stage")) {
+              trackName = "Discovery Track #2";
+            } else if (room?.name?.toLowerCase().includes("main stage")) {
+              trackName = "Main Stage";
+            } else if (session.isServiceSession) {
               trackName = "Service";
-            } else if (room?.name) {
-              // Extract track from room name if it contains track info
-              if (room.name.toLowerCase().includes("workshop")) {
-                trackName = "Workshop";
-              } else {
-                trackName = "General Session";
-              }
-            } else {
-              trackName = "General Session";
             }
           }
 
@@ -219,7 +217,6 @@ const ScheduleListPage: NextPage = () => {
     fetchSessionData();
   }, []);
 
-  console.log(sessionEvents);
   return (
     <>
       {/* <Header path="/schedule-list" alwaysShow />
