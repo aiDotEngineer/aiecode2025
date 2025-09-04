@@ -3,7 +3,8 @@ import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 // import { Header } from "../components/worldsfair-2025/Header";
-import { Schedule } from "~/components/worldsfair-2025/Schedule";
+// import { Schedule } from "~/components/worldsfair-2025/Schedule";
+import { Schedule } from "./Schedule-copy";
 import speakersSessionsData from "../../utils/speakers-sessions-details.json";
 
 // Interfaces for the JSON
