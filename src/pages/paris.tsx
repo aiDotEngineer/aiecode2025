@@ -193,9 +193,8 @@ export default function Page() {
           <header className="text-center space-y-6">
             <h1 className="text-5xl">Schedule</h1>
             <p className="max-w-3xl m-auto text-gray-on-white text-justify mb-4">
-              You can walk the <b>AI Engineer Paris Expo</b> (ft. 24+ booths across the AI
-              Engineering landscape) on any of the 2 days, while <b>Talks</b> span the 24th of
-              September.
+              You can walk the <b>AI Engineer Paris Expo</b> (featuring 25 booths across the AI
+              Engineering landscape) throughout the conference time. <b>Talks</b> begin with a Welcome Keynote in the evening on 23 Sept and continue all day on 24 Sept.
             </p>
             <p>
               <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">

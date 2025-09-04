@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 // import { Schedule } from "~/components/worldsfair-2025/Schedule";
 import { Schedule } from "./Schedule-copy";
 import speakersSessionsData from "../../utils/speakers-sessions-details.json";
+import { Button } from "../Button";
 
 // Interfaces for the JSON
 interface SessionizeSpeaker {
@@ -236,6 +237,16 @@ const ScheduleListPage: NextPage = () => {
         ) : (
           <Schedule sessionEvents={sessionEvents} />
         )}
+      </div>
+      <div className="flex flex-col items-center justify-center=">
+        <h2 className="text-xl font-semibold py-5">Looking for events going on around AI Engineer Paris?</h2>
+        <Button
+              className="w-70"
+              aria-label={"View fringe events around AI Engineer Paris"}
+              border
+              href="https://luma.com/ai-engineer-paris-25-events"
+              target="_blank"
+        >View AIE Paris Events Calendar</Button>
       </div>
       {/* </main> */}
     </>
