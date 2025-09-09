@@ -161,7 +161,7 @@ function ParisBuyTickets() {
                 <b>Buy Tickets</b>
               </h1>
               <p className="max-w-5xl m-auto text-gray-on-white mb-4">
-                We are going to sell out of Early Bird discounted tickets!
+                Discovery Track and Expo tickets still available!
               </p>
               <Button href="https://lu.ma/ai-engineer-paris" className="block w-52">
                 <span className="">Buy Tickets</span>
