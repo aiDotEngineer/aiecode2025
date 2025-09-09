@@ -247,7 +247,7 @@ export const speakers = [
     company: "Koyeb",
     company_website: "https://www.koyeb.com",
     title: "Founding Developer Relations Engineer",
-    linkedin: "https://www.linkedin.com/in/jennifer-person",
+    linkedin: "https://www.linkedin.com/in/jennifer-person/",
     profile_picture: "https://sessionize.com/image/fbbc-0o0o0-EuJUadd1HRDYZWW8tpGCTZ.png",
   }
 ];
