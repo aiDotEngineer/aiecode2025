@@ -195,12 +195,12 @@ export const speakers = [
   },
 
   {
-    name: "Tomas Reimers",
+    name: "Merrill Lutsky",
     company: "Graphite",
     company_website: "https://www.graphite.dev/",
-    title: "Co-Found & Chief Product Officer",
+    title: "Co-Founder & CEO",
     linkedin: "https://www.linkedin.com/in/tomasreimers/",
-    profile_picture: "https://sessionize.com/image/e632-400o400o1-7LznDxW8kd8qGDQVVHE12t.jpg",
+    profile_picture: "https://sessionize.com/image/d663-0o0o0-LY7bkeWPfbVUVixhyjAZ16.jpg",
   },
   {
     name: "Lars Trieloff",
