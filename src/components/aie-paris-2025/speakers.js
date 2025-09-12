@@ -242,14 +242,6 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/65cd-400o400o1-ntqskth2v4E3Z2EzjCWuJr.jpg",
   },
   {
-    name: "Yann Leger",
-    company: "Koyeb",
-    company_website: "https://www.koyeb.com",
-    title: "Co-Founder and CEO",
-    linkedin: "https://www.linkedin.com/in/yannleger/",
-    profile_picture: "https://sessionize.com/image/bd3a-0o0o0-TmGow4cNSGRc5P3LzYETi3.jpg",
-  },
-  {
     name: "Jen Person",
     company: "Koyeb",
     company_website: "https://www.koyeb.com",
