@@ -181,7 +181,7 @@ const ScheduleListPage: NextPage = () => {
               trackName = "Main Stage"; 
             } else if (session.isServiceSession) {
               trackName = "Service";
-            }  else if (room?.name?.toLowerCase().includes("main stage")) {
+            }  else if (room?.name?.toLowerCase().includes("expo hall")) {
               trackName = "Expo Track";
             }
           }
