@@ -149,7 +149,7 @@ export function Overview() {
             Pre-party, Hackathons, Afterparty, and Other SF AI Events
           </h2>
           <p className="text-gray-on-white text-base">
-            Come for the World's Fair, stay for the SF AI scene! You can also add the <a href="https://lu.ma/ls" target="_blank" className="text-blue-700 hover:text-blue-500 mx-1">lu.ma collection</a> (click RSS Logo next to Submit Event) to see them all on your calendar. <br />
+            Come for the World's Fair, stay for the SF AI scene! You can also add the <a href="https://lu.ma/ls" target="_blank" className="text-blue-700 hover:text-blue-500 mx-1">lu.ma collection</a> (click RSS Logo next to Submit Event) to see them all on your calendar. <a href="https://x.com/etirabys/status/1967468953036578821" target="_blank" className="text-blue-700 hover:text-blue-500 mx-1">Plan your own small events</a> to get the most out of your trip!<br />
           </p>
           <ul className="text-gray-on-white text-base list-disc ml-2">
             <li>
