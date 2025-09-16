@@ -251,14 +251,6 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/adcf-400o400o1-SRnJoDmtAVm1iHtrZ3Fbw5.jpg",
   },
   {
-    name: "Anastasia Marchenkova",
-    company: "Independant",
-    company_website: "https://www.amarchenkova.com",
-    title: "Quantum Physicist, Founder, and Tech Influencer",
-    linkedin: "https://www.linkedin.com/in/amarchenkova",
-    profile_picture: "https://sessionize.com/image/65cd-400o400o1-ntqskth2v4E3Z2EzjCWuJr.jpg",
-  },
-  {
     name: "Jen Person",
     company: "Koyeb",
     company_website: "https://www.koyeb.com",
