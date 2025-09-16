@@ -8,15 +8,6 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/1825-400o400o1-DVZNa6kD7Hfe14T2EnZxZ5.jpg",
   },
   {
-    name: "Eiso Kant",
-    company: "Poolside",
-    company_website: "https://poolside.ai/",
-    title: "Co-Founder & CTO",
-    linkedin: "https://www.linkedin.com/in/eisokant/",
-    profile_picture:
-      "https://media.licdn.com/dms/image/v2/D5603AQHG92SlqT2ZAQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728056785015?e=1758153600&v=beta&t=IrVgQHdcpJK8_LvIhVR3UAFWzN8mpIRYS9w9wZhQRHY",
-  },
-  {
     name: "Emil Eifrem",
     company: "Neo4j",
     company_website: "https://neo4j.com/",
