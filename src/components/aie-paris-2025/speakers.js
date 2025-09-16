@@ -16,6 +16,14 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/9650-400o400o1-Jjsa7t42m8Ab6sNAUJox34.jpg",
   },
   {
+    name: "Neil Zeghidour",
+    company: "Kyutai",
+    company_website: "https://kyutai.org/",
+    title: "Co-Founder",
+    linkedin: "https://www.linkedin.com/in/neil-zeghidour-a838aaa7/",
+    profile_picture: "https://sessionize.com/image/3e7c-0o0o0-7BijR1w4EYJCkhBj1mEuBC.jpg",
+  },
+  {
     name: "Prateek Rungta",
     company: "OpenAI",
     company_website: "https://openai.com/",
@@ -48,6 +56,24 @@ export const speakers = [
     linkedin: "https://www.linkedin.com/in/yannleger/",
     profile_picture:
       "https://media.licdn.com/dms/image/v2/C5603AQGuXA8RXcP8dw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1568807331280?e=1758153600&v=beta&t=pk01dCn8w1e_V-UtXuaw2zOj5HuCco-SU7M2_KtbOIo",
+  },
+  {
+    name: "Laurent Sifre",
+    company: "H Company",
+    company_website: "https://www.hcompany.ai/",
+    title: "Founder and CTO",
+    linkedin: "https://www.linkedin.com/in/sifre/",
+    profile_picture:
+      "https://sessionize.com/image/57ee-0o0o0-3MQc7JQZMdGzZ9YMzVYUhE.jpg?download=laurent-sifre.jpg",
+  },
+  {
+    name: "Steeve Morin",
+    company: "ZML",
+    company_website: "https://zml.ai/",
+    title: "Founder",
+    linkedin: "https://www.linkedin.com/in/steevemorin/",
+    profile_picture:
+      "https://sessionize.com/image/5fdc-0o0o0-Uiju8yumUmbKkmDMeCDNYB.jpg?download=steeve-morin.jpg",
   },
   {
     name: "Robert Brennan",
