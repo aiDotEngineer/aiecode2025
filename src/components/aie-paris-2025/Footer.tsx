@@ -46,6 +46,7 @@ export function Footer() {
             </div>
             <div className="space-y-4">
               <b className="block">About</b>
+              <Link href="https://www.koyeb.com/docs/legal/global-events-tos#42-cancellation-by-the-purchaser" aria-label="Terms of Service" className="block text-gray-on-white text-sm">AIE Paris Terms of Service</Link>
               <Link href="/privacy" className="block text-gray-on-white text-sm">
                 Privacy
               </Link>
