@@ -215,7 +215,7 @@ export const speakers = [
     company: "Sentry",
     title: "Member of Technical Staff",
     linkedin: "https://linkedin.com/in/miguel-betegon/",
-    profile_picture: https://sessionize.com/image/900d-0o0o0-TNK8JNPiQ8Kyyi7i7yBZLW.png",
+    profile_picture: "https://sessionize.com/image/900d-0o0o0-TNK8JNPiQ8Kyyi7i7yBZLW.png",
   },
   {
     name: "Merrill Lutsky",
