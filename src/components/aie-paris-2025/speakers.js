@@ -55,7 +55,7 @@ export const speakers = [
     title: "Co-Founder & CEO",
     linkedin: "https://www.linkedin.com/in/yannleger/",
     profile_picture:
-      "https://media.licdn.com/dms/image/v2/C5603AQGuXA8RXcP8dw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1568807331280?e=1758153600&v=beta&t=pk01dCn8w1e_V-UtXuaw2zOj5HuCco-SU7M2_KtbOIo",
+      "https://sessionize.com/image/398e-200o200o2-TmGow4cNSGRc5P3LzYETi3.jpg",
   },
   {
     name: "Laurent Sifre",
