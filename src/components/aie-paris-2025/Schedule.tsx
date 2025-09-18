@@ -177,11 +177,11 @@ const ScheduleListPage: NextPage = () => {
               trackName = "Discovery Track #1";
             } else if (room?.name?.toLowerCase().includes("junior stage")) {
               trackName = "Discovery Track #2";
-            } else if (room?.name?.toLowerCase().includes("main stage")) {
-              trackName = "Main Stage"; 
+            } else if (room?.name?.toLowerCase().includes("master stage")) {
+              trackName = "Master Stage";
             } else if (session.isServiceSession) {
               trackName = "Service";
-            }  else if (room?.name?.toLowerCase().includes("expo hall")) {
+            } else if (room?.name?.toLowerCase().includes("expo hall")) {
               trackName = "Expo Track";
             }
           }
@@ -241,14 +241,18 @@ const ScheduleListPage: NextPage = () => {
         )}
       </div>
       <div className="flex flex-col items-center justify-center=">
-        <h2 className="text-xl font-semibold py-5">Looking for events going on around AI Engineer Paris?</h2>
+        <h2 className="text-xl font-semibold py-5">
+          Looking for events going on around AI Engineer Paris?
+        </h2>
         <Button
-              className="w-70"
-              aria-label={"View fringe events around AI Engineer Paris"}
-              border
-              href="https://luma.com/ai-engineer-paris-25-events"
-              target="_blank"
-        >View AIE Paris Events Calendar</Button>
+          className="w-70"
+          aria-label={"View fringe events around AI Engineer Paris"}
+          border
+          href="https://luma.com/ai-engineer-paris-25-events"
+          target="_blank"
+        >
+          View AIE Paris Events Calendar
+        </Button>
       </div>
       {/* </main> */}
     </>

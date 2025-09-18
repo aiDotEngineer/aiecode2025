@@ -194,7 +194,16 @@ export default function Page() {
             <h1 className="text-5xl">Schedule</h1>
             <p className="max-w-3xl m-auto text-gray-on-white text-justify mb-4">
               You can walk the <b>AI Engineer Paris Expo</b> (featuring 25 booths across the AI
-              Engineering landscape) throughout the conference time. <b>Talks</b> begin with a Welcome Keynote in the evening on 23 Sept and continue all day on 24 Sept.
+              Engineering landscape) throughout the conference time. <b>Talks</b> begin with a
+              Welcome Keynote in the evening on 23 Sept and continue all day on 24 Sept. To import
+              all sessions to your calendar, click this{" "}
+              <a
+                href="https://sessionize.com/api/v2/tcoeoxpp/view/All"
+                className="underline hover:text-blue-800"
+              >
+                iCal
+              </a>{" "}
+              link. <br />
             </p>
             <p>
               <span className="uppercase font-mono bg-gray-600 p-1 rounded-sm text-yellow-100">
