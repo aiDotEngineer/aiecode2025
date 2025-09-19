@@ -2,7 +2,7 @@ export const speakers = [
   {
     name: "Lélio Renard Lavaud",
     company: "Mistral",
-    company_website: "https://www.https://mistral.ai/",
+    company_website: "https://mistral.ai/",
     title: "VP of Engineering",
     linkedin: "https://www.linkedin.com/in/leliorenardlavaud/",
     profile_picture: "https://media.licdn.com/dms/image/v2/D4D03AQHAV33HaIjtMg/profile-displayphoto-shrink_800_800/B4DZOeKia.HoAc-/0/1733525383318?e=1761177600&v=beta&t=DBPgCrL9mubLFmttRVU4TKwhfZguhmrYCa6gSMZyeRs",
