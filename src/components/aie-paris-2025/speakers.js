@@ -2,7 +2,7 @@ export const speakers = [
   {
     name: "Lélio Renard Lavaud",
     company: "Mistral",
-    company_website: "https://www.ai.engineer",
+    company_website: "https://www.https://mistral.ai/",
     title: "VP of Engineering",
     linkedin: "https://www.linkedin.com/in/leliorenardlavaud/",
     profile_picture: "https://media.licdn.com/dms/image/v2/D4D03AQHAV33HaIjtMg/profile-displayphoto-shrink_800_800/B4DZOeKia.HoAc-/0/1733525383318?e=1761177600&v=beta&t=DBPgCrL9mubLFmttRVU4TKwhfZguhmrYCa6gSMZyeRs",
@@ -272,6 +272,14 @@ export const speakers = [
     linkedin: "https://www.linkedin.com/in/jennifer-person/",
     profile_picture: "https://sessionize.com/image/fbbc-0o0o0-EuJUadd1HRDYZWW8tpGCTZ.png",
   },
+  // {
+  //   name: "Raouf Chebri",
+  //   company: "Tigris Data",
+  //   company_website: "https://www.ai.engineer",
+  //   title: "Develoepr Experience Engineer",
+  //   linkedin: "https://www.linkedin.com/in/shawnswyxwang/",
+  //   profile_picture: "https://user-images.githubusercontent.com/6764957/103350806-26d9ca80-4adc-11eb-9e53-a8ce9ca3f21f.jpeg",
+  // },
   {
     name: "Ben Dunphy",
     company: "AI Engineer",
