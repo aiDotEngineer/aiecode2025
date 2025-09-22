@@ -258,13 +258,6 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/69a6-400o400o1-R8YmCmMn14oKvKC58rNqPn.jpg",
   },
   {
-    name: "Daniel Homola",
-    company: "BMW Group",
-    title: "AI Project Lead",
-    linkedin: "https://linkedin.com/in/danielhomola",
-    profile_picture: "https://sessionize.com/image/adcf-400o400o1-SRnJoDmtAVm1iHtrZ3Fbw5.jpg",
-  },
-  {
     name: "Jen Person",
     company: "Koyeb",
     company_website: "https://www.koyeb.com",
