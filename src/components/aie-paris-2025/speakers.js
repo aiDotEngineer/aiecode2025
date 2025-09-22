@@ -258,14 +258,6 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/69a6-400o400o1-R8YmCmMn14oKvKC58rNqPn.jpg",
   },
   {
-    name: "Jen Person",
-    company: "Koyeb",
-    company_website: "https://www.koyeb.com",
-    title: "Founding Developer Relations Engineer",
-    linkedin: "https://www.linkedin.com/in/jennifer-person/",
-    profile_picture: "https://sessionize.com/image/fbbc-0o0o0-EuJUadd1HRDYZWW8tpGCTZ.png",
-  },
-  {
     name: "Raouf Chebri",
     company: "Tigris Data",
     company_website: "https://www.ai.engineer",
