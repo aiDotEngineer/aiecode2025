@@ -32,14 +32,6 @@ export const speakers = [
     profile_picture: "https://sessionize.com/image/3e7c-0o0o0-7BijR1w4EYJCkhBj1mEuBC.jpg",
   },
   {
-    name: "Prateek Rungta",
-    company: "OpenAI",
-    company_website: "https://openai.com/",
-    title: "Member Technical Staff",
-    linkedin: "https://linkedin.com/in/rungtaprateek",
-    profile_picture: "https://sessionize.com/image/b42e-400o400o1-Uu23Y4jydHnRuzvS3faACE.jpg",
-  },
-  {
     name: "Aparna Dhinakaran",
     company: "Arize AI",
     company_website: "https://arize.com/",
@@ -255,6 +247,14 @@ export const speakers = [
     title: "Co-Founder & CEO",
     linkedin: "https://www.linkedin.com/in/remilouf/",
     profile_picture: "https://sessionize.com/image/db2c-0o0o0-wAQ77zd2BqLk8cksvtVsna.jpg",
+  },  
+  {
+    name: "Hervé Bredin",
+    company: "pyannoteAI",
+    company_website: "https://www.pyannote.ai/",
+    title: "Co-founder and Chief Science Officer",
+    linkedin: "https://www.linkedin.com/in/herve-bredin/",
+    profile_picture: "https://sessionize.com/image/09a8-0o0o0-RMPkQ61vJuyeshn79JLQsf.jpg",
   },  
   {
     name: "Robin Nabel",
