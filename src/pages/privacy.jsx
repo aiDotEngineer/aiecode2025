@@ -103,7 +103,7 @@ export default function Privacy() {
           <p className="mt-8">If you have any questions or concerns about this Privacy Policy or our data practices, or if you would like to exercise your CCPA rights, please contact us at:</p>
 
           <p className="mt-8">
-          Software 3.0 LLC<br></br>
+          Software 3.0 Inc<br></br>
           ATTN: Privacy<br></br>
           2648 International Boulevard, 115<br></br>
           Oakland, CA 94601<br></br>

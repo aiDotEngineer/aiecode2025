@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import { usePathname } from "next/navigation";
 
-// Worlds Fair 2025
-import { Footer as WorldsFair2025Footer } from "~/components/worldsfair-2025/Footer";
-import { Header as WorldsFair2025Header } from "~/components/worldsfair-2025/Header";
-import { MetaTags as WorldsFair2025MetaTags } from "~/components/worldsfair-2025/MetaTags";
+// // Worlds Fair 2025
+// import { Footer as WorldsFair2025Footer } from "~/components/worldsfair-2025/Footer";
+// import { Header as WorldsFair2025Header } from "~/components/worldsfair-2025/Header";
+// import { MetaTags as WorldsFair2025MetaTags } from "~/components/worldsfair-2025/MetaTags";
 import { MetaTags as ParisMetaTags } from "~/components/aie-paris-2025/MetaTags";
 import { Header as ParisHeader } from "~/components/aie-paris-2025/Header";
 import { Footer as ParisFooter } from "~/components/aie-paris-2025/Footer";
@@ -43,7 +43,7 @@ export function ChoosePrimaryLayout({ children: page }: Props) {
       
         <ParisHeader /> */}
         {page}
-        <WorldsFair2025Footer />
+        {/* <WorldsFair2025Footer /> */}
         {/* <ParisFooter /> */}
         </EventContext.Provider>
       </div>
@@ -53,10 +53,10 @@ export function ChoosePrimaryLayout({ children: page }: Props) {
   return (
     // <AuthProvider>
       <EventContext.Provider value={worldsFair2025Context()}>
-        <WorldsFair2025MetaTags />
-        <WorldsFair2025Header key={pathname} path={pathname || ''} />
+        {/* <WorldsFair2025MetaTags /> */}
+        {/* <WorldsFair2025Header key={pathname} path={pathname || ''} /> */}
         {page}
-        <WorldsFair2025Footer />
+        {/* <WorldsFair2025Footer /> */}
       </EventContext.Provider>
     // </AuthProvider>
   );

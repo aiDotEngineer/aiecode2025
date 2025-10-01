@@ -1,51 +1,43 @@
 import type { InferGetServerSidePropsType } from 'next';
-// import Image from 'next/image';
+import Image from 'next/image';
 import clsx from 'clsx';
 
 // import { getPresenters } from '@pkg/api/src/cms2/presenters';
 
 import { Container } from '~/components/Container';
 import { Quote } from '~/components/Quote';
-// import { useAppBannerContext } from '~/components/summit-2025/AppBanner';
-// import { Expo } from '~/components/aie-paris-2025/Expo';
-// import { FreeRemoteTicket } from '~/components/summit-2025/FreeRemoteTicket';
-// import { FromTheTeam } from '~/components/summit-2025/FromTheTeam';
-// import { Hero } from '~/components/summit-2025/Hero';
-import { Overview } from '~/components/aie-paris-2025/Overview';
-// import { Section } from '~/components/summit-2025/Section';
-import { SpeakerPreview } from '~/components/aie-paris-2025/SpeakerPreview';
-import { Sponsors } from '~/components/aie-paris-2025/Sponsors';
-// import { TicketTable } from '~/components/summit-2025/TicketTable';
-// import { TracksPreview } from '~/components/aie-paris-2025/TracksPreview';
-// import { VenueAndHotel } from '~/components/aie-paris-2025/VenueAndHotel';
-import { WhatsNext } from '~/components/aie-paris-2025/WhatsNext';
-// import { Counters } from '~/components/summit-2025/Counters';
+import { useAppBannerContext } from '~/components/code-2025/AppBanner';
+import { Expo } from '~/components/code-2025/Expo';
+import { FreeRemoteTicket } from '~/components/code-2025/FreeRemoteTicket';
+import { FromTheTeam } from '~/components/code-2025/FromTheTeam';
+import { Hero } from '~/components/code-2025/Hero';
+import { Overview } from '~/components/code-2025/Overview';
+import { Section } from '~/components/code-2025/Section';
+import { SpeakerPreview } from '~/components/code-2025/SpeakerPreview';
+import { Sponsors } from '~/components/code-2025/Sponsors';
+import { TicketTable } from '~/components/code-2025/TicketTable';
+import { TracksPreview } from '~/components/code-2025/TracksPreview';
+import { VenueAndHotel } from '~/components/code-2025/VenueAndHotel';
+import { WhatsNext } from '~/components/code-2025/WhatsNext';
+import { Counters } from '~/components/code-2025/Counters';
 import { TestimonialCarousel } from '~/components/Testimonials';
-// import imageKsenia from '~/images/avatars/ksenia.png';
-// import imageNLW from '~/images/avatars/nlw.png';
-// import imagePieter from '~/images/avatars/pieter.png';
+import imageKsenia from '~/images/avatars/ksenia.png';
+import imageNLW from '~/images/avatars/nlw.png';
+import imagePieter from '~/images/avatars/pieter.png';
 // import LogoWall from '~/images/worldsfair-2024/logowall.png';
 
 type Props = InferGetServerSidePropsType<typeof getStaticProps>;
 
 export default function Page({ presenters }: Props) {
-  // const isBannerVisible = useAppBannerContext();
-  const isBannerVisible = false;
+  const isBannerVisible = useAppBannerContext();
 
   return (
     <div className={clsx('text-black text-lg', { 'pt-8': isBannerVisible })}>
-      {/* <Hero /> */}
+      <Hero />
 
-      {/* <Section roundTop>
+      <Section roundTop>
         <FromTheTeam />
-        <div className="pt-6">
-          <Image
-            src={LogoWall}
-            alt="AIEWF Logo Wall"
-            className="rounded-3xl w-full object-contain mb-12"
-          />
-        </div>
-      </Section> */}
+      </Section>
       <div className="bg-stone-100 py-16">
         <TestimonialCarousel />
       </div>
@@ -60,7 +52,7 @@ export default function Page({ presenters }: Props) {
         <Container>
           <SpeakerPreview presenters={presenters} />
           <hr />
-          {/* <div className="py-12">
+          <div className="py-12">
             <h2 className="text-3xl font-bold mb-6 text-center">Your Emcees</h2>
             <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-12">
               <div className="text-center">
@@ -125,7 +117,7 @@ export default function Page({ presenters }: Props) {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           <hr />
         </Container>
       </div>
@@ -193,15 +185,14 @@ export default function Page({ presenters }: Props) {
         </Container>
       </div>
 
-      {/* Not in <Section /> because they combine better with padding this way */}
-      {/* <div className="py-8" id="tickets">
+      <div className="py-8" id="tickets">
         <Container>
           <div className="space-y-14">
             <TicketTable />
             <FreeRemoteTicket />
           </div>
         </Container>
-      </div> */}
+      </div>
     </div>
   );
 }

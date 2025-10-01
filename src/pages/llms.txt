@@ -5615,7 +5615,7 @@ Circle
 - [What is an AI Engineer?](https://ai.engineer/what-is-an-ai-engineer)
 
 
-**Copyright 2025 Software 3.0 LLC**
+**Copyright 2025 Software 3.0 Inc**
 
 **Note:** The 2025 tracks are subject to change. Check the website for the latest updates.  
 **[Apply to Speak](https://sessionize.com/ai-engineer-worlds-fair-2025)**

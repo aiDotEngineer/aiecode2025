@@ -15,14 +15,14 @@ import {
   NewsletterFormFour,
   NewsletterFormOne,
 } from '~/components/Newsletter';
-import { PromptPaidContent } from '~/components/PromptPaidContent';
-import { SessionCard } from '~/components/SessionCard';
-import srcAieNetworkCards from '~/images/home-page/aie-network-cards.png';
-import imgPlaceholder from '~/images/worldsfair-2025/hero-placeholder.jpg';
-import srcScottWu from '~/images/home-page/scott-wu.png';
+// import { PromptPaidContent } from '~/components/PromptPaidContent';
+// import { SessionCard } from '~/components/SessionCard';
+// import srcAieNetworkCards from '~/images/home-page/aie-network-cards.png';
+// import imgPlaceholder from '~/images/worldsfair-2025/hero-placeholder.jpg';
+// import srcScottWu from '~/images/home-page/scott-wu.png';
 // import background from '~/images/worldsfair-2024/hero-newsletter.jpg';
-import background from '~/images/worldsfair-2025/hero-placeholder.jpg';
-import { Hero } from '~/components/worldsfair-2025/Hero';
+import background from '../images/code-2025/hero-placeholder.jpg';
+// import { Hero } from '../../components/worldsfair-2025/Hero';
 
 import dynamic from 'next/dynamic';
 
