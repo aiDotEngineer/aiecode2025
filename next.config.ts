@@ -7,14 +7,10 @@ const directMappings2 = [
   '_next/static/chunks/pages/_app-2f9f1e27b389ab31.js*',
   '_next/static/chunks/pages/index-b43c1390a511e024.js*',
   '_next/static/css/010e58f3fe7f94dd.css',
-
-'_next/static/chunks/framework-e438b923746a6e44.js',
-
-'_next/static/chunks/main-6e0729e405dde7c6.js',
-
-'_next/static/chunks/pages/_app-2f9f1e27b389ab31.js',
-
-'_next/static/chunks/pages/index-b43c1390a511e024.js',
+  '_next/static/chunks/framework-e438b923746a6e44.js',
+  '_next/static/chunks/main-6e0729e405dde7c6.js',
+  '_next/static/chunks/pages/_app-2f9f1e27b389ab31.js',
+  '_next/static/chunks/pages/index-b43c1390a511e024.js',
 ]
 
 const directMappings = [
