@@ -135,7 +135,7 @@ export function Header({ path }: Props) {
                   See /schedule
                 </Button>
 
-                <HeaderProfile />
+                {/* <HeaderProfile /> */}
 
                 <OpenMenuButton
                   onClick={(e) => {
@@ -213,7 +213,7 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
               Buy Tickets
             </Button> */}
 
-            <HeaderProfile />
+            {/* <HeaderProfile /> */}
 
             <CloseMenuButton onClick={() => setNavOpen(!navOpen)} />
           </nav>

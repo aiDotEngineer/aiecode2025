@@ -18,7 +18,7 @@ export function Overview() {
       <header className="space-y-6">
         <h1 className="text-6xl font-bold">Program Overview</h1>
         <h1 className="text-4xl">
-          <b>The Highest Concentration of AI Engineering Talent in the World</b>
+          <b>The Highest Concentration of Coding Agent leaders in the World</b>
         </h1>
         <p className="max-w-2xl text-gray-on-white">
           We've hand-selected the top builders and leaders in AI Engineering to
@@ -43,7 +43,7 @@ export function Overview() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <div className="text-gray-on-white text-base">
-            Wednesday, Feb 19, 5:00-7:30pm
+            Wednesday, Nov 19, 5:00-7:30pm
           </div>
           <h2 className="text-3xl font-bold">
             Leadership Track Welcome Reception &amp; Expo
@@ -71,7 +71,7 @@ export function Overview() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <div className="text-gray-on-white text-base">
-            Thursday, Feb 20, 8:00am - 7:00pm
+            Thursday, Nov 20, 8:00am - 7:00pm
           </div>
           <h2 className="text-3xl font-bold">
             Leadership Session Day + Evening Social
@@ -115,7 +115,7 @@ export function Overview() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <div className="text-gray-on-white text-base">
-            Friday, Feb 21, 8am - 5:00pm
+            Friday, Nov 21, 8am - 5:00pm
           </div>
           <h2 className="text-3xl font-bold">Agent Engineering Session Day</h2>
           <p className="text-gray-on-white text-base">
@@ -158,7 +158,7 @@ export function Overview() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <div className="text-gray-on-white text-base">
-            Sat, Feb 22 8:30am - 5:30pm
+            Sat, Nov 22 8:30am - 5:30pm
           </div>
           <h2 className="text-3xl font-bold">Workshops and Livestream Track</h2>
           <p className="text-gray-on-white text-base">
@@ -201,14 +201,14 @@ export function Overview() {
         </div>
         <div className="lg:flex-1 space-y-3">
           <div className="text-gray-on-white text-base">
-            Thur, Feb 19 - Sun, Feb 23
+            Thur, Nov 19 - Sun, Nov 23
           </div>
           <h2 className="text-3xl font-bold" id="meetups">
             Side Meetups, Hackathons & Satellite NYC Events
           </h2>
           <p className="text-gray-on-white text-base">
-            Come for the Summit, stay for the NYC AI scene! <br />
-            Events we recommend:
+            Come for the Code Summit, stay for the NYC AI scene! <br />
+            Many people organize side events around our Summits, and we help promote them for free. Past NYC events include:
           </p>
           {/* <p className=""> */}
           <ul className="text-gray-on-white text-base list-disc ml-2">
@@ -383,174 +383,6 @@ export function Overview() {
                 <b>Cursor Hack Night</b>
               </a>
             </li>
-            {/* <li>
-              <b>Jun 23</b>:
-              <a
-                href="https://lu.ma/fast-takeoff"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Fast Takeoff: SF Deep Tech Week Launch Party
-              </a>
-            </li>
-            <li>
-              <b>Jun 24</b>:
-              <a
-                href="https://lu.ma/vpdj2zoj?utm_source=aiewf"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1 font-bold"
-              >
-                the RAG++ Official AIEWF Pre-party by DataStax
-              </a>
-            </li>
-            <li>
-              <b>Jun 24</b>:
-              <a
-                href="https://lu.ma/genlabxaiengineer"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1 font-bold"
-              >
-                the GenLab x AIEWF Amplifying Humans Hackathon
-              </a>{' '}
-              (winners present at AIEWF!)
-            </li>
-            <li>
-              <b>Jun 24</b>:
-              <a
-                href="https://lu.ma/LLMemory"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Long-Term Memory with MindsDB, MemGPT, and Arize AI
-              </a>
-            </li>
-            <li>
-              <b>Jun 24</b>:
-              <a
-                href="https://lu.ma/ai-engineer-summit-pre-party"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                AI Devtools Pre-Party w/ Heavybit & Continue.dev
-              </a>
-            </li>
-            <li>
-              <b>Jun 24</b>:
-              <a
-                href="https://lu.ma/ai-devtools-night"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                AI Dev Tools Night w/ Sourcegraph, Weaviate, Jam.dev
-              </a>
-            </li>
-            <li>
-              <b>Jun 25</b>:
-              <a
-                href="https://www.aiqualityconference.com/"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                the AI Quality Conference
-              </a>
-            </li>
-            <li>
-              <b>Jun 25</b>:
-              <a
-                href="https://lu.ma/stg79kvs"
-                target="_blank"
-                className="font-bold text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Cheers in the Clouds
-              </a>{' '}
-              with Crusoe (onsite!)
-            </li>
-            <li>
-              <b>Jun 26</b>:
-              <a
-                href="https://www.eventbrite.com/e/emergence-ai-launch-rooftop-after-party-tickets-927539093397?aff=oddtdtcreator"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Emergence.ai Rooftop Afterparty
-              </a>{' '}
-              to celebrate Launch
-            </li>
-            <li>
-              <b>Jun 26</b>:
-              <a
-                href="https://lu.ma/tmxrddfq"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                AIEWF Rooftop Happy Hour
-              </a>{' '}
-              Presented by Galileo, Cohere and Baseten
-            </li>
-            <li>
-              <b>Jun 26</b>:
-              <a
-                href="https://partiful.com/e/R4rkf0paYZBRS5T6HmTM"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Replicate After-After Party
-              </a>{' '}
-              7pm-10pm
-            </li>
-            <li>
-              <b>Jun 27</b>:
-              <a
-                href="https://x.com/davefontenot/status/1797676470527234409"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1 font-bold"
-              >
-                HF0 Demo Day
-              </a>{' '}
-              (inside the AIEWF Expo Sessions!)
-            </li>
-            <li>
-              <b>Jun 27</b>:
-              <a
-                href="https://lu.ma/8rxxdche"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                AI Builders Dinner
-              </a>{' '}
-              by BCV
-            </li>
-            <li>
-              <b>Jun 27</b>:
-              <a
-                href="https://lu.ma/anthropicAIworldfair"
-                target="_blank"
-                className="font-bold text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Anthropic x AWS Happy Hour
-              </a>{' '}
-              Talks, networking, demos!
-            </li>
-            <li>
-              <b>Jun 28</b>:
-              <a
-                href="https://lu.ma/k5mbvxxp"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                World's Fair Closer: AI Sizzle and Waves @ GitHub HQ
-              </a>
-            </li>
-            <li>
-              <b>Jun 28-30</b>:
-              <a
-                href="https://www.startupweekendsf.com/"
-                target="_blank"
-                className="text-blue-700 hover:text-blue-500 mx-1"
-              >
-                Techstars Startup Weekend
-              </a>
-            </li> */}
           </ul>
           {/* </p> */}
           <p className="text-gray-on-white text-base">
@@ -565,7 +397,7 @@ export function Overview() {
           </p>
           <p className="text-gray-on-white text-base">
             <b>
-              If you are organizing an NYC AI event around the week of Feb 19-23
+              If you are organizing an NYC AI event around the week of Nov 19-23
             </b>
             , please{' '}
             <a

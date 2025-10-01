@@ -24,7 +24,7 @@ export function FromTheTeam() {
         <h2 className="text-5xl">
           From the team behind the
           <br />
-          <b><a className="text-blue-500 hover:text-blue-600" href="https://ai.engineer/worldsfair">2024 AI Engineer World's Fair</a></b>
+          <b><a className="text-blue-500 hover:text-blue-600" href="https://ai.engineer/worldsfair/2024">2024</a> and <a className="text-blue-500 hover:text-blue-600" href="https://ai.engineer/worldsfair/2025">2025</a> AI Engineer World's Fair</b>
         </h2>
         {/* <p>Where we featured talks & workshops from top companies including:</p> */}
       </div>

@@ -4,23 +4,21 @@
 // import ticketTableMobileImg from '~/images/worldsfair-2024/ticket-table-mobile.png';
 // import ticketTableImg from '~/images/worldsfair-2024/ticket-table.png';
 import { Button } from '../Button';
-import { useWorldsFair2025 } from '../ChoosePrimaryLayout';
 
 export function TicketTable() {
-  const { BUY_TICKETS_URL } = useWorldsFair2025();
 
   return (
     <div className="space-y-8">
       <header className="text-center space-y-3 border-b pb-12">
         <h1 className="text-5xl" id="buytix">
-          <b>Buy AI Engineer Summit 2025 Tickets</b>
+          <b>Buy AIE Code Summit 2025 Tickets</b>
         </h1>
         {/* <p className="max-w-5xl m-auto text-gray-on-white">
 					We have now sold out of Early Bird tickets; General Admission has also
 					sold out.
 					<br /> Please join us online for the free livestream.
 				</p> */}
-        <Button href={BUY_TICKETS_URL} className="block w-52">
+        <Button href={"https://apply.ai.engineer"} className="block w-52">
           By invitation only. 
           <br /> 
           <br /> 

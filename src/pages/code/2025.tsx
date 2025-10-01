@@ -48,7 +48,7 @@ export default function Page({ presenters }: Props) {
         </Container>
       </div>
 
-      <div className="py-16" id="speakers">
+      {/* <div className="py-16" id="speakers">
         <Container>
           <SpeakerPreview presenters={presenters} />
           <hr />
@@ -120,7 +120,7 @@ export default function Page({ presenters }: Props) {
           </div>
           <hr />
         </Container>
-      </div>
+      </div> */}
 
       <Quote name="andrej-karpathy" />
 
@@ -160,7 +160,7 @@ export default function Page({ presenters }: Props) {
                 all: <b>the hallway track</b>!
               </p>
 
-              <p>
+              {/* <p>
                 <span className="uppercase font-mono bg-gray-600 p-1 rounded text-yellow-100">
                   New
                 </span>{' '}
@@ -171,6 +171,9 @@ export default function Page({ presenters }: Props) {
                 >
                   full talk schedule is now published here
                 </a>
+              </p> */}
+              <p className="mt-4 text-yellow-700">
+                Our schedule is not yet published, check back soon but you can look at our track record of past conferences :)
               </p>
             </header>
           </div>

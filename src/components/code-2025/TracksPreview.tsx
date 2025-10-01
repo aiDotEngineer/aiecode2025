@@ -32,7 +32,7 @@ export function TracksPreview() {
     <div className="space-y-12">
       <header className="text-center space-y-3">
         <h1 className="text-5xl">
-          <b>The Highest Concentration of AI Engineering Talent in the World</b>
+          <b>The Highest Concentration of Coding Agent leaders in the World</b>
         </h1>
         <p className="max-w-xl m-auto text-gray-on-black text-justify">
           We have gathered the top builders and leaders in AI Engineering. 
