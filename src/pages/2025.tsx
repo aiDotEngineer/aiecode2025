@@ -10,28 +10,29 @@ import clsx from "clsx";
 import { Container } from "~/components/Container";
 import { Quote } from "~/components/Quote";
 import { TestimonialCarousel } from "~/components/Testimonials";
-import { useAppBannerContext } from "~/components/worldsfair-2025/AppBanner";
-import { Counters } from "~/components/worldsfair-2025/Counters";
-import { Expo } from "~/components/worldsfair-2025/Expo";
-import { FreeRemoteTicket } from "~/components/worldsfair-2025/FreeRemoteTicket";
-import { FromTheTeam } from "~/components/worldsfair-2025/FromTheTeam";
-import { Hero } from "~/components/worldsfair-2025/Hero";
-import { Overview } from "~/components/worldsfair-2025/Overview";
-import { Section } from "~/components/worldsfair-2025/Section";
-import { Sponsors } from "~/components/worldsfair-2025/Sponsors";
-import { TicketTable } from "~/components/worldsfair-2025/TicketTable";
-import { TracksPreview } from "~/components/worldsfair-2025/TracksPreview";
-import { VenueAndHotel } from "~/components/worldsfair-2025/VenueAndHotel";
-import { WhatsNext } from "~/components/worldsfair-2025/WhatsNext";
-import { Workshops } from "~/components/worldsfair-2025/Workshops";
-import LogoWall from "~/images/worldsfair-2025/logowall.png";
+import { useAppBannerContext } from "~/components/code-2025/AppBanner";
+import { Counters } from "~/components/code-2025/Counters";
+import { Expo } from "~/components/code-2025/Expo";
+import { FreeRemoteTicket } from "~/components/code-2025/FreeRemoteTicket";
+import { FromTheTeam } from "~/components/code-2025/FromTheTeam";
+import { Hero } from "~/components/code-2025/Hero";
+import { Overview } from "~/components/code-2025/Overview";
+import { Section } from "~/components/code-2025/Section";
+import { Sponsors } from "~/components/code-2025/Sponsors";
+import { TicketTable } from "~/components/code-2025/TicketTable";
+import { TracksPreview } from "~/components/code-2025/TracksPreview";
+import { VenueAndHotel } from "~/components/code-2025/VenueAndHotel";
+import { WhatsNext } from "~/components/code-2025/WhatsNext";
+import { Workshops } from "~/components/code-2025/Workshops";
+// Use public image path instead
+const LogoWall = { src: "/wf25logowall.png" };
 import { formatSpeakersData } from "~/utils/formatSpeakersData";
 
 // https://nextjs.org/docs/messages/react-hydration-error#solution-2-disabling-ssr-on-specific-components
-// import { SpeakerPreview } from "~/components/worldsfair-2025/SpeakerPreview";
+// import { SpeakerPreview } from "~/components/code-2025/SpeakerPreview";
 import dynamic from 'next/dynamic'
 const SpeakerPreview = dynamic(() =>
-  import('~/components/worldsfair-2025/SpeakerPreview').then((mod) => mod.SpeakerPreview),
+  import('~/components/code-2025/SpeakerPreview').then((mod) => mod.SpeakerPreview),
   { ssr: false }
 )
 
@@ -87,7 +88,7 @@ export default function Page({ sessionEvents }: any) {
       </Section>
       
       <Section  id="speakers">
-        <SpeakerPreview presenters={presenters} tracks={tracks} formats={formats} />
+        <SpeakerPreview presenters={presenters} tracks={tracks} />
       </Section>
 
       <Section lightText className="bg-black">

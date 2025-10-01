@@ -1,8 +1,28 @@
 import Image from 'next/image';
 
-import { parseSocialLinks } from '@pkg/api/src/support/parseSocialLinks';
-
 import { MarkdownView } from '../MarkdownView';
+
+// Simple replacement for parseSocialLinks
+function parseSocialLinks(socialLinks: string | null): {
+  socialLinkedIn: string | null;
+  socialTwitter: string | null;
+  socialOther: string | null;
+} {
+  if (!socialLinks) {
+    return { socialLinkedIn: null, socialTwitter: null, socialOther: null };
+  }
+  
+  try {
+    const links = JSON.parse(socialLinks);
+    return {
+      socialLinkedIn: links.linkedin || links.linkedIn || null,
+      socialTwitter: links.twitter || links.x || null,
+      socialOther: links.website || links.other || null,
+    };
+  } catch {
+    return { socialLinkedIn: null, socialTwitter: null, socialOther: null };
+  }
+}
 
 type PresenterItemProps = {
   about: string;

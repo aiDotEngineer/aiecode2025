@@ -1,7 +1,7 @@
 
 import { NextPage } from 'next';
 import ScheduleListPage from './schedule-list';
-import { Header } from '../components/worldsfair-2025/Header'; // [INFO][2025-05-20T10:54:38-07:00] Un-commented for always-visible header
+import { Header } from '../components/code-2025/Header'; // [INFO][2025-05-20T10:54:38-07:00] Un-commented for always-visible header
 
 type ScheduleView = 'calendar' | 'list' | 'detailed';
 
@@ -35,7 +35,7 @@ const SchedulePage: NextPage = () => {
 
   return (
     <>
-      <Header path="/schedule" alwaysShow />
+      <Header path="/schedule" />
       <main className="min-h-screen bg-stone-100 py-32">
         <div className="max-w-full mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-6">World's Fair 2025 Schedule</h1>

@@ -8,9 +8,10 @@ import {
 import clsx from 'clsx';
 import { LuChevronDown } from 'react-icons/lu';
 
-import imgAIAgents from '~/images/worldsfair-2024/tracks/ai-agents.jpg';
-import imgCodegen from '~/images/worldsfair-2024/tracks/codegen-and-devtools.jpg';
-import imgLeadership from '~/images/worldsfair-2024/tracks/leadership.jpg';
+// Use placeholder images
+const imgAIAgents = { src: "/home-hero-bg.jpg" };
+const imgCodegen = { src: "/home-hero-bg.jpg" };
+const imgLeadership = { src: "/home-hero-bg.jpg" };
 
 type TrackTop = '01';
 type TrackBottom = '02';

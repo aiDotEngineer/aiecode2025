@@ -2,8 +2,8 @@ import { NextPage } from "next";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { Header } from "../components/worldsfair-2025/Header";
-import { Schedule } from "../components/worldsfair-2025/Schedule";
+import { Header } from "../components/code-2025/Header";
+import { Schedule } from "../components/code-2025/Schedule";
 import speakersSessionsData from '../utils/speakers-sessions-details.json';
 
 // Interfaces for the JSON

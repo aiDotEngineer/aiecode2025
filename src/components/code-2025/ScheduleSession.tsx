@@ -6,7 +6,8 @@ import { BsArrowsCollapse } from 'react-icons/bs';
 import { FaPlay } from 'react-icons/fa';
 import { TbBrandYoutubeFilled } from 'react-icons/tb';
 
-import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
+// import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
+type SessionEvent = any;
 
 import { Border } from '~/components/Border';
 import { getLogo } from '~/components/Logos';
@@ -61,7 +62,7 @@ function DecibelLogo() {
 }
 
 function getPresentersForPics(presenters: SessionEvent['presenters']) {
-  return presenters.map((speaker) => ({
+  return presenters.map((speaker: any) => ({
     name: speaker?.attributes.name || 'tbc',
     profilePhotoUrl:
       speaker?.attributes.profilePhoto.data?.attributes.url ||
@@ -70,7 +71,7 @@ function getPresentersForPics(presenters: SessionEvent['presenters']) {
 }
 
 function getPresentersForNames(presenters: SessionEvent['presenters']) {
-  return presenters.map((speaker) => ({
+  return presenters.map((speaker: any) => ({
     company: speaker?.attributes.company.data?.attributes.name || 'tbc',
     name: speaker?.attributes.name || 'tbc',
     tagline: speaker?.attributes.tagline || 'tbc',
@@ -178,7 +179,7 @@ function ConciseView({ session }: { session: SessionEvent }) {
               </time>
 
               <div className="flex flex-col justify-center md:items-end lg:gap-1">
-                {getPresentersForNames(session.presenters).map((speaker) => {
+                {getPresentersForNames(session.presenters).map((speaker: any) => {
                   return (
                     <div key={speaker.name}>
                       <p className="flex gap-x-2 text-sm text-black">

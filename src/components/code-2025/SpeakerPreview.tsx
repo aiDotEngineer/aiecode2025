@@ -1,7 +1,8 @@
-import { Fragment, useState } from 'react';
+import { Fragment, useMemo, useState } from 'react';
 import clsx from 'clsx';
 
-import { type Presenter } from '@pkg/api/src/cms2/types';
+// import { type Presenter } from '@pkg/api/src/cms2/types';
+type Presenter = any;
 
 import { Button } from '../Button';
 // import { FadeIn, FadeInStagger } from '~/components/FadeIn';
@@ -38,7 +39,7 @@ export function SpeakerPreview({ presenters, tracks = [] }: Props) {
     .sort((a, b) => a.attributes.displayOrder - b.attributes.displayOrder)
     .filter((presenter) => {
       const presenterTracks = presenter.attributes.sessions.data.map(
-        (session) => {
+        (session: any) => {
           return session.attributes.track.data?.attributes.name;
         },
       );

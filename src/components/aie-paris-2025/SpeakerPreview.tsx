@@ -4,8 +4,8 @@ import clsx from "clsx";
 // import { type Presenter } from '@pkg/api/src/cms2/types';
 
 // import { FadeIn, FadeInStagger } from '~/components/FadeIn';
-import { useAppBannerContext } from "../worldsfair-2025/AppBanner";
-import { useLocalStorage } from "../worldsfair-2025/useLocalStorage";
+import { useAppBannerContext } from "../code-2025/AppBanner";
+import { useLocalStorage } from "../code-2025/useLocalStorage";
 
 // import { useWorldsFair2025 } from '../ChoosePrimaryLayout';
 

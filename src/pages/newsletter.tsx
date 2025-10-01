@@ -1,12 +1,10 @@
 import { NewsletterBullets, NewsletterFormOne } from '~/components/Newsletter';
-import background from '~/images/worldsfair-2025/hero-newsletter.jpg';
 
 export default function Newsletter() {
   return (
     
     <div
-      className="pt-48 pb-20 px-6 md:px-12 bg-cover"
-      style={{ backgroundImage: `url(${background.src})` }}
+      className="pt-48 pb-20 px-6 md:px-12 bg-neutral-800"
     >
       <div
         className="mx-auto bg-white rounded-2xl p-10 space-y-5"

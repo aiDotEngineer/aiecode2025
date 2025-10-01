@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import clsx from 'clsx';
 
-import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
+// import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
+type SessionEvent = any;
 
 import { formatSingleDate } from '~/utils/formatSingleDate';
 import { Container } from '~/components/Container';
@@ -13,7 +14,7 @@ import { useLocalStorage } from './useLocalStorage';
 const MENU_HEIGHT = 70;
 
 type ScheduleProps = {
-  sessionEvents: SessionEvent[];
+  sessionEvents: any[];
 };
 
 export function Schedule({ sessionEvents }: ScheduleProps) {
@@ -21,18 +22,18 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const filter = searchParams.get('filter') ?? '';
+  const filter = searchParams?.get('filter') ?? '';
 
   const [showPlenary, setShowPlenary] = useLocalStorage('showPlenary', true);
   const dateMenuRef = useRef<HTMLDivElement>(null);
 
   const trackNameOptions = sessionEvents
-    .reduce((names, next) => {
+    .reduce((names: string[], next: any) => {
       return names.includes(next.trackName)
         ? names
         : names.concat(next.trackName);
     }, [] as string[])
-    .filter((name) => !name.toLowerCase().includes('plenary'));
+    .filter((name: string) => !name.toLowerCase().includes('plenary'));
 
   const sessions = useMemo(() => {
     // Show All
@@ -139,7 +140,7 @@ export function Schedule({ sessionEvents }: ScheduleProps) {
 
             <select
               onChange={(e) => {
-                const params = new URLSearchParams(searchParams.toString());
+                const params = new URLSearchParams(searchParams?.toString() || '');
                 params.set('filter', e.target.value);
                 router.push(`${pathname}?${params.toString()}`);
               }}

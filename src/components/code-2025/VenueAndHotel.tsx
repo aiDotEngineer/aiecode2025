@@ -2,9 +2,10 @@ import Image from 'next/image';
 import { PiGlobe } from 'react-icons/pi';
 import { TbMap } from 'react-icons/tb';
 
-import imgVenue1 from '~/images/summit-2025/hotel/venue-1.jpeg';
-import imgVenue2 from '~/images/summit-2025/hotel/venue-2.jpg';
-import imgVenue3 from '~/images/summit-2025/hotel/venue-3.jpg';
+// Use placeholder images
+const imgVenue1 = "/home-hero-bg.jpg";
+const imgVenue2 = "/home-hero-bg.jpg";
+const imgVenue3 = "/home-hero-bg.jpg";
 import { Button } from '../Button';
 
 const bookingUrl = '';

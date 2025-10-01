@@ -4,10 +4,10 @@ import Link from "next/link"; // [INFO][2025-05-20T10:44:10-07:00] Fix: Import L
 
 import { Button } from "~/components/Button";
 import { speakers } from "~/components/aie-paris-2025/speakers";
-import { Section } from "~/components/worldsfair-2025/Section";
+import { Section } from "~/components/code-2025/Section";
 import { CountUp } from "~/components/CountUp";
 import Image from "next/image";
-import imgPlaceholder from "~/images/worldsfair-2025/hero-placeholder.jpg";
+import imgPlaceholder from "~/images/code-2025/hero-placeholder.jpg";
 import { useRef } from "react";
 import { Logo } from "~/components/Logos";
 import { Overview } from "~/components/aie-paris-2025/Overview";

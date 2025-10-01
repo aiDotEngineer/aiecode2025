@@ -9,7 +9,7 @@ import { BsArrowsCollapse, BsArrowsExpand } from 'react-icons/bs';
 import { formatSingleDate } from '~/utils/formatSingleDate';
 import { Container } from '~/components/Container';
 import { ScheduleSession } from './ScheduleSession';
-import { useLocalStorage } from '../worldsfair-2025/useLocalStorage';
+import { useLocalStorage } from '../code-2025/useLocalStorage';
 
 const MENU_HEIGHT = 70;
 

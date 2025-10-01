@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
-import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
+// import type { SessionEvent } from '@pkg/api/src/cms2/schedule';
+type SessionEvent = any;
 
 import { Button } from '../Button';
 import { FadeIn } from '../FadeIn';
@@ -56,7 +57,7 @@ function WorkshopItem({ item }: { item: SessionEvent }) {
   //   name: speaker.attributes.name,
   //   profilePhotoUrl: speaker.attributes.profilePhoto.data.attributes.url,
   // }));
-  const presentersForNames = item.presenters.map((speaker) => ({
+  const presentersForNames = item.presenters.map((speaker: any) => ({
     name: speaker.attributes.name,
     tagline: speaker.attributes.tagline,
     company: speaker.attributes.company.data?.attributes.name,

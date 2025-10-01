@@ -166,7 +166,7 @@ export default function Page() {
                 <h3 className="font-semibold text-lg text-white">Summit 2025</h3>
                 <p className="text-sm text-gray-300">Feb 2025 • New York, NY</p>
                 <div className="flex space-x-2 justify-between">
-                  <a href="/summit/2025" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
+                  <Link href="/summit/2025" className="block text-blue-400 hover:text-blue-300 text-sm">Site</Link>
                   <a href="https://www.youtube.com/watch?v=D7BzTxVVMuw&t=19868s" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
                 </div>
               </div>
@@ -182,7 +182,7 @@ export default function Page() {
                 <h3 className="font-semibold text-lg text-white">Paris 2025 (by Koyeb)</h3>
                 <p className="text-sm text-gray-300">Sep 2025 • Paris, France</p>
                 <div className="flex space-x-2 justify-between">
-                  <a href="/paris" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
+                  <Link href="/paris" className="block text-blue-400 hover:text-blue-300 text-sm">Site</Link>
                   <a href="https://www.youtube.com/watch?v=wyUdpmj9-64" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
                 </div>
               </div>

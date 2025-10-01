@@ -1,17 +1,17 @@
 import Image, { type StaticImageData } from "next/image";
 
-import iconAlgo from "~/images/worldsfair-2025/whatsnext/algo.svg";
-import iconConfetti from "~/images/worldsfair-2025/whatsnext/confetti.svg";
-import bgExpo from "~/images/worldsfair-2025/whatsnext/expo.png";
-import bgFacilitatedDiscussions from "~/images/worldsfair-2025/whatsnext/facilitated-discussions.png";
-import iconHandshake from "~/images/worldsfair-2025/whatsnext/handshake.svg";
-import iconMessages from "~/images/worldsfair-2025/whatsnext/messages.svg";
-import bgNerds from "~/images/worldsfair-2025/whatsnext/nerds.png";
-import bgNetworking from "~/images/worldsfair-2025/whatsnext/networking.png";
-import iconPencil from "~/images/worldsfair-2025/whatsnext/pencil.svg";
-import bgTalks from "~/images/worldsfair-2025/whatsnext/talks.png";
-import bgWorkshops from "~/images/worldsfair-2025/whatsnext/workshops.png";
-import iconWorldCode from "~/images/worldsfair-2025/whatsnext/world-code.svg";
+import iconAlgo from "~/images/code-2025/whatsnext/algo.svg";
+import iconConfetti from "~/images/code-2025/whatsnext/confetti.svg";
+import bgExpo from "~/images/code-2025/whatsnext/expo.png";
+import bgFacilitatedDiscussions from "~/images/code-2025/whatsnext/facilitated-discussions.png";
+import iconHandshake from "~/images/code-2025/whatsnext/handshake.svg";
+import iconMessages from "~/images/code-2025/whatsnext/messages.svg";
+import bgNerds from "~/images/code-2025/whatsnext/nerds.png";
+import bgNetworking from "~/images/code-2025/whatsnext/networking.png";
+import iconPencil from "~/images/code-2025/whatsnext/pencil.svg";
+import bgTalks from "~/images/code-2025/whatsnext/talks.png";
+import bgWorkshops from "~/images/code-2025/whatsnext/workshops.png";
+import iconWorldCode from "~/images/code-2025/whatsnext/world-code.svg";
 import { Tiles } from "../Tiles";
 
 export function WhatsNext() {
