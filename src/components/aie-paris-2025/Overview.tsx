@@ -1,13 +1,11 @@
 import Image from "next/image";
 
-import imgLeadershipTrack1 from "~/images/worldsfair-2025/overview/leadership-track-1.jpg";
-import imgLeadershipTrack2 from "~/images/worldsfair-2025/overview/leadership-track-2.jpg";
-import imgOtherDays1 from "~/images/worldsfair-2025/overview/other-days-1.png";
-import imgOtherDays2 from "~/images/worldsfair-2025/overview/other-days-2.jpg";
-import imgSessionDays1 from "~/images/worldsfair-2025/overview/session-days-1.jpg";
-import imgSessionDays2 from "~/images/worldsfair-2025/overview/session-days-2.jpg";
-import imgWorkshops1 from "~/images/worldsfair-2025/overview/workshop-day-1.jpg";
-import imgWorkshops2 from "~/images/worldsfair-2025/overview/workshop-day-2.jpg";
+const imgLeadershipTrack1 = "/home-hero-bg.jpg";
+const imgLeadershipTrack2 = "/home-hero-bg.jpg";
+const imgSessionDays1 = "/home-hero-bg.jpg";
+const imgSessionDays2 = "/home-hero-bg.jpg";
+const imgWorkshops1 = "/home-hero-bg.jpg";
+const imgWorkshops2 = "/home-hero-bg.jpg";
 
 export function Overview() {
   return (

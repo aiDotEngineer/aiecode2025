@@ -8,15 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@hashbrownai/core':
-        specifier: ^0.1.1
-        version: 0.1.2
-      '@hashbrownai/react':
-        specifier: ^0.1.1
-        version: 0.1.2(@hashbrownai/core@0.1.2)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      '@hashbrownai/writer':
-        specifier: ^0.1.1
-        version: 0.1.2(@hashbrownai/core@0.1.2)(zod@3.25.76)
       '@hookform/resolvers':
         specifier: ^5.0.1
         version: 5.2.2(react-hook-form@7.63.0(react@19.1.1))
@@ -282,21 +273,6 @@ packages:
 
   '@floating-ui/utils@0.2.10':
     resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
-
-  '@hashbrownai/core@0.1.2':
-    resolution: {integrity: sha512-c7m7rxTBC9gckELT+kyVcwJLO84Waq0xdtqMaMXIdG0wYvnBU5Ekrxq/JPwWM8u/E/btjUkgND3oxGQ3J1UIWQ==}
-
-  '@hashbrownai/react@0.1.2':
-    resolution: {integrity: sha512-vT4+eHaP6t/UUc8ucHdzvHSdwEJ49iMFHodj9nvq5TUB34vvu8nkCv/of7ta+K3k9LjBBucHhoaxJ4txgi5t3Q==}
-    peerDependencies:
-      '@hashbrownai/core': 0.1.2
-      react: ~18.3.1 || ~19.0.0
-      react-dom: ~18.3.1 || ~19.0.0
-
-  '@hashbrownai/writer@0.1.2':
-    resolution: {integrity: sha512-CgtdmQxPtD+W8b9Ko0mXPhfaqFozmIjATqHYad3WqS9kbkFNl6SXMVDVuTqPd/g8jtfNaLcfUuEvcF7OvCpvtA==}
-    peerDependencies:
-      '@hashbrownai/core': 0.1.2
 
   '@hookform/resolvers@5.2.2':
     resolution: {integrity: sha512-A/IxlMLShx3KjV/HeTcTfaMxdwy690+L/ZADoeaTltLx+CVuzkeVIPuybK3jrRfw7YZnmdKsVVHAlEPIAEUNlA==}
@@ -3181,15 +3157,6 @@ packages:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
-  writer-sdk@2.3.1:
-    resolution: {integrity: sha512-2GsfnftaSZ2T7NA12AjpnRa1wCzo5s6f0ZAv+AAPi0PXMP5CIZgOwssoIW7Q3De5MYg3U0fnZBlLnoUjZ4f0yQ==}
-    hasBin: true
-    peerDependencies:
-      zod: ^3.23.8
-    peerDependenciesMeta:
-      zod:
-        optional: true
-
   ws@8.18.3:
     resolution: {integrity: sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==}
     engines: {node: '>=10.0.0'}
@@ -3339,24 +3306,6 @@ snapshots:
       react-dom: 19.1.1(react@19.1.1)
 
   '@floating-ui/utils@0.2.10': {}
-
-  '@hashbrownai/core@0.1.2':
-    dependencies:
-      tslib: 2.8.1
-
-  '@hashbrownai/react@0.1.2(@hashbrownai/core@0.1.2)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
-    dependencies:
-      '@hashbrownai/core': 0.1.2
-      react: 19.1.1
-      react-dom: 19.1.1(react@19.1.1)
-
-  '@hashbrownai/writer@0.1.2(@hashbrownai/core@0.1.2)(zod@3.25.76)':
-    dependencies:
-      '@hashbrownai/core': 0.1.2
-      tslib: 2.8.1
-      writer-sdk: 2.3.1(zod@3.25.76)
-    transitivePeerDependencies:
-      - zod
 
   '@hookform/resolvers@5.2.2(react-hook-form@7.63.0(react@19.1.1))':
     dependencies:
@@ -6651,10 +6600,6 @@ snapshots:
       isexe: 2.0.0
 
   word-wrap@1.2.5: {}
-
-  writer-sdk@2.3.1(zod@3.25.76):
-    optionalDependencies:
-      zod: 3.25.76
 
   ws@8.18.3: {}
 
