@@ -112,6 +112,9 @@ const mappings = {
   'https://aie-summit.vercel.app/summit/:path*': [
     '/summit/:path*'
   ],
+  'https://aiewf2025.vercel.app/:path*': [
+    '/worldsfair/2025/:path*'
+  ],
   'https://aie-summit.vercel.app/worldsfair/2024': [
     '/worldsfair/2024',
   ],
@@ -128,14 +131,14 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/worldsfair',
-        destination: '/', 
+        destination: 'https://aiewf2025.vercel.app/', 
         permanent: false,
       },
-      {
-        source: '/ai',
-        destination: '/llms', 
-        permanent: false,
-      },
+      // {
+      //   source: '/ai',
+      //   destination: '/llms', 
+      //   permanent: false,
+      // },
       {
         source: '/volunteer',
         destination: 'https://docs.google.com/forms/d/e/1FAIpQLSewGzjGQ51Uv453Qa6XFI9cRz2fmqvgtTfvciuvc4xJs9I3AA/viewform', 
@@ -206,9 +209,13 @@ const nextConfig: NextConfig = {
           source: '/slack',
           destination: 'https://join.slack.com/t/aidotengineer/shared_invite/zt-36p7ffwpy-ltBmPb7vOSWhHzB_U3d~LQ',
         },
+        // {
+        //   source: '/:path*',
+        //   destination: 'https://aie-summit.vercel.app/:path*',
+        // },
         {
           source: '/:path*',
-          destination: 'https://aie-summit.vercel.app/:path*',
+          destination: 'https://aiewf2025.vercel.app/:path*',
         }
       ],
       fallback: [
