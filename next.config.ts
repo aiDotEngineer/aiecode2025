@@ -1,16 +1,21 @@
 import type { NextConfig } from "next";
 const directMappings2 = [
   // worldsfair 2025
-  '_next/static/css/010e58f3fe7f94dd.css?dpl=dpl_4UvtjbN4nyWtD5p2z4dM2Fun4sBA',
-  '_next/static/chunks/framework-e438b923746a6e44.js?dpl=dpl_4UvtjbN4nyWtD5p2z4dM2Fun4sBA',
-  '_next/static/chunks/main-6e0729e405dde7c6.js?dpl=dpl_4UvtjbN4nyWtD5p2z4dM2Fun4sBA',
-  '_next/static/chunks/pages/_app-2f9f1e27b389ab31.js?dpl=dpl_4UvtjbN4nyWtD5p2z4dM2Fun4sBA',
+  '_next/static/css/010e58f3fe7f94dd.css*',
+  '_next/static/chunks/framework-e438b923746a6e44.js*',
+  '_next/static/chunks/main-6e0729e405dde7c6.js*',
+  '_next/static/chunks/pages/_app-2f9f1e27b389ab31.js*',
+  '_next/static/chunks/pages/index-b43c1390a511e024.js*',
+  '_next/static/css/010e58f3fe7f94dd.css',
 
-  '_next/static/chunks/pages/index-b43c1390a511e024.js?dpl=dpl_4UvtjbN4nyWtD5p2z4dM2Fun4sBA',
+'_next/static/chunks/framework-e438b923746a6e44.js',
+
+'_next/static/chunks/main-6e0729e405dde7c6.js',
+
+'_next/static/chunks/pages/_app-2f9f1e27b389ab31.js',
+
+'_next/static/chunks/pages/index-b43c1390a511e024.js',
 ]
-
-
-
 
 const directMappings = [
   // nextjs has bugs when proxying to other nextjs apps via rewrites
