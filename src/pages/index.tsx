@@ -134,7 +134,7 @@ export default function Page() {
                   />
                 <EventCallout
                   month="2026"
-                  day="TBA"
+                  day="Q2"
                   subTitle="June 30-July 2 2026, San Francisco, CA"
                   title="AI Engineer World's Fair 2026"
                   desc="The largest technical AI conference in the world, with 20 tracks, 250 speakers, 100 expo partners, 5,000 AI Engineers, founders, and VPs of AI. Save the date - we're heading to Moscone in 2026! If your company would like to be featured, reach out at sponsorships@ai.engineer"
