@@ -120,7 +120,7 @@ const mappings = {
   'https://aie-summit.vercel.app/summit/:path*': [
     '/summit/:path*'
   ],
-  'https://aiewf2025.vercel.app/:path*': [
+  'https://aiewf2025.vercel.app/worldsfair/2025/:path*': [
     '/worldsfair/2025/:path*'
   ],
   'https://aie-summit.vercel.app/worldsfair/2024': [
@@ -171,8 +171,8 @@ const nextConfig: NextConfig = {
           }))
         ),
         ...directMappings2.map(path => ({
-          source: `/${path}`,
-          destination: `https://aiewf2025.vercel.app/${path}`
+          source: `/worldsfair/2025/${path}`,
+          destination: `https://aiewf2025.vercel.app/worldsfair/2025/${path}`
         })),
         ...directMappings.map(path => ({
           source: `/${path}`,
@@ -227,7 +227,7 @@ const nextConfig: NextConfig = {
         // },
         {
           source: '/:path*',
-          destination: 'https://aiewf2025.vercel.app/:path*',
+          destination: 'https://aiewf2025.vercel.app/worldsfair/2025/:path*',
         }
       ],
       fallback: [
