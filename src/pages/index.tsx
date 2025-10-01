@@ -125,12 +125,12 @@ export default function Page() {
                   href="/code"
                   />
                   <EventCallout
-                    month="Feb"
-                    day="Q1"
-                    subTitle="Jan-Feb, San Francisco, CA"
-                    title="AI Engineer Data Summit"
-                    desc="The first AI Engineer Summit focused on Data: Novel Datasets, Synthetic Data, RL Environments. Contact @swyx for more details."
-                    // href="/paris"
+                    month="2026"
+                    day="EU"
+                    subTitle="April 7-10, London, UK"
+                    title="AI Engineer Europe"
+                    desc="The first official AI Engineer Europe event! Bringing our large multitrack technical AI conference to Europe for over 1000 AI Engineers."
+                    href="https://book.stripe.com/cNi28k6h5cds8AP0jkgrS01"
                   />
                 <EventCallout
                   month="2026"
@@ -151,7 +151,7 @@ export default function Page() {
                 <p className="text-sm text-gray-300">Oct 2023 • San Francisco, CA</p>
                 <div className="flex space-x-2 justify-between">
                   <a href="/summit/2023" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
-                  <a href="https://www.youtube.com/watch?v=veShHxQYPzo" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                  <a href="https://www.youtube.com/watch?v=veShHxQYPzo" className="block text-yellow-400 hover:text-yellow-300 text-sm">~400k views</a>
                 </div>
               </div>
               <div className="bg-black rounded-lg p-4 shadow-sm border">
@@ -159,7 +159,7 @@ export default function Page() {
                 <p className="text-sm text-gray-300">Jun 2024 • San Francisco, CA</p>
                 <div className="flex space-x-2 justify-between">
                   <a href="/worldsfair/2024" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
-                  <a href="https://www.youtube.com/watch?v=5zE2sMka620&t=10209s" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                  <a href="https://www.youtube.com/watch?v=5zE2sMka620&t=10209s" className="block text-yellow-400 hover:text-yellow-300 text-sm">~800k views</a>
                 </div>
               </div>
               <div className="bg-black rounded-lg p-4 shadow-sm border">
@@ -167,7 +167,7 @@ export default function Page() {
                 <p className="text-sm text-gray-300">Feb 2025 • New York, NY</p>
                 <div className="flex space-x-2 justify-between">
                   <Link href="/summit/2025" className="block text-blue-400 hover:text-blue-300 text-sm">Site</Link>
-                  <a href="https://www.youtube.com/watch?v=D7BzTxVVMuw&t=19868s" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                  <a href="https://www.youtube.com/watch?v=D7BzTxVVMuw&t=19868s" className="block text-yellow-400 hover:text-yellow-300 text-sm">1.5m views</a>
                 </div>
               </div>
               <div className="bg-black rounded-lg p-4 shadow-sm border">
@@ -175,7 +175,7 @@ export default function Page() {
                 <p className="text-sm text-gray-300">Jun 2025 • San Francisco, CA</p>
                 <div className="flex space-x-2 justify-between">
                   <a href="/worldsfair/2025" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
-                  <a href="https://www.youtube.com/watch?v=z4zXicOAF28&t=13s" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                  <a href="https://www.youtube.com/watch?v=z4zXicOAF28&t=13s" className="block text-yellow-400 hover:text-yellow-300 text-sm">4.5m views</a>
                 </div>
               </div>
               <div className="bg-black rounded-lg p-4 shadow-sm border">
