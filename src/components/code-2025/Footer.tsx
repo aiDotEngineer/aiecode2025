@@ -138,9 +138,9 @@ export function Footer() {
         </div>
       </Container>
       <PrimaryFooter>
-        <Link href={CONF_URL} aria-label="Home">
+        {/* <Link href={CONF_URL} aria-label="Home">
           <Logo logo="summit" variant="black" className="w-56" />
-        </Link>
+        </Link> */}
       </PrimaryFooter>
     </footer>
   );

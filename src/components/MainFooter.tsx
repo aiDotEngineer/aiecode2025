@@ -109,9 +109,9 @@ export function MainFooter() {
           </div>
         </div>
       </Container>
-      <PrimaryFooter>
+      {/* <PrimaryFooter>
         <Logo logo="aie" variant="black" />
-      </PrimaryFooter>
+      </PrimaryFooter> */}
     </footer>
   );
 }

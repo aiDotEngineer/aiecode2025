@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import { Logo } from '~/components/Logos';
 // import { HeroBuyTickets } from '~/components/summit-2025/HeroBuyTickets';
-import imgSummitLogo from '../../images/code-2025/ai_eng_summit_logo.svg';
+import imgSummitLogo from '../../images/code-2025/aie_code_summit_logo.svg';
 import imgPlaceholder from '~/images/code-2025/hero-placeholder.jpg';
 import { useWorldsFair2025 } from '../ChoosePrimaryLayout';
 import { Container } from '../Container';
