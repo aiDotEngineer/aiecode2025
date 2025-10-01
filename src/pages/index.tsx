@@ -117,20 +117,20 @@ export default function Page() {
                   Upcoming Events
                 </div>
                 <EventCallout
-                  month="Sept"
-                  day="Q3"
-                  subTitle="September 23-24, Paris, France"
-                  title="AIE Paris 2025"
-                  desc="The first third-party AIE community conference, organized by Koyeb, in Paris!"
-                  href="/paris"
-                />
-                <EventCallout
                   month="Nov"
                   day="Q4"
                   subTitle="November 20-22, New York, NY"
-                  title="AI Engineer Fall Summit"
-                  desc="The invite-only summit so nice, we're doing it twice! A followup to the most popular track from the 2025 World's Fair. Applications open soon."
-                  href="https://apply.ai.engineer"
+                  title="AI Engineer Code Summit"
+                  desc="The invite-only summit so nice, we're doing it twice! The highest concentration of coding agent builders and superusers in one room. Applications open now."
+                  href="/code"
+                  />
+                  <EventCallout
+                    month="Feb"
+                    day="Q1"
+                    subTitle="Jan-Feb, San Francisco, CA"
+                    title="AI Engineer Data Summit"
+                    desc="The first AI Engineer Summit focused on Data: Novel Datasets, Synthetic Data, RL Environments. Contact @swyx for more details."
+                    // href="/paris"
                   />
                 <EventCallout
                   month="2026"
@@ -140,6 +140,51 @@ export default function Page() {
                   desc="The largest technical AI conference in the world, with 20 tracks, 250 speakers, 100 expo partners, 5,000 AI Engineers, founders, and VPs of AI. Save the date - we're heading to Moscone in 2026! If your company would like to be featured, reach out at sponsorships@ai.engineer"
                 //   href="https://apply.ai.engineer"
                 />
+              </div>
+            </div>
+          </div>
+          <div className="mt-16">
+            <h2 className="font-bold text-2xl mb-8">Previous Conferences</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+              <div className="bg-black rounded-lg p-4 shadow-sm border">
+                <h3 className="font-semibold text-lg text-white">Summit 2023</h3>
+                <p className="text-sm text-gray-300">Oct 2023 • San Francisco, CA</p>
+                <div className="flex space-x-2 justify-between">
+                  <a href="/summit/2023" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
+                  <a href="https://www.youtube.com/watch?v=veShHxQYPzo" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                </div>
+              </div>
+              <div className="bg-black rounded-lg p-4 shadow-sm border">
+                <h3 className="font-semibold text-lg text-white">World's Fair 2024</h3>
+                <p className="text-sm text-gray-300">Jun 2024 • San Francisco, CA</p>
+                <div className="flex space-x-2 justify-between">
+                  <a href="/worldsfair/2024" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
+                  <a href="https://www.youtube.com/watch?v=5zE2sMka620&t=10209s" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                </div>
+              </div>
+              <div className="bg-black rounded-lg p-4 shadow-sm border">
+                <h3 className="font-semibold text-lg text-white">Summit 2025</h3>
+                <p className="text-sm text-gray-300">Feb 2025 • New York, NY</p>
+                <div className="flex space-x-2 justify-between">
+                  <a href="/summit/2025" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
+                  <a href="https://www.youtube.com/watch?v=D7BzTxVVMuw&t=19868s" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                </div>
+              </div>
+              <div className="bg-black rounded-lg p-4 shadow-sm border">
+                <h3 className="font-semibold text-lg text-white">World's Fair 2025</h3>
+                <p className="text-sm text-gray-300">Jun 2025 • San Francisco, CA</p>
+                <div className="flex space-x-2 justify-between">
+                  <a href="/worldsfair/2025" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
+                  <a href="https://www.youtube.com/watch?v=z4zXicOAF28&t=13s" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                </div>
+              </div>
+              <div className="bg-black rounded-lg p-4 shadow-sm border">
+                <h3 className="font-semibold text-lg text-white">Paris 2025 (by Koyeb)</h3>
+                <p className="text-sm text-gray-300">Sep 2025 • Paris, France</p>
+                <div className="flex space-x-2 justify-between">
+                  <a href="/paris" className="block text-blue-400 hover:text-blue-300 text-sm">Site</a>
+                  <a href="https://www.youtube.com/watch?v=wyUdpmj9-64" className="block text-yellow-400 hover:text-yellow-300 text-sm">YouTube</a>
+                </div>
               </div>
             </div>
           </div>

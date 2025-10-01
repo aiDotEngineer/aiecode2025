@@ -1,25 +1,17 @@
-import { HashbrownProvider } from "@hashbrownai/react";
 import React from "react";
 import { Container } from "~/components/Container";
 import { PageIntro } from "~/components/PageIntro";
-import ChatBot from "~/components/chat/ChatBot";
 
 export default function LLMsPage() {
   return (
     <div className="flex flex-col items-center pb-24 bg-gray-50 min-h-screen">
-      <PageIntro title="Our Official AI Engineer Chatbot, LLMs.txt and MCP">
+      <PageIntro title="LLMs.txt and MCP">
         {/* <p className="text-lg text-gray-500">Updated: 2025-05-20</p> */}
       </PageIntro>
 
       <Container className="flex-1 w-full pt-16">
-        <div className="flex flex-col md:flex-row h-full w-full md:space-x-8 md:space-y-0 space-y-8">
-          <div className="flex-1 h-full">
-            <HashbrownProvider url="/api/hashbrown/chat">
-              <ChatBot />
-            </HashbrownProvider>
-          </div>
-          <div className="w-full md:w-[320px] md:shrink-0">
-            <div className="w-full max-w-3xl mx-auto space-y-10 mb-16">
+        <div className="w-full">
+          <div className="w-full max-w-3xl mx-auto space-y-10 mb-16">
               <p className="text-lg text-gray-500 mb-4">
                 If you know what you're doing, you can grab these files and make your own apps for
                 the conference. Share it with us on socials!
@@ -103,7 +95,6 @@ export default function LLMsPage() {
             (<a href="https://x.com/cedricvidal/status/1930136757334618229" className="underline hover:text-blue-800">vibecoded</a>). 
               </p>
             </div>
-          </div>
         </div>
       </Container>
     </div>
