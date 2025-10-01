@@ -127,14 +127,14 @@ export function Header({ path }: Props) {
                 >
                   Apply to Attend
                 </Button> */}
-                <Button
+                {/* <Button
                   href={SCHEDULE_URL}
                   // target="_blank"
                   // invert={transparent && !fixed}
                 >
                   See /schedule
-                </Button>
-
+                </Button> */}
+                <div>Schedule to be announced</div>
                 {/* <HeaderProfile /> */}
 
                 <OpenMenuButton
@@ -206,9 +206,10 @@ function DropdownNav({ navOpen, setNavOpen }: DropdownNavProps) {
             <Logo className="w-24" logo="summit" variant="white" />
           </Link>
           <nav className="flex gap-6 items-center text-white">
-            <Button invert href={SCHEDULE_URL} target="_blank">
+            {/* <Button invert href={SCHEDULE_URL} target="_blank">
               See /schedule
-            </Button>
+            </Button> */}
+            <div>Schedule to be announced</div>
             {/* <Button invert href={BUY_TICKETS_URL} target="_blank">
               Buy Tickets
             </Button> */}
