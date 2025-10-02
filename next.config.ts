@@ -171,8 +171,8 @@ const nextConfig: NextConfig = {
           }))
         ),
         ...directMappings2.map(path => ({
-          source: `/worldsfair/2025/${path}`,
-          destination: `https://aiewf2025.vercel.app/worldsfair/2025/${path}`
+          source: `/${path}`,
+          destination: `https://aiewf2025.vercel.app/${path}`
         })),
         ...directMappings.map(path => ({
           source: `/${path}`,
@@ -226,7 +226,7 @@ const nextConfig: NextConfig = {
         //   destination: 'https://aie-summit.vercel.app/:path*',
         // },
         {
-          source: '/:path*',
+          source: '/worldsfair/2025/:path*',
           destination: 'https://aiewf2025.vercel.app/worldsfair/2025/:path*',
         }
       ],
