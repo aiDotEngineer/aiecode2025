@@ -12,17 +12,17 @@ export function MetaTags() {
       <meta
         key="description"
         name="description"
-        content="Feb 19-22, 2025: Join the #1 invite-only technical conference in the world for AI engineers and leadership (CTOs & VPs of AI) to meet, learn, and advance the field, for the third year running."
+        content="Nov 19-22, 2025: The AI Engineer Code Summit brings together the world's top Coding Agent builders, AI engineers, and leadership to share breakthroughs in AI Coding. Learn from founders and engineers at OpenAI, Anthropic, Cursor, Cognition, and more."
       />
       <meta
         key="ogDescription"
         property="og:description"
-        content="This year's theme: Agents at Work! Join the #1 invite-only technical conference in the world for AI engineers and leadership (CTOs & VPs of AI) to meet, learn, and advance the field, for the third year running."
+        content="Building AI Orgs and AI Agents in 2025. Join the world's top Coding Agent builders and AI engineers at the premier technical conference for AI Coding. Featuring speakers from OpenAI, Anthropic, Cursor, Cognition, Vercel, and more."
       />
       <meta
         key="ogImage"
         property="og:image"
-        content="/og-image-summit-2025.png"
+        content="/og-image-code-2025.png"
       />
       <meta
         key="twitterCard"
@@ -47,7 +47,7 @@ export function MetaTags() {
       <meta
         key="twitterDescription"
         name="twitter:description"
-        content="Feb 19-22, 2025: Join the #1 invite-only technical conference in the world for AI engineers and leadership (CTOs & VPs of AI) to meet, learn, and advance the field, for the third year running."
+        content="Nov 19-22, 2025: The AI Engineer Code Summit brings together the world's top Coding Agent builders, AI engineers, and leadership to share breakthroughs in AI Coding. Learn from founders and engineers at OpenAI, Anthropic, Cursor, Cognition, and more."
       />
       <meta
         key="twitterImage"
